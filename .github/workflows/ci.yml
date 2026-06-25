@@ -16,12 +16,7 @@ jobs:
         run: uv sync --extra dev
       - name: Lint
         run: uv run ruff check src tests
-      - name: Build collation store + metrics from committed ECM data
-        run: |
-          uv run python -m john_tc.ingest.apparatus
-          uv run python -m john_tc.metrics.instability
-          uv run python -m john_tc.metrics.families
-          uv run python -m john_tc.metrics.dates
-          uv run python -m john_tc.metrics.weighted_instability
+      - name: Build everything from committed ECM data (all tables the tests query)
+        run: uv run python -m john_tc.pipeline --fast
       - name: Test (incl. validation + ground-truth gates)
         run: uv run pytest
