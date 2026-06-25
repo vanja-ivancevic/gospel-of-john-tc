@@ -16,7 +16,6 @@ from pathlib import Path
 import duckdb
 
 from john_tc.config import load_config
-from john_tc.metrics.dates import ga_to_docid
 
 FAMILIES = ["f1", "f13", "Byz", "Alexandrian", "other"]
 
@@ -33,7 +32,15 @@ WITNESS_NAMES = {
     "33": "Codex 33 (queen of the minuscules)", "565": "Minuscule 565",
     "579": "Minuscule 579", "700": "Minuscule 700", "892": "Minuscule 892",
 }
-NTVMR = "https://ntvmr.uni-muenster.de/manuscript-workspace?docID="
+def _igntp_index() -> tuple[str, set]:
+    """Per-manuscript IGNTP/ITSEE transcription links (deep-link to the exact MS, renders via
+    XSLT). Returns (url_template, available GA set). NTVMR's workspace can't be reliably
+    deep-linked, so we point at the IGNTP transcriptions instead — the same source as our data."""
+    p = load_config().root / "data/raw/igntp/john_transcriptions_index.json"
+    if not p.exists():
+        return "", set()
+    d = json.loads(p.read_text(encoding="utf-8"))
+    return d["url_template"], set(d["available"])
 
 
 def _round(x, n=4):
@@ -184,12 +191,12 @@ def _families(con) -> dict:
     wits = con.execute("""
         SELECT base_ga, family, date_early, date_late, date_mid
         FROM witness_metadata ORDER BY family, base_ga""").fetchall()
+    tmpl, avail = _igntp_index()
     witnesses = []
     for g, fa, de, dl, dm in wits:
-        doc = ga_to_docid(g)
+        url = tmpl.format(ga=g) if (tmpl and g in avail) else None
         witnesses.append(dict(ga=g, family=fa, date_early=de, date_late=dl, date_mid=dm,
-                              name=WITNESS_NAMES.get(g),
-                              url=(NTVMR + str(doc)) if doc else None))
+                              name=WITNESS_NAMES.get(g), url=url))
     return dict(families=fams, witnesses=witnesses)
 
 

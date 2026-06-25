@@ -26,7 +26,8 @@ site/
   point. Click a mark to jump to its readings. Toggle to hide spelling-only noise.
 - **Hotspot leaderboard.** The overview ranks the most unstable verses (coverage-filtered).
 - **Jump-to-verse search** (`3:16`) and a **witness filter** on the families page.
-- **Identified witnesses.** Sigla link to the manuscript in Münster's NTVMR; majuscules show names.
+- **Identified witnesses.** Sigla deep-link to the manuscript's IGNTP/ITSEE transcription (same
+  source as the data); majuscules show names.
 - **Accessibility.** Colour-blind-safe (RdBu) heatmap with a low-coverage hatch, keyboard-navigable
   cells/rows/marks, per-route page titles.
 - **Public-domain English** (World English Bible) for orientation — not aligned to the Greek variation.

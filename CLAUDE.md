@@ -75,6 +75,8 @@ variation unit → readings → witnesses). `site/data/` is generated; see `site
 - `ntvmr/liste.csv` — INTF Kurzgefasste Liste metadata (dates).
 - `translations/web_john.json` — World English Bible (public domain); dashboard orientation text
   only (not aligned to the Greek variation).
+- `igntp/john_transcriptions_index.json` — GA→IGNTP/ITSEE transcription deep-link index
+  (dashboard witness links point here, not NTVMR, whose workspace can't be deep-linked).
 - `IGNTP_greek_john_transcriptions/`, `Byzantine_john_transcriptions/`, `Family1_*`,
   `Latin_*`, `coptic_*` — per-MS transcriptions (kept; Byz bundle used as genealogy ground truth).
 

@@ -77,7 +77,7 @@ function witChip(ga) {
   const label = w.name ? `${esc(ga)} · ${esc(w.name)}` : esc(ga);
   const fam = w.family ? ` <i style="background:${FAMCOLOR[w.family]||"#999"}"></i>` : "";
   return w.url
-    ? `<a class="chip" href="${esc(w.url)}" target="_blank" rel="noopener" title="${esc(w.name||ga)} — open in NTVMR">${label}${fam}</a>`
+    ? `<a class="chip" href="${esc(w.url)}" target="_blank" rel="noopener" title="${esc(w.name||ga)} — open the IGNTP transcription">${label}${fam}</a>`
     : `<span class="chip">${label}${fam}</span>`;
 }
 
@@ -278,6 +278,7 @@ async function families() {
     <img class="tree" src="assets/john_witness_tree.png" alt="witness genealogy tree"
       onerror="this.style.display='none'">
     <h2>Witnesses (${d.witnesses.length})</h2>
+    <p class="sub">GA numbers link to the IGNTP/ITSEE transcription of that manuscript.</p>
     <input class="filter" id="wfilter" type="text" placeholder="Filter by GA number or name…"
       aria-label="Filter witnesses">
     <table id="wtable"><thead><tr><th>GA</th><th>Name</th><th>Family</th>

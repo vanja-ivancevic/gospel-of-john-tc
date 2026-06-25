@@ -54,10 +54,13 @@ def test_families_and_witnesses(out):
     fams = {x["family"] for x in f["families"]}
     assert {"f1", "f13", "Byz", "Alexandrian"}.issubset(fams)
     assert len(f["witnesses"]) > 150
-    # witnesses carry an NTVMR link; recognised majuscules carry a name
+    # witnesses link to their IGNTP transcription; recognised majuscules carry a name
     by_ga = {w["ga"]: w for w in f["witnesses"]}
     assert by_ga["03"]["name"].startswith("Vaticanus")
-    assert by_ga["03"]["url"].endswith("docID=20003")
+    assert by_ga["03"]["url"].endswith("NT_GRC_03_John.xml")
+    assert "itseeweb.cal.bham.ac.uk" in by_ga["03"]["url"]
+    # the editorial base text is not a manuscript -> no transcription link
+    assert by_ga["basetext"]["url"] is None
 
 
 def test_verse_running_text_and_inline_marks(out):

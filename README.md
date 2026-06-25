@@ -81,8 +81,8 @@ traces to the committed ECM apparatus). Pipeline stages live under `src/john_tc/
 
 A dependency-free static site (`site/`) lets anyone drill from a gospel-wide stability heatmap
 down into individual verses — each shown as **running Greek text with the variation marked inline**
-→ variation units → competing readings → the manuscripts (named, dated, linked to Münster's NTVMR)
-behind each. Plus a most-unstable-verses leaderboard, jump-to-verse search, a colour-blind-safe
+→ variation units → competing readings → the manuscripts (named, dated, each linking to its
+IGNTP/ITSEE transcription) behind each. Plus a most-unstable-verses leaderboard, jump-to-verse search, a colour-blind-safe
 heatmap, and a public-domain English orientation text. No backend; the pipeline precomputes
 `site/data/*.json`.
 
