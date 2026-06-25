@@ -29,15 +29,21 @@ h2 { font-size:18px; margin:28px 0 10px; }
 .gate.pass { background:#e6f4ea; color:#1a7f37; } .gate.fail { background:#fde8e8; color:#b91c1c; }
 
 /* heatmap */
+.hm-head { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:28px 0 10px; }
+.hm-head h2 { margin:0; }
+.hm-toggle { font:13px inherit; padding:5px 11px; border:1px solid var(--line); border-radius:7px;
+  background:#fafafa; color:var(--accent); cursor:pointer; white-space:nowrap; }
+.hm-toggle:hover { background:#eef4fa; } .hm-toggle:focus { outline:2px solid var(--accent); }
 .hm-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:8px; padding:10px; }
-.hm { display:grid; gap:1px; grid-template-columns:30px repeat(var(--maxv),13px); }
-.hm .hh,.hm .rl { font-size:9px; color:#999; text-align:center; }
-.hm .rl { text-align:right; padding-right:4px; line-height:13px; cursor:pointer; }
-.hm .c { width:13px; height:13px; border-radius:2px; position:relative; }
-.hm .c.has { cursor:pointer; } .hm .c.has:hover,.hm .c.has:focus { outline:2px solid #000; outline-offset:-1px; }
+/* width-autofit: --cols columns share the row equally; cells stay square via aspect-ratio */
+.hm { display:grid; gap:1px; width:100%; grid-template-columns:26px repeat(var(--cols),minmax(0,1fr)); }
+.hm .hh,.hm .rl { font-size:9px; color:#999; display:flex; align-items:center; justify-content:center; min-width:0; }
+.hm .hh[data-go],.hm .rl[data-go] { cursor:pointer; }
+.hm .hh[data-go]:focus,.hm .rl[data-go]:focus { outline:2px solid var(--accent); }
+.hm .c { width:100%; aspect-ratio:1; border-radius:2px; position:relative; }
+.hm .c.has { cursor:pointer; } .hm .c.has:hover,.hm .c.has:focus { outline:2px solid #000; outline-offset:-1px; z-index:1; }
 .hm .c.lowcov::after { content:""; position:absolute; inset:0; border-radius:2px;
   background-image:repeating-linear-gradient(45deg,rgba(0,0,0,.34) 0 1.5px,transparent 1.5px 4px); }
-.hm .rl:focus { outline:2px solid var(--accent); }
 .legend { display:flex; align-items:center; gap:8px; margin:10px 0; font-size:12px; color:var(--muted); }
 .bar { width:200px; height:11px; border-radius:3px;
   background:linear-gradient(90deg,rgb(202,0,32),rgb(244,165,130),rgb(247,247,247),rgb(146,197,222),rgb(5,113,176)); }

@@ -26,6 +26,43 @@ function percentile(arr, p) {
   const s = [...arr].sort((a,b)=>a-b); return s[Math.floor(p/100*(s.length-1))];
 }
 
+// ---- heatmap (width-autofit; switchable orientation, vertical default on mobile) ----
+const MOBILE = window.matchMedia("(max-width:640px)");
+let HM = null, hmOrient = MOBILE.matches ? "vert" : "horiz", hmUserSet = false;
+function hmCell(d, c, v) {
+  if (!d || d.stability == null) return `<div class="c"></div>`;
+  const lc = d.coverage != null && d.coverage < HM.lowcov ? " lowcov" : "";
+  return `<div class="c has${lc}" tabindex="0" role="link" data-go="verse/${d.verse_id}"
+    aria-label="John ${c}:${v}, stability ${f3(d.stability)}"
+    title="John ${c}:${v} — stability ${f3(d.stability)}${lc?` · only ${d.coverage} witnesses`:""}"
+    style="background:${heat(d.stability, HM.lo, HM.hi)}"></div>`;
+}
+function renderHeat() {
+  const el = document.getElementById("heatmap"); if (!el || !HM) return;
+  const vert = hmOrient === "vert", cols = vert ? 21 : HM.maxv;
+  let g = `<div class="hm ${vert?"vert":"horiz"}" style="--cols:${cols}"><div class="hh corner"></div>`;
+  if (vert) {
+    for (let c = 1; c <= 21; c++)
+      g += `<div class="hh" tabindex="0" role="link" data-go="chapter/${c}" aria-label="John chapter ${c}">${c}</div>`;
+    for (let v = 1; v <= HM.maxv; v++) {
+      g += `<div class="rl">${v%5===0?v:""}</div>`;
+      for (let c = 1; c <= 21; c++) g += hmCell(HM.byCV[c+":"+v], c, v);
+    }
+  } else {
+    for (let v = 1; v <= HM.maxv; v++) g += `<div class="hh">${v%5===0?v:""}</div>`;
+    for (let c = 1; c <= 21; c++) {
+      g += `<div class="rl" tabindex="0" role="link" data-go="chapter/${c}" aria-label="John chapter ${c}">${c}</div>`;
+      for (let v = 1; v <= HM.maxv; v++) g += hmCell(HM.byCV[c+":"+v], c, v);
+    }
+  }
+  el.innerHTML = g + `</div>`;
+  const btn = document.getElementById("hmtoggle");
+  if (btn) btn.textContent = vert ? "↔ Horizontal" : "↕ Vertical";
+}
+MOBILE.addEventListener("change", e => {
+  if (hmUserSet) return; hmOrient = e.matches ? "vert" : "horiz"; renderHeat();
+});
+
 // witness identity (name + NTVMR link), loaded once from families.json
 let WIT = null;
 async function witIndex() {
@@ -72,33 +109,19 @@ async function overview() {
     (omitters ${g.john_5_4.omit_date} vs includers ${g.john_5_4.incl_date} CE) ·
     genealogy <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${esc(g.genealogy)}</span></p>`;
 
-  // heatmap
+  // heatmap (rendered after innerHTML via renderHeat(); orientation is toggleable)
   const stab = verses.map(v => v.stability).filter(x => x != null);
-  const lo = percentile(stab, 2), hi = Math.max(...stab);
   const covs = verses.map(v => v.coverage).filter(x => x != null);
-  const lowcov = percentile(covs, 15);
-  const maxv = Math.max(...verses.map(v => v.verse));
-  const byCV = {}; verses.forEach(v => byCV[v.chapter + ":" + v.verse] = v);
-  let hm = `<h2>Stability heatmap</h2>
-    <div class="legend"><span>fluid ≤ ${lo.toFixed(2)}</span><div class="bar"></div>
-      <span>${hi.toFixed(2)} firm</span>
+  HM = { lo: percentile(stab, 2), hi: Math.max(...stab), lowcov: percentile(covs, 15),
+         maxv: Math.max(...verses.map(v => v.verse)), byCV: {} };
+  verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; });
+  h += `<div class="hm-head"><h2>Stability heatmap</h2>
+      <button id="hmtoggle" class="hm-toggle" data-hmtoggle
+        aria-label="Toggle heatmap orientation"></button></div>
+    <div class="legend"><span>fluid ≤ ${HM.lo.toFixed(2)}</span><div class="bar"></div>
+      <span>${HM.hi.toFixed(2)} firm</span>
       <span class="lc"><i class="hatch"></i> few witnesses (low confidence)</span></div>
-    <div class="hm-wrap"><div class="hm" style="--maxv:${maxv}"><div class="hh"></div>`;
-  for (let v = 1; v <= maxv; v++) hm += `<div class="hh">${v%5===0?v:""}</div>`;
-  for (let c = 1; c <= 21; c++) {
-    hm += `<div class="rl" tabindex="0" role="link" data-go="chapter/${c}" aria-label="John chapter ${c}">${c}</div>`;
-    for (let v = 1; v <= maxv; v++) {
-      const d = byCV[c + ":" + v];
-      if (!d || d.stability == null) { hm += `<div class="c"></div>`; continue; }
-      const lc = d.coverage != null && d.coverage < lowcov ? " lowcov" : "";
-      hm += `<div class="c has${lc}" tabindex="0" role="link" data-go="verse/${d.verse_id}"
-        aria-label="John ${c}:${v}, stability ${f3(d.stability)}"
-        title="John ${c}:${v} — stability ${f3(d.stability)}${lc?` · only ${d.coverage} witnesses`:""}"
-        style="background:${heat(d.stability, lo, hi)}"></div>`;
-    }
-  }
-  hm += `</div></div>`;
-  h += hm;
+    <div class="hm-wrap" id="heatmap"></div>`;
 
   // hotspot leaderboard — most unstable verses (excluding fragmentary, low-coverage ones)
   const covMin = percentile(covs, 25);
@@ -134,6 +157,7 @@ async function overview() {
   });
   h += `</tbody></table>`;
   app.innerHTML = h;
+  renderHeat();
 }
 
 // ---------------- Chapter ----------------
@@ -318,6 +342,8 @@ window.go = go;
 // delegated navigation (keyboard + mouse) for any [data-go] element
 function fireGo(el) { if (el && el.dataset.go) go(el.dataset.go); }
 document.addEventListener("click", e => {
+  const tg = e.target.closest("[data-hmtoggle]");
+  if (tg) { hmOrient = hmOrient === "vert" ? "horiz" : "vert"; hmUserSet = true; renderHeat(); return; }
   const nav = e.target.closest("[data-go]"); if (nav) { fireGo(nav); return; }
   const vw = e.target.closest(".vw[data-app]");
   if (vw) { e.preventDefault(); focusUnit(vw.dataset.app); }
