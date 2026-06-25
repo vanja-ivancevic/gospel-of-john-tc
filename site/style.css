@@ -134,3 +134,20 @@ a.chip:hover { background:#e2ecf6; }
   .rdg { grid-template-columns:56px 1fr; }
   .rdg .nw,.rdg .fbar { grid-column:2; justify-self:start; width:160px; }
 }
+
+/* heatmap axis caption + hover tooltip */
+.hm-axis { display:flex; justify-content:space-between; font-size:11px; color:var(--muted);
+  margin:0 0 6px; padding:0 2px; }
+.hm-axis b { color:var(--ink); font-weight:600; }
+.hmtip { position:fixed; z-index:50; min-width:172px; max-width:236px; background:#fff;
+  border:1px solid var(--line); border-radius:8px; box-shadow:0 6px 24px rgba(0,0,0,.16);
+  padding:9px 11px; font-size:12px; }
+.hmtip[hidden] { display:none; }
+.hmtip .t-ref { font-weight:700; font-size:13px; margin-bottom:5px; }
+.hmtip .t-row { display:flex; justify-content:space-between; gap:14px; line-height:1.65; }
+.hmtip .t-row span { color:var(--muted); }
+.hmtip .warn { font-style:normal; color:#b26a00; background:#fff3e0; border-radius:4px;
+  padding:0 4px; font-size:10px; }
+.hmtip .t-more { display:inline-block; margin-top:8px; color:var(--accent); text-decoration:none;
+  font-weight:600; }
+.hmtip .t-more:hover { text-decoration:underline; }

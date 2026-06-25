@@ -33,8 +33,7 @@ function hmCell(d, c, v) {
   if (!d || d.stability == null) return `<div class="c"></div>`;
   const lc = d.coverage != null && d.coverage < HM.lowcov ? " lowcov" : "";
   return `<div class="c has${lc}" tabindex="0" role="link" data-go="verse/${d.verse_id}"
-    aria-label="John ${c}:${v}, stability ${f3(d.stability)}"
-    title="John ${c}:${v} — stability ${f3(d.stability)}${lc?` · only ${d.coverage} witnesses`:""}"
+    aria-label="John ${c}:${v}, stability ${f3(d.stability)}${lc?", low coverage":""}"
     style="background:${heat(d.stability, HM.lo, HM.hi)}"></div>`;
 }
 function renderHeat() {
@@ -58,10 +57,51 @@ function renderHeat() {
   el.innerHTML = g + `</div>`;
   const btn = document.getElementById("hmtoggle");
   if (btn) btn.textContent = vert ? "↔ Horizontal" : "↕ Vertical";
+  const ax = document.getElementById("hmaxis");
+  if (ax) ax.innerHTML = vert
+    ? `<span>rows ↓ <b>verse</b></span><span>columns → <b>chapter 1–21</b></span>`
+    : `<span>rows ↓ <b>chapter 1–21</b></span><span>columns → <b>verse</b></span>`;
 }
 MOBILE.addEventListener("change", e => {
   if (hmUserSet) return; hmOrient = e.matches ? "vert" : "horiz"; renderHeat();
 });
+
+// hover/focus tooltip for heatmap cells (compact metrics + link to the verse page)
+let TIP = null, tipTimer = null;
+function ensureTip() {
+  if (TIP) return TIP;
+  TIP = document.createElement("div"); TIP.className = "hmtip"; TIP.hidden = true;
+  TIP.addEventListener("mouseenter", () => clearTimeout(tipTimer));
+  TIP.addEventListener("mouseleave", hideTip);
+  document.body.appendChild(TIP);
+  return TIP;
+}
+function tipHTML(d) {
+  const lc = d.coverage != null && d.coverage < HM.lowcov;
+  const row = (l, v) => `<div class="t-row"><span>${l}</span><b>${v}</b></div>`;
+  return `<div class="t-ref">${esc(d.ref)}</div>
+    ${row("Stability", f3(d.stability))}
+    ${row("Instability", f3(d.instability))}
+    ${row("Branch split", pct(d.between_family_split))}
+    ${row("Coverage", (d.coverage==null?"—":d.coverage+" MS") + (lc?` <i class="warn">low</i>`:""))}
+    <a class="t-more" href="#/verse/${esc(d.verse_id)}">more info →</a>`;
+}
+function showTip(cell) {
+  const id = (cell.dataset.go || "").split("/")[1], d = HM && HM.byId[id];
+  if (!d) return;
+  const t = ensureTip(); clearTimeout(tipTimer); t.innerHTML = tipHTML(d); t.hidden = false;
+  const r = cell.getBoundingClientRect(), tw = t.offsetWidth, th = t.offsetHeight;
+  let x = r.left + r.width/2 - tw/2, y = r.top - th - 8;
+  if (y < 6) y = r.bottom + 8;
+  t.style.left = Math.max(6, Math.min(x, window.innerWidth - tw - 6)) + "px";
+  t.style.top = y + "px";
+}
+function hideTip() { tipTimer = setTimeout(() => { if (TIP) TIP.hidden = true; }, 200); }
+document.addEventListener("mouseover", e => { const c = e.target.closest(".c.has"); if (c) showTip(c); });
+document.addEventListener("mouseout", e => { if (e.target.closest(".c.has")) hideTip(); });
+document.addEventListener("focusin", e => { const c = e.target.closest(".c.has"); if (c) showTip(c); });
+document.addEventListener("focusout", e => { if (e.target.closest(".c.has")) hideTip(); });
+window.addEventListener("scroll", () => { if (TIP) TIP.hidden = true; }, { passive: true });
 
 // witness identity (name + NTVMR link), loaded once from families.json
 let WIT = null;
@@ -113,14 +153,15 @@ async function overview() {
   const stab = verses.map(v => v.stability).filter(x => x != null);
   const covs = verses.map(v => v.coverage).filter(x => x != null);
   HM = { lo: percentile(stab, 2), hi: Math.max(...stab), lowcov: percentile(covs, 15),
-         maxv: Math.max(...verses.map(v => v.verse)), byCV: {} };
-  verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; });
+         maxv: Math.max(...verses.map(v => v.verse)), byCV: {}, byId: {} };
+  verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; HM.byId[v.verse_id] = v; });
   h += `<div class="hm-head"><h2>Stability heatmap</h2>
       <button id="hmtoggle" class="hm-toggle" data-hmtoggle
         aria-label="Toggle heatmap orientation"></button></div>
     <div class="legend"><span>fluid ≤ ${HM.lo.toFixed(2)}</span><div class="bar"></div>
       <span>${HM.hi.toFixed(2)} firm</span>
-      <span class="lc"><i class="hatch"></i> few witnesses (low confidence)</span></div>
+      <span class="lc"><i class="hatch"></i> low confidence: &lt; ${Math.round(HM.lowcov)} witnesses</span></div>
+    <div class="hm-axis" id="hmaxis"></div>
     <div class="hm-wrap" id="heatmap"></div>`;
 
   // hotspot leaderboard — most unstable verses (excluding fragmentary, low-coverage ones)
@@ -302,6 +343,35 @@ async function families() {
   });
 }
 
+// ---------------- Verses index ----------------
+async function verses() {
+  setTitle("Verses");
+  const vs = await load("verses.json");
+  crumb.innerHTML = `<a href="#/">Overview</a> › Verses`;
+  let h = `<h1>All verses</h1><p class="sub">Every verse in John with its stability. Filter by
+    reference (“3:16”, or “3:” for the whole chapter) and click to open.</p>
+    <input class="filter" id="vfilter" type="text" placeholder="Jump to a verse — e.g. 3:16"
+      aria-label="Filter verses by reference">
+    <table id="vtable"><thead><tr><th>Verse</th><th class="num">Stability</th>
+      <th class="num">Instability</th><th class="num">Branch split</th>
+      <th class="num">Coverage</th></tr></thead><tbody>`;
+  vs.forEach(v => {
+    h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"
+      data-k="${v.chapter}:${v.verse}"><td>${v.ref}</td>
+      <td class="num">${f3(v.stability)}</td><td class="num">${f3(v.instability)}</td>
+      <td class="num">${pct(v.between_family_split)}</td>
+      <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
+  });
+  app.innerHTML = h + `</tbody></table>`;
+  const f = document.getElementById("vfilter"); f.focus();
+  f.addEventListener("input", () => {
+    const q = f.value.trim().toLowerCase();
+    document.querySelectorAll("#vtable tbody tr").forEach(tr => {
+      tr.style.display = !q || tr.dataset.k.includes(q) ? "" : "none";
+    });
+  });
+}
+
 // ---------------- About ----------------
 async function about() {
   setTitle("Method & scope");
@@ -379,11 +449,13 @@ function setActiveNav(key) {
     a.classList.toggle("active", a.dataset.nav === key));
 }
 async function route() {
+  if (TIP) TIP.hidden = true;
   const h = (location.hash || "#/").slice(2);
   try {
     if (h === "" || h === "/") { setActiveNav(""); return overview(); }
     if (h.startsWith("chapter/")) { setActiveNav(""); return chapter(+h.split("/")[1]); }
     if (h.startsWith("verse/")) { setActiveNav(""); return verse(h.split("/")[1]); }
+    if (h === "verses") { setActiveNav("verses"); return verses(); }
     if (h === "families") { setActiveNav("families"); return families(); }
     if (h === "about") { setActiveNav("about"); return about(); }
     setActiveNav(""); overview();
