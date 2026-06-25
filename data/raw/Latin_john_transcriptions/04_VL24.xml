@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL24"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in the Fragmentum Milanense</title>
+<title type="document" n="VL24">VL24</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date>. Does not include text of editorial notes.</edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Italy</country>
+<settlement>Milan</settlement>
+<repository>Biblioteca Ambrosiana</repository>
+<idno>M. 12 sup. p. 119-122 (palimpsest)</idno>
+<msName xml:lang="la">Fragmentum Milanense</msName>
+ <altIdentifier type="Vetus_Latina"><idno>24</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>3.354</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Xs</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>ρ (rho)</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>66456</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>7704</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Euangelium secundum Iohannem (fragmentum)</title>
+<title type="uniform" xml:lang="en">Gospel according to John (fragment)</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p>Palimpsest</p></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>uncial</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>South France</origPlace>
+<origDate notBefore="67501" notAfter="72501">Around 700</origDate>
+</origin></history>
+<additional>
+<surrogates><p>Black and white photographs in ITSEE.</p>
+<bibl>A. Dold, Das Sakramentar im Schabcodex M 12 sup. der Biblioteca Ambrosiana (Texte und Arbeiten 43), Beuron, 1952, 25*.</bibl></surrogates>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>The manuscript was palimpsested in the ninth century. This transcription covers <locus>pages 119-122.</locus>. It contains John 13:3-17.The transcription includes foliation and lineation. We follow the edition of Dold: our photographs are useless for the middle pages. They do confirm Dold in Folio 1r and in 2v (only partially in lines 10-11). Dold appears to record the superlines with the letter intended in a different font. We are reluctant to confirm some of his enlarged letters, so none are included apart from the first line of v. 3., all punctuation and abbreviations. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P119-VL24" n="119" type="page"/>
+<cb n="P119C1-VL24"/>
+<lb n="P119C1L11-VL24"/><fw type="lectTitle"><w>LECTIO</w><w>EUAN<hi rend="overline">G</hi></w><w>SECUNDU<hi rend="¯">M</hi></w><w>IOANNE<hi rend="¯">M</hi></w></fw>
+<lb n="P119C1L12-VL24"/><div n="04" type="book"><div n="B04K13" type="chapter"><ab n="B04K13V3"><w>Sciens</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>q<ex>uo</ex>n<hi rend="overline"><ex>ia</ex></hi></w><w>omnia</w>
+<lb n="P119C1L13-VL24"/><w>dedit</w><w>ei</w><w>pater</w><w>in</w><w>manus</w><w>et</w>
+<lb n="P119C1L14-VL24"/><w>q<ex>uo</ex>n<hi rend="overline"><ex>ia</ex></hi></w><pc>˙</pc><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>exsiit</w><w>et</w><w>ad</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>uadit</w>
+<pb xml:id="P120-VL24" n="120" type="page"/>
+<cb n="P120C1-VL24"/>
+<lb n="P120C1L1-VL24"/></ab><ab n="B04K13V4"><w>sur<supplied reason="illegible">rexsit</supplied></w><w>a</w><w>cena</w><w>et</w><w>posu
+<lb n="P120C1L2-VL24" break="no"/>it</w><w><supplied reason="illegible">ue</supplied>stimenta</w><w>sua</w><w>et</w><w>ac
+<lb n="P120C1L3-VL24" break="no"/>cepto</w><w>linteo</w><w>praecinxit</w>
+<lb n="P120C1L4-VL24"/><w>se</w></ab><ab n="B04K13V5"><w>deinde</w><w>misit</w><w>aqua<hi rend="¯">m</hi></w>
+<lb n="P120C1L5-VL24"/><w>in</w><w>peluem</w><w>et</w><w>coepit</w><w>laua
+<lb n="P120C1L6-VL24" break="no"/>re</w><w>pedes</w><w>discipuloru<hi rend="¯">m</hi></w><w>suo
+<lb n="P120C1L7-VL24" break="no"/>ru<hi rend="¯">m</hi></w><w>et</w><w>extergere</w><w>lenteo</w>
+<lb n="P120C1L8-VL24"/><w>quo</w><w>erat</w><w>praecinctus</w></ab><ab n="B04K13V6"><w>et</w>
+<lb n="P120C1L9-VL24"/><w>uenit</w><w>ad</w><w>symone<hi rend="¯">m</hi></w><w>petru<hi rend="¯">m</hi></w><w>di
+<lb n="P120C1L10-VL24" break="no"/>cit</w><w>ei</w><w>petrus</w><w>dne<hi rend="¯">m</hi></w><w>tu</w><w>mihi</w><w>la
+<lb n="P120C1L11-VL24" break="no"/>uas</w><w>pedes</w></ab><ab n="B04K13V7"><w>respondit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P120C1L12-VL24"/><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>dixit</w><w>ei</w><w>ego</w><w>quod</w><w>faci
+<lb n="P120C1L13-VL24" break="no"/>o</w><w>tu</w><w>ignoras</w><w>sed</w><w>scies</w><w>pos
+<lb n="P120C1L14-VL24" break="no"/>tea</w></ab><ab n="B04K13V8"><w>dicit</w><w>ei</w><w>petrus</w><w>n<ex>on</ex></w><w>lauas</w>
+<pb xml:id="P121-VL24" n="121" type="page"/>
+<cb n="P121C1-VL24"/>
+<lb n="P121C1L1-VL24"/><w>pedes</w><w>meos</w><w>in</w><w>aeternum</w>
+<lb n="P121C1L2-VL24"/><w>respondit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>nisi</w><w>te</w>
+<lb n="P121C1L3-VL24"/><w>lauero</w><w>n<ex>on</ex></w><w>habebis</w><w>parte<hi rend="¯">m</hi></w><w>me
+<lb n="P121C1L4-VL24" break="no"/>cu<hi rend="¯">m</hi></w></ab><ab n="B04K13V9"><w>ait</w><w>illi</w><w>symon</w><w>petrus</w><w>dne<hi rend="¯">m</hi></w>
+<lb n="P121C1L5-VL24"/><w>n<ex>on</ex></w><w>solu<hi rend="¯">m</hi></w><w>pedes</w><w>sed</w><w>et</w><w>manus</w>
+<lb n="P121C1L6-VL24"/><w>et</w><w>capud</w></ab><ab n="B04K13V10"><w>dicit</w><w>illi</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>q<ex>u</ex>i</w>
+<lb n="P121C1L7-VL24"/><w>lotus</w><w>est</w><w>semel</w><w>n<ex>on</ex></w><w>habet</w>
+<lb n="P121C1L8-VL24"/><w>necesse</w><w>nisi</w><w>pedes</w><w>lauare</w>
+<lb n="P121C1L9-VL24"/><w>sed</w><w>est</w><w>totus</w><w>mundus</w><w>et</w><w>uos</w>
+<lb n="P121C1L10-VL24"/><w>mundi</w><w>estes</w><w>sed</w><w>n<ex>on</ex></w><w>omnes</w>
+<lb n="P121C1L11-VL24"/></ab><ab n="B04K13V11"><w>sciebat</w><w>eni<hi rend="¯">m</hi></w><w>quis</w><w>traditurus</w>
+<lb n="P121C1L12-VL24"/><w>essit</w><w>eu<hi rend="¯">m</hi></w><w>ideo</w><w>dixit</w><w>quia</w><w>n<ex>on</ex></w><w>es
+<lb n="P121C1L13-VL24" break="no"/>tes</w><w>omnes</w><w>mundi</w></ab><ab n="B04K13V12"><w>post
+<lb n="P121C1L14-VL24" break="no"/>qua<hi rend="¯">m</hi></w><w>aute<hi rend="¯">m</hi></w><w>lauit</w><w>pedes</w><w>eoru<hi rend="¯">m</hi></w>
+<pb xml:id="P122-VL24" n="122" type="page"/>
+<cb n="P122C1-VL24"/>
+<lb n="P122C1L1-VL24"/><w>accepit</w><w>uestimenta</w>
+<lb n="P122C1L2-VL24"/><w>sua</w><w>et</w><w>discubuit</w><w>denuo</w>
+<lb n="P122C1L3-VL24"/><w>et</w><w>dixit</w><w>eis</w><w>intelligite</w>
+<lb n="P122C1L4-VL24"/><w>quid</w><w>fecerim</w><w>uobis</w></ab><ab n="B04K13V13"><w>uos</w><w>me</w>
+<lb n="P122C1L5-VL24"/><w>uocates</w><w>magistru<hi rend="¯">m</hi></w><w>et</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w>
+<lb n="P122C1L6-VL24"/><w>bene</w><w>dicetis</w><w>su<hi rend="¯">m</hi></w><w>eteni<hi rend="¯">m</hi></w></ab><ab n="B04K13V14"><w>si</w><w>er
+<lb n="P122C1L7-VL24" break="no"/>go</w><w>laui</w><w>pedes</w><w>uestros</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>et</w>
+<lb n="P122C1L8-VL24"/><w>magister</w><w>quanto</w><w>magis</w><w>et</w>
+<lb n="P122C1L9-VL24"/><w>uos</w><w>debites</w><w>inuice<hi rend="¯">m</hi></w><w>pedes</w><w>la
+<lb n="P122C1L10-VL24" break="no"/>uare</w></ab><ab n="B04K13V15"><w>exemplu<hi rend="¯">m</hi></w><w>eni<hi rend="¯">m</hi></w><w>dedi</w><w>uobis</w>
+<lb n="P122C1L11-VL24"/><w>sicut</w><w>ego</w><w>feci</w><w>uobis</w><w>et</w><w>uos</w><w>fa
+<lb n="P122C1L12-VL24" break="no"/>ciatis</w></ab><ab n="B04K13V16"><w>ame<hi rend="¯">m</hi></w><w>ame<hi rend="¯">m</hi></w><w>dico</w><w>uobis</w><w>q<ex>u</ex>ia</w>
+<lb n="P122C1L13-VL24"/><w>n<ex>on</ex></w><w>e<ex>st</ex></w><w>seruus</w><w>maior</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>suo</w><w>nec</w>
+<lb n="P122C1L14-VL24"/><w>apostolus</w><w>maior</w><pc>˙</pc><w>e<hi rend="¯">m</hi></w><w>illo</w><w>q<ex>u</ex>i</w><w>misit</w>
+<lb n="P122C1L15-VL24"/><w>eu<hi rend="¯">m</hi></w></ab><ab n="B04K13V17"><w>si</w><w>haec</w><w>scites</w><w>beati</w><w>estis</w><w>si</w>
+<lb n="P122C1L16-VL24"/><w>ea</w><w>fecerites</w><fw type="lectTitle"><w>amen</w><w>pas</w></fw></ab></div></div></body></text></TEI>

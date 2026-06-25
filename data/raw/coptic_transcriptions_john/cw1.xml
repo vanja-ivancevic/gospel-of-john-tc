@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRcw1">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Middle Fayumic</title>
+<title type="document" n="cw1">P. Mich. inv. 3521</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name><name>Brice Jones</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>United States of America</country>
+ <settlement>Ann Arbor</settlement>
+ <repository>University of Michigan</repository>
+ <idno>P. Mich. inv 3521</idno>
+  <msName xml:lang="en">Coptic (Middle Egyptian Fayumic)</msName>
+      <altIdentifier type="SMR"><idno>cw 1</idno></altIdentifier>
+<altIdentifier type="TM"><idno>107757</idno></altIdentifier>
+     <altIdentifier type="LDAB"><idno>107757</idno></altIdentifier>
+ </msIdentifier>
+ <surrogates>The images to which this transcription is linked are digitally reproduced with the permission of the Papyrology Collection, Graduate Library, University of Michigan (inventory number 3521): see further http://www.lib.umich.edu/papyrus-collection</surrogates>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit>
+<additional>Husselman, Elinor Mullett, ed. The gospel of John in Fayumic Coptic (P.Mich. Inv. 3521). Ann Arbor: Kelsey Museum, 1962.
+Metzger, Bruce Manning. “review of The gospel of John in Fayumic Coptic (P. Mich. Inv. 3521) by Elinor M. Husselman.” Journal of Biblical Literature 82, no. 3 (1963): 345–346.
+Polotsky, Hans Jacob. “review of Husselman, The gospel of John in Fayumic Coptic (P.Mich. Inv. 3521).” Orientalistische Literaturzeitung 59, no. 5 (1964): 250–253.
+</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland and Brice Jones for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="2" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="1" when="2012-12-21">Image links corrected by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body><note type="editorial">P.Mich. inv. 3521; folios 1-21 are lost.</note>
+<pb xml:id="P21v-cw1" n="21v" type="folio" />
+<cb n="P21vC1-cw1"/>
+<lb n="P21vC1L1-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P21vC1L2-cw1"/><div type="book" n="B04"><div type="chapter" n="B04K6"><ab n="B04K6V11"><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲉ</supplied>
+<pb xml:id="P22r-cw1" n="22r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3714/3521_1r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_1r.tif;cc=apis;entryid=x-3714;quality=1;view=image" break="no"/>
+<cb n="P22rC1-cw1"/><note type="editorial">Husselman f. 1r</note>
+<lb n="P22rC1L1-cw1"/>ⲃⲁⲗ</w><w>ϩⲛ</w><w>ⲛⲓⲕⲉ<unclear>ⲧ</unclear><unclear>ⲏ</unclear><supplied reason="lacuna">ⲃⲉⲧ</supplied></w></ab><ab n="B04K6V12"><w><supplied reason="lacuna">ⲛⲧⲉ</supplied>
+<lb break="no" xml:id="P22rC1L2-cw1" n="2"/>ⲣⲟⲩⲥⲓ</w><w>ⲇⲉ</w><w>ⲡⲉϫⲉϥ</w><w>ⲛⲛⲉϥ
+<lb break="no" xml:id="P22rC1L3-cw1" n="3"/>ⲙⲁⲑⲏⲧⲏⲥ</w><w>ϫⲉ</w><w>ⲧⲟⲩⲉⲧ⳿</w><w>ⲛⲓ
+<lb break="no" xml:id="P22rC1L4-cw1" n="4"/>ⲡⲉϣⲓ</w><w>ⲉϩⲟⲩⲛ</w><w><unclear>ⲉ</unclear><unclear>ⲧ</unclear>⳿ϩⲁⲩⲣ<unclear>̂</unclear></w><w><unclear>ϩ</unclear>ⲟⲩⲁ</w>
+<lb n="P22rC1L5-cw1"/><w>ϫⲉⲕⲉⲥ</w><w>ⲉⲛⲛⲉ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲓⲛⲉⲓ</supplied></w><w><supplied reason="lacuna">ϩⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P22rC1L6-cw1" n="6"/>ⲃⲁⲗ</w><w>ⲛ᷍ϩⲏⲧⲟⲩ</w></ab><ab n="B04K6V13"><w>ϩⲁ<unclear>ⲩ</unclear><supplied reason="lacuna">ⲧⲟⲩⲏⲧⲟⲩ</supplied></w>
+<lb n="P22rC1L7-cw1"/><w>ϭⲏ</w><w>ⲁⲩⲙⲉϩⲓ̅ⲃ̅</w><w>ⲛ᷍<supplied reason="lacuna">ⲕⲁⲧ</supplied></w><w><supplied reason="lacuna">ⲛⲡⲉ</supplied>
+<lb break="no" xml:id="P22rC1L8-cw1" n="8"/>ϣⲓ</w><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲡⲓ<unclear>ⲉ</unclear>̅</w><w><supplied reason="lacuna">ⲛⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ⲛⲓ</supplied>
+<lb break="no" xml:id="P22rC1L9-cw1" n="9"/>ⲱⲧ</w><w>ⲉϩⲁⲩⲥⲱϫ<unclear>ⲡ</unclear></w><w><supplied reason="lacuna">ⲉⲛⲉⲧⲉ</supplied>
+<lb break="no" xml:id="P22rC1L10-cw1" n="10"/>ϩⲁⲩⲟⲩⲱⲙ⳿</w></ab><ab n="B04K6V14"><w>ⲛⲓ<unclear>ⲣ</unclear><supplied reason="lacuna">ⲱⲙⲓ</supplied></w><w><supplied reason="lacuna">ϭⲏ</supplied></w>
+<lb n="P22rC1L11-cw1"/><w>ⲛ᷍ⲧⲉⲣⲟⲩⲛⲉⲩ</w><w>ⲉ<supplied reason="lacuna">ⲡⲙⲏⲓⲛ</supplied></w><w><supplied reason="lacuna">0-5</supplied></w>
+<lb n="P22rC1L12-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">6.15</note></ab><ab n="B04K6V16"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P22v-cw1" n="22v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3722/3521_1v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_1v.tif;cc=apis;entryid=x-3722;quality=1;view=image"/>
+<cb n="P22vC1-cw1"/><note type="editorial">Husselman f. 1v</note>
+<lb n="P22vC1L1-cw1"/><w><supplied reason="lacuna">ϩⲁⲛⲉ</supplied><supplied reason="illegible">ϥⲙ</supplied>ⲁⲑⲏⲧⲏⲥ</w><w>ⲓ̈</w><w>ⲉϩⲣ<supplied reason="lacuna">ⲏⲓ</supplied></w>
+<lb n="P22vC1L2-cw1"/><w>ⲉϫ᷍ⲛ</w><w>ⲑⲁⲗⲁⲥⲥⲁ</w></ab><ab n="B04K6V17"><w>ⲁⲩⲱ</w><w>ϩⲁⲩ
+<lb break="no" xml:id="P22vC1L3-cw1" n="3"/>ⲁⲗⲏ</w><w>ⲉⲟⲩϫⲁⲓ̈</w><w>ⲛⲁⲩⲛ̂ⲛⲏⲩ</w>
+<lb n="P22vC1L4-cw1"/><w><unclear>ⲉ</unclear>ⲡⲁ<unclear>ⲉ</unclear><unclear>ⲧ</unclear>⳿</w><w>ⲛ̂ⲑⲁⲗⲁⲥⲥⲁ</w><w>ⲉⲕⲁ
+<lb break="no" xml:id="P22vC1L5-cw1" n="5"/><supplied reason="lacuna">ⲫⲁⲣⲛⲁ</supplied><unclear>ⲟ</unclear>ⲩⲙ⳿</w><w>ⲁⲩⲱ</w><w>ⲛⲉϩⲁ
+<lb break="no" xml:id="P22vC1L6-cw1" n="6"/><supplied reason="lacuna">ⲡⲕⲉⲕⲓ</supplied></w><w>ϣⲱⲡⲓ</w><w>ⲡⲉ</w><w>ⲉⲙ̂ⲡⲉⲓ︦ⲥ︦</w>
+<lb n="P22vC1L7-cw1"/><w><supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ϣⲁⲣⲁ</supplied>ⲩ</w></ab><ab n="B04K6V18"><w>ⲑⲁⲗⲁⲥⲥⲁ</w><w>ⲇⲉ</w><w>ϩⲁⲥ
+<lb break="no" xml:id="P22vC1L8-cw1" n="8"/><supplied reason="lacuna">ⲧⲱⲟⲩⲛ</supplied></w><w>ⲉϩⲣⲏⲓ̈</w><w>ⲉⲣⲉⲟⲩⲛⲁϭ</w>
+<lb n="P22vC1L9-cw1"/><w><supplied reason="lacuna">ⲛⲧⲏⲟⲩ</supplied></w><w>ⲙ<unclear>̂</unclear>ⲡⲁⲗ</w></ab><ab n="B04K6V19"><w>ⲛ̂ⲧⲉⲣⲟⲩϩⲓ
+<lb break="no" xml:id="P22vC1L10-cw1" n="10"/><supplied reason="lacuna">ⲛⲓ</supplied></w><w><supplied reason="lacuna">ϭⲏ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied><unclear>ⲃ</unclear>ⲁⲗ</w><w>ⲛ̂ⲁ</w><w>ⲕ̅ⲉ̅</w><w>ⲛ̂ⲥⲧⲁ
+<lb break="no" xml:id="P22vC1L11-cw1" n="11"/><supplied reason="lacuna">ⲇⲓⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲏ̅</supplied></w><w>ⲗ<unclear>̅</unclear></w><w>ϩⲁⲩⲛⲉⲩ</w><w>ⲉⲓ̅ⲥ̅</w><w>ⲉϥ
+<lb break="no" xml:id="P22vC1L12-cw1" n="12"/><supplied reason="lacuna">ⲙⲁϣⲉ</supplied></w><w><supplied reason="lacuna">ϩⲓϫⲛ</supplied><supplied reason="illegible">ⲑⲁⲗⲁⲥⲥⲁ</supplied></w>
+<lb n="P22vC1L13-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">6.20-6.21</note></ab><ab n="B04K6V22"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P23r-cw1" n="23r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3723/3521_2r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_2r.tif;cc=apis;entryid=x-3723;quality=1;view=image"/>
+<cb n="P23rC1-cw1"/><note type="editorial">Husselman f. 2r</note>
+<lb n="P23rC1L1-cw1"/><w>ϩⲓ</w><w>ⲡⲁⲉⲧ⳿</w><w>ⲛ̂ⲑⲁⲗⲁⲥⲥⲁ</w><w>ϩⲁⲩⲛⲉⲩ</w>
+<lb n="P23rC1L2-cw1"/><w>ϫⲉ</w><w>ⲙ̂ⲙ᷍ⲛ</w><w>ϫⲁⲓ̈</w><w>ⲙ̂ⲙⲉⲩ</w><w>ⲛ̂ⲥⲁ</w><w>ⲟⲩⲉⲓ</w>
+<lb n="P23rC1L3-cw1"/><w>ⲁⲩⲱ</w><w>ϫⲉ</w><w>ⲙ̂ⲡⲉⲓ̅ⲥ̅</w><w>ⲁⲗⲏ</w><w>ⲉⲡϫⲁⲓ</w>
+<lb n="P23rC1L4-cw1"/><w>ⲙ᷍ⲛ</w><w>ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ</w><w>ⲁⲗⲗⲁ</w>
+<lb n="P23rC1L5-cw1"/><w>ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ</w><w>ⲟⲩⲁⲉⲩ</w><w>ⲛⲉⲧⲉ</w>
+<lb n="P23rC1L6-cw1"/><w>ϩⲁⲩϣⲉ</w><w>ⲛⲁⲩ</w></ab><ab n="B04K6V23"><w>ⲁⲩⲱ</w><w>ϩⲓ</w><w>ϩⲉⲛⲕⲉ
+<lb break="no" xml:id="P23rC1L7-cw1" n="7"/>ⲉϫⲏⲩ</w><w>ϩⲁⲩⲓ̈</w><w>ⲉⲃⲁ<unclear>ⲗ</unclear></w><w>ϩ᷍ⲛ</w><w>ⲧⲓⲃⲉⲣⲓ
+<lb break="no" xml:id="P23rC1L8-cw1" n="8"/>ⲁⲥ</w><w>ϩⲁⲧ᷍ⲛ</w><w>ⲡⲙⲉ</w><w>ⲉⲧϩⲁⲩⲟⲩⲱⲙ⳿</w>
+<lb n="P23rC1L9-cw1"/><w>ⲙ̂ⲡⲁⲓ̈ⲕ⳿</w><w>ⲉⲧ⳿ϩⲁⲡⲭ̅ⲥ<unclear>̅</unclear></w><w>ϣⲉⲡ⳿ϩⲙⲁⲧ⳿</w>
+<lb n="P23rC1L10-cw1"/><w>ⲉϩⲣⲏⲓ̈</w><w>ⲉϫⲱϥ</w></ab><ab n="B04K6V24"><w>ⲉⲧ<supplied reason="lacuna">ϩ</supplied>ⲁⲡⲙⲏϣⲉ</w>
+<lb n="P23rC1L11-cw1"/><w><supplied reason="illegible">ϭⲏ</supplied></w><w>ⲛⲉⲩ</w><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><w>ⲛⲓ̅ⲥ̅</w><w>ⲙ̂<unclear>ⲙ</unclear>ⲉⲩ</w><w>ⲉⲛ</w><w>ⲟⲩ
+<lb break="no" xml:id="P23rC1L12-cw1" n="12"/><supplied reason="lacuna">ⲇⲉ</supplied></w><w>ⲛⲉϥⲙⲁⲑⲏⲧⲏ<supplied reason="lacuna">ⲥ</supplied></w><w>ϩⲁⲩⲁⲗⲏ</w>
+<lb n="P23rC1L13-cw1"/><w><supplied reason="lacuna">ⲉⲛ</supplied>ⲉϫⲏⲩ</w><w>ϩⲁⲩⲓ̈</w><w>ⲉⲕ<supplied reason="lacuna">ⲁ</supplied>ⲫⲁⲣⲛⲁ
+<lb break="no" xml:id="P23rC1L14-cw1" n="14"/><supplied reason="lacuna">ⲟ</supplied><unclear>ⲩ</unclear>ⲙ⳿</w><w>ⲉⲩϣⲓⲛⲓ</w><w>ⲛ̂ⲥ<supplied reason="lacuna">ⲁ</supplied></w><w>ⲓ̅ⲥ̅</w></ab><ab n="B04K6V25"><w>ⲁⲩⲱ</w>
+<lb n="P23rC1L15-cw1"/><w><supplied reason="lacuna">ϩⲁⲩ</supplied>ϭⲉ<supplied reason="lacuna">ⲛⲧ</supplied><unclear>ϥ</unclear></w><w>ⲙ̂ⲙ<supplied reason="lacuna">ⲉⲩ</supplied></w><w><supplied reason="lacuna">ϩⲓ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲉⲧ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P23rC1L16-cw1" n="16"/>ⲑⲁⲗ<unclear>ⲁ</unclear><unclear>ⲥ</unclear><supplied reason="lacuna">ⲥⲁ</supplied></w><w><unclear>ⲡ</unclear>ⲉϫ<supplied reason="lacuna">ⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P23rC1L17-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V26"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P23v-cw1" n="23v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3724/3521_2v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_2v.tif;cc=apis;entryid=x-3724;quality=1;view=image"/>
+<cb n="P23vC1-cw1"/><note type="editorial">Husselman f. 2v</note>
+<lb n="P23vC1L1-cw1"/><w>ϫⲉ</w><w>ⲛⲁⲧⲉⲧ᷍ⲛϣⲓⲛⲓ</w><w>ⲛ̂ⲥⲱⲓ̈</w><w>ⲉ<unclear>ⲛ</unclear></w>
+<lb n="P23vC1L2-cw1"/><w>ϫⲉ</w><w>ϩⲁⲧ᷍ⲛⲛⲉⲩ</w><w>ⲉϩⲉⲛⲙⲏⲓ̈ⲛ</w><pc>•</pc>
+<lb n="P23vC1L3-cw1"/><w>ⲁⲗⲗⲁ</w><w>ϫⲉ</w><w>ϩⲁⲧⲉⲧ᷍ⲛⲟⲩⲱⲙ⳿</w><w>ⲉⲃⲁ<unclear>ⲗ</unclear></w>
+<lb n="P23vC1L4-cw1"/><w>ϩ᷍ⲛ</w><w>ⲛⲓⲁⲓ̈ⲕ⳿</w><w>ⲁⲩⲱ</w><w>ϩⲁⲧ᷍ⲛⲥⲓ̈</w></ab><ab n="B04K6V27"><w>ⲁⲣⲓ</w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲱ</supplied>ⲃ</w>
+<lb n="P23vC1L5-cw1"/><w>ⲛ̂ⲉⲧⲉϩⲣ<unclear>ⲏ</unclear></w><w>ⲉⲛ</w><w>ⲉⲧⲛⲉⲧⲁⲕⲁ</w><w>ⲁ<supplied reason="lacuna">ⲗ</supplied>
+<lb break="no" xml:id="P23vC1L6-cw1" n="6"/>ⲗⲁ</w><w>ⲉⲧⲉϩ<unclear>ⲣ</unclear>ⲏ</w><w>ⲉⲧⲛⲉⲙⲟⲩⲛ</w><w>ⲉⲃⲁⲗ</w>
+<lb n="P23vC1L7-cw1"/><w>ⲉⲩⲱⲛϩ</w><w>ϣⲁ</w><w>ⲉⲛⲉϩ</w><w>ⲧⲉⲓ̈</w><w>ⲉⲧⲉ
+<lb break="no" xml:id="P23vC1L8-cw1" n="8"/>ⲡϣⲏ<unclear>ⲣ</unclear>ⲓ̈</w><w>ⲙ̂ⲡⲣⲱⲙⲓ</w><w>ⲛⲉⲧⲉⲥ</w>
+<lb n="P23vC1L9-cw1"/><w>ⲛⲏⲧ᷍ⲛ</w><w><supplied reason="lacuna">ⲡ</supplied>ⲉⲓ̈</w><w>ⲅⲁⲣ</w><w>ⲡⲉⲧⲉ</w><w>ϩⲁⲫ̅ϯ̅</w>
+<lb n="P23vC1L10-cw1"/><w>ⲡⲓⲱⲧ⳿</w><w>ⲥⲫⲣⲁⲅⲓⲍⲉ</w><w>ⲙ̂ⲙⲁϥ</w>
+<lb n="P23vC1L11-cw1"/></ab><ab n="B04K6V28"><w>ⲡⲁϫⲁ<supplied reason="lacuna">ⲩ</supplied></w><w>ⲛⲉϥ</w><w>ϫⲉ</w><w>ⲟⲩ</w><w>ⲡⲉⲧ᷍ⲛ
+<lb break="no" xml:id="P23vC1L12-cw1" n="12"/>ⲛⲉⲉϥ</w><w><unclear>ϫ</unclear>ⲉ</w><w>ⲛⲉⲣ̂</w><w>ϩⲱⲃ⳿</w><w>ⲉⲛⲉ<unclear>ϩ</unclear><supplied reason="lacuna">ⲃⲏ</supplied><unclear>ⲩ</unclear>
+<lb break="no" xml:id="P23vC1L13-cw1" n="13"/>ⲓ</w><w>ⲙ̂ⲫ̅ϯ̅</w></ab><ab n="B04K6V29"><w>ϩⲁϥⲟⲩⲟϩ᷍ⲙ</w><w>ⲛ̂<unclear>ϫ</unclear><supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w>
+<lb n="P23vC1L14-cw1"/><w>ⲡⲉϫⲉ<supplied reason="lacuna">ϥ</supplied></w><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w>ⲡⲉⲓ̈</w><w>ⲡⲉ</w><w><supplied reason="lacuna">ⲡϩⲱⲃ</supplied></w>
+<lb n="P23vC1L15-cw1"/><w>ⲙ̂ⲫ̅ϯ̅</w><w><supplied reason="lacuna">ϫ</supplied>ⲉ</w><w>ⲉⲧⲉⲧⲛⲉⲡⲓⲥ<supplied reason="lacuna">ⲧⲉⲩⲉ</supplied></w>
+<lb n="P23vC1L16-cw1"/><w>ⲉⲡⲉ<unclear>ⲧ</unclear>ⲉϩⲁϥⲧⲁⲩⲁϥ</w></ab><ab n="B04K6V30"><w>ⲡ<supplied reason="lacuna">ⲉϫⲉⲩ</supplied></w>
+<lb n="P23vC1L17-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V31"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P24r-cw1" n="24r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3725/3521_3r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_3r.tif;cc=apis;entryid=x-3725;quality=1;view=image"/>
+<cb n="P24rC1-cw1"/><note type="editorial">Husselman f. 3r</note>
+<lb n="P24rC1L1-cw1"/><w>ⲟⲩⲱⲙ⳿</w><w>ⲙ̂ⲡⲙⲁ</w><w><supplied reason="lacuna">ⲛⲛⲁ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲉⲣⲏ</supplied>
+<lb break="no" xml:id="P24rC1L2-cw1" n="2"/>ⲙⲟⲥ</w><w>ⲕⲁⲧⲁ</w><w>ⲑⲏ</w><w>ⲉ<supplied reason="lacuna">ⲧⲥⲏϩ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P24rC1L3-cw1"/><w>ϩⲁϥ<unclear>ϯ</unclear></w><w>ⲛⲁⲩ</w><w>ⲙ̂ⲡ<supplied reason="lacuna">ⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ⲉⲟⲩⲁⲙϥ</supplied></w>
+<lb n="P24rC1L4-cw1"/><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲧⲡⲏ</w></ab><ab n="B04K6V32"><w><supplied reason="lacuna">ⲡⲉϫⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w>
+<lb n="P24rC1L5-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ϫⲉ</w><w>ϩ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲙⲏⲛ</supplied></w><w><supplied reason="lacuna">ϩⲁⲙⲏⲛ</supplied></w><w><supplied reason="lacuna">ϯ</supplied>
+<lb break="no" xml:id="P24rC1L6-cw1" n="6"/>ϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲙⲱ</supplied>
+<lb break="no" xml:id="P24rC1L7-cw1" n="7"/>ⲩ̈ⲥⲏⲥ</w><w>ⲉⲛ</w><w>ⲡ<unclear>ⲉ</unclear><supplied reason="lacuna">ⲧⲉϩⲁϥϯ</supplied></w><w><supplied reason="lacuna">ⲛⲏ</supplied>
+<lb break="no" xml:id="P24rC1L8-cw1" n="8"/>ⲧ᷍ⲛ</w><w>ⲙ̂ⲡⲁⲓ̈ⲕ⳿</w><w>ⲉ<unclear>ⲟ</unclear><supplied reason="lacuna">ⲩⲁⲙϥ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w>
+<lb n="P24rC1L9-cw1"/><w>ϩ᷍ⲛ</w><w>ⲧⲡⲏ</w><w>ⲁⲗ<supplied reason="lacuna">ⲗⲁ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲓⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧ</supplied>
+<lb break="no" xml:id="P24rC1L10-cw1" n="10"/>ϯ</w><w>ⲛⲏⲧ᷍ⲛ</w><w>ⲉⲃ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲗ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲡⲏ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲁ</supplied>
+<lb break="no" xml:id="P24rC1L11-cw1" n="11"/><supplied reason="lacuna">ⲓ</supplied>ⲕ⳿</w><w>ⲙ̂ⲙⲉⲓ</w></ab><ab n="B04K6V33"><w><supplied reason="lacuna">ⲡⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ⲅⲁⲣ</supplied></w><w><supplied reason="lacuna">ⲙⲫ̅ϯ̅</supplied></w>
+<lb n="P24rC1L12-cw1"/><w>ⲡⲉⲧ᷍ⲛⲛ̂<supplied reason="lacuna">ⲛⲏⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲡⲉⲥⲏⲧ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲡⲏ</supplied></w>
+<lb n="P24rC1L13-cw1"/><w>ⲁⲩⲱ</w><w>ⲛ᷍ϥ<supplied reason="lacuna">ϯ</supplied></w><w><supplied reason="lacuna">ⲛⲟⲩⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲕⲟⲥⲙⲟⲥ</supplied></w>
+<lb n="P24rC1L14-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">6:34</note></ab><ab n="B04K6V35"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P24v-cw1" n="24v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3726/3521_3v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_3v.tif;cc=apis;entryid=x-3726;quality=1;view=image"/>
+<cb n="P24vC1-cw1"/><note type="editorial">Husselman f. 3v</note>
+<lb n="P24vC1L1-cw1"/><w><supplied reason="lacuna">ⲡⲉⲧⲡⲓⲥⲧ</supplied>ⲉⲩⲉ</w><w>ⲉⲣⲁⲓ̈</w><w>ⲛϥⲛ<supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P24vC1L2-cw1" n="2"/><supplied reason="lacuna">ⲓⲃⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲛⲉ</supplied>ϩ</w></ab><ab n="B04K6V36"><w>ⲁⲗⲗⲁ</w><w>ϩⲁⲓ̈ϫ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲥ</supplied></w>
+<lb n="P24vC1L3-cw1"/><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ϩⲁ</supplied>ⲧⲉⲧ᷍ⲛⲛⲉⲩ</w><w>ⲉⲣ<supplied reason="lacuna">ⲁⲓ</supplied></w>
+<lb n="P24vC1L4-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲉ</supplied>ⲧ᷍ⲛⲡⲓⲥⲧⲉⲩⲉⲛ</w>
+<lb n="P24vC1L5-cw1"/></ab><ab n="B04K6V37"><w><supplied reason="lacuna">ⲟⲩⲁⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲃⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲧⲉⲣⲉⲡⲁⲓ̈ⲱⲧ</w>
+<lb n="P24vC1L6-cw1"/><w><supplied reason="lacuna">ⲛⲉⲧⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛⲏⲓ</supplied></w><w><unclear>ϥ</unclear>᷍ⲛⲛⲏⲩ</w><w>ⲉⲣⲉⲧ⳿</w>
+<lb n="P24vC1L7-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲛ</supplied>ⲛⲏⲩ</w><w>ϣⲁⲣⲁⲓ̈</w>
+<lb n="P24vC1L8-cw1"/><w><supplied reason="lacuna">ⲛϯⲛⲉⲛⲁϫ</supplied>᷍ϥ</w><w>ⲉⲃⲁⲗ</w><w>ⲉⲛ</w></ab><ab n="B04K6V38"><w>ϫⲉ</w>
+<lb n="P24vC1L9-cw1"/><w><supplied reason="lacuna">ⲉϩⲁⲓⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲧⲡⲏ</w><w>ⲉⲓ̈ⲣⲓ</w>
+<lb n="P24vC1L10-cw1"/><w><supplied reason="lacuna">ⲙⲡⲉⲧⲉϩⲛ</supplied>ⲏⲓ̈</w><w>ⲁⲗⲗⲁ</w><w>ⲡⲟⲩ
+<lb break="no" xml:id="P24vC1L11-cw1" n="11"/><supplied reason="lacuna">ⲱϣ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲉ</supplied>ⲧⲉϩⲁϥⲧⲁⲩⲁⲓ̈</w>
+<lb n="P24vC1L12-cw1"/></ab><ab n="B04K6V39"><w><supplied reason="lacuna">ⲡⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied><unclear>ⲟ</unclear>ⲩⲱϣ</w><w><unclear>ⲙ</unclear>
+<lb break="no" xml:id="P24vC1L13-cw1" n="13"/><supplied reason="lacuna">ⲡⲉⲧⲉϩⲁϥⲧⲁ</supplied><unclear>ⲩ</unclear>ⲁⲓ</w><w>ϫⲉⲕ<supplied reason="lacuna">ⲉⲥ</supplied></w>
+<lb n="P24vC1L14-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V40"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P25r-cw1" n="25r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3727/3521_4r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_4r.tif;cc=apis;entryid=x-3727;quality=1;view=image"/>
+<cb n="P25rC1-cw1"/><note type="editorial">Husselman f. 4r</note>
+<lb n="P25rC1L1-cw1"/><w>ⲁⲩⲱ</w><w>ⲉⲧ⳿ⲡⲓⲥⲧⲉⲩⲣⲁϥ</w>
+<lb n="P25rC1L2-cw1"/><w>ⲉϥⲉϫⲓ</w><w>ⲛ̂ⲟⲩⲱⲛϩ</w><w>ϣⲁ</w><w>ⲉⲛⲉϩ</w>
+<lb n="P25rC1L3-cw1"/><w>ⲁⲛⲁⲕ⳿</w><w>ϩⲱ</w><w>ⲧⲁⲧⲟⲩⲛⲁⲥ᷍ϥ</w>
+<lb n="P25rC1L4-cw1"/><w>ⲙ̂ⲡⲉϩⲁⲩ</w><w>ⲛ̂ϩⲁⲏ</w></ab><ab n="B04K6V41"><w>ⲛⲁⲩⲕⲣⲉⲙ
+<lb break="no" xml:id="P25rC1L5-cw1" n="5"/>ⲣⲉⲙ</w><w>ⲟⲩⲛ</w><w>ⲡⲉ</w><w><supplied reason="lacuna">ⲛ</supplied>ϫⲓ</w><w>ⲛⲓⲟⲩⲇⲉⲓ̈</w>
+<lb n="P25rC1L6-cw1"/><w>ⲉⲧⲃⲏⲧ᷍ϥ</w><w>ϫⲉ</w><w><unclear>ϩ</unclear>ⲁϥϫⲁⲥ</w><w>ϫⲉ</w>
+<lb n="P25rC1L7-cw1"/><w>ⲁⲛⲁⲕ⳿</w><w>ⲡⲉ</w><w>ⲡⲁⲓ̈ⲕ</w><w>ⲉⲧⲉ</w><w>ϩⲁϥⲓ̈</w>
+<lb n="P25rC1L8-cw1"/><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲧⲡ<unclear>ⲏ</unclear></w></ab><ab n="B04K6V42"><w>ⲁⲩⲱ</w><w>ⲛⲁⲩ
+<lb break="no" xml:id="P25rC1L9-cw1" n="9"/>ϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉ</supplied></w><w>ϫⲉ</w><w>ⲙⲏⲓ̈</w><note type="editorial">sic</note><w>ⲙ
+<lb break="no" xml:id="P25rC1L10-cw1" n="10"/>ⲡⲉⲓ̈</w><w>ⲉⲛ</w><w>ⲡⲉ</w><w>ⲓ̅ⲥ̅</w><w><unclear>ⲡ</unclear>ϣⲏⲣⲓ̈</w><w>ⲛⲓ̈
+<lb break="no" xml:id="P25rC1L11-cw1" n="11"/><unclear>ⲱ</unclear><unclear>ⲥ</unclear><unclear>ⲏ</unclear>ⲫ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ⲛⲁⲛ</w><w>ⲉⲧ᷍ⲛ
+<lb break="no" xml:id="P25rC1L12-cw1" n="12"/>̂<supplied reason="lacuna">ⲥⲁⲩⲛ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲉϥ</supplied><unclear>ⲓ</unclear>ⲱⲧ</w><w>ⲙ᷍ⲛ</w>
+<lb n="P25rC1L13-cw1"/><w><supplied reason="lacuna">ⲧⲉϥⲙⲉⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied>ϣ</w><w>ⲛ<unclear>̂</unclear><unclear>ϩ</unclear><unclear>ⲏ</unclear></w><w>ϥϫⲱ</w>
+<lb n="P25rC1L14-cw1"/><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁϩⲁⲓⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲃⲁⲗ</w><w>ϩⲛ</w><w>ⲧⲡ<unclear>ⲏ</unclear></w>
+<lb n="P25rC1L15-cw1"/></ab><ab n="B04K6V43"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟϩⲙ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅</supplied>ⲥ̅</w><w>ⲡⲉϫⲉϥ</w>
+<lb n="P25rC1L16-cw1"/><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲣⲕⲣⲉ</supplied>ⲙⲣ᷍ⲙ</w><w>ⲙ᷍<unclear>ⲛ</unclear></w>
+<lb n="P25rC1L17-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V44"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P25v-cw1" n="25v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3728/3521_4v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_4v.tif;cc=apis;entryid=x-3728;quality=1;view=image"/>
+<cb n="P25vC1-cw1"/><note type="editorial">Husselman f. 4v</note>
+<lb n="P25vC1L1-cw1"/><w>ⲥⲱⲕ⳿</w><w>ⲙ̂ⲙⲁϥ</w><w>ⲁⲛⲁⲕ⳿</w><w>ϩⲱ</w><w>ⲧ<unclear>ⲁ</unclear>
+<lb break="no" xml:id="P25vC1L2-cw1" n="2"/>ⲧⲟⲩⲛⲁⲥϥ</w><w>ϩ᷍ⲛ</w><w>ⲡϩⲁⲏ</w><w>ⲛ̂ϩⲁ<supplied reason="lacuna">ⲟⲩ</supplied></w>
+<lb n="P25vC1L3-cw1"/></ab><ab n="B04K6V45"><w>ⲥⲥⲏϩ</w><w>ϩⲓ</w><w>ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ</w>
+<lb n="P25vC1L4-cw1"/><w>ϫⲉ</w><w>ⲥⲉⲛⲉϣⲱⲡⲓ</w><w>ⲧⲏⲣⲟⲩ</w>
+<lb n="P25vC1L5-cw1"/><w>ⲛ̂ⲣⲉϥϫⲓ</w><w>ⲥ<unclear>ⲃ</unclear>ⲱ</w><w>ⲛ̂ⲧⲉ</w><w>ⲫ̅ϯ̅</w><w>ⲟⲩ
+<lb break="no" xml:id="P25vC1L6-cw1" n="6"/>ⲁⲛ</w><w>ⲛⲓⲃⲓ</w><w>ⲉⲧⲉϩⲁϥⲥⲱⲧ᷍ⲙ</w>
+<lb n="P25vC1L7-cw1"/><w>ⲉⲃⲁⲗ</w><w>ϩⲓⲧ᷍<unclear>ⲙ</unclear></w><w>ⲡⲁⲓ̈ⲱⲧ⳿</w><w>ⲁⲩⲱ</w>
+<lb n="P25vC1L8-cw1"/><w>ϩⲁϥϫⲓ</w><w>ⲥⲃⲱ</w><w>ϥⲛ̂ⲛⲏⲩ</w><w>ϣⲁⲣⲁⲓ̈</w>
+<lb n="P25vC1L9-cw1"/></ab><ab n="B04K6V46"><w>ⲟⲩⲭ</w><w>ⲟⲧⲓ</w><w><supplied reason="illegible">ϫ</supplied>ⲉ</w><w>ϩ<unclear>ⲁ</unclear>ϩⲓ</w><w>ⲛⲉⲩ</w><w>ⲉⲡⲓ̈ⲱⲧ⳿</w>
+<lb n="P25vC1L10-cw1"/><w>ⲓ̈ⲙⲏⲧⲓ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉ</supplied>ⲧ⳿ϣⲁⲡ⳿</w><w>ⲉⲃⲁⲗ</w><w>ϩⲓ
+<lb break="no" xml:id="P25vC1L11-cw1" n="11"/>ⲧ᷍ⲛ</w><w>ⲫ̅ϯ̅</w><w>ⲡ<supplied reason="lacuna">ⲉⲓ</supplied></w><w>ⲡⲉⲧ⳿ϩⲁϥⲛⲉⲩ</w>
+<lb n="P25vC1L12-cw1"/><w>ⲉⲡⲓⲱⲧ⳿</w></ab><ab n="B04K6V47"><w><supplied reason="lacuna">ϩⲁⲙⲏⲛ</supplied></w><w><supplied reason="lacuna">ϩⲁⲙⲏⲛ</supplied></w>
+<lb n="P25vC1L13-cw1"/><w>ϯϫⲱ</w><w>ⲙ̂ⲙ<supplied reason="lacuna">ⲁⲥ</supplied></w><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P25vC1L14-cw1"/><w>ⲡⲉⲧ⳿ⲡⲓⲥ<supplied reason="lacuna">ⲧⲉⲩⲉ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁⲓ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲛⲧⲉϥ</supplied></w>
+<lb n="P25vC1L15-cw1"/><w>ⲙ̂ⲙⲉⲩ</w><w><unclear>ⲙ</unclear><supplied reason="lacuna">ⲡⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ϣⲁ</supplied></w><w><supplied reason="lacuna">ⲉⲛⲉϩ</supplied></w>
+<lb n="P25vC1L16-cw1"/></ab><ab n="B04K6V48"><w>ⲁⲛⲁⲕ⳿</w><w>ⲡ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲱⲛϩ</supplied></w>
+<lb n="P25vC1L17-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">6.49-6.50</note>
+<pb xml:id="P26r-cw1" n="26r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3729/3521_5r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_5r.tif;cc=apis;entryid=x-3729;quality=1;view=image"/>
+<cb n="P26rC1-cw1"/><note type="editorial">Husselman f. 5r</note>
+<lb n="P26rC1L1-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V51"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26rC1L2-cw1"/><w><supplied reason="lacuna">4-7</supplied></w><w><supplied reason="lacuna">ⲁⲣϣⲁⲛⲟⲩⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲟⲩ</supplied>
+<lb break="no" xml:id="P26rC1L3-cw1" n="3"/>ⲱⲙ</w><w><unclear>ⲉ</unclear><unclear>ⲃ</unclear><unclear>ⲁ</unclear><unclear>ⲗ</unclear></w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲓⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ϥⲛⲉ</supplied>
+<lb break="no" xml:id="P26rC1L4-cw1" n="4"/>ⲱⲛ᷍ϩ</w><w>ϣⲁ</w><w>ⲉ<unclear>ⲛ</unclear><supplied reason="lacuna">ⲉϩ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲓⲕ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>
+<lb break="no" xml:id="P26rC1L5-cw1" n="5"/>ⲛⲁⲕ⳿</w><w>ⲉϯⲛⲉⲧ<supplied reason="lacuna">ⲉϥ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲧⲁ</supplied>
+<lb break="no" xml:id="P26rC1L6-cw1" n="6"/>ⲥⲁⲣⲝ⳿</w><w>ϩⲁ</w><w>ⲡ<supplied reason="lacuna">ⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲕⲟⲥⲙⲟⲥ</supplied></w>
+<lb n="P26rC1L7-cw1"/></ab><ab n="B04K6V52"><w>ⲛⲓⲟⲩⲇⲉⲓ̈</w><w>ⲇ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲛⲁⲩⲙⲓϣⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲛ</supplied></w>
+<lb n="P26rC1L8-cw1"/><w>ⲛⲉⲩⲁⲣ<unclear>ⲏ</unclear><supplied reason="lacuna">ⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲩϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w>
+<lb n="P26rC1L9-cw1"/><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26rC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">6.53-6.54</note>
+<pb xml:id="P26v-cw1" n="26v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3730/3521_5v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_5v.tif;cc=apis;entryid=x-3730;quality=1;view=image"/>
+<cb n="P26vC1-cw1"/><note type="editorial">Husselman f. 5v</note>
+<lb n="P26vC1L1-cw1"/></ab><ab n="B04K6V55"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26vC1L2-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲥⲛⲁϥ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲥ</supplied><unclear>ⲱ</unclear></w><w>ⲙⲙⲉⲓ̈</w>
+<lb n="P26vC1L3-cw1"/><w><supplied reason="lacuna">ⲡⲉ</supplied></w></ab><ab n="B04K6V56"><w><supplied reason="lacuna">ⲡⲉⲧⲟⲩ</supplied><unclear>ⲱ</unclear><unclear>ⲙ</unclear></w><w>ⲛ̂ⲧⲁⲥⲁⲣⲝ⳿</w>
+<lb n="P26vC1L4-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲥⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲁ</supplied>ⲥⲛⲁϥ</w><w>ϥⲛⲉⲟϩⲓ</w>
+<lb n="P26vC1L5-cw1"/><w><supplied reason="lacuna">ϩⲣⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲛϩⲏⲧ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ⲛⲁⲕ</w><w>ϩⲱ</w><w>ϩⲣⲏⲓ̈</w><w>ⲛ̂
+<lb break="no" xml:id="P26vC1L6-cw1" n="6"/><supplied reason="lacuna">ϩⲏⲧϥ</supplied></w></ab><ab n="B04K6V57"><w><supplied reason="lacuna">ⲕⲁⲧⲁ</supplied></w><w><supplied reason="lacuna">ⲑⲏ</supplied></w><w>ⲉⲧⲉϩⲁϥⲧⲁⲩⲁⲓ̈</w>
+<lb n="P26vC1L7-cw1"/><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲡⲓⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲁ</supplied><unclear>ⲛ</unclear>ϩ</w><w>ⲁⲩⲱ</w><w>ⲁ<unclear>ⲛ</unclear><supplied reason="lacuna">ⲁ</supplied><supplied reason="illegible">ⲕ</supplied></w>
+<lb n="P26vC1L8-cw1"/><w><supplied reason="lacuna">ϩⲱ</supplied></w><w><supplied reason="lacuna">ϯⲁⲛϩ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲃⲉ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied><unclear>ⲁ</unclear>ⲓ̈ⲱⲧ⳿</w>
+<lb n="P26vC1L9-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26vC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">6.58</note>
+<lb n="P26vC1L11-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26vC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P26vC1L13-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K6V59">
+<lb n="P26vC1L14-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P27r-cw1" n="27r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3731/3521_6r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521R_6.TIF;cc=apis;entryid=x-3731;quality=1;view=image"/>
+<cb n="P27rC1-cw1"/><note type="editorial">Husselman f. 6r</note>
+<lb n="P27rC1L1-cw1"/><w>ⲉϥϯ</w><w>ⲥⲃⲱ</w><w>ϩ᷍ⲛ</w><w>ⲕⲁⲫⲁⲣⲛⲁⲟⲩⲙ⳿</w>
+<lb n="P27rC1L2-cw1"/></ab><ab n="B04K6V60"><w>ⲟⲩⲙⲏϣⲉ</w><w>ⲇⲉ</w><w>ϩ᷍ⲛ</w><w>ⲛⲉϥⲙⲁⲑⲏ
+<lb break="no" xml:id="P27rC1L3-cw1" n="3"/>ⲧⲏⲥ</w><w>ⲉⲧ⳿ϩⲁⲩⲥⲱⲧ᷍ⲙ</w><w>ⲡⲉϫⲁⲩ</w>
+<lb n="P27rC1L4-cw1"/><w>ϫⲉ</w><w>ⲡⲉⲓ̈ⲥⲉϫⲓ</w><w>ⲛⲉϣⲧ⳿</w><w>ⲛⲓⲙ</w><w>ⲡⲉ
+<lb break="no" xml:id="P27rC1L5-cw1" n="5"/>ⲧⲛⲉϣⲥⲱⲧ᷍ⲙ</w><w><supplied reason="lacuna">ⲉ</supplied>ⲣⲁϥ</w></ab><ab n="B04K6V61"><w>ⲉϥⲥⲁⲩ
+<lb break="no" xml:id="P27rC1L6-cw1" n="6"/>ⲛ⳿</w><w>ⲇⲉ</w><w>ⲛ̂ϫⲓ</w><w>ⲓ︦ⲥ̅̅</w><w>ϩⲣ<supplied reason="lacuna">ⲏⲓ</supplied></w><w>ⲛ̂ϩⲏⲧ᷍ϥ</w><w>ϫⲉ</w>
+<lb n="P27rC1L7-cw1"/><w>ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ</w><w>ⲕⲣⲉⲙⲣⲉⲙ⳿</w>
+<lb n="P27rC1L8-cw1"/><w>ⲉⲧⲃⲉ</w><w>ⲡⲉⲓ̈</w><w>ⲡⲉϫⲉϥ</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w>
+<lb n="P27rC1L9-cw1"/><w>ⲡⲉⲓ̈</w><w>ϫⲓ̈</w><w>ⲛ̂ϫⲣⲁⲡ</w><w>ⲛⲏⲧ᷍ⲛ</w></ab><ab n="B04K6V62"><w>ⲁⲧⲉ
+<lb break="no" xml:id="P27rC1L10-cw1" n="10"/>ⲧ᷍ⲛϣⲁⲛⲛⲉⲩ</w><w><supplied reason="lacuna">ϭⲏ</supplied></w><w>ⲉⲡϣⲏⲣⲓ</w>
+<lb n="P27rC1L11-cw1"/><w>ⲙⲡⲣⲱⲙ<supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="lacuna">ⲉϥ</supplied>ⲛⲉ</w><w>ⲉϩⲣⲏⲓ̈</w>
+<lb n="P27rC1L12-cw1"/><w><supplied reason="lacuna">ⲉ</supplied>ⲡⲙⲉ</w><w>ⲉ<supplied reason="lacuna">ⲛⲁϥ</supplied></w><w><unclear>ⲛ</unclear>᷍ϩⲏⲧ᷍ϥ</w><w>ⲛ̂
+<lb break="no" xml:id="P27rC1L13-cw1" n="13"/>ϣⲁⲣ᷍ⲡ</w></ab><ab n="B04K6V63"><w>ⲡ<supplied reason="lacuna">ⲉⲡ̅ⲛ̅</supplied><unclear>ⲁ</unclear>̅</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉ</supplied>ⲧ<supplied reason="lacuna">ⲧ</supplied><unclear>ⲁ</unclear><supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P27rC1L14-cw1" n="14"/><supplied reason="lacuna">ϩ</supplied>ⲁ</w><w>ⲛ̂ⲧⲥ<supplied reason="lacuna">ⲁⲣⲝ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ϯϩⲏⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w>
+<lb n="P27rC1L15-cw1"/><w>ⲛ̂ⲛⲓⲛⲉⲓ̈</w><w><supplied reason="lacuna">ⲛⲥⲉϫⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w>
+<lb n="P27rC1L16-cw1"/><w>ⲉⲧⲉϩⲁⲓ̈ϫ<supplied reason="lacuna">ⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w><w><supplied reason="lacuna">ⲟⲩ</supplied>
+<lb break="no" xml:id="P27rC1L17-cw1" n="17"/><supplied reason="lacuna">ⲡ̅</supplied>ⲛ̅ⲁ̅</w><w>ⲡⲉ</w><w><unclear>ⲁ</unclear><supplied reason="lacuna">ⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<lb n="P27rC1L18-cw1"/></ab><ab n="B04K6V64"><w><supplied reason="lacuna">ⲁ</supplied>ⲗⲗⲁ</w><w>ⲟⲩⲛ</w><w><supplied reason="lacuna">ϩⲁⲓⲛⲓ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲏⲛⲟⲩ</supplied></w>
+<lb n="P27rC1L19-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P27v-cw1" n="27v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3733/3521_6v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_6v.tif;cc=apis;entryid=x-3733;quality=1;view=image"/>
+<cb n="P27vC1-cw1"/><note type="editorial">Husselman f. 6v</note>
+<lb n="P27vC1L1-cw1"/><w>ϫⲉ</w><w>ⲛⲓⲙ⳿</w><w>ⲛⲉⲧⲉⲛ̂ⲥⲉⲡⲓⲥ<unclear>ⲧ</unclear><supplied reason="lacuna">ⲉⲩ</supplied>
+<lb break="no" xml:id="P27vC1L2-cw1" n="2"/>ⲉ</w><w>ⲉⲛ</w><w>ⲁⲩⲱ</w><w>ϫⲉ</w><w>ⲛⲓⲙ</w><w>ⲡⲉⲧⲛ<supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P27vC1L3-cw1" n="3"/>ⲡⲁⲣⲁⲇⲓⲇⲟⲩ</w><w>ⲙ̂ⲙⲁϥ</w></ab><ab n="B04K6V65"><w>ⲁⲩⲱ</w>
+<lb n="P27vC1L4-cw1"/><w>ⲛⲁϥϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ⲡⲉ</w><w>ϫ<unclear>ⲉ</unclear></w><w><unclear>ⲉ</unclear><unclear>ⲧ</unclear><supplied reason="lacuna">ⲃⲉ</supplied></w>
+<lb n="P27vC1L5-cw1"/><w>ⲡⲉⲓ̈</w><w>ϩⲁⲓ̈ϫ<unclear>ⲁ</unclear><unclear>ⲥ</unclear></w><w>ⲛⲏⲧ᷍ⲛ</w><w>ϫⲉ</w><w>ⲙ̂
+<lb break="no" xml:id="P27vC1L6-cw1" n="6"/>ⲙ᷍ⲛ</w><w>ϭⲁⲙ</w><w>ⲛ<supplied reason="lacuna">ϩⲓ</supplied></w><w>ⲉⲓ̈</w><w>ϣⲁⲣⲁⲓ̈</w><w>ⲓ̈ⲙⲏ
+<lb break="no" xml:id="P27vC1L7-cw1" n="7"/>ⲧⲓ</w><w>ⲛ̂ⲥⲉⲧⲉⲥ</w><w>ⲛⲉϥ</w><w>ⲉⲃⲁⲗ</w><w>ϩⲓⲧ᷍ⲛ</w>
+<lb n="P27vC1L8-cw1"/><w>ⲡⲓ̈ⲱⲧ⳿</w></ab><ab n="B04K6V66"><w>ⲉⲧⲃⲉ</w><w>ⲡⲉⲓ̈</w><w>ϩⲁⲟⲩⲁ
+<lb break="no" xml:id="P27vC1L9-cw1" n="9"/>ϣⲓ</w><w>ⲛ̂ⲛⲉϥ<unclear>ⲙ</unclear>ⲁⲑⲏⲧⲏⲥ</w><w>ϣⲉ</w>
+<lb n="P27vC1L10-cw1"/><w>ⲛⲁⲩ</w><w>ⲉⲡⲉ<supplied reason="lacuna">ϩⲁ</supplied>ⲩ</w><w>ⲁⲩⲱ</w><w>ⲛⲁⲩⲙⲁ
+<lb break="no" xml:id="P27vC1L11-cw1" n="11"/>ϣⲉ</w><w>ϭⲏ</w><w>ⲛ᷍<unclear>ⲙ</unclear><supplied reason="lacuna">ⲙ</supplied><unclear>ⲉ</unclear><unclear>ϥ</unclear></w><w><unclear>ⲉ</unclear>ⲛ</w><w>ⲡⲉ</w></ab><ab n="B04K6V67"><w>ⲡⲉϫⲉ</w>
+<lb n="P27vC1L12-cw1"/><w>ⲓ̅ⲥ̅</w><w>ⲇⲉ</w><w>ⲙ<unclear>̂</unclear>ⲡ<supplied reason="lacuna">ⲓ︦ⲃ̅</supplied></w><w><supplied reason="lacuna">ϫ</supplied><unclear>ⲉ</unclear></w><w>ⲙⲏ</w><w>ⲛⲧⲱ<unclear>ⲧ</unclear><supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P27vC1L13-cw1"/><w><unclear>ϩ</unclear><unclear>ⲱ</unclear><unclear>ⲧ</unclear>᷍<unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ⲧⲉⲧⲛⲟ</supplied>ⲩⲉϣ</w><w>ϣ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w>
+<lb n="P27vC1L14-cw1"/></ab><ab n="B04K6V68"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟϩⲙ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w>ⲛ̂ϫⲓ̈</w><w>ⲥⲓⲙ<unclear>ⲱ</unclear><supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P27vC1L15-cw1"/><w><supplied reason="lacuna">ⲡⲉⲧⲣⲟⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ϫ̅ⲥ̅</w><w>ⲁⲛⲉ<unclear>ϣ</unclear><supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P27vC1L16-cw1"/><w>᷍<supplied reason="lacuna">ⲛⲉⲛ</supplied></w><w><supplied reason="lacuna">ϣⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲙ</supplied></w><w><supplied reason="lacuna">ϩⲉⲛⲥ</supplied>ⲉϫⲓ</w><w>ⲛⲱⲛ᷍<supplied reason="lacuna">ϩ</supplied></w>
+<lb n="P27vC1L17-cw1"/><w><supplied reason="lacuna">ϣⲁ</supplied></w><w><supplied reason="lacuna">ⲉⲛⲉϩ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲧⲛ</supplied>ⲧⲁⲧ᷍ⲕ⳿</w></ab><ab n="B04K6V69"><w>ⲁ<supplied reason="lacuna">ⲩⲱ</supplied></w>
+<lb n="P27vC1L18-cw1"/><w><supplied reason="lacuna">ⲁⲛⲁⲛ</supplied></w><w><supplied reason="lacuna">ϩⲁⲛⲡⲓⲥⲧ</supplied>ⲉⲩⲉ</w><w>ⲁⲩⲱ</w>
+<lb n="P27vC1L19-cw1"/><w><supplied reason="lacuna">ϩⲁⲛⲓⲙⲓ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁ</supplied>ⲕ</w><w>ⲡⲉⲭ<unclear>̅</unclear><supplied reason="lacuna">ⲥ̅</supplied></w>
+<lb n="P27vC1L20-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P27vC1L21-cw1"/><w><supplied reason="lacuna">8-11</supplied></w></ab><ab n="B04K6V70"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟⲙ</supplied></w>
+<pb xml:id="P28r-cw1" n="28r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3734/3521_7r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_7r.tif;cc=apis;entryid=x-3734;quality=1;view=image"/>
+<cb n="P28rC1-cw1"/><note type="editorial">Husselman f. 7r</note>
+<lb n="P28rC1L1-cw1"/><w><supplied reason="lacuna">ⲛⲁ</supplied><unclear>ⲩ</unclear></w><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ⲡⲉ<unclear>ϫ</unclear>ⲉ<unclear>ϥ</unclear></w><w><unclear>ⲛ</unclear><unclear>ⲁ</unclear>ⲩ</w><w>ϫⲉ</w>
+<lb n="P28rC1L2-cw1"/><w>ⲙⲏ</w><w>ⲛ̂ⲁⲛⲁⲕ⳿</w><w>ⲉ<unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ϩⲁⲓ</supplied><unclear>ⲥ</unclear><unclear>ⲁ</unclear><unclear>ⲧ</unclear><unclear>ⲡ</unclear>⳿</w><w>ⲧⲏ
+<lb break="no" xml:id="P28rC1L3-cw1" n="3"/>ⲛⲟⲩ</w><w>ⲙ̂ⲡⲓ̅ⲃ̅</w><w><unclear>ⲁ</unclear><supplied reason="lacuna">ⲩ</supplied>ⲱ</w><w>ⲟⲩⲉⲓ̈</w><w>ⲉⲃⲁⲗ</w>
+<lb n="P28rC1L4-cw1"/><w>ϩ᷍ⲛ</w><w>ⲧⲏⲛⲟⲩ</w><w>ⲟⲩ<supplied reason="lacuna">ⲇ</supplied>ⲓⲁⲃⲟⲗⲟⲥ</w><w>ⲡⲉ</w>
+<lb n="P28rC1L5-cw1"/></ab><ab n="B04K6V71"><w>ⲁϥϫⲱ</w><w>ⲇⲉ</w><w>ⲙ̂ⲙ<supplied reason="lacuna">ⲁⲥ</supplied></w><w>ⲉⲧⲃⲉ</w><w>ⲓ̈ⲟⲩ
+<lb break="no" xml:id="P28rC1L6-cw1" n="6"/>ⲇⲁⲥ</w><w>ⲡϣⲏⲣⲓ</w><w><supplied reason="lacuna">ⲛⲥ</supplied><unclear>ⲓ</unclear>ⲙⲱⲛ</w><w>ⲡⲓⲥ
+<lb break="no" xml:id="P28rC1L7-cw1" n="7"/>ⲕⲁⲣⲓⲱⲧⲏⲥ</w><w>ⲡ<supplied reason="lacuna">ⲉ</supplied><unclear>ⲧ</unclear>ⲛⲉⲡⲁⲣⲁ
+<lb break="no" xml:id="P28rC1L8-cw1" n="8"/><supplied reason="illegible">ⲇ</supplied>ⲓⲇⲟⲩ</w><w><unclear>ⲙ</unclear>̂<supplied reason="lacuna">ⲙⲁϥ</supplied></w><w><supplied reason="lacuna">ⲉⲟ</supplied>ⲩⲉⲓ̈</w><w>ⲉⲃⲁⲗ</w>
+<lb n="P28rC1L9-cw1"/><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><unclear>ⲡ</unclear>ⲓ<unclear>̅</unclear>ⲃ<unclear>̅</unclear></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w></ab></div><div type="chapter" n="B04K7"><ab n="B04K7V1"><w><supplied reason="lacuna">ⲙⲛ</supplied>ⲛ<unclear>̂</unclear>ⲥⲁ</w><w>ⲛⲉⲓ̈</w><w>ⲛⲁϥ
+<lb break="no" xml:id="P28rC1L10-cw1" n="10"/><supplied reason="lacuna">ⲙⲁϣⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ϩ</supplied>᷍ⲛ</w><w>ⲧⲅⲁⲗⲓ
+<lb break="no" xml:id="P28rC1L11-cw1" n="11"/><supplied reason="lacuna">ⲗⲉⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲛⲁϥⲟⲩⲱϣ</supplied></w><w><unclear>ⲅ</unclear>ⲁⲣ</w><w>ⲉⲛ</w><w>ⲡⲉ</w>
+<lb n="P28rC1L12-cw1"/><w><supplied reason="lacuna">ⲉⲙⲁϣⲉ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ϯⲟⲩⲇⲉ</supplied><unclear>ⲁ</unclear></w><w>ϫⲉ</w><w>ⲛⲁⲩ
+<lb break="no" xml:id="P28rC1L13-cw1" n="13"/><supplied reason="lacuna">ϣⲓⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲥⲱϥ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">7.2</note></ab><ab n="B04K7V3"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P28v-cw1" n="28v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3735/3521_7v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_7v.tif;cc=apis;entryid=x-3735;quality=1;view=image"/>
+<cb n="P28vC1-cw1"/><note type="editorial">Husselman f. 7v</note>
+<lb n="P28vC1L1-cw1"/><w>ⲉⲛ<unclear>ⲉ</unclear>ⲕ<unclear>ϩ</unclear><unclear>ⲃ</unclear><supplied reason="lacuna">ⲏ</supplied>ⲩⲓ</w><w>ⲉⲧ⳿ⲕⲓⲣⲓ</w><w>ⲙ<unclear>ⲙ</unclear><unclear>ⲁ</unclear>ⲩ</w>
+<lb n="P28vC1L2-cw1"/></ab><ab n="B04K7V4"><w>ⲙ<unclear>ⲉ</unclear>ⲣ<unclear>ⲉ</unclear><supplied reason="lacuna">ϩⲓ</supplied></w><w><supplied reason="lacuna">ⲅⲁ</supplied><unclear>ⲣ</unclear></w><w>ⲣ̂</w><w>ϩⲱⲃ</w><w>ϩ᷍ⲙ</w><w>ⲡ
+<lb break="no" xml:id="P28vC1L3-cw1" n="3"/>ϩⲱⲡ</w><w>ⲁⲩ<unclear>ⲱ</unclear></w><w><unclear>ⲛ</unclear>ϥϣⲓⲛⲓ</w><w>ⲛ̂ⲥⲁ
+<lb break="no" xml:id="P28vC1L4-cw1" n="4"/>ϣⲱⲡⲓ</w><w>ⲛ<supplied reason="lacuna">ⲧ</supplied>ⲁϥ</w><w>ϩ᷍ⲛ</w><w>ⲟⲩⲡⲁⲣ
+<lb break="no" xml:id="P28vC1L5-cw1" n="5"/>ϩⲏⲥⲓⲁ</w><w><unclear>ⲉ</unclear><unclear>ϣ</unclear>ϫⲉ</w><w>ⲕⲓⲣⲓ</w><w>ⲛ̂ⲛⲉⲓ̈</w>
+<lb n="P28vC1L6-cw1"/><w>ⲟⲩⲁⲛ<unclear>ϩ</unclear><supplied reason="lacuna">ⲕ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲃⲁⲗ</w><w>ⲙ̂ⲡⲕⲟⲥⲙⲟⲥ</w>
+<lb n="P28vC1L7-cw1"/></ab><ab n="B04K7V5"><w>ⲛⲁⲣⲉⲛ<supplied reason="lacuna">ⲉϥ</supplied></w><w>ⲕⲉⲥⲛⲏⲩ</w><w>ⲅⲁⲣ</w>
+<lb n="P28vC1L8-cw1"/><w>ⲡⲓⲥⲧⲉ<supplied reason="lacuna">ⲩⲉ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁ</supplied>ϥ</w><w>ⲉⲛ</w></ab><ab n="B04K7V6"><w>ⲡⲉ
+<lb break="no" xml:id="P28vC1L9-cw1" n="9"/>ϫⲉϥ</w><w>ⲛⲁ<supplied reason="lacuna">ⲩ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲟⲩ</supplied>
+<lb break="no" xml:id="P28vC1L10-cw1" n="10"/>ⲁⲓϣ</w><w>ⲁ<supplied reason="lacuna">ⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲁⲧϥⲓ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied>
+<lb break="no" xml:id="P28vC1L11-cw1" n="11"/>ⲧ᷍ⲛⲟ<unclear>ⲩ</unclear><supplied reason="lacuna">ⲁⲓϣ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲱⲧⲛ</supplied></w>
+<lb n="P28vC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">7.7-7.9</note>
+<pb xml:id="P29r-cw1" n="29r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3736/3521_8r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_8r.tif;cc=apis;entryid=x-3736;quality=1;view=image"/>
+<cb n="P29rC1-cw1"/><note type="editorial">Husselman f. 8r</note>
+<lb n="P29rC1L1-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K7V10"><w><supplied reason="lacuna">ⲛⲧⲁⲣⲉ</supplied>
+<lb break="no" xml:id="P29rC1L2-cw1" n="2"/>ⲛⲉϥⲥⲛⲏⲩ</w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ϣⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲉϩ</supplied>
+<lb break="no" xml:id="P29rC1L3-cw1" n="3"/>ⲣⲏⲓ̈</w><w>ⲉⲡϣⲉⲓ</w><w><supplied reason="lacuna">ⲧⲟⲧⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁϥ</supplied></w>
+<lb n="P29rC1L4-cw1"/><w>ϩⲱϥ</w><w>ϩⲁϥϣ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w><supplied reason="lacuna">ⲉϩⲣⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P29rC1L5-cw1" n="5"/>ⲡϣⲉⲓ̈</w><w>ϩ᷍ⲛ</w><w>ⲟ<supplied reason="lacuna">ⲩⲟⲩⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w>
+<lb n="P29rC1L6-cw1"/><w>ⲁⲗⲗⲁ</w><w>ϩ᷍ⲛ</w><w>ⲟⲩ<supplied reason="lacuna">ϩⲱⲡ</supplied></w></ab><ab n="B04K7V11"><w><supplied reason="lacuna">ⲛⲓⲟⲩ</supplied>
+<lb break="no" xml:id="P29rC1L7-cw1" n="7"/>ⲇⲉⲓ̈</w><w>ϩⲱⲟⲩ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲁⲩϣⲓⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P29rC1L8-cw1" n="8"/>ⲥⲱϥ</w><w>ⲡⲉ</w><w>ϩ᷍<unclear>ⲙ</unclear></w><w><supplied reason="lacuna">ⲡⲣⲡⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w>
+<lb n="P29rC1L9-cw1"/><w><unclear>ⲛ</unclear><unclear>ⲁ</unclear><supplied reason="lacuna">ⲩ</supplied><unclear>ϫ</unclear>ⲱ</w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁϥⲧⲱⲛ</supplied></w>
+<lb n="P29rC1L10-cw1"/><w><supplied reason="lacuna">ⲡⲏ</supplied></w></ab><ab n="B04K7V12"><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><unclear>ⲛ</unclear><unclear>ⲁ</unclear><unclear>ⲣ</unclear><supplied reason="lacuna">ⲉⲟⲩⲛⲁϭ</supplied></w>
+<lb n="P29rC1L11-cw1"/><w><supplied reason="lacuna">ⲛⲕⲣⲉⲙ</supplied><unclear>ⲣ</unclear><unclear>ⲙ</unclear></w><w>ϣⲁⲡ</w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲙⲏ</supplied>
+<lb break="no" xml:id="P29rC1L12-cw1" n="12"/><supplied reason="lacuna">ϣⲉ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲧⲃⲏⲧ᷍ϥ</w><w>ϩ<supplied reason="lacuna">ⲁⲓⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲉⲛ</supplied></w>
+<lb n="P29rC1L13-cw1"/><w><supplied reason="lacuna">ⲛⲁⲩ</supplied><unclear>ϫ</unclear>ⲱ</w><w>ⲙ̂ⲙⲁ<supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲁ</supplied>
+<lb break="no" xml:id="P29rC1L14-cw1" n="14"/><supplied reason="lacuna">ⲅⲁⲑⲟⲥ</supplied></w><w>ⲡⲉ</w><w>ϩⲉⲛⲕⲁⲩ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w>
+<lb n="P29rC1L15-cw1"/><w><supplied reason="lacuna">ⲛⲁⲩϫ</supplied>ⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ϫⲉ</w><w><unclear>ⲙ</unclear><supplied reason="lacuna">ⲙⲁⲛ</supplied></w>
+<lb n="P29rC1L16-cw1"/><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w><w><unclear>ⲁ</unclear>ϥⲡⲗⲁⲛⲁ</w><w>ⲙ̂ⲡⲙ<supplied reason="lacuna">ⲏ</supplied>
+<lb break="no" xml:id="P29rC1L17-cw1" n="17"/><supplied reason="lacuna">ϣⲉ</supplied></w></ab><ab n="B04K7V13"><w><supplied reason="lacuna">ⲛⲉ</supplied></w><w>ⲙ᷍ⲛ</w><w>ϩⲓ</w><w>ⲙⲉⲛⲧⲟⲓ</w><w><supplied reason="lacuna">ⲥⲉ</supplied>
+<lb break="no" xml:id="P29rC1L18-cw1" n="18"/><supplied reason="lacuna">ϫⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲧⲃⲏⲧϥ</w><w>ϩ᷍ⲛ</w><w>ⲟⲩ<supplied reason="lacuna">ⲡⲁⲣⲏⲥⲓⲁ</supplied></w>
+<pb xml:id="P29v-cw1" n="29v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3737/3521_8v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_8v.tif;cc=apis;entryid=x-3737;quality=1;view=image"/>
+<cb n="P29vC1-cw1"/><note type="editorial">Husselman f. 8v</note>
+<lb n="P29vC1L1-cw1"/></ab><ab n="B04K7V14"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P29vC1L2-cw1"/><w><supplied reason="lacuna">ⲉϩⲣⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied><supplied reason="illegible">ⲡⲉⲣⲡⲏⲓ</supplied></w><w><supplied reason="illegible">ϩⲁϥϯ</supplied></w><w><unclear>ⲥ</unclear><unclear>ⲃ</unclear><supplied reason="lacuna">ⲱ</supplied></w>
+<lb n="P29vC1L3-cw1"/></ab><ab n="B04K7V15"><w><supplied reason="lacuna">ⲛⲉⲩⲣϣⲡⲏⲣⲓ</supplied></w><w><supplied reason="lacuna">ϭ</supplied><unclear>ⲏ</unclear></w><w>ⲛ̂ϫⲓ̈</w><w>ⲛⲓⲟⲩ<supplied reason="lacuna">ⲇⲉⲓ</supplied></w>
+<lb n="P29vC1L4-cw1"/><w><supplied reason="lacuna">ⲉⲩϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied><unclear>ⲙ</unclear>ⲁⲥ</w><w>ϫⲉ</w><w><unclear>ⲛ</unclear>̂ⲉϣ</w>
+<lb n="P29vC1L5-cw1"/><w><supplied reason="lacuna">ⲛϩ</supplied><unclear>ⲏ</unclear></w><w>ⲉⲣⲉ</w><w><unclear>ⲡ</unclear><unclear>ⲉ</unclear>ⲓ̈</w><w>ⲥⲁⲩ<supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P29vC1L6-cw1"/><w><supplied reason="lacuna">ⲛⲥϩⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲙ</supplied><unclear>ⲡ</unclear>ⲟⲩⲧⲥⲁ<unclear>ⲃ</unclear><supplied reason="lacuna">ⲁϥ</supplied></w>
+<lb n="P29vC1L7-cw1"/></ab><ab n="B04K7V16"><w><supplied reason="lacuna">ⲁϥⲟⲩⲟϩⲙ</supplied></w><w><unclear>ϭ</unclear><unclear>ⲏ</unclear></w><w>ⲛⲁⲩ</w><w><unclear>ⲛ</unclear>̂ϫⲓ</w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P29vC1L8-cw1"/><w><supplied reason="lacuna">ⲧⲁⲥⲃⲱ</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁ</supplied><unclear>ⲕ</unclear>⳿</w><w>ⲛ̂ⲧⲱⲓ̈</w><w>ⲉⲛ</w><w>ⲧ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w>
+<lb n="P29vC1L9-cw1"/><w><supplied reason="lacuna">ⲧⲁ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲉ</supplied></w><w><unclear>ϩ</unclear>ⲁϥⲧ<unclear>ⲁ</unclear>ⲩⲁⲓ<unclear>̈</unclear></w><w>ⲧ<supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P29vC1L10-cw1"/></ab><ab n="B04K7V17"><w><supplied reason="lacuna">ⲁⲣϣⲁⲛ</supplied>ⲟⲩ<supplied reason="lacuna">ⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲣ</supplied></w><w><supplied reason="lacuna">ϩⲛⲉϥ</supplied></w><w><supplied reason="lacuna">ⲉⲓⲣⲓ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>
+<lb break="no" xml:id="P29vC1L11-cw1" n="11"/><supplied reason="lacuna">ⲡⲉϥⲟⲩⲱϣ</supplied></w><w><unclear>ϥ</unclear>ⲛⲉⲓ<unclear>ⲙ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲉ</unclear><supplied reason="lacuna">ⲧⲃⲉ</supplied></w>
+<lb n="P29vC1L12-cw1"/><w><supplied reason="lacuna">ⲧⲉⲓⲥⲃⲱ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><unclear>ⲟ</unclear>ⲩⲉⲃⲁⲗ</w><w>ϩ᷍ⲙ</w><w><supplied reason="lacuna">ⲫ̅ϯ̅</supplied></w>
+<lb n="P29vC1L13-cw1"/><w><supplied reason="lacuna">ⲧⲉ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied><unclear>ⲛ</unclear><supplied reason="lacuna">ⲁ</supplied>ⲕ⳿</w><w>ⲁⲓⲥⲉϫ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w>
+<lb n="P29vC1L14-cw1"/><w><supplied reason="lacuna">ϩⲓⲧⲁⲧ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲁ</supplied><unclear>ⲉ</unclear><unclear>ⲧ</unclear></w></ab><ab n="B04K7V18"><w>ⲡⲉⲧⲥⲉϫⲓ</w><w><supplied reason="lacuna">ⲉⲃ</supplied>
+<lb break="no" xml:id="P29vC1L15-cw1" n="15"/><supplied reason="lacuna">ⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲓ</supplied><unclear>ⲧ</unclear>ⲁ<unclear>ⲧ</unclear>ϥ</w><w>ⲟⲩⲁⲉϥ</w><w><unclear>ⲁ</unclear><supplied reason="lacuna">ϥϣⲓ</supplied>
+<lb break="no" xml:id="P29vC1L16-cw1" n="16"/><supplied reason="lacuna">ⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲥ</supplied>ⲁ</w><w>ⲡⲉϥⲁⲩ</w><w>ⲙ̂ⲙⲓ<supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>
+<lb break="no" xml:id="P29vC1L17-cw1" n="17"/><supplied reason="lacuna">ⲙⲁϥ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied><unclear>ⲉ</unclear><unclear>ⲧ</unclear>ϣ<unclear>ⲓ</unclear>ⲛⲓ</w><w>ⲇ<unclear>ⲉ</unclear></w><w><unclear>ⲛ</unclear><unclear>ⲧ</unclear><supplied reason="lacuna">ⲁϥ</supplied></w>
+<pb xml:id="P30r-cw1" n="30r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3738/3521_9r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_9r.tif;cc=apis;entryid=x-3738;quality=1;view=image"/>
+<cb n="P30rC1-cw1"/><note type="editorial">Husselman f. 9r</note>
+<lb n="P30rC1L1-cw1"/></ab><ab n="B04K7V19"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P30rC1L2-cw1"/><w><supplied reason="lacuna">ϩⲁⲧ</supplied>ⲃⲉⲧ</w></ab><ab n="B04K7V20"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟϩⲙ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w>
+<lb n="P30rC1L3-cw1"/><w><unclear>ⲡ</unclear><unclear>ⲙ</unclear>ⲏϣⲉ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲇⲉⲙⲟⲛⲓⲟⲛ</supplied></w>
+<lb n="P30rC1L4-cw1"/><w>ⲡⲉⲧⲛⲉⲙ<supplied reason="lacuna">ⲉⲕ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧϣⲓ</supplied>
+<lb break="no" xml:id="P30rC1L5-cw1" n="5"/>ⲛⲓ</w><w>ⲛ̂ⲥⲱⲕ⳿</w><w><supplied reason="lacuna">ⲉϩⲁⲧⲃⲉⲕ</supplied></w></ab><ab n="B04K7V21"><w><supplied reason="lacuna">ϩⲁⲓ̅ⲥ̅</supplied></w>
+<lb n="P30rC1L6-cw1"/><w>ⲟⲩⲟϩ᷍ⲙ</w><w>ⲡⲉ<unclear>ϫ</unclear><supplied reason="lacuna">ⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><app><rdg type="orig" hand="firsthand"><w><supplied reason="lacuna">ⲟⲩ</supplied>
+<lb break="no" xml:id="P30rC1L7-cw1" n="7"/>ϩⲱⲩ</w></rdg><rdg type="corr" hand="corrector"><w><supplied reason="lacuna">ⲟⲩ</supplied>ϩⲱⲃ</w></rdg></app><w>ⲟⲩⲱⲧ</w><w><supplied reason="lacuna">ⲡⲉⲧⲉϩⲁⲓⲉϥ</supplied></w><w><supplied reason="lacuna">ⲁⲩ</supplied>
+<lb break="no" xml:id="P30rC1L8-cw1" n="8"/>ⲱ</w><w>ⲧⲉⲧ᷍ⲛⲣ̂</w><w>ϣ<supplied reason="lacuna">ⲡⲏⲣⲓ</supplied></w><w><supplied reason="lacuna">ⲧⲏⲣⲧⲛ</supplied></w>
+<lb n="P30rC1L9-cw1"/></ab><ab n="B04K7V22"><w>ⲉⲧⲃⲉ</w><w>ⲡⲉⲓ̈</w><w>ϩⲁⲙ<supplied reason="lacuna">ⲱⲩⲥⲏⲥ</supplied></w><w><supplied reason="lacuna">ϯ</supplied></w><w><supplied reason="lacuna">ⲛⲏ</supplied>
+<lb break="no" xml:id="P30rC1L10-cw1" n="10"/><supplied reason="lacuna">ⲧ</supplied>ⲛ</w><w>ⲙ̂ⲡ᷍ⲥⲃ᷍ⲃⲓ</w><w>ⲟ<unclear>ⲩ</unclear><supplied reason="lacuna">ⲭ</supplied></w><w><supplied reason="lacuna">ⲟⲧⲓ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩ</supplied>
+<lb break="no" xml:id="P30rC1L11-cw1" n="11"/><supplied reason="lacuna">ⲉ</supplied>ⲃⲁⲗ</w><w>ϩ᷍<unclear>ⲛ</unclear></w><w>ⲙⲱ<supplied reason="lacuna">ⲩⲥⲏⲥ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w>
+<lb n="P30rC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P30v-cw1" n="30v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3739/3521_9v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_9v.tif;cc=apis;entryid=x-3739;quality=1;view=image"/>
+<cb n="P30vC1-cw1"/><note type="editorial">Husselman f. 9v</note>
+<lb n="P30vC1L1-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">7.23</note></ab><ab n="B04K7V24"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P30vC1L2-cw1"/><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w><w><supplied reason="lacuna">ⲕⲣⲓⲛⲉ</supplied></w><w><unclear>ϩ</unclear>᷍ⲙ</w><w>ⲡϩⲉ<supplied reason="lacuna">ⲡ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲉⲓ</supplied></w>
+<lb n="P30vC1L3-cw1"/></ab><ab n="B04K7V25"><w><supplied reason="lacuna">ⲛⲉⲟⲩⲛ</supplied>ϩⲁⲓ̈ⲛⲓ</w><w>ⲇⲉ</w><w>ⲉ<supplied reason="lacuna">ⲃⲁⲗ</supplied></w>
+<lb n="P30vC1L4-cw1"/><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲣⲉⲙⲧϩⲓ</supplied>ⲉⲣⲟⲩⲥⲁ<supplied reason="lacuna">ⲗⲏⲙ</supplied></w>
+<lb n="P30vC1L5-cw1"/><w><supplied reason="lacuna">ϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫ</supplied><unclear>ⲉ</unclear></w><w>ⲙⲏ</w><w>ⲙ̂ⲡⲉⲓ̈</w><w>ⲉ<supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P30vC1L6-cw1"/><w><supplied reason="lacuna">ⲡⲉⲧⲟⲩ</supplied>ϣⲓⲛⲓ</w><w>ⲛ̂ⲥⲱϥ</w><w>ⲉ<supplied reason="lacuna">ϩⲁⲧⲃⲉϥ</supplied></w>
+<lb n="P30vC1L7-cw1"/></ab><ab n="B04K7V26"><w><supplied reason="lacuna">ⲁⲩ</supplied>ⲱ</w><w>ϩⲓ</w><w>ϣ̂ⲡⲉ</w><w>ϥⲥ<supplied reason="lacuna">ⲉϫⲓ</supplied></w>
+<lb n="P30vC1L8-cw1"/><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲡⲁ</supplied>ⲣϩⲏⲥⲓⲁ</w><w>ⲁⲩ<supplied reason="lacuna">ⲱ</supplied></w>
+<lb n="P30vC1L9-cw1"/><w><supplied reason="lacuna">ⲛⲥⲉϫⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲛ</supplied>ⲉⲓ̈</w><w>ⲛⲉϥ</w><w>ⲉⲛ</w><w>ⲙ<supplied reason="lacuna">ⲏⲡⲱⲥ</supplied></w>
+<lb n="P30vC1L10-cw1"/><w><supplied reason="lacuna">ⲉⲙⲁ</supplied><unclear>ⲙ</unclear>ⲉⲓ̈</w><w>ϩⲁⲩⲓ̈ⲙⲓ</w><w>ⲛ̂<supplied reason="lacuna">ϫⲓ</supplied></w>
+<lb n="P30vC1L11-cw1"/><w><supplied reason="lacuna">ⲛⲁⲣⲭⲱⲛ</supplied></w><w>ⲁⲩⲱ</w><w>ⲛⲁⲣⲭ<supplied reason="lacuna">ⲓⲉⲣⲉⲩⲥ</supplied></w>
+<lb n="P30vC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">7.27-7:34</note>
+<lb n="P30vC1L13-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">F 31 lost</note>
+<pb xml:id="P32r-cw1" n="32r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3740/3521_10r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_10r.tif;cc=apis;entryid=x-3740;quality=1;view=image"/>
+<cb n="P32rC1-cw1"/><note type="editorial">Husselman f. 10r</note>
+<lb n="P32rC1L1-cw1"/><w>ⲙⲏ</w><w>ⲁϥⲛ̂ⲛ<supplied reason="lacuna">ⲉϣⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲇⲓⲁⲥⲡⲟ</supplied>
+<lb break="no" xml:id="P32rC1L2-cw1" n="2"/>ⲣⲁ</w><w>ⲛ̂ⲛⲓϩⲉⲗ<unclear>ⲗ</unclear><supplied reason="lacuna">ⲏⲛ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied><unclear>ⲩ</unclear>ⲱ</w><w>ⲛ᷍ϥϯ</w><w><unclear>ⲥ</unclear><supplied reason="lacuna">ⲃⲱ</supplied></w>
+<lb n="P32rC1L3-cw1"/><w>ⲛ̂ⲛⲓⲟⲩⲉⲓ̈ⲉ<supplied reason="lacuna">ⲛⲓⲛ</supplied></w></ab><ab n="B04K7V36"><w>ⲟⲩ</w><w>ⲡⲉ</w><w>ⲡⲉⲓ̈ⲥ<unclear>ⲉ</unclear>
+<lb break="no" xml:id="P32rC1L4-cw1" n="4"/>ϫⲓ</w><w>ⲉⲧⲉ</w><w>ϩⲁ<unclear>ϥ</unclear><supplied reason="lacuna">ϫⲁϥ</supplied></w><w>ϫⲉ</w><w>ⲧⲉⲧⲛⲉ
+<lb break="no" xml:id="P32rC1L5-cw1" n="5"/>ϣⲓⲛⲓ</w><w>ⲛ̂ⲥⲱ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩ</supplied>ⲱ</w><w>ⲛ̂ⲧⲉⲧⲛⲉ
+<lb break="no" xml:id="P32rC1L6-cw1" n="6"/>ϭⲛⲧ⳿</w><w>ⲉⲛ</w><w>ⲁ<supplied reason="lacuna">ⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ⲙⲉ</w><w>ⲁⲛⲁⲕ⳿</w><w>ⲉ
+<lb break="no" xml:id="P32rC1L7-cw1" n="7"/>ϯ</w><w>ⲙ̂ⲙⲁϥ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲧⲉⲧ</supplied>ⲛⲉϣⲓ̈</w><w>ⲉⲣⲁϥ</w><w>ⲉ<supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P32rC1L8-cw1"/></ab><ab n="B04K7V37"><w>ϩⲣⲏⲓ̈</w><w>ⲇⲉ</w><w>ϩ᷍ⲙ</w><w><supplied reason="lacuna">ⲡϩⲁⲏ</supplied></w><w>ⲛϩⲁⲟⲩ</w><w>ⲛ̂ⲧⲉ</w>
+<lb n="P32rC1L9-cw1"/><w>ⲡⲛⲁϭ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ϣⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲁ</supplied>ϥⲟϩⲓ</w><w>ⲉⲣⲉⲧ᷍ϥ</w>
+<lb n="P32rC1L10-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w><supplied reason="lacuna">ⲛⲁϥⲱϣ</supplied></w><w><supplied reason="lacuna">ⲉⲃ</supplied><unclear>ⲁ</unclear><unclear>ⲗ</unclear></w><w>ⲉϥϫⲱ</w>
+<lb n="P32rC1L11-cw1"/><w>ⲙ̂ⲙⲁⲥ</w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲁⲃⲓ</supplied></w><w>ⲙⲁⲣⲉϥⲓ̈</w><note type="editorial">7.38</note>
+<lb n="P32rC1L12-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K7V39"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P32v-cw1" n="32v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3741/3521_10v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_10v.tif;cc=apis;entryid=x-3741;quality=1;view=image"/>
+<cb n="P32vC1-cw1"/><note type="editorial">Husselman f. 10v</note>
+<lb n="P32vC1L1-cw1"/><w><supplied reason="lacuna">ⲛⲉⲙⲡⲁⲧϥ</supplied><unclear>ϫ</unclear>ⲓ</w><w>ⲁⲩ</w></ab><ab n="B04K7V40"><w>ϩⲁⲓⲛ<supplied reason="lacuna">ⲓ</supplied></w>
+<lb n="P32vC1L2-cw1"/><w>ⲟⲩⲛ</w><w>ⲉⲃⲁ<supplied reason="lacuna">ⲗ</supplied></w><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ⲙⲏϣⲉ</w><w>ⲛ̂ⲧ<supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P32vC1L3-cw1" n="3"/>ⲣⲟⲩⲥⲱ<unclear>ⲧ</unclear><supplied reason="lacuna">ⲙ</supplied></w><w><supplied reason="lacuna">ⲉⲡ</supplied>ⲉⲓⲥⲉϫⲓ</w><w>ⲛⲁ<supplied reason="lacuna">ⲩ</supplied>
+<lb break="no" xml:id="P32vC1L4-cw1" n="4"/>ϫⲱ</w><w>ⲙ̂ⲙⲁ<supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied><unclear>ⲉ</unclear>ⲓ<unclear>̈</unclear></w><w>ⲉⲙⲁⲙⲉⲓ</w>
+<lb n="P32vC1L5-cw1"/><w>ⲡⲉⲡⲣⲟⲫ<supplied reason="lacuna">ⲏⲧ</supplied><unclear>ⲏ</unclear>ⲥ</w></ab><ab n="B04K7V41"><w>ϩⲉⲛⲕⲁⲩ
+<lb break="no" xml:id="P32vC1L6-cw1" n="6"/>ⲓ̈</w><w>ⲇⲉ</w><w>ⲛⲁⲩ<supplied reason="lacuna">ϫⲱ</supplied></w><w><supplied reason="lacuna"><unclear>̂</unclear>ⲙⲁⲥ</supplied>ⲙ</w><w>ϫⲉ</w><w>ⲡⲉ<supplied reason="lacuna">ⲓ</supplied></w>
+<lb n="P32vC1L7-cw1"/><w>ⲡⲉ</w><w>ⲡⲉⲭ̅ⲥ̅</w><w><supplied reason="lacuna">ϩⲉ</supplied>ⲛⲕⲁⲩⲓ̈</w><w>ⲁⲛ</w>
+<lb n="P32vC1L8-cw1"/><w>ⲛⲁⲩϫⲱ</w><w><supplied reason="lacuna">ⲙⲙⲁ</supplied><unclear>ⲥ</unclear></w><w>ϫⲉ</w><w>ⲙⲏ</w><w>ⲁ
+<lb break="no" xml:id="P32vC1L9-cw1" n="9"/>ⲣⲉⲡⲉⲭ̅ⲥ̅</w><w><supplied reason="lacuna">ⲛⲛⲏⲩ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲃⲁⲗ</w><w>ϩ᷍ⲛ</w>
+<lb n="P32vC1L10-cw1"/><w>ⲧⲅⲁⲗⲓ̈ⲗ<supplied reason="lacuna">ⲉⲁ</supplied></w></ab><ab n="B04K7V42"><w><supplied reason="lacuna">ⲛⲁⲣ</supplied><supplied reason="illegible">ⲉ</supplied>ⲧⲉⲅⲣⲁ
+<lb break="no" xml:id="P32vC1L11-cw1" n="11"/>ⲫⲏ</w><w><unclear>ⲉ</unclear><unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w>ϫⲉ</w><w>ⲁⲣ<supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P32vC1L12-cw1" n="12"/>ⲡⲉⲭ̅ⲥ̅</w><w><supplied reason="lacuna">ⲛⲛⲏⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied>
+<lb break="no" xml:id="P32vC1L13-cw1" n="13"/><supplied reason="lacuna">ⲥⲡⲉⲣⲙⲁ</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P32vC1L14-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">7.43-8.38</note>
+<lb n="P32vC1L15-cw1"/></ab></div><div type="chapter" n="B04K8"><ab n="B04K8V39"><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲛⲉⲧⲉ</supplied><note type="editorial">Folios 33–36 lost</note></w>
+<pb xml:id="P37r-cw1" n="37r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3742/3521R_11.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_11r.tif;cc=apis;entryid=x-3742;quality=1;view=image"/>
+<cb n="P37rC1-cw1"/><note type="editorial">Husselman f. 11r</note>
+<lb n="P37rC1L1-cw1"/><w>ⲧⲛⲉⲓ̈ⲣⲓ</w><w>ⲛ̂ⲛⲉϩⲃⲏⲩⲓ̈</w><w>ⲛ̂ⲁ
+<lb break="no" xml:id="P37rC1L2-cw1" n="2"/>ⲃⲣⲁϩⲁⲙ⳿</w></ab><ab n="B04K8V40"><w>ⲧⲉⲛⲟⲩ</w><w>ⲇⲉ</w><w>ⲧⲉ
+<lb break="no" xml:id="P37rC1L3-cw1" n="3"/>ⲧ᷍ⲛϣⲓⲛⲓ</w><w>ⲛ̂ⲥⲱⲓ̈</w><w>ⲉⲧⲁⲕⲁⲓ̈</w>
+<lb n="P37rC1L4-cw1"/><w><supplied reason="lacuna">ⲟⲩⲣ</supplied><unclear>ⲱ</unclear><unclear>ⲙ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲉ</unclear>ϩⲁϥϫⲱ</w><w><unclear>ⲛ</unclear><unclear>ⲏ</unclear>ⲧ᷍ⲛ</w>
+<lb n="P37rC1L5-cw1"/><w><supplied reason="lacuna">ⲛⲧⲙⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲧⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲉϩⲁϥⲥⲁⲧⲙⲥ</supplied></w>
+<lb n="P37rC1L6-cw1"/><w><supplied reason="lacuna">ⲉ</supplied><unclear>ⲃ</unclear>ⲁ<unclear>ⲗ</unclear></w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲓⲧⲙ</supplied></w><w>ⲫ̅ϯ̅</w><w><supplied reason="lacuna">ⲙⲡⲉ</supplied>
+<lb break="no" xml:id="P37rC1L7-cw1" n="7"/><unclear>ⲁ</unclear>ⲃⲣⲁϩ<supplied reason="lacuna">ⲁⲙ</supplied></w><w><supplied reason="lacuna">ⲣ</supplied><unclear>ⲡ</unclear><unclear>ⲉ</unclear><supplied reason="lacuna">ⲓ</supplied></w></ab><ab n="B04K8V41"><w><supplied reason="lacuna">ⲛⲧⲱⲧⲛ</supplied></w><w><supplied reason="lacuna">ϩ</supplied>
+<lb break="no" xml:id="P37rC1L8-cw1" n="8"/>ⲁⲧ᷍ⲛⲓ̈ⲣⲓ</w><w>ⲛ̂ⲛⲉ<supplied reason="lacuna">ϩⲃⲏⲩⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲉ</supplied>
+<lb break="no" xml:id="P37rC1L9-cw1" n="9"/>ⲧ᷍ⲛⲓ̈ⲱⲧ</w><w>ⲡ<supplied reason="lacuna">ⲉϫⲁⲩ</supplied></w><w><supplied reason="lacuna">ϭⲏ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w>
+<lb n="P37rC1L10-cw1"/><w>ϫⲉ</w><w>ⲁⲛⲁⲛ</w><w>ⲛ̂<supplied reason="lacuna">ⲉⲧⲁϩⲁⲩϫⲡⲁⲛ</supplied></w>
+<lb n="P37rC1L11-cw1"/><w>ⲉⲛ</w><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w><supplied reason="lacuna">ⲟⲩⲡⲟⲣⲛⲓⲁ</supplied></w>
+<lb n="P37rC1L12-cw1"/><w>ⲟⲩⲓ̈ⲱⲧ⳿</w><w>ⲟⲩ<supplied reason="lacuna">ⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧϣⲁⲡ</supplied></w>
+<lb n="P37rC1L13-cw1"/><w>ⲛⲉⲛ</w><w>ⲉⲧⲉ</w><w><unclear>ⲫ</unclear><supplied reason="lacuna">ϯ︦</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w></ab><ab n="B04K8V42"><w><supplied reason="lacuna">ⲡⲉϫⲉ</supplied></w>
+<lb n="P37rC1L14-cw1"/><w>ⲓ<unclear>̅</unclear>ⲥ̅</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w><unclear>ⲉ</unclear><supplied reason="lacuna">ⲛⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲛ</supplied>
+<lb break="no" xml:id="P37rC1L15-cw1" n="15"/><unclear>ⲓ</unclear>̈ⲱⲧ⳿</w><w>ⲡⲉ</w><w>ⲫ̅ϯ̅</w><w><supplied reason="lacuna">ⲛⲁⲣⲉⲧⲛⲛⲉ</supplied>
+<lb break="no" xml:id="P37rC1L16-cw1" n="16"/>ⲙⲉⲛⲣⲓⲧ</w><w>ⲡⲉ</w><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲅⲁⲣ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P37rC1L17-cw1" n="17"/>ⲧϩⲁⲓ̈</w><w>ⲉⲃⲁⲗ</w><w>ϩⲓⲧ<supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲫ̅ϯ̅</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w>
+<lb n="P37rC1L18-cw1"/><w>ϯⲛ̂ⲛⲏⲩ</w><w>ⲉⲃ<unclear>ⲁ</unclear><supplied reason="illegible">ⲗ</supplied></w><w><supplied reason="lacuna">ϩⲓⲧⲛ</supplied></w><w><supplied reason="lacuna">ⲫ̅ϯ̅</supplied></w>
+<lb n="P37rC1L19-cw1"/><w>ϩⲁⲓ<unclear>̈</unclear></w><w>ⲅⲁⲣ</w><w><supplied reason="illegible">ⲉⲛ</supplied></w><w><supplied reason="illegible">ⲉ</supplied><unclear>ⲃ</unclear><supplied reason="lacuna">ⲁⲗ</supplied></w>
+<lb n="P37rC1L20-cw1"/><w><supplied reason="lacuna">ϩⲓⲧⲁⲧ</supplied></w><w><unclear>ⲟ</unclear>ⲩ<unclear>ⲁ</unclear><unclear>ⲉ</unclear><unclear>ⲧ</unclear></w><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w>
+<pb xml:id="P37v-cw1" n="37v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3743/3521V_11.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_11v.tif;cc=apis;entryid=x-3743;quality=1;view=image"/>
+<cb n="P37vC1-cw1"/><note type="editorial">Husselman f. 11v</note>
+<lb n="P37vC1L1-cw1"/><w>ⲡⲉⲧ᷍ⲙⲙⲉⲩ</w><w>ⲡⲉⲧⲉϩⲁϥⲧⲁ<supplied reason="lacuna">ⲩ</supplied>
+<lb break="no" xml:id="P37vC1L2-cw1" n="2"/><unclear>ⲁ</unclear><unclear>ⲓ</unclear>̈</w></ab><ab n="B04K8V43"><w>ⲉⲧⲃⲉ</w><w>ⲟⲩ</w><w>ⲧⲁϭⲓⲛⲥⲉϫⲓ</w>
+<lb n="P37vC1L3-cw1"/><w>ⲙ̂<unclear>ⲡ</unclear>ⲉⲧ᷍ⲛⲥⲟⲩⲱⲛ</w><w>ⲙ̂ⲙⲁⲥ</w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P37vC1L4-cw1"/><w><unclear>ⲙ</unclear>̂<unclear>ⲙ</unclear>᷍ⲛ</w><w><unclear>ⳓ</unclear><supplied reason="lacuna">ⲁ</supplied><unclear>ⲙ</unclear></w><w>ⲙ<unclear>̂</unclear><supplied reason="lacuna">ⲙⲱⲧⲛ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P37vC1L5-cw1" n="5"/><supplied reason="lacuna">ⲥⲱⲧⲙ</supplied></w><w><supplied reason="lacuna">ⲉⲡⲁⲥⲉϫⲓ</supplied></w></ab><ab n="B04K8V44"><w><supplied reason="lacuna">ⲛⲧⲱⲧⲛ</supplied></w>
+<lb n="P37vC1L6-cw1"/><w><supplied reason="lacuna">ϩ</supplied><unclear>ⲉ</unclear><unclear>ⲛ</unclear><supplied reason="lacuna">ⲉⲃⲁ</supplied><unclear>ⲗ</unclear></w><w>ϩ<unclear>ⲙ</unclear></w><w><supplied reason="lacuna">ⲡⲉ</supplied>
+<lb break="no" xml:id="P37vC1L7-cw1" n="7"/><supplied reason="lacuna">ⲧⲛⲓⲱⲧ</supplied></w><w><unclear>ⲡ</unclear>ⲇⲓⲁ<supplied reason="lacuna">ⲃⲟⲗ</supplied>ⲟⲥ</w><w>ⲁ<supplied reason="lacuna">ⲩⲱ</supplied></w>
+<lb n="P37vC1L8-cw1"/><w><supplied reason="lacuna"><supplied reason="lacuna">ⲛⲉⲡⲓⲑⲩ</supplied>ⲙⲓⲁ</supplied></w><w>ⲙ̂ⲡⲉⲧ᷍ⲛⲓ̈ⲱ<supplied reason="lacuna">ⲧ</supplied></w>
+<lb n="P37vC1L9-cw1"/><w><supplied reason="lacuna">ⲧⲉⲧⲛ</supplied>ⲟⲩⲉϣ</w><w>ⲉⲩ</w><w>ⲡⲉ<supplied reason="lacuna">ⲧ</supplied>
+<lb break="no" xml:id="P37vC1L10-cw1" n="10"/><supplied reason="lacuna">ⲙⲙⲉⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲩ</supplied>ⲣⲉϥϩⲉⲧ᷍ⲃ</w><w>ⲣⲱ<supplied reason="lacuna">ⲙⲓ</supplied></w>
+<lb n="P37vC1L11-cw1"/><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ϫⲓⲛ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ϣⲁⲣⲉⲡ</w><w>ⲁⲩⲱ</w><w><supplied reason="lacuna">ⲙ</supplied>
+<lb break="no" xml:id="P37vC1L12-cw1" n="12"/><supplied reason="lacuna">ⲡϥⲟϩⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲣ</supplied>ⲉⲧ᷍ϥ</w><w>ϩ᷍ⲛ</w><w>ⲧⲙⲉⲓ<unclear>̈</unclear></w>
+<lb n="P37vC1L13-cw1"/><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲛ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>ⲉⲓ̈</w><w>ϣⲁⲁⲡ</w><w>ϩⲣⲏⲓ̈</w>
+<lb n="P37vC1L14-cw1"/><w><supplied reason="lacuna">ⲛϩⲏⲧϥ</supplied></w><w><supplied reason="lacuna">ⲉⲣ</supplied>ⲉⲡϭⲁⲗ</w><w><unclear>ⲇ</unclear><unclear>ⲉ</unclear></w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P37vC1L15-cw1" n="15"/><supplied reason="lacuna">ⲥⲉϫⲓ</supplied></w><w><supplied reason="lacuna">ⲉϣⲁ</supplied><unclear>ϥ</unclear>ⲥⲉϫⲓ</w><w>ⲉⲃⲁⲗ</w><w><supplied reason="illegible">ϩ</supplied><supplied reason="lacuna">ⲛ</supplied></w>
+<lb n="P37vC1L16-cw1"/><w><supplied reason="lacuna">ⲛⲉⲧⲉⲛⲟ</supplied>ⲩϥ</w><w>ⲛⲉ</w><w>ϫⲉ</w><w>ⲟⲩⲣⲉ<supplied reason="lacuna">ϥ</supplied>
+<lb break="no" xml:id="P37vC1L17-cw1" n="17"/><supplied reason="lacuna">ϫⲓ</supplied></w><w><supplied reason="lacuna">ϭⲁⲗ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ⲉ</w><w>ⲛ᷍ⲙ</w><w>ⲡⲉϥⲕⲉⲓ̈ⲱ<supplied reason="lacuna">ⲧ</supplied></w>
+<lb n="P37vC1L18-cw1"/></ab><ab n="B04K8V45"><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w>ϫⲉ</w><w>ϯϫⲱ</w><w>ⲛ̂ⲧⲙⲉⲓ̈</w>
+<lb n="P37vC1L19-cw1"/><w><supplied reason="lacuna">ⲛⲧⲉⲧⲛⲡⲓⲥ</supplied>ⲧⲉⲩⲉ</w><w>ⲉⲣ<unclear>ⲁ</unclear><supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="illegible">ⲉ</supplied><supplied reason="lacuna">ⲛ</supplied></w>
+<pb xml:id="P38r-cw1" n="38r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3744/3521_12r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_12r.tif;cc=apis;entryid=x-3744;quality=1;view=image"/>
+<cb n="P38rC1-cw1"/><note type="editorial">Husselman f. 12r</note>
+<lb n="P38rC1L1-cw1"/></ab><ab n="B04K8V46"><w><unclear>ⲛ</unclear><unclear>ⲓ</unclear><unclear>ⲙ</unclear></w><w><unclear>ⲛ</unclear><supplied reason="illegible">ϩⲏⲧ</supplied></w><w><unclear>ⲧ</unclear>ⲏⲛⲟⲩ</w><w>ⲡⲉⲧ
+<lb break="no" xml:id="P38rC1L2-cw1" n="2"/>ⲛⲁϫⲡⲓⲁⲓ̈</w><w>ⲉⲧⲃⲉ<supplied reason="lacuna">ⲩ</supplied>ⲛⲁⲃⲓ</w>
+<lb n="P38rC1L3-cw1"/><w><supplied reason="lacuna">ⲉϣϫ</supplied><unclear>ⲉ</unclear></w><w>ⲉⲁⲓ̈ϫⲱ</w><w>ⲛⲧⲙⲉ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲧⲃ<unclear>ⲉ</unclear></w>
+<lb n="P38rC1L4-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">8.47-8.48</note><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K8V49"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲁⲙ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w>
+<pb xml:id="P38v-cw1" n="38v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3745/3521_12v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_12v.tif;cc=apis;entryid=x-3745;quality=1;view=image"/>
+<cb n="P38vC1-cw1"/><note type="editorial">Husselman f. 12v</note>
+<lb n="P38vC1L1-cw1"/><w>ϫⲉ</w><w>ⲁⲛⲁⲕ⳿</w><w>ⲙ̂ⲙ᷍ⲛ</w><w>ⲇⲉⲙ<unclear>ⲟ</unclear>ⲛ<supplied reason="illegible">ⲓ</supplied>᷍
+<lb break="no" xml:id="P38vC1L2-cw1" n="2"/><supplied reason="illegible">ⲟⲛ</supplied></w><w><supplied reason="illegible">ⲛ</supplied>᷍<unclear>ⲙ</unclear><unclear>ⲙ</unclear><unclear>ⲉ</unclear><unclear>ⲓ</unclear></w><w>ⲁⲗⲗⲁ</w><w><unclear>ϯ</unclear>ⲧⲁⲓ̈ⲁ</w><w>ⲙ̂
+<lb break="no" xml:id="P38vC1L3-cw1" n="3"/><unclear>ⲡ</unclear><unclear>ⲁ</unclear><supplied reason="lacuna">ⲓ</supplied>ⲱⲧ</w><w>ⲛ̂ⲧ<unclear>ⲱ</unclear><unclear>ⲧ</unclear>ⲛ</w><w><supplied reason="lacuna">4-5</supplied></w>
+<lb n="P38vC1L4-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">8.50-8.51</note></ab><ab n="B04K8V52"><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲛϥⲛⲉϫⲓ</supplied></w><w><supplied reason="lacuna">ϯ</supplied>
+<pb xml:id="P39r-cw1" n="39r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3746/3521_13r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_13r.tif;cc=apis;entryid=x-3746;quality=1;view=image" break="no"/>
+<cb n="P39rC1-cw1"/><note type="editorial">Husselman f. 13r</note>
+<lb n="P39rC1L1-cw1"/>ⲡⲓ</w><w>ⲡ<unclear>ⲙ</unclear>ⲟⲩ</w><w><supplied reason="illegible">ϣ</supplied>ⲁ</w><w><supplied reason="lacuna">ⲉⲛⲉ</supplied><unclear>ϩ</unclear></w></ab><ab n="B04K8V53"><w><supplied reason="lacuna">ⲙⲏ</supplied></w>
+<lb n="P39rC1L2-cw1"/><w><supplied reason="illegible">ⲛⲉ</supplied>ⲕ⳿</w><w>ⲛ̂ⲧⲁⲕ</w><w>ⲉⲡⲉⲛⲓⲱⲧ</w><w>ⲁ
+<lb break="no" xml:id="P39rC1L3-cw1" n="3"/><unclear>ⲃ</unclear>ⲣⲁϩⲁⲙ⳿</w><w>ⲡⲉ<unclear>ⲛ</unclear>ⲧⲉϩⲁ<unclear>ϥ</unclear>ⲙⲟⲩ</w>
+<lb n="P39rC1L4-cw1"/><w><supplied reason="lacuna">ⲙⲛ</supplied></w><w>ⲙ<unclear>̂</unclear><supplied reason="lacuna">ⲡⲣ</supplied><unclear>ⲟ</unclear><unclear>ⲫ</unclear><unclear>ⲏ</unclear><supplied reason="lacuna">ⲧ</supplied><unclear>ⲏ</unclear><unclear>ⲥ</unclear></w><gap extent="3" unit="line" reason="illegible"/>
+<lb n="P39rC1L5-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">8.54</note></ab><ab n="B04K8V55"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P39v-cw1" n="39v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3747/3521_13v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_13v.tif;cc=apis;entryid=x-3747;quality=1;view=image"/>
+<cb n="P39vC1-cw1"/><note type="editorial">Husselman f. 13v</note>
+<lb n="P39vC1L1-cw1"/><w>ⲁⲩⲱ</w><w>ϯⲁⲣⲉϩ</w><w>ⲉⲡⲉϥⲥⲉϫⲓ</w>
+<lb n="P39vC1L2-cw1"/></ab><ab n="B04K8V56"><w>ⲁⲃⲣⲁϩⲁⲙ</w><w>ⲡⲉⲧ᷍ⲛⲓ̈ⲱⲧ⳿</w>
+<lb n="P39vC1L3-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">8.57-9.1</note>
+<lb n="P39vC1L4-cw1"/></ab></div><div type="chapter" n="B04K9"><ab n="B04K9V2"><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ϩⲁⲩϫⲛⲟⲩϥ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥⲙⲁⲑⲏ</supplied>
+<pb xml:id="P40r-cw1" n="40r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3748/3521_14r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_14r.tif;cc=apis;entryid=x-3748;quality=1;view=image" break="no"/>
+<cb n="P40rC1-cw1"/><note type="editorial">Husselman f. 14r</note>
+<lb n="P40rC1L1-cw1"/>ⲧⲏⲥ</w><w>ⲉⲩϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ϫⲉ</w><w>ϩⲣ<unclear>ⲁ</unclear><unclear>ⲃ</unclear>
+<lb break="no" xml:id="P40rC1L2-cw1" n="2"/>ⲃⲓ̈</w><w>ⲛⲓⲙ</w><w>ⲡⲉⲧⲉϩⲁϥ<supplied reason="lacuna">ⲣ</supplied></w><w>ⲛⲁ<unclear>ⲃ</unclear><unclear>ⲓ</unclear></w>
+<lb n="P40rC1L3-cw1"/><w><unclear>ⲡ</unclear><unclear>ⲉ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲡ</unclear><unclear>ⲉ</unclear></w><w>ϫⲉ</w><w>ⲛⲉϥⲓⲁ<supplied reason="illegible">ϯ</supplied></w><w><supplied reason="illegible">ⲛⲉ</supplied></w>
+<lb n="P40rC1L4-cw1"/><w><supplied reason="lacuna">8-10</supplied><supplied reason="illegible">6-8</supplied></w><note type="editorial">9.3-9.5</note>
+<lb n="P40rC1L5-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L6-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L7-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L8-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L9-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L11-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L13-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40rC1L14-cw1"/></ab><ab n="B04K9V6"><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲉⲣⲉϥϫⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲓ</supplied></w>
+<pb xml:id="P40v-cw1" n="40v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3749/3521_14v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_14v.tif;cc=apis;entryid=x-3749;quality=1;view=image"/>
+<cb n="P40vC1-cw1"/><note type="editorial">Husselman f. 14v</note>
+<lb n="P40vC1L1-cw1"/><w>ϩⲁϥϩⲓⲟⲩⲓ̈</w><w>ⲛⲟⲩⲧⲉϥ</w><w>ⲉ
+<lb break="no" xml:id="P40vC1L2-cw1" n="2"/>ⲡⲉⲥⲏⲧ⳿</w><w>ϩⲁϥⲧⲁⲙⲓⲉ</w><w>ⲟⲩ
+<lb break="no" xml:id="P40vC1L3-cw1" n="3"/>ⲁⲙⲓ</w><w><unclear>ⲉ</unclear><unclear>ⲃ</unclear><supplied reason="lacuna">ⲁ</supplied>ⲗ</w><w>ϩ᷍ⲛ</w><w>ⲡⲧⲉϥ</w><gap extent="3" unit="line" reason="lacuna"/>
+<lb n="P40vC1L4-cw1"/><w><supplied reason="illegible">3-4</supplied></w><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">9.7</note>
+<lb n="P40vC1L5-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40vC1L6-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40vC1L7-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P40vC1L8-cw1"/></ab><ab n="B04K9V8"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P41r-cw1" n="41r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3750/3521R_15.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_15r.tif;cc=apis;entryid=x-3750;quality=1;view=image"/>
+<cb n="P41rC1-cw1"/><note type="editorial">Husselman f. 15r</note>
+<lb n="P41rC1L1-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P41rC1L2-cw1"/><w>ⲉϥ<unclear>ϣ</unclear><supplied reason="lacuna">ⲉ</supplied><unclear>ⲧ</unclear>⳿</w><w>ⲙ᷍ⲛⲧⲛⲉ<unclear>ⲓ</unclear></w>
+<lb n="P41rC1L3-cw1"/></ab><ab n="B04K9V9"><w>ϩⲉⲛ<supplied reason="lacuna">ⲕ</supplied>ⲁⲩⲓ̈</w><w>ⲛⲁⲩϫⲱ</w><w>ⲙ
+<lb break="no" xml:id="P41rC1L4-cw1" n="4"/>ⲙ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">ϫ</supplied><unclear>ⲉ</unclear></w><w>ⲡⲉⲓ̈</w><w>ⲡⲉ</w><w>ϩⲉ<supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P41rC1L5-cw1" n="5"/>ⲕⲁ<supplied reason="lacuna">ⲩ</supplied><unclear>ⲓ</unclear></w><w>ⲇⲉ</w><w>ϫⲉ</w><w>ⲁϥⲓⲛⲓ</w><w>ⲙ
+<lb break="no" xml:id="P41rC1L6-cw1" n="6"/>ⲙ<unclear>ⲁ</unclear><supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ⲛⲧ</supplied>ⲁϥ</w><w>ⲇⲉ</w><w>ⲛⲁ<unclear>ϥ</unclear>
+<lb break="no" xml:id="P41rC1L7-cw1" n="7"/>ϫ<unclear>ⲱ</unclear></w><w><supplied reason="lacuna">ⲙⲙⲁ</supplied><unclear>ⲥ</unclear></w><w>ϫⲉ</w><w>ⲁⲛⲁ<unclear>ⲕ</unclear></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<lb n="P41rC1L8-cw1"/></ab><ab n="B04K9V10"><w>ⲡⲉ<supplied reason="lacuna">ϫⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied><unclear>ⲉ</unclear>ϥ</w><w>ϫⲉ</w><w>ⲛ̂<unclear>ⲉ</unclear><supplied reason="lacuna">ϣ</supplied></w>
+<lb n="P41rC1L9-cw1"/><w>ϭⲏ</w><w>ⲛ̂<supplied reason="lacuna">ϩⲏ</supplied></w><w><supplied reason="lacuna">ϩⲁ</supplied><unclear>ⲩ</unclear><unclear>ⲟ</unclear>ⲩ<unclear>ⲁ</unclear>ⲛ⳿</w><w><unclear>ⲛ</unclear>
+<lb break="no" xml:id="P41rC1L10-cw1" n="10"/>ϫⲓ</w><w>ⲛ<supplied reason="lacuna">ⲉⲕⲃⲉⲗ</supplied></w></ab><ab n="B04K9V11"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟ</supplied>
+<lb break="no" xml:id="P41rC1L11-cw1" n="11"/>ϩ᷍ⲙ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲓⲣⲱⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲟⲩ</supplied>
+<lb break="no" xml:id="P41rC1L12-cw1" n="12"/>ⲙⲟ<unclear>ⲩ</unclear><supplied reason="lacuna">ϯ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁϥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w>
+<lb n="P41rC1L13-cw1"/><w>ⲡⲉ<supplied reason="lacuna">ⲧⲉ</supplied><supplied reason="illegible">ϩⲁϥⲧⲁⲙⲓⲉ</supplied></w>
+<lb n="P41rC1L14-cw1"/><w><unclear>ⲟ</unclear><unclear>ⲩ</unclear><supplied reason="lacuna">ⲓⲁⲙⲓ</supplied></w><w>ϩⲁϥϫⲉ<unclear>ϩ</unclear></w>
+<lb n="P41rC1L15-cw1"/><w><supplied reason="lacuna">ⲛⲁⲃⲉ</supplied>ⲗ</w><w>ⲁⲩⲱ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P41rC1L16-cw1" n="16"/><supplied reason="lacuna">ϫⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ⲉⲓ̈</w><w>ϫⲉ</w><w><unclear>ⲙ</unclear><supplied reason="lacuna">ⲁ</supplied>
+<pb xml:id="P41v-cw1" n="41v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3751/3521V_15.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_15v.tif;cc=apis;entryid=x-3751;quality=1;view=image" break="no"/>
+<cb n="P41vC1-cw1"/><note type="editorial">Husselman f. 15v</note>
+<lb n="P41vC1L1-cw1"/><supplied reason="illegible">ϣⲉ</supplied></w><w><unclear>ⲛ</unclear>ⲉⲕ</w><w>ⲉⲡⲥⲓ<unclear>ⲗ</unclear><unclear>ⲟ</unclear>ⲩ
+<lb break="no" xml:id="P41vC1L2-cw1" n="2"/><supplied reason="lacuna">ϩ</supplied><unclear>ⲁ</unclear><unclear>ⲙ</unclear>⳿</w><w><unclear>ⲛ</unclear>ⲅ<unclear>̅</unclear><unclear>ⲓ</unclear><unclear>ⲁ</unclear></w><w>ⲡⲉⲕ<unclear>ϩ</unclear><unclear>ⲁ</unclear></w>
+<lb n="P41vC1L3-cw1"/><w><supplied reason="lacuna">ϩ</supplied><unclear>ⲁ</unclear>ⲓ<unclear>̈</unclear>ϣⲉ</w><w>ⲛⲏⲓ̈</w><w>ⲇⲉ</w><w><supplied reason="lacuna">ϩ</supplied><unclear>ⲁ</unclear><unclear>ⲓ</unclear>ⲓⲁ</w>
+<lb n="P41vC1L4-cw1"/><w><supplied reason="lacuna">ⲡⲁ</supplied><unclear>ϩ</unclear><unclear>ⲁ</unclear></w><w>ⲁⲩⲱ</w><w>ϩⲁⲓⲛ<unclear>ⲉ</unclear><unclear>ⲩ</unclear></w><w>ⲉⲃⲁⲗ</w>
+<lb n="P41vC1L5-cw1"/></ab><ab n="B04K9V12"><w>ⲡⲉϫⲁⲩ</w><w>ⲛⲉϥ</w><w>ϫ<unclear>ⲉ</unclear></w><w>ⲁϥⲧⲱ
+<lb break="no" xml:id="P41vC1L6-cw1" n="6"/>ⲛⲉ</w><w>ⲡⲉϫⲉϥ</w><w>ϫⲉ</w><w>ϯⲥⲁⲩ
+<lb break="no" xml:id="P41vC1L7-cw1" n="7"/>ⲛ</w><w>ⲉⲛ</w><pc>•</pc></ab><ab n="B04K9V13"><w>ϩⲁⲩ<supplied reason="lacuna">ⲓ</supplied><unclear>ⲛ</unclear><unclear>ⲓ</unclear></w><w><supplied reason="lacuna">ⲙ</supplied>ⲡⲉⲧ<unclear>ⲉ</unclear>
+<lb break="no" xml:id="P41vC1L8-cw1" n="8"/>ⲛⲁϥⲁⲓ̈</w><w>ⲛ̂ⲃⲗ<supplied reason="lacuna">ⲗ</supplied><unclear>ⲏ</unclear></w><w><unclear>ⲉ</unclear><unclear>ⲣ</unclear>ⲉ
+<lb break="no" xml:id="P41vC1L9-cw1" n="9"/>ⲧⲟⲩ</w><w>ⲛ̂ⲛ<unclear>ⲉ</unclear><supplied reason="lacuna">ⲫⲁⲣⲓⲥⲉ</supplied><unclear>ⲟ</unclear>ⲥ</w></ab><ab n="B04K9V14"><w>ⲛⲉ
+<lb break="no" xml:id="P41vC1L10-cw1" n="10"/><unclear>ⲡ</unclear>ⲥⲁⲃⲃⲁ<supplied reason="lacuna">ⲧⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w>ⲛⲧⲉ<unclear>ⲣ</unclear>ⲉ
+<lb break="no" xml:id="P41vC1L11-cw1" n="11"/><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ⲧⲁⲙⲓⲁ</supplied></w><w>ⲙ̂ⲡⲓⲁⲙⲓ</w>
+<lb n="P41vC1L12-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲱⲛ</supplied></w><w>ⲛ̂ⲛⲉϥ
+<lb break="no" xml:id="P41vC1L13-cw1" n="13"/><supplied reason="lacuna">ⲃⲉ</supplied>ⲗ</w></ab><ab n="B04K9V15"><w>ϩⲁ<supplied reason="lacuna">ⲩϫⲛⲟⲩ</supplied><unclear>ϥ</unclear></w><w>ⲇⲉ</w><w>ⲁⲛ</w>
+<lb n="P41vC1L14-cw1"/><w><supplied reason="lacuna">ⲛϫ</supplied>ⲓ̂</w><w>ⲛⲉⲫⲁⲣⲓ<supplied reason="lacuna">ⲥⲉⲟ</supplied><unclear>ⲥ</unclear></w><w>ϫⲉ</w>
+<lb n="P41vC1L15-cw1"/><w><supplied reason="lacuna">ⲁϩⲁ</supplied>ⲕⲛ<unclear>ⲉ</unclear>ⲩ</w><w>ⲉⲃ<supplied reason="lacuna">ⲁⲗ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ⲉϣ</w><w><unclear>ⲛ</unclear>ϩⲏ</w>
+<lb n="P41vC1L16-cw1"/><w><supplied reason="lacuna">ⲛ</supplied>ⲧⲁϥ</w><w>ⲇⲉ</w><w>ⲡⲉ<supplied reason="lacuna">ϫⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛⲁ</supplied><unclear>ⲩ</unclear></w>
+<lb n="P41vC1L17-cw1"/><w><supplied reason="illegible">ϫⲉ</supplied></w><w>ϩⲁϥⲗⲁⲗⲱ</w><w><supplied reason="lacuna">ⲛⲟⲩⲁⲙⲓ</supplied></w>
+<lb n="P41vC1L18-cw1"/><w><supplied reason="lacuna">ⲉ</supplied>ⲛⲁⲃⲉⲗ</w><w>ⲁ<supplied reason="lacuna">ⲩⲱ</supplied></w><w><supplied reason="lacuna">ϩⲁⲓⲓⲁ</supplied></w>
+<pb xml:id="P42r-cw1" n="42r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3752/3521_16r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_16r.tif;cc=apis;entryid=x-3752;quality=1;view=image"/>
+<cb n="P42rC1-cw1"/><note type="editorial">Husselman f. 16r</note>
+<lb n="P42rC1L1-cw1"/><w><supplied reason="illegible">ϩⲁⲓⲛⲉⲩ</supplied></w><w><supplied reason="illegible">ⲉⲃⲁⲗ</supplied></w></ab><ab n="B04K9V16"><w><supplied reason="illegible">ⲡⲉϫⲉ</supplied></w>
+<lb n="P42rC1L2-cw1"/><w><unclear>ⲛ</unclear><unclear>ⲉ</unclear>ⲟⲩⲛ</w><w>ϩⲁⲓ<unclear>ⲛ</unclear><unclear>ⲉ</unclear></w><w>ⲇ<supplied reason="lacuna">ⲉ</supplied></w><w>ϫ<unclear>ⲱ</unclear></w>
+<lb n="P42rC1L3-cw1"/><w>ⲙⲙⲁⲥ</w><w>ⲉⲃⲁⲗ</w><w>ϩⲛ̂</w><w>ⲛⲉⲫⲁ<unclear>ⲣ</unclear><supplied reason="lacuna">ⲓ</supplied>
+<lb break="no" xml:id="P42rC1L4-cw1" n="4"/>ⲥⲉⲟⲥ</w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w>ⲡⲉⲓ̈ⲣⲱⲙⲓ</w><w>ⲛ
+<lb break="no" xml:id="P42rC1L5-cw1" n="5"/>ⲟⲩⲉ<supplied reason="lacuna">ⲃⲁⲗ</supplied></w><w>ϩⲓⲧ᷍ⲛ</w><w>ⲫ̅ϯ̅</w><w>ⲉⲛ</w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<lb n="P42rC1L6-cw1"/><w><unclear>ϫ</unclear>ⲉ</w><w><supplied reason="illegible">ⲛ</supplied><supplied reason="lacuna">ϥⲁ</supplied><supplied reason="illegible">ⲣⲉ</supplied><unclear>ϩ</unclear></w><w><unclear>ⲉ</unclear>ⲛ</w><w><supplied reason="lacuna">ⲉ</supplied><unclear>ⲡ</unclear>ⲥ<unclear>ⲁ</unclear>
+<lb break="no" xml:id="P42rC1L7-cw1" n="7"/>ⲃⲁ<unclear>ⲧ</unclear><supplied reason="lacuna">ⲟⲛ</supplied></w><w><unclear>ϩ</unclear><unclear>ⲉ</unclear><unclear>ⲛ</unclear><unclear>ⲕ</unclear>ⲁⲩⲓ</w><w><unclear>ⲇ</unclear><supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P42rC1L8-cw1"/><w>ⲛⲁ<unclear>ⲩ</unclear><supplied reason="lacuna">ϫⲱ</supplied></w><w>ⲙ<unclear>̂</unclear>ⲙ<unclear>ⲁ</unclear><supplied reason="illegible">ⲥ</supplied></w><w><unclear>ϫ</unclear><supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P42rC1L9-cw1"/><w>ⲛ̂ⲉ<unclear>ϣ</unclear></w><w><supplied reason="lacuna">ⲛϩⲏ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲛ</supplied></w><w><supplied reason="lacuna">ϭⲁⲙ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P42rC1L10-cw1" n="10"/>ⲟⲩ<supplied reason="lacuna">ⲣⲱⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲣⲉϥⲣⲛⲁ</supplied>
+<lb break="no" xml:id="P42rC1L11-cw1" n="11"/>ⲃⲓ</w><w><unclear>ⲁ</unclear><supplied reason="lacuna">ⲣ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲓⲙⲁⲉⲓⲛⲓ</supplied></w>
+<lb n="P42rC1L12-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K9V17"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P42v-cw1" n="42v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3753/3521_16v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_16v.tif;cc=apis;entryid=x-3753;quality=1;view=image"/>
+<cb n="P42vC1-cw1"/><note type="editorial">Husselman f. 16v</note>
+<lb n="P42vC1L1-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P42vC1L2-cw1"/><w>ⲟⲩⲡⲣⲟⲫⲏⲧⲏⲥ</w><w>ⲡⲉ</w>
+<lb n="P42vC1L3-cw1"/></ab><ab n="B04K9V18"><w>ⲛⲉ</w><w>ⲙ̂ⲡⲟⲩⲡⲓⲥⲧⲉⲩⲉ</w><w>ⲇⲉ</w>
+<lb n="P42vC1L4-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲛⲓⲟⲩ<unclear>ⲇ</unclear><supplied reason="lacuna">ⲉ</supplied>ⲓ̈</w><w><unclear>ⲉ</unclear>ⲧⲃⲏⲧ᷍ϥ</w>
+<lb n="P42vC1L5-cw1"/><w>ϫⲉ</w><w>ⲛⲉ</w><w>ⲟⲩⲃ<supplied reason="lacuna">ⲗⲗⲏ</supplied></w><w>ⲡⲉ</w><w>ⲁⲩ<unclear>ⲱ</unclear></w>
+<lb n="P42vC1L6-cw1"/><w>ϩⲁϥⲛⲉⲩ</w><w>ⲉⲃ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲗ</supplied></w><w><supplied reason="lacuna">ϣ</supplied>ⲁⲛ⳿ⲧⲟⲩ
+<lb break="no" xml:id="P42vC1L7-cw1" n="7"/>ⲙⲟⲩϯ</w><w>ⲉⲛ<supplied reason="lacuna">ⲓⲁ</supplied>ϯ</w><w>ⲙⲡⲉ<unclear>ⲧ</unclear><unclear>ⲉ</unclear>
+<lb break="no" xml:id="P42vC1L8-cw1" n="8"/>ϩⲁϥⲛⲉⲩ</w><w>ⲉⲃ<supplied reason="lacuna">ⲁⲗ</supplied></w><w><supplied reason="lacuna">ϣ</supplied>ⲁⲛ⳿ⲧⲟⲩ
+<lb break="no" xml:id="P42vC1L9-cw1" n="9"/><unclear>ⲙ</unclear>ⲟⲩϯ</w><w><unclear>ⲉ</unclear><unclear>ⲛ</unclear><supplied reason="lacuna">ⲓⲁ</supplied>ϯ</w><w>ⲙ̂ⲡⲉⲛ
+<lb break="no" xml:id="P42vC1L10-cw1" n="10"/><supplied reason="lacuna">ⲧ</supplied>ϩⲁϥⲛⲉⲩ</w><w><supplied reason="lacuna">ⲉⲃ</supplied><unclear>ⲁ</unclear><unclear>ⲗ</unclear></w></ab><ab n="B04K9V19"><w><unclear>ⲁ</unclear>ⲩ<unclear>ⲱ</unclear>
+<lb break="no" xml:id="P42vC1L11-cw1" n="11"/><supplied reason="lacuna">ⲁⲩϫⲛⲁⲩⲟ</supplied><unclear>ⲩ</unclear></w><w>ⲉⲩ<unclear>ϫ</unclear><unclear>ⲱ</unclear></w>
+<lb n="P42vC1L12-cw1"/><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ⲉⲧ᷍ⲛϣ
+<lb break="no" xml:id="P42vC1L13-cw1" n="13"/><supplied reason="lacuna">ϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁⲛ</supplied><unclear>ϫ</unclear>ⲡⲁ<supplied reason="lacuna">ϥ</supplied></w>
+<lb n="P42vC1L14-cw1"/><w><supplied reason="lacuna">ⲁϥⲟ</supplied></w><w><supplied reason="lacuna">ⲛⲃⲗⲗⲏ</supplied></w><w><supplied reason="lacuna">ⲛⲉϣ</supplied></w><w><unclear>ϭ</unclear><unclear>ⲏ</unclear></w><w>ⲛ̂<unclear>ϩ</unclear><unclear>ⲏ</unclear></w>
+<lb n="P42vC1L15-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">9.20</note>
+<pb xml:id="P43r-cw1" n="43r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3754/3521_17r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_17r.tif;cc=apis;entryid=x-3754;quality=1;view=image"/>
+<cb n="P43rC1-cw1"/><note type="editorial">Husselman f. 17r</note>
+<lb n="P43rC1L1-cw1"/></ab><ab n="B04K9V21"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P43rC1L2-cw1"/><w>ⲏ</w><w>ⲇⲉ</w><w>ⲛⲓⲙ</w><w>ⲡⲉⲧⲉ<supplied reason="illegible">ϩⲁϥⲟⲩ</supplied>
+<lb break="no" xml:id="P43rC1L3-cw1" n="3"/>ⲱⲛ⳿</w><w>ⲉⲛⲉϥⲃⲉⲗ</w><w>ⲁⲛⲁⲛ</w>
+<lb n="P43rC1L4-cw1"/><w>ⲛ̂ⲧ᷍ⲛ<supplied reason="illegible">ⲓⲙⲓ</supplied></w><w><supplied reason="illegible">ⲉⲛ</supplied></w><w><supplied reason="illegible">ⲛ</supplied><unclear>ⲧ</unclear><unclear>ⲁ</unclear><unclear>ϥ</unclear></w><w>ϩⲁϥⲣ̂</w>
+<lb n="P43rC1L5-cw1"/><w><supplied reason="illegible">ⲧⲉ</supplied></w><w>ⲧⲣⲉϥⲥⲉϫⲓ</w><w><unclear>ϩ</unclear><unclear>ⲁ</unclear><unclear>ⲣ</unclear><unclear>ⲁ</unclear><unclear>ϥ</unclear></w><w>ⲛ<unclear>̂</unclear>
+<lb break="no" xml:id="P43rC1L6-cw1" n="6"/>ⲟⲩⲁⲉϥ</w></ab><ab n="B04K9V22"><w>ⲛⲉⲓ</w><w>ⲅⲁⲣ</w><w>ϩⲁⲩ
+<lb break="no" xml:id="P43rC1L7-cw1" n="7"/><unclear>ϫ</unclear><unclear>ⲁ</unclear>ⲩ</w><w>ⲛ̂ϫⲓ̈</w><w>ⲛⲉϥⲓⲁϯ</w><w>ϫⲉ</w>
+<lb n="P43rC1L8-cw1"/><w>ⲛⲁⲩⲣ̂</w><w>ϩⲁϯ</w><w>ⲛ̂ⲑⲏ</w><w>ⲛ̂ⲛⲓⲟⲩ
+<lb break="no" xml:id="P43rC1L9-cw1" n="9"/>ⲇⲉⲓ<unclear>̈</unclear></w><w>ⲛ<unclear>ⲉ</unclear></w><w><supplied reason="illegible">8-11</supplied></w>
+<lb n="P43rC1L10-cw1"/><gap extent="8" unit="char" reason="illegible"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">9.23</note>
+<pb xml:id="P43v-cw1" n="43v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3755/3521_17v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_17v.tif;cc=apis;entryid=x-3755;quality=1;view=image"/>
+<cb n="P43vC1-cw1"/><note type="editorial">Husselman f. 17v</note>
+<lb n="P43vC1L1-cw1"/></ab><ab n="B04K9V24"><w>ϩⲁⲩⲙⲟⲩϯ</w><w>ⲇⲉ</w><w>ⲁⲛ</w><w>ⲉⲡⲣⲱ
+<lb break="no" xml:id="P43vC1L2-cw1" n="2"/>ⲙⲓ</w><w>ⲙ̂ⲡⲙⲉϩⲥⲉⲡ</w><w>ⲥⲛⲉⲩ</w>
+<lb n="P43vC1L3-cw1"/><w>ⲡⲉⲧⲛⲁϥⲁⲓ</w><w><unclear>ⲛ</unclear>̂<unclear>ⲃ</unclear><unclear>ⲗ</unclear>ⲗⲏ</w><w>ⲁⲩ
+<lb break="no" xml:id="P43vC1L4-cw1" n="4"/>ⲱ</w><w>ⲡⲉϫⲉⲩ</w><w>ⲛⲉϥ</w><w>ϫⲉ</w><w>ⲙⲁ
+<lb break="no" xml:id="P43vC1L5-cw1" n="5"/>ⲁⲟⲩ</w><w>ⲙ̂ⲫ̅ϯ̅</w><w>ⲁⲛⲁⲛ</w><w>ⲧ᷍ⲛ<unclear>ⲥ</unclear>ⲁ<unclear>ⲩ</unclear>
+<lb break="no" xml:id="P43vC1L6-cw1" n="6"/>ⲛ⳿</w><w>ϫⲉ</w><w><unclear>ⲡ</unclear>ⲉⲓ̈ⲣⲱⲙⲓ</w><w><unclear>ⲟ</unclear><unclear>ⲩ</unclear><unclear>ⲣ</unclear>ⲉϥ
+<lb break="no" xml:id="P43vC1L7-cw1" n="7"/>ⲣ̂ⲛⲁⲃⲓ</w><w>ⲡⲉ</w></ab><ab n="B04K9V25"><w>ϩⲁϥ<unclear>ⲟ</unclear>ⲩⲟϩⲙ⳿</w>
+<lb n="P43vC1L8-cw1"/><w>ⲛ̂ϫⲓ<unclear>̈</unclear></w><w>ⲡⲉⲧ᷍ⲙⲙⲉ<unclear>ⲩ</unclear></w><w>ϫⲉ</w>
+<lb n="P43vC1L9-cw1"/><w><unclear>ⲉ</unclear><unclear>ϣ</unclear><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲣ</supplied><unclear>ⲉ</unclear><unclear>ϥ</unclear><unclear>ⲣ</unclear>ⲛⲁⲃⲓ</w><w>ⲡⲉ
+<lb break="no" xml:id="P43vC1L10-cw1" n="10"/><supplied reason="lacuna">ϯⲥⲁⲩⲛ</supplied></w><w>ⲉⲛ</w><w>ⲟⲩ<unclear>ⲉ</unclear>ⲓ<unclear>̈</unclear></w><w><unclear>ⲇ</unclear><unclear>ⲉ</unclear></w>
+<lb n="P43vC1L11-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">9.26</note>
+<lb n="P43vC1L12-cw1"/></ab><ab n="B04K9V27"><w><supplied reason="lacuna">ϩⲁϥⲟⲩⲟϩⲙ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ϩⲁⲓ</supplied>
+<pb xml:id="P44r-cw1" n="44r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3756/3521_18r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_18r.tif;cc=apis;entryid=x-3756;quality=1;view=image" break="no"/>
+<cb n="P44rC1-cw1"/><note type="editorial">Husselman f. 18r</note>
+<lb n="P44rC1L1-cw1"/>ⲟⲩⲱ</w><w>ⲉⲓϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ⲛⲏ
+<lb break="no" xml:id="P44rC1L2-cw1" n="2"/>ⲧ᷍ⲛ</w><w>ⲁⲩⲱ</w><w>ⲙ̂<unclear>ⲡ</unclear><unclear>ⲉ</unclear>ⲧ᷍ⲛⲥⲱ
+<lb break="no" xml:id="P44rC1L3-cw1" n="3"/>ⲧ᷍ⲙ</w><w>ⲟⲩ</w><w><supplied reason="lacuna">ⲟⲩ</supplied><unclear>ⲛ</unclear></w><w>ⲁⲛ</w><w>ⲡⲉⲧⲉ
+<lb break="no" xml:id="P44rC1L4-cw1" n="4"/>ⲧ᷍ⲛⲟⲩⲉϣ</w><w>ⲥⲁⲧⲙⲉϥ</w><w>ⲙⲏ</w>
+<lb n="P44rC1L5-cw1"/><w>ⲧⲉⲧ᷍ⲛⲟⲩ<unclear>ⲉ</unclear>ϣ</w><w>ⲉⲣ̂</w><w>ⲙⲁⲑⲏ
+<lb break="no" xml:id="P44rC1L6-cw1" n="6"/>ⲧⲏⲥ</w><w>ⲛⲏ<unclear>ϥ</unclear></w><w><supplied reason="illegible">ϩ</supplied><unclear>ⲱ</unclear>ⲧ᷍ⲛ</w></ab><ab n="B04K9V28"><w><supplied reason="illegible">ϩ</supplied>ⲁⲩ
+<lb break="no" xml:id="P44rC1L7-cw1" n="7"/>ⲥⲉϩⲟⲩ</w><w>ⲙ̂<unclear>ⲙ</unclear><supplied reason="illegible">ⲁϥ</supplied></w><w><unclear>ⲉ</unclear>ⲩϫⲱ</w>
+<lb n="P44rC1L8-cw1"/><w>ⲙ̂ⲙⲁⲥ</w><w>ϫ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲛⲧ</supplied>ⲁⲕ</w><w>ⲡⲉ</w>
+<lb n="P44rC1L9-cw1"/><w>ⲡⲙⲁⲑⲏⲧⲏ<supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>ⲡⲉⲧ᷍ⲙ
+<lb break="no" xml:id="P44rC1L10-cw1" n="10"/>ⲙⲉⲩ</w><w>ⲁⲛ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁ</supplied>ⲛ</w><w>ⲙ̂
+<lb break="no" xml:id="P44rC1L11-cw1" n="11"/>ⲙⲁⲑⲏⲧⲏⲥ</w><w><supplied reason="lacuna">ⲙⲙ</supplied>ⲱⲩ<unclear>ⲥ</unclear>ⲏⲥ</w>
+<lb n="P44rC1L12-cw1"/></ab><ab n="B04K9V29"><w>ⲁⲛⲁ<unclear>ⲛ</unclear></w><w>ⲧⲛⲥ<supplied reason="lacuna">ⲁⲩⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ϩⲁ</supplied>
+<lb break="no" xml:id="P44rC1L13-cw1" n="13"/>ⲫ̅ϯ̅</w><w>ⲥⲉϫⲓ</w><w>ⲛ<supplied reason="lacuna">ⲉⲙ</supplied></w><w><supplied reason="lacuna">ⲙⲱ</supplied>
+<lb break="no" xml:id="P44rC1L14-cw1" n="14"/>ⲩ̈ⲥⲏⲥ</w><w>ⲡ<unclear>ⲉ</unclear><supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁϥ</supplied></w>
+<lb n="P44rC1L15-cw1"/><w>ⲛ᷍ⲧⲛ̂ⲥⲁⲩ<supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P44rC1L16-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P44rC1L17-cw1"/></ab><ab n="B04K9V30"><w><supplied reason="lacuna">ϩⲁⲡⲣⲱⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲱϩⲙ</supplied></w><w><supplied reason="lacuna">ⲉϥ</supplied>
+<pb xml:id="P44v-cw1" n="44v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3757/3521_18v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_18v.tif;cc=apis;entryid=x-3757;quality=1;view=image" break="no"/>
+<cb n="P44vC1-cw1"/><note type="editorial">Husselman f. 18v</note>
+<lb n="P44vC1L1-cw1"/>ϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ϫⲉ</w><w>ⲧⲉⲓ̈</w><w>ⲣⲱ</w>
+<lb n="P44vC1L2-cw1"/><w>ⲧⲉ</w><w>ⲧⲉϣⲡⲏⲣⲓ̈</w><w>ϫⲉ</w><w>ⲛ̂ⲧⲉ
+<lb break="no" xml:id="P44vC1L3-cw1" n="3"/>ⲧ᷍ⲛⲥⲁⲩⲛ⳿</w><w><supplied reason="illegible">ⲉⲛ</supplied></w><w>ϫⲉ</w><w>ⲟⲩⲉⲃⲁⲗ</w>
+<lb n="P44vC1L4-cw1"/><w>ⲧⲱⲛ</w><w>ⲡⲉ</w><w>ⲁⲩⲱ</w><w>ϩⲁϥⲟⲩⲱ⳱</w>
+<lb n="P44vC1L5-cw1"/><w>ⲛ̂ⲛⲁⲃⲉⲗ</w></ab><ab n="B04K9V31"><w>ⲧ᷍ⲛⲥⲁⲩⲛ⳿</w><w>ϫⲉ</w>
+<lb n="P44vC1L6-cw1"/><w>ⲙⲉⲣⲉⲫ̅ϯ̅</w><w>ⲥⲱⲧ᷍ⲙ</w><w>ⲉⲣⲉϥ
+<lb break="no" xml:id="P44vC1L7-cw1" n="7"/>ⲉⲣⲛⲁ<unclear>ⲃ</unclear><unclear>ⲓ</unclear></w><w>ⲁⲗⲗⲁ</w><w>ⲉϣⲱⲡⲓ̈</w>
+<lb n="P44vC1L8-cw1"/><w>ⲉⲟⲩ<supplied reason="lacuna">ⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>ⲉ</w><w>ⲉϥϣ᷍ⲙϣⲓ</w><w>ⲙ̂
+<lb break="no" xml:id="P44vC1L9-cw1" n="9"/>ⲫ̅ϯ̅</w><w><supplied reason="lacuna">ⲁⲩ</supplied>ⲱ</w><w>ⲉϥⲓⲣⲓ</w><w>ⲙ᷍ⲡⲉⲧⲉ
+<lb break="no" xml:id="P44vC1L10-cw1" n="10"/>ϩⲛⲉ<supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ϣ</supplied><unclear>ⲁ</unclear>ϥⲥⲱⲧ᷍ⲙ</w><w>ⲉⲣⲁϥ</w>
+<lb n="P44vC1L11-cw1"/></ab><ab n="B04K9V32"><w>ⲉϫ<supplied reason="lacuna">ⲓⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied>ⲉϩ</w><w>ⲙ̂ⲡⲉⲛⲥⲱⲧ᷍ⲙ</w>
+<lb n="P44vC1L12-cw1"/><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ϩⲁⲟⲩ</supplied>ⲉⲓ</w><w>ⲟⲩⲱⲛ</w><w>ⲉⲛⲉⲙ̂
+<lb break="no" xml:id="P44vC1L13-cw1" n="13"/><supplied reason="lacuna">ⲃⲉⲗ</supplied></w><w><supplied reason="lacuna">ⲛⲟⲩ</supplied>ⲉⲓ̈</w><w>ⲉϩⲁⲩϫⲡⲁϥ</w>
+<lb n="P44vC1L14-cw1"/><w><supplied reason="lacuna">ⲉϥⲁⲓ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied><unclear>ⲃ</unclear>ⲗⲗⲏ</w></ab><ab n="B04K9V33"><w>ⲉⲛⲉ</w><w>ⲟⲩ
+<lb break="no" xml:id="P44vC1L15-cw1" n="15"/><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><supplied reason="lacuna">ⲫ̅</supplied>ϯ̅</w><w>ⲉⲛ</w><w>ⲡⲉ</w><w>ⲡⲉⲓ̈</w>
+<lb n="P44vC1L16-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K9V34"><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁⲩϫⲡⲁⲕ</supplied></w>
+<pb xml:id="P45r-cw1" n="45r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3758/3521_19r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_19r.tif;cc=apis;entryid=x-3758;quality=1;view=image"/>
+<cb n="P45rC1-cw1"/><note type="editorial">Husselman f. 19r</note>
+<lb n="P45rC1L1-cw1"/><w>ⲧⲏⲣⲉⲕ⳿</w><w>ϩⲛ̂</w><w>ⲡⲛⲁⲃⲓ</w><w>ⲁⲩⲱ</w>
+<lb n="P45rC1L2-cw1"/><w>ⲛ̂ⲧⲁⲕ⳿</w><w>ⲉϥⲛⲉϯ</w><w>ⲥ<unclear>ⲃ</unclear><unclear>ⲱ</unclear></w><w>ⲛⲉ<unclear>ⲛ</unclear></w>
+<lb n="P45rC1L3-cw1"/><w>ϩⲁⲩϩⲓⲧ᷍ϥ</w><w>ⲉⲃⲁⲗ</w></ab><ab n="B04K9V35"><w>ⲁⲩⲱ</w>
+<lb n="P45rC1L4-cw1"/><w>ϩⲁϥⲥⲱⲧⲙ̂</w><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ϫⲉ</w><w>ϩⲁⲩ
+<lb break="no" xml:id="P45rC1L5-cw1" n="5"/>ϩⲓⲧ᷍ϥ</w><w>ⲉⲃⲁⲗ</w><w><supplied reason="illegible">ⲁ</supplied>ⲩⲱ</w><w>ⲛ̂ⲧⲉ
+<lb break="no" xml:id="P45rC1L6-cw1" n="6"/>ⲣⲉϥϭⲓ<unclear>ⲛ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲙ</unclear>ⲙⲁϥ</w><w>ⲡⲉϫⲉϥ</w>
+<lb n="P45rC1L7-cw1"/><w>ⲛⲉϥ</w><w>ϫⲉ</w><w>ⲛ̂ⲧⲁⲕ⳿</w><w>ⲡⲓⲥⲧⲉⲩ
+<lb break="no" xml:id="P45rC1L8-cw1" n="8"/>ⲉ</w><w>ⲉⲡϣⲏⲣ<supplied reason="illegible">ⲓ</supplied></w><w>ⲙ̂ⲡⲣⲱⲙⲓ</w>
+<lb n="P45rC1L9-cw1"/></ab><ab n="B04K9V36"><w>ⲁⲩⲱ</w><w>ⲡⲉϫ<supplied reason="illegible">ⲉ</supplied>ϥ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w><w>ⲛⲓⲙ⳿</w>
+<lb n="P45rC1L10-cw1"/><w>ⲡⲉ</w><w>ⲡϫ̅ⲥ̅</w><w>ϫ<unclear>ⲉ</unclear></w><w><supplied reason="illegible">ⲉⲓ</supplied>ⲉ<unclear>ⲡ</unclear>ⲓⲥⲧⲉⲩⲉ</w>
+<lb n="P45rC1L11-cw1"/><w>ⲉⲣⲁϥ</w></ab><ab n="B04K9V38"><w>ⲡⲉϫ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲓ︦</supplied>ⲥ<unclear>̅</unclear></w><w>ⲛⲉϥ</w>
+<lb n="P45rC1L12-cw1"/><w>ϫⲉ</w><w>ϩⲁⲕ⳿ⲛⲉⲩ</w><w><supplied reason="lacuna">ⲉⲣ</supplied>ⲁϥ</w><w>ⲁⲩⲱ</w>
+<lb n="P45rC1L13-cw1"/><w>ⲡⲉⲧ⳿ⲥⲉϫⲓ</w><w><supplied reason="lacuna">ⲛⲙⲙ</supplied>ⲉⲕ⳿</w><w>ⲛ̂
+<lb break="no" xml:id="P45rC1L14-cw1" n="14"/>ⲧⲁϥ</w><w>ⲡⲉ</w></ab><ab n="B04K9V39"><w>ⲁϩ<unclear>ⲁ</unclear><supplied reason="lacuna">ⲓⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁ</supplied>ⲕ⳿</w><w>ⲉ
+<lb break="no" xml:id="P45rC1L15-cw1" n="15"/>ⲡⲉⲓ̈ⲕⲟⲥⲙ<supplied reason="lacuna">ⲟⲥ</supplied></w><w><supplied reason="lacuna">ⲉⲩϩⲉⲡ</supplied></w>
+<lb n="P45rC1L16-cw1"/><w>ϫⲉⲕⲉⲥ</w><w>ⲛⲉ<unclear>ⲧ</unclear><supplied reason="lacuna">ⲉⲛⲥⲉ</supplied>
+<lb break="no" xml:id="P45rC1L17-cw1" n="17"/>ⲛⲉⲩ</w><w>ⲉⲃⲁⲗ</w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲩⲉⲛⲉⲩ</supplied></w>
+<lb n="P45rC1L18-cw1"/><w>ⲉⲃⲁⲗ</w><w>ⲁⲩ<supplied reason="lacuna">ⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲧⲛⲉⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w>
+<pb xml:id="P45v-cw1" n="45v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3759/3521_19v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_19v.tif;cc=apis;entryid=x-3759;quality=1;view=image"/>
+<cb n="P45vC1-cw1"/><note type="editorial">Husselman f. 19v</note>
+<lb n="P45vC1L1-cw1"/><w>ⲛⲥⲉⲣ̂</w><w>ⲃ᷍ⲗⲗⲏ</w></ab><ab n="B04K9V40"><w>ϩⲁⲩⲥⲱ
+<lb break="no" xml:id="P45vC1L2-cw1" n="2"/>ⲧ᷍ⲙ⳿</w><w>ⲛ̂ϫⲓ</w><w>ϩⲁⲓ̈ⲛⲓ</w><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲛⲉ
+<lb break="no" xml:id="P45vC1L3-cw1" n="3"/>ⲫⲁⲣⲓⲥⲉⲟⲥ</w><w>ⲁⲩⲱ</w><w>ⲡⲉϫⲉⲩ</w>
+<lb n="P45vC1L4-cw1"/><w>ⲛⲉϥ</w><w>ϫⲉ</w><w>ⲙⲏ</w><w>ⲁⲛⲁⲛ</w><w>ϩⲉⲛ
+<lb break="no" xml:id="P45vC1L5-cw1" n="5"/>ⲃ᷍ⲗⲗⲏ</w><w>ϩⲱ<unclear>ⲛ</unclear></w></ab><ab n="B04K9V41"><w>ⲡⲉϫⲉ</w><w>ⲓ̅ⲥ̅</w>
+<lb n="P45vC1L6-cw1"/><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w><unclear>ⲉ</unclear><unclear>ⲛ</unclear><unclear>ⲉ</unclear></w><w>ⲛ̂ⲧⲉⲧ᷍ⲛ</w>
+<lb n="P45vC1L7-cw1"/><w>ϩⲉⲛⲃ᷍ⲗ<unclear>ⲗ</unclear>ⲏ</w><w>ⲣⲱ</w><w>ⲛⲉ</w><w>ⲙ̂
+<lb break="no" xml:id="P45vC1L8-cw1" n="8"/>ⲙ᷍ⲛ</w><w>ⲛⲁ<supplied reason="lacuna">ⲃ</supplied>ⲓ</w><w>ⲉⲣⲱⲧⲛ̂</w>
+<lb n="P45vC1L9-cw1"/><w>ⲧⲉ<unclear>ⲛ</unclear>ⲟⲩ</w><w><unclear>ⲇ</unclear>ⲉ</w><w>ⲧⲉⲧ᷍ⲛϫⲱ</w>
+<lb n="P45vC1L10-cw1"/><w>ⲙ̂ⲙ<supplied reason="lacuna">ⲁ</supplied><unclear>ⲥ</unclear></w><w>ϫⲉ</w><w>ⲧⲉⲧ᷍ⲛⲛⲉⲩ</w>
+<lb n="P45vC1L11-cw1"/><w>ⲉⲃⲁ<supplied reason="lacuna">ⲗ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ⲩⲱ</w><w>ⲡⲉⲧ᷍ⲛⲛⲁ
+<lb break="no" xml:id="P45vC1L12-cw1" n="12"/>ⲃⲓ</w><w>ⲟ<unclear>ϩ</unclear><supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲣ</supplied>ⲉⲧ᷍ϥ</w></ab></div><div type="chapter" n="B04K10"><ab n="B04K10V1"><w>ϩⲁⲙⲏⲛ</w>
+<lb n="P45vC1L13-cw1"/><w>ϩⲁ<unclear>ⲙ</unclear><supplied reason="lacuna">ⲏⲛ</supplied></w><w>ϯϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w>
+<lb n="P45vC1L14-cw1"/><w>ⲛ<unclear>ⲏ</unclear><supplied reason="lacuna">ⲧⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w>ⲡⲉⲧⲉⲛ᷍ϥⲛ̂ⲛ<unclear>ⲏ</unclear><supplied reason="lacuna">ⲩ</supplied></w>
+<lb n="P45vC1L15-cw1"/><w><unclear>ⲉ</unclear><supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲉϩⲟ</supplied>ⲩⲛ</w><w>ϩⲓⲧⲛ̂</w><w>ⲡⲣⲁ</w>
+<lb n="P45vC1L16-cw1"/><w><supplied reason="lacuna">ⲉϩⲟⲩⲛ</supplied></w><w>ⲉϯⲁⲩⲗⲏ</w><w>ⲛ̂ⲛⲉ
+<lb break="no" xml:id="P45vC1L17-cw1" n="17"/><supplied reason="lacuna">ⲥⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲁⲗ</supplied>ⲗⲁ</w><w>ⲉϥⲛⲉⲟⲩⲱ
+<lb break="no" xml:id="P45vC1L18-cw1" n="18"/><supplied reason="lacuna">ⲧⲃ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁ</supplied><unclear>ⲗ</unclear></w><w>ϩⲓ</w><w>ⲕⲉⲥⲉ</w><w>ⲡⲉ
+<lb break="no" xml:id="P45vC1L19-cw1" n="19"/><supplied reason="lacuna">ⲧⲙⲙⲉⲩ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲣⲉϥϫⲓⲟⲩⲓ</supplied></w>
+<pb xml:id="P46r-cw1" n="46r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3760/3521_20r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_20r.tif;cc=apis;entryid=x-3760;quality=1;view=image"/>
+<cb n="P46rC1-cw1"/><note type="editorial">Husselman f. 20r</note>
+<lb n="P46rC1L1-cw1"/><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied><unclear>ⲩ</unclear><unclear>ⲱ</unclear></w><w><unclear>ⲟ</unclear><unclear>ⲩ</unclear><unclear>ⲥ</unclear><unclear>ⲁ</unclear><unclear>ⲛ</unclear><supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="illegible">ⲡ</supplied><unclear>ⲉ</unclear></w>
+<lb n="P46rC1L2-cw1"/></ab><ab n="B04K10V2"><w><supplied reason="lacuna">ⲡⲉ</supplied><supplied reason="illegible">ⲧ</supplied><unclear>ⲛ</unclear><unclear>ⲛ</unclear><unclear>ⲏ</unclear>ⲩ<supplied reason="illegible">ⲇⲉ</supplied></w><w><supplied reason="illegible">ⲉ</supplied><unclear>ϩ</unclear><unclear>ⲟ</unclear>ⲩ<unclear>ⲛ</unclear></w>
+<lb n="P46rC1L3-cw1"/><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲓⲧ</supplied>ⲛ̂</w><w><unclear>ⲡ</unclear>ⲣ<unclear>ⲁ</unclear></w><w>ⲉ<unclear>ϯ</unclear><unclear>ⲁ</unclear>ⲩ<unclear>ⲗ</unclear><supplied reason="illegible">ⲏ</supplied></w>
+<lb n="P46rC1L4-cw1"/><w><supplied reason="lacuna">ⲛⲧⲁϥ</supplied></w><w><unclear>ⲡ</unclear>ⲉ</w><w>ⲡ<unclear>ⲥ</unclear><unclear>ⲱ</unclear>ϣ</w><w>ⲛ<unclear>̂</unclear>
+<lb break="no" xml:id="P46rC1L5-cw1" n="5"/><supplied reason="lacuna">ⲧⲉⲛ</supplied><unclear>ⲉ</unclear>ⲥⲁⲩ</w></ab><ab n="B04K10V3"><w>ⲡⲉⲓ̈</w><w>ϣⲁ
+<lb break="no" xml:id="P46rC1L6-cw1" n="6"/><supplied reason="lacuna">ⲣⲉⲡⲉⲙ</supplied><unclear>ⲛ</unclear>ⲁⲩⲧ⳿</w><w>ⲟⲩⲱ<unclear>ⲛ</unclear></w>
+<lb n="P46rC1L7-cw1"/><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ⲩⲱ</w><w>ϣⲁⲣⲉⲛⲉ
+<lb break="no" xml:id="P46rC1L8-cw1" n="8"/><supplied reason="lacuna">ⲥⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲥ</supplied><unclear>ⲱ</unclear>ⲧⲙ</w><w>ⲉⲧⲉϥⲥ<supplied reason="illegible">ⲙⲏ</supplied></w>
+<lb n="P46rC1L9-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ϣⲁ</supplied><supplied reason="illegible">ϥ</supplied><unclear>ⲙ</unclear>ⲟⲩϯ</w><w><unclear>ⲉ</unclear>ⲛⲉ<unclear>ϥ</unclear>
+<lb break="no" xml:id="P46rC1L10-cw1" n="10"/><supplied reason="lacuna">ⲉⲥⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲕ</supplied>ⲁⲧⲁ</w><w>ⲡⲉⲩⲣⲉⲛ⳿</w>
+<lb n="P46rC1L11-cw1"/><w><supplied reason="lacuna">ϣⲁϥⲛⲧ</supplied>ⲟⲩ</w><w>ⲉⲃⲁⲗ</w></ab><ab n="B04K10V4"><w>ϩⲟ
+<lb break="no" xml:id="P46rC1L12-cw1" n="12"/><supplied reason="lacuna">ⲧⲁⲛ</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P46v-cw1" n="46v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3761/3521_20v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_20v.tif;cc=apis;entryid=x-3761;quality=1;view=image"/>
+<cb n="P46vC1-cw1"/><note type="editorial">Husselman f. 20v</note>
+<lb n="P46vC1L1-cw1"/></ab><ab n="B04K10V5"><w>ⲛ̂ⲛⲉⲩⲟⲩ<unclear>ⲁ</unclear><unclear>ϩ</unclear><supplied reason="lacuna">ⲟⲩ</supplied></w><w>ⲛⲥⲁ</w><w><supplied reason="lacuna">ⲟⲩϣⲙ</supplied>
+<lb break="no" xml:id="P46vC1L2-cw1" n="2"/>ⲙⲁ</w><w>ⲁⲗⲗ<unclear>ⲁ</unclear></w><w><unclear>ⲥ</unclear>ⲉ<unclear>ⲛ</unclear><supplied reason="lacuna">ⲉⲡⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P46vC1L3-cw1" n="3"/>ⲃⲁⲗ</w><w><unclear>ⲙ</unclear>ⲙⲁ<unclear>ϥ</unclear></w><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲛⲥⲉⲥⲁⲩⲛ</supplied></w>
+<lb n="P46vC1L4-cw1"/><w>ⲉⲛ</w><w>ⲛ̂ⲧⲉⲥⲙⲏ</w><w>ⲛ<supplied reason="illegible">ⲛϣ</supplied><supplied reason="lacuna">ⲙⲙⲁ</supplied></w></ab><ab n="B04K10V6"><w><supplied reason="lacuna">ⲧⲉ</supplied>
+<lb break="no" xml:id="P46vC1L5-cw1" n="5"/>ⲓ̈ⲡⲁⲣ̂ϩⲟⲓ<unclear>ⲙ</unclear><unclear>ⲓ</unclear><unclear>ⲁ</unclear></w><w><supplied reason="lacuna">ϩⲁϥϫⲁⲥ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w>
+<lb n="P46vC1L6-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ⲛⲏ</w><w>ⲇⲉ</w><w><supplied reason="lacuna">ⲙⲡⲟⲩⲓⲙⲓ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P46vC1L7-cw1"/><w>ⲟⲩ</w><w>ⲛⲉⲧϥϫ<unclear>ⲱ</unclear></w><w><supplied reason="lacuna">ⲙⲙⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲩ</supplied></w>
+<lb n="P46vC1L8-cw1"/></ab><ab n="B04K10V7"><w>ⲡⲁⲗⲓⲛ</w><w>ⲡⲉϫ<supplied reason="lacuna">ⲉϥ</supplied></w><w><supplied reason="lacuna">ⲛϫⲓ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w>
+<lb n="P46vC1L9-cw1"/><w>ϫⲉ</w><w>ϩⲁⲙⲏⲛ</w><w>ϩⲁ<supplied reason="lacuna">ⲙⲏⲛ</supplied></w><w><supplied reason="lacuna">ϯϫⲱ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w>
+<lb n="P46vC1L10-cw1"/><w>ⲛⲏ<unclear>ⲧ</unclear><unclear>ⲛ</unclear></w><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><w><supplied reason="illegible">ⲁⲛ</supplied><supplied reason="lacuna">ⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<lb n="P46vC1L11-cw1"/><w>ⲡⲥⲱϣ</w><w>ⲛ̂ⲛ<supplied reason="lacuna">ⲉⲥⲁⲩ</supplied></w></ab><ab n="B04K10V8"><w><supplied reason="lacuna">ⲛⲉⲧⲉ</supplied>
+<lb break="no" xml:id="P46vC1L12-cw1" n="12"/>ϩⲁⲩⲓ̈</w><w>ⲧⲏⲣ<unclear>ⲟ</unclear><supplied reason="illegible">ⲩ</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P47r-cw1" n="47r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3762/3521_21r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_21r.tif;cc=apis;entryid=x-3762;quality=1;view=image"/>
+<cb n="P47rC1-cw1"/><note type="editorial">Husselman f. 21r</note>
+<lb n="P47rC1L1-cw1"/></ab><ab n="B04K10V10"><w><unclear>ⲡ</unclear><unclear>ⲣ</unclear>ⲉϥϫⲓ<unclear>ⲟ</unclear><unclear>ⲩ</unclear><unclear>ⲉ</unclear><unclear>ⲓ</unclear></w><w><supplied reason="illegible">ⲇ</supplied>ⲉ</w><w>ⲙⲉϥⲓ</w><w>ⲉⲧⲃⲉ</w>
+<lb n="P47rC1L2-cw1"/><w>ⲛⲓ<unclear>ⲛ</unclear><supplied reason="illegible">ⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲓⲙⲏ</supplied><supplied reason="illegible">ϯ</supplied></w><w><supplied reason="illegible">ϫ</supplied>ⲉⲕⲉⲥ</w><w>ⲉϥⲉ
+<lb break="no" xml:id="P47rC1L3-cw1" n="3"/>ϫⲓⲟⲩⲓ̈</w><w><supplied reason="lacuna">ⲛϥϣ</supplied><supplied reason="illegible">ⲱ</supplied><unclear>ⲱ</unclear><unclear>ⲧ</unclear></w><w><unclear>ⲛ</unclear>ϥⲧⲁⲕⲁ</w>
+<lb n="P47rC1L4-cw1"/><w>ⲁⲛⲁⲕ</w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲁⲓⲓ</supplied></w><w><unclear>ϫ</unclear>ⲉⲕⲉⲥ</w><w>ⲉⲩⲉϫⲓ</w>
+<lb n="P47rC1L5-cw1"/><w>ⲛ̂ⲟⲩⲱ<supplied reason="lacuna">ⲛϩ</supplied></w><w>ⲁⲩⲱ</w><w>ⲛ̂ⲥⲉϫⲓ</w>
+<lb n="P47rC1L6-cw1"/><w>ⲛ̂ⲟ<supplied reason="lacuna">ⲩϩⲟ</supplied><supplied reason="illegible">ⲩ</supplied>ⲁ</w></ab><ab n="B04K10V11"><w><unclear>ⲁ</unclear>ⲛⲁⲕ</w><w>ⲡ<unclear>ⲉ</unclear></w><w><unclear>ⲡ</unclear>ⲥⲱϣ</w>
+<lb n="P47rC1L7-cw1"/><w>ⲉⲧⲛ<supplied reason="lacuna">ⲁⲛ</supplied><supplied reason="illegible">ⲟⲩϥ</supplied></w><w><unclear>ⲡ</unclear><unclear>ⲥ</unclear>ⲱϣ</w><w>ⲉⲧ
+<lb break="no" xml:id="P47rC1L8-cw1" n="8"/><unclear>ⲛ</unclear><unclear>ⲁ</unclear><unclear>ⲛ</unclear><supplied reason="lacuna">ⲟⲩϥ</supplied></w><w><supplied reason="lacuna">ϣⲁ</supplied><unclear>ϥ</unclear>ⲕⲁ</w><w>ⲧⲉϥⲯⲩ
+<lb break="no" xml:id="P47rC1L9-cw1" n="9"/><supplied reason="lacuna">ⲭⲏ</supplied></w><w><supplied reason="lacuna">ϩⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥⲉ</supplied>ⲥⲁⲩ</w></ab><ab n="B04K10V12"><w>ⲡ̅ϫ̅ⲁ̅ⲓ<unclear>̅</unclear><unclear>ⲃ</unclear>̅
+<lb break="no" xml:id="P47rC1L10-cw1" n="10"/><supplied reason="lacuna">ⲉⲕⲏ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧ</supplied><supplied reason="illegible">ⲁ</supplied>ϥ</w><w>ⲉⲧⲉ</w><w>ⲛ̂ⲟⲩ
+<lb break="no" xml:id="P47rC1L11-cw1" n="11"/><supplied reason="lacuna">ⲥⲱϣ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="illegible">ⲡ</supplied>ⲉⲓ</w><w>ⲉⲧⲉ</w><w>ⲛ̂
+<lb break="no" xml:id="P47rC1L12-cw1" n="12"/><supplied reason="lacuna">ⲛⲟⲩϥ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied><supplied reason="illegible">ⲥ</supplied><unclear>ⲁ</unclear>ⲩ</w><w><unclear>ϣ</unclear><unclear>ⲁ</unclear>
+<lb break="no" xml:id="P47rC1L13-cw1" n="13"/><supplied reason="lacuna">ϥⲛⲉⲩ</supplied></w><gap reason="lacuna" unit="char" extent="1"/></ab><ab n="B04K10V13"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P47rC1L14-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P47rC1L15-cw1"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P47rC1L16-cw1"/><w><supplied reason="lacuna">10-12</supplied></w></ab><ab n="B04K10V14"><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<pb xml:id="P47v-cw1" n="47v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3763/3521_21v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_21v.tif;cc=apis;entryid=x-3763;quality=1;view=image"/>
+<cb n="P47vC1-cw1"/><note type="editorial">Husselman f. 21v</note>
+<lb n="P47vC1L1-cw1"/><w><unclear>ⲡ</unclear>ϣⲱⲥ</w><w><unclear>ⲉ</unclear><supplied reason="illegible">ⲧⲛⲁⲛⲟⲩϥ</supplied></w><w><unclear>ⲁ</unclear><unclear>ⲩ</unclear><supplied reason="illegible">ⲱ</supplied></w>
+<lb n="P47vC1L2-cw1"/><w><unclear>ϯ</unclear><unclear>ⲥ</unclear><unclear>ⲁ</unclear><unclear>ⲩ</unclear><unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ⲛⲛⲟⲩ</supplied><supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="illegible">ⲁ</supplied>ⲩⲱ</w>
+<lb n="P47vC1L3-cw1"/><w>ⲛⲟⲩⲓ̈</w><w>ⲥ<unclear>ⲁ</unclear><unclear>ⲩ</unclear><unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ⲙⲙⲁⲓ</supplied></w></ab><ab n="B04K10V15"><w><unclear>ⲕ</unclear><unclear>ⲁ</unclear><unclear>ⲧ</unclear><unclear>ⲁ</unclear></w><w><unclear>ⲧ</unclear><unclear>ϩ</unclear><unclear>ⲏ</unclear></w>
+<lb n="P47vC1L4-cw1"/><w>ⲉⲧⲉ</w><w>ⲡⲁⲓ̈ⲱ<supplied reason="lacuna">ⲧ</supplied></w><w>ⲥⲁⲩⲛ</w><w>ⲙ
+<lb break="no" xml:id="P47vC1L5-cw1" n="5"/>ⲙⲁⲓ̈</w><w>ⲁⲩⲱ</w><w>ⲁⲛ<supplied reason="lacuna">ⲁⲕ</supplied></w><w>ϯⲥⲁⲩ<unclear>ⲛ</unclear></w>
+<lb n="P47vC1L6-cw1"/><w>ⲙ̂ⲡⲁⲓ̈ⲱⲧ</w><w>ⲁ<supplied reason="lacuna">ⲩⲱ</supplied></w><w>ϯ<supplied reason="lacuna">ⲛ</supplied><unclear>ⲁ</unclear>ⲕⲱ</w>
+<lb n="P47vC1L7-cw1"/><w>ⲛⲧⲁⲯⲩⲭⲏ</w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied>ⲥⲁⲩ</w>
+<lb n="P47vC1L8-cw1"/></ab><ab n="B04K10V16"><w>ⲟⲩⲛⲧ<unclear>ⲁ</unclear><supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="lacuna">ⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲩ</supplied></w><w><supplied reason="lacuna">ϩⲉⲛ</supplied><unclear>ⲕ</unclear><unclear>ⲉ</unclear>ⲥ<unclear>ⲁ</unclear><unclear>ⲩ</unclear></w><w><unclear>ⲉ</unclear>
+<lb break="no" xml:id="P47vC1L9-cw1" n="9"/>ϩⲉⲛⲉⲃⲁⲗ</w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ϯⲁⲩⲗⲏ</supplied></w>
+<lb n="P47vC1L10-cw1"/><w><unclear>ⲁ</unclear><unclear>ⲩ</unclear>ⲱ</w><w>ⲛⲉⲧⲙ<supplied reason="lacuna">ⲙⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲁⲛ</supplied></w><w><supplied reason="lacuna">ϩⲁⲡⲥ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P47vC1L11-cw1" n="11"/>ⲧⲣⲁⲥⲱ<unclear>ϩ</unclear><unclear>ⲁ</unclear>ⲟ<unclear>ⲩ</unclear></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲥⲉⲛⲁⲥⲱⲧ</supplied>
+<lb break="no" xml:id="P47vC1L12-cw1" n="12"/>ⲙ̂</w><w>ⲉ<unclear>ⲧ</unclear><unclear>ⲁ</unclear><unclear>ⲥ</unclear><supplied reason="lacuna">ⲙⲏ</supplied></w><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">10.17</note></ab><ab n="B04K10V18"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P47vC1L13-cw1"/><w><supplied reason="lacuna">6-9</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲉⲧ</supplied>
+<pb xml:id="P48r-cw1" n="48r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3765/3521_22r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_22r.tif;cc=apis;entryid=x-3765;quality=1;view=image" break="no"/>
+<cb n="P48rC1-cw1"/><note type="editorial">Husselman f. 22r</note>
+<lb n="P48rC1L1-cw1"/>ⲕⲱ</w><w>ⲙⲙⲁⲥ</w><w>ⲉⲃⲁⲗ</w><w>ϩⲓⲧⲁⲧ</w>
+<lb n="P48rC1L2-cw1"/><w>ⲟⲩⲛ̂ϯ</w><w>ⲉⲝⲟⲩⲥⲓⲁ</w><w>ⲉⲕⲉⲉⲥ</w>
+<lb n="P48rC1L3-cw1"/><w>ⲟⲩⲛ̂ϯ</w><w>ⲉⲝⲟ<supplied reason="lacuna">ⲩⲥⲓ</supplied>ⲁ</w><w>ⲉ<unclear>ϫ</unclear><unclear>ⲓ</unclear><unclear>ⲧ</unclear>ⲥ</w>
+<lb n="P48rC1L4-cw1"/><w>ⲧⲉⲓ̈ⲉⲛⲧⲟ<supplied reason="lacuna">ⲗⲏ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ϩⲁⲓϫⲓⲧ᷍ⲥ</w>
+<lb n="P48rC1L5-cw1"/><w>ⲛ̂ⲧⲛ̂</w><w>ⲡⲁⲓ̈ⲱⲧ</w></ab><ab n="B04K10V19"><w><supplied reason="lacuna">ϩ</supplied>ⲁⲟⲩⲥⲭⲓ<unclear>ⲥ</unclear>
+<lb break="no" xml:id="P48rC1L6-cw1" n="6"/>ⲙⲁ</w><w>ⲁⲛ</w><w>ϣⲱⲡ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ϩ</supplied>᷍ⲛ</w><w>ⲛ̂ⲓⲟⲩ
+<lb break="no" xml:id="P48rC1L7-cw1" n="7"/>ⲇⲉⲓ̈</w><w>ⲉⲧⲃⲉ</w><w>ⲛ<unclear>ⲉ</unclear>ⲓ̈ⲥⲉϫⲓ</w></ab><ab n="B04K10V20"><w>ⲟⲩ
+<lb break="no" xml:id="P48rC1L8-cw1" n="8"/>ⲙⲏϣⲉ</w><w>ⲇⲉ</w><w>ⲉⲃ<supplied reason="lacuna">ⲁ</supplied>ⲗ</w><w>ⲛ̂<supplied reason="lacuna">ϩ</supplied><unclear>ⲏ</unclear>ⲧⲟⲩ</w>
+<lb n="P48rC1L9-cw1"/><w>ⲛⲁⲩϫⲱ</w><w>ⲙ̂ⲙ<supplied reason="lacuna">ⲁⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w>ⲟⲩⲛ</w>
+<lb n="P48rC1L10-cw1"/><w>ⲟⲩⲇⲉⲙⲱⲛ<supplied reason="lacuna">ⲓⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied><supplied reason="illegible">ⲙ</supplied>ⲉϥ</w><w>ⲁⲩ
+<lb break="no" xml:id="P48rC1L11-cw1" n="11"/>ⲱ</w><w>ϥⲗⲁⲃⲓ</w><w>ⲉⲧ<unclear>ⲃ</unclear><supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩ</supplied></w><w>ⲧⲉⲧⲛ<unclear>̂</unclear>
+<lb break="no" xml:id="P48rC1L12-cw1" n="12"/>ⲥⲱⲧⲙ̂</w><w>ⲉⲣⲁϥ</w></ab><ab n="B04K10V21"><w><supplied reason="lacuna">ϩⲉⲛ</supplied>ⲕⲁⲩⲓ̈</w>
+<lb n="P48rC1L13-cw1"/><w>ⲁⲛ</w><w>ⲛⲁⲩϫⲱ</w><w><supplied reason="lacuna">ⲙⲙⲁⲥ</supplied></w><w>ϫⲉ</w>
+<lb n="P48rC1L14-cw1"/><w>ⲛⲉⲓ̈ⲥⲉϫⲓ</w><w>ⲛ̂ⲛ<supplied reason="lacuna">ⲁ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w>
+<lb n="P48rC1L15-cw1"/><w>ⲛⲉ</w><w>ⲉϥⲁⲓ̈</w><w>ⲛ̂ⲇ<supplied reason="lacuna">ⲉⲙⲱⲛⲓⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲙⲏ</supplied></w>
+<lb n="P48rC1L16-cw1"/><w>ⲟⲩⲛ⳿</w><w><unclear>ϣ</unclear><supplied reason="lacuna">ϭⲁⲙ</supplied></w><w><supplied reason="lacuna">ⲛⲟⲩⲇⲉⲙⲱⲛⲓⲟⲛ</supplied></w>
+<lb n="P48rC1L17-cw1"/><w>ⲉⲟⲩ<supplied reason="lacuna">ⲱⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲛⲃⲉⲗ</supplied></w><w><supplied reason="lacuna">ⲛⲛⲃⲗⲗⲏ</supplied></w>
+<lb n="P48rC1L18-cw1"/></ab><ab n="B04K10V22"><w><supplied reason="lacuna">ϩⲁϥϣⲱⲡⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲟⲩⲁⲓϣ</supplied></w>
+<pb xml:id="P48v-cw1" n="48v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3766/3521_22v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_22v.tif;cc=apis;entryid=x-3766;quality=1;view=image"/>
+<cb n="P48vC1-cw1"/><note type="editorial">Husselman f. 22v</note>
+<lb n="P48vC1L1-cw1"/><w>ⲉⲧⲙ̂ⲙⲉⲩ</w><w>ⲛ̂ϫⲓ</w><w>ⲡϫⲓⲁⲓ̈ⲕ⳿</w><w>ϩⲛ̂</w>
+<lb n="P48vC1L2-cw1"/><w>ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ⳿</w><w>ⲛⲉ</w><w>ⲧⲉ
+<lb break="no" xml:id="P48vC1L3-cw1" n="3"/>ⲡⲣⲱ</w><w><unclear>ⲧ</unclear><supplied reason="lacuna">ⲉ</supplied></w></ab><ab n="B04K10V23"><w>ⲁⲩⲱ</w><w>ⲛⲁϥⲙⲁϣⲉ</w>
+<lb n="P48vC1L4-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ϩ<supplied reason="lacuna">ⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲣ</supplied><unclear>ⲡ</unclear>ⲏⲓ̈</w><w>ϩⲁ</w><w>ⲧⲉⲥⲧⲟ
+<lb break="no" xml:id="P48vC1L5-cw1" n="5"/>ⲁ</w><w>ⲛ̂ⲥⲟⲗ<supplied reason="lacuna">ⲟ</supplied>ⲙⲱⲛ</w></ab><ab n="B04K10V24"><w>ϩⲁⲩⲕⲱϯ</w>
+<lb n="P48vC1L6-cw1"/><w>ⲉⲣⲁϥ</w><w>ⲛ̂<supplied reason="lacuna">ϫ</supplied>ⲓ</w><w>ⲛⲓⲟⲩⲇⲉⲓ̈</w><w>ⲉⲩϫⲱ</w>
+<lb n="P48vC1L7-cw1"/><w>ⲙ̂ⲙⲁⲥ</w><w><unclear>ⲛ</unclear>ⲉϥ</w><w>ϫⲉ</w><w>ϣⲁ</w><w>ⲧⲛⲉⲩ</w>
+<lb n="P48vC1L8-cw1"/><w>ϭⲏ</w><w><supplied reason="lacuna">ⲁ</supplied>ⲕ<supplied reason="lacuna">ϥⲓ</supplied></w><w>ⲙ̂ⲡⲉⲛϩⲏⲧ</w><w>ⲉϣ
+<lb break="no" xml:id="P48vC1L9-cw1" n="9"/>ϫⲉ</w><w><supplied reason="lacuna">ⲛ</supplied><unclear>ⲧ</unclear><supplied reason="lacuna">ⲁ</supplied>ⲕ⳿</w><w>ⲡⲉ</w><w>ⲡⲉⲭ̅ⲥ̅</w><w>ⲁϫⲓⲥ</w>
+<lb n="P48vC1L10-cw1"/><w>ⲛⲉ<supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲟ</supplied>ⲩⲡⲁ<unclear>ⲣ</unclear>ϩⲏⲥⲓⲁ</w><pc>•</pc>
+<lb n="P48vC1L11-cw1"/></ab><ab n="B04K10V25"><w>ϩⲁ<unclear>ϥ</unclear><supplied reason="lacuna">ⲟⲩⲟ</supplied>ϩ᷍ⲙ</w><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ⲡⲉϫⲉϥ</w>
+<lb n="P48vC1L12-cw1"/><w>ⲛ<supplied reason="lacuna">ⲁⲩ</supplied></w><w><supplied reason="lacuna">ϫ</supplied>ⲉ</w><w>ϩⲁⲓ̈ϫⲁⲥ</w><w>ⲛⲏⲧ᷍ⲛ</w>
+<lb n="P48vC1L13-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ⲧⲉⲧ᷍ⲛⲡⲓⲥⲧⲉⲩⲉ</w>
+<lb n="P48vC1L14-cw1"/><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲉ</supplied><unclear>ϩ</unclear>ⲃⲏⲩⲓ̈</w><w>ⲁⲛⲁⲕ⳿</w><w>ⲉϯⲓ
+<lb break="no" xml:id="P48vC1L15-cw1" n="15"/><supplied reason="lacuna">ⲣⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲩ</supplied></w><w>ϩⲙ̂</w><w>ⲡⲣⲉⲛ</w><w>ⲙ̂ⲡⲁⲓ̈
+<lb break="no" xml:id="P48vC1L16-cw1" n="16"/><supplied reason="lacuna">ⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲧ</supplied>ⲣ̂</w><w>ⲙⲉⲧⲣⲏ</w>
+<lb n="P48vC1L17-cw1"/><w><supplied reason="lacuna">ⲉⲧⲃⲏⲧ</supplied></w></ab><ab n="B04K10V26"><w><supplied reason="lacuna">ⲁⲗⲗⲁ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ⲧⲱⲧ᷍ⲛ</w><w>ⲛ̂
+<lb break="no" xml:id="P48vC1L18-cw1" n="18"/><supplied reason="lacuna">ⲧⲉⲧⲛⲡⲓⲥⲧⲉⲩⲉ</supplied></w><w><supplied reason="lacuna">0-5</supplied></w><note type="editorial">|F49-52|lost</note>
+<pb xml:id="P53r-cw1" n="53r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3767/3521_23r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_23r.tif;cc=apis;entryid=x-3767;quality=1;view=image"/>
+<cb n="P53rC1-cw1"/><note type="editorial">Husselman f. 23r</note>
+<lb n="P53rC1L1-cw1"/></ab></div><div type="chapter" n="B04K11"><ab n="B04K11V22"><w>ⲙⲙⲁⲩ</w><w><unclear>ϥ</unclear>ⲛⲉⲧ<unclear>ⲉ</unclear>ⲩ</w><w>ⲛⲉⲕ⳿</w><w>ⲛ̂
+<lb break="no" xml:id="P53rC1L2-cw1" n="2"/>ϫⲓ</w><w>ⲫ̅ϯ̅</w></ab><ab n="B04K11V23"><w>ⲡⲉϫ<unclear>ⲉ</unclear></w><w>ⲓ̅ⲥ̅</w><w>ⲛⲉⲥ</w><w>ϫ<unclear>ⲉ</unclear></w>
+<lb n="P53rC1L3-cw1"/><w>ⲡⲟⲩⲥⲁⲛ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲉ</supplied><unclear>ⲧ</unclear>ⲱⲟⲩⲛϥ</w>
+<lb n="P53rC1L4-cw1"/></ab><ab n="B04K11V24"><w>ⲡⲉϫⲉ</w><w>ⲙⲁ<unclear>ⲣ</unclear><supplied reason="lacuna">ⲑⲁ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ⲉϥ</w><w>ϫⲉ</w><w>ϯ
+<lb break="no" xml:id="P53rC1L5-cw1" n="5"/>ⲥⲁⲩⲛ</w><w>ϫⲉ</w><w><unclear>ϥ</unclear><unclear>ⲛ</unclear><unclear>ⲉ</unclear><supplied reason="lacuna">ⲧ</supplied>ⲱⲟⲩⲛϥ</w>
+<lb n="P53rC1L6-cw1"/><w>ϩⲛ</w><w>ⲧⲁⲛ</w><note type="editorial">|ⲁⲥⲧ|</note><w>ⲁⲥⲓⲥ</w><w>ϩ<unclear>ⲙ</unclear></w><w>ⲡϩⲁⲏ</w><w>ⲛ̂
+<lb break="no" xml:id="P53rC1L7-cw1" n="7"/>ϩⲁ<unclear>ⲟ</unclear><unclear>ⲩ</unclear></w></ab><ab n="B04K11V25"><w>ⲡⲉϫⲉ</w><w><supplied reason="lacuna">ⲓ̅ⲥ̅</supplied></w><w>ⲛⲉⲥ</w><w>ϫⲉ</w><w>ⲁ
+<lb break="no" xml:id="P53rC1L8-cw1" n="8"/>ⲛⲁⲕ⳿</w><w>ⲡⲉ</w><w>ⲧⲁ<unclear>ⲛ</unclear><supplied reason="lacuna">ⲁ</supplied><unclear>ⲥ</unclear><supplied reason="lacuna">ⲧⲁ</supplied><unclear>ⲥ</unclear><unclear>ⲓ</unclear><unclear>ⲥ</unclear></w><w>ⲁⲩ
+<lb break="no" xml:id="P53rC1L9-cw1" n="9"/>ⲱ</w><w>ⲡⲱⲛϩ</w><w>ⲡ<supplied reason="lacuna">ⲉⲧⲡⲓ</supplied>ⲥⲧⲉⲩ
+<lb break="no" xml:id="P53rC1L10-cw1" n="10"/>ⲉ</w><w>ⲉⲣⲁⲓ̈</w><w>ⲕⲁⲛ</w><w>ⲁ<supplied reason="lacuna">ϥϣⲁ</supplied><unclear>ⲛ</unclear><unclear>ⲙ</unclear><unclear>ⲟ</unclear><unclear>ⲩ</unclear></w>
+<lb n="P53rC1L11-cw1"/><w><supplied reason="lacuna">ϥⲛⲉ</supplied>ⲱ<unclear>ⲛ</unclear><supplied reason="illegible">ϩ</supplied></w></ab><ab n="B04K11V26"><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied>ⲧⲁ<unclear>ⲛ</unclear><supplied reason="lacuna">ϩ</supplied></w>
+<lb n="P53rC1L12-cw1"/><w><supplied reason="lacuna">ⲁⲩ</supplied>ⲱ</w><w><supplied reason="lacuna">ⲉⲧⲡⲓⲥⲧ</supplied><supplied reason="illegible">ⲉ</supplied>ⲩ<supplied reason="illegible">ⲉ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁⲓ</supplied></w>
+<lb n="P53rC1L13-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">11.27</note>
+<pb xml:id="P53v-cw1" n="53v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3768/3521_23v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_23v.tif;cc=apis;entryid=x-3768;quality=1;view=image"/>
+<cb n="P53vC1-cw1"/><note type="editorial">Husselman f. 23v</note>
+<lb n="P53vC1L1-cw1"/></ab><ab n="B04K11V28"><w>ⲁⲩⲱ</w><w>ⲛ̂ⲧⲉⲣⲉⲥϫⲉ</w><w>ⲛⲉⲓ̈</w><w>ϩⲁⲥ
+<lb break="no" xml:id="P53vC1L2-cw1" n="2"/>ϣⲉ</w><w>ⲛⲉⲥ</w><w>ϩⲁⲥⲙⲟⲩϯ</w><w>ⲉⲙⲁⲣⲓⲁ</w>
+<lb n="P53vC1L3-cw1"/><w>ⲧⲉⲥⲥⲱⲛⲓ</w><w>ⲉⲥϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w>
+<lb n="P53vC1L4-cw1"/><w>ⲛⲉⲥ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ϫⲓⲟⲩ</supplied><unclear>ⲓ</unclear></w><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><w>ϩⲁⲡⲥⲉϩ</w><w>ⲓ</w>
+<lb n="P53vC1L5-cw1"/><w><unclear>ⲁ</unclear><unclear>ⲩ</unclear>ⲱ</w><w><supplied reason="lacuna">ϥ</supplied><unclear>ⲙ</unclear><unclear>ⲟ</unclear><unclear>ⲩ</unclear>ϯ</w><w>ⲉⲣⲁ</w></ab><ab n="B04K11V29"><w>ⲛ̂ⲧⲁⲥ</w>
+<lb n="P53vC1L6-cw1"/><w>ⲇⲉ</w><w>ⲛ̂ⲧⲉ<unclear>ⲣ</unclear>ⲉⲥⲥⲱⲧⲙ̂</w><w>ϩⲁⲥ
+<lb break="no" xml:id="P53vC1L7-cw1" n="7"/>ⲧⲱⲟⲩ<unclear>ⲛ</unclear>᷍ⲥ</w><w>ϩⲓ̈</w><w>ⲧⲣⲟⲩⲣ</w><w>ϩⲁⲥⲓ</w>
+<lb n="P53vC1L8-cw1"/><w>ⲉⲃ<supplied reason="lacuna">ⲁ</supplied><unclear>ⲗ</unclear></w><w><unclear>ϣ</unclear><supplied reason="lacuna">ⲁⲣ</supplied>ⲁϥ</w></ab><ab n="B04K11V30"><w>ⲛⲉ</w><w>ⲙ̂ⲡⲁⲧⲉⲓ̅ⲥ̅</w>
+<lb n="P53vC1L9-cw1"/><w>ⲅⲁ<supplied reason="lacuna">ⲣ</supplied></w><w><supplied reason="lacuna">ⲓ</supplied></w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ϩⲟⲩⲛ</w><w>ⲉⲡϯⲙⲓ</w>
+<lb n="P53vC1L10-cw1"/><w>ⲁⲗ<supplied reason="lacuna">ⲗⲁ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲓ</supplied></w><w>ⲛⲁϥ<unclear>ϩ</unclear>ⲙ</w><w>ⲡⲙⲉ</w><w>ⲡ<supplied reason="illegible">ⲉ</supplied></w>
+<lb n="P53vC1L11-cw1"/><w>ⲉ<unclear>ⲧ</unclear><supplied reason="lacuna">4-6</supplied><supplied reason="illegible">7-10</supplied></w>
+<lb n="P53vC1L12-cw1"/><w><gap extent="1" unit="char" reason="illegible"/><supplied reason="lacuna">7-8</supplied><unclear>ⲙ</unclear><supplied reason="lacuna">6-8</supplied></w><note type="editorial">11.31</note>
+<pb xml:id="P54r-cw1" n="54r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3769/3521_24r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_24r.tif;cc=apis;entryid=x-3769;quality=1;view=image"/>
+<cb n="P54rC1-cw1"/><note type="editorial">Husselman f. 24r</note>
+<lb n="P54rC1L1-cw1"/></ab><ab n="B04K11V32"><w>ⲙⲁⲣⲓⲁ</w><w>ⲇⲉ</w><w>ⲛ̂ⲧⲉⲣ<unclear>ⲉ</unclear>ⲥⲓ</w><w>ⲉⲡⲙⲉ</w>
+<lb n="P54rC1L2-cw1"/><w>ⲉⲧⲉ</w><w>ⲓ̅ⲥ̅</w><w>ⲙ̂ⲙⲉⲩ</w><w><unclear>ⲁ</unclear>ⲩ<unclear>ⲱ</unclear></w><w><unclear>ϩ</unclear>ⲁ<unclear>ⲥ</unclear>
+<lb break="no" xml:id="P54rC1L3-cw1" n="3"/>ⲛ<supplied reason="illegible">ⲉⲩ</supplied></w><w>ⲉⲣ<supplied reason="illegible">ⲁ</supplied><supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ϩⲁⲥⲛⲁ</supplied><unclear>ϫ</unclear><supplied reason="illegible">ⲥ</supplied></w><w><supplied reason="illegible">ϩ</supplied><unclear>ⲁ</unclear>
+<lb break="no" xml:id="P54rC1L4-cw1" n="4"/>ⲡ<unclear>ⲉ</unclear>ϥⲟⲩ<unclear>ⲉ</unclear><supplied reason="illegible">ⲣ</supplied><supplied reason="lacuna">ⲏϯ</supplied></w><w><supplied reason="lacuna">ⲉⲥ</supplied><unclear>ϫ</unclear><unclear>ⲱ</unclear></w><w><supplied reason="illegible">ⲙ</supplied><unclear>ⲙ</unclear><unclear>ⲁ</unclear><unclear>ⲥ</unclear></w>
+<lb n="P54rC1L5-cw1"/><w>ϫⲉ</w><w>ⲡϫ̅ⲥ̅</w><w>ⲉ<unclear>ⲛ</unclear><supplied reason="lacuna">ⲉ</supplied><supplied reason="illegible">ⲕ</supplied><unclear>ⲡ</unclear><unclear>ⲉ</unclear><unclear>ⲓ</unclear>ⲙ<unclear>ⲉ</unclear></w>
+<lb n="P54rC1L6-cw1"/><w>ⲛⲁⲣⲉⲡⲁⲥ<supplied reason="lacuna">ⲁⲛ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied><unclear>ⲉ</unclear>ⲙⲟⲩ</w><w>ⲉⲛ</w>
+<lb n="P54rC1L7-cw1"/><w>ⲡⲉ</w></ab><ab n="B04K11V33"><w>ⲓ̅ⲥ̅</w><w>ⲇⲉ</w><w><supplied reason="lacuna">ⲛⲧⲉⲣ</supplied>ⲉϥⲛ<unclear>ⲉ</unclear><unclear>ⲩ</unclear></w><w>ⲉ
+<lb break="no" xml:id="P54rC1L8-cw1" n="8"/>ⲣⲁⲥ</w><w>ⲉⲥⲣⲓ<supplied reason="lacuna">ⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩ</supplied>ⲱ</w><w><supplied reason="lacuna">ⲛⲓ</supplied>ⲕⲉⲓ̈
+<lb break="no" xml:id="P54rC1L9-cw1" n="9"/>ⲟⲩⲇⲉⲓ</w><w>ⲉⲧ<supplied reason="lacuna">ⲉϩⲁⲩⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲙ</supplied>ⲉⲥ</w>
+<lb n="P54rC1L10-cw1"/><w>ⲉⲩⲣⲓⲙⲓ</w><w><supplied reason="lacuna">ϩⲁϥϣⲧⲁⲣⲧⲣ</supplied></w><w>ϩ<unclear>ⲙ</unclear></w><w><unclear>ⲡ</unclear>
+<lb break="no" xml:id="P54rC1L11-cw1" n="11"/><supplied reason="lacuna">ⲡ̅ⲛ̅ⲁ̅</supplied></w><w><supplied reason="lacuna">11-15</supplied></w><note type="editorial">11:34-11.36</note>
+<pb xml:id="P54v-cw1" n="54v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3770/3521_24v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_24v.tif;cc=apis;entryid=x-3770;quality=1;view=image"/>
+<cb n="P54vC1-cw1"/><note type="editorial">Husselman f. 24v</note>
+<lb n="P54vC1L1-cw1"/></ab><ab n="B04K11V37"><app><rdg type="orig" hand="firsthand"><w>OM</w></rdg><rdg type="corr" hand="corrector"><w><supplied reason="illegible">ϩ</supplied>ⲓ<unclear>ⲁ</unclear>ⲛ<supplied reason="illegible">ⲓ</supplied></w><w><unclear>ⲇ</unclear>ⲉ</w></rdg></app><w><unclear>ⲡ</unclear>ⲉϫⲁⲩ</w><w>ϫⲉ</w><w>ⲡⲉⲓ̈</w><w>ⲉⲧ
+<lb break="no" xml:id="P54vC1L2-cw1" n="2"/><unclear>ϩ</unclear><unclear>ⲁ</unclear><unclear>ϥ</unclear>ⲟⲩⲱⲛ</w><w>ⲉ<unclear>ⲛ</unclear>ⲛⲃⲉⲗ</w><w>ⲙ̂
+<lb break="no" xml:id="P54vC1L3-cw1" n="3"/><unclear>ⲡ</unclear><unclear>ⲃ</unclear><supplied reason="lacuna">ⲗⲗⲏ</supplied></w><w><supplied reason="lacuna">ⲓⲉ</supplied></w><w><supplied reason="lacuna">ⲧⲉ</supplied></w><w>ⲙ̂ⲙⲛ</w><w>ϭⲁⲙ</w><w>ⲙ
+<lb break="no" xml:id="P54vC1L4-cw1" n="4"/>ⲙⲁ<supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ⲁⲛ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲁⲧⲙ</supplied>ⲧⲣⲉ</w><w>ⲡⲉⲓ</w><w>ⲙⲟⲩ</w>
+<lb n="P54vC1L5-cw1"/></ab><ab n="B04K11V38"><w>ⲓ̅ⲥ̅</w><w>ⲇ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ϣ</supplied><unclear>ⲧ</unclear><unclear>ⲁ</unclear><unclear>ⲣ</unclear><unclear>ⲧ</unclear><unclear>ⲣ</unclear></w><w>ϩⲣⲏⲓ̈</w>
+<lb n="P54vC1L6-cw1"/><w>ⲛ̂ϩⲏ<unclear>ⲧ</unclear><supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ϩⲁϥ</supplied>ⲓ</w><w>ⲉⲡⲙϩⲉⲩ</w>
+<lb n="P54vC1L7-cw1"/><w>ⲛⲉ</w><w>ⲟ<supplied reason="lacuna">ⲩⲃⲏⲃ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><unclear>ⲛ</unclear>ⲉ</w><w>ⲟⲩⲛ</w><w>ⲟⲩ
+<lb break="no" xml:id="P54vC1L8-cw1" n="8"/><supplied reason="lacuna">ⲛⲁϭ</supplied></w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲱⲛⲓ</supplied></w><w><supplied reason="lacuna">ϩⲓⲣⲱ</supplied><unclear>ϥ</unclear></w></ab><ab n="B04K11V39"><w>ⲡⲉϫⲉ</w><w>ⲓ̅ⲥ̅</w><w>ϫⲉ</w>
+<lb n="P54vC1L9-cw1"/><w>ϥ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲱⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>ⲙⲉⲩ</w><w>ⲡⲉϫⲉ</w>
+<lb n="P54vC1L10-cw1"/><w>ⲙ<supplied reason="lacuna">ⲁⲣⲑⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥ</supplied></w><w>ⲧⲥⲱⲛⲓ</w><w>ⲙ̂
+<lb break="no" xml:id="P54vC1L11-cw1" n="11"/>ⲡ<unclear>ⲉ</unclear><supplied reason="lacuna">ⲧⲉϩⲁϥⲙ</supplied>ⲟⲩ</w><w>ϫ<unclear>ⲉ</unclear></w><w><supplied reason="lacuna">ⲡϫ̅ⲥ̅</supplied></w>
+<lb n="P54vC1L12-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">11:40-11.54</note><note type="editorial">Folios 55-56 lost</note>
+<pb xml:id="P56v-cw1" n="56v" type="folio" />
+<cb n="P56vC1-cw1"/>
+<lb n="P56vC1L1-cw1"/></ab><ab n="B04K11V55"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P57r-cw1" n="57r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3771/3521_25r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_25r.tif;cc=apis;entryid=x-3771;quality=1;view=image"/>
+<cb n="P57rC1-cw1"/><note type="editorial">Husselman f. 25r</note>
+<lb n="P57rC1L1-cw1"/><w><unclear>ⲙ</unclear>̂ⲡ⳿ⲡⲁⲥⲭⲁ</w></ab><ab n="B04K11V56"><w>ⲛⲁⲩϣⲓⲛⲓ</w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w>
+<lb n="P57rC1L2-cw1"/><w><supplied reason="lacuna">ⲛ</supplied>ⲥⲁ</w><w>ⲓ̅ⲥ̅</w><w>ⲉⲩϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ⲛ̂<unclear>ⲛ</unclear><supplied reason="lacuna">ⲉⲩ</supplied>
+<lb break="no" xml:id="P57rC1L3-cw1" n="3"/><supplied reason="lacuna">ⲁ</supplied>ⲣⲏⲩ</w><w>ⲉⲩⲟϩⲓ</w><w>ⲉⲣⲉⲧⲟⲩ</w><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲣ</supplied>
+<lb break="no" xml:id="P57rC1L4-cw1" n="4"/><unclear>ⲡ</unclear>ⲏⲓ̈</w><w>ϫⲉ</w><w>ⲟⲩ</w><w>ⲡⲉⲧⲉⲧ<supplied reason="lacuna">ⲛⲙⲏ</supplied>
+<lb break="no" xml:id="P57rC1L5-cw1" n="5"/><supplied reason="illegible">ⲟ</supplied>ⲩⲓ̈</w><w>ⲉⲣⲁϥ</w><w>ϫⲉ</w><w>ⲛ᷍ϥⲛ̂ⲛ<unclear>ⲏ</unclear><supplied reason="lacuna">ⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w>
+<lb n="P57rC1L6-cw1"/><w><supplied reason="lacuna">ⲉ</supplied><unclear>ϩ</unclear>ⲣⲏⲓ̈</w><w>ⲉⲡϣⲉⲓ̈</w></ab><ab n="B04K11V57"><w>ⲛⲉ</w><w><supplied reason="lacuna">ϩⲁⲩϯ</supplied></w>
+<lb n="P57rC1L7-cw1"/><w><supplied reason="lacuna">ⲇ</supplied>ⲉ</w><w>ⲡⲉ</w><w>ⲛ̂ϩⲉⲛⲉⲛⲧⲟ<supplied reason="lacuna">ⲗⲏ</supplied></w>
+<lb n="P57rC1L8-cw1"/><w><unclear>ⲛ</unclear>̂ϫⲓ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲁ</supplied>ⲣⲭⲓⲉⲣ<unclear>ⲉ</unclear><unclear>ⲩ</unclear><unclear>ⲥ</unclear></w><w><supplied reason="lacuna">ⲙⲛ</supplied></w>
+<lb n="P57rC1L9-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">12.1</note></ab><ab n="B04K11V2"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P57v-cw1" n="57v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3772/3521_25v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_25v.tif;cc=apis;entryid=x-3772;quality=1;view=image"/>
+<cb n="P57vC1-cw1"/><note type="editorial">Husselman f. 25v</note>
+<lb n="P57vC1L1-cw1"/><w><supplied reason="lacuna">ⲛⲁⲥ</supplied>ϣⲉⲙϣⲓ</w><w>ⲡⲉ</w><w>ⲗⲁⲍⲁⲣⲟⲥ</w>
+<lb n="P57vC1L2-cw1"/><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><unclear>ⲛ</unclear>ⲉ</w><w>ⲟⲩⲉⲓ̈</w><w>ⲡⲉ</w><w>ⲛ̂ⲛⲉⲧⲛⲁⲩ</w>
+<lb n="P57vC1L3-cw1"/><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲟ</supplied>ⲩⲱⲟⲩ</w><w>ⲡⲉ</w><w>ⲙ᷍ⲛ</w><w>ⲓ̅ⲥ̅</w></ab><ab n="B04K11V3"><w><unclear>ⲙ</unclear><supplied reason="lacuna">ⲁ</supplied>
+<lb break="no" xml:id="P57vC1L4-cw1" n="4"/><supplied reason="lacuna">ⲣⲓⲁ</supplied></w><w>ⲇⲉ</w><w>ϩⲁⲥϫⲓ</w><w>ⲛ̂ⲟⲩⲗⲓⲧ<supplied reason="lacuna">ⲣⲁ</supplied></w>
+<lb n="P57vC1L5-cw1"/><w><supplied reason="lacuna">ⲛⲥⲁ</supplied>ϭⲛ</w><w>ⲛ̂ⲛⲁⲣⲇⲟⲥ</w><w>ⲙ̂ⲡ<unclear>ⲓ</unclear><supplied reason="lacuna">ⲥ</supplied>
+<lb break="no" xml:id="P57vC1L6-cw1" n="6"/><supplied reason="lacuna">ⲧⲓⲕⲏ</supplied></w><w><unclear>ⲉ</unclear>ⲛⲁϣⲉ</w><w>ⲥⲟⲩⲛⲧ᷍<unclear>ⲥ</unclear></w>
+<lb n="P57vC1L7-cw1"/><w><supplied reason="lacuna">ϩⲁⲥ</supplied><unclear>ⲧ</unclear>ⲟϩⲥ</w><w>ⲛ̂ⲛⲟⲩⲉⲣⲏϯ</w>
+<lb n="P57vC1L8-cw1"/><w><supplied reason="lacuna">ⲛⲓ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ⲁⲩ</supplied><unclear>ⲱ</unclear></w><w>ϩⲁⲥϥⲱ<supplied reason="lacuna">ϯ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied><unclear>ⲛ</unclear><unclear>ⲉ</unclear><supplied reason="lacuna">ϥ</supplied>
+<lb break="no" xml:id="P57vC1L9-cw1" n="9"/><supplied reason="lacuna">ⲟⲩⲉⲣⲏϯ</supplied></w><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">12.4-12.45</note><note type="editorial">Folios 58-61 lost</note>
+<pb xml:id="P62r-cw1" n="62r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3774/3521_26r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_26r.tif;cc=apis;entryid=x-3774;quality=1;view=image"/>
+<cb n="P62rC1-cw1"/><note type="editorial">Husselman f. 26r</note>
+<lb n="P62rC1L1-cw1"/></ab><ab n="B04K11V46"><w><supplied reason="illegible"><supplied reason="lacuna">ⲉⲧ</supplied><unclear>ⲡ</unclear><unclear>ⲓ</unclear>ⲥⲧⲉⲩⲉ</supplied></w><w><supplied reason="illegible">ⲉⲣoⲓ̈</supplied></w><w><supplied reason="illegible">ⲛ̂</supplied><unclear>ⲛ</unclear><supplied reason="illegible">ⲉ</supplied><supplied reason="lacuna">ϥϭⲱ</supplied></w><w>ϩⲙ</w>
+<lb n="P62rC1L2-cw1"/><w><supplied reason="lacuna">ⲡ</supplied>ⲕⲉⲕⲓ</w></ab><ab n="B04K11V47"><w>ⲡⲉⲧⲛⲉⲥⲱⲧⲙ</w><w>ⲁⲛ</w><w>ⲉⲛⲁ
+<lb break="no" xml:id="P62rC1L3-cw1" n="3"/><supplied reason="lacuna">ⲥ</supplied>ⲉϫ<unclear>ⲓ</unclear></w><w>ⲛ᷍ϥⲧ᷍ⲙⲁⲣⲉϩ</w><w>ⲉⲣⲁⲩ</w><w>ⲁⲛⲁⲕ⳿</w><w>ⲛ̂
+<lb break="no" xml:id="P62rC1L4-cw1" n="4"/><supplied reason="lacuna">ϯ</supplied>ⲛⲉϯ</w><w>ϩⲉⲡ</w><w>ⲉⲣⲁϥ</w><w>ⲉⲛ</w><w>ⲛ̂ⲁϩⲁ<unclear>ⲓ</unclear>ⲓ</w>
+<lb n="P62rC1L5-cw1"/><w><supplied reason="lacuna">ⲉ</supplied><unclear>ⲛ</unclear></w><w><unclear>ϫ</unclear>ⲉ</w><w>ⲉⲓ̈ⲉⲕⲣⲓⲛⲉ</w><w>ⲙ̂ⲡⲕⲟⲥⲙⲟⲥ</w>
+<lb n="P62rC1L6-cw1"/><w><supplied reason="lacuna">ⲁⲗⲗ</supplied>ⲁ</w><w>ϫⲉ</w><w>ⲉⲓ̈ⲉⲛⲉϩ᷍ⲙ</w><w>ⲡⲕⲟⲥⲙⲟⲥ</w>
+<lb n="P62rC1L7-cw1"/></ab><ab n="B04K11V48"><w><gap extent="3" unit="char" reason="lacuna"/><gap extent="5" unit="char" reason="illegible"/></w><w>ⲙ̂<unclear>ⲙ</unclear><unclear>ⲁ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲁ</unclear><unclear>ⲩ</unclear><unclear>ⲱ</unclear></w><w><supplied reason="lacuna">ⲛϥ</supplied>
+<lb break="no" xml:id="P62rC1L8-cw1" n="8"/><supplied reason="lacuna">ϫⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲛ</supplied><unclear>ⲁ</unclear>ⲥⲉϫⲓ</w><w>ⲉⲛ</w><w><supplied reason="lacuna">6-10</supplied></w>
+<lb n="P62rC1L9-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">12.49-12.50</note></ab></div><div type="chapter" n="B04K13"><ab n="B04K13V1"><w><supplied reason="lacuna">ϩⲁⲑⲏ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w>
+<pb xml:id="P62v-cw1" n="62v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3775/3521_26v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_26v.tif;cc=apis;entryid=x-3775;quality=1;view=image"/>
+<cb n="P62vC1-cw1"/><note type="editorial">Husselman f. 26v</note>
+<lb n="P62vC1L1-cw1"/><w><unclear>ⲙ</unclear><unclear>ⲡ</unclear><unclear>ϣ</unclear>ⲉⲓ̈</w><w>ⲙ̂ⲡⲡⲁⲥⲭⲁ</w><w>ⲉ<supplied reason="lacuna">ϥ</supplied><unclear>ⲥ</unclear><unclear>ⲁ</unclear><supplied reason="lacuna">ⲩⲛ</supplied></w>
+<lb n="P62vC1L2-cw1"/><w>ⲛ̂ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ϫⲉ</w><w><unclear>ϩ</unclear>ⲁⲧⲉϥⲟⲩⲛⲟⲩ</w><w>ⲓ</w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P62vC1L3-cw1"/><w>ⲉϥⲉⲟⲩⲱⲧ᷍ⲃ</w><w>ⲉⲃⲁⲗ</w><w>ϩ᷍ⲛ</w><w>ⲡⲕⲟ<supplied reason="lacuna">ⲥⲙⲟⲥ</supplied></w>
+<lb n="P62vC1L4-cw1"/><w>ⲉⲣⲉⲧϥ̂</w><w>ⲙ̂ⲡⲓⲱⲧ⳿</w><w>ϩⲁϥⲙⲉⲣⲉ</w><w><supplied reason="lacuna">ⲛⲉ</supplied>
+<lb break="no" xml:id="P62vC1L5-cw1" n="5"/>ⲧⲉⲛⲟⲩϥ</w><w>ⲉⲧ⳿ϩ᷍ⲛ</w><w>ⲡⲕⲟⲥ<supplied reason="lacuna">ⲙⲟⲥ</supplied></w>
+<lb n="P62vC1L6-cw1"/><w>ϩⲁϥⲙⲉⲣⲓⲧⲟⲩ</w><w>ϣⲁⲃⲁⲗ</w></ab><ab n="B04K13V2"><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w>
+<lb n="P62vC1L7-cw1"/><w>ⲛ̂<supplied reason="lacuna">ⲧⲉ</supplied><unclear>ⲣ</unclear><unclear>ⲉ</unclear><unclear>ⲟ</unclear><unclear>ⲩ</unclear><supplied reason="lacuna">ⲇ</supplied><supplied reason="illegible">ⲉⲓⲡ</supplied><supplied reason="lacuna">ⲛⲟⲛ</supplied></w><w><supplied reason="lacuna">ϣⲱⲡⲓ</supplied></w>
+<lb n="P62vC1L8-cw1"/><w><supplied reason="lacuna">ⲉϩⲁⲡⲇⲓⲁⲃⲟⲗⲟ</supplied>ⲥ</w><w>ⲟⲩⲱ</w><w>ⲉ<supplied reason="lacuna">ϥ</supplied>
+<lb break="no" xml:id="P62vC1L9-cw1" n="9"/><supplied reason="lacuna">ϩⲓⲟⲩⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲡϩⲏⲧ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲟⲩⲇⲁⲥ</supplied></w>
+<lb n="P62vC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">13.3-13.25</note><note type="editorial">Folios 63-64 lost</note>
+<pb xml:id="P64v-cw1" n="64v" type="folio" />
+<cb n="P64vC1-cw1"/>
+<lb n="P64vC1L1-cw1"/></ab><ab n="B04K13V26"><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P65r-cw1" n="65r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3776/3521_27r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_27r.tif;cc=apis;entryid=x-3776;quality=1;view=image"/>
+<cb n="P65rC1-cw1"/><note type="editorial">Husselman f. 27r</note>
+<lb n="P65rC1L1-cw1"/><w>ⲡⲉⲧ<unclear>ⲙ</unclear><supplied reason="lacuna">ⲙⲉ</supplied><unclear>ⲩ</unclear></w><w>ⲡⲉ</w><w>ⲁⲩⲱ</w><w>ϩⲁϥⲥⲉⲡ</w>
+<lb n="P65rC1L2-cw1"/><w>ⲡⲁⲓ̈ⲕ</w><w><supplied reason="lacuna">ϩⲁϥ</supplied>ⲧⲉϥ</w><w>ⲛ̂ⲓ̈ⲟⲩⲇⲁⲥ</w>
+<lb n="P65rC1L3-cw1"/><w>ⲡϣⲏⲣ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲥ</supplied>ⲓⲙⲱⲛ</w><w>ⲡⲓⲥⲕⲁⲣⲓⲱ
+<lb break="no" xml:id="P65rC1L4-cw1" n="4"/>ⲧⲏⲥ</w></ab><ab n="B04K13V27"><w><unclear>ⲙ</unclear><unclear>ⲛ</unclear><unclear>ⲛ</unclear><supplied reason="lacuna">ⲥ</supplied>ⲁ</w><w>ⲧⲣⲉϥϫⲓ</w><w>ⲙ̂ⲡⲁⲓ̈ⲕ⳿</w>
+<lb n="P65rC1L5-cw1"/><w>ϩⲁⲡⲥⲁⲧⲁ<unclear>ⲛ</unclear>ⲁⲥ</w><w>ϣⲏ</w><w>ⲉϩⲟⲩⲛ</w>
+<lb n="P65rC1L6-cw1"/><w>ⲉⲣⲁϥ</w><w>ⲡⲉϫⲉ</w><w>ⲓ̅ⲥ̅</w><w>ⲛⲉϥ</w><w>ϫⲉ</w>
+<lb n="P65rC1L7-cw1"/><w>ⲡⲉⲧ᷍ⲕⲛⲉⲉ<unclear>ϥ</unclear></w><w><unclear>ⲁ</unclear>ⲣⲓϥ</w><w>ϩⲓ</w><w>ⲧⲣⲟⲩⲣ</w>
+<lb n="P65rC1L8-cw1"/></ab><ab n="B04K13V28"><w>ⲙ̂ⲡⲉϩⲓ</w><w>ⲇⲉ</w><w>ⲓⲙⲓ</w><w>ϩ᷍ⲛ</w><w>ⲛⲉⲧⲛⲁⲩ</w>
+<lb n="P65rC1L9-cw1"/><w>ϩ᷍ⲛ</w><w>ⲧⲟⲩⲱⲟⲩ</w><w>ϫⲉ</w><w>ⲉⲧⲃⲉ</w>
+<lb n="P65rC1L10-cw1"/><w>ⲟⲩ</w><w>ⲁϩⲁϥϫⲉ</w><w>ⲡⲉⲓ̈</w><w>ⲛⲉϥ</w></ab><ab n="B04K13V29"><w>ⲛⲁⲣⲉ
+<lb break="no" xml:id="P65rC1L11-cw1" n="11"/><supplied reason="lacuna">ϩⲁⲓⲛⲓ</supplied></w><w><supplied reason="lacuna">ⲅⲁⲣ</supplied></w><w>ⲙⲏⲟⲩⲓ̈</w><w>ϫⲉ</w><w>ⲉⲡⲓ
+<lb break="no" xml:id="P65rC1L12-cw1" n="12"/><supplied reason="lacuna">ⲇⲏ</supplied></w><w><supplied reason="lacuna">ⲛⲁⲣⲉ</supplied>ⲡⲉⲅⲗⲱⲥⲥⲟⲕⲟ
+<lb break="no" xml:id="P65rC1L13-cw1" n="13"/><supplied reason="lacuna">ⲙⲟⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁⲧϥ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲟⲩ</supplied><unclear>ⲇ</unclear><unclear>ⲁ</unclear><supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">4-5</supplied></w>
+<lb n="P65rC1L14-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">13.30</note></ab><ab n="B04K13V31"><w><supplied reason="lacuna">ⲛⲧⲉⲣⲉϥⲓ</supplied></w><w><supplied reason="lacuna">ϭⲏ</supplied></w>
+<pb xml:id="P65v-cw1" n="65v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3777/3521_27v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_27v.tif;cc=apis;entryid=x-3777;quality=1;view=image"/>
+<cb n="P65vC1-cw1"/><note type="editorial">Husselman f. 27v</note>
+<lb n="P65vC1L1-cw1"/><w>ⲡⲉϫⲉ</w><w>ⲓ̅ⲥ̅</w><w>ϫⲉ</w><w>ⲧⲉ<supplied reason="lacuna">ⲛⲟⲩ</supplied></w><w><supplied reason="lacuna">ϩⲁϥϫⲓ</supplied></w>
+<lb n="P65vC1L2-cw1"/><w>ⲁⲩ</w><w>ⲛ̂ϫⲓ</w><w>ⲡϣⲏⲣⲓ</w><w>ⲙ<supplied reason="lacuna">ⲡⲣ</supplied>ⲱⲙⲓ</w><w>ⲁⲩⲱ</w>
+<lb n="P65vC1L3-cw1"/><w>ϩⲁⲫ̅ϯ̅</w><w>ϫⲓ</w><w>ⲁⲩ</w><w>ϩⲣⲏⲓ̈</w><w>ⲛ̂<supplied reason="lacuna">ϩⲏⲧ</supplied>᷍<unclear>ϥ</unclear></w></ab><ab n="B04K13V32"><w>ⲫ̅ϯ̅</w><w>ⲛⲉ
+<lb break="no" xml:id="P65vC1L4-cw1" n="4"/>ϯ</w><w>ⲁⲩ</w><w><unclear>ⲛ</unclear>ⲉ<unclear>ϥ</unclear></w><w>ϩⲣⲏⲓ̈</w><w>ⲛ̂<unclear>ϩ</unclear><supplied reason="lacuna">ⲏ</supplied><unclear>ⲧ</unclear><unclear>ϥ</unclear></w><w>ⲁⲩⲱ</w><w>ⲛ̂
+<lb break="no" xml:id="P65vC1L5-cw1" n="5"/>ⲧⲉⲩⲛ<unclear>ⲟ</unclear>ⲩ</w><w>ϥⲛⲉϯ</w><w>ⲁⲩ</w><w>ⲛⲉϥ</w></ab><ab n="B04K13V33"><w>ⲛⲁ
+<lb break="no" xml:id="P65vC1L6-cw1" n="6"/>ϣⲏⲣⲓ</w><w>ⲉⲧⲓ</w><w>ⲕⲉⲕⲟⲩⲓ̈</w><w>ⲛ̂ⲟⲩⲁⲓ̈ϣ</w>
+<lb n="P65vC1L7-cw1"/><w>ⲡⲉ</w><w>ⲉⲓ̈ⲛⲙ̂ⲙⲏⲧ᷍ⲛ</w><w>ⲧⲉⲧⲛⲉϣⲓ
+<lb break="no" xml:id="P65vC1L8-cw1" n="8"/>ⲛⲓ</w><w>ⲛ̂ⲥⲱⲓ̈</w><w>ⲁⲩ<unclear>ⲱ</unclear></w><w><unclear>ⲕ</unclear>ⲁⲧⲁ</w><w>ⲧϩⲏ</w><w>ⲉⲧⲉ
+<lb break="no" xml:id="P65vC1L9-cw1" n="9"/>ϩⲁⲓϫⲁⲥ</w><w>ⲛ̂ⲛⲓⲟⲩⲇⲉⲓ̈</w><w>ϫⲉ</w><w>ⲡⲙⲉ</w><w>ⲁ
+<lb break="no" xml:id="P65vC1L10-cw1" n="10"/>ⲛⲁⲕ⳿</w><w>ⲉϯ</w><w>ⲙ̂ⲙⲁϥ</w><w>ⲛ̂ⲧⲉⲧⲛⲉϣⲓ</w>
+<lb n="P65vC1L11-cw1"/><w>ⲉⲣⲁϥ</w><w>ⲉⲛ</w><w>ϯϫⲱ</w><w>ⲙ̂ⲙⲁⲥ</w><w>ⲛⲏ<supplied reason="lacuna">ⲧⲛ</supplied></w>
+<lb n="P65vC1L12-cw1"/><w>ϩⲱⲧ᷍ⲛ</w><w>ϯⲛⲟⲩ</w></ab><ab n="B04K13V34"><w>ⲟ<supplied reason="illegible">ⲩⲉⲛⲧⲟⲗⲏ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P65vC1L13-cw1" n="13"/>ⲃ᷍ⲣⲣⲓ</w><w>ⲧⲉϯϯ</w><w>ⲙ̂ⲙⲁ<supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">2-9</supplied></w>
+<lb n="P65vC1L14-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">13.35-14.17</note><note type="editorial">F 66-67 lost</note>
+<pb xml:id="P67v-cw1" n="67v" type="folio" />
+<cb n="P67vC1-cw1"/>
+<lb n="P67vC1L1-cw1"/><gap reason="lacuna" unit="char" extent="1"/></ab></div><div type="chapter" n="B04K14"><ab n="B04K14V18"><gap reason="lacuna" unit="char" extent="1"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P68r-cw1" n="68r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3778/3521_28r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_28r.tif;cc=apis;entryid=x-3778;quality=1;view=image"/>
+<cb n="P68rC1-cw1"/><note type="editorial">Husselman f. 28r</note>
+<lb n="P68rC1L1-cw1"/><w><supplied reason="lacuna">ϯ</supplied>ⲛ̂ⲛⲏⲩ</w><w>ϣⲁ<unclear>ⲣ</unclear><supplied reason="lacuna">ⲱ</supplied>ⲧ᷍ⲛ</w></ab><ab n="B04K14V19"><w>ⲉⲧⲓ</w><w>ⲕⲉ
+<lb break="no" xml:id="P68rC1L2-cw1" n="2"/><supplied reason="lacuna">ⲕ</supplied>ⲟⲩⲓ̈</w><w>ⲁⲩⲱ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲕⲟ</supplied>ⲥⲙⲟⲥ</w><w>ⲛⲉⲛⲉ<unclear>ⲩ</unclear></w>
+<lb n="P68rC1L3-cw1"/><w><supplied reason="lacuna">ⲉ</supplied><unclear>ⲣ</unclear><unclear>ⲁ</unclear>ⲓ̈</w><w>ⲉⲛ</w><w>ⲛ<unclear>̂</unclear><supplied reason="lacuna">ⲧⲱ</supplied>ⲧ᷍ⲛ</w><w>ⲇⲉ</w><w>ⲧⲉⲧⲛⲉ
+<lb break="no" xml:id="P68rC1L4-cw1" n="4"/><supplied reason="lacuna">ⲛⲉⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲣⲁⲓ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁⲛ</supplied>ⲁⲕ⳿</w><w>ϯⲁⲛϩ</w><w>ⲁⲩⲱ</w>
+<lb n="P68rC1L5-cw1"/><w><supplied reason="lacuna">ⲛⲧⲱⲧⲛ</supplied></w><w><supplied reason="lacuna">ϩⲱⲧⲛ</supplied></w><w><supplied reason="lacuna">ⲧ</supplied>ⲉⲧⲛⲉⲱⲛⲉϩ</w>
+<lb n="P68rC1L6-cw1"/></ab><ab n="B04K14V20"><w><supplied reason="lacuna">ϩⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲉϩⲁⲟⲩ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲧ᷍ⲙⲙⲉⲩ</w><w>ⲧⲉ
+<lb break="no" xml:id="P68rC1L7-cw1" n="7"/><supplied reason="lacuna">ⲧⲛⲉⲓⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲱⲧⲛ</supplied></w><w>ϫⲉ</w><w>ⲁⲛⲁⲕ⳿</w>
+<lb n="P68rC1L8-cw1"/><w><supplied reason="lacuna">ϯϩⲙ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲓⲱⲧ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w>ⲛ̂ⲧⲱⲧ᷍ⲛ</w>
+<lb n="P68rC1L9-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">14.21-14.22</note>
+<pb xml:id="P68v-cw1" n="68v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3779/3521_28v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_28v.tif;cc=apis;entryid=x-3779;quality=1;view=image"/>
+<cb n="P68vC1-cw1"/><note type="editorial">Husselman f. 28v</note>
+<lb n="P68vC1L1-cw1"/></ab><ab n="B04K14V23"><w>ϩⲁϥⲟⲩⲟϩ᷍<unclear>ⲙ</unclear></w><w><supplied reason="lacuna">ⲛ</supplied>ϫⲓ</w><w>ⲓ̅ⲥ̅</w><w>ⲡⲉϫ<supplied reason="lacuna">ⲉϥ</supplied></w>
+<lb n="P68vC1L2-cw1"/><w>ⲛⲉϥ</w><note type="editorial">|ϫⲉ|</note><w>ⲁⲣ<unclear>ϣ</unclear><supplied reason="lacuna">ⲁ</supplied>ⲛⲟⲩⲉⲓ̈</w><w>ⲙ<unclear>ⲉ</unclear><supplied reason="lacuna">ⲣⲓⲧ</supplied></w>
+<lb n="P68vC1L3-cw1"/><w>ⲛ᷍ϥⲁⲣⲉϩ</w><w>ⲉ<supplied reason="lacuna">ⲡⲁⲥⲉ</supplied>ϫⲓ</w><w>ⲡⲁⲓ̈ⲱ<supplied reason="lacuna">ⲧ</supplied></w>
+<lb n="P68vC1L4-cw1"/><w>ⲛⲉⲙⲉⲣⲓⲧ<supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲧⲛ</supplied>ⲛ<unclear>̂</unclear><supplied reason="lacuna">ⲛⲏⲩ</supplied></w>
+<lb n="P68vC1L5-cw1"/><w>ϣⲁⲣⲁϥ</w><w>ⲛ̂<supplied reason="lacuna">ⲧⲛⲧⲁⲙⲓⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲟⲩ</supplied>
+<lb break="no" xml:id="P68vC1L6-cw1" n="6"/>ⲙⲁ</w><w>ⲛϣⲱ<supplied reason="lacuna">ⲡⲓ</supplied></w><w><supplied reason="lacuna">ϩⲁϩⲧⲏϥ</supplied></w></ab><ab n="B04K14V24"><w><supplied reason="lacuna">ⲡⲉⲧⲉ</supplied>
+<lb break="no" xml:id="P68vC1L7-cw1" n="7"/>ⲛ᷍ϥⲙⲏⲓ̈</w><w><unclear>ⲉ</unclear><supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲓ</supplied></w><w><supplied reason="lacuna">ⲛϥⲁⲣⲉϩ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w>
+<lb n="P68vC1L8-cw1"/><w>ⲉⲡⲁⲥ<unclear>ⲉ</unclear><supplied reason="lacuna">ϫⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲥⲉϫⲉ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲉ</supplied></w>
+<lb n="P68vC1L9-cw1"/><w><supplied reason="illegible">ⲧ᷍ⲛ</supplied><supplied reason="lacuna">ⲥⲱⲧⲙ</supplied></w><w><supplied reason="lacuna">10-12</supplied></w>
+<lb n="P68vC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">14.25-15.3</note><note type="editorial">|F69|lost</note>
+<pb xml:id="P70r-cw1" n="70r" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3780/3521_29r.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_29r.tif;cc=apis;entryid=x-3780;quality=1;view=image"/>
+<cb n="P70rC1-cw1"/><note type="editorial">Husselman f. 29r</note>
+<lb n="P70rC1L1-cw1"/></ab></div><div type="chapter" n="B04K15"><ab n="B04K15V4"><w><supplied reason="lacuna">ⲧϩⲏ</supplied></w><w><supplied reason="lacuna">ϩ</supplied>ⲱⲧⲛ</w><w><gap extent="5" unit="char" reason="illegible"/><supplied reason="lacuna">6-8</supplied></w>
+<lb n="P70rC1L2-cw1"/><w><supplied reason="lacuna">ϩⲣⲏ</supplied>ⲓ<unclear>̈</unclear></w><w>ⲛ᷍ϩⲏⲧ⳿</w></ab><ab n="B04K15V5"><w>ⲁⲛⲁⲕ⳿</w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲧⲃⲱ</supplied></w>
+<lb n="P70rC1L3-cw1"/><w><supplied reason="lacuna">ⲛⲉⲗⲁⲁⲗ</supplied>ⲓ</w><w>ⲛ᷍ⲧⲱⲧ᷍ⲛ</w><w>ⲛ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲕ</supplied>
+<lb break="no" xml:id="P70rC1L4-cw1" n="4"/><supplied reason="lacuna">ⲗⲏⲙⲁ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied>ⲧⲛⲉϭⲱ</w><w>ϩⲣⲏⲓ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ϩⲏⲧ</supplied></w>
+<lb n="P70rC1L5-cw1"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲁⲛⲁ</supplied>ⲕ⳿</w><w>ϩⲣⲏⲓ̈</w><w>ⲛ᷍ϩⲏⲧϥ̂<supplied reason="lacuna">ⲡⲉⲓ</supplied></w><w><supplied reason="lacuna">ϥ</supplied>
+<lb break="no" xml:id="P70rC1L6-cw1" n="6"/><supplied reason="lacuna">ⲛⲉϯ</supplied></w><w><supplied reason="lacuna">ⲛⲟⲩ</supplied>ⲕⲁⲣⲡⲟⲥ</w><w>ⲉⲛⲁ<supplied reason="lacuna">ϣⲱϥ</supplied></w>
+<lb n="P70rC1L7-cw1"/><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲁ</supplied>ⲧ⳿ϫⲉⲛⲧ⳿</w><w>ⲛ᷍ⲧⲉ<supplied reason="lacuna">ⲧⲛⲉϣ</supplied>
+<lb break="no" xml:id="P70rC1L8-cw1" n="8"/><supplied reason="lacuna">ⲣ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲛⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲛϩ</supplied>ⲱⲃ⳿</w><w>ⲉⲛ</w></ab><ab n="B04K15V6"><w>ⲁⲣⲉⲧ<supplied reason="lacuna">ⲙⲟⲩⲉⲓ</supplied></w>
+<lb n="P70rC1L9-cw1"/><w><supplied reason="lacuna">ϭⲱ</supplied></w><w><supplied reason="lacuna">ϩⲣⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ϩⲏⲧ⳿</w><w>ⲁ<unclear>ⲩ</unclear>ⲛⲉϩⲓ<unclear>ⲧ</unclear><supplied reason="lacuna">ϥ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w>
+<lb n="P70rC1L10-cw1"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">15.7-15.8</note>
+<pb xml:id="P70v-cw1" n="70v" type="folio" facsold="http://quod.lib.umich.edu/a/apis/x-3781/3521_29v.tif" facs="http://quod.lib.umich.edu/cgi/i/image/getimage-idx?viewid=3521_29v.tif;cc=apis;entryid=x-3781;quality=1;view=image"/>
+<cb n="P70vC1-cw1"/><note type="editorial">Husselman f. 29v</note>
+<lb n="P70vC1L1-cw1"/></ab><ab n="B04K15V9"><w><supplied reason="lacuna">ⲕⲁⲧⲁ</supplied></w><w><supplied reason="lacuna">ⲧϩ</supplied>ⲏ</w><w>ⲉⲧⲉϩⲁⲡⲁ<supplied reason="lacuna">ⲓⲱⲧ</supplied></w>
+<lb n="P70vC1L2-cw1"/><w><supplied reason="lacuna">ⲙⲉⲣⲓⲧ</supplied></w><w><unclear>ⲁ</unclear>ⲛⲁⲕ⳿</w><w>ϩⲱ</w><w>ϩⲁⲓ̈ⲙ<supplied reason="lacuna">ⲉⲣⲉ</supplied></w>
+<lb n="P70vC1L3-cw1"/><w><supplied reason="lacuna">ⲧⲏⲛⲟⲩ</supplied></w><w>ϭⲱ</w><w>ϩⲛ̂</w><w>ⲧⲁⲁⲅⲁ<supplied reason="lacuna">ⲡⲏ</supplied></w></ab><ab n="B04K15V10"><w><supplied reason="lacuna">ⲁⲧⲉ</supplied>
+<lb break="no" xml:id="P70vC1L4-cw1" n="4"/><supplied reason="lacuna">ⲧⲛϣⲁⲛ</supplied>ⲁⲣⲉϩ</w><w>ⲉⲛⲁⲉⲛⲧ<supplied reason="lacuna">ⲟⲗⲏ</supplied></w>
+<lb n="P70vC1L5-cw1"/><w><supplied reason="lacuna">ⲧⲉⲧⲛⲉⲣ</supplied>ⲉϩⲓ</w><w>ϩ᷍ⲛ</w><w>ⲧⲁⲁⲅⲁ<supplied reason="lacuna">ⲡⲏ</supplied></w><w><supplied reason="lacuna">ⲕⲁⲧⲁ</supplied></w>
+<lb n="P70vC1L6-cw1"/><w><supplied reason="lacuna">ⲧϩⲏ</supplied></w><w><supplied reason="lacuna">ⲉⲧ</supplied>ⲉ</w><w>ϩⲁⲓ̈ⲁⲣⲉϩ</w><w>ⲉⲛⲉⲛ<supplied reason="lacuna">ⲧⲟⲗⲏ</supplied></w>
+<lb n="P70vC1L7-cw1"/><w><supplied reason="lacuna">ⲙⲡⲁⲓ</supplied>ⲱⲧ⳿</w><w>ⲁⲩⲱ</w><w>ϯϭⲏ<supplied reason="lacuna">ⲏⲧ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w>
+<lb n="P70vC1L8-cw1"/><w><supplied reason="lacuna">ⲧⲉϥⲁ</supplied>ⲅⲁⲡⲏ</w></ab><ab n="B04K15V11"><w>ⲛⲉⲓ̈</w><w>ϩⲁⲓ̈<supplied reason="lacuna">ϫⲁⲩ</supplied></w>
+<lb n="P70vC1L9-cw1"/><w><supplied reason="lacuna">ⲛⲏⲧⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w>ⲛ̂ⲧⲉⲡⲁⲣⲉ<unclear>ϣ</unclear><supplied reason="lacuna">ⲓ</supplied></w>
+<lb n="P70vC1L10-cw1"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">15:12-21:25</note><note type="editorial">Folios 71-95 are lost.</note></ab></div></div></body></text></TEI>

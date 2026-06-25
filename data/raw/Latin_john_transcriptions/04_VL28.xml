@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL28"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in Codex Usserianus secundus</title>
+<title type="document" n="VL28">VL28</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Ireland</country>
+<settlement>Dublin</settlement>
+<repository>Trinity College</repository>
+<idno>56</idno>
+<msName xml:lang="la">Codex Usserianus secundus</msName>
+ <altIdentifier type="alias"><idno>The Garland of Howth</idno></altIdentifier>
+ <altIdentifier type="Vetus_Latina"><idno>28</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>2.272</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Hg</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>r2</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>66358</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>7609</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Quattuor Euangelia</title>
+<title type="uniform" xml:lang="en">Four Gospels in order Mt Mc Lc Jo</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p/></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>Irish majuscule</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>Ireland</origPlace>
+<origDate notBefore="77501" notAfter="82501">Around 800</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white negative photographs in ITSEE, supplied by Vetus Latina-Institut.</bibl>
+</surrogates>
+<listBibl><bibl>T.K. Abbott, Evangeliorum versio antehieronymiana ex codice Usseriano (Dublinensi) adiecta collatione codicis Usseriani alterius, Dublin 1884.</bibl>
+<bibl>H.C. Hoskier, The text of Codex Usserianus 2. r2. ("Garland of Howth") with critical notes to supplement and correct the collation of the late T.K. Abbott, London 1919.</bibl></listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>pages 163-172.</locus>. It contains John 5:12-10:3.The transcription includes foliation, lineation and punctuation. The manuscript uses a number of abbreviations, including those for 'autem', 'est', 'enim', 'dixit', 'respondit' and so on. These words have all been transcribed in full, although nasal bars have been recorded. Lacunae are normally indicated by the number of characters missing. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/> </p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="5" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="4" when="2015-04-30">Reconversion of the revised plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="3" when="2012-07-03">The file was revised by HH to incorporate changes arising from Philip Burton's consultation of the manuscript in Dublin on 27th and 28th June 2012.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-02-22">Change to verse division of 5:18-19 by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+
+<pb xml:id="P163-VL28" n="163" type="page"/>
+<cb n="P163C1-VL28"/>
+<lb n="P163C1L1-VL28"/><div n="04" type="book"><div n="B04K5" type="chapter"><ab n="B04K5V12"><note type="editorial">Pages 160-162 of the manuscript contain Luke 22:24-23:14</note><w>eum</w><w>quis</w><w>est</w><w>ille</w><w>homo</w><w>qui</w><w>dixit</w><w>tibi</w><w>tolle</w><w>grauattu<hi rend="¯">m</hi></w><w>tuu<hi rend="¯">m</hi></w>
+<lb n="P163C1L2-VL28"/><w>et</w><w>ambula</w></ab><ab n="B04K5V13"><w>is</w><w>autem</w><w>qui</w><w>sanus</w><w>fuerat</w><w>effectus</w><w>nesceb
+<lb n="P163C1L3-VL28" break="no"/>at</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>autem</w><w>declinauit</w><w>constitua<hi rend="¯">m</hi></w><w>in</w><w>locum</w></ab><ab n="B04K5V14"><w>postea</w><w>inue
+<lb n="P163C1L4-VL28" break="no"/>nit</w><w>eum</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>templu<hi rend="¯">m</hi></w><w>et</w><w>dixit</w><w>illi</w><w>ecce</w><w>sanus</w><w>factus</w><w>es</w>
+<lb n="P163C1L5-VL28"/><w>iam</w><w>nolii</w><w>peccare</w><w>ne</w><w>deterius</w><w>tibi</w><w>aliquid</w><w>contingat</w>
+<lb n="P163C1L6-VL28"/></ab><ab n="B04K5V15"><w>Abiit</w><w>ille</w><w>homo</w><w>adnuntiauit</w><w>iudeis</w><w>qui</w><w>fecit</w><w>eum</w><w>sa
+<lb n="P163C1L7-VL28" break="no"/>num</w></ab><ab n="B04K5V16"><w>propterea</w><w>persequebantur</w><w>iudei</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>quia</w><w>haec</w><w>requia
+<lb n="P163C1L8-VL28" break="no"/>bat</w><w>in</w><w>sabbatu<hi rend="¯">m</hi></w></ab><ab n="B04K5V17"><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>respondit</w><w>eis</w><w>pater</w><w>meus</w><w>usque</w><w>modo</w><w>op
+<lb n="P163C1L9-VL28" break="no"/>eratur</w><w>et</w><w>ego</w><w>operor</w></ab><ab n="B04K5V18"><w>propteria</w><w>ergo</w><w>magis</w><w>quaerebant</w><w>eu<hi rend="¯">m</hi></w>
+<lb n="P163C1L10-VL28"/><w>iudei</w><w>ut</w><w>interficerent</w><w>quia</w><w>non</w><w>solum</w><w>soluebat</w><w>sabbatu<hi rend="¯">m</hi></w>
+<lb n="P163C1L11-VL28"/><w>sed</w><w>et</w><w>patre<hi rend="¯">m</hi></w><w>suum</w><w>dicebat</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>equalem</w><w>se</w><w>faciens</w>
+<lb n="P163C1L12-VL28"/><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w></ab><ab n="B04K5V19"><w>respondit</w><w>itaque</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>dixit</w><w>ei</w><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w>
+<lb n="P163C1L13-VL28"/><w>non</w><w>potest</w><w>filius</w><w>facere</w><w>quiqua<hi rend="¯">m</hi></w><w>a</w><w>se</w><w>nissi</w><w>quod</w>
+<lb n="P163C1L14-VL28"/><w>uiderit</w><w>patrem</w><w>facientem</w><w>quaecumque</w><w>enim</w><w>ille</w><w>fecer
+<lb n="P163C1L15-VL28" break="no"/>it</w><w>haec</w><w>et</w><w>filius</w><w>similiter</w><w>facit</w></ab><ab n="B04K5V20"><w>pater</w><w>enim</w><w>dilegit</w><w>filium</w><w>et</w>
+<lb n="P163C1L16-VL28"/><w>omnia</w><w>dedit</w><w>demonstra</w><w>ei</w><w>quae</w><w>ipse</w><w>facit</w><w>Et</w><w>mai
+<lb n="P163C1L17-VL28" break="no"/>ora</w><w>his</w><w>demonstrauit</w><w>ei</w><w>opera</w><w>et</w><w>uos</w><w>miremini</w>
+<lb n="P163C1L18-VL28"/></ab><ab n="B04K5V21"><w>Sicut</w><w>enim</w><w>pater</w><w>suscitet</w><w>mortuos</w><w>et</w><w>uiuificet</w><w>sic</w>
+<lb n="P163C1L19-VL28"/><w>et</w><w>filius</w><w>quos</w><w>uult</w><w>uiuificat</w></ab><ab n="B04K5V22"><w>neque</w><w>enim</w><w>pater</w><w>iudi
+<lb n="P163C1L20-VL28" break="no"/>cat</w><w>quemqua<hi rend="¯">m</hi></w><w>sed</w><w>iudicio</w><w>ome</w><w>dedit</w><w>filio</w></ab><ab n="B04K5V23"><w>ut</w><w>omnes</w>
+<lb n="P163C1L21-VL28"/><w>honorificant</w><w>filiu<hi rend="¯">m</hi></w><w>sicut</w><w>honorificant</w><w>patre<hi rend="¯">m</hi></w><w>qui</w><w>n<ex>on</ex></w>
+<lb n="P163C1L22-VL28"/><w>honorificant</w><w>filium</w><w>non</w><w>honorificant</w><w>patre<hi rend="¯">m</hi></w><w>qui</w><w>mi<supplied reason="unspecified">s</supplied>
+<lb n="P163C1L23-VL28" break="no"/>sit</w><w>illu<hi rend="¯">m</hi></w></ab><ab n="B04K5V24"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>quia</w><w>qui</w><w>uerbu<hi rend="¯">m</hi></w><w>meum</w><w>a<supplied reason="unspecified">u</supplied>
+<lb n="P163C1L24-VL28" break="no"/>dit</w><w>et</w><w>credit</w><w>ei</w><w>qui</w><w>missit</w><w>me</w><w>habet</w><w>uitam</w><w><unclear>eter</unclear><supplied reason="unspecified">nam</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P163C1L25-VL28"/><w>iudiciu<hi rend="¯">m</hi></w><w>non</w><w>ueniet</w><w>sed</w><w>transiat</w><w>a</w><w>morte</w><w>in</w><w>uita</w></ab><ab n="B04K5V25"><w>A
+<lb n="P163C1L26-VL28" break="no"/>men</w><w>amen</w><w>dico</w><w>uobis</w><w>quia</w><w>uenit</w><w>hora</w><w>et</w><w>nunc</w><w>est</w><w>quando</w><w>m<supplied reason="unspecified">or</supplied>
+<pb xml:id="P164-VL28" n="164" type="page" break="no"/>
+<cb n="P164C1-VL28"/>
+<lb n="P164C1L1-VL28"/>tui</w><w>audient</w><w>uoce<hi rend="¯">m</hi></w><w>filii</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>Et</w><w>qui</w><w>audierint</w><w>ui
+<lb n="P164C1L2-VL28" break="no"/>uent</w></ab><ab n="B04K5V26"><w>sicut</w><w>enim</w><w>pater</w><w>habet</w><w>uita<hi rend="¯">m</hi></w><w>in</w><w>semet</w><w>ipso</w></ab><ab n="B04K5V27"><w>et</w><w>po
+<lb n="P164C1L3-VL28" break="no"/>testate<hi rend="¯">m</hi></w><w>dedit</w><w>ei</w><w>et</w><w>iudicium</w><w>facere</w><w>quia</w><w>filius</w><w>ho
+<lb n="P164C1L4-VL28" break="no"/>minis</w><w>est</w></ab><ab n="B04K5V28"><w>Nolite</w><w>mirari</w><w>hoc</w><w>quia</w><w>uenit</w><w>hora</w><w>in</w><w>qua</w>
+<lb n="P164C1L5-VL28"/><w>omnes</w><w>qui</w><w>in</w><w>monumentis</w><w>sunt</w><w>audient</w><w>uoce<hi rend="¯">m</hi></w><w>eius</w></ab><ab n="B04K5V29"><w>Et</w><w>pro
+<lb n="P164C1L6-VL28" break="no"/>cedunt</w><w>qui</w><w>bona</w><w>fecerunt</w><w>in</w><w>resurrectione</w><w>uitae</w><w>qui</w><w>uero</w><w>ma
+<lb n="P164C1L7-VL28" break="no"/>la</w><w>egerunt</w><w>in</w><w>resurrectione</w><w>iudicii</w></ab><ab n="B04K5V30"><w>non</w><w>possum</w><w>ego</w><w>a</w>
+<lb n="P164C1L8-VL28"/><w>me</w><w>ipso</w><w>facere</w><w>quiquam</w><w>audio</w><w>sicut</w><w>iudicio</w><w>Et</w><w>iu
+<lb n="P164C1L9-VL28" break="no"/>dicium</w><w>meum</w><w>iustum</w><w>est</w><w>quia</w><w>non</w><w>quaero</w><w>uoluntate<hi rend="¯">m</hi></w><w>mea<hi rend="¯">m</hi></w><w>sed</w><w>uolu
+<lb n="P164C1L10-VL28" break="no"/>ntatem</w><w>eius</w><w>qui</w><w>missit</w><w>me</w></ab><ab n="B04K5V31"><w>Si</w><w>ergo</w><w>testimonium</w><w>peri
+<lb n="P164C1L11-VL28" break="no"/>beo</w><w>de</w><w>me</w><w>Et</w><w>testimonium</w><w>meum</w><w>non</w><w>est</w><w>ueru<hi rend="¯">m</hi></w></ab><ab n="B04K5V32"><w>Alius</w><w>est</w>
+<lb n="P164C1L12-VL28"/><w>qui</w><w>testimoniu<hi rend="¯">m</hi></w><w>peribet</w><w>de</w><w>me</w></ab><ab n="B04K5V33"><w>Uos</w><w>missistis</w><w>ad</w><w>ioha
+<lb n="P164C1L13-VL28" break="no"/>nne<hi rend="¯">m</hi></w><w>et</w><w>testimoniu<hi rend="¯">m</hi></w><w>perhibuit</w><w>ueritati</w></ab><ab n="B04K5V34"><w>Ego</w><w>autem</w><w>non</w><w>ab</w><w>io
+<lb n="P164C1L14-VL28" break="no"/>hanne</w><w>testimoniu<hi rend="¯">m</hi></w><w>accipio</w><w>sed</w><w>haec</w><w>dico</w><w>ut</w><w>uos</w><w>salui</w><w>sit
+<lb n="P164C1L15-VL28" break="no"/>is</w></ab><ab n="B04K5V35"><w>ille</w><w>erat</w><note type="editorial">Abbott reads 'erat in' for 'erat'</note><w>ut</w><w>lucerna</w><w>ardens</w><w>et</w><w>luciens</w><w>Uos</w><w>autem</w><w>uo
+<lb n="P164C1L16-VL28" break="no"/>luistis</w><w>exire</w><w>ad</w><w>hora<hi rend="¯">m</hi></w><w>eius</w><w>in</w><w>luce</w></ab><ab n="B04K5V36"><w>Ego</w><w>autem</w><w>habeo</w><w>testi
+<lb n="P164C1L17-VL28" break="no"/>monium</w><w>maius</w><w>iohanne</w><w>opera</w><w>enim</w><w>quae</w><w>dedit</w><w>mihi</w><w>pa
+<lb n="P164C1L18-VL28" break="no"/>ter</w><w>ut</w><w>perficiam</w><w>ea</w><w>ipsa</w><w>opera</w><w>quae</w><w>et</w><w>ego</w><w>facio</w><w>testimon
+<lb n="P164C1L19-VL28" break="no"/>ium</w><w>peribent</w><w>de</w><w>me</w><w>quia</w><w>pater</w><w>me</w><w>missit</w></ab><ab n="B04K5V37"><w>Et</w><w>qui</w><w>me</w><w>mis
+<lb n="P164C1L20-VL28" break="no"/>sit</w><w>pater</w><w>ipse</w><w>testimoniu<hi rend="¯">m</hi></w><w>peribuit</w><w>de</w><w>me</w><w>ne
+<lb n="P164C1L21-VL28" break="no"/>que</w><w>uocem</w><w>umqua<hi rend="¯">m</hi></w><w>audistis</w><w>neque</w><w>speciem</w><w>uidis
+<lb n="P164C1L22-VL28" break="no"/>tis</w></ab><ab n="B04K5V38"><w>Et</w><w>uerbum</w><w>eius</w><w>non</w><w>habetis</w><w>in</w><w>uobis</w><w>maniens</w><w>quia</w><w>quem</w><w>mis
+<lb n="P164C1L23-VL28" break="no"/>sit</w><w>ille</w><w>huic</w><w>uos</w><w>non</w><w>creditis</w></ab><ab n="B04K5V39"><w>Scrutamini</w><w>scrip
+<lb n="P164C1L24-VL28" break="no"/>turas</w><w>quia</w><w>uos</w><w>putatis</w><w>i<hi rend="¯">n</hi></w><w>ipsis</w><w>uita<hi rend="¯">m</hi></w><w>eterna<hi rend="¯">m</hi></w><w>habere</w><w>Et</w>
+<lb n="P164C1L25-VL28"/><w>ille</w><w>sunt</w><w>qui</w><w>testimonium</w><w>peribent</w><w>de</w><w>me</w></ab><ab n="B04K5V40"><w>et</w><w>non</w><w>uultis</w>
+<lb n="P164C1L26-VL28"/><w>uenire</w><w>ad</w><w>me</w><w>ut</w><w>uita<hi rend="¯">m</hi></w><w>habeatis</w></ab><ab n="B04K5V41"><w>Claritate<hi rend="¯">m</hi></w><w>ab</w>
+<pb xml:id="P165-VL28" n="165" type="page"/>
+<cb n="P165C1-VL28"/>
+<lb n="P165C1L1-VL28"/><w>hominibus</w><w>non</w><w>accipio</w></ab><ab n="B04K5V42"><w>sed</w><w>cognoui</w><w>uos</w><w>q<supplied reason="unspecified">uoniam</supplied></w><w><supplied reason="unspecified">dilectione<hi rend="¯">m</hi></supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">di</hi></supplied></abbr></w>
+<lb n="P165C1L2-VL28"/><w>non</w><w>habetis</w><w>in</w><w>uobis</w></ab><ab n="B04K5V43"><w>Ego</w><w>ueni</w><w>in</w><w>no<supplied reason="unspecified">mine</supplied></w><w><supplied reason="unspecified">patris</supplied></w>
+<lb n="P165C1L3-VL28"/><w>mei</w><w>suo</w><w>proprio</w><w>illo</w><w>accipietis</w></ab><ab n="B04K5V44"><w>Quom<supplied reason="unspecified">odo</supplied></w><w><supplied reason="unspecified">potestis</supplied></w><w><supplied reason="unspecified">uos</supplied></w>
+<lb n="P165C1L4-VL28"/><w>credere</w><w>qui</w><w>gloria<hi rend="¯">m</hi></w><w>ab</w><w>inuice<hi rend="¯">m</hi></w><w>accipi<supplied reason="unspecified">tis</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">honorem</supplied></w><w><supplied reason="unspecified">quae</supplied></w>
+<lb n="P165C1L5-VL28"/><w>a</w><w>solo</w><w>est</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>non</w><w>quaeritis</w></ab><ab n="B04K5V45"><w>Nolite</w><w>putare</w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">accusa</supplied>
+<lb n="P165C1L6-VL28" break="no"/>turus</w><w>su<hi rend="¯">m</hi></w><w>uos</w><w>apud</w><w>patre<hi rend="¯">m</hi></w><w>est</w><w>Qui</w><w>accu<supplied reason="unspecified">set</supplied></w><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">mo</supplied>
+<lb n="P165C1L7-VL28" break="no"/>ses</w><w>in</w><w>quo</w><w>speratis</w></ab><ab n="B04K5V46"><w>Si</w><w>enim</w><w>crederitis</w><w>mo<supplied reason="unspecified">si</supplied></w>
+<lb n="P165C1L8-VL28"/><w>crederitis</w><w>et</w><w>mihi</w><w>De</w><w>me</w><w>enim</w><w>ille</w><w>scri<supplied reason="unspecified">psit</supplied></w><note type="editorial">Hoskier only reads the initial 's...' of 'scri(psit)'</note></ab><ab n="B04K5V47"><w><supplied reason="unspecified">si</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">il</supplied>
+<lb n="P165C1L9-VL28" break="no"/>lius</w><w>litteris</w><w>non</w><w>creditis</w><w>quomodo</w><w>uerbis</w><w>meis</w><w><supplied reason="unspecified">credetis</supplied></w></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V1"><w><supplied reason="unspecified">post</supplied></w>
+<lb n="P165C1L10-VL28"/><w>haec</w><w>abiit</w><note type="editorial">Hoskier reads "habiit" for "haec abiit"</note><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>trans</w><w>mare</w><w>galiliae</w><w>quod</w><w>est</w><w>tib<supplied reason="unspecified">eriad</supplied>
+<lb n="P165C1L11-VL28" break="no"/>tas</w></ab><ab n="B04K6V2"><w>et</w><w>sequebatur</w><w>eum</w><w>multitudo</w><w>mag<supplied reason="unspecified">na</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">uideba</supplied>
+<lb n="P165C1L12-VL28" break="no"/>nt</w><w>signa</w><w>quae</w><w>faciebat</w><w>super</w><w>his</w><w>qui</w><w><unclear>in</unclear><supplied reason="unspecified">firmabantur</supplied></w>
+<lb n="P165C1L13-VL28"/></ab><ab n="B04K6V3"><w>Subiit</w><w>ergo</w><w>in</w><w>montem</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>ibi</w><w>se<unclear>d</unclear><supplied reason="unspecified">ebat</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">dis</supplied>
+<lb n="P165C1L14-VL28" break="no"/>cipulis</w><w>suis</w></ab><ab n="B04K6V4"><w>Erat</w><w>autem</w><w>proximum</w><w>pas<supplied reason="unspecified">cha</supplied></w><w><supplied reason="unspecified">dies</supplied></w><w><supplied reason="unspecified">fest</supplied>
+<lb n="P165C1L15-VL28" break="no"/>us</w><w>iudeoru<hi rend="¯">m</hi></w><space unit="char" extent="3"/></ab><ab n="B04K6V5"><w>cum</w><w>subleuasset</w><w>e<supplied reason="unspecified">rgo</supplied></w><w><supplied reason="unspecified">oculos</supplied></w>
+<lb n="P165C1L16-VL28"/><w>Et</w><w>uidisset</w><w>quia</w><w>multitudo</w><w>maxima</w><w>uen<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">dicit</supplied></w>
+<lb n="P165C1L17-VL28"/><w>ad</w><w>pflipum</w><w>Unde</w><w>ememus</w><w>panes</w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">manduc</supplied>
+<lb n="P165C1L18-VL28" break="no"/>ent</w><w>hii</w></ab><ab n="B04K6V6"><w>hoc</w><w>autem</w><w>dicebat</w><w>temptans</w><w>eu<hi rend="¯">m</hi></w><w>ipse</w><note type="editorial">Hoskier reads "ip..."</note><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">sciebat</supplied></w>
+<lb n="P165C1L19-VL28"/><w>quid</w><w>esset</w><w>facturus</w></ab><ab n="B04K6V7"><w>respondit</w><w>ei</w><w>philip<ex>pus</ex></w><w>dic<supplied reason="unspecified">ens</supplied></w><w><supplied reason="unspecified">duce</supplied>
+<lb n="P165C1L20-VL28" break="no"/>ntoru<hi rend="¯">m</hi></w><w>denariorum</w><w>panes</w><w>non</w><w>suficiu<supplied reason="unspecified">nt</supplied></w><note type="editorial">Hoskier only reads "sufic..."</note><w><supplied reason="unspecified">eis</supplied></w><w><supplied reason="unspecified">ut</supplied></w>
+<lb n="P165C1L21-VL28"/><w>unusquisque</w><w>modicu<hi rend="¯">m</hi></w><w>quid</w><w>accipiat</w></ab><ab n="B04K6V8"><w>dicit</w><w>e<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">unus</supplied></w><w><supplied reason="unspecified">ex</supplied></w>
+<lb n="P165C1L22-VL28"/><w>discipulis</w><w>eius</w><w>andreas</w><w>frater</w><w>simonis</w><w>p<supplied reason="unspecified">etri</supplied></w></ab><ab n="B04K6V9"><w><supplied reason="unspecified">est</supplied></w>
+<lb n="P165C1L23-VL28"/><w>puer</w><w>unus</w><w>hic</w><w>qui</w><w>habet</w><pc>·</pc><w><abbr type="num"><hi rend="overline">u</hi></abbr></w><pc>·</pc><w>panes</w><w>ord<supplied reason="unspecified">iacios</supplied></w><w><supplied reason="unspecified">et</supplied></w>
+<lb n="P165C1L24-VL28"/><w>duos</w><w>pisces</w><w>sed</w><w>haec</w><w>quid</w><w>sunt</w><w>inter</w><w>tantos</w></ab><ab n="B04K6V10"><w>D<supplied reason="unspecified">i</supplied>x<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">faci</supplied>
+<lb n="P165C1L25-VL28" break="no"/>te</w><w>homines</w><w>discumbere</w><w>Erat</w><w>autem</w><w>fae<supplied reason="unspecified">n</supplied></w><w><supplied reason="unspecified">mult</supplied>
+<lb n="P165C1L26-VL28" break="no"/>um</w><w>in</w><w>loco</w><w>Et</w><w>discubuerunt</w><w>ergo</w><w>uiri</w><w>num<supplied reason="unspecified">ero</supplied></w><w><supplied reason="unspecified">quasi</supplied></w><w><supplied reason="unspecified">u</supplied></w><w><supplied reason="unspecified">milia</supplied></w>
+<pb xml:id="P166-VL28" n="166" type="page"/></ab><ab n="B04K6V11"><w><supplied reason="unspecified">accepit</supplied></w><w>ergo</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>panes</w><w>et</w><w>cum</w><w>gratias</w><w>egiset</w>
+<cb n="P166C1-VL28"/>
+<lb n="P166C1L1-VL28"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">d</supplied>iscumbentibus</w><w>similiter</w><w>ex</w><w>piscibus</w><w>quan
+<lb n="P166C1L2-VL28" break="no"/><supplied reason="unspecified">tum</supplied></w><w><supplied reason="unspecified">uoleban</supplied>t</w></ab><ab n="B04K6V12"><w>Dixit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>discipulis</w><w>suis</w><w>collegite</w><w>frag
+<lb n="P166C1L3-VL28" break="no"/><supplied reason="unspecified">menta</supplied></w><w><supplied reason="unspecified">quae</supplied></w><w>superauerunt</w><w>ne</w><w>periant</w></ab><ab n="B04K6V13"><w>Collegerunt</w><w>ergo</w>
+<lb n="P166C1L4-VL28"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">impleuerunt</supplied></w><w><supplied reason="unspecified">x</supplied>ii</w><w>cofinos</w><w>fragmentorum</w><w>ex</w><pc>·</pc><w>u</w><pc>·</pc><w>panibus</w>
+<lb n="P166C1L5-VL28"/><w><supplied reason="unspecified">hordiaciis</supplied></w><w><supplied reason="unspecified">qu</supplied>ae</w><w>superauerunt</w><w>his</w><w>qui</w><w>manducauerunt</w></ab><ab n="B04K6V14"><w>illi</w><w>ergo</w>
+<lb n="P166C1L6-VL28"/><w><supplied reason="unspecified">homines</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w>uidissent</w><w>quod</w><w>fecerat</w><w>signu<hi rend="¯">m</hi></w><w>diciabant</w>
+<lb n="P166C1L7-VL28"/><w><supplied reason="unspecified">hic</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">uere</supplied></w><w>profeata</w><w>qui</w><w>uenturus</w><w>est</w><w>in</w><w>hunc</w><w>mundum</w>
+<lb n="P166C1L8-VL28"/></ab><ab n="B04K6V15"><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w>cognouisset</w><w>quia</w><w>uenturi</w><w>essent</w><w>ut</w><w>raper
+<lb n="P166C1L9-VL28" break="no"/><supplied reason="unspecified">ent</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">eu</hi></supplied></abbr></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">f</supplied>acerent</w><w>eu<hi rend="¯">m</hi></w><w>regem</w><w>Fugit</w><w>iteru<hi rend="¯">m</hi></w><w>in</w><w>monte<hi rend="¯">m</hi></w><w>ip
+<lb n="P166C1L10-VL28" break="no"/><supplied reason="unspecified">se</supplied></w><w><supplied reason="unspecified">solus</supplied></w></ab><ab n="B04K6V16"><w><supplied reason="unspecified">cum</supplied></w><w><unclear>autem</unclear></w><note type="editorial">Autem, abbreviated as hr, apparently just visible. Hoskier does not record it.</note><w>factus</w><w>est</w><w>sero</w><w>discenderunt</w><w>discipuli</w><w>eius</w>
+<lb n="P166C1L11-VL28"/><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">mare</supplied></w></ab><ab n="B04K6V17"><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w>ascendiset</w><w>nauem</w><w>ueniarunt</w><w>trans</w><w>m
+<lb n="P166C1L12-VL28" break="no"/><supplied reason="unspecified">are</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">capha</supplied>rnau<hi rend="¯">m</hi></w><w>et</w><w>tenebre</w><w>ia<hi rend="¯">m</hi></w><w>facte</w><w>erant</w><w>Et</w><w>nondu<hi rend="¯">m</hi></w>
+<lb n="P166C1L13-VL28"/><w><supplied reason="unspecified">uenerat</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">ad</supplied></w><w><unclear>e</unclear>os</w></ab><ab n="B04K6V18"><w>mare</w><w>autem</w><w>uento</w><w>magna</w><w>flante</w><w>exur
+<lb n="P166C1L14-VL28" break="no"/><supplied reason="unspecified">gebat</supplied></w></ab><ab n="B04K6V19"><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">rem</supplied>igassent</w><w>ergo</w><w>quasi</w><w>stadia</w><w>xxu</w><w>aut</w><w>xxx</w><w>Uid
+<lb n="P166C1L15-VL28" break="no"/><supplied reason="unspecified">ent</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihm</hi></supplied></abbr></w><w>ambulante<hi rend="¯">m</hi></w><w>super</w><w>mare</w><w>Et</w><w>proximi</w><w>naui</w><w>fie
+<lb n="P166C1L16-VL28" break="no"/><supplied reason="unspecified">ri</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ti</supplied><unclear>m</unclear>iarunt</w><note type="editorial">Hoskier "...uiarunt"</note></ab><ab n="B04K6V20"><w>ille</w><w>autem</w><w>dicebat</w><w>Ego</w><w>su<hi rend="¯">m</hi></w><w>nolite</w><w>timere</w></ab><ab n="B04K6V21"><w>uo<note type="editorial">Hoskier "u..."</note>
+<lb n="P166C1L17-VL28" break="no"/><supplied reason="unspecified">lebant</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w>accipere</w><w>eu<hi rend="¯">m</hi></w><w>in</w><w>naui</w><w>et</w><w>statim</w><w>fuit</w><w>nauit</w><w>nauis</w>
+<lb n="P166C1L18-VL28"/><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">terram</supplied></w><w><supplied reason="unspecified">i</supplied>n</w><w>quo</w><note type="editorial">Hoskier "... quo", Abbott "[re]i[/re]n quo"</note><w>ibant</w></ab><ab n="B04K6V22"><w>Altera</w><w>die</w><w>turba</w><w>quae</w><w>stabant</w><w>trans</w><w>m
+<lb n="P166C1L19-VL28" break="no"/><supplied reason="unspecified">are</supplied></w><w><supplied reason="unspecified">ui</supplied><unclear>d</unclear>it</w><note type="editorial">Hoskier "...it"</note><w>quia</w><w>nauicula</w><w>alia</w><w>non</w><w>erat</w><w>ibi</w><w>nissi</w><w>illa</w><w>una</w>
+<lb n="P166C1L20-VL28"/><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">quam</supplied></w><w>introisset</w><w>cum</w><w>discipulis</w><w>suis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>naui</w><w>sed</w><w>soli</w>
+<lb n="P166C1L21-VL28"/><w><supplied reason="unspecified">discipu</supplied>li</w><w>eius</w><note type="editorial">Hoskier "... eius"</note><w>abierunt</w></ab><ab n="B04K6V23"><w>Alia</w><w>uero</w><w>superuenerunt</w><w>naues</w><w>a</w><w>tibiri
+<lb n="P166C1L22-VL28" break="no"/><supplied reason="unspecified">ade</supplied></w><w><supplied reason="unspecified">iux</supplied>ta</w><note type="editorial">Hoskier "...a"</note><w>locu<hi rend="¯">m</hi></w><w>ubi</w><w>manducauerunt</w><w>panem</w><w>gratias</w>
+<lb n="P166C1L23-VL28"/><w><supplied reason="unspecified">agente</supplied></w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w></ab><ab n="B04K6V24"><w>Cu<hi rend="¯">m</hi></w><w>ergo</w><w>uidisset</w><w>turba<hi rend="¯">m</hi></w><note type="editorial">superline with Hoskier. It is not certain in the photograph</note><w>quia</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>non</w><w>essit</w><w>ibi</w><w>nis<note type="editorial">Hoskier "nis" (vid); Abbott nis[re]i[/re]</note>
+<lb n="P166C1L24-VL28" break="no"/><supplied reason="unspecified">si</supplied></w><w><supplied reason="unspecified">discip</supplied>uli</w><w>eius</w><w>ascendiarunt</w><w>nauiculas</w><w>Et</w><w>ueniarunt</w><w>ca
+<lb n="P166C1L25-VL28" break="no"/><supplied reason="unspecified">pharnaum</supplied></w><w>quaerentes</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w></ab><ab n="B04K6V25"><w>Et</w><w>cum</w><w>inuenissent</w><w>eu<hi rend="¯">m</hi></w><w>tra</w><note type="editorial">The surviving pages of the manuscript jump from John 6:25 ending page 166 to John 8:7 beginning page 167.</note>
+<pb xml:id="P167-VL28" n="167" type="page"/>
+<cb n="P167C1-VL28"/>
+<lb n="P167C1L1-VL28"/></ab></div><div n="B04K8" type="chapter"><ab n="B04K8V7"><w>ntes</w><w>eum</w><w>erexisit</w><w>se</w><w>et</w><w>dixit</w><w>eis</w><w>q<supplied reason="unspecified">ui</supplied></w><w><supplied reason="unspecified">sine</supplied></w><w><supplied reason="unspecified">peccato</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">uestrum</supplied></w>
+<lb n="P167C1L2-VL28"/><w>pri<ex>us</ex></w><note type="editorial">The abbreviation 'pri:' is expanded following Fischer 1991</note><w>in</w><w>illa<hi rend="¯">m</hi></w><w>lapidem</w><w>mittat</w></ab><ab n="B04K8V8"><w>Et</w><w>iterum</w><w>se</w><w>in<supplied reason="unspecified">clinans</supplied></w>
+<lb n="P167C1L3-VL28"/><w>scribebat</w><w>in</w><w>terram</w></ab><ab n="B04K8V9"><w>Audientes</w><w>autem</w><w>hunc</w><w>sermon<supplied reason="unspecified">em</supplied></w>
+<lb n="P167C1L4-VL28"/><w>unus</w><w>post</w><w>unum</w><w>Exibant</w><w>incipientes</w><w>a</w><w>senioribus</w><w>et</w>
+<lb n="P167C1L5-VL28"/><w>remansit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>solus</w><w>et</w><w>mulier</w><w>in</w><w>medio</w><w>stans</w><w>ante</w><w>eu<hi rend="¯">m</hi></w>
+<lb n="P167C1L6-VL28"/></ab><ab n="B04K8V10"><w>Eregiens</w><w>autem</w><w>se</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>dixit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>mulier</w><w>qui</w><w>te</w><w>accussabant</w>
+<lb n="P167C1L7-VL28"/><w>ubi</w><w>sunt</w><w>Nemo</w><w>te</w><w>contemnabunt</w></ab><ab n="B04K8V11"><w>quae</w><w>dixit</w><w>nemo</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>dixit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><note type="editorial">Hoskier does not include ei ih¬s</note>
+<lb n="P167C1L8-VL28"/><w>Nec</w><w>ego</w><w>te</w><w>contemnabo</w><w>Uade</w><w>et</w><w>amplius</w><w>noli</w><w>peccare</w>
+<lb n="P167C1L9-VL28"/></ab><ab n="B04K8V12"><w>Et</w><w>iterum</w><w>uero</w><w>locutus</w><w>est</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>diciens</w><w>ego</w><w>sum</w><w>lux</w>
+<lb n="P167C1L10-VL28"/><w>huius</w><w>mundi</w><note type="editorial">For "lux huius mundi" Abbott reads "huius mundi lumen", but the manuscript images are clear.</note><w><unclear>qui</unclear></w><w>sequitur</w><w>me</w><w>non</w><w>ambulauit</w><w>in</w><w>tenebr
+<lb n="P167C1L11-VL28" break="no"/>is</w><w>sed</w><w>habebit</w><w>lucem</w><w>uite</w><w>aeternae</w></ab><ab n="B04K8V13"><w>Dixerunt</w><w>ergo</w><w>ei</w><w>et</w><w>faris
+<lb n="P167C1L12-VL28" break="no"/>sei</w><w>tu</w><w>de</w><w>te</w><w>ipso</w><w>habetis</w><w>testimoniu<hi rend="¯">m</hi></w><w>tuu<hi rend="¯">m</hi></w><w>non</w><w>est</w><w>uerum</w></ab><ab n="B04K8V14"><w>respondit</w>
+<lb n="P167C1L13-VL28"/><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>dixit</w><w>eis</w><w>Si</w><w>ego</w><w>testimonium</w><w>peribeo</w><w>testimo<unclear>nnitum</unclear></w>
+<lb n="P167C1L14-VL28"/><space unit="char" extent="4"/><note type="editorial">Gap on page; no sign of expected 'meum' or erasure</note><w>uerum</w><w>est</w><w>quia</w><w>scio</w><w>unde</w><w>ueni</w><w>et</w><w>quo</w><w>uado</w><w>Uos</w><w>autem</w><w>nes
+<lb n="P167C1L15-VL28" break="no"/>citis</w><w>unde</w><w>ueni</w><w>et</w><w>quo</w><w>uado</w><w>Uos</w><w>autem</w><w>nescitis</w><w>unde</w><w>ue
+<lb n="P167C1L16-VL28" break="no"/>ni</w><w>et</w><w>quo</w><w>uado</w></ab><ab n="B04K8V15"><w>Uos</w><w>secundu<hi rend="¯">m</hi></w><w>carnem</w><w>iudicatis</w><w>ego</w><w>non</w><w>iu
+<lb n="P167C1L17-VL28" break="no"/>dico</w><w>quemqua<hi rend="¯">m</hi></w></ab><ab n="B04K8V16"><w>et</w><w>si</w><w>iudico</w><w>ego</w><w>iucium</w><w>meum</w><w>uerum</w><w>est</w><w>quia</w>
+<lb n="P167C1L18-VL28"/><w>solus</w><w>non</w><w>sum</w><w>sed</w><w>ego</w><w>non</w><w>sum</w><w>qui</w><w>missit</w><w>me</w><w>pater</w></ab><ab n="B04K8V17"><w>et</w><w>i<hi rend="¯">n</hi></w><w>lege</w>
+<lb n="P167C1L19-VL28"/><w>uestra</w><w>scriptum</w><w>est</w><w>quia</w><w>duorum</w><w>hominum</w><w>testimoni
+<lb n="P167C1L20-VL28" break="no"/>um</w><w>uerum</w><w>est</w></ab><ab n="B04K8V18"><w>Ego</w><w>sum</w><w>qui</w><w>testimonium</w><w>peribeo</w>
+<lb n="P167C1L21-VL28"/><w>de</w><w>me</w><w>ipso</w><w>et</w><w>testimonium</w><w>peribet</w><w>de</w><w>me</w><w>qui</w><w>me</w>
+<lb n="P167C1L22-VL28"/><w>missit</w><w>pater</w></ab><ab n="B04K8V19"><w>dicebant</w><w>ergo</w><w>ei</w><w>ubi</w><w>est</w><w>pater</w><w>tuus</w><w>respondit</w><w>neque</w>
+<lb n="P167C1L23-VL28"/><w>me</w><w>scitis</w><w>neque</w><w>patrem</w><w>meum</w><w>Si</w><w>me</w><w>scieritis</w><w>forsi
+<lb n="P167C1L24-VL28" break="no"/>tan</w><w>et</w><w>patrem</w><w>meum</w><w>scieritis</w></ab><ab n="B04K8V20"><w>Haec</w><w>uerba</w><w>locutus</w>
+<lb n="P167C1L25-VL28"/><w>est</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>gazafilacio</w><w>dociens</w><w>in</w><w>templo</w><w>Et</w><w>nemo</w><w>ad
+<lb n="P167C1L26-VL28" break="no"/>prechendit</w><w>eum</w><w>quia</w><w>necdum</w><w>uenerat</w><w>hora</w><w>eius</w></ab><ab n="B04K8V21"><w>dixit</w><w><supplied reason="unspecified">ergo</supplied></w>
+<pb xml:id="P168-VL28" n="168" type="page"/>
+<cb n="P168C1-VL28"/>
+<lb n="P168C1L1-VL28"/><w>iterum</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Ego</w><w>uado</w><w>et</w><w>queretis</w><w>me</w><w>et</w><w>in</w><w>pecca
+<lb n="P168C1L2-VL28" break="no"/>to</w><w>uestro</w><w>moriemini</w><w>quia</w><w>ego</w><w>uado</w><w>uos</w><w>non</w><w>potestis</w>
+<lb n="P168C1L3-VL28"/><w>uenire</w></ab><ab n="B04K8V22"><w>Dicebant</w><w>ergo</w><w>iudei</w><w>intra</w><w>uos</w><w>Numquid</w>
+<lb n="P168C1L4-VL28"/><w>interficiet</w><w>semet</w><w>ipsum</w><w>quia</w><w>dicit</w><w>ego</w><w>uado</w><w>uos</w><w>non</w><w>po
+<lb n="P168C1L5-VL28" break="no"/>testis</w><w>uenire</w><w>Diciabant</w><w>ergo</w><w>iudei</w><w>intra</w><w>uos</w><w>nu<hi rend="¯">m</hi>
+<lb n="P168C1L6-VL28" break="no"/>quid</w><w>interficiet</w><w>semet</w><w>ipsum</w><w>quia</w><w>dicit</w><w>ego</w><w>uado</w><w>uos</w>
+<lb n="P168C1L7-VL28"/><w>non</w><w>potestis</w><w>uenire</w></ab><ab n="B04K8V23"><w>Et</w><w>dicebat</w><w>eis</w><w>uos</w><w>deorsu<hi rend="¯">m</hi></w>
+<lb n="P168C1L8-VL28"/><w>estis</w><w>ego</w><w>de</w><w>supernis</w><w>sum</w><w>uos</w><w>de</w><w>mundo</w><w>hoc</w><w>estis</w><w>Ego</w>
+<lb n="P168C1L9-VL28"/><w>non</w><w>sum</w><w>de</w><w>mundo</w><w>hoc</w></ab><ab n="B04K8V24"><w>dixi</w><w>erunt</w><w>uobis</w><w>quia</w><w>moriemini</w><w>in</w>
+<lb n="P168C1L10-VL28"/><w>peccato</w><w>uestro</w></ab><ab n="B04K8V25"><w>dicebant</w><w>ergo</w><w>ei</w><w>ubi</w><w>est</w><w>dixit</w><w><supplied reason="unspecified">ei</supplied>s</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>princi
+<lb n="P168C1L11-VL28" break="no"/>pium</w><w>quia</w><w>et</w><w>loquor</w><w>uobis</w></ab><ab n="B04K8V26"><w>multa</w><w>habeo</w><w>de</w><w>uobis</w><w>loqui</w>
+<lb n="P168C1L12-VL28"/><w>et</w><w>iudicare</w><w>sed</w><w>qui</w><w>missit</w><w>me</w><w>uerax</w><w>est</w><w>Et</w><w>ego</w><w>quae</w><w>audi
+<lb n="P168C1L13-VL28" break="no"/>ui</w><w>hab</w><w>eo</w><w>haec</w><w>loquor</w><w>in</w><w>mundo</w></ab><ab n="B04K8V27"><w>et</w><w>non</w><w>cognouerunt</w><w>quia</w><w>pat
+<lb n="P168C1L14-VL28" break="no"/>rem</w><w>eis</w><w>dicebat</w></ab><ab n="B04K8V28"><w>Dixit</w><w>ergo</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>cum</w><w>exaltaueritis</w><w>fi
+<lb n="P168C1L15-VL28" break="no"/>lium</w><w>hominis</w><w>tunc</w><w>cognoscetis</w><w>quia</w><w>ego</w><w>sum</w><w>Et</w><w>a</w><w>me</w><w>ipso</w>
+<lb n="P168C1L16-VL28"/><w>nihil</w><w>facio</w><w>sed</w><w>sicut</w><w>docuit</w><w>me</w><w>pater</w><w>haec</w><w>loquor</w></ab><ab n="B04K8V29"><w>qui</w>
+<lb n="P168C1L17-VL28"/><w>me</w><w>missit</w><w>mecu<hi rend="¯">m</hi></w><w>est</w><w>et</w><w>non</w><w>relinquit</w><w>me</w><w>solu<hi rend="¯">m</hi></w><w>quia</w><w>ego</w><w>quae</w><w>pla
+<lb n="P168C1L18-VL28" break="no"/>cita</w><w>sunt</w><w>ei</w><w>facio</w><w>semper</w></ab><ab n="B04K8V30"><w>Haec</w><w>illo</w><w>loquente</w><w>multi</w><w>credi
+<lb n="P168C1L19-VL28" break="no"/>diarunt</w><w>in</w><w>eum</w></ab><ab n="B04K8V31"><w>dicebat</w><w>ergo</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>ad</w><w>eos</w><w>qui</w><w>credidiarunt</w>
+<lb n="P168C1L20-VL28"/><w>ei</w><w>iudeos</w><w>si</w><w>uos</w><w>permanseritis</w><w>in</w><w>nomine</w><w>meo</w><w>Uere</w>
+<lb n="P168C1L21-VL28"/><w>discipuli</w><w>mei</w><w>eritis</w></ab><ab n="B04K8V32"><w>et</w><w>cognoscetis</w><w>ueritatem</w><w>Et</w><w>ue
+<lb n="P168C1L22-VL28" break="no"/>ritas</w><w>liberauit</w><w>uos</w></ab><ab n="B04K8V33"><w>Responderunt</w><w>ei</w><w>iudei</w><w>semen</w><w>abrache</w>
+<lb n="P168C1L23-VL28"/><w>sumus</w><w>et</w><w>nemini</w><w>seruimus</w><w>umqua<hi rend="¯">m</hi></w><w>quomodo</w><w>tu</w><w>dicis</w>
+<lb n="P168C1L24-VL28"/><w>A</w><w>liliberi</w><note type="editorial">We have followed the reading 'A liliberi' of Hoskier and Abbott, although 'Et liliberi' is a possible alternative based on the photographs.</note><w>eritis</w></ab><ab n="B04K8V34"><w>respondit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w>
+<lb n="P168C1L25-VL28"/><w>quia</w><w>omnis</w><w>qui</w><w>facit</w><w>peccatu<hi rend="¯">m</hi></w><w>seruus</w><w>est</w><w>peccati</w></ab><ab n="B04K8V35"><w>seruus</w>
+<lb n="P168C1L26-VL28"/><w>autem</w><w>non</w><w>manet</w><w>in</w><w>domu</w><w>in</w><w>eternum</w><w>filium</w><w>autem</w><w>hominis</w><w>manet</w>
+<pb xml:id="P169-VL28" n="169" type="page"/>
+<cb n="P169C1-VL28"/>
+<lb n="P169C1L1-VL28"/><w>in</w><w>aeternum</w></ab><ab n="B04K8V36"><w>Si</w><w>ergo</w><w>uos</w><w>liberaberit</w><w>uere</w><w>liberi</w><w>eritis</w></ab><ab n="B04K8V37"><w>scio</w>
+<lb n="P169C1L2-VL28"/><w>quia</w><w>filii</w><w>abrachae</w><note type="editorial">Hoskier abrache</note><w>estis</w><w>sed</w><w>quaeritis</w><w>me</w><w>interficere</w></ab><ab n="B04K8V38"><w>OM</w></ab><ab n="B04K8V39"><w>responderunt</w><w>et</w><w>dix
+<lb n="P169C1L3-VL28" break="no"/>erunt</w><w>pater</w><w>noster</w><w>abracham</w><w>est</w><w>Dicit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si</w><w>filii</w><w>abrache</w><w>es
+<lb n="P169C1L4-VL28" break="no"/>setis</w><w>opera</w><w>abrache</w><w>facite</w></ab><ab n="B04K8V40"><w>quia</w><w>nunc</w><w>quaeritis</w><w>me</w><w>interf<unclear>icere</unclear></w>
+<lb n="P169C1L5-VL28"/><w>hominem</w><w>qui</w><w>ueritate<hi rend="¯">m</hi></w><w>uobis</w><w>locutus</w><w>su<hi rend="¯">m</hi></w><w>quam</w><w>audiui</w><w>a</w>
+<lb n="P169C1L6-VL28"/><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>hoc</w><w>abracha<hi rend="¯">m</hi></w><w>non</w><w>fecit</w></ab><ab n="B04K8V41"><w>Uos</w><w>facitis</w><w>opera</w><w>patris</w><w>uestri</w><w>Dixerunt</w>
+<lb n="P169C1L7-VL28"/><w>itaque</w><w>ei</w><w>nos</w><w>ex</w><w>fornicatione</w><w>non</w><w>sumus</w><w>nati</w><w>unum</w><w>pat
+<lb n="P169C1L8-VL28" break="no"/>rem</w><w>habemus</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w></ab><ab n="B04K8V42"><w>Dixit</w><w>ergo</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>pater</w><w>uester</w><w>esset</w><w>dilege
+<lb n="P169C1L9-VL28" break="no"/>ritis</w><w>me</w><w>utique</w><w>ego</w><w>autem</w><w>ex</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>processi</w><w>et</w><w>ueni</w><w>neque</w><w>enim</w><w>a</w><w>me</w>
+<lb n="P169C1L10-VL28"/><w>ipso</w><w>ueni</w><w>sed</w><w>ille</w><w>me</w><w>missit</w></ab><ab n="B04K8V43"><w>quare</w><w>locella<hi rend="¯">m</hi></w><w>m<supplied reason="unspecified">eam</supplied></w><w>non</w><w>cognos
+<lb n="P169C1L11-VL28" break="no"/>cetis</w><w>quia</w><w>non</w><w>potestis</w><w>audire</w><w>sermone<hi rend="¯">m</hi></w><w>m<supplied reason="unspecified">eum</supplied></w></ab><ab n="B04K8V44"><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">ex</supplied></w><w>pat
+<lb n="P169C1L12-VL28" break="no"/>re</w><w>diabulo</w><w>estis</w><w>Et</w><w>desideria</w><w>patris</w><w><supplied reason="unspecified">uestri</supplied></w><w><supplied reason="unspecified">uultis</supplied></w><w><supplied reason="unspecified">fa</supplied>ce
+<lb n="P169C1L13-VL28" break="no"/>re</w><w>ille</w><w>homicida</w><w>erat</w><w>ab</w><w>initio</w><w>et</w><w>in</w><w>ueri<supplied reason="unspecified">tate</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">stetit</supplied></w><w>quia</w><w>non</w>
+<lb n="P169C1L14-VL28"/><w>est</w><w>ueritas</w><w>in</w><w>eo</w><w>cu<hi rend="¯">m</hi></w><w>loquitur</w><w>mendaciu<hi rend="¯">m</hi></w><w>ex</w><w>p<supplied reason="unspecified">ropriis</supplied></w><w><supplied reason="unspecified">loquitur</supplied></w><w><supplied reason="unspecified">quia</supplied></w>
+<lb n="P169C1L15-VL28"/><w>mendax</w><w>est</w><w>et</w><w>pater</w><w>eius</w></ab><ab n="B04K8V45"><w>Ego</w><w>autem</w><w>sum</w><w>quia</w><w>uer<supplied reason="unspecified">itatem</supplied></w><w><supplied reason="unspecified">dico</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P169C1L16-VL28"/><w>creditis</w><w>mih</w></ab><ab n="B04K8V46"><w>quis</w><w>ex</w><w>uobis</w><w>arguit</w><w>me</w><w>de</w><w>p<supplied reason="unspecified">eccato</supplied></w><w><supplied reason="unspecified">si</supplied></w><w><supplied reason="unspecified">uerita</supplied>
+<lb n="P169C1L17-VL28" break="no"/>tem</w><w>dico</w><w>quare</w><w>uos</w><w>non</w><w>reditis</w><w>mihi</w></ab><ab n="B04K8V47"><w>quis</w><w>est</w><w><supplied reason="unspecified">ex</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">do</hi></supplied></abbr></w><w><supplied reason="unspecified">ue</supplied>r<supplied reason="unspecified">ba</supplied></w>
+<lb n="P169C1L18-VL28"/><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>audit</w><w>propterea</w><w>uos</w><w>non</w><w>audistis</w><w>quia</w><w>ex</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>non</w><w>e<supplied reason="unspecified">stis</supplied></w></ab><ab n="B04K8V48"><w><supplied reason="unspecified">respond</supplied>erunt</w><w>igi
+<lb n="P169C1L19-VL28" break="no"/>tur</w><w>iudei</w><w>Et</w><w>dixerunt</w><w>ei</w><w>nonne</w><w>bene</w><w>dicimus</w><w><supplied reason="unspecified">nos</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">sa</supplied>mari
+<lb n="P169C1L20-VL28" break="no"/>tanus</w><note type="editorial">Hoskier did not read the first three letters of 'samaritanus'</note><w>es</w><w>tu</w><w>et</w><w>demonium</w><w>habes</w></ab><ab n="B04K8V49"><w>Respondit</w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">demo</supplied>nium</w>
+<lb n="P169C1L21-VL28"/><w>non</w><w>habeo</w><w>sed</w><w>honorifico</w><w>patre<hi rend="¯">m</hi></w><w>meum</w><w>et</w><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">inhonorati</supplied>s</w><w>me</w>
+<lb n="P169C1L22-VL28"/></ab><ab n="B04K8V50"><w>Ego</w><w>autem</w><w>non</w><w>quaero</w><w>gloriam</w><w>meam</w><w>est</w><w>q<supplied reason="unspecified">ui</supplied></w><w><supplied reason="unspecified">quaerit</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">i</supplied>udicat</w>
+<lb n="P169C1L23-VL28"/></ab><ab n="B04K8V51"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>si</w><w>quis</w><w><supplied reason="unspecified">sermone</supplied>m</w><w>meum</w>
+<lb n="P169C1L24-VL28"/><w>seruauerit</w><w>mortem</w><w>non</w><w>uidebit</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">aeternum</supplied></w></ab><ab n="B04K8V52"><w>OM</w></ab><ab n="B04K8V53"><w>OM</w></ab><ab n="B04K8V54"><w>Resp<supplied reason="unspecified">ondit</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w>
+<lb n="P169C1L25-VL28"/><w>si</w><w>ego</w><w>glorifico</w><w>me</w><w>ipsum</w><w>glo<supplied reason="unspecified">ria</supplied></w><w><supplied reason="unspecified">mea</supplied></w><w><supplied reason="unspecified">nihi</supplied>l</w><w>est</w><w>est</w><w>pat<supplied reason="unspecified">er</supplied></w><note type="editorial">Hoskier read the whole word 'pater'</note>
+<lb n="P169C1L26-VL28"/><w>meus</w><w>qui</w><w>glorificat</w><w>me</w><w>quem</w><w>uos</w><w>dicitis</w><w><supplied reason="unspecified">quia</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ds</hi></supplied></abbr></w><w><supplied reason="unspecified">noster</supplied></w><w><supplied reason="unspecified">est</supplied></w><note type="editorial">Hoskier could see 'est'</note>
+<pb xml:id="P170-VL28" n="170" type="page"/>
+<cb n="P170C1-VL28"/>
+<lb n="P170C1L1-VL28"/></ab><ab n="B04K8V55"><w>Et</w><w>non</w><w>cogno<unclear>uistis</unclear></w><w>eu<hi rend="¯">m</hi></w><w>ego</w><w>autem</w><w>noui</w><w>eum</w><w>Et</w><w>si</w><w>dixero</w><w>quia</w><w>non</w><w>scio</w>
+<lb n="P170C1L2-VL28"/><w>ero</w><w>similis</w><w>uobis</w><w>mendax</w><w>sed</w><w>scio</w><w>eu<hi rend="¯">m</hi></w><w>et</w><w>sermo
+<lb n="P170C1L3-VL28" break="no"/>nem</w><w>eius</w><w>seruo</w></ab><ab n="B04K8V56"><w>Abracham</w><w>pater</w><w>uester</w><w>exaltauit</w>
+<lb n="P170C1L4-VL28"/><w>ut</w><w>uideret</w><w>diem</w><w>meum</w></ab><ab n="B04K8V57"><pc>·</pc><w>l</w><pc>·</pc><w>annos</w><w>nondum</w><w>habes</w><w>et</w>
+<lb n="P170C1L5-VL28"/><w>abracham</w><w>uidisti</w></ab><ab n="B04K8V58"><w>dixit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Amen</w><w>amen</w><w>di
+<lb n="P170C1L6-VL28" break="no"/>co</w><w>uobis</w><w>antequam</w><w>abracha<hi rend="¯">m</hi></w><w>fieret</w><w>ego</w><w>su<hi rend="¯">m</hi></w></ab><ab n="B04K8V59"><w>tollerunt</w>
+<lb n="P170C1L7-VL28"/><w>ergo</w><w>lapides</w><w>ut</w><w>mitterentur</w><w>super</w><w>eu<hi rend="¯">m</hi></w><w>his</w><w>autem</w><w>abscond
+<lb n="P170C1L8-VL28" break="no"/>it</w><w>se</w><w>et</w><w>exiit</w><w>de</w><w>templo</w><w>et</w><w>transiens</w><w>per</w><w>mediu<hi rend="¯">m</hi></w><w>eorum</w>
+<lb n="P170C1L9-VL28"/><w>Et</w><w>ibat</w><note type="editorial">For "Et ibat" Abbott reads "exibat"</note><w>sic</w></ab></div><div n="B04K9" type="chapter"><ab n="B04K9V1"><w>et</w><w>praeteriens</w><w>uidit</w><w>homine<hi rend="¯">m</hi></w><w>caecu<hi rend="¯">m</hi></w><w>a</w><w>nati
+<lb n="P170C1L10-VL28" break="no"/>uitate</w></ab><ab n="B04K9V2"><w>Et</w><w>interrogauerunt</w><w>eu<hi rend="¯">m</hi></w><w>discipuli</w><w>eius</w><w>dicentes</w>
+<lb n="P170C1L11-VL28"/><w>rabbi</w><w>quis</w><w>peccauit</w><w>hic</w><w>aut</w><w>parentes</w><w>eius</w><w>ut</w><w>cecus</w><w>nas
+<lb n="P170C1L12-VL28" break="no"/>cer<supplied reason="unspecified">etur</supplied></w></ab><ab n="B04K9V3"><w><supplied reason="unspecified">respondit</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w>neque</w><w>hic</w><w>peccauit</w><w>neque</w><w>parentes</w><w>eius</w>
+<lb n="P170C1L13-VL28"/><w>sed</w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">manifesta</supplied></w><w><supplied reason="unspecified">fi</supplied>erent</w><w>opera</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>in</w><w>illo</w></ab><ab n="B04K9V4"><w>Me</w><w>oportet</w><w>o
+<lb n="P170C1L14-VL28" break="no"/><supplied reason="unspecified">perari</supplied></w><w><supplied reason="unspecified">opera</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w>qui</w><w>missit</w><w>me</w><w>donec</w><w>dies</w><w>est</w><w>Uenit</w>
+<lb n="P170C1L15-VL28"/><w>no<supplied reason="unspecified">x</supplied></w><w><supplied reason="unspecified">quando</supplied></w><w><supplied reason="unspecified">ne</supplied>mo</w><w>potest</w><w>operari</w></ab><ab n="B04K9V5"><w>quamdiu</w><w>in</w><w>mundo</w><w>su<hi rend="¯">m</hi></w>
+<lb n="P170C1L16-VL28"/><w>lu<supplied reason="unspecified">x</supplied></w><w><supplied reason="unspecified">sum</supplied></w><w><unclear>m</unclear>undi</w></ab><ab n="B04K9V6"><w>Haec</w><w>cum</w><w>dixisset</w><w>expuit</w><w>in</w><w>terram</w>
+<lb n="P170C1L17-VL28"/><w>Et</w><w><supplied reason="unspecified">fecit</supplied></w><w>lutum</w><w>ex</w><w>sputo</w><w>et</w><w>linuit</w><w>lutu<hi rend="¯">m</hi></w><w>super</w><w>oculos</w>
+<lb n="P170C1L18-VL28"/><w>eius</w></ab><ab n="B04K9V7"><w>et</w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">ua</supplied>de</w><w>et</w><w>laua</w><w>in</w><w>natatoria<hi rend="¯">m</hi></w><w>siloie</w><w>quod</w><w>interpreta
+<lb n="P170C1L19-VL28" break="no"/>tur</w><w>m<supplied reason="unspecified">issus</supplied></w><w><supplied reason="unspecified">a</supplied>biit</w><w>ergo</w><w>et</w><w>lauit</w><w>oculos</w><w>suos</w><w>et</w><w>uenit</w><w>ui
+<lb n="P170C1L20-VL28" break="no"/>die<supplied reason="unspecified">ns</supplied></w></ab><ab n="B04K9V8"><w><supplied reason="unspecified">itaque</supplied></w><w><supplied reason="unspecified">u</supplied>icini</w><w>et</w><w>qui</w><w>uidebant</w><w>eu<hi rend="¯">m</hi></w><w>prius</w><w>quia</w>
+<lb n="P170C1L21-VL28"/><w>men<supplied reason="unspecified">dicus</supplied></w><w><supplied reason="unspecified">erat</supplied></w><w><unclear>e</unclear>t</w><w>dicebant</w><w>nonne</w><w>hic</w><w>est</w><w>qui</w><w>sedebat</w><w>et</w>
+<lb n="P170C1L22-VL28"/><w>men<supplied reason="unspecified">dicabat</supplied></w></ab><ab n="B04K9V9"><w><supplied reason="unspecified">a</supplied>lii</w><note type="editorial">Hoskier read the whole of "alii"</note><w>diceabant</w><w>quia</w><w>hic</w><w>est</w><w>Alii</w><w>nequ
+<lb n="P170C1L23-VL28" break="no"/>aquam</w><w>sed</w><w>s<supplied reason="unspecified">imilis</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w>ille</w><w>dicebat</w><w>quia</w><w>ego</w><w>su<hi rend="¯">m</hi></w></ab><ab n="B04K9V10"><w>dice
+<lb n="P170C1L24-VL28" break="no"/>bant</w><w>e<supplied reason="unspecified">rgo</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">quomodo</supplied></w><w><supplied reason="unspecified">aper</supplied>ti</w><w>sunt</w><w>oculi</w><w>tui</w></ab><ab n="B04K9V11"><w>respondit</w><w>ille</w><w>homo</w><w>qui</w>
+<lb n="P170C1L25-VL28"/><w>dicitur</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w><supplied reason="unspecified">lutum</supplied></w><w>fecit</w><w>et</w><w>unxit</w><w>oculos</w><w>meos</w><w>Et</w><w>dixit</w>
+<lb n="P170C1L26-VL28"/><w>mihi</w><w><supplied reason="unspecified">uade</supplied></w><gap extent="3-5" unit="char" reason="illegible"/><w>ad</w><w>natatoriam</w><w>siloiae</w><w>et</w><w>laua</w>
+<pb xml:id="P171-VL28" n="171" type="page"/>
+<cb n="P171C1-VL28"/>
+<lb n="P171C1L1-VL28"/><w>et</w><w>abi</w><w>et</w><w>laui</w><w>et</w><w>uidi</w></ab><ab n="B04K9V12"><w>dixer<supplied reason="unspecified">unt</supplied></w><w><supplied reason="unspecified">ei</supplied></w><note type="editorial">For "dixerunt ei" Abbott reads "dixerunt ei iudei"</note><w><supplied reason="unspecified">ubi</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">ille</supplied></w><w><supplied reason="unspecified">ait</supplied></w><w><supplied reason="unspecified">nescio</supplied></w>
+<lb n="P171C1L2-VL28"/></ab><ab n="B04K9V13"><w>adducunt</w><w>eu<hi rend="¯">m</hi></w><w>ad</w><w>farisseos</w><w>qui</w><w>caecus</w><w>fuerat</w></ab><ab n="B04K9V14"><w><unclear>erat</unclear></w>
+<lb n="P171C1L3-VL28"/><w>autem</w><w>sabbatum</w><w>quando</w><w>lutum</w><w>fecit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>aperuit</w><w>ocu
+<lb n="P171C1L4-VL28" break="no"/>los</w><note type="editorial">Hoskier could not read "aperuit ocu"</note><w>eius</w></ab><ab n="B04K9V15"><w>Iterum</w><w>ergo</w><w>interrogauit</w><w>eum</w><w>iudei</w><w>dicentes</w><w>quomodo</w>
+<lb n="P171C1L5-VL28"/><w>uidisset</w><w>ille</w><w>autem</w><w>dixit</w><w>eis</w><w>lutum</w><w>possuit</w><w>mihi</w><w>super</w><note type="editorial">Hoskier could not read "super"</note>
+<lb n="P171C1L6-VL28"/><w>oculos</w><w>meos</w><w>Et</w><w>laui</w><w>et</w><w>ecce</w><w>uidio</w><note type="editorial">uidio] uideo Abbott</note></ab><ab n="B04K9V16"><w>dicebant</w><w>ergo</w><w>ex</w><w>fa</w>
+<lb n="P171C1L7-VL28"/><w>risseis</w><w>quidam</w><w>non</w><w>est</w><w>hic</w><w>homo</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>quia</w><w>sabbatum</w><w>non</w><note type="editorial">Hoskier could not read "tum non"</note>
+<lb n="P171C1L8-VL28"/><w>custodit</w><w>Alii</w><w>autem</w><w>dicebant</w><w>quomodo</w><w>potest</w><w>homo</w><w>pec<supplied reason="unspecified">ca</supplied>
+<lb n="P171C1L9-VL28" break="no"/>tor</w><note type="editorial">Hoskier could not read "o pecca"</note><w>haec</w><w>signa</w><w>facere</w><w>et</w><w>scisma</w><w>erat</w><w>in</w><w>eis</w></ab><ab n="B04K9V17"><w>D<supplied reason="unspecified">icunt</supplied></w><w><supplied reason="unspecified">ergo</supplied></w>
+<lb n="P171C1L10-VL28"/><w>iterum</w><w>ceco</w><w>tu</w><w>quid</w><w>dicis</w><w>de</w><w>eo</w><w>qui</w><w>aperuit</w><w>oc<unclear>ulos</unclear></w>
+<lb n="P171C1L11-VL28"/><w>tuos</w><w>ille</w><w>autem</w><w>dixit</w><w>quia</w><w>profeata</w><w>est</w></ab><ab n="B04K9V18"><w>non</w><w>credidiarunt</w><w>iudei</w><w><unclear>de</unclear></w><w><unclear>illo</unclear></w>
+<lb n="P171C1L12-VL28"/><w>qui</w><w>cecus</w><w>fuiset</w><w>et</w><w>uidisset</w><w>donec</w><w>uocauerunt</w><w>pa
+<lb n="P171C1L13-VL28" break="no"/>rentes</w><w>eius</w><w>qui</w><w>uiderant</w></ab><ab n="B04K9V19"><w>Et</w><w>interrogauerunt</w><w>eos</w><w>di
+<lb n="P171C1L14-VL28" break="no"/>centes</w><w>hic</w><w>est</w><w>filius</w><w>uester</w><w>et</w><w>quia</w><w>caecus</w><w>natus</w><w>est</w><w>quo<unclear>modo</unclear></w>
+<lb n="P171C1L15-VL28"/><w>autem</w><w>uidit</w></ab><ab n="B04K9V20"><w>responderunt</w><w>eis</w><w>parentes</w><w>eius</w><w>scimus</w><w>quia</w><w>hic</w><w>est</w><w>f<unclear>ilius</unclear></w><w><unclear>noster</unclear></w>
+<lb n="P171C1L16-VL28"/><w>et</w><w>quia</w><w>cecus</w><w>natus</w><w>est</w></ab><ab n="B04K9V21"><w>quomodo</w><w>hunc</w><w>autem</w><w>uidiat</w><w>nescimus</w><w>a<unclear>ut</unclear></w>
+<lb n="P171C1L17-VL28"/><w>quis</w><w>aperuit</w><w>oculos</w><w>nos</w><w>nescimus</w><w>ipsu<hi rend="¯">m</hi></w><note type="editorial">Hoskier "ipsum"</note><w>interro
+<lb n="P171C1L18-VL28" break="no"/>gate</w><w>aetate<hi rend="¯">m</hi></w><w>habet</w><w>Et</w><w>ipse</w><w>pro</w><w>se</w><w>locatur</w></ab><ab n="B04K9V22"><w>haec</w><w>dixerunt</w><w>pa
+<lb n="P171C1L19-VL28" break="no"/>rentes</w><w>eius</w><w>iam</w><w>enim</w><w>conspirauerant</w><w>iudei</w><w>ut</w><w>si</w><w>quis</w>
+<lb n="P171C1L20-VL28"/><w>eu<hi rend="¯">m</hi></w><w>confitetur</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>ut</w><w>extra</w><w>sinagoga<hi rend="¯">m</hi></w><w>fieret</w></ab><ab n="B04K9V23"><w>prop
+<lb n="P171C1L21-VL28" break="no"/>teria</w><w>parentes</w><w>eius</w><w>dixerunt</w><w>quia</w><w>aetatem</w><w>habet</w><w>ipsu<hi rend="¯">m</hi></w>
+<lb n="P171C1L22-VL28"/><w>interrogate</w></ab><ab n="B04K9V24"><w>Uocauerunt</w><w>ergo</w><w>rursum</w><w>homine<hi rend="¯">m</hi></w>
+<lb n="P171C1L23-VL28"/><w>qui</w><w>fuerat</w><w>caecus</w><w>et</w><w>dixerunt</w><w>ei</w><w>da</w><w>gloria<hi rend="¯">m</hi></w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w>
+<lb n="P171C1L24-VL28"/><w>nos</w><w>scimus</w><w>quia</w><w>hic</w><w>homo</w><w>peccator</w><w>est</w></ab><ab n="B04K9V25"><w>Dixit</w><w>ergo</w><w>ille</w>
+<lb n="P171C1L25-VL28"/><w>si</w><w>peccator</w><w>est</w><w>nescio</w><w>unum</w><w>scio</w><w>quia</w><w>cecus</w><w>cu<hi rend="¯">m</hi></w><w>es
+<lb n="P171C1L26-VL28" break="no"/>sem</w><w>modo</w><w>uidio</w></ab><ab n="B04K9V26"><w>Dixerunt</w><w>ergo</w><w>illi</w><w>quid</w><w>fecit</w><w>tibi</w><note type="editorial">Hoskier could not read "quid fecit tibi"</note>
+<pb xml:id="P172-VL28" n="172" type="page"/>
+<cb n="P172C1-VL28"/>
+<lb n="P172C1L1-VL28"/><w>quomodo</w><w>aperti</w><w>sunt</w><w>oculi</w><w>tui</w></ab><ab n="B04K9V27"><w>respondit</w><w>eis</w><w>dixi</w><w>uobis</w><w>ia<hi rend="¯">m</hi></w><w>et</w>
+<lb n="P172C1L2-VL28"/><w>audistis</w><w>quid</w><w>iterum</w><w>uobis</w><w>audire</w><w>uultis</w><w>nu<hi rend="¯">m</hi>
+<lb n="P172C1L3-VL28" break="no"/>quid</w><w>et</w><w>uos</w><w>discipuli</w><w>eius</w><w>fieri</w></ab><ab n="B04K9V28"><w>maledixerunt</w><w>ei</w><w>Tu</w><w>d
+<lb n="P172C1L4-VL28" break="no"/><unclear>iscipul</unclear>us</w><w>illius</w><w>es</w><w>Nos</w><w>autem</w><w>moysi</w><w>discipuli</w><w>sumus</w>
+<lb n="P172C1L5-VL28"/></ab><ab n="B04K9V29"><w>nos</w><note type="editorial">Hoskier could not read "nos"</note><w>scimus</w><w>quia</w><w>moysi</w><w>locutus</w><w>est</w><w>Hunc</w><w>autem</w><w>nes
+<lb n="P172C1L6-VL28" break="no"/><unclear>cimus</unclear></w><w>unde</w><w>sit</w></ab><ab n="B04K9V30"><w>respondit</w><w>ille</w><w>homo</w><w>dixit</w><w>eis</w><w>in</w><w>hoc</w><w>enim</w><w>mi
+<lb n="P172C1L7-VL28" break="no"/><unclear>rabile</unclear></w><w>est</w><w>quia</w><w>uos</w><w>nescitis</w><w>unde</w><w>sit</w><w>Et</w><w>aperuit</w><w>ocul
+<lb n="P172C1L8-VL28" break="no"/>os</w><w>meos</w></ab><ab n="B04K9V31"><w>Scimus</w><w>autem</w><w>quia</w><w>peccatores</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>non</w><w>audit</w><w>Si</w>
+<lb n="P172C1L9-VL28"/><w>quis</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>cultor</w><w>est</w><w>Et</w><w>uoluntatem</w><w>facit</w><w>hunc</w><w>exaud
+<lb n="P172C1L10-VL28" break="no"/><unclear>it</unclear></w></ab><ab n="B04K9V32"><w><supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">sae</supplied>culo</w><w>non</w><w>est</w><w>auditum</w><w>quia</w><w>aperuit</w><w>oculos</w><w>caeci</w><w>na
+<lb n="P172C1L11-VL28" break="no"/><unclear>ti</unclear></w></ab><ab n="B04K9V33"><w>nissi</w><w>esset</w><w>hic</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>non</w><w>poterat</w><w>facere</w><w>quiqua<hi rend="¯">m</hi></w></ab><ab n="B04K9V34"><w>responde
+<lb n="P172C1L12-VL28" break="no"/>runt</w><w>et</w><w>dixerunt</w><w>In</w><w>peccatis</w><w>natus</w><w>es</w><w>totus</w><w>et</w><w>tu</w><w>doces</w>
+<lb n="P172C1L13-VL28"/><w>nos</w><w>Et</w><w>iecerunt</w><w>eu<hi rend="¯">m</hi></w><w>foras</w></ab><ab n="B04K9V35"><w>Et</w><w>cum</w><w>ieccisset</w><w>eu<hi rend="¯">m</hi></w><w>dixit</w><w>ei</w><w>tu</w>
+<lb n="P172C1L14-VL28"/><w>si</w><w>credis</w><w>in</w><w>filium</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="B04K9V36"><w>respondit</w><w>ille</w><w>et</w><w>dixit</w><w>quis</w><w>est</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>ut</w>
+<lb n="P172C1L15-VL28"/><w>credam</w><w>in</w><w>eum</w></ab><ab n="B04K9V37"><w>Et</w><w>dixit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>uidisti</w><w>eum</w><w>Et</w><w>loquitur</w>
+<lb n="P172C1L16-VL28"/><w>tecum</w><w>ipse</w><w>est</w></ab><ab n="B04K9V38"><w>At</w><w>ille</w><w>ait</w><w>credo</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>et</w><w>procediens</w><w>ado
+<lb n="P172C1L17-VL28" break="no"/>rauit</w><w>eum</w></ab><ab n="B04K9V39"><w>et</w><w>dixit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si</w><w>ceci</w><w>essetis</w><w>in</w><w>iudicium</w>
+<lb n="P172C1L18-VL28"/><w>ego</w><w>in</w><w>hunc</w><w>mundum</w><w>ueni</w><w>Ut</w><w>qui</w><w>non</w><w>uident</w><w>uidi
+<lb n="P172C1L19-VL28" break="no"/><unclear>ant</unclear></w><w>Et</w><w>qui</w><note type="editorial">Hoskier could not read "ant et qui"</note><w>uident</w><w>caeci</w><w>fiant</w></ab><ab n="B04K9V40"><w>Et</w><w>audiarunt</w><w>ex</w><w>far
+<lb n="P172C1L20-VL28" break="no"/><unclear>isseis</unclear></w><w>qui</w><w>cum</w><w>ipso</w><w>erant</w><w>et</w><w>dixerunt</w><w>ei</w><w>numquid</w><w>et</w><w>nos</w>
+<lb n="P172C1L21-VL28"/><w>caeci</w><w>sumus</w></ab><ab n="B04K9V41"><w>Dixit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si</w><w>caeci</w><w>essetis</w><w>non</w><w>haberi
+<lb n="P172C1L22-VL28" break="no"/>tis</w><w>peccatu<hi rend="¯">m</hi></w><w>nunc</w><w>autem</w><w>dicitis</w><w>quia</w><w>uidimus</w><w>peccatu<hi rend="¯">m</hi></w><w>uestrum</w><w>ma
+<lb n="P172C1L23-VL28" break="no"/>net</w></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V1"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>qui</w><w>non</w><w>intrat</w><w>per</w>
+<lb n="P172C1L24-VL28"/><w>hostium</w><w>in</w><w>ouile</w><w>ouium</w><w>sed</w><w>ascendit</w><w>aliunde</w><w>ille</w>
+<lb n="P172C1L25-VL28"/><w>fur</w><w>est</w><w>et</w><w>latro</w></ab><ab n="B04K10V2"><w>qui</w><w>autem</w><w>intrat</w><w>per</w><w>ostium</w><w>pastor</w><w>est</w>
+<lb n="P172C1L26-VL28"/><w>ouium</w></ab><ab n="B04K10V3"><w>huic</w><w>ostiarius</w><w>aperit</w><w>Et</w><w>oues</w><w>uocem</w><w>eius</w><w>audi</w><gap reason="lacuna" unit="char" extent="unknown"/><note type="editorial">Hoskier audi</note></ab></div></div></body></text></TEI>

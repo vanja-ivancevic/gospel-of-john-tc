@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRfa17">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Fayumic (fa17)</title>
+<title type="document" n="fa17">Cairo IFAO Copt. 218</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Egypt</country>
+ <settlement>Cairo</settlement>
+ <repository>Institut français d'archéologie orientale</repository>
+ <idno>IFAO inv. 218</idno>
+  <msName xml:lang="en">Coptic (Fayumic) fa 17</msName>
+      <altIdentifier type="SMR"><idno>fa 17</idno></altIdentifier>
+<altIdentifier type="TM"><idno>133512</idno></altIdentifier>
+     <altIdentifier type="LDAB"><idno>133512</idno></altIdentifier>
+ </msIdentifier>
+   <surrogates>The images to which this transcription is linked are © IFAO</surrogates>
+ 
+</msDesc>
+<additional>René-Georges Coquin, “Deux fragments fayoumiques du fonds copte, IFAO 28 et 29,” in Études coptes III: troisième journée d’études, Musée du Louvre, 23 mai 1986, ed. Jean-Marc Rosenstiehl, Cahiers de la bibliothèque copte 4 (Louvain: Peeters, 1989), 21–25; Wolf-Peter Funk, “Gedanken zu zwei faijumischen Fragmenten,” in Christianisme d’Égypte. Hommages à René-Georges Coquin, Cahiers de la Bibliothèque copte 9 (Louvain: Peeters, 1995), 93–100.</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P3v-fa17" n="3v" type="folio" />
+<cb n="P3vC2-fa17"/>
+<lb n="P3vC2L1-fa17"/><note type="editorial">1:1-1:47</note><gap reason="lacuna" unit="char" extent="1"/><div type="book" n="B04"><div type="chapter" n="B04K1"><gap reason="lacuna" unit="char" extent="1"/>
+<pb xml:id="P4r-fa17" n="4r" type="folio" facs="http://www.iohannes.com/images/coptic/IFAOCopt218r.jpg"/>
+<cb n="P4rC1-fa17"/><note type="editorial">IFAO Copte 28r</note>
+<lb n="P4rC1L1-fa17"/><ab type="chapTitle" n="B04K1V48">ⲁ̄ ⁝ⲉⲧⲃⲉ <supplied reason="lacuna">ⲧ</supplied>ϣ<supplied reason="lacuna">ⲉ</supplied>ⲗⲏⲏⲧ⁝</ab>
+<lb n="P4rC1L2-fa17"/><ab n="B04K1V48"><w>ⲉⲗⲁⲕ</w></ab><ab n="B04K1V49"><w>ⲁϥϯ</w><w>ϩⲉⲗ<supplied reason="lacuna">ⲟⲩ</supplied>ⲱ</w><w>ⲛϫⲉ</w>
+<lb n="P4rC1L3-fa17"/><w>ⲛⲁⲑⲁⲛⲁⲏⲗ</w><w><supplied reason="lacuna">ⲡⲉϫⲉϥ</supplied></w><w>ⲛⲏϥ</w>
+<lb n="P4rC1L4-fa17"/><w>ϫⲉ</w><w>ϩⲣⲁⲃ<supplied reason="lacuna">ⲃⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁⲕ</supplied></w><w>ⲡⲉ</w>
+<lb n="P4rC1L5-fa17"/><w>ⲡϣⲏⲗⲓ</w><w><unclear>ⲙ</unclear><unclear>ⲫ</unclear>̅<unclear>ϯ</unclear>̅</w><w><supplied reason="lacuna">ⲛⲧ</supplied>ⲁⲕ</w>
+<lb n="P4rC1L6-fa17"/><w>ⲡⲉ</w><w>ⲡⲣⲣⲁ</w><w>ⲛⲧⲉ</w><w>ⲡⲓⲥ︦ⲣ︦ⲗ︦</w>
+<lb n="P4rC1L7-fa17"/></ab><ab n="B04K1V50"><w>ⲁϥϯ</w><w>ϩⲉⲗⲟⲩⲱ</w><w>ⲛϫⲉ</w><w>ⲓ̅ⲏ̅ⲥ̅</w>
+<lb n="P4rC1L8-fa17"/><w>ⲡⲉϫⲉϥ</w><w>ⲛⲏϥ</w><w>ϫⲉ</w><w>ⲉⲡⲉ
+<lb break="no" xml:id="P4rC1L9-fa17" n="9"/>ⲇⲏ</w><w>ⲁⲓϫⲁⲁⲥ</w><w>ⲛⲁⲕ</w><w>ϩⲁⲗⲉ
+<lb break="no" xml:id="P4rC1L10-fa17" n="10"/>ⲧⲥ</w><w>ⲛⲧⲉⲓⲃⲱ</w><w>ⲛⲕⲉⲛⲧⲏ</w>
+<lb n="P4rC1L11-fa17"/><w>ⲁⲕⲉⲗ</w><w>ⲡⲓⲥⲧⲉⲩⲓⲛ</w><space unit="char" extent="2"/><w>ϩⲛ</w>
+<lb n="P4rC1L12-fa17"/><w>ⲛⲁϭ</w><w>ⲉⲛⲉⲓ</w><w>ⲕⲛⲉⲛⲉⲩ</w><w>ⲉⲗⲁⲩ</w>
+<lb n="P4rC1L13-fa17" rend="hang"/></ab><ab n="B04K1V51"><w>Ϩⲁⲙⲏⲛ</w><w>ϩⲁⲙⲏⲛ</w><w>ϯϫⲱ</w>
+<lb n="P4rC1L14-fa17"/><w>ⲙⲙⲁⲥ</w><w>ⲛⲏⲧⲉⲛ</w><w>ϫⲉ</w><w>ⲧⲉ
+<lb break="no" xml:id="P4rC1L15-fa17" n="15"/>ⲧⲉⲛⲛⲉⲛⲉⲩ</w><w>ⲉⲛⲉⲙⲡⲏ
+<lb break="no" xml:id="P4rC1L16-fa17" n="16"/><supplied reason="lacuna">ⲟ</supplied>ⲩⲓ</w><pc>•</pc><w>ⲉⲩⲟⲩⲏⲛ</w><w>ⲁⲩⲱ</w><w>ⲛ<supplied reason="lacuna">ⲛ</supplied>
+<lb break="no" xml:id="P4rC1L17-fa17" n="17"/>ⲁ<supplied reason="lacuna">ⲅⲅ</supplied>ⲉⲗⲟⲥ</w><w>ⲙⲫ︦ϯ︦</w><w>ⲉⲩⲛ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P4rC1L18-fa17" n="18"/>ϩ<supplied reason="lacuna">ⲗⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>ⲩⲛⲏⲟⲩ</w><w>ⲉⲡ<supplied reason="lacuna">ⲉⲥⲏⲧ</supplied></w>
+<lb n="P4rC1L19-fa17"/><w>ⲉϫⲙ</w><w>ⲡϣⲏⲗⲓ</w><w>ⲙⲡⲗⲱⲙⲓ</w>
+<lb n="P4rC1L20-fa17" rend="hang"/></ab></div><div type="chapter" n="B04K2"><ab n="B04K2V1"><pc>&gt;</pc><w><hi rend="cap" height="2">Ϩ</hi>ⲗⲏⲓ</w><w>ⲇⲉ</w><w>ϩⲙ</w><w>ⲡⲙⲉϩⲅ̄</w><w>ⲛ<note type="editorial">section number ⲁ</note>
+<lb break="no" xml:id="P4rC1L21-fa17" n="21"/>ϩⲁⲟⲩ</w><w>ⲟⲩϣⲉⲗⲏⲏⲧ</w><w>ⲁⲥ
+<lb break="no" xml:id="P4rC1L22-fa17" n="22"/>ϣⲱⲡⲓ</w><w>ϩⲛ</w><w>ⲧⲅⲁⲛⲁ</w><w>ⲛ
+<lb break="no" xml:id="P4rC1L23-fa17" n="23"/>ⲧⲉ</w><w>ⲧⲅⲁⲗⲓⲗⲁⲓⲁ</w><w>ⲛⲛⲁⲗⲉ
+<lb break="no" xml:id="P4rC1L24-fa17" n="24"/>ⲧⲙⲉⲟⲩ</w><w>ⲛⲓ̅ⲏ̅ⲥ̅</w><w>ⲙⲙⲉⲩ</w></ab><ab n="B04K2V2"><w>ⲁⲩ
+<lb break="no" xml:id="P4rC1L25-fa17" n="25"/><supplied reason="lacuna">ⲧ</supplied>ⲱϩⲉⲙ</w><w>ϩⲱⲱϥ</w><w>ⲛⲓ̅ⲏ̅ⲥ̅</w>
+<lb n="P4rC1L26-fa17"/><w><supplied reason="lacuna">ⲙⲛ</supplied></w><w>ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ</w><w>ⲉϩⲟⲩ̅</w>
+<lb n="P4rC1L27-fa17"/><w><supplied reason="lacuna">ⲉⲧϣⲉ</supplied>ⲗⲏⲏⲧ</w></ab><ab n="B04K2V3"><w>ⲁⲩⲱ</w><w><supplied reason="lacuna">ⲁⲩ</supplied>
+<lb break="no" xml:id="P4rC1L28-fa17" n="28"/><supplied reason="lacuna">ϣⲉⲉⲧ</supplied></w><w><supplied reason="lacuna">ⲏ</supplied>ⲗⲉⲡ</w><space unit="char" extent="1"/><w>ⲡⲉ<supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P4rC1L29-fa17"/><w><supplied reason="lacuna">ⲧⲙⲉⲟ</supplied>ⲩ</w><w>ⲛⲓ̅ⲏ̅ⲥ̅</w><w>ⲛⲏϥ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P4rC1L30-fa17"/><w><supplied reason="lacuna">ⲡⲁ</supplied>ϣⲏⲗⲓ</w><w>ⲙⲛⲧⲟⲩ</w><w>ⲏ<supplied reason="lacuna">ⲗⲉⲡ</supplied></w>
+<lb n="P4rC1L31-fa17"/><w><supplied reason="lacuna">ⲙ</supplied>ⲙⲉⲩ</w><space unit="char" extent="1"/></ab><ab n="B04K2V4"><w>ⲡⲉϫⲉ</w><w>ⲓ̅ⲏ̅ⲥ̅</w><w>ⲛ<supplied reason="lacuna">ⲏⲥ</supplied></w>
+<lb n="P4rC1L32-fa17"/><w>ϫⲉ</w><w>ⲁϩⲁ</w><w>ⲛⲉⲙⲏⲓ</w><w>ⲧⲉⲥϩⲓⲙ<supplied reason="lacuna">ⲉ</supplied></w>
+<lb n="P4rC1L33-fa17"/><w>ⲙⲡⲁⲧⲉⲥⲓ</w><w>ⲛϫⲉ</w><w>ⲧⲁⲟⲩ<supplied reason="lacuna">ⲛⲟⲩ</supplied></w>
+<lb n="P4rC1L34-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<cb n="P4rC2-fa17"/>
+<lb n="P4rC2L1-fa17"/></ab><ab n="B04K2V5"><w>ⲡⲉϫⲉ</w><w>ⲧⲉ<unclear>ϥ</unclear><supplied reason="lacuna">ⲙⲉⲟⲩ</supplied></w><w><supplied reason="lacuna">ⲛⲛ</supplied>
+<lb break="no" xml:id="P4rC2L2-fa17" n="2"/>ⲇⲓⲁⲕ<supplied reason="lacuna">ⲟⲛⲟⲥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲉϥⲛⲉ</supplied>
+<lb break="no" xml:id="P4rC2L3-fa17" n="3"/>ϫⲁ<supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">9-11</supplied></w>
+<lb n="P4rC2L4-fa17" rend="hang"/></ab><ab n="B04K2V6"><w>Ⲛ<supplied reason="illegible">ⲉⲩⲛ</supplied></w><w><supplied reason="lacuna">ⲋ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w><w><supplied reason="lacuna">ⲛϩⲩⲇⲣⲓⲁ</supplied></w>
+<lb n="P4rC2L5-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L6-fa17"/><w>ⲕ<supplied reason="lacuna">11-13</supplied></w>
+<lb n="P4rC2L7-fa17"/><w>ⲟⲩ<supplied reason="lacuna">10-12</supplied></w>
+<lb n="P4rC2L8-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L9-fa17" rend="hang"/></ab><ab n="B04K2V7"><w>Ⲡ<unclear>ⲉ</unclear><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲏ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ⲛⲉⲩ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w>
+<lb n="P4rC2L10-fa17"/><w>ⲛⲛ<supplied reason="lacuna">ϩⲩⲇⲣⲓⲁ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w>
+<lb n="P4rC2L11-fa17"/><w>ⲁⲩ<supplied reason="lacuna">ⲙⲉϩⲟⲩ</supplied></w><w><supplied reason="lacuna">6-8</supplied></w>
+<lb n="P4rC2L12-fa17"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">2.8</note><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4rC2L13-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L14-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L15-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L16-fa17"/></ab><ab n="B04K2V9"><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4rC2L17-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L18-fa17"/><w><supplied reason="lacuna">1-3</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥⲥⲁ</supplied>
+<lb break="no" xml:id="P4rC2L19-fa17" n="19"/>ⲟⲩⲛ</w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ⲧⲱⲛ</supplied></w>
+<lb n="P4rC2L20-fa17"/><w>ⲡⲉ</w><space unit="char" extent="2"/><w><supplied reason="lacuna">ⲛⲇⲓⲁⲕⲟⲛⲟⲥ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w>
+<lb n="P4rC2L21-fa17"/><w>ⲛⲧⲁⲩ</w><w><supplied reason="lacuna">ⲛⲉⲩⲥⲁⲩⲛ</supplied></w>
+<lb n="P4rC2L22-fa17"/><w>ⲛⲧⲁ<supplied reason="lacuna">ⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲧⲁⲩⲙⲉϩ</supplied></w><w><supplied reason="lacuna">ⲡ</supplied>
+<lb break="no" xml:id="P4rC2L23-fa17" n="23"/>ⲙⲟⲩ</w><w><supplied reason="lacuna">ⲁⲡⲁⲣⲭⲓⲧⲣⲓⲕ</supplied>
+<lb break="no" xml:id="P4rC2L24-fa17" n="24"/>ⲗⲓⲛ<unclear>ⲟ</unclear><supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">7-9</supplied></w>
+<lb n="P4rC2L25-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L26-fa17"/></ab><ab n="B04K2V10"><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4rC2L27-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L28-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L29-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L30-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L31-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC2L32-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P4v-fa17" n="4v" type="folio" facs="http://www.iohannes.com/images/coptic/IFAOCopt218v.jpg"/>
+<cb n="P4vC1-fa17"/>
+<lb n="P4vC1L1-fa17"/><w><supplied reason="lacuna">ⲛⲟⲩ</supplied>ϥ</w><w>ϣⲁ</w><w>ⲉϩⲟⲩⲛ</w><w>ⲉϯ
+<lb break="no" xml:id="P4vC1L2-fa17" n="2"/><supplied reason="lacuna">ⲛⲟⲩ</supplied></w></ab><ab n="B04K2V11"><w><supplied reason="lacuna">ⲡⲁⲓ</supplied></w><w><unclear>ⲡ</unclear>ⲉ</w><w>ⲡϣⲁ
+<lb break="no" xml:id="P4vC1L3-fa17" n="3"/><supplied reason="lacuna">ⲣⲡ</supplied></w><w><supplied reason="lacuna">ⲙⲙⲏⲓⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲁ</supplied><unclear>ϥ</unclear>ⲉⲓϥ</w>
+<lb n="P4vC1L4-fa17"/><w><supplied reason="lacuna">ⲛϫⲉ</supplied></w><w><supplied reason="lacuna">ⲓ̅ⲏ̅ⲥ̅</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲅ</supplied>ⲁⲛⲁ</w><w>ⲛⲧⲉ</w>
+<lb n="P4vC1L5-fa17"/><w><supplied reason="lacuna">ⲧⲅⲁⲗⲓⲗⲁⲓⲁ</supplied></w><w><supplied reason="lacuna">ⲁϥⲟⲩⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲉ</supplied>
+<lb break="no" xml:id="P4vC1L6-fa17" n="6"/><supplied reason="lacuna">ⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ⲙⲡⲉϥⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲉⲗ</supplied></w><w><unclear>ⲡ</unclear>ⲓⲥ
+<lb break="no" xml:id="P4vC1L7-fa17" n="7"/><supplied reason="lacuna">ⲧⲉⲩⲓⲛ</supplied></w><w><supplied reason="lacuna">ⲉⲗⲁϥ</supplied></w><w><supplied reason="lacuna">ⲛϫⲉ</supplied></w><w>ⲛⲉϥ
+<lb break="no" xml:id="P4vC1L8-fa17" n="8"/><supplied reason="lacuna">ⲙⲁⲑⲏⲧⲏⲥ</supplied></w><space unit="char" extent="3"/>
+<lb n="P4vC1L9-fa17"/></ab><ab n="B04K2V12"><w><supplied reason="lacuna">ⲙⲉⲛⲉⲛⲥⲁ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲉⲗⲣ</supplied><supplied reason="illegible">ⲏ</supplied><unclear>ⲓ</unclear></w>
+<lb n="P4vC1L10-fa17"/><w><supplied reason="lacuna">ⲉⲕⲁⲫⲁⲣⲛⲁⲟ</supplied><unclear>ⲩ</unclear>ⲙ</w><w>ⲛ
+<lb break="no" xml:id="P4vC1L11-fa17" n="11"/><supplied reason="lacuna">ⲧⲁϥ</supplied></w><w><supplied reason="lacuna">ⲙⲛ</supplied></w><w><supplied reason="lacuna">ⲧⲉϥ</supplied>ⲙⲉⲟⲩ</w>
+<lb n="P4vC1L12-fa17"/><w><supplied reason="lacuna">ⲙⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲉϥⲥⲛⲏⲟⲩ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>ⲛ</w><w>ⲛⲉϥ
+<lb break="no" xml:id="P4vC1L13-fa17" n="13"/><supplied reason="lacuna">ⲙⲁⲑⲏⲧⲏⲥ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲁⲩϭⲱ</supplied></w><w><unclear>ⲙ</unclear>ⲙ
+<lb break="no" xml:id="P4vC1L14-fa17" n="14"/><supplied reason="lacuna">ⲉⲩ</supplied></w><w><supplied reason="lacuna">9-11</supplied><gap extent="1" unit="char" reason="illegible"/></w>
+<lb n="P4vC1L15-fa17"/><note type="editorial">2.13</note><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L16-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L17-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L18-fa17"/></ab><ab n="B04K2V14"><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4vC1L19-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L20-fa17"/><w><supplied reason="lacuna">ⲉⲥⲁⲩ</supplied></w><w><supplied reason="lacuna">ⲉⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ϫⲣ</supplied><unclear>ⲁ</unclear><unclear>ⲙ</unclear><unclear>ⲡ</unclear><unclear>ⲓ</unclear></w>
+<lb n="P4vC1L21-fa17"/><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲕⲉⲣⲙⲁ</supplied>ⲧⲓⲥⲧⲏⲥ</w>
+<lb n="P4vC1L22-fa17"/><w><supplied reason="lacuna">ⲉⲩϩⲙⲁⲁⲥ</supplied></w></ab><ab n="B04K2V15"><w><supplied reason="lacuna">ⲁϥⲧⲁ</supplied>ⲙⲓⲁ</w><w>ⲛ
+<lb break="no" xml:id="P4vC1L23-fa17" n="23"/><supplied reason="lacuna">ⲟⲩⲫⲣⲁⲅⲉⲗ</supplied>ⲗⲓⲟⲛ</w><w>ⲉ
+<lb break="no" xml:id="P4vC1L24-fa17" n="24"/><supplied reason="lacuna">ⲃⲁⲗ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ϩⲉⲛⲛⲟⲩ</supplied></w><w><supplied reason="lacuna">ϩⲁ</supplied>ϥⲥⲉ
+<lb break="no" xml:id="P4vC1L25-fa17" n="25"/><supplied reason="lacuna">ⲧ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲁⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲃⲓ</supplied></w><w><supplied reason="lacuna">ϩ</supplied>ⲙ</w><w>ⲡⲉ
+<lb break="no" xml:id="P4vC1L26-fa17" n="26"/><supplied reason="lacuna">ⲗⲡⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲥⲁⲩ</supplied></w><w>ⲁⲩ<unclear>ⲱ</unclear></w>
+<lb n="P4vC1L27-fa17"/><w><supplied reason="lacuna">ⲛⲁϩⲁⲩ</supplied></w><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4vC1L28-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L29-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L30-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L31-fa17"/></ab><ab n="B04K2V16"><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P4vC1L32-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L33-fa17"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4vC1L34-fa17"/><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲡⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲙ</supplied>
+<cb n="P4vC2-fa17" break="no"/>
+<lb n="P4vC2L1-fa17"/>ⲡ<supplied reason="illegible">ⲁ</supplied><supplied reason="lacuna">ⲓⲱ</supplied>ⲧ</w><w>ⲛⲟⲩⲏⲓ</w>
+<lb n="P4vC2L2-fa17"/><w><supplied reason="lacuna">ⲛⲛⲉϣⲱ</supplied>ⲧⲉ</w></ab><ab n="B04K2V17"><w>ⲁⲩⲉⲗ</w>
+<lb n="P4vC2L3-fa17" rend="hang"/><w>Ⲡ<supplied reason="lacuna">ⲙⲏⲟⲩⲓ</supplied></w><w><supplied reason="lacuna">ⲛ</supplied>ϫⲉ</w><w>ⲛⲉϥⲙⲁ
+<lb break="no" xml:id="P4vC2L4-fa17" n="4"/><supplied reason="lacuna">ⲑⲏⲧⲏⲥ</supplied></w><w>ϫⲉ</w><w>ⲥⲥϩⲏⲟⲩⲧ</w><w>ϫⲉ</w>
+<lb n="P4vC2L5-fa17"/><w>ⲡⲕⲱϩ</w><w>ⲙⲡⲉⲕⲏⲓ</w><w>ⲁϥⲟⲩ
+<lb break="no" xml:id="P4vC2L6-fa17" n="6"/>ⲁⲙⲧ</w><space unit="char" extent="3"/></ab><ab n="B04K2V18"><w>ⲁⲩⲉⲗ</w><w>ⲟⲩⲱ</w><w>ⲛϫⲉ</w>
+<lb n="P4vC2L7-fa17"/><w>ⲛⲓⲟⲩⲓⲇⲉⲓ</w><w>ⲡⲉϫⲉⲩ</w><w>ⲛⲏ<supplied reason="lacuna">ϥ</supplied></w>
+<lb n="P4vC2L8-fa17"/><w>ϫⲉ</w><w>ⲟⲩⲛ</w><w>ⲙⲙⲏⲓ̇ⲛ</w><w>ⲡ<supplied reason="lacuna">ⲉⲧⲕ</supplied>
+<lb break="no" xml:id="P4vC2L9-fa17" n="9"/>ⲧⲁⲙⲁ</w><w>ⲙⲁⲛ</w><w>ⲉⲗⲁϥ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w><w><supplied reason="lacuna">ⲕⲓ</supplied>
+<lb break="no" xml:id="P4vC2L10-fa17" n="10"/>ⲗⲓ</w><w>ⲛⲛⲉⲓ</w><pc>•</pc><space unit="char" extent="3"/></ab><ab n="B04K2V19"><w>ⲁⲓ̅ⲥ̅</w><w>ϯ</w><w>ϩⲉⲗⲟ<supplied reason="lacuna">ⲩⲱ</supplied></w>
+<lb n="P4vC2L11-fa17"/><w>ⲡⲉϫⲉϥ</w><w>ⲛⲏϥ</w><w>ϫⲉ</w><w><unclear>ⲃ</unclear><unclear>ⲱ</unclear><unclear>ⲗ</unclear></w>
+<lb n="P4vC2L12-fa17"/><w>ⲉⲃⲁⲗ</w><w>ⲙⲡⲉⲓⲉⲗⲡⲏⲓ</w><w>ⲁⲩ<supplied reason="lacuna">ⲱ</supplied></w>
+<lb n="P4vC2L13-fa17"/><w>ⲁⲛⲁⲕ</w><w>ϯⲛⲉⲧⲁϩⲁϥ</w><w>ⲉⲗⲉ
+<lb break="no" xml:id="P4vC2L14-fa17" n="14"/>ⲧϥ</w><w>ⲛⲅ̄</w><w>ⲛϩⲁⲟⲩ</w><space unit="char" extent="1"/></ab><ab n="B04K2V20"><w>ⲡⲉϫ<supplied reason="lacuna">ⲉⲩ</supplied></w>
+<lb n="P4vC2L15-fa17"/><w>ⲛⲓⲟⲩⲓⲇⲉⲓ</w><w>ⲛⲏϥ</w><w>ϫⲉ</w><w><supplied reason="lacuna">ⲁⲩ</supplied>
+<lb break="no" xml:id="P4vC2L16-fa17" n="16"/><unclear>ⲉ</unclear>ⲗ</w><w>ⲙⲋ̄</w><w>ⲛⲗⲁⲙⲡⲓ</w><w>ⲉⲩⲕⲱⲧ</w>
+<lb n="P4vC2L17-fa17"/><w><supplied reason="lacuna">ⲙⲡ</supplied>ⲉⲓⲉⲗⲡⲏ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w>ⲛⲧⲁⲕ</w>
+<lb n="P4vC2L18-fa17"/><w>ⲕⲛⲉⲧⲁϩⲁϥ</w><w>ⲉⲗⲉⲧϥ</w><w>ⲛⲅ̄</w>
+<lb n="P4vC2L19-fa17"/><w>ⲛϩⲁⲟⲩ</w><space unit="char" extent="1"/></ab><ab n="B04K2V21"><w>ⲛⲧⲁϥ</w><w>ⲇⲉ</w><w>ⲛⲛⲁϥ
+<lb break="no" xml:id="P4vC2L20-fa17" n="20"/>ϣⲉϫⲓ</w><w>ⲛⲉⲙⲏⲟⲩ</w><w>ⲉⲧⲃⲉ</w>
+<lb n="P4vC2L21-fa17"/><w>ⲡⲉⲗⲡⲏ</w><w>ⲛⲧⲉ</w><w>ⲧⲉϥⲥⲱ
+<lb break="no" xml:id="P4vC2L22-fa17" n="22"/>ⲙⲁ</w></ab><ab n="B04K2V22"><w>ϩⲱⲧⲁⲛ</w><w>ⲟⲩⲛ</w><w>ⲉⲧⲁϥⲧⲱ
+<lb break="no" xml:id="P4vC2L23-fa17" n="23"/>ⲛϥ</w><w>ⲉⲃⲁⲗ</w><w>ϩⲛ</w><w>ⲛⲉⲧⲙⲁⲟⲩ<unclear>ⲧ</unclear></w>
+<lb n="P4vC2L24-fa17"/><w>ⲛϫⲉ</w><w>ⲓ̅ⲏ̅ⲥ̅</w><w>ⲁⲩⲉⲗ</w><w>ⲡⲙ<supplied reason="lacuna">ⲏ</supplied>
+<lb break="no" xml:id="P4vC2L25-fa17" n="25"/>ⲟⲩⲓ</w><w>ⲛϫⲉ</w><w>ⲛⲉϥⲙⲁⲑ<supplied reason="lacuna">ⲏⲧⲏⲥ</supplied></w>
+<lb n="P4vC2L26-fa17"/><w>ϫⲉ</w><w><supplied reason="lacuna">ⲡⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲡⲉⲧⲉⲛⲛⲁϥ</supplied>
+<lb break="no" xml:id="P4vC2L27-fa17" n="27"/><supplied reason="lacuna">ϫ</supplied>ⲱ</w><w>ⲙⲙⲁϥ</w><w><supplied reason="lacuna">6-8</supplied></w>
+<lb n="P4vC2L28-fa17" rend="hang"/></ab><ab n="B04K2V23"><w><hi rend="cap" height="2"/><unclear>Ϩ</unclear>ⲱⲥ</w><w>ⲇⲉ</w><w>ⲉϥϩⲗ<supplied reason="lacuna">ⲏⲓ</supplied></w><w><supplied reason="lacuna">ϩⲛ</supplied></w><w><supplied reason="lacuna">ⲑⲓ︦ⲗ︦</supplied>
+<lb break="no" xml:id="P4vC2L29-fa17" n="29"/>ⲉ︦ⲙ︦</w><w>ϩⲙ</w><w>ⲡϣⲉⲉ<supplied reason="lacuna">ⲓ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲉ</supplied></w>
+<lb n="P4vC2L30-fa17"/><w>ⲡⲡⲁⲥⲭⲁ</w><space unit="char" extent="2"/><w>ⲁⲟ<supplied reason="lacuna">ⲩⲁⲧⲁ</supplied></w><w><supplied reason="lacuna">ⲡⲓⲥ</supplied>
+<lb break="no" xml:id="P4vC2L31-fa17" n="31"/>ⲧⲉⲩⲉ</w><w>ⲉⲡⲉϥⲗⲉⲛ</w><w>ϫ<unclear>ⲉ</unclear></w>
+<lb n="P4vC2L32-fa17"/><w>ⲛⲁⲩⲛⲉⲩ</w><w>ⲉⲛⲓⲙⲏⲓⲛ</w><w>ⲉ
+<lb break="no" xml:id="P4vC2L33-fa17" n="33"/>ⲧⲉⲛⲛⲁϥⲓⲗⲓ</w><w>ⲙⲙⲁ<unclear>ⲩ</unclear></w><note type="editorial">2:24-21:25</note></ab></div></div></body></text></TEI>

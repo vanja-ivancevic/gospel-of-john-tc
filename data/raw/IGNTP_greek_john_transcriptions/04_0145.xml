@@ -1,0 +1,86 @@
+<!DOCTYPE TEI [
+<!ENTITY om "OM">
+]>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA0145">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in GA 0145</title>
+<title type="document" key="20145" n="0145">GA 0145</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Unknown, formerly Syria</country>
+ <settlement>Unknown, formerly Damascus</settlement>
+ <repository>Unknown, formerly Kubbet el Chazne</repository>
+ <idno>s.n.</idno>
+  <msName xml:lang="la">0145</msName>
+ <altIdentifier type="GA"><idno>0145</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20145</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61694</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2845</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="2" when="2015-11-10">Final words changed from biblical text to hermeneia by David Parker.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body><div type="book" n="B04"><div n="B04K6" type="chapter">
+<pb xml:id="P1v-0145" n="1v" type="folio"/>
+<cb xml:id="P1vC1-0145" n="1"/>
+<lb xml:id="P1vC1L1-0145" n="1"/><ab n="B04K6V28"><w><unclear>ειπον</unclear></w><w>ουν</w><w>αυτω</w><w>τι</w><w>ποιου
+<lb break="no" xml:id="P1vC1L2-0145" n="2"/><unclear>μ</unclear>εν</w><w>ινα</w><w>εργαζομεθα</w><w>το</w>
+<lb xml:id="P1vC1L3-0145" n="3"/><w><supplied reason="unspecified">εργ</supplied>ον</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab><ab n="B04K6V29"><w>απεκριθη</w>
+<lb xml:id="P1vC1L4-0145" n="4"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ι</hi></supplied><hi rend="overline">ς</hi></abbr></w><w>και</w><w>ειπεν</w><w>αυτοις</w><w>του
+<lb break="no" xml:id="P1vC1L5-0145" n="5"/><supplied reason="unspecified">τ</supplied>ο</w><w>εστιν</w><w>το</w><w>εργον</w><w><supplied reason="unspecified">το</supplied><unclear>υ</unclear></w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P1vC1L6-0145" n="6"/><w><supplied reason="unspecified">ι</supplied>να</w><w>πιστευσητε</w><w>ε<unclear>ι</unclear>ς</w><w>ον</w><w>απ
+<lb break="no" xml:id="P1vC1L7-0145" n="7"/><supplied reason="unspecified">εσ</supplied>τειλεν</w><w>εκεινος</w>
+<lb xml:id="P1vC1L8-0145" n="8"/></ab><ab n="B04K6V30"><w><supplied reason="unspecified">ει</supplied>πον</w><w>ο<unclear>υ</unclear>ν</w><w>αυτω</w><w>τι</w><w>ποιεις</w>
+<lb xml:id="P1vC1L9-0145" n="9"/><w><supplied reason="unspecified">συ</supplied></w><w><supplied reason="unspecified">σ</supplied><unclear>ημει</unclear>α</w><w>ινα</w><w>ιδωμε<supplied reason="unspecified">ν</supplied></w><w>και</w>
+<lb xml:id="P1vC1L10-0145" n="10"/><w><supplied reason="unspecified">πι</supplied><unclear>στε</unclear>υσωμ<unclear>ε</unclear>ν</w><w>σοι</w><w>τι</w><w>εργαζη</w>
+<lb xml:id="P1vC1L11-0145" n="11"/></ab><ab n="B04K6V31"><w><supplied reason="unspecified">οι</supplied></w><w><abbr type="nomSac"><hi rend="overline">πρες</hi></abbr></w><w>ημων</w><w>το</w><w>μαννα</w>
+<lb xml:id="P1vC1L12-0145" n="12"/><w><supplied reason="unspecified">εφ</supplied>α<unclear>γ</unclear>αν</w><w>εν</w><w>τη</w><w>ερημω</w><w>καθ
+<lb break="no" xml:id="P1vC1L13-0145" n="13"/><supplied reason="unspecified">ως</supplied></w><w><unclear>εστ</unclear>ιν</w><w>γεγραμμενον</w>
+<lb xml:id="P1vC1L14-0145" n="14"/><w><supplied reason="unspecified">α</supplied><unclear>ρτο</unclear>ν</w><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w>εδω
+<lb break="no" xml:id="P1vC1L15-0145" n="15"/><unclear>κεν</unclear></w><w>αυτοις</w><w>φαγειν</w>
+ <lb xml:id="P1vC1L16-0145" n="16"/>
+ <lb xml:id="P1vC1L17-0145" n="17"/>
+ <lb xml:id="P1vC1L18-0145" n="18"/>
+ <note type="editorial"> There is a hermeneia on the bottom line, the beginning of which is illegible: ζωης κ(αι) σωτηριας.</note></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

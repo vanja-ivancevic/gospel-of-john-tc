@@ -1,0 +1,92 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA0210">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in GA 0210</title>
+<title type="document" key="20210" n="0210">GA 0210</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Germany</country>
+ <settlement>Berlin</settlement>
+ <repository>Staatliche Museen</repository>
+ <idno>P. 3607, 3623</idno>
+  <msName xml:lang="la">0210</msName>
+ <altIdentifier type="GA"><idno>0210</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20210</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61674</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2825</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="4" when="2016-03-18">Surplus supplied text removed at 6.2 by David Parker.</change>
+<change n="3" when="2015-05-15">Extent of lac changed at 6.2 by David Parker.</change>
+<change n="2" when="2015-03-13">Ab tag moved to after witness end tag at 6.42 by Rachel Kevern.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body><div type="book" n="B04"><div n="B04K5" type="chapter">
+<pb xml:id="P1r-0210" n="1r" type="folio"/>
+<cb xml:id="P1rC1-0210" n="1"/>
+<lb xml:id="P1rC1L1-0210" n="1"/><ab n="B04K5V44"><w><supplied reason="unspecified">π</supplied><unclear>ω</unclear>ς</w><w>δυνασθε</w><w>πι<unclear>σ</unclear><supplied reason="unspecified">τευ</supplied>
+<lb break="no" xml:id="P1rC1L2-0210" n="2"/><supplied reason="unspecified">σαι</supplied></w><w>δοξαν</w><w>παρα</w><w>αλ<supplied reason="unspecified">λη</supplied>
+<lb break="no" xml:id="P1rC1L3-0210" n="3"/><supplied reason="unspecified">λων</supplied></w><w><supplied reason="unspecified">λα</supplied>μβανοντες</w>
+<lb xml:id="P1rC1L4-0210" n="4"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">την</supplied></w><w>δοξαν</w>
+<lb xml:id="P1rC1L5-0210" n="5"/><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">παρ</supplied>α</w><w>του</w><w>μονου</w>
+<lb xml:id="P1rC1L6-0210" n="6"/><w><supplied reason="unspecified">θεου</supplied></w><w><supplied reason="unspecified">ο</supplied>υ</w><w>ζητειτε</w>
+<pb xml:id="P1v-0210" n="1v" type="folio"/>
+<cb xml:id="P1vC1-0210" n="1"/>
+<lb xml:id="P1vC1L1-0210" n="1"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V1"><w><supplied reason="unspecified">μ</supplied><unclear>ετα</unclear></w><w>ταυτα</w><w>απηλ<unclear>θε</unclear>¯</w>
+<lb xml:id="P1vC1L2-0210" n="2"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>περαν</w><w>της</w><w>θ<supplied reason="unspecified">α</supplied>
+<lb break="no" xml:id="P1vC1L3-0210" n="3"/>λασση<unclear>ς</unclear></w><w>της</w><w><supplied reason="unspecified">τιβε</supplied>
+<lb break="no" xml:id="P1vC1L4-0210" n="4"/>ριαδος</w></ab><ab n="B04K6V2"><w>η<unclear>κ</unclear><supplied reason="unspecified">ολουθει</supplied></w>
+<lb xml:id="P1vC1L5-0210" n="5"/><w>αυτω</w><w>οχ<unclear>λ</unclear><supplied reason="unspecified">ος</supplied></w><w><supplied reason="unspecified">πολυς</supplied></w><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">ε</supplied>
+<lb break="no" xml:id="P1vC1L6-0210" n="6"/>θεωρουν</w><w>τ<supplied reason="unspecified">α</supplied></w><w><supplied reason="unspecified">σημεια</supplied></w>
+<lb xml:id="P1vC1L7-0210" n="7"/><w>α</w><w>εποιει</w>
+<pb xml:id="P2r-0210" n="2r" type="folio"/>
+<cb xml:id="P2rC1-0210" n="1"/>
+<lb xml:id="P2rC1L1-0210" n="1"/></ab><ab n="B04K6V41"><w><unclear>γ</unclear>ογγυζον</w><w>ουν</w><w>οι</w><w>ϊουδ<supplied reason="unspecified">αι</supplied>
+<lb xml:id="P2rC1L2-0210" n="2" break="no"/><supplied reason="unspecified">οι</supplied></w><w><supplied reason="unspecified">πε</supplied>ρι</w><w>αυτου</w><w>οτι</w><w>ειπε<unclear>ν</unclear></w>
+<lb xml:id="P2rC1L3-0210" n="3"/><w><supplied reason="unspecified">εγω</supplied></w><w><unclear>ε</unclear>ιμι</w><w>ο</w><w>αρτ<unclear>ο</unclear>ς</w><w>ο</w><w>εκ</w>
+<lb xml:id="P2rC1L4-0210" n="4"/><w><supplied reason="unspecified">του</supplied></w><w><supplied reason="unspecified">ου</supplied><unclear>ρ</unclear>ανου</w><w>καταβας</w>
+<lb xml:id="P2rC1L5-0210" n="5"/></ab><ab n="B04K6V42"><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ελε</supplied><unclear>γ</unclear>ον</w><w>ουκ</w><w>ουτος</w>
+<lb xml:id="P2rC1L6-0210" n="6"/><w><supplied reason="unspecified">εστιν</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><w><supplied reason="unspecified">ο</supplied></w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>ϊωσηφ</w>
+<lb xml:id="P2rC1L7-0210" n="7"/><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">ημ</supplied>εις</w><w>οιδαμεν</w>
+ <lb xml:id="P2rC1L8-0210" n="8"/><w><supplied reason="unspecified">τον</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πρα</hi></supplied></abbr></w><w>και</w><w>την</w><w><abbr type="nomSac"><hi rend="overline">μρα</hi></abbr></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

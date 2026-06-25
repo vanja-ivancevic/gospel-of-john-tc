@@ -1,0 +1,68 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAP80">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in P80</title>
+<title type="document" key="10080" n="P80">P80</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+  <msIdentifier>
+    <country>Spain</country>
+    <settlement>Barcelona</settlement>
+    <repository>Fundació Sant Lluc Evangelista</repository>
+    <idno>P. Barc. 83</idno>
+    <msName xml:lang="en">Papyrus 80</msName>
+     <altIdentifier type="GA"><idno>P80</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>10080</idno></altIdentifier>
+   <altIdentifier type="TM"><idno>61645</idno></altIdentifier>
+     <altIdentifier type="LDAB"><idno>2795</idno></altIdentifier>
+  </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1y-P80" n="1↓" type="page"/><note type="header">↓ (Jn 3,34)</note>
+<cb xml:id="P1yC1-P80" n="1"/>
+<lb xml:id="P1yC1L1-P80" n="1"/><div type="book" n="B04"><div n="B04K3" type="chapter"><ab n="B04K3V34"><gap extent="8" unit="char" reason="unspecified"/><w><unclear>ρ</unclear><supplied reason="unspecified">ημα</supplied><unclear>τ</unclear><supplied reason="unspecified">α</supplied></w><w><supplied reason="unspecified">του</supplied></w><w><supplied reason="unspecified">θεου</supplied></w><w><supplied reason="unspecified">λαλει</supplied></w>
+<lb xml:id="P1yC1L2-P80" n="2"/><w><supplied reason="unspecified">ου</supplied></w><w>γαρ</w><w>εκ</w><w>μερου<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">διδωσιν</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">θεος</supplied></w>
+<lb xml:id="P1yC1L3-P80" n="3"/><w>το</w><w>πνευμα</w><seg type="margin" subtype="lineright"><pc>&gt;</pc></seg>
+<lb xml:id="P1yC1L4-P80" n="4"/><note type="editorial">Hermeneia beneath</note></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

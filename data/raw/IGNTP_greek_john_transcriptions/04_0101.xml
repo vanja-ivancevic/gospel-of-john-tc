@@ -1,0 +1,86 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA0101"><teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in GA 0101</title>
+<title type="document" key="20101" n="0101">GA 0101</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Austria</country>
+ <settlement>Vienna</settlement>
+ <repository>Österreichische Nationalbibliothek</repository>
+ <idno>Pap. G. 39780</idno>
+  <msName xml:lang="la">0101</msName>
+ <altIdentifier type="GA"><idno>0101</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20101</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61682</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2833</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1r-0101" n="1r" type="folio"/>
+<cb xml:id="P1rC1-0101" n="1"/>
+<lb xml:id="P1rC1L1-0101" n="1"/><div type="book" n="B04"><div n="B04K1" type="chapter"><ab n="B04K1V29"><w>τη</w><w>επ<supplied reason="unspecified">αυ</supplied><unclear>ρ</unclear><supplied reason="unspecified">ι</supplied>ον</w><w>βλ<unclear>ε</unclear>
+<lb break="no" xml:id="P1rC1L2-0101" n="2"/>πει</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><w>ερχο
+<lb break="no" xml:id="P1rC1L3-0101" n="3"/>μενον</w><w>προς</w><w>αυτο¯</w>
+<lb xml:id="P1rC1L4-0101" n="4"/><w>και</w><w>λεγει</w>
+<lb xml:id="P1rC1L5-0101" n="5" rend="hang"/><w>Ιδε</w><w>ο</w><w>αμνος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P1rC1L6-0101" n="6"/><w>ο</w><w>αιρων</w><w>την</w><w>αμαρ
+<lb break="no" xml:id="P1rC1L7-0101" n="7"/>τιαν</w><w>του</w><w>κοσμου</w><pc>.</pc>
+<lb xml:id="P1rC1L8-0101" n="8"/></ab><ab n="B04K1V30"><w>ουτος</w><w>εστιν</w><w>πε
+<lb break="no" xml:id="P1rC1L9-0101" n="9"/>ρι</w><w>ου</w><w>εγω</w><w>ειπον</w><pc>.</pc>
+<lb xml:id="P1rC1L10-0101" n="10"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P1v-0101" n="1v" type="folio"/>
+<cb xml:id="P1vC1-0101" n="1"/>
+<lb xml:id="P1vC1L1-0101" n="1"/></ab><ab n="B04K1V31"><w>καγω</w><w><supplied reason="unspecified">ουκ</supplied></w><w><unclear>η</unclear>δειν</w><w>α<unclear>υ</unclear>
+<lb break="no" xml:id="P1vC1L2-0101" n="2"/>τον</w><w>αλλ</w><w>ινα</w><w>φανε
+<lb break="no" xml:id="P1vC1L3-0101" n="3"/>ρωθη</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ισλ</hi></abbr></w><w>δια</w>
+<lb xml:id="P1vC1L4-0101" n="4"/><w>τουτο</w><w>ηλθον</w><w>ε<unclear>γ</unclear><hi rend="sps">ω</hi></w>
+<lb xml:id="P1vC1L5-0101" n="5"/><w>εν</w><w>τ<unclear>ω</unclear></w><w><unclear>υδ</unclear>ατι</w><w>βαπτ<unclear>ι</unclear>ζ<unclear>ω</unclear></w>
+<lb xml:id="P1vC1L6-0101" n="6"/></ab><ab n="B04K1V32"><w>και</w><w><unclear>εμαρ</unclear>τυρησε<unclear>ν</unclear></w>
+<lb xml:id="P1vC1L7-0101" n="7"/><w>ιωανν<unclear>η</unclear>ς</w><w>λεγων</w>
+<lb xml:id="P1vC1L8-0101" n="8"/><w>οτι</w><w>τεθ<unclear>εαμαι</unclear></w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πν</hi><unclear><hi rend="overline">α</hi></unclear></abbr></w>
+<lb xml:id="P1vC1L9-0101" n="9"/><w>καταβαιν<unclear>ο</unclear>ν</w><w>ωσει</w>
+<lb xml:id="P1vC1L10-0101" n="10"/><w><unclear>περι</unclear><supplied reason="unspecified">στεραν</supplied></w><w><supplied reason="unspecified">εξ</supplied></w><w><supplied reason="unspecified">ο</supplied><unclear>υ</unclear>
+<lb break="no" xml:id="P1vC1L11-0101" n="11"/><supplied reason="unspecified">ρανου</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">εμει</supplied>νεν</w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

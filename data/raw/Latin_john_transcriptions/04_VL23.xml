@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL23"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in the Fragmentum Aberdonense</title>
+<title type="document" n="VL23">VL23</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<resp>Transcribed by</resp><name>P.J. Williams</name>
+<name>P.H. Burton</name>
+<resp>Reconciled and proofread by</resp><name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>United Kingdom</country>
+<settlement>Aberdeen</settlement>
+<repository>University Library</repository>
+<idno>Papyrus 2a</idno>
+<msName xml:lang="la">Fragmentum Aberdonense</msName>
+ <altIdentifier type="Vetus_Latina"><idno>23</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>2.118</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>not included</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>not included</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61647</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2797</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Euangelium secundum Iohannem</title>
+<title type="uniform" xml:lang="en">Gospel according to John (fragment)</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p/></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="2"><p>Probably in two columns.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>rustic capitals</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace/>
+<origDate notBefore="40001" notAfter="50001">Fifth century</origDate>
+</origin></history>
+<additional>
+<surrogates><p>Images online at http://arts-itsee.bham.ac.uk/AnaServer?verbum+0+start.anv+ms=23</p>
+Editio princeps (from which we differ): <bibl>E.O. Winstedt, Classical Quarterly 1.4 (1907) 266</bibl>.</surrogates></additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers the entire fragment. It contains <locus>John 7:27-28, 7:30-31</locus>. Full Eusebian apparatus (with parallel passages from other gospels) in margin.The transcription includes foliation, lineation, all punctuation and abbreviations. We differ from Winstedt by not including his conjectural addition of 'IHS' in John 7:28, as this is not required by the space remaining. As a result, the text of this witness is identical to the Stuttgart Vulgate; the full Eusebian Apparatus (provided in the transcription) supports this Vulgate affiliation.The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P1r-VL23" n="1r" type="folio"/>
+<cb n="P1rC1-VL23"/>
+<lb n="P1rC1L1-VL23"/><div n="04" type="book"><div n="B04K7" type="chapter"><ab n="B04K7V27"><w>nem<supplied reason="illegible">o</supplied></w><w><supplied reason="illegible">scit</supplied></w><w><supplied reason="illegible">un</supplied>
+<lb n="P1rC1L2-VL23" break="no"/>de</w><w>sit</w>
+<lb n="P1rC1L3-VL23" rend="hang"/><num type="AmmSec">lxxui</num></ab><ab n="B04K7V28"><w>Clamabat</w><w>e<supplied reason="illegible">rgo</supplied></w><note type="editorial">The editio princeps (Winstedt 1907) reconstructs 'IHS' following e[rgo] at the end of this line, and tem[plo] at the end of the next. However, with an average of ten letters per line, we see no reason to posit the non-Vulgate addition of 'IHS'.</note>
+<lb n="P1rC1L4-VL23"/><num type="EusCan">iii</num><note type="editorial">The first three strokes of the Eusebian canon number are clear; the next three are faint, as if the expected number 'iii' (3) has been re-written.</note><w>docens</w><w>in</w><w>tem</w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P1rC1L5-VL23"/><num type="AmmSec">cxii</num>
+<lb n="P1rC1L6-VL23"/><num type="AmmSec"><w>c</w><gap reason="lacuna" unit="char" extent="unknown"/></num><note type="editorial">cxii (112) is the equivalent Ammonian section in Matthew; underneath this is the top of a further 'c' followed by another letter: this may be part of clxxix (179), the equivalent Ammonian section in Luke.</note>
+<pb xml:id="P1v-VL23" n="1v" type="folio"/>
+<cb n="P1vC1-VL23"/>
+<lb n="P1vC1L1-VL23"/></ab><ab n="B04K7V30"><w><supplied reason="illegible">no</supplied>ndum</w><w>uen
+<lb n="P1vC1L2-VL23" break="no"/><supplied reason="illegible">er</supplied>at</w><w>hora</w><w>eius</w><pc>·</pc>
+<lb n="P1vC1L3-VL23"/></ab><ab n="B04K7V31"><w><supplied reason="illegible">d</supplied>e</w><w>turba</w><w>aute<hi rend="¯">m</hi></w></ab></div></div></body></text></TEI>

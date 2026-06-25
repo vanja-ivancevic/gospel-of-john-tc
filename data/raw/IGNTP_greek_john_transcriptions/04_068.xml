@@ -1,0 +1,144 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA068">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of GA 068</title>
+<title type="document" key="20068" n="068">GA 068</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>United Kingdom</country>
+ <settlement>London</settlement>
+ <repository>British Library</repository>
+ <idno>Add. 17136, fols. 117, 126 (lower script) </idno>
+  <msName xml:lang="la">068</msName>
+ <altIdentifier type="GA"><idno>068</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20068</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61653</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2803</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+    <change n="3" when="2016-12-12">Lac rest of verse added to end of 13.23 by David Parker.</change>
+    <change n="2" when="2013-07-23">Placement of ab/gap across page boundaries fixed by Catherine Smith.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 (apart from handling of ghost pages) by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1r-068" n="1r" type="folio"/>
+<cb xml:id="P1rC1-068" n="1"/>
+<lb xml:id="P1rC1L1-068" n="1"/><div type="book" n="B04"><div n="B04K13" type="chapter"><ab n="B04K13V16"><gap reason="lacuna" unit="verse" extent="rest"/><w><supplied reason="inferredPage">εσ</supplied><supplied reason="unspecified">τι</supplied>ν</w><w>δουλος</w><w>μει
+<lb break="no" xml:id="P1rC1L2-068" n="2"/><supplied reason="unspecified">ζ</supplied>ων</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><w>αυτου</w>
+<lb xml:id="P1rC1L3-068" n="3"/><w><supplied reason="unspecified">ο</supplied>υδε</w><w>αποστολος</w>
+<lb xml:id="P1rC1L4-068" n="4"/><w>μειζων</w><w>του</w><w>πεμ
+<lb break="no" xml:id="P1rC1L5-068" n="5"/>ψαντος</w><w>αυτον</w>
+<lb xml:id="P1rC1L6-068" n="6"/></ab><ab n="B04K13V17"><w><supplied reason="unspecified">ε</supplied>ι</w><w>ταυτα</w><w>οιδαται</w>
+<lb xml:id="P1rC1L7-068" n="7"/><w>μακαριοι</w><w>εσται</w>
+<lb xml:id="P1rC1L8-068" n="8"/><w><supplied reason="unspecified">ε</supplied>αν</w><w>ποιηται</w><w>αυτα</w>
+<cb xml:id="P1rC2-068" n="2"/>
+<lb xml:id="P1rC2L1-068" n="1"/></ab><ab n="B04K13V19"><gap reason="lacuna" unit="verse" extent="rest"/><w>οταν</w><w>γενηται</w><w>οτι</w>
+<lb xml:id="P1rC2L2-068" n="2"/><w>εγω</w><w>ειμι</w>
+<lb xml:id="P1rC2L3-068" n="3"/></ab><ab n="B04K13V20"><w>Αμην</w><w>αμην</w><w>λεγω</w>
+<lb xml:id="P1rC2L4-068" n="4"/><w>υμιν</w><w>ο</w><w>λαμβανω¯</w>
+<lb xml:id="P1rC2L5-068" n="5"/><w>αν</w><w>τινα</w><w>πεμψω</w>
+<lb xml:id="P1rC2L6-068" n="6"/><w>εμε</w><w>λαμβανει</w>
+<lb xml:id="P1rC2L7-068" n="7"/><w>ο</w><w>δε</w><w>εμε</w><w>λαμβανω¯</w>
+<lb xml:id="P1rC2L8-068" n="8"/><w>λαμβανει</w><w>τον</w><gap reason="lacuna" unit="line" extent="rest"/></ab><ab n="B04K13V23">
+<pb xml:id="P1v-068" n="1v" type="folio"/>
+<cb xml:id="P1vC1-068" n="1"/>
+    <lb xml:id="P1vC1L1-068" n="1"/><gap reason="lacuna" unit="line" extent="rest"/><w>εις</w><w>εκ</w><w>των</w><w>μαθη
+<lb break="no" xml:id="P1vC1L2-068" n="2"/>των</w><w>αυτου</w><w>εν</w><w>τω</w>
+<lb xml:id="P1vC1L3-068" n="3"/><w>κολπω</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><w>ον</w>
+<lb xml:id="P1vC1L4-068" n="4"/><w>ηγαπα</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w></ab><ab n="B04K13V24"><w>νευει</w>
+<lb xml:id="P1vC1L5-068" n="5"/><w>ουν</w><w>τουτω</w><w>σιμων</w>
+<lb xml:id="P1vC1L6-068" n="6"/><w>πετρος</w><w>και</w><w>λεγει</w>
+<lb xml:id="P1vC1L7-068" n="7"/><w>αυτω</w><w>ειπε</w><w>τις</w><w>ε
+<lb break="no" xml:id="P1vC1L8-068" n="8"/>στιν</w><w>περι</w><w>ου</w><w>λεγει</w></ab><ab n="B04K13V26"><gap reason="lacuna" unit="line" extent="rest"/><w><supplied reason="unspecified">ιου</supplied>
+<cb xml:id="P1vC2-068" n="2" break="no"/>
+<lb xml:id="P1vC2L1-068" n="1"/>δα</w><w>σιμωνος</w><w>ισ<supplied reason="unspecified">κα</supplied>
+<lb break="no" xml:id="P1vC2L2-068" n="2"/>ριωτου</w></ab><ab n="B04K13V27"><w>και</w><w>με
+<lb break="no" xml:id="P1vC2L3-068" n="3"/>τα</w><w>το</w><w>ψωμειον</w>
+<lb xml:id="P1vC2L4-068" n="4"/><w>τοτε</w><w>εισηλθεν</w>
+<lb xml:id="P1vC2L5-068" n="5"/><w>εις</w><w>εκεινον</w><w>ο</w><w>σ<supplied reason="unspecified">α</supplied>
+<lb break="no" xml:id="P1vC2L6-068" n="6"/>τανας</w>
+<lb xml:id="P1vC2L7-068" n="7"/><w>Λεγει</w><w>ουν</w><w>αυτω</w>
+<lb xml:id="P1vC2L8-068" n="8"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ο</w><w>ποιεις</w><w>πο<supplied reason="unspecified">ιησον</supplied></w><gap reason="lacuna" unit="line" extent="rest"/>
+<pb xml:id="P2r-068" n="2r" type="folio"/>
+<cb xml:id="P2rC1-068" n="1"/>
+<lb xml:id="P2rC1L1-068" n="1"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V7"><gap reason="lacuna" unit="verse" extent="rest"/><w><supplied reason="unspecified">πεμ</supplied>ψω</w><w>αυτον</w>
+<lb xml:id="P2rC1L2-068" n="2"/><w><supplied reason="unspecified">προ</supplied>ς</w><w>υμας</w></ab><ab n="B04K16V8"><w><supplied reason="unspecified">και</supplied></w><note type="local">corrected ubs</note>
+<lb xml:id="P2rC1L3-068" n="3"/><w><supplied reason="unspecified">ελθ</supplied>ων</w><w>εκει
+<lb break="no" xml:id="P2rC1L4-068" n="4"/><supplied reason="unspecified">νος</supplied></w><w>ελεγξει</w><w>τον</w>
+<lb xml:id="P2rC1L5-068" n="5"/><w><supplied reason="unspecified">κοσ</supplied>μον</w><w>περι</w>
+<lb xml:id="P2rC1L6-068" n="6"/><w><supplied reason="unspecified">αμαρ</supplied>τιας</w><w>και</w>
+<lb xml:id="P2rC1L7-068" n="7"/><w><supplied reason="unspecified">περ</supplied>ι</w><w>δικαιωσυ
+<lb break="no" xml:id="P2rC1L8-068" n="8"/>νης</w><w>και</w><w>περι</w>
+<lb xml:id="P2rC1L9-068" n="9"/><w>κρεισεως</w>
+<cb xml:id="P2rC2-068" n="2"/>
+<lb xml:id="P2rC2L1-068" n="1"/></ab><ab n="B04K16V12"><w>ετι</w><w>πολλα</w><w>εχω</w><w>λε
+<lb break="no" xml:id="P2rC2L2-068" n="2"/>γειν</w><w>υμιν</w><w>αλλ</w><w>ου</w>
+<lb xml:id="P2rC2L3-068" n="3"/><w>δυνασθαι</w><w>βαστα
+<lb break="no" xml:id="P2rC2L4-068" n="4"/>ζειν</w><w>αρτι</w></ab><ab n="B04K16V13"><w>οταν</w>
+<lb xml:id="P2rC2L5-068" n="5"/><w>δε</w><w>ελθη</w><w>εκεινος</w>
+<lb xml:id="P2rC2L6-068" n="6"/><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>της</w><w>αλη
+<lb break="no" xml:id="P2rC2L7-068" n="7"/>θειας</w><w>οδηγησει</w>
+<lb xml:id="P2rC2L8-068" n="8"/><w>υμας</w><w>εις</w><w>πασαν</w>
+<lb xml:id="P2rC2L9-068" n="9"/><w>την</w><w>αληθειαν</w><gap reason="lacuna" unit="line" extent="rest"/>
+<pb xml:id="P2v-068" n="2v" type="folio"/>
+<cb xml:id="P2vC1-068" n="1"/>
+<lb xml:id="P2vC1L1-068" n="1"/></ab><ab n="B04K16V15"><gap reason="lacuna" unit="verse" extent="rest"/><w>Δια</w><w>τουτο</w><w>ειπον</w>
+<lb xml:id="P2vC1L2-068" n="2"/><w>οτι</w><w>εκ</w><w>του</w><w>εμου</w>
+<lb xml:id="P2vC1L3-068" n="3"/><w>λαμβανει</w><w>και</w><w>α
+<lb break="no" xml:id="P2vC1L4-068" n="4"/>ναγγελει</w><w>υμιν</w>
+<lb xml:id="P2vC1L5-068" n="5"/></ab><ab n="B04K16V16"><w>μεικρον</w><w>και</w><w>ουκ
+<lb break="no" xml:id="P2vC1L6-068" n="6"/>ετι</w><w>θεωρειτε</w><w>με</w>
+<lb xml:id="P2vC1L7-068" n="7"/><w>και</w><w>παλιν</w><w>μεικρο¯</w>
+<lb xml:id="P2vC1L8-068" n="8"/><w>και</w><w>οψεσθαι</w><w>με</w>
+<lb xml:id="P2vC1L9-068" n="9"/><w>οτι</w><w>υπαγω</w><w>προς</w><gap reason="lacuna" unit="line" extent="rest"/>
+<cb xml:id="P2vC2-068" n="2"/>
+<lb xml:id="P2vC2L1-068" n="1"/></ab><ab n="B04K16V18"><gap reason="lacuna" unit="verse" extent="rest"/><w>τουτο</w><w><supplied reason="unspecified">τι</supplied></w><w><supplied reason="unspecified">εστι¯</supplied></w>
+<lb xml:id="P2vC2L2-068" n="2"/><w>ο</w><w>λεγει</w><w><supplied reason="unspecified">το</supplied></w><w><supplied reason="unspecified">μικρο¯</supplied></w>
+<lb xml:id="P2vC2L3-068" n="3"/><w>ουκ</w><w>οιδα<supplied reason="unspecified">μεν</supplied></w><w><supplied reason="unspecified">τι</supplied></w>
+<lb xml:id="P2vC2L4-068" n="4"/><w>λαλει</w>
+<lb xml:id="P2vC2L5-068" n="5"/></ab><ab n="B04K16V19"><w>Εγνω</w><w><supplied reason="unspecified">ο</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">η</supplied>
+<lb break="no" xml:id="P2vC2L6-068" n="6"/>θελον</w><w><supplied reason="unspecified">αυτον</supplied></w><w><supplied reason="unspecified">ε</supplied>
+<lb break="no" xml:id="P2vC2L7-068" n="7"/>ρωταν</w><w>και</w><w><supplied reason="unspecified">ειπεν</supplied></w>
+<lb xml:id="P2vC2L8-068" n="8"/><w>αυτοις</w><w>περι</w><w><supplied reason="unspecified">του</supplied>
+<lb break="no" xml:id="P2vC2L9-068" n="9"/>του</w><w>ζητειτε</w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAL1692S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in L1692S</title>
+				<title type="document" key="41692" n="L1692S">GA L1692S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>25.2.2014</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>25.2.2014</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>L1692S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>41692</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">This base text is divided into three sections:1. The Synaxarion. Readings are identified by 'S' for 'Synaxarion', 'W' for 'Week' and 'D' for 'Day' 2. Resurrection Readings are identified by 'R' for 'Resurrection3. The Menologion. Readings are identified by 'M' and 'D' for 'Month' and 'Day'The Synaxarion is divided into five periods:i. Pascha to Pentecost: S1 W1 D1 – S1 W8 D1ii. Pentecost to the Elevation of the Cross: S2 W1 D2 – S2 W18 D2iii. Elevation of the Cross to Lent: S3 W1 D2 – S3 W20 D1iv. Lent to Holy Week: S4 W1 D2 – S4 W7 D1cv. Holy Week: S5 W1 D2a – S5 W1 D7bStatus:G-Α number: L 1692 (Αthos, Dionysiou 587) supplementΝame of book transcribed: JohnFirst folio transcribed: 175rThis paper appendix contains Jn 10.9-16 and 6.35-39.(Τype Lsel - Sundays and selected rdgs)Τranscribed by: RLΜΤranscription begun: 18.06.02Τranscription finished: 10.11.02Τransference to Collate by: RLΜΤransference to Collate begun: 18.06.02Τransference to Collate finished: 10.11.02File date  and time:Ρlaced in Level1: RLΜLevel1 file date  and time: 10.11.02Ρlaced in Level2: read a second time and compared with the collation of Johannes Κaravidopoulos.  Ηoly Week and Μenologion read in ΜuensterΡlaced in Level2 by: RLΜLevel2 file date  and time: 03.12.02Τhese files were  compared and differences resolved by:Ρlaced in  Level3:Ρlaced in  Level3 by:Final transcription file date  and time:   Page layout added by: acmStart date: 6.11.13 End date: 8.11.13   		Other remarks:  </note>
+<pb xml:id="P175r-L1692S" n="175r" type="folio"/>
+<cb xml:id="P175rC1-L1692S" n="1"/>
+<lb xml:id="P175rC1L1-L1692S" n="1"/><div n="Va1" type="lection"><note type="editorial">One of a number of Pericopes for Various Occasions not mentioned in the Menologion.</note><note type="local">John 10, 9-16</note><fw type="lectTitle"><seg type="margin" subtype="pagetop"><w>εις</w><w>μεγαν</w><w>ιεραρχην</w></seg><w>εκ</w><w>του</w><w>κατα</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w></fw>
+<lb xml:id="P175rC1L2-L1692S" n="2"/><div n="B04" type="book"><div n="B04K10" type="chapter"><ab n="B04K10V9"><w>ειπεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w>
+<lb xml:id="P175rC1L3-L1692S" n="3"/><w>εγω</w><w>ειμι</w><w>η</w><w>θυ
+<lb break="no" xml:id="P175rC1L4-L1692S" n="4"/>ρα</w><w>δι</w><w>εμου</w>
+<lb xml:id="P175rC1L5-L1692S" n="5"/><w>εαν</w><w>τις</w><w>εισελ
+<lb break="no" xml:id="P175rC1L6-L1692S" n="6"/>θη</w><w>σωθησεται</w>
+<lb xml:id="P175rC1L7-L1692S" n="7"/><w>και</w><w>εισελευσεται</w>
+<lb xml:id="P175rC1L8-L1692S" n="8"/><w>και</w><w>εξελευσεται</w>
+<lb xml:id="P175rC1L9-L1692S" n="9"/><w>και</w><w>νομην</w><w>ευ
+<lb break="no" xml:id="P175rC1L10-L1692S" n="10"/>ρησει</w></ab><ab n="B04K10V10"><w>ο</w><w>κλε
+<lb break="no" xml:id="P175rC1L11-L1692S" n="11"/>πτης</w><w>ουκ</w><w>ερ
+<lb break="no" xml:id="P175rC1L12-L1692S" n="12"/>χεται</w><w>ει</w><w>μη</w><w>ινα</w>
+<lb xml:id="P175rC1L13-L1692S" n="13"/><w>κλεψη</w><w>και</w>
+<lb xml:id="P175rC1L14-L1692S" n="14"/><w>θυση</w><w>και</w><w>απο
+<lb break="no" xml:id="P175rC1L15-L1692S" n="15"/>λεση</w><w>εγω</w><w>ηλθον</w>
+<cb xml:id="P175rC2-L1692S" n="2"/>
+<lb xml:id="P175rC2L1-L1692S" n="1"/><w>ινα</w><w>ζωην</w>
+<lb xml:id="P175rC2L2-L1692S" n="2"/><w>εχωσι</w><w>και</w><w>περι
+<lb break="no" xml:id="P175rC2L3-L1692S" n="3"/>σσον</w><w>εχωσιν</w>
+<lb xml:id="P175rC2L4-L1692S" n="4"/></ab><ab n="B04K10V11"><w>εγω</w><w>ειμι</w><w>ο</w><w>ποι
+<lb break="no" xml:id="P175rC2L5-L1692S" n="5"/>μην</w><w>ο</w><w>καλος</w>
+<lb xml:id="P175rC2L6-L1692S" n="6"/><w>ο</w><w>ποιμην</w><w>ο</w>
+<lb xml:id="P175rC2L7-L1692S" n="7"/><w>καλος</w><w>την</w>
+<lb xml:id="P175rC2L8-L1692S" n="8"/><w>ψυχην</w><w>αυτου</w>
+<lb xml:id="P175rC2L9-L1692S" n="9"/><w>τιθησιν</w><w>υπερ</w>
+<lb xml:id="P175rC2L10-L1692S" n="10"/><w>των</w><w>προβατων</w>
+<lb xml:id="P175rC2L11-L1692S" n="11"/></ab><ab n="B04K10V12"><w>ο</w><w>μισθωτος</w><w>δε</w>
+<lb xml:id="P175rC2L12-L1692S" n="12"/><w>και</w><w>ουκ</w><w>ων</w><w>ποι
+<lb break="no" xml:id="P175rC2L13-L1692S" n="13"/>μην</w><w>ου</w><w>ουκ</w><w>εισι</w>
+<lb xml:id="P175rC2L14-L1692S" n="14"/><w>τα</w><w>προβατα</w>
+<lb xml:id="P175rC2L15-L1692S" n="15"/><w>ιδια</w><w>θεωρει</w>
+<lb xml:id="P175rC2L16-L1692S" n="16"/><w>τον</w><w>λυκον</w><w>ερ
+<lb break="no" xml:id="P175rC2L17-L1692S" n="17"/>χομενον</w><w>και</w>
+<pb xml:id="P175v-L1692S" n="175v" type="folio"/>
+<cb xml:id="P175vC1-L1692S" n="1"/>
+<lb xml:id="P175vC1L1-L1692S" n="1"/><w>αφιησι</w><w>τα</w><w>προ
+<lb break="no" xml:id="P175vC1L2-L1692S" n="2"/>βατα</w><w>και</w><w>φευ
+<lb break="no" xml:id="P175vC1L3-L1692S" n="3"/>γει</w><w>και</w><w>ο</w><w>λυκος</w>
+<lb xml:id="P175vC1L4-L1692S" n="4"/><w>αρπαζει</w><w>αυτα</w>
+<lb xml:id="P175vC1L5-L1692S" n="5"/><w>και</w><w>σκορπιζει</w>
+<lb xml:id="P175vC1L6-L1692S" n="6"/><w>τα</w><w>προβατα</w>
+<lb xml:id="P175vC1L7-L1692S" n="7"/></ab><ab n="B04K10V13"><w>ο</w><w>δε</w><w>μισθωτος</w>
+<lb xml:id="P175vC1L8-L1692S" n="8"/><w>φευγει</w><w>οτι</w>
+<lb xml:id="P175vC1L9-L1692S" n="9"/><w>μισθωτος</w><w>εστι</w>
+<lb xml:id="P175vC1L10-L1692S" n="10"/><w>και</w><w>ου</w><w>μελει</w><w>αυτω</w>
+<lb xml:id="P175vC1L11-L1692S" n="11"/><w>περι</w><w>των</w><w>προ
+<lb break="no" xml:id="P175vC1L12-L1692S" n="12"/>βατων</w></ab><ab n="B04K10V14"><w>εγω</w>
+<lb xml:id="P175vC1L13-L1692S" n="13"/><w>ειμι</w><w>ο</w><w>ποιμην</w>
+<lb xml:id="P175vC1L14-L1692S" n="14"/><w>ο</w><w>καλος</w><w>και</w>
+<lb xml:id="P175vC1L15-L1692S" n="15"/><w>γινωσκω</w><w>τα</w>
+<lb xml:id="P175vC1L16-L1692S" n="16"/><w>εμα</w><w>και</w><w>γινω
+<lb break="no" xml:id="P175vC1L17-L1692S" n="17"/>σκομαι</w><w>υπο</w><w>των</w>
+<cb xml:id="P175vC2-L1692S" n="2"/>
+<lb xml:id="P175vC2L1-L1692S" n="1"/><w>εμων</w></ab><ab n="B04K10V15"><w>καθως</w>
+<lb xml:id="P175vC2L2-L1692S" n="2"/><w>γινωσκει</w><w>με</w>
+<lb xml:id="P175vC2L3-L1692S" n="3"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>καγω</w><w>γι
+<lb break="no" xml:id="P175vC2L4-L1692S" n="4"/>νωσκω</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w>
+<lb xml:id="P175vC2L5-L1692S" n="5"/><w>και</w><w>την</w><w>ψυχην</w>
+<lb xml:id="P175vC2L6-L1692S" n="6"/><w>μου</w><w>τιθημι</w>
+<lb xml:id="P175vC2L7-L1692S" n="7"/><w>υπερ</w><w>των</w><w>προ
+<lb break="no" xml:id="P175vC2L8-L1692S" n="8"/>βατων</w></ab><ab n="B04K10V16"><w>και</w>
+<lb xml:id="P175vC2L9-L1692S" n="9"/><w>αλλα</w><w>προβατα</w>
+<lb xml:id="P175vC2L10-L1692S" n="10"/><w>εχω</w><w>α</w><w>ουκ</w><w>εστιν</w>
+<lb xml:id="P175vC2L11-L1692S" n="11"/><w>εκ</w><w>της</w><w>αυλης</w>
+<lb xml:id="P175vC2L12-L1692S" n="12"/><w>ταυτης</w><w>κα
+<lb break="no" xml:id="P175vC2L13-L1692S" n="13"/>κεινα</w><w>με</w><w>δει</w>
+<lb xml:id="P175vC2L14-L1692S" n="14"/><w>αγαγειν</w><w>και</w><w>της</w>
+<lb xml:id="P175vC2L15-L1692S" n="15"/><w>φωνης</w><w>μου</w><w>ακου
+<lb break="no" xml:id="P175vC2L16-L1692S" n="16"/>σουσι</w><w>και</w><w>γενη
+<lb break="no" xml:id="P175vC2L17-L1692S" n="17"/>σεται</w><w>μια</w><w>ποιμνη</w>
+<lb xml:id="P175vC2L18-L1692S" n="18"/><w>εις</w><w>ποιμην</w>
+<pb xml:id="P176r-L1692S" n="176r" type="folio"/>
+<cb xml:id="P176rC1-L1692S" n="1"/>
+<lb xml:id="P176rC1L1-L1692S" n="1"/></ab></div></div></div><div n="Va3" type="lection"><note type="editorial">One of a number of Pericopes for Various Occasions not mentioned in the Menologion.</note><note type="local">John 6, 35-39</note><fw type="lectTitle"><w>εκ</w><w>του</w><w>κατα</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w></fw>
+<lb xml:id="P176rC1L2-L1692S" n="2"/><div n="B04" type="book"><div n="B04K6" type="chapter"><ab n="B04K6V35"><w>ειπεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w><w>προς</w>
+<lb xml:id="P176rC1L3-L1692S" n="3"/><w>τους</w><w>εληλυ
+<lb break="no" xml:id="P176rC1L4-L1692S" n="4"/>θοτας</w><w>προς</w>
+<lb xml:id="P176rC1L5-L1692S" n="5"/><w>αυτον</w><w>ιουδαιους</w>
+<lb xml:id="P176rC1L6-L1692S" n="6"/><w>εγω</w><w>ειμι</w><w>ο</w><w>αρτος</w>
+<lb xml:id="P176rC1L7-L1692S" n="7"/><w>της</w><w>ζωης</w><w>ο</w>
+<lb xml:id="P176rC1L8-L1692S" n="8"/><w>ερχομενος</w><w>προς</w>
+<lb xml:id="P176rC1L9-L1692S" n="9"/><w>με</w><w>ου</w><w>μη</w><w>πεινα
+<lb break="no" xml:id="P176rC1L10-L1692S" n="10"/>ση</w><w>και</w><w>ο</w><w>πιστευ
+<lb break="no" xml:id="P176rC1L11-L1692S" n="11"/>ων</w><w>εις</w><w>εμε</w><w>ου</w><w>μη</w>
+<lb xml:id="P176rC1L12-L1692S" n="12"/><w>διψηση</w><w>πωπο
+<lb break="no" xml:id="P176rC1L13-L1692S" n="13"/>τε</w></ab><ab n="B04K6V36"><w>αλλ</w><w>ειπον</w>
+<lb xml:id="P176rC1L14-L1692S" n="14"/><w>υμιν</w><w>οτι</w><w>και</w><w>ε
+<lb break="no" xml:id="P176rC1L15-L1692S" n="15"/>ωρακατε</w><w>με</w>
+<lb xml:id="P176rC1L16-L1692S" n="16"/><w>και</w><w>ου</w><w>πιστευετε</w>
+<cb xml:id="P176rC2-L1692S" n="2"/>
+<lb xml:id="P176rC2L1-L1692S" n="1"/></ab><ab n="B04K6V37"><w>παν</w><w>ο</w><w>διδωσι</w>
+<lb xml:id="P176rC2L2-L1692S" n="2"/><w>μοι</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>προς</w>
+<lb xml:id="P176rC2L3-L1692S" n="3"/><w>εμε</w><w>ηξει</w><w>και</w>
+<lb xml:id="P176rC2L4-L1692S" n="4"/><w>τον</w><w>ερχομενον</w>
+<lb xml:id="P176rC2L5-L1692S" n="5"/><w>προς</w><w>με</w><w>ου</w><w>μη</w>
+<lb xml:id="P176rC2L6-L1692S" n="6"/><w>εκβακω</w><w>εξω</w>
+<lb xml:id="P176rC2L7-L1692S" n="7"/></ab><ab n="B04K6V38"><w>οτι</w><w>καταβε
+<lb break="no" xml:id="P176rC2L8-L1692S" n="8"/>βηκα</w><w>εκ</w><w>του</w>
+<lb xml:id="P176rC2L9-L1692S" n="9"/><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w>ουχ</w><w>ινα</w>
+<lb xml:id="P176rC2L10-L1692S" n="10"/><w>ποιω</w><w>το</w><w>θελη
+<lb break="no" xml:id="P176rC2L11-L1692S" n="11"/>μα</w><w>το</w><w>εμον</w><w>αλλα</w>
+<lb xml:id="P176rC2L12-L1692S" n="12"/><w>το</w><w>θελημα</w><w>του</w>
+<lb xml:id="P176rC2L13-L1692S" n="13"/><w>πεμψαντος</w><w>με</w>
+<lb xml:id="P176rC2L14-L1692S" n="14"/></ab><ab n="B04K6V39"><w>τουτο</w><w>δε</w><w>εστι</w><w>το</w>
+<lb xml:id="P176rC2L15-L1692S" n="15"/><w>θελημα</w><w>του</w>
+<lb xml:id="P176rC2L16-L1692S" n="16"/><w>πεμψαντος</w><w>με</w>
+<lb xml:id="P176rC2L17-L1692S" n="17"/><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>ινα</w><w>παν</w>
+<pb xml:id="P176v-L1692S" n="176v" type="folio"/>
+<lb xml:id="P176vCL1-L1692S" n="1"/><w>ο</w><w>δεδωκε</w><w>μοι</w>
+<lb xml:id="P176vCL2-L1692S" n="2"/><w>μη</w><w>απολεσω</w>
+<lb xml:id="P176vCL3-L1692S" n="3"/><w>εξ</w><w>αυτου</w><w>αλλα</w>
+<lb xml:id="P176vCL4-L1692S" n="4"/><w>αναστησω</w><w>αυ
+<lb break="no" xml:id="P176vCL5-L1692S" n="5"/>το</w><w>εν</w><w>τη</w><w>εσχα
+<lb break="no" xml:id="P176vCL6-L1692S" n="6"/>τη</w><w>ημερα</w><note type="editorial">The pericope below can be found in the next supplement.</note></ab></div></div></div></body></text></TEI>

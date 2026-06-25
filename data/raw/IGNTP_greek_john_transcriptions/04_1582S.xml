@@ -1,0 +1,69 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA1582S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 1582S</title>
+				<title type="document" key="31582" n="1582S">GA 1582S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="04">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.1">Version 1.1, created on <date>12.8.2013</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>12.8.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>1582S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>31582</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+			<change n="1" when="2013-07-23">Adjusted to XML specifications 1.4 by Catherine Smith.</change>
+			<change n="0" when="2013-07-20">Converted from plain text by Catherine Smith using Python conversion scripts 1.0.</change>
+		</revisionDesc>
+		
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">Status:G-Α 1582suppl Level 1 Τranscription Folio 287 α - 287 βΤranscribed by: ΑSWUpdated to Level 1: 16.04.09Last modified: 18.01.10Adjustment of tags and removal of entities for ECM conversion: HAGH 27.3.2013 </note>
+<pb xml:id="P287r-1582S" n="287r" type="folio"/>
+<cb xml:id="P287rC1-1582S" n="1"/>
+<lb xml:id="P287rC1L1-1582S" n="1"/><div type="book" n="B04"><div n="B04K8" type="chapter"><ab n="B04K8V7"><gap reason="lacuna" unit="verse" extent="rest"/><w><supplied reason="inferredPage">αναμαρτη</supplied>τος</w><w>υμων</w><w>πρωτος</w><w>τον</w><w>λιθον</w><w>επ</w><w>αυτην</w><w>βαλετω</w>
+<lb xml:id="P287rC1L2-1582S" n="2"/></ab><ab n="B04K8V8"><w>και</w><w>παλιν</w><w>κατω</w><w>κυψας</w><w>εγραφεν</w><w>εις</w><w>την</w><w>γην</w>
+<lb xml:id="P287rC1L3-1582S" n="3"/></ab><ab n="B04K8V9"><w>οι</w><w>δε</w><w>ακουσαντες</w><w>και</w><w>υπο</w><w>της</w><w>συνειδησε<ex>ως</ex></w>
+<lb xml:id="P287rC1L4-1582S" n="4"/><w>ελεγχομενοι</w><w>εξηρχοντο</w><w>εις</w><w>καθ</w><w>εις</w><w>αρ
+<lb break="no" xml:id="P287rC1L5-1582S" n="5"/>ξαμενοι</w><w>απο</w><w>των</w><w>πρεσβυτερων</w><w>εως</w><w>των</w>
+<lb xml:id="P287rC1L6-1582S" n="6"/><w>εσχατων</w><w>και</w><w>κατελειφθη</w><w>μονος</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w>
+<lb xml:id="P287rC1L7-1582S" n="7"/><w>η</w><w>γυνη</w><w>εν</w><w>μεσω</w><w>ουσα</w></ab><ab n="B04K8V10"><w>ανακυψας</w><w>δε</w><w>ο</w>
+<lb xml:id="P287rC1L8-1582S" n="8"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>μηδενα</w><w>θεασαμενος</w><w>πλην</w><w>της</w><w>γυναι
+<lb break="no" xml:id="P287rC1L9-1582S" n="9"/>κος</w><w>ειπεν</w><w>αυτη</w><w>γυναι</w><w>που</w><w>εισιν</w><w>οι</w><w>κατη
+<lb break="no" xml:id="P287rC1L10-1582S" n="10"/>γοροι</w><w>σου</w><w>ουδεις</w><w>σε</w><w>κατεκρινεν</w></ab><ab n="B04K8V11"><w>η</w><w>δε</w>
+<lb xml:id="P287rC1L11-1582S" n="11"/><w>ειπεν</w><w>ουδεις</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>ειπε</w><w>δε</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ουδε</w><w>εγω</w>
+<lb xml:id="P287rC1L12-1582S" n="12"/><w>σω</w><w>κατακρινω</w><w>πορευου</w><w>και</w><w>απο</w><w>του</w><w>νυν</w>
+<lb xml:id="P287rC1L13-1582S" n="13"/><w>μηκετι</w><w>αμαρτανε</w><note type="local">8.12-22.0</note></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

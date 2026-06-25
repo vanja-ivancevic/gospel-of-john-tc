@@ -1,0 +1,591 @@
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL32"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in the Wolfenbüttel Lectionary Palimpsest</title>
+<title type="document" n="VL32">VL32</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Germany</country>
+<settlement>Wolfenbüttel</settlement>
+<repository>Herzog-August-Bibliothek</repository>
+<idno>Weissenburg 76</idno>
+<msName xml:lang="la">Lectionarium Gallicanum</msName>
+ <altIdentifier type="Vetus_Latina"><idno>32</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>9.1391, 1392</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Gw</idno></altIdentifier>
+ <altIdentifier type="WW"><idno>gue</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>Not included</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Lectiones biblicae</title>
+<title type="uniform" xml:lang="en">Biblical readings (palimpsest)</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p/></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>uncial</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>Clermont Ferrand?</origPlace>
+<origDate notBefore="50001" notAfter="55001">First half of sixth century</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>A. Dold, Das älteste Liturgiebuch der lateinischen Kirche. Ein altgallikanisches Lektionar des 5./6. Jhs aus dem Wolfenbütteler Palimpsest-Codex Weissenburgensis 76. (Texte und Arbeiten 26-28) Beuron 1936.</bibl></surrogates>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription only includes texts from John: some of these are complete lections, whereas others are individual verses extracted from readings composed of verses from all four Gospels. The pagination follows Dold's reconstruction of the quires of the primary text: the current pagination of the manuscript is provided in a note at the top of each page.The text was transcribed from Dold's edition. Text italicized by Dold has been tagged as reconstruction. Dold's punctuation and capitalisation have been reproduced exactly. Letters in smaller type (usually final 'm') have been treated as abbreviations.The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-06-10">Changes made in order to display properly with VLI.xsl transformation by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P6r-VL32" n="6r" type="folio"/><note type="header">F Q.c-6r</note><note type="editorial">Current folio 6r.</note>
+<cb n="P6rC1-VL32"/>
+<lb n="P6rC1L1-VL32"/>
+<lb n="P6rC1L2-VL32"/>
+<lb n="P6rC1L3-VL32"/>
+<lb n="P6rC1L4-VL32"/>
+<lb n="P6rC1L5-VL32"/>
+<lb n="P6rC1L6-VL32"/>
+<lb n="P6rC1L7-VL32"/>
+<lb n="P6rC1L8-VL32"/>
+<lb n="P6rC1L9-VL32"/>
+<lb n="P6rC1L10-VL32"/>
+<lb n="P6rC1L11-VL32"/>
+<lb n="P6rC1L12-VL32"/>
+<lb n="P6rC1L13-VL32"/>
+<lb n="P6rC1L14-VL32"/>
+<lb n="P6rC1L15-VL32"/>
+<lb n="P6rC1L16-VL32"/>
+<lb n="P6rC1L17-VL32"/>
+<lb n="P6rC1L18-VL32"/>
+<lb n="P6rC1L19-VL32"/>
+<lb n="P6rC1L20-VL32"/>
+<lb n="P6rC1L21-VL32"/>
+<lb n="P6rC1L22-VL32"/>
+<lb n="P6rC1L23-VL32"/><div n="04" type="book"><div n="B04K3" type="chapter"><ab n="B04K3V1"><note type="editorial">The first half of this page is a reading from Acts 13:41-48.</note><fw type="lectTitle"><w><supplied reason="unspecified">I</supplied>n</w><w>tem<supplied reason="unspecified">p</supplied>ore</w><w>ill<supplied reason="unspecified">o</supplied></w></fw><w>Era<supplied reason="unspecified">t</supplied></w><w>homo</w><w>ex</w><w>pharisaeis</w><w>nico
+<lb n="P6rC1L24-VL32" break="no"/>dem<supplied reason="unspecified">us</supplied></w><w>nom<supplied reason="unspecified">in</supplied>e</w><w>prin<supplied reason="unspecified">c</supplied>eps</w><w><supplied reason="unspecified">i</supplied>udaeo<supplied reason="unspecified">rum</supplied></w>
+<lb n="P6rC1L25-VL32"/></ab><ab n="B04K3V2"><w>Hic</w><w>uenit</w><w>a<supplied reason="unspecified">d</supplied></w><w>eum</w><w>no<supplied reason="unspecified">cte</supplied></w><w>et</w><w>dixit</w><w>e<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">rabbi</supplied></w><w>scim<supplied reason="unspecified">us</supplied></w>
+<lb n="P6rC1L26-VL32"/><w>quia</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>ueni<supplied reason="unspecified">sti</supplied></w><w>magist<supplied reason="unspecified">er</supplied></w><w>nemo</w><w>en<supplied reason="unspecified">im</supplied></w><w><supplied reason="unspecified">potest</supplied></w>
+<pb xml:id="P6v-VL32" n="6v" type="folio"/><note type="header">F Q.c-6v</note><note type="editorial">Current folio 6v.</note>
+<cb n="P6vC1-VL32"/>
+<lb n="P6vC1L1-VL32"/><w>haec</w><w>signa</w><w>facere</w><w>quae</w><w>tu</w><w>facis</w><w>ni<supplied reason="unspecified">si</supplied></w><w>fuerit</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>cu<ex>m</ex></w><note type="local">The m is printed in smaller type, so is presumably an abbreviation</note><w>eo</w>
+<lb n="P6vC1L2-VL32"/></ab><ab n="B04K3V3"><w><supplied reason="unspecified">Respon</supplied>dit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>dixit</w><w>ei</w><w>amen</w><w>amen</w><w>dico</w><w>tibi</w>
+<lb n="P6vC1L3-VL32"/><w>nisi</w><w>quis</w><w>natus</w><w>fuerit</w><w>denuo</w><w>non</w><w>potest</w><w>uidere</w><w>reg
+<lb n="P6vC1L4-VL32" break="no"/>num</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="B04K3V4"><w>Dicit</w><w>ad</w><w>eum</w><w>nichodemus</w><w>quomodo</w>
+<lb n="P6vC1L5-VL32"/><w>potest</w><w>homo</w><w>nasci</w><w>cum</w><w>sit</w><w>senex</w><w>numquid</w><w>potest</w>
+<lb n="P6vC1L6-VL32"/><w>in</w><w>uentrem</w><w>matris</w><w>suae</w><w>introire</w><w>iterato</w><w>et</w><w>renasci</w>
+<lb n="P6vC1L7-VL32"/></ab><ab n="B04K3V5"><w>Respondit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>amen</w><w>amen</w><w>dico</w><w>tibi</w><w>nisi</w><w>quis</w>
+<lb n="P6vC1L8-VL32"/><w>renatus</w><w>fuerit</w><w>ex</w><w>aqua</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">sco</hi></abbr></w><w>non</w><w>potest</w><w>intro
+<lb n="P6vC1L9-VL32" break="no"/>ire</w><w>in</w><w>regnum</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><pc>·</pc></ab><ab n="B04K3V6"><w>Quod</w><w>natum</w><w>est</w><w>ex</w><w>carne</w><w>caro</w><w>est</w>
+<lb n="P6vC1L10-VL32"/><w>et</w><w>quod</w><w>natum</w><w>est</w><w>ex</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>est</w><pc>·</pc></ab><ab n="B04K3V7"><w>Non</w><w>mireris</w><w>quia</w><w>dixi</w>
+<lb n="P6vC1L11-VL32"/><w>tibi</w><w>oportet</w><w>uos</w><w>nasci</w><w>denuo</w></ab><ab n="B04K3V8"><w><abbr type="nomSac"><hi rend="overline">Sps</hi></abbr></w><w>ubi</w><w>uult</w><w>spirat</w>
+<lb n="P6vC1L12-VL32"/><w>et</w><w>uocem</w><w>eius</w><w>audis</w><w>sed</w><w>non</w><w>unde</w><w>ueniat</w>
+<lb n="P6vC1L13-VL32"/><w>aut</w><w>quo</w><w>uadat</w><w>sic</w><w>est</w><w>omnis</w><w>qui</w><w>natus</w><w>est</w><w>ex</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P6vC1L14-VL32"/></ab><ab n="B04K3V9"><w>Respondit</w><w>nichodemus</w><w>et</w><w>dixit</w><w>ei</w><w>quomodo</w><w>pos
+<lb n="P6vC1L15-VL32" break="no"/>sunt</w><w>haec</w><w>fieri</w></ab><ab n="B04K3V10"><w>Respondit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>dixit</w><w>ei</w>
+<lb n="P6vC1L16-VL32"/><w>Tu</w><note type="local">the T is in bold</note><w>es</w><w><supplied reason="unspecified">m</supplied>agister</w><w>in</w><w>isr<supplied reason="unspecified">ah</supplied>el</w><w>ha<supplied reason="unspecified">e</supplied>c</w><w>ignoras</w></ab><ab n="B04K3V11"><w>Amen</w><w>amen</w>
+<lb n="P6vC1L17-VL32"/><w>dico</w><w>tibi</w><w>quia</w><w>quod</w><w>scimus</w><w>loquimur</w><w>et</w><w>quod</w>
+<lb n="P6vC1L18-VL32"/><w>uidimus</w><w>testamur</w><w>et</w><w>testimonium</w><w>nostru<ex>m</ex></w>
+<lb n="P6vC1L19-VL32"/><w>non</w><w>accipitis</w></ab><ab n="B04K3V12"><w>Si</w><w>terrena</w><w>dixi</w><w>uobis</w><w>et</w><w>non</w><w>credi
+<lb n="P6vC1L20-VL32" break="no"/>tis</w><w>quomodo</w><w>si</w><w>dixero</w><w>uobis</w><w>coelestia</w><w>credetis</w><pc>.</pc>
+<lb n="P6vC1L21-VL32"/></ab><ab n="B04K3V13"><w>Et</w><w>nemo</w><w>ascendit</w><w>in</w><w>caelum</w><w>nisi</w><w>qui</w><w>desce<supplied reason="unspecified">n</supplied>
+<lb n="P6vC1L22-VL32" break="no"/>dit</w><w>filius</w><w>hominis</w><w>qui</w><w>est</w><w>in</w><w>caelo</w></ab><ab n="B04K3V14"><w>Et</w><w>sicut</w><w>mois<supplied reason="unspecified">es</supplied></w>
+<lb n="P6vC1L23-VL32"/><w>exaltau<supplied reason="unspecified">i</supplied>t</w><w>se<supplied reason="unspecified">r</supplied>p<supplied reason="unspecified">e</supplied>ntem</w><w>in</w><w>dese<supplied reason="unspecified">r</supplied>to</w><w>ita</w><w>exaltari</w><w>opo<supplied reason="unspecified">r</supplied>
+<lb n="P6vC1L24-VL32" break="no"/><supplied reason="unspecified">tet</supplied></w><w><supplied reason="unspecified">fi</supplied>liu<supplied reason="unspecified">m</supplied></w><w>ho<supplied reason="unspecified">min</supplied>is</w></ab><ab n="B04K3V15"><w>Ut</w><w>omnis</w><w>qui</w><w>credit</w><w>in</w><w>ipso</w>
+<lb n="P6vC1L25-VL32"/><w>non</w><w><supplied reason="unspecified">pereat</supplied></w><w>sed</w><w>habeat</w><w>uitam</w><w>aete<supplied reason="unspecified">r</supplied>nam</w></ab><ab n="B04K3V16"><w>OM</w></ab><ab n="B04K3V17"><w>Non</w>
+<lb n="P6vC1L26-VL32"/><w>eni<ex>m</ex></w><w>misit</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w><supplied reason="unspecified">filium</supplied></w><w>in</w><w>mundum</w><w>ut</w><w>iudicet</w><w>mun
+<pb xml:id="P7r-VL32" n="7r" type="folio" break="no"/><note type="header">F Q.c-7r</note><note type="editorial">Current folio 42r.</note>
+<cb n="P7rC1-VL32"/>
+<lb n="P7rC1L1-VL32"/><supplied reason="unspecified">dum</supplied></w><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">saluetur</supplied></w><w><supplied reason="unspecified">mundus</supplied></w><w><supplied reason="unspecified">per</supplied></w><w><supplied reason="unspecified">ipsum</supplied></w></ab><ab n="B04K3V18"><w><supplied reason="unspecified">Qu</supplied>i</w><w>c<supplied reason="unspecified">r</supplied>edit</w><w>in</w><w>e<supplied reason="unspecified">u<ex>m</ex></supplied></w>
+<lb n="P7rC1L2-VL32"/><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">iudicatur</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">credit</supplied></w><w><supplied reason="unspecified">iam</supplied></w><w><supplied reason="unspecified">iudicatus</supplied></w>
+<lb n="P7rC1L3-VL32"/><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">credit</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">nomine</supplied></w><w>unigeniti</w><w>fil<supplied reason="unspecified">ii</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">di</hi></supplied></abbr></w>
+<lb n="P7rC1L4-VL32"/></ab><ab n="B04K3V19"><w><supplied reason="unspecified">Hoc</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">iudicium</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">lux</supplied></w><w><supplied reason="unspecified">uenit</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">mundum</supplied></w>
+<lb n="P7rC1L5-VL32"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">dilexerunt</supplied></w><w><supplied reason="unspecified">homines</supplied></w><w><supplied reason="unspecified">magis</supplied></w><w><supplied reason="unspecified">tenebras</supplied></w><w>qu<supplied reason="unspecified">am</supplied></w><w><supplied reason="unspecified">lucem</supplied></w>
+<lb n="P7rC1L6-VL32"/><w><supplied reason="unspecified">erant</supplied></w><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">eorum</supplied></w><w><supplied reason="unspecified">mala</supplied></w><w><supplied reason="unspecified">opera</supplied></w></ab><ab n="B04K3V20"><w>Omnis</w><w>enim</w><w><supplied reason="unspecified">qui</supplied></w>
+<lb n="P7rC1L7-VL32"/><w>m<supplied reason="unspecified">al</supplied>e</w><w>agit</w><w>odit</w><w>lu<supplied reason="unspecified">cem</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>non</w><w>uenit</w><w>ad</w><w>luc<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P7rC1L8-VL32"/><w><supplied reason="unspecified">arguan</supplied>tur</w><w><supplied reason="unspecified">o</supplied>pe<supplied reason="unspecified">r</supplied>a</w><w>eiu<supplied reason="unspecified">s</supplied></w></ab><ab n="B04K3V21"><w>Qui</w><w>autem</w><w>facit</w><w>ue<supplied reason="unspecified">ritatem</supplied></w>
+<lb n="P7rC1L9-VL32"/><w><supplied reason="unspecified">uenit</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">lucem</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">manifestentur</supplied></w><w><supplied reason="unspecified">opera</supplied></w><w><supplied reason="unspecified">eiu</supplied>s</w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P7rC1L10-VL32"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">do</hi></supplied></abbr></w><w><supplied reason="unspecified">sun</supplied>t</w><w><supplied reason="unspecified">facta</supplied></w><note type="editorial">There is a gap of 10 lines before the text resumes part way through a lection from Isaiah.</note>
+<pb xml:id="P1r-VL32" n="1r" type="folio"/><note type="header">F Q.d-1r</note><note type="editorial">Current folio 85v.</note>
+<cb n="P1rC1-VL32"/>
+<lb n="P1rC1L1-VL32"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V19"><note type="editorial">The first part of the page is the conclusion of a lection from Acts 4.</note><fw type="lectTitle"><w>Lectio</w><w>euangelii</w><w>secundum</w><w>iohannem</w></fw>
+<lb n="P1rC1L2-VL32"/><fw type="lectTitle"><w>In</w><w>tempore</w><w>illo</w><w>post</w><w>resurrectionem</w></fw><w>una</w><w>sab<supplied reason="unspecified">b</supplied>a
+<lb n="P1rC1L3-VL32" break="no"/>tor<supplied reason="unspecified">u</supplied>m</w><w>cum</w><w>essent</w><w>fores</w><w>clausae</w><pc>·</pc><w>ubi</w><w>erant</w>
+<lb n="P1rC1L4-VL32"/><w>discepuli</w><w>propter</w><w>metum</w><w>iudaeorum</w>
+<lb n="P1rC1L5-VL32"/><w>Uenit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>stetit</w><w>in</w><w>medio</w><pc>·</pc><w>et</w><w>dicit</w><w>eis</w><pc>·</pc><w>pax</w><w>uobis</w>
+<lb n="P1rC1L6-VL32"/></ab><ab n="B04K20V20"><w>Et</w><w>hoc</w><w>cum</w><w>dixisset</w><pc>·</pc><w>ostendit</w><w>eis</w><w>manus</w><w>et</w><w>latus</w>
+<lb n="P1rC1L7-VL32"/><w>Gauisi</w><w>sunt</w><w>ergo</w><w>discipuli</w><w>uiso</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><pc>·</pc></ab><ab n="B04K20V21"><w>Dicit</w><w>ergo</w><w>eis</w>
+<lb n="P1rC1L8-VL32"/><w>iterum</w><w>pax</w><w>uobis</w><w>sicut</w><w>misit</w><w>me</w><w>pater</w><w>et</w><w>ego</w>
+<lb n="P1rC1L9-VL32"/><w>mitto</w><w>uos</w></ab><ab n="B04K20V22"><w>Hoc</w><w>cum</w><w>dixisset</w><w>insufflauit</w><w>et</w><w>di
+<lb n="P1rC1L10-VL32" break="no"/>xit</w><w>eis</w><w>accipite</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">scm</hi></abbr></w></ab><ab n="B04K20V23"><w>Quorum</w><w>remiseritis</w>
+<lb n="P1rC1L11-VL32"/><w><supplied reason="unspecified">pecca</supplied>ta</w><w>remittuntur</w><w>eis</w><pc>·</pc><w>quorum</w><w>retinueritis</w>
+<lb n="P1rC1L12-VL32"/><w>retenta</w><w>sunt</w><pc>·</pc></ab><ab n="B04K20V24"><w>Th<supplied reason="unspecified">o</supplied>mas</w><w>autem</w><w>unus</w><w>ex</w><w>duo
+<lb n="P1rC1L13-VL32" break="no"/>decim</w><w>qui</w><w>dicitur</w><w>dydimus</w><w>non</w><w>erat</w><w>cum</w><w>eis</w>
+<lb n="P1rC1L14-VL32"/><w>quando</w><w>uenit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w></ab><ab n="B04K20V25"><w>Dixerunt</w><w>ergo</w><w>ei</w><w>alii</w><w>disci
+<lb n="P1rC1L15-VL32" break="no"/>pul<supplied reason="unspecified">i</supplied></w><w>uidimus</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><w>ille</w><w>autem</w><w>dixit</w><w>eis</w>
+<lb n="P1rC1L16-VL32"/><w>Nisi</w><w>uidero</w><w>in</w><w>manibus</w><w>eius</w><w>fixuram</w><w>clauoru<ex>m</ex></w>
+<lb n="P1rC1L17-VL32"/><w>et</w><w>mittam</w><w><supplied reason="unspecified">di</supplied>gitum</w><w>meum</w><w>in</w><w>locum</w><w>clauorum</w>
+<lb n="P1rC1L18-VL32"/><w>et</w><w>mittam</w><w>manum</w><w>mea<supplied reason="unspecified">m</supplied></w><w>in</w><w>latus</w><w>eius</w><w>non</w><w>creda<ex>m</ex></w>
+<lb n="P1rC1L19-VL32"/></ab><ab n="B04K20V26"><w>Et</w><w>p<supplied reason="unspecified">o</supplied>s<supplied reason="unspecified">t</supplied></w><w>dies</w><w>octo</w><w>iterum</w><w>erant</w><w>discipuli</w><w>eius</w>
+<lb n="P1rC1L20-VL32"/><w>e<supplied reason="unspecified">t</supplied></w><w>thomas</w><w>cu<supplied reason="unspecified">m</supplied></w><w>eis</w><w><supplied reason="unspecified">uenit</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">dns</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">ianuis</supplied></w><w>clausis</w>
+<pb xml:id="P1v-VL32" n="1v" type="folio"/><note type="header">F Q.d-1v</note><note type="editorial">Current folio 85r.</note>
+<cb n="P1vC1-VL32"/>
+<lb n="P1vC1L1-VL32"/><w>et</w><w>stetit</w><w>in</w><w>medio</w><w>et</w><w>dixit</w><pc>·</pc><w>pax</w><w>uobi<ex>s</ex></w>
+<lb n="P1vC1L2-VL32"/></ab><ab n="B04K20V27"><w>Deinde</w><w>dicit</w><w>thomae</w><w>infres</w><w>digitum</w><w>tuum</w><w>huc</w>
+<lb n="P1vC1L3-VL32"/><w>et</w><w>uide</w><w>manus</w><w>meas</w><pc>·</pc><w>et</w><w>affer</w><w>manum</w><w>tuam</w><w>et</w><w>mit
+<lb n="P1vC1L4-VL32" break="no"/>te</w><w>in</w><w>latus</w><w>meum</w><w>Et</w><w>noli</w><w>esse</w><w>incredulus</w><w>sed</w><w>fede
+<lb n="P1vC1L5-VL32" break="no"/>lis</w><pc>·</pc></ab><ab n="B04K20V28"><w>Respondit</w><w>thomas</w><w>et</w><w>dixit</w><w>ei</w><pc>·</pc><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>meus</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w>
+<lb n="P1vC1L6-VL32"/><w>meus</w><pc>·</pc></ab><ab n="B04K20V29"><w>Dicit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Quia</w><w>uidisti</w><w>me</w><w>credidisti</w>
+<lb n="P1vC1L7-VL32"/><w>Beati</w><w>qui</w><w>non</w><w>uiderunt</w><w>et</w><w>crediderunt</w><pc>·</pc></ab><ab n="B04K20V30"><w>Multa</w>
+<lb n="P1vC1L8-VL32"/><w>quidem</w><w>et</w><w>alia</w><w>signa</w><w>fecit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>conspectu</w><w>dis
+<lb n="P1vC1L9-VL32" break="no"/>cipulorum</w><w>suorum</w><w>quae</w><w>non</w><w>sunt</w><w>scribta</w><w>in</w><w>li
+<lb n="P1vC1L10-VL32" break="no"/>bro</w><w>hoc</w></ab><ab n="B04K20V31"><w>Haec</w><w>autem</w><w>scribta</w><w>sunt</w><w>ut</w><w>credatis</w>
+<lb n="P1vC1L11-VL32"/><w>quia</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>est</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>filius</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>ut</w><w>credentes</w><w>uitam</w><w>ha
+<lb n="P1vC1L12-VL32" break="no"/>beatis</w><w>in</w><w>nomine</w><w>eius</w><note type="editorial">After a gap of 2 lines, there is a lection from James 1:2-7.</note>
+<pb xml:id="P1ar-VL32" n="1ar" type="folio"/><note type="header">F Q.h-1r</note><note type="editorial">Current folio 13r.</note>
+<cb n="P1arC1-VL32"/>
+<lb n="P1arC1L1-VL32"/></ab></div><div n="B04K14" type="chapter"><ab n="B04K14V13"><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">quodcumque</supplied></w><w><supplied reason="unspecified">petieritis</supplied></w><w><supplied reason="unspecified">pat</supplied>r<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">nom</supplied>in<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">meo</supplied></w>
+<lb n="P1arC1L2-VL32"/><w><supplied reason="unspecified">h</supplied>o<supplied reason="unspecified">c</supplied></w><w><supplied reason="unspecified">faciam</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">glorificetur</supplied></w><w><supplied reason="unspecified">pater</supplied></w><w>in</w><w><supplied reason="unspecified">filio</supplied></w></ab><ab n="B04K14V14"><w><supplied reason="unspecified">Si</supplied></w><w><supplied reason="unspecified">quid</supplied></w><w><supplied reason="unspecified">petie</supplied>
+<lb n="P1arC1L3-VL32" break="no"/>ritis</w><w>in</w><w>n<supplied reason="unspecified">omine</supplied></w><w><supplied reason="unspecified">meo</supplied></w><w>ego</w><w><supplied reason="unspecified">faciam</supplied></w></ab><ab n="B04K14V15"><w><supplied reason="unspecified">Si</supplied></w><w><supplied reason="unspecified">diligitis</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">man</supplied>
+<lb n="P1arC1L4-VL32" break="no"/><supplied reason="unspecified">data</supplied></w><w><supplied reason="unspecified">mea</supplied></w><w><supplied reason="unspecified">seruate</supplied></w></ab><ab n="B04K14V16"><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w>ro<supplied reason="unspecified">gabo</supplied></w><w><supplied reason="unspecified">pa</supplied>tre<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">alium</supplied></w><w><supplied reason="unspecified">pa</supplied>
+<lb n="P1arC1L5-VL32" break="no"/>r<supplied reason="unspecified">aclitum</supplied></w><w><supplied reason="unspecified">dabit</supplied></w><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">maneat</supplied></w><w><supplied reason="unspecified">uobiscum</supplied></w>
+<lb n="P1arC1L6-VL32"/><w>in</w><w><supplied reason="unspecified">aeternum</supplied></w></ab><ab n="B04K14V17"><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">Spm</hi></supplied></abbr></w><w><supplied reason="unspecified">ueritatis</supplied></w><w><supplied reason="unspecified">quem</supplied></w><w><supplied reason="unspecified">mundus</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">po</supplied>
+<lb n="P1arC1L7-VL32" break="no"/><supplied reason="unspecified">test</supplied></w><w>ac<supplied reason="unspecified">ci</supplied>p<supplied reason="unspecified">ere</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">uidet</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">nec</supplied></w><w><supplied reason="unspecified">scit</supplied></w><w><supplied reason="unspecified">eum</supplied></w>
+<lb n="P1arC1L8-VL32"/><w><supplied reason="unspecified">U</supplied>os</w><w>au<supplied reason="unspecified">tem</supplied></w><w>sci<supplied reason="unspecified">tis</supplied></w><w>eu<supplied reason="unspecified">m</supplied></w><w>quia</w><w><supplied reason="unspecified">apud</supplied></w><w>uos</w><w>manet</w><w>et</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">uobis</supplied></w>
+<lb n="P1arC1L9-VL32"/><w><supplied reason="unspecified">erit</supplied></w></ab><ab n="B04K14V18"><w>N<supplied reason="unspecified">on</supplied></w><w><supplied reason="unspecified">r</supplied>elin<supplied reason="unspecified">quam</supplied></w><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">orfanos</supplied></w><w>uen<supplied reason="unspecified">ia<ex>m</ex></supplied></w><w>ad</w><w><supplied reason="unspecified">uos</supplied></w>
+<lb n="P1arC1L10-VL32"/></ab><ab n="B04K14V19"><w><supplied reason="unspecified">A</supplied>dhuc</w><w>modi<supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">mun</supplied>du<supplied reason="unspecified">s</supplied></w><w>me</w><w>ia<supplied reason="unspecified">m</supplied></w><w>non</w><w><supplied reason="unspecified">u</supplied>i<supplied reason="unspecified">det</supplied></w>
+<lb n="P1arC1L11-VL32"/><w><supplied reason="unspecified">uo</supplied>s</w><w>au<supplied reason="unspecified">tem</supplied></w><w>uideb<supplied reason="unspecified">itis</supplied></w><w><supplied reason="unspecified">me</supplied></w><w>q<supplied reason="unspecified">ui</supplied>a</w><w>ego</w><w>u<supplied reason="unspecified">iuo</supplied></w><w>et</w><w>uos</w><w><supplied reason="unspecified">uiuetis</supplied></w><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K14V20">
+<lb n="P1arC1L12-VL32"/>
+<lb n="P1arC1L13-VL32"/>
+<lb n="P1arC1L14-VL32"/>
+<lb n="P1arC1L15-VL32"/>
+<lb n="P1arC1L16-VL32"/><gap reason="lacuna" unit="char" extent="unknown"/><w>e</w><gap reason="lacuna" unit="char" extent="unknown"/><w>s</w>
+<lb n="P1arC1L17-VL32"/><gap reason="lacuna" unit="char" extent="unknown"/><w>re</w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P1arC1L18-VL32"/>
+<lb n="P1arC1L19-VL32"/>
+<lb n="P1arC1L20-VL32"/>
+<lb n="P1arC1L21-VL32"/>
+<lb n="P1arC1L22-VL32"/>
+<lb n="P1arC1L23-VL32"/>
+<lb n="P1arC1L24-VL32"/>
+<lb n="P1arC1L25-VL32"/><gap reason="lacuna" unit="char" extent="unknown"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V26"><w><supplied reason="unspecified">Cum</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">uenerit</supplied></w><w><supplied reason="unspecified">paracli</supplied>
+<lb n="P1arC1L26-VL32" break="no"/>
+<lb n="P1arC1L27-VL32" break="no"/><supplied reason="unspecified">tus</supplied></w><w>que<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">mittam</supplied></w><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">patre</supplied></w><w><abbr type="nomSac"><hi rend="overline">sp</hi><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w><w><supplied reason="unspecified">ueri</supplied>
+<lb n="P1arC1L28-VL32" break="no"/><supplied reason="unspecified">tatis</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">a</supplied></w><w>pat<supplied reason="unspecified">re</supplied></w><w><supplied reason="unspecified">procedit</supplied></w><w><supplied reason="unspecified">testimonium</supplied></w><w><supplied reason="unspecified">perhibe</supplied>
+<lb n="P1arC1L29-VL32" break="no"/><supplied reason="unspecified">bit</supplied></w><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">me</supplied></w></ab><ab n="B04K15V27"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">uos</supplied></w><w>tes<supplied reason="unspecified">timonium</supplied></w><w><supplied reason="unspecified">perhibebitis</supplied></w>
+<pb xml:id="P1av-VL32" n="1av" type="folio"/><note type="header">F Q.h-1v</note><note type="editorial">Current folio 13v.</note>
+<cb n="P1avC1-VL32"/>
+<lb n="P1avC1L1-VL32"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V4"><w><supplied reason="unspecified">Haec</supplied></w><w>aut<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">uob</supplied>is</w><w>ab</w><w>ini<supplied reason="unspecified">tio</supplied></w><w><supplied reason="unspecified">n</supplied>on</w><w>di<supplied reason="unspecified">xi</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">uobiscum</supplied></w>
+<lb n="P1avC1L2-VL32"/><w><supplied reason="unspecified">eram</supplied></w></ab><ab n="B04K16V5"><w><supplied reason="unspecified">at</supplied></w><w><supplied reason="unspecified">nunc</supplied></w><w><supplied reason="unspecified">ua</supplied>do</w><w><supplied reason="unspecified">ad</supplied></w><w>eum</w><w>qui</w><w>me</w><w>misit</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">nemo</supplied></w><w><supplied reason="unspecified">ex</supplied></w><w><supplied reason="unspecified">uobis</supplied></w>
+<lb n="P1avC1L3-VL32"/><w><supplied reason="unspecified">interrog</supplied>at</w><w>me</w><w>quo</w><w>uadis</w><space unit="char" extent="3"/></ab><ab n="B04K16V6"><w>Sed</w><w>qu<supplied reason="unspecified">ia</supplied></w><w><supplied reason="unspecified">haec</supplied></w><w><supplied reason="unspecified">locutus</supplied></w><w><supplied reason="unspecified">sum</supplied></w>
+<lb n="P1avC1L4-VL32"/><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">tristitia</supplied></w><w>imple<supplied reason="unspecified">u</supplied>i<supplied reason="unspecified">t</supplied></w><w>c<supplied reason="unspecified">o</supplied>r</w><w>uestrum</w></ab><ab n="B04K16V7"><w><supplied reason="unspecified">Sed</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">ueritatem</supplied></w>
+<lb n="P1avC1L5-VL32"/><w><supplied reason="unspecified">dico</supplied></w><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">expedit</supplied></w><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">uadam</supplied></w><w><supplied reason="unspecified">si</supplied></w><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P1avC1L6-VL32"/><w><supplied reason="unspecified">abiero</supplied></w><w><supplied reason="unspecified">paracletus</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">ueniet</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">si</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">abiero</supplied></w>
+<lb n="P1avC1L7-VL32"/><w><supplied reason="unspecified">mittam</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">uos</supplied></w></ab><ab n="B04K16V8"><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">a</supplied>dueneri<supplied reason="unspecified">t</supplied></w><w>ille</w><w><supplied reason="unspecified">arguet</supplied></w>
+<lb n="P1avC1L8-VL32"/><w><supplied reason="unspecified">mundum</supplied></w><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">pecc</supplied>ato</w><w>et</w><w>de</w><w>iust<supplied reason="unspecified">itia</supplied></w><w>et</w><w>de</w><w>iudicio</w></ab><ab n="B04K16V9"><w>De</w><w>pecca<supplied reason="unspecified">to</supplied></w>
+<lb n="P1avC1L9-VL32"/><w><supplied reason="unspecified">quidem</supplied></w><w><supplied reason="unspecified">q</supplied>uia</w><w>non</w><w>credider<supplied reason="unspecified">un</supplied>t</w><w>i<supplied reason="unspecified">n</supplied></w><w><supplied reason="unspecified">me</supplied></w></ab><ab n="B04K16V10"><w>De</w><w>iustit<supplied reason="unspecified">ia</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P1avC1L10-VL32"/>
+<lb n="P1avC1L11-VL32"/>
+<lb n="P1avC1L12-VL32"/>
+<lb n="P1avC1L13-VL32"/>
+<lb n="P1avC1L14-VL32"/></ab><ab n="B04K16V13"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">Non</supplied></w>
+<lb n="P1avC1L15-VL32"/><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">loquetur</supplied></w><w>a</w><w>semet</w><w>i<supplied reason="unspecified">p</supplied>so</w><space unit="char" extent="2"/><w>Sed</w><w>quecumqu<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">audiet</supplied></w>
+<lb n="P1avC1L16-VL32"/><w><supplied reason="unspecified">loquetur</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">quae</supplied></w><w><supplied reason="unspecified">uentura</supplied></w><w><supplied reason="unspecified">sun</supplied>t</w><w>adnuntiauit</w><w><supplied reason="unspecified">uobis</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P1avC1L17-VL32"/>
+<lb n="P1avC1L18-VL32"/>
+<lb n="P1avC1L19-VL32"/>
+<lb n="P1avC1L20-VL32"/>
+<lb n="P1avC1L21-VL32"/>
+<lb n="P1avC1L22-VL32"/>
+<lb n="P1avC1L23-VL32"/></ab><ab n="B04K16V17"><gap reason="lacuna" unit="char" extent="unknown"/><w>modicum</w><w>et</w><w>non</w><w>uide<supplied reason="unspecified">bi</supplied>tis</w><w><supplied reason="unspecified">me</supplied></w>
+<lb n="P1avC1L24-VL32"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">iterum</supplied></w><w><supplied reason="unspecified">modicum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">uidebitis</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">uado</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">patrem</supplied></w>
+<lb n="P1avC1L25-VL32"/></ab><ab n="B04K16V18"><w><supplied reason="unspecified">Dicebant</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">quid</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">hoc</supplied></w><w>quod</w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">modicum</supplied></w><w><supplied reason="unspecified">nesci</supplied>
+<lb n="P1avC1L26-VL32" break="no"/><supplied reason="unspecified">mus</supplied></w><w><supplied reason="unspecified">quid</supplied></w><w><supplied reason="unspecified">loquitur</supplied></w></ab><ab n="B04K16V19"><w>Et</w><w>cognouit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>qui<supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">uolebant</supplied></w>
+<lb n="P1avC1L27-VL32"/><w><supplied reason="unspecified">e</supplied>um</w><w>int<supplied reason="unspecified">e</supplied>rrogar<supplied reason="unspecified">e</supplied></w><space unit="char" extent="2"/><w>Et</w><w>dixit</w><w>eis</w><w>de</w><w>hoc</w><w>quaeretis</w><w>inter</w>
+<lb n="P1avC1L28-VL32"/><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">q</supplied>uia</w><w><supplied reason="unspecified">dixi</supplied></w><w><supplied reason="unspecified">m</supplied>od<supplied reason="unspecified">i</supplied>cum</w><w>et</w><w>non</w><w>uidebitis</w><w>me</w><gap reason="lacuna" unit="line" extent="unknown"/><note type="editorial">The lection on the next page, fol 19v, is insufficiently legible to be identified.</note>
+<pb xml:id="P4r-VL32" n="4r" type="folio"/><note type="header">F Q.h-4r</note><note type="editorial">Current folio 57v.</note>
+<cb n="P4rC1-VL32"/>
+<lb n="P4rC1L1-VL32"/></ab></div><div n="B04K12" type="chapter"><ab n="B04K12V13"><note type="editorial">This page consists of a lection mixed from all four gospels. Only the Johannine lections have been transcribed.</note><w>Exierunt</w><w>ei</w><w>obuiam</w><w>dicentes</w>
+<lb n="P4rC1L2-VL32"/></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V22"><w>Facta</w><w>est</w><w>dedicatio</w>
+<lb n="P4rC1L3-VL32"/></ab></div><div n="B04K2" type="chapter"><ab n="B04K2V15"><w><supplied reason="unspecified">Et</supplied></w>
+<lb n="P4rC1L4-VL32"/><w><supplied reason="unspecified">cum</supplied></w><w>fecis<supplied reason="unspecified">set</supplied></w><w><supplied reason="unspecified">q</supplied>uasi</w><w><supplied reason="unspecified">fla</supplied>gell<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">d</supplied>e</w><w><supplied reason="unspecified">funiculis</supplied></w><w><supplied reason="unspecified">omnes</supplied></w>
+<lb n="P4rC1L5-VL32"/><w><supplied reason="unspecified">eie</supplied>ci<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">templo</supplied></w><space unit="char" extent="2"/><w>Oues</w><w>qu<supplied reason="unspecified">o</supplied>q<supplied reason="unspecified">ue</supplied></w><w>et</w><w>b<supplied reason="unspecified">oues</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">nummula</supplied>
+<lb n="P4rC1L6-VL32" break="no"/><supplied reason="unspecified">riorum</supplied></w><w>effudit</w><w><supplied reason="unspecified">aes</supplied></w><w>et</w><w><supplied reason="unspecified">mensas</supplied></w><w><supplied reason="unspecified">subuertit</supplied></w>
+<lb n="P4rC1L7-VL32"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P4rC1L8-VL32"/></ab><ab n="B04K2V16"><w>Et</w><w>uin<supplied reason="unspecified">den</supplied>tib<supplied reason="unspecified">us</supplied></w><w>columba<supplied reason="unspecified">s</supplied></w><w>dixit</w><space unit="char" extent="2"/><w>Au<supplied reason="unspecified">ferte</supplied></w><w>is<supplied reason="unspecified">ta</supplied></w><w>h<supplied reason="unspecified">i</supplied>n<supplied reason="unspecified">c</supplied></w>
+<lb n="P4rC1L9-VL32"/><w>et</w><w>no<supplied reason="unspecified">lite</supplied></w><w>f<supplied reason="unspecified">a</supplied>ce<supplied reason="unspecified">re</supplied></w><w>dom<supplied reason="unspecified">um</supplied></w><w>pa<supplied reason="unspecified">tris</supplied></w><w>m<supplied reason="unspecified">ei</supplied></w><w>dom<supplied reason="unspecified">um</supplied></w><w>ne<supplied reason="unspecified">gotia</supplied>
+<lb n="P4rC1L10-VL32" break="no"/>tionis</w><note type="editorial">There is no more John on this page.</note>
+<pb xml:id="P10r-VL32" n="10r" type="folio"/><note type="header">F Q.h-10r</note><note type="editorial">Current folio 9r.</note>
+<cb n="P10rC1-VL32"/>
+<lb n="P10rC1L1-VL32"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V10"><note type="editorial">The first lection on this page is from Matt 20:14-16 and Matt 15:29-35. The Johannine material begins without a new introduction.</note><gap reason="lacuna" unit="char" extent="unknown"/><w>Erat</w><w>autem</w><w>faenum</w><w>multum</w><w>in</w><w><supplied reason="unspecified">loc</supplied>o</w><w><supplied reason="unspecified">discubue</supplied>
+<lb n="P10rC1L2-VL32" break="no"/>runt</w><w>ergo</w><w>uiri</w><w>numero</w><w>quasi</w><w>quinque</w><w>milia</w>
+<lb n="P10rC1L3-VL32"/></ab><ab n="B04K6V11"><w>Accepit</w><w>e<supplied reason="unspecified">r</supplied>go</w><w>panes</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Et</w><w>cum</w><w>gratias</w><w>e<supplied reason="unspecified">gi</supplied>sset</w>
+<lb n="P10rC1L4-VL32"/><w>distribuit</w><w>discumbent<supplied reason="unspecified">ib</supplied>us</w><w>s<supplied reason="unspecified">imiliter</supplied></w><w>et</w><w>e<supplied reason="unspecified">x</supplied></w><w>piscibus</w>
+<lb n="P10rC1L5-VL32"/><w>quantum</w><w>uolebant</w><space unit="char" extent="2"/></ab><ab n="B04K6V12"><w>Ut</w><w>autem</w><w>impleti</w><w>s<supplied reason="unspecified">u</supplied>nt</w>
+<lb n="P10rC1L6-VL32"/><w>dixit</w><w>discipulis</w><w>suis</w><w>colligite</w><w>fragmenta</w><w>quae</w><w>s<supplied reason="unspecified">u</supplied>
+<lb n="P10rC1L7-VL32" break="no"/>perauerunt</w><w>ne</w><w>pereant</w><pc>·</pc></ab><ab n="B04K6V13"><w>Collegerunt</w><w>ergo</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">imple</supplied>
+<lb n="P10rC1L8-VL32" break="no"/>uerunt</w><w>d<supplied reason="unspecified">u</supplied>o<supplied reason="unspecified">decim</supplied></w><w>cofinos</w><w>fragmento<supplied reason="unspecified">rum</supplied></w><note type="header">F Q.h-10v</note><note type="editorial">Current folio 9v.</note>
+<lb n="P10rC1L9-VL32"/><w>ex</w><w><supplied reason="unspecified">quinque</supplied></w><w><supplied reason="unspecified">panibus</supplied></w><w><supplied reason="unspecified">hordiaciis</supplied></w><w><supplied reason="unspecified">quae</supplied></w><w><supplied reason="unspecified">superfuerunt</supplied></w><w><supplied reason="unspecified">h</supplied>is</w><w>qui</w><w>ma<supplied reason="unspecified">n</supplied>
+<lb n="P10rC1L10-VL32" break="no"/><supplied reason="unspecified">ducauerant</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P10rC1L11-VL32"/><w>quinque</w><w>m<supplied reason="unspecified">ilia</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">ma</supplied>n<supplied reason="unspecified">ducauer</supplied>a<supplied reason="unspecified">nt</supplied></w><note type="editorial">A lection from Matthew 18:23-34 begins on the next line.</note><note type="header">FQ.i-7r</note><note type="editorial">Current folio 10r.</note>
+<lb n="P10rC1L12-VL32"/>
+<lb n="P10rC1L13-VL32"/>
+<lb n="P10rC1L14-VL32"/>
+<lb n="P10rC1L15-VL32"/>
+<lb n="P10rC1L16-VL32"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V18"><note type="editorial">The first four lines of this page consist of a reading from Luke 22:31-33, which leads into the Johannine verses without a break.</note><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">A</supplied>men</w><w><supplied reason="unspecified">amen</supplied></w>
+<lb n="P10rC1L17-VL32"/><w>dico</w><w>ti<supplied reason="unspecified">b</supplied>i</w><w>cum</w><w>e<supplied reason="unspecified">sses</supplied></w><w>iu<supplied reason="unspecified">nior</supplied></w><w><supplied reason="unspecified">cingebas</supplied></w><w><supplied reason="unspecified">te</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ambulabas</supplied></w><w>ubi</w><w>u<supplied reason="unspecified">o</supplied>
+<lb n="P10rC1L18-VL32" break="no"/>lebas</w><w>Cum</w><w>autem</w><w><supplied reason="unspecified">s</supplied>enue<supplied reason="unspecified">ris</supplied></w><w>e<supplied reason="unspecified">xtendes</supplied></w><w><supplied reason="unspecified">m</supplied>an<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">tuas</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">alius</supplied></w>
+<lb n="P10rC1L19-VL32"/><w>te</w><w>cingit</w><w>et</w><w>ducit</w><w>quo</w><w><supplied reason="unspecified">tu</supplied></w><w><supplied reason="unspecified">non</supplied></w><w>uis</w></ab><ab n="B04K21V19"><w>Ho<supplied reason="unspecified">c</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">signifi</supplied>
+<lb n="P10rC1L20-VL32" break="no"/>cans</w><w>qua</w><w>morte</w><w>cl<supplied reason="unspecified">arificaturus</supplied></w><w>ess<supplied reason="unspecified">et</supplied></w><w><abbr type="nomSac"><hi rend="overline">d</hi><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">hoc</supplied></w><w><supplied reason="unspecified">di</supplied>
+<lb n="P10rC1L21-VL32" break="no"/>xisset</w><w>dicit</w><w>ei</w><w>sequere</w><w>me</w><pc>·</pc><note type="editorial">The lection continues with Luke 21:12-17.</note>
+<pb xml:id="P2r-VL32" n="2r" type="folio"/><note type="header">F Q.l-2r</note><note type="editorial">Current folio 93v.</note>
+<cb n="P2rC1-VL32"/>
+<lb n="P2rC1L1-VL32"/>
+<lb n="P2rC1L2-VL32"/>
+<lb n="P2rC1L3-VL32"/>
+<lb n="P2rC1L4-VL32"/>
+<lb n="P2rC1L5-VL32"/></ab></div><div n="B04K2" type="chapter"><ab n="B04K2V1"><note type="editorial">The first four lines of this page consist of a lection from Mt 3:16-17, which leads into the Johannine verses without a break.</note><gap reason="lacuna" unit="char" extent="unknown"/><w>Diae</w><w>p<supplied reason="unspecified">os</supplied>t</w><w>haec</w><w><supplied reason="unspecified">enim</supplied></w><w>tertia</w>
+<lb n="P2rC1L6-VL32"/><w>Nuptiae</w><w>fact<supplied reason="unspecified">a</supplied>e</w><w>sunt</w><w>in</w><w>ch<supplied reason="unspecified">a</supplied>na</w><w>gallil<supplied reason="unspecified">eae</supplied></w><w>et</w><w>erat</w><w>mater</w>
+<lb n="P2rC1L7-VL32"/><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>ibi</w><space unit="char" extent="2"/></ab><ab n="B04K2V2"><w>Uoc<supplied reason="unspecified">a</supplied>tus</w><w>e<supplied reason="unspecified">st</supplied></w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w><supplied reason="unspecified">et</supplied></w><w>discip<supplied reason="unspecified">uli</supplied></w><w>eius</w>
+<lb n="P2rC1L8-VL32"/><w>ad</w><w>nuptias</w><space unit="char" extent="3"/></ab><ab n="B04K2V3"><w>Et</w><w>deficiente</w><w>uino</w><w>dicit</w><w>mater</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w>
+<lb n="P2rC1L9-VL32"/><w>ad</w><w>eum</w><pc>·</pc><w>uinum</w><w>non</w><w>haben<supplied reason="unspecified">t</supplied></w><space unit="char" extent="3"/></ab><ab n="B04K2V4"><w>Et</w><w>d<supplied reason="unspecified">icit</supplied></w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w>
+<lb n="P2rC1L10-VL32"/><w>Quid</w><w>mihi</w><w>et</w><w>tibi</w><w>est</w><w>mul<supplied reason="unspecified">ier</supplied></w><w>n<supplied reason="unspecified">on</supplied>d<supplied reason="unspecified">um</supplied></w><w>uen<supplied reason="unspecified">it</supplied></w><w>enim</w><w>hor<supplied reason="unspecified">a</supplied></w>
+<lb n="P2rC1L11-VL32"/><w>mea</w><space unit="char" extent="4"/></ab><ab n="B04K2V5"><w>Dicit</w><w>mat<supplied reason="unspecified">er</supplied></w><w>eius</w><w>min<supplied reason="unspecified">istris</supplied></w><w>q<supplied reason="unspecified">uo</supplied>d<supplied reason="unspecified">cum</supplied>que</w>
+<lb n="P2rC1L12-VL32"/><w>dixerit</w><w>uob<supplied reason="unspecified">is</supplied></w><w>facite</w></ab><ab n="B04K2V6"><w>E<supplied reason="unspecified">ra</supplied>nt</w><w><supplied reason="unspecified">autem</supplied></w><w>ibi</w><w>lapi<supplied reason="unspecified">de</supplied>ae</w><w>hydriae</w>
+<lb n="P2rC1L13-VL32"/><w>se<supplied reason="unspecified">x</supplied></w><w><supplied reason="unspecified">positae</supplied></w><w><supplied reason="unspecified">secundum</supplied></w><w><supplied reason="unspecified">purificationem</supplied></w><w><supplied reason="unspecified">iudaeorum</supplied></w>
+<lb n="P2rC1L14-VL32"/><w>capientes</w><w>sing<supplied reason="unspecified">ulae</supplied></w><w>metret<supplied reason="unspecified">as</supplied></w><w>bin<supplied reason="unspecified">as</supplied></w><w>uel</w><w>tern<supplied reason="unspecified">as</supplied></w><space unit="char" extent="2"/></ab><ab n="B04K2V7"><w>Dicet</w>
+<lb n="P2rC1L15-VL32"/><w>eis</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>Impl<supplied reason="unspecified">ete</supplied></w><w>hydr<supplied reason="unspecified">ias</supplied></w><w>aq<supplied reason="unspecified">ua</supplied></w><space unit="char" extent="2"/><w>Et</w><w>impleu<supplied reason="unspecified">e</supplied>runt</w>
+<lb n="P2rC1L16-VL32"/><w>eas</w><w><supplied reason="unspecified">usque</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w>summ<supplied reason="unspecified">um</supplied></w></ab><ab n="B04K2V8"><w>Et</w><w>d<supplied reason="unspecified">i</supplied>cit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>haurite</w>
+<lb n="P2rC1L17-VL32"/><w>nunc</w><w>et</w><w>ferte</w><w>architiclino</w><w>et</w><w>tulerunt</w><space unit="char" extent="3"/></ab><ab n="B04K2V9"><w>Ut</w><w>autem</w>
+<lb n="P2rC1L18-VL32"/><w>gustauit</w><w>architiclinus</w><w>aquam</w><w>uinum</w><w>factam</w><w>et</w><w>non</w>
+<lb n="P2rC1L19-VL32"/><w>sciebat</w><w>unde</w><w>esset</w><w>ministri</w><w>autem</w><w>sciebant</w><w>qui</w><w>hau
+<lb n="P2rC1L20-VL32" break="no"/>rierant</w><w>aq<supplied reason="unspecified">uam</supplied></w><w>uocat</w><w>sp<supplied reason="unspecified">onsu</supplied>m</w><w>architiclinus</w><space unit="char" extent="2"/></ab><ab n="B04K2V10"><w>Et</w><w>dicit</w>
+<lb n="P2rC1L21-VL32"/><w>ei</w><space unit="char" extent="2"/><w>Omnes</w><w>homo</w><w>primum</w><w>bonum</w><w>uinum</w><w>ponit</w>
+<lb n="P2rC1L22-VL32"/><w>Et</w><w>cum</w><w>inebriati</w><w>fuerint</w><w>conuiuae</w><w>tunc</w><w><supplied reason="unspecified">i</supplied>d</w><w>quod</w><w>dete
+<lb n="P2rC1L23-VL32" break="no"/>rius</w><space unit="char" extent="2"/><w>Tu</w><space unit="char" extent="1"/><w>serua<supplied reason="unspecified">sti</supplied></w><w><supplied reason="unspecified">b</supplied>onum</w><w>uinum</w><w>usque</w><w>adhuc</w>
+<lb n="P2rC1L24-VL32"/></ab><ab n="B04K2V11"><w>Hoc</w><w>initium</w><w>signoru<supplied reason="unspecified">m</supplied></w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>chana</w><w>galileae</w><w>fecit</w>
+<lb n="P2rC1L25-VL32"/><w>et</w><w>manifestauit</w><w>gloriam</w><w>suam</w><w>et</w><w>crediderunt</w>
+<lb n="P2rC1L26-VL32"/><w>in</w><w>eum</w><w>discipuli</w><w>eius</w><note type="editorial">The lection continues with Matthew 15:29-31, and then John 6:1-2, 5-14.</note>
+<pb xml:id="P2v-VL32" n="2v" type="folio"/><note type="header">F Q.l-2v</note><note type="editorial">Current folio 93r.</note>
+<cb n="P2vC1-VL32"/>
+<lb n="P2vC1L1-VL32"/>
+<lb n="P2vC1L2-VL32"/>
+<lb n="P2vC1L3-VL32"/>
+<lb n="P2vC1L4-VL32"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V1"><note type="editorial">The first four lines of this page consist of a lection from Mt 15:30-31, which leads into the Johannine verses without a break.</note><w>Et</w><w>iteru<ex>m</ex></w>
+<lb n="P2vC1L5-VL32"/><w>uenit</w><w>trans</w><w>mare</w><w>gallileae</w><w>quod</w><w>est</w><w>tiberiadis</w>
+<lb n="P2vC1L6-VL32"/></ab><ab n="B04K6V2"><w>Et</w><w>sequebatur</w><w>eum</w><w>multitudo</w><w>magna</w><w>quia</w><w>uidebant</w>
+<lb n="P2vC1L7-VL32"/><w>signa</w><w>quae</w><w>faciebat</w><w>super</w><w>his</w><w>qui</w><w>infirmabantur</w>
+<lb n="P2vC1L8-VL32"/></ab><ab n="B04K6V5"><w>Et</w><w>cum</w><w>subleuasset</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>oculos</w><w>suos</w><w><supplied reason="unspecified">e</supplied>t</w><w>uidisset</w>
+<lb n="P2vC1L9-VL32"/><w>quia</w><w>multitudo</w><w>magna</w><w>uenit</w><w>ad</w><w>eum</w><w>dicit</w><w>ad</w><w>phi
+<lb n="P2vC1L10-VL32" break="no"/>lippum</w><pc>·</pc><w>unde</w><w>ememus</w><w>panes</w><w>ut</w><w>manducent</w><w>hii</w>
+<lb n="P2vC1L11-VL32"/></ab><ab n="B04K6V6"><w>Hoc</w><w>autem</w><w>dicebat</w><w>temptans</w><w>eum</w><w>ipse</w><w>enim</w><w>sciebat</w>
+<lb n="P2vC1L12-VL32"/><w>quid</w><w>esset</w><w>facturus</w><space unit="char" extent="2"/></ab><ab n="B04K6V7"><w>Respondit</w><w>ei</w><w>philippus</w>
+<lb n="P2vC1L13-VL32"/><w>ducentorum</w><w>denariorum</w><w>panes</w><w>non</w><w>sufficiunt</w><w>eis</w>
+<lb n="P2vC1L14-VL32"/><w>ut</w><w>unusquisque</w><w>modicum</w><w>quid</w><w>accipiat</w><space unit="char" extent="2"/></ab><ab n="B04K6V8"><w>Dicit</w><w>ei</w>
+<lb n="P2vC1L15-VL32"/><w>unus</w><w>ex</w><w>discipulis</w><w>eius</w><w>andraeas</w><w>nomine</w><w>frater</w>
+<lb n="P2vC1L16-VL32"/><w>simonis</w><w>petri</w><pc>·</pc></ab><ab n="B04K6V9"><w>Est</w><w>puer</w><w>unus</w><w>hic</w><w>qui</w><w>habet</w><w>quinqu<supplied reason="unspecified">e</supplied></w>
+<lb n="P2vC1L17-VL32"/><w>panes</w><w>hordeacios</w><w>et</w><w>duos</w><w>pisces</w><w>Sed</w><w>haec</w><w>quid</w><w>sunt</w>
+<lb n="P2vC1L18-VL32"/><w>inter</w><w>tantos</w><pc>·</pc></ab><ab n="B04K6V10"><w>Dixit</w><w>ergo</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>facite</w><w>homines</w><w>dis
+<lb n="P2vC1L19-VL32" break="no"/>cumbere</w><w>Erat</w><w>autem</w><w>faenum</w><w>multum</w><w>in</w><w>illo</w><w>loco</w>
+<lb n="P2vC1L20-VL32"/><w>Discubuerunt</w><w>ergo</w><w>uiri</w><w>numero</w><w>quasi</w><w>quinque</w>
+<lb n="P2vC1L21-VL32"/><w>milia</w><pc>·</pc></ab><ab n="B04K6V11"><w>Accepit</w><w>ergo</w><w>panes</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>·</pc><w>et</w><w>cum</w><w>gratias</w><w>egis
+<lb n="P2vC1L22-VL32" break="no"/>set</w><w>distribuit</w><w>discumbentibus</w><pc>·</pc><w>similiter</w><w>et</w><w>ex</w><w>pis
+<lb n="P2vC1L23-VL32" break="no"/>cibus</w><w>quantum</w><w>uolebant</w><space unit="char" extent="3"/></ab><ab n="B04K6V12"><w>Ut</w><w>autem</w><w>impleti</w><w>sunt</w>
+<lb n="P2vC1L24-VL32"/><w>dixit</w><w>discipulis</w><w>suis</w><w>colligite</w><w>quae</w><w>superauerunt</w>
+<lb n="P2vC1L25-VL32"/><w>fragmenta</w><w>ne</w><w>pereant</w><space unit="char" extent="3"/></ab><ab n="B04K6V13"><w>Collegerunt</w><w>ergo</w><w>et</w><w>imple
+<lb n="P2vC1L26-VL32" break="no"/>uerunt</w><w>duodecim</w><w>cofinos</w><w>fragmentorum</w>
+<lb n="P2vC1L27-VL32"/><w>ex</w><w>quinque</w><w>panibus</w><w>hordeaceis</w><w>quae</w><w>superauerunt</w>
+<lb n="P2vC1L28-VL32"/><w>his</w><w>qui</w><w>manducauerant</w><space unit="char" extent="3"/></ab><ab n="B04K6V14"><w>Illi</w><w>ergo</w><w>homines</w><gap reason="lacuna" unit="char" extent="unknown"/><note type="header">F Q.l-4r</note><note type="editorial">Current folio 67r.</note>
+<lb n="P2vC1L29-VL32"/>
+<lb n="P2vC1L30-VL32"/>
+<lb n="P2vC1L31-VL32"/>
+<lb n="P2vC1L32-VL32"/>
+<lb n="P2vC1L33-VL32"/>
+<lb n="P2vC1L34-VL32"/>
+<lb n="P2vC1L35-VL32"/>
+<lb n="P2vC1L36-VL32"/>
+<lb n="P2vC1L37-VL32"/>
+<lb n="P2vC1L38-VL32"/>
+<lb n="P2vC1L39-VL32"/>
+<lb n="P2vC1L40-VL32"/>
+<lb n="P2vC1L41-VL32"/>
+<lb n="P2vC1L42-VL32"/>
+<lb n="P2vC1L43-VL32"/>
+<lb n="P2vC1L44-VL32"/>
+<lb n="P2vC1L45-VL32"/>
+<lb n="P2vC1L46-VL32"/>
+<lb n="P2vC1L47-VL32"/>
+<lb n="P2vC1L48-VL32"/>
+<lb n="P2vC1L49-VL32"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V15"><note type="editorial">Little is legible of the first 20 lines of this page.</note><note type="editorial">Note that this passage also appears on fol. 73v.</note><fw type="lectTitle"><w>In</w><w>t<supplied reason="unspecified">em</supplied>po<supplied reason="unspecified">re</supplied></w><w><supplied reason="unspecified">illo</supplied></w><w><supplied reason="unspecified">ait</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">petro</supplied></w></fw><note type="editorial">Dold is unsure about the presence of 'ait ih¬s petro'.</note><w><supplied reason="unspecified">S</supplied>imon</w><w><supplied reason="unspecified">iohannis</supplied></w><w><supplied reason="unspecified">amas</supplied></w>
+<lb n="P2vC1L50-VL32"/><w><supplied reason="unspecified">me</supplied></w><w>dicit</w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">etiam</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">dne</hi></supplied></abbr></w><w><supplied reason="unspecified">tu</supplied></w><w><supplied reason="unspecified">scis</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">amo</supplied></w><w><supplied reason="unspecified">te</supplied></w><w><supplied reason="unspecified">dicit</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">pasce</supplied></w>
+<lb n="P2vC1L51-VL32"/><w><supplied reason="unspecified">agnos</supplied></w><w><supplied reason="unspecified">meos</supplied></w></ab><ab n="B04K21V16"><w><supplied reason="unspecified">Dicit</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">iterum</supplied></w><w><supplied reason="unspecified">simon</supplied></w><w><supplied reason="unspecified">iohannis</supplied></w><w><supplied reason="unspecified">diliges</supplied></w><w><supplied reason="unspecified">me</supplied></w>
+<lb n="P2vC1L52-VL32"/><w><supplied reason="unspecified">ait</supplied></w><w><supplied reason="unspecified">illi</supplied></w><w><supplied reason="unspecified">etiam</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">dne</hi></supplied></abbr></w><w><supplied reason="unspecified">tu</supplied></w><w><supplied reason="unspecified">scis</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">amo</supplied></w><w><supplied reason="unspecified">te</supplied></w><w><supplied reason="unspecified">dicit</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">pasce</supplied></w><w><supplied reason="unspecified">agnos</supplied></w><w><supplied reason="unspecified">meos</supplied></w>
+<lb n="P2vC1L53-VL32"/></ab><ab n="B04K21V17"><w>Dic<supplied reason="unspecified">i</supplied>t</w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">tertio</supplied></w><w><supplied reason="unspecified">simon</supplied></w><w><supplied reason="unspecified">iohannis</supplied></w><w><supplied reason="unspecified">amas</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">contristatus</supplied></w>
+<lb n="P2vC1L54-VL32"/><w><supplied reason="unspecified">e</supplied>st</w><w>aute<supplied reason="unspecified">m</supplied></w><w>pe<supplied reason="unspecified">trus</supplied></w><w>quia</w><w><supplied reason="unspecified">dix</supplied>it</w><w>ei</w><w>te<supplied reason="unspecified">rtio</supplied></w><w><supplied reason="unspecified">amas</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">ei</supplied></w>
+<lb n="P2vC1L55-VL32"/><w><abbr type="nomSac"><hi rend="overline">Dne</hi></abbr></w><w>om<supplied reason="unspecified">nia</supplied></w><w>tu</w><w>n<supplied reason="unspecified">os</supplied>ti</w><w>tu</w><w><supplied reason="unspecified">sci</supplied>s</w><w>q<supplied reason="unspecified">u</supplied>ia</w><w>a<supplied reason="unspecified">mo</supplied></w><w><supplied reason="unspecified">te</supplied></w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">pasce</supplied></w><w><supplied reason="unspecified">oues</supplied></w>
+<lb n="P2vC1L56-VL32"/><w>me<supplied reason="unspecified">as</supplied></w><note type="editorial">The rest of the line is Luke 10:23, 'et conuersus ad discipulos suos'.</note>
+<pb xml:id="P5r-VL32" n="5r" type="folio"/><note type="header">F Q.o-5r</note><note type="editorial">Current folio 77v.</note>
+<cb n="P5rC1-VL32"/>
+<lb n="P5rC1L1-VL32"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V26"><note type="editorial">This page consists of a lection mixed from Matthew, Luke and John. Only the Johannine verses have been transcribed.</note><w>unus</w><w>ex</w><w>seruis</w><w>prin
+<lb n="P5rC1L2-VL32" break="no"/>cipis</w><w>sacerdotum</w><w>cognatus</w><w>eius</w><w>cuius</w><w>abscidet</w>
+<lb n="P5rC1L3-VL32"/><w>petrus</w><w>aureculam</w><pc>·</pc><w>nonne</w><w>ego</w><w>te</w><w>uidi</w><w>in</w><w>horto</w><w>cu<ex>m</ex></w>
+<lb n="P5rC1L4-VL32"/><w>illo</w><pc>·</pc>
+<lb n="P5rC1L5-VL32"/></ab><ab n="B04K18V28"><w>Et</w><w>adduxerunt</w><w>eum</w>
+<lb n="P5rC1L6-VL32"/><w>ad</w><w>caipha</w><w>in</w><w>praetorium</w><pc>·</pc><w>erat</w><w>autem</w><w>mane</w><pc>·</pc><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P7v-VL32" n="7v" type="folio"/><note type="header">F Q.o-7v</note><note type="editorial">Current folio 99v.</note>
+<cb n="P7vC1-VL32"/>
+<lb n="P7vC1L1-VL32"/>
+<lb n="P7vC1L2-VL32"/>
+<lb n="P7vC1L3-VL32"/>
+<lb n="P7vC1L4-VL32"/>
+<lb n="P7vC1L5-VL32"/>
+<lb n="P7vC1L6-VL32"/>
+<lb n="P7vC1L7-VL32"/>
+<lb n="P7vC1L8-VL32"/>
+<lb n="P7vC1L9-VL32"/>
+<lb n="P7vC1L10-VL32"/>
+<lb n="P7vC1L11-VL32"/>
+<lb n="P7vC1L12-VL32"/>
+<lb n="P7vC1L13-VL32"/>
+<lb n="P7vC1L14-VL32"/>
+<lb n="P7vC1L15-VL32"/>
+<lb n="P7vC1L16-VL32"/>
+<lb n="P7vC1L17-VL32"/>
+<lb n="P7vC1L18-VL32"/>
+<lb n="P7vC1L19-VL32"/>
+<lb n="P7vC1L20-VL32"/>
+<lb n="P7vC1L21-VL32"/>
+<lb n="P7vC1L22-VL32"/>
+<lb n="P7vC1L23-VL32"/>
+<lb n="P7vC1L24-VL32"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V23"><note type="editorial">The first part of the page is Matthew 27:24-34. The Johannine verses follow without a break.</note><w>Milite<supplied reason="unspecified">s</supplied></w><w>ergo</w><w>postqua<supplied reason="unspecified">m</supplied></w><w>crucifi
+<lb n="P7vC1L25-VL32" break="no"/>x<supplied reason="unspecified">iss</supplied>ent</w><w>eum</w><w>accep<supplied reason="unspecified">erun</supplied>t</w><w>uestime<supplied reason="unspecified">nta</supplied></w><w>eius</w><w>et</w><w>fe
+<lb n="P7vC1L26-VL32" break="no"/>cerunt</w><w>quattuor</w><w>partes</w><note type="editorial">Dold's edition reads 'patres', but as he usually marks misspellings with an exclamation mark (!), this has been taken to be a typographical error.</note><w>unicuique</w><w>militi</w><w>parte<ex>m</ex></w>
+<lb n="P7vC1L27-VL32"/><w>Erat</w><w>autem</w><w>tunica</w><w>non</w><w>cosuta</w><w>sed</w><w>desuper</w><w>con
+<lb n="P7vC1L28-VL32" break="no"/>texta</w><w>per</w><w>totum</w><space unit="char" extent="4"/></ab><ab n="B04K19V24"><w>Dixerunt</w><w>ergo</w><w>ad</w><w>inuicem</w><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P1br-VL32" n="1br" type="folio"/><note type="header">F Q.p-1r</note><note type="editorial">Current folio 87r.</note>
+<cb n="P1brC1-VL32"/>
+<lb n="P1brC1L1-VL32"/>
+<lb n="P1brC1L2-VL32"/>
+<lb n="P1brC1L3-VL32"/>
+<lb n="P1brC1L4-VL32"/></ab><ab n="B04K19V14"><note type="editorial">The first lines of this page consist of Matthew 27:53-54.</note><w>Erat</w><w>autem</w>
+<lb n="P1brC1L5-VL32"/><w><supplied reason="unspecified">parasceue</supplied></w></ab><ab n="B04K19V31"><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">ne</supplied></w><w><supplied reason="unspecified">remanerent</supplied></w><w>corpora</w><w>in</w><w>cruce</w><w>sabba
+<lb n="P1brC1L6-VL32" break="no"/><supplied reason="unspecified">to</supplied></w><w>erat</w><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">mag</supplied>na</w><w>dies</w><w><supplied reason="unspecified">ill</supplied>a</w><w>sabbati</w><w>Rogauerunt</w>
+<lb n="P1brC1L7-VL32"/><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">iudaei</supplied></w><w><supplied reason="unspecified">pilatum</supplied></w><w>ut</w><w>cru<supplied reason="unspecified">ra</supplied></w><w><supplied reason="unspecified">eoru</supplied>m</w><w><supplied reason="unspecified">fra</supplied>ngerentur</w>
+<lb n="P1brC1L8-VL32"/><w>et</w><w>t<supplied reason="unspecified">oll</supplied>erentur</w></ab><ab n="B04K19V32"><w>U<supplied reason="unspecified">eneru</supplied>nt</w><w>e<supplied reason="unspecified">rg</supplied>o</w><w>milites</w><w>et</w><w>primi</w>
+<lb n="P1brC1L9-VL32"/><w>quidem</w><w>crura</w><w><supplied reason="unspecified">fregerunt</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>alterius</w><w>qui</w><w>simul</w>
+<lb n="P1brC1L10-VL32"/><w>cr<supplied reason="unspecified">uc</supplied>ifixus</w><w>erat</w></ab><ab n="B04K19V33"><w>Ad</w><w><abbr type="nomSac"><hi rend="overline">dn</hi><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihm</hi></supplied></abbr></w><w><supplied reason="unspecified">autem</supplied></w><w>cum</w><w>uenissent</w>
+<lb n="P1brC1L11-VL32"/><w>u<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">uide</supplied>r<supplied reason="unspecified">unt</supplied></w><w>eum</w><w>iam</w><w>m<supplied reason="unspecified">ortuum</supplied></w><w>non</w><w>fregerunt</w>
+<lb n="P1brC1L12-VL32"/><w>ei<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">crura</supplied></w></ab><ab n="B04K19V34"><w>Sed</w><w>unus</w><w><supplied reason="unspecified">militum</supplied></w><w><supplied reason="unspecified">lancea</supplied></w><w>latus</w><w>eius</w><w>pupu
+<lb n="P1brC1L13-VL32" break="no"/>g<supplied reason="unspecified">it</supplied></w><space unit="char" extent="2"/><w>Et</w><w>continuo</w><w>exiit</w><w>s<supplied reason="unspecified">angui</supplied>s</w><w>et</w><w>aqua</w><space unit="char" extent="2"/></ab><ab n="B04K19V35"><w>OM</w></ab><ab n="B04K19V36"><w>Ut</w><w>scribtu
+<lb n="P1brC1L14-VL32" break="no"/><supplied reason="unspecified">r</supplied>a</w><w>im<supplied reason="unspecified">pl</supplied>eretur</w><space unit="char" extent="2"/><w>Os</w><w>n<supplied reason="unspecified">on</supplied></w><w>conteretur</w><w>ab</w><w>eo</w><space unit="char" extent="2"/></ab><ab n="B04K19V37"><w>Et</w><w>iteru<ex>m</ex></w>
+<lb n="P1brC1L15-VL32"/><w>a<supplied reason="unspecified">li</supplied>a</w><w>uid<supplied reason="unspecified">ebu</supplied>n<supplied reason="unspecified">t</supplied></w><w>in</w><w>quem</w><w>pupugerunt</w><note type="editorial">The lection continues with Matthew 27:57-63.</note>
+<pb xml:id="P3v-VL32" n="3v" type="folio"/><note type="header">F Q.p-3v</note><note type="editorial">Current folio 73v.</note>
+<cb n="P3vC1-VL32"/>
+<lb n="P3vC1L1-VL32"/>
+<lb n="P3vC1L2-VL32"/>
+<lb n="P3vC1L3-VL32"/>
+<lb n="P3vC1L4-VL32"/>
+<lb n="P3vC1L5-VL32"/>
+<lb n="P3vC1L6-VL32"/>
+<lb n="P3vC1L7-VL32"/>
+<lb n="P3vC1L8-VL32"/>
+<lb n="P3vC1L9-VL32"/>
+<lb n="P3vC1L10-VL32"/>
+<lb n="P3vC1L11-VL32"/>
+<lb n="P3vC1L12-VL32"/>
+<lb n="P3vC1L13-VL32"/>
+<lb n="P3vC1L14-VL32"/>
+<lb n="P3vC1L15-VL32"/>
+<lb n="P3vC1L16-VL32"/>
+<lb n="P3vC1L17-VL32"/>
+<lb n="P3vC1L18-VL32"/>
+<lb n="P3vC1L19-VL32"/>
+<lb n="P3vC1L20-VL32"/>
+<lb n="P3vC1L21-VL32"/>
+<lb n="P3vC1L22-VL32"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V15"><note type="editorial">The first part of the page is a lection from 1 and 2 Timothy. Note that the lection from John 21 also appears on fol. 67r.</note><fw type="lectTitle"><w>In</w><w>tempore</w><w>illo</w><w>Ait</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>petro</w></fw><pc>·</pc><w>Symon</w><w>iohannis</w>
+<lb n="P3vC1L23-VL32"/><w>amas</w><w>me</w><w>dicit</w><w>illi</w><w>utique</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><pc>·</pc><w>ait</w><w>illi</w><pc>·</pc><w>pasce</w><w>agnos</w><w>meos</w><pc>·</pc>
+<lb n="P3vC1L24-VL32"/></ab><ab n="B04K21V16"><w>Dicet</w><w>ei</w><w>iterum</w><w>symon</w><w>iohannis</w><w>amas</w><w>me</w><w>ait</w><w>illi</w><w>utiq<ex>ue</ex></w>
+<lb n="P3vC1L25-VL32"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>tu</w><w>scis</w><w>quia</w><w>amo</w><w>te</w><pc>·</pc><w>Dicit</w><w>ei</w><w>pasce</w><w>oues</w><w>meas</w>
+<lb n="P3vC1L26-VL32"/></ab><ab n="B04K21V17"><w>Dicit</w><w>ei</w><w>tertio</w><w>symon</w><w>iohannis</w><w>amas</w><w>me</w><pc>·</pc><w><supplied reason="unspecified">contris</supplied>
+<lb n="P3vC1L27-VL32" break="no"/>tatus</w><w>est</w><w>petrus</w><w>quia</w><w>dixit</w><w>ei</w><w>tertio</w><w>amas</w><w>me</w>
+<lb n="P3vC1L28-VL32"/><w>Et</w><w>dicit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>tu</w><w>omnia</w><w><supplied reason="unspecified">nos</supplied>t<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">t</supplied>u</w><w><supplied reason="unspecified">scis</supplied></w><w>q<supplied reason="unspecified">uia</supplied></w><w><supplied reason="unspecified">am</supplied>o</w><w><supplied reason="unspecified">te</supplied></w>
+<pb xml:id="P4ar-VL32" n="4ar" type="folio"/><note type="header">F Q.p-4r</note><note type="editorial">Current folio 78v.</note>
+<cb n="P4arC1-VL32"/>
+<lb n="P4arC1L1-VL32"/><w>Dicit</w><w>ei</w><w>pasce</w><w>agnos</w><w>meos</w><pc>·</pc><note type="editorial">As on fol. 67r, the lection continues with Luke 10:23, 'et conuersus ad discipulos suos'.</note>
+<pb xml:id="P5ar-VL32" n="5ar" type="folio"/><note type="header">F Q.p-5r</note><note type="editorial">Current folio 71v.</note>
+<cb n="P5arC1-VL32"/>
+<lb n="P5arC1L1-VL32"/>
+<lb n="P5arC1L2-VL32"/>
+<lb n="P5arC1L3-VL32"/>
+<lb n="P5arC1L4-VL32"/>
+<lb n="P5arC1L5-VL32"/>
+<lb n="P5arC1L6-VL32"/>
+<lb n="P5arC1L7-VL32"/>
+<lb n="P5arC1L8-VL32"/>
+<lb n="P5arC1L9-VL32"/>
+<lb n="P5arC1L10-VL32"/>
+<lb n="P5arC1L11-VL32"/>
+<lb n="P5arC1L12-VL32"/>
+<lb n="P5arC1L13-VL32"/>
+<lb n="P5arC1L14-VL32"/>
+<lb n="P5arC1L15-VL32"/>
+<lb n="P5arC1L16-VL32"/>
+<lb n="P5arC1L17-VL32"/>
+<lb n="P5arC1L18-VL32"/>
+<lb n="P5arC1L19-VL32"/>
+<lb n="P5arC1L20-VL32"/>
+<lb n="P5arC1L21-VL32"/>
+<lb n="P5arC1L22-VL32"/></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V9"><note type="editorial">The lection which begins this page is from Hebrews 13.</note><fw type="lectTitle"><w>In</w><w>tempore</w><w>illo</w><w>ait</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>discipulis</w><w>suis</w><pc>·</pc></fw><w>Ego</w><w>sum</w>
+<lb n="P5arC1L23-VL32"/><w>ostium</w><pc>·</pc><w>Per</w><w>me</w><w>si</w><w>quis</w><w>introierit</w><w>saluabitur</w><w>et</w><w>ingre
+<lb n="P5arC1L24-VL32" break="no"/>dietur</w><w>et</w><w>egredietur</w><w>Et</w><w>pascua</w><w>inueniet</w><pc>·</pc></ab><ab n="B04K10V10"><w>Fur</w><w>non</w><w>in
+<lb n="P5arC1L25-VL32" break="no"/>uenit</w><w>nisi</w><w>ut</w><w>furetur</w><w>et</w><w>mactet</w><w>et</w><w>perdat</w><pc>·</pc><w>Ego</w><w>ueni</w>
+<lb n="P5arC1L26-VL32"/><w>ut</w><w>uitam</w><w>habeant</w><w>et</w><w>abundantius</w><w>habeant</w>
+<lb n="P5arC1L27-VL32"/></ab><ab n="B04K10V1"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>quoniam</w><w>qui</w><w>non</w><w>intrat</w><w>per</w><w>os
+<lb n="P5arC1L28-VL32" break="no"/>tium</w><w>in</w><w>ouile</w><w>ouium</w><pc>·</pc><space unit="char" extent="2"/><w>Sed</w><w>ascendit</w><w>aliunde</w><w>ille</w><w>fur</w><w>est</w><pc>·</pc>
+<lb n="P5arC1L29-VL32" rend="rightJust"/><w>et</w><w>latro</w><pc>·</pc>
+<pb xml:id="P5v-VL32" n="5v" type="folio"/><note type="header">F Q.p-5v</note><note type="editorial">Current folio 71r.</note>
+<cb n="P5vC1-VL32"/>
+<lb n="P5vC1L1-VL32"/></ab><ab n="B04K10V2"><w>Qui</w><w>autem</w><w>intrat</w><w>per</w><w>ostium</w><w>pastor</w><w>est</w><w>ouium</w><pc>·</pc></ab><ab n="B04K10V3"><w>Huic</w>
+<lb n="P5vC1L2-VL32"/><w>ostiarius</w><w>aperit</w><pc>·</pc><w>et</w><w>oues</w><w>uocem</w><w>eius</w><w>audiunt</w><pc>·</pc><w>et</w><w>pro
+<lb n="P5vC1L3-VL32" break="no"/>prias</w><w>oues</w><w>uocat</w><w>nominatim</w><pc>·</pc><w>et</w><w>educit</w><w>eas</w><pc>·</pc></ab><ab n="B04K10V4"><w>Et</w><w>cum</w><w>pro
+<lb n="P5vC1L4-VL32" break="no"/>prias</w><w>oues</w><w>emiserit</w><w>ante</w><w>eas</w><w>uadit</w><pc>·</pc><w>et</w><w>oues</w><w>illum</w><w>se
+<lb n="P5vC1L5-VL32" break="no"/>cuntur</w><pc>·</pc><w>quia</w><w>sciunt</w><w>uocem</w><w>eius</w><pc>·</pc></ab><ab n="B04K10V5"><w>Alienum</w><w>autem</w>
+<lb n="P5vC1L6-VL32"/><w>non</w><w>sequuntur</w><pc>·</pc><w>sed</w><w>fugiunt</w><w>ab</w><w>eo</w><w>quia</w><w>non</w><w>nouerunt</w>
+<lb n="P5vC1L7-VL32"/><w>uocem</w><w>eius</w><pc>·</pc><space unit="char" extent="3"/></ab><ab n="B04K10V11"><w>Ego</w><w>sum</w><w>bonus</w><w>pastor</w><w>bonus</w><w>autem</w>
+<lb n="P5vC1L8-VL32"/><w>pastor</w><w>animam</w><w>suam</w><w>ponit</w><w>pro</w><w>ouibus</w><w>suis</w><pc>·</pc>
+<lb n="P5vC1L9-VL32"/></ab><ab n="B04K10V12"><w>Mercennarius</w><w>autem</w><w>et</w><w>qui</w><w>non</w><w>est</w><w>pastor</w><w>quuius</w>
+<lb n="P5vC1L10-VL32"/><w>non</w><w>sunt</w><w>oues</w><w>propriae</w><w>uidit</w><w>lupum</w><w>uenientem</w>
+<lb n="P5vC1L11-VL32"/><w>et</w><w>dimittet</w><w>oues</w><w>et</w><w>fugit</w><w>et</w><w>lupus</w><w>rapit</w><w>et</w><w>disperget</w>
+<lb n="P5vC1L12-VL32"/><w>oues</w><pc>·</pc></ab><ab n="B04K10V13"><w>Mercennarius</w><w>autem</w><w>fugit</w><pc>·</pc><w>quia</w><w>mercen
+<lb n="P5vC1L13-VL32" break="no"/>narius</w><w>est</w><pc>·</pc><w>et</w><w>non</w><w>pertenet</w><w>ad</w><w>eum</w><w>de</w><w>ouibus</w><pc>·</pc>
+<lb n="P5vC1L14-VL32"/></ab><ab n="B04K10V14"><w>Ego</w><w>sum</w><w>pastor</w><w>bonus</w><w>et</w><w>cognosco</w><w>meas</w><w>et</w><w>cognos
+<lb n="P5vC1L15-VL32" break="no"/>cunt</w><w>me</w><w>meae</w><pc>·</pc></ab><ab n="B04K10V15"><w>Sicut</w><w>nouit</w><w>me</w><w>pater</w><w>et</w><w>ego</w><w>cog
+<lb n="P5vC1L16-VL32" break="no"/>nosco</w><w>patrem</w><w>Et</w><w>animam</w><w>meam</w><w>pono</w><w>pro</w><w>ouibus</w>
+<lb n="P5vC1L17-VL32"/><w>meis</w><pc>·</pc></ab><ab n="B04K10V16"><w>Et</w><w>alias</w><w>oues</w><w>habeo</w><w>quae</w><w>non</w><w>sunt</w><w>ex</w><w>hoc</w>
+<lb n="P5vC1L18-VL32"/><w>ouili</w><w>Et</w><w>illas</w><w>oportet</w><w>me</w><w>adducere</w><w>et</w><w>uoce<ex>m</ex></w><w>meam</w>
+<lb n="P5vC1L19-VL32"/><w>audiunt</w><note type="editorial">Dold's edition reads 'andiunt' for 'audiunt', but as he usually marks misspellings with an exclamation mark (!), this has been taken to be a typographical error.</note><w>et</w><w>fit</w><w>unus</w><w>grex</w><w>et</w><w>unus</w><w>pastor</w></ab><ab n="B04K10V28"><gap reason="lacuna" unit="char" extent="unknown"/><w>et</w><w>non</w><w>ra
+<lb n="P5vC1L20-VL32" break="no"/>pit</w><w>eas</w><w>quisquam</w><w>de</w><w>manu</w><w>mea</w><pc>·</pc></ab><ab n="B04K10V29"><w>Pater</w><w>meus</w>
+<lb n="P5vC1L21-VL32"/><w>quod</w><w>dedit</w><w>mihi</w><w>maius</w><w>omnibus</w><w>est</w><pc>·</pc><w>Et</w><w>nemo</w><w>po
+<lb n="P5vC1L22-VL32" break="no"/>test</w><w>rapere</w><w>de</w><w>manu</w><w>patris</w><w>mei</w><pc>·</pc></ab><ab n="B04K10V30"><w>Ego</w><w>et</w><w>pater</w><w>unu<ex>m</ex></w><w>sumus</w><note type="editorial">The '-mus' of 'sumus' is written on the line below. After a line from Lev 2:2, a reading follows from Isaiah 40.</note>
+<pb xml:id="P7ar-VL32" n="7ar" type="folio"/><note type="header">F Q.p-7r</note><note type="editorial">Current folio 74v.</note>
+<cb n="P7arC1-VL32"/>
+<lb n="P7arC1L1-VL32"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V17"><fw type="lectTitle"><w>In</w><w>tempore</w><w>illo</w><w>ait</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>discipulis</w><w>suis</w></fw><w>Haec</w><w>mando</w><w>uo
+<lb n="P7arC1L2-VL32" break="no"/>bis</w><w>ut</w><w>diligatis</w><w>inuicem</w></ab><ab n="B04K15V12"><w>Sicut</w><w>dilexi</w><w>uos</w><pc>·</pc></ab><ab n="B04K15V18"><w>Si</w><w>mundus</w><w>uos</w>
+<lb n="P7arC1L3-VL32"/><w>odit</w><w>scitote</w><w>quia</w><w>me</w><w>priorem</w><w>uobis</w><w>odio</w><w>habuit</w>
+<lb n="P7arC1L4-VL32"/></ab><ab n="B04K15V19"><w>Si</w><w>de</w><w>mundo</w><w>fuissetis</w><pc>·</pc><w>mundus</w><w>quod</w><w>suum</w><w>erat</w><w>diligeret</w>
+<lb n="P7arC1L5-VL32"/><w>quia</w><w>ergo</w><w>de</w><w>mundo</w><w>non</w><w>estis</w><w>sed</w><w>ego</w><w>elegi</w><w>uos</w><w>de</w><w>mundo</w><pc>·</pc>
+<lb n="P7arC1L6-VL32"/><w>propterea</w><w>odit</w><w>uos</w><w>mundus</w></ab><ab n="B04K15V20"><w>Mementote</w><w>sermones</w>
+<lb n="P7arC1L7-VL32"/><w>mei</w><w>quem</w><w>ego</w><w>dixi</w><w>uobis</w><pc>·</pc><w>non</w><w>est</w><w>seruus</w><w>maior</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>suo</w>
+<lb n="P7arC1L8-VL32"/><w>Si</w><w>me</w><w>persequuti</w><w>sunt</w><w>et</w><w>uos</w><w>persequentur</w><pc>·</pc><w>Si</w><w>sermo
+<lb n="P7arC1L9-VL32" break="no"/>nem</w><w>meum</w><w>seruauerunt</w><w>et</w><w>uestrum</w><w>seruabunt</w><pc>·</pc>
+<lb n="P7arC1L10-VL32"/></ab><ab n="B04K15V21"><w>Sed</w><w>haec</w><w>omnia</w><w>facient</w><w>uobis</w><w>propter</w><w>nomen</w><w>meum</w><pc>·</pc>
+<lb n="P7arC1L11-VL32"/><w>quia</w><w>nesciunt</w><w>eum</w><w>qui</w><w>misit</w><w>me</w><space unit="char" extent="2"/></ab><ab n="B04K15V22"><w>Si</w><w>non</w><w>uenissem</w><pc>·</pc>
+<lb n="P7arC1L12-VL32"/><w>et</w><w>loquutus</w><w>eis</w><w>fuissem</w><w>peccatum</w><w>non</w><w>haberent</w><pc>·</pc>
+<lb n="P7arC1L13-VL32"/><w>Nunc</w><w>autem</w><w>excusationem</w><w>non</w><w>habint</w><w>de</w><w>peccato</w><w>suo</w>
+<lb n="P7arC1L14-VL32"/></ab><ab n="B04K15V23"><w>Qui</w><w>me</w><w>odit</w><w>et</w><w>patrem</w><w>meum</w><w>odit</w></ab><ab n="B04K15V24"><w>Si</w><w>operam</w><w>non</w>
+<lb n="P7arC1L15-VL32"/><w>fecissem</w><w>in</w><w>eis</w><w>quae</w><w>nemo</w><w>alius</w><w>ficit</w><w>peccatum</w><w>non</w>
+<lb n="P7arC1L16-VL32"/><w>haberent</w><pc>·</pc><w>Nunc</w><w>autem</w><w>et</w><w>uiderunt</w><w>et</w><w>oderunt</w><w>me</w>
+<lb n="P7arC1L17-VL32"/><w>et</w><w>patrem</w><w>meum</w><space unit="char" extent="3"/></ab><ab n="B04K15V25"><w>Sed</w><w>ut</w><w>impleatur</w><w>sermo</w><w>qui</w><w>in</w><w>lege</w>
+<lb n="P7arC1L18-VL32"/><w>eorum</w><w>scriptus</w><w>est</w><pc>·</pc><w>Quia</w><w>odio</w><w>me</w><w>habuerunt</w><w>gratis</w><pc>·</pc>
+<lb n="P7arC1L19-VL32"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V1"><w>Haec</w><w>loquutus</w><w>sum</w><w>uobis</w><w>ut</w><w>non</w><w>scandalizemini</w><pc>·</pc>
+<lb n="P7arC1L20-VL32"/></ab><ab n="B04K16V2"><w>Absque</w><w>synagogis</w><w>facient</w><w>uos</w><w>Sed</w><w>uenit</w><w>hora</w><w>ut</w><w>om
+<lb n="P7arC1L21-VL32" break="no"/>nes</w><w>qui</w><w>interfecit</w><w>uos</w><w>arbitretur</w><w>se</w><w>obsequium</w>
+<lb n="P7arC1L22-VL32"/><w>praestare</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><pc>·</pc></ab><ab n="B04K16V3"><w>Et</w><w>haec</w><w>facient</w><w>uobis</w><w>quia</w><w>non</w><w>noue
+<lb n="P7arC1L23-VL32" break="no"/>runt</w><w>patrem</w><w>neque</w><w>me</w><pc>·</pc></ab><ab n="B04K16V4"><w>Sed</w><w>haec</w><w>loquutus</w><w>su<ex>m</ex></w>
+<lb n="P7arC1L24-VL32"/><w>uobis</w><w>ut</w><w>cum</w><w>uenerit</w><w>hora</w><w>eorum</w><w>reminiscamini</w>
+<lb n="P7arC1L25-VL32"/><w>quae</w><w>ego</w><w>dixi</w><w>uobis</w>
+<lb n="P7arC1L26-VL32"/><note type="editorial">On this line is the reading 'iustus maiore'. A lection from Isaiah 40 begins on the bottom line.</note>
+<pb xml:id="P6av-VL32" n="6av" type="folio"/><note type="header">F Q.q-6v</note><note type="editorial">Current folio 89r.</note>
+<cb n="P6avC1-VL32"/>
+<lb n="P6avC1L1-VL32"/>
+<lb n="P6avC1L2-VL32"/>
+<lb n="P6avC1L3-VL32"/>
+<lb n="P6avC1L4-VL32"/>
+<lb n="P6avC1L5-VL32"/>
+<lb n="P6avC1L6-VL32"/>
+<lb n="P6avC1L7-VL32"/>
+<lb n="P6avC1L8-VL32"/>
+<lb n="P6avC1L9-VL32"/>
+<lb n="P6avC1L10-VL32"/></ab></div><div n="B04K5" type="chapter"><ab n="B04K5V19"><note type="editorial">The first 9 lines of the page are a lection from 1 Cor. 15:54-58. There is then a blank line.</note><fw type="lectTitle"><w>In</w><w>tempore</w><w>illo</w><w>ait</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>descipulis</w><w>suis</w><pc>·</pc></fw><w>Amen</w><w>amen</w>
+<lb n="P6avC1L11-VL32"/><w>dico</w><w>uobis</w><w>non</w><w>potest</w><w>filius</w><w>facere</w><w>a</w><w>se</w><w>quidquam</w>
+<lb n="P6avC1L12-VL32"/><w>nisi</w><w>quod</w><w>uiderit</w><w>patrem</w><w>facientem</w><w>Quaecumque</w>
+<lb n="P6avC1L13-VL32"/><w>enim</w><w>ille</w><w>fecerit</w><w>haec</w><w>et</w><w>filius</w><w>similiter</w><w>facit</w><pc>·</pc><space unit="char" extent="3"/></ab><ab n="B04K5V20"><w>Pater</w>
+<lb n="P6avC1L14-VL32"/><w>enim</w><w>diligit</w><w>filium</w><w>et</w><w>omnia</w><w>demonstrat</w><w>illi</w><w>opera</w>
+<lb n="P6avC1L15-VL32"/><w>ut</w><w>uos</w><w>miremini</w><pc>·</pc><space unit="char" extent="2"/></ab><ab n="B04K5V21"><w>Sicut</w><w>enim</w><w>pater</w><w>suscitat</w><w>mortuos</w>
+<lb n="P6avC1L16-VL32"/><w>et</w><w>uiuificat</w><w>sic</w><w>et</w><w>filius</w><w>quos</w><w>uult</w><w>uiuificat</w><pc>·</pc>
+<lb n="P6avC1L17-VL32"/></ab><ab n="B04K5V22"><w>Neque</w><w>enim</w><w>pater</w><w>iudicat</w><w>quemquam</w><space unit="char" extent="2"/><w>Sed</w><w>iudicium</w>
+<lb n="P6avC1L18-VL32"/><w>omnem</w><w>dedit</w><w>filio</w><space unit="char" extent="2"/></ab><ab n="B04K5V23"><w>Ut</w><w>omnes</w><w>honorificent</w><w>filium</w>
+<lb n="P6avC1L19-VL32"/><w>sicut</w><w>honorificant</w><w>patrem</w><space unit="char" extent="2"/><w>Qui</w><w>non</w><w>honorificant</w>
+<lb n="P6avC1L20-VL32"/><w>filium</w><w>non</w><w>honorificat</w><w>patrem</w><w>qui</w><w>misit</w><w>illum</w>
+<lb n="P6avC1L21-VL32"/></ab><ab n="B04K5V24"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>quia</w><w>qui</w><w>uerbum</w><w>meum</w><w>audit</w>
+<lb n="P6avC1L22-VL32"/><w>et</w><w>credit</w><w>ei</w><w>qui</w><w>misit</w><w>me</w><w>habet</w><w>uitam</w><w>aeternam</w>
+<lb n="P6avC1L23-VL32"/><w>et</w><w>in</w><w>iudicium</w><w>non</w><w>uenit</w><w>sed</w><w>transit</w><w>a</w><w>morte</w><w>in</w><w>uitam</w>
+<lb n="P6avC1L24-VL32"/></ab><ab n="B04K5V25"><w>Amen</w><w>amen</w><w>dico</w><w>uobis</w><w>quia</w><w>uenit</w><w>hora</w><w>et</w><w>nunc</w><w>est</w>
+<lb n="P6avC1L25-VL32"/><w>quando</w><w>mortui</w><w>audient</w><w>uocem</w><w>filii</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>et</w><w>qui</w><w>audie
+<lb n="P6avC1L26-VL32" break="no"/>rint</w><w>uiuent</w></ab><ab n="B04K5V26"><w>Sicut</w><w>enim</w><w>pater</w><w>habit</w><w>uitam</w><w>in</w><w>se<ex>m</ex>etipso</w>
+<lb n="P6avC1L27-VL32"/><w>Sic</w><w>dedit</w><w>filio</w><w>uitam</w><w>habere</w><w>in</w><w>semetipso</w>
+<pb xml:id="P7br-VL32" n="7br" type="folio"/><note type="header">F Q.q-7r</note><note type="editorial">Current folio 90r.</note>
+<cb n="P7brC1-VL32"/>
+<lb n="P7brC1L1-VL32"/></ab><ab n="B04K5V27"><w>Et</w><w>potestatem</w><w>dedit</w><w>ei</w><w>iudicium</w><w>facere</w><w>quia</w><w>filius</w><w>hominis</w><w>est</w>
+<lb n="P7brC1L2-VL32"/></ab><ab n="B04K5V28"><w>Nolite</w><w>mirari</w><w>hoc</w><w>quia</w><w>uenit</w><w>hora</w><w>in</w><w>qua</w><w>omnes</w><w>qui</w><w>in</w><w>monu
+<lb n="P7brC1L3-VL32" break="no"/>mentis</w><w>sunt</w><w>audient</w><w>uocem</w><w>eiu<supplied reason="unspecified">s</supplied></w></ab><ab n="B04K5V29"><w>Et</w><w>procedent</w><w>qui</w><w>bona</w><w>fe
+<lb n="P7brC1L4-VL32" break="no"/>cerunt</w><w>in</w><w>resurrectionem</w><w>uitae</w><w>qui</w><w>enim</w><w>mala</w><w>egerunt</w>
+<lb n="P7brC1L5-VL32"/><w>in</w><w>resurrectionem</w><w>iudicii</w></ab></div><div n="B04K11" type="chapter"><ab n="B04K11V25"><w>Quia</w><w>ego</w><w>sum</w><w>resurrectio</w>
+<lb n="P7brC1L6-VL32"/><w>et</w><w>uita</w><w>qui</w><w>credit</w><w>in</w><w>me</w><w>etiamsi</w><w>moriatur</w><w>uiuet</w>
+<lb n="P7brC1L7-VL32"/></ab><ab n="B04K11V26"><w>Et</w><w>omnes</w><w>qui</w><w>uiuet</w><w>et</w><w>credit</w><w>in</w><w>me</w><w>non</w><w>morietur</w><w><supplied reason="unspecified">in</supplied></w><w>aeternu<supplied reason="unspecified">m</supplied></w>
+<lb n="P7brC1L8-VL32"/>
+<lb n="P7brC1L9-VL32"/><note type="editorial">After a blank line, there is a lection from Isaiah, and then from 1 Corinthians 7.</note></ab></div></div></body></text></TEI>

@@ -1,0 +1,79 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA2193S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 2193S</title>
+				<title type="document" key="32193" n="2193S">GA 2193S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="04">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.1">Version 1.1, created on <date>12.8.2013</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>12.8.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>2193S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>32193</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+		    <change n="3" when="2016-11-23">Gap at beginning added by David Parker.</change>
+            <change n="2" when="2015-03-13">Ab tag moved to after witness end tag at 8.12 by Rachel Kevern.</change>
+			<change n="1" when="2013-07-20">Adjusted to XML specifications 1.4 by Catherine Smith.</change>
+			<change n="0" when="2013-07-20">Converted from plain text by Catherine Smith using Python conversion scripts 1.0.</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">Status:GΑ 2193suppl Level 1 transcriptionFolio 258 α - 259 αΤranscribed by: ΑSW Updated to Level 1: 16.04.09Last modified: 02.06.09Adjustment of tags and removal of entities for ECM conversion: HAGH 27.3.2013 </note>
+<pb xml:id="P258r-2193S" n="258r" type="folio"/>
+<cb xml:id="P258rC1-2193S" n="1"/>
+	    <lb xml:id="P258rC1L1-2193S" n="1"/><div type="book" n="B04"><note type="local">0.0-7.51</note><div n="B04K7" type="chapter"><ab n="B04K7V52"><gap reason="lacuna" unit="verse" extent="rest"/><w>ερευνησον</w><w>και</w><w>ιδε</w><w>οτι</w><w>προφητης</w><w>εκ</w><w>της</w><w>γαλιλαιας</w><w>ουκ</w><w>εγη
+<lb break="no" xml:id="P258rC1L2-2193S" n="2"/>γερται</w></ab><ab n="B04K7V53"><w>και</w><w>επορευθη</w><w>εκαστος</w><w>εις</w><w>τ<ex>ον</ex></w><w>τοπ<ex>ον</ex></w><w>αυτου</w></ab></div><div n="B04K8" type="chapter"><ab n="B04K8V1"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>δε</w><w>επο
+<lb break="no" xml:id="P258rC1L3-2193S" n="3"/>ρευθη</w><w>εις</w><w>το</w><w>ορος</w><w>τ<ex>ων</ex></w><w>ελαιων</w></ab><ab n="B04K8V2"><w>ορθρου</w><w>δε</w><w>παλιν</w><w>παρεγενετο</w>
+<lb xml:id="P258rC1L4-2193S" n="4"/><w>εις</w><w>το</w><w>ιερ<ex>ον</ex></w><w>και</w><w>πας</w><w>ο</w><w>λαος</w><w>ηρχετο</w><w>προ<ex>ς</ex></w><w>αυτ<ex>ον</ex></w><w>και</w><w>καθισας</w><w>εδιδασκ<ex>εν</ex></w>
+<lb xml:id="P258rC1L5-2193S" n="5"/><w>αυτους</w></ab><ab n="B04K8V3"><w>αγουσι</w><w>δε</w><w>οι</w><w>γραμματεις</w><w>και</w><w>οι</w><w>φαρισαιοι</w><w>προς</w><w>αυτ<ex>ον</ex></w><w>γυν<ex>αι</ex>κα</w>
+<lb xml:id="P258rC1L6-2193S" n="6"/><w>εν</w><w>μοιχεια</w><w>καταληφθεισαν</w><w>και</w><w>στησαντες</w><w>αυτην</w><w>εν</w><w>μεσω</w>
+<lb xml:id="P258rC1L7-2193S" n="7"/></ab><ab n="B04K8V4"><w>λεγουσιν</w><w>αυτ<ex>ω</ex></w><w>πειραζοντες</w><w>διδασκαλε</w><w>αυτη</w><w>η</w><w>γυνη</w><w>κα
+<lb break="no" xml:id="P258rC1L8-2193S" n="8"/>τεληφθη</w><w>επ</w><w>αυτοφωρω</w><w>μοιχευομενη</w></ab><ab n="B04K8V5"><w>εν</w><w>δε</w><w>τ<ex>ω</ex></w><w>νομω</w><w>μωυσ<ex>ης</ex></w>
+<lb xml:id="P258rC1L9-2193S" n="9"/><w>ημιν</w><w>ενετειλατο</w><w>τας</w><w>τοιαυτας</w><w>λιθοβολεισθαι</w><w>συ</w><w>ουν</w><w>τι</w><w>λεγεις</w>
+<lb xml:id="P258rC1L10-2193S" n="10"/></ab><ab n="B04K8V6"><w>τουτο</w><w>δε</w><w>ελεγ<ex>ον</ex></w><w>πειραζ<ex>ον</ex>τες</w><w>αυτ<ex>ον</ex></w><w>ινα</w><w>εχωσι</w><w>κ<ex>α</ex>τηγορειν</w><w>αυτου</w><w>ο</w><w>δε</w>
+<lb xml:id="P258rC1L11-2193S" n="11"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>κατ<ex>ω</ex></w><w>κυψας</w><w>τ<ex>ω</ex></w><w>δακτυλω</w><w>εγραφεν</w><w>εις</w><w>την</w><w>γην</w><w>μη</w><w>προσ
+<lb break="no" xml:id="P258rC1L12-2193S" n="12"/>ποιουμενος</w></ab><ab n="B04K8V7"><w>ως</w><w>δε</w><w>επεμενον</w><w>ερωτ<ex>ων</ex>τες</w><w>αυτ<ex>ον</ex></w><w>ανακυψας</w><w>ει
+<lb break="no" xml:id="P258rC1L13-2193S" n="13"/>πε</w><w>προς</w><w>αυτους</w><w>ο</w><w>αναμαρτητος</w><w>υμ<ex>ων</ex></w><w>πρωτο<ex>ς</ex></w><w>επ</w><w>αυτην</w><w>τον</w>
+<lb xml:id="P258rC1L14-2193S" n="14"/><w>λιθον</w><w>βαλετ<ex>ω</ex></w></ab><ab n="B04K8V8"><w>και</w><w>παλιν</w><w><unclear>κατω</unclear></w><w><unclear>κυψας</unclear></w><w>εγραφεν</w><w>εις</w><w>την</w><w>γην</w></ab><ab n="B04K8V9"><w>οι</w><w>δε</w>
+<lb xml:id="P258rC1L15-2193S" n="15"/><w>ακουσαντες</w><w>και</w><w>υπο</w><w>τ<ex>ης</ex></w><w>συνειδησεως</w><w>ελεγχομενοι</w><w>εξηρ
+<lb break="no" xml:id="P258rC1L16-2193S" n="16"/>χοντο</w><w>εις</w><w>καθ</w><w>εις</w><w>αρξαμενοι</w><w>απο</w><w>τ<ex>ων</ex></w><w>πρεσβυτερ<ex>ων</ex></w><w>και</w><w>κα
+<lb break="no" xml:id="P258rC1L17-2193S" n="17"/>τελειφθη</w><w>μονος</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>η</w><w>γυνη</w><w>εν</w><w>μεσ<ex>ω</ex></w><w>ουσα</w></ab><ab n="B04K8V10"><w>ανακυψας</w><w>δε</w>
+<lb xml:id="P258rC1L18-2193S" n="18"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>μηδενα</w><w>θεασαμενος</w><w>πλην</w><w>τ<ex>ης</ex></w><w>γυν<ex>αι</ex>κο<ex>ς</ex></w><w>ειπεν</w><w>αυτη</w>
+<lb xml:id="P258rC1L19-2193S" n="19"/><w>που</w><w>εισιν</w><w>εκεινοι</w><w>οι</w><w>κ<ex>α</ex>τηγοροι</w><w>σου</w><w>ουδεις</w><w>σε</w><w>κατεκρινεν</w>
+<lb xml:id="P258rC1L20-2193S" n="20"/></ab><ab n="B04K8V11"><w>η</w><w>δε</w><w>ειπεν</w><w>ουδεις</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>ειπε</w><w>δε</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ουδε</w><w>εγω</w><w>σε</w><w>κρινω</w>
+<lb xml:id="P258rC1L21-2193S" n="21"/><w>πορευου</w><w>και</w><w>μηκετι</w><w>αμαρτανε</w></ab><ab n="B04K8V12"><w>παλιν</w><w>ουν</w><w>αυτοις</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+	<lb xml:id="P258rC1L22-2193S" n="22"/><w>ελαλησε</w><w>λεγων</w><w>εγω</w><w>ειμι</w><w>το</w><w>φω<ex>ς</ex></w><w>του</w><w>κοσμου</w><note type="local">8.13-22.0</note><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRfa18">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Fayumic (fa18)</title>
+<title type="document" n="fa18">Vienna, Österreichische Nationalbibliothek K54</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Austria</country>
+ <settlement>Vienna</settlement>
+ <repository>Österreichische Nationalbibliothek</repository>
+ <idno>K 54</idno>
+  <msName xml:lang="en">Coptic (Fayumic) fa 18</msName>
+      <altIdentifier type="SMR"><idno>fa 18</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<additional>Walter Till, “Wiener Faijumica,” Le Muséon 49 (1936): 210; Funk, “Der Anfang des Johannesevangeliums auf faijumisch.” Archiv für Papyrusforschung 34, no. 1 (1988):  40–42.</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="2" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="1" when="2012-02-28">Supplied tag added in first line</change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P1r-fa18" n="1r" type="folio" facs="http://www.iohannes.com/images/coptic/K54r.jpg"/>
+<cb n="P1rC1-fa18"/><note type="editorial">K 54 , recto/verso is uncertain, because the opposite side is completely effaced.</note>
+<lb n="P1rC1L1-fa18"/><div type="book" n="B04"><div type="chapter" n="B04K2"><ab n="B04K2V25"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P1rC1L2-fa18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P1rC1L3-fa18"/><w><unclear>ⲡ</unclear>ⲗ<unclear>ⲱ</unclear><supplied reason="lacuna">ⲙⲓ</supplied></w>
+<lb n="P1rC1L4-fa18" rend="hang"/></ab></div><div type="chapter" n="B04K3"><ab n="B04K3V1"><w>Ⲛⲉⲟ<unclear>ⲩ</unclear><unclear>ⲁ</unclear><unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ⲟⲩⲗⲱⲙⲓ</supplied></w><w><supplied reason="lacuna">ⲇⲉ</supplied></w>
+<lb n="P1rC1L5-fa18"/><w>ⲉⲃⲁ<unclear>ⲗ</unclear></w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲛ</supplied></w><w><supplied reason="lacuna">ⲛⲓⲫⲁⲣⲓⲥⲉ</supplied>
+<lb break="no" xml:id="P1rC1L6-fa18" n="6"/>ⲟⲥ</w><w>ⲉ<unclear>ⲡ</unclear><unclear>ⲉ</unclear><supplied reason="lacuna">ϥⲗⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲓ</supplied>
+<lb break="no" xml:id="P1rC1L7-fa18" n="7"/>ⲕⲟⲇⲏⲙ<unclear>ⲟ</unclear><supplied reason="lacuna">ⲥ</supplied></w><w><supplied reason="lacuna">ⲉⲩⲁⲣⲭⲱⲛ</supplied></w>
+<lb n="P1rC1L8-fa18"/><w><unclear>ⲛ</unclear><unclear>ⲧ</unclear>ⲉ</w><w><unclear>ⲛ</unclear><unclear>ⲓ</unclear>ⲟ<unclear>ⲩ</unclear><supplied reason="lacuna">ⲓⲇⲉⲓ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied></w></ab><ab n="B04K3V2"><w><supplied reason="lacuna">ⲡⲉⲓ</supplied></w>
+<lb n="P1rC1L9-fa18"/><w>ⲁϥⲓ</w><w>ϣⲁⲗⲁ<unclear>ϥ</unclear></w><w><supplied reason="lacuna">ⲛⲧⲉoⲩϣⲏ</supplied></w>
+<lb n="P1rC1L10-fa18"/><w>ⲡⲉϫⲉϥ</w><w><unclear>ⲛ</unclear><supplied reason="lacuna">ⲏϥ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ϩⲣⲁⲃⲃⲓ</supplied></w>
+<lb n="P1rC1L11-fa18"/><w>ⲧⲉⲛⲥ<unclear>ⲁ</unclear><unclear>ⲟ</unclear><supplied reason="lacuna">ⲩⲛ</supplied></w><w><supplied reason="lacuna">ϫⲉ</supplied></w><w><supplied reason="lacuna">ⲛⲧⲉⲕ</supplied>
+<lb break="no" xml:id="P1rC1L12-fa18" n="12"/>ⲟⲩ<supplied reason="lacuna">ⲥⲉϩ</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P1rC1L13-fa18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P1rC1L14-fa18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P1rC1L15-fa18"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">3:3-21:25</note>
+<lb n="P1rC1L16-fa18"/><gap reason="lacuna" unit="char" extent="1"/>
+<pb xml:id="P1v-fa18" n="1v" type="folio" facs="http://www.iohannes.com/images/coptic/K54v.jpg"/>
+</ab></div></div></body></text></TEI>

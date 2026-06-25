@@ -1,0 +1,224 @@
+<!DOCTYPE TEI [
+
+<!ENTITY lac "lac">
+]>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA994S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 994S</title>
+				<title type="document" key="30994" n="994S">GA 994S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>29.10.2013</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>29.10.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>994S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>30994</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+			<change n="3" when="2015-04-21">του κοσμου added to end of 1.29 by Rachel Kevern.</change>
+			<change n="2" when="2014-10-27">αυτου changed to [σε]αυτου at 1.22 by Rachel Kevern.</change>
+			<change n="1" when="2014-05-06">Liste id fixed (was missing a zero) by Rachel Kevern.</change>
+    		<change n="0" when="2014-02-27">Page numbers throughout corrected by Catherine Smith.</change>
+    	</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">509941 Status:G-Α  994 (Supplementary portion) Αthos, Ιviron 170 (19)John begins Folio 129rΤranscribed by: WJΕ Τranscription begun: 20-02-03Τranscription finished: 03.03.03Commentary tags added by S.Gibson: 15/03/12 Τransference to Collate by: WJΕ RΚ ΜΒΜ DCΡ UΒSΤransference to Collate begun:Τransference to Collate finished:File date  and time:Ρlaced in Level1: WJΕLevel1 file date  and time: 03.03.03Ρlaced in Level2: RLΜΡlaced in Level2 by:Level2 file date  and time:Τhese files were  compared and differences resolved by:Ρlaced in  Level3:Ρlaced in  Level3 by:Final transcription file date  and time:  Τhis film is in a  bad state - it is broken in at least 4 places </note>
+<pb xml:id="P129r-994S" n="129r" type="folio"/>
+<cb xml:id="P129rC1-994S" n="1"/>
+		<lb xml:id="P129rC1L1-994S" n="1"/><div type="book" n="B04"><div n="B04K1" type="chapter"><ab n="B04K1V22"><gap reason="lacuna" unit="verse" extent="rest"/><w><supplied reason="inferredPage">σε</supplied>αυτου</w></ab><ab n="B04K1V23"><w>εφη</w><w>εγω</w><w>φωνη</w><w>βοωντος</w><w>εν</w><w>τη</w><w>ερημω</w><w>ευθυνατε</w><w>την</w><w>οδον</w><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><w>καθως</w><w>ειπεν</w><w>ησαιας</w><w>ο</w><w>προφητ<ex>ης</ex></w>
+<lb xml:id="P129rC1L2-994S" n="2"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L3-994S" n="3"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L4-994S" n="4"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L5-994S" n="5"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L6-994S" n="6"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L7-994S" n="7"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L8-994S" n="8"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L9-994S" n="9"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L10-994S" n="10"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L11-994S" n="11"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L12-994S" n="12"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L13-994S" n="13"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L14-994S" n="14"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L15-994S" n="15"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L16-994S" n="16"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L17-994S" n="17"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L18-994S" n="18"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L19-994S" n="19"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L20-994S" n="20"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L21-994S" n="21"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L22-994S" n="22"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L23-994S" n="23"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L24-994S" n="24"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L25-994S" n="25"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L26-994S" n="26"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L27-994S" n="27"/></ab><ab n="B04K1V24"><w>Και</w><w>οι</w><w>απεσταλμενοι</w><w>ησαν</w><w>εκ</w><w>τ<ex>ων</ex></w><w>φαρισαι<ex>ων</ex></w></ab><ab n="B04K1V25"><w><ex>και</ex></w><w>ηρωτησ<ex>αν</ex></w><w>αυτον</w><w>και</w><w>ειπον</w><w>αυτω</w><w>τι</w><w>ουν</w><w>βαπτιζεις</w><w>ει</w><w>συ</w>
+<lb xml:id="P129rC1L28-994S" n="28"/><w>ουκ</w><w>ει</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w><w>ουτε</w><w>ηλι<ex>ας</ex></w><w>ουτε</w><w>ο</w><w>προφητ<ex>ης</ex></w><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L29-994S" n="29"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L30-994S" n="30"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L31-994S" n="31"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L32-994S" n="32"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L33-994S" n="33"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L34-994S" n="34"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L35-994S" n="35"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129rC1L36-994S" n="36"/><note type="commentary">Untranscribed commentary text</note>
+<pb xml:id="P129v-994S" n="129v" type="folio"/>
+<cb xml:id="P129vC1-994S" n="1"/>
+<lb xml:id="P129vC1L1-994S" n="1"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L2-994S" n="2"/><note type="commentary">Untranscribed commentary text</note></ab><ab n="B04K1V26"><w>Απεκριθη</w><w>αυτ<ex>οις</ex></w><w>ο</w><w>ιωανν<ex>ης</ex></w><w>λεγ<ex>ων</ex></w><w>εγω</w><w>βαπτιζω</w><w>εν</w><w>υδατι</w><w>μεσο<ex>ς</ex></w><w><ex>δε</ex></w><w>υμ<ex>ων</ex></w><w>εστηκ<ex>εν</ex></w><w>ον</w><w>υ
+<lb break="no" xml:id="P129vC1L3-994S" n="3"/>μ<ex>εις</ex></w><w>ουκ</w><w>οιδατε</w></ab><ab n="B04K1V27"><w>αυτος</w><w>εστιν</w><w>ο</w><w>οπισω</w><w>μου</w><w>ερχομ<ex>ενος</ex></w><w>ος</w><w>εμπροσθεν</w><w>μου</w><w>γεγον<ex>εν</ex></w><w>ου</w><w>εγω</w><w>ουκ</w><w>ειμι</w><w>αξιο<ex>ς</ex></w><w>ινα</w><w>λυσω</w><w>αυτ<ex>ου</ex></w><w>τ<ex>ον</ex></w><w>ιμαντα</w><w>του</w><w>υποδημ<supplied reason="illegible">ατος</supplied></w>
+<lb xml:id="P129vC1L4-994S" n="4"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L5-994S" n="5"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L6-994S" n="6"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L7-994S" n="7"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L8-994S" n="8"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L9-994S" n="9"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L10-994S" n="10"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L11-994S" n="11"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L12-994S" n="12"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L13-994S" n="13"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L14-994S" n="14"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L15-994S" n="15"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L16-994S" n="16"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L17-994S" n="17"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L18-994S" n="18"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L19-994S" n="19"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L20-994S" n="20"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L21-994S" n="21"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L22-994S" n="22"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L23-994S" n="23"/></ab><ab n="B04K1V28"><w>Ταυτα</w><w>εν</w><w>βηθανια</w><w>εγενετο</w><w>περ<ex>αν</ex></w><w>του</w><w>ιορδανου</w><w>οπου</w><w>ην</w><w>ιωανν<ex>ης</ex></w><w>βαπτιζ<ex>ων</ex></w><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L24-994S" n="24"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L25-994S" n="25"/><note type="commentary">Untranscribed commentary text</note>
+	<lb xml:id="P129vC1L26-994S" n="26"/><note type="commentary">Untranscribed commentary text</note></ab><ab n="B04K1V29"><w>Τη</w><w>επαυρι<ex>ον</ex></w><w>βλεπει</w><w>τ<ex>ον</ex></w><w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><w>ερχομ<ex>ενον</ex></w><w>π<ex>ρ</ex>ος</w><w>αυτον</w><w>και</w><w>λεγει</w><w>ιδε</w><w>ο</w><w>αμνο<ex>ς</ex></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>ο</w><w>αιρων</w><w>την</w><w>αμαρτιαν</w><w>του</w><w>κοσμου</w>
+<lb xml:id="P129vC1L27-994S" n="27"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L28-994S" n="28"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L29-994S" n="29"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L30-994S" n="30"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L31-994S" n="31"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L32-994S" n="32"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L33-994S" n="33"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L34-994S" n="34"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L35-994S" n="35"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L36-994S" n="36"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L37-994S" n="37"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L38-994S" n="38"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L39-994S" n="39"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L40-994S" n="40"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L41-994S" n="41"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L42-994S" n="42"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L43-994S" n="43"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L44-994S" n="44"/></ab><ab n="B04K1V30"><w>ουτος</w><w>εστι</w><w>περι</w><w>ου</w><w>εγω</w><w>ειπον</w><w>οπισω</w><w>μου</w><w>ερχ<ex>ομενος</ex></w><w>α
+<lb break="no" xml:id="P129vC1L45-994S" n="45"/>νηρ</w><w>ος</w><w>εμπροσθεν</w><w>μου</w><w>γεγον<ex>εν</ex></w><w>οτι</w><w>πρωτος</w><w>μου</w><w>ην</w><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L46-994S" n="46"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L47-994S" n="47"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L48-994S" n="48"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L49-994S" n="49"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L50-994S" n="50"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L51-994S" n="51"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L52-994S" n="52"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P129vC1L53-994S" n="53"/><note type="commentary">Untranscribed commentary text</note>
+<pb xml:id="P130r-994S" n="130r" type="folio"/>
+<cb xml:id="P130rC1-994S" n="1"/>
+<lb xml:id="P130rC1L1-994S" n="1"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L2-994S" n="2"/></ab><ab n="B04K1V31"><w>Καγω</w><w>ουκ</w><w>ηδειν</w><w>αυτον</w><w>αλλ</w><w>ινα</w><w>φανερωθη</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><w>δια</w><w>τουτο</w><w>ηλθο<ex>ν</ex></w><w>εγω</w><w>εν</w><w>τω</w><w>υδατι</w><w>βαπτιζ<ex>ων</ex></w></ab><ab n="B04K1V32"><w><ex>και</ex></w><w>εμαρτυρησ<ex>εν</ex></w><w>ιωανν<ex>ης</ex></w><w>λεγων</w><w>οτι</w><w>τεθεαμ<ex>αι</ex></w>
+<lb xml:id="P130rC1L3-994S" n="3"/><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>καταβαιν<ex>ον</ex></w><w>ωσει</w><w>περιστεραν</w><w>εξ</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w><ex>και</ex></w><w>εμεινεν</w><w>επ</w><w>αυτον</w></ab><ab n="B04K1V33"><w>καγω</w><w>ουκ</w><w>ηδειν</w><w>αυτον</w><w>αλλ</w><w>ο</w><w>πεμψας</w><w>με</w><w>βαπτιζ<ex>ειν</ex></w><w>εν</w><w>υδατι</w><w>εκεινο<ex>ς</ex></w>
+<lb xml:id="P130rC1L4-994S" n="4"/><w>μοι</w><w>ειπ<ex>εν</ex></w><w>εφ</w><w>ον</w><w>αν</w><w>ιδης</w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>καταβαιν<ex>ον</ex></w><w><ex>και</ex></w><w>μεν<ex>ον</ex></w><w>επ</w><w>αυτον</w><w>ουτο<ex>ς</ex></w><w>εστιν</w><w>ο</w><w>βαπτιζ<ex>ων</ex></w><w>εν</w><w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><w>αγιω</w></ab><ab n="B04K1V34"><app><rdg type="orig" hand="firsthand"><w>καγω</w><w>εωρακα</w><w>και</w><w>μεμαρτυρηκα</w><w>οτι</w><w>ουτο<ex>ς</ex></w><w>εστιν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></rdg><rdg type="corr" hand="corrector"></rdg></app>
+<lb xml:id="P130rC1L5-994S" n="5"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L6-994S" n="6"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L7-994S" n="7"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L8-994S" n="8"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L9-994S" n="9"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L10-994S" n="10"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L11-994S" n="11"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L12-994S" n="12"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L13-994S" n="13"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L14-994S" n="14"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L15-994S" n="15"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L16-994S" n="16"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L17-994S" n="17"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L18-994S" n="18"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L19-994S" n="19"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L20-994S" n="20"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L21-994S" n="21"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L22-994S" n="22"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L23-994S" n="23"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L24-994S" n="24"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L25-994S" n="25"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L26-994S" n="26"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L27-994S" n="27"/><note type="commentary">Untranscribed commentary text</note><w>Καγω</w><w>εωρακα</w>
+<lb xml:id="P130rC1L28-994S" n="28"/><w>και</w><w>μεμαρτυρηκα</w><w>οτι</w><w>ουτος</w><w>εστιν</w><w>ο</w><w>υιος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L29-994S" n="29"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L30-994S" n="30"/><note type="commentary">Untranscribed commentary text</note></ab><ab n="B04K1V35"><w>Τη</w><w>επαυρι<ex>ον</ex></w><w>παλ<ex>ιν</ex></w><w>ειστηκει</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w><w><ex>και</ex></w><w>εκ</w><w>τ<ex>ων</ex></w><w>μαθητ<ex>ων</ex></w><w>αυτου</w><w>δυο</w></ab><ab n="B04K1V36"><w>και</w><w>εμβλεψ<ex>ας</ex></w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><w>περι
+<lb break="no" xml:id="P130rC1L31-994S" n="31"/><supplied reason="illegible">πατ</supplied>ουντ<unclear>η</unclear></w><w>λεγει</w><w>ουτο<ex>ς</ex></w><w>ο</w><w>αμνο<ex>ς</ex></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab><ab n="B04K1V37"><w>και</w><w>ηκουσ<ex>αν</ex></w><w>αυτ<ex>ου</ex></w><w>οι</w><w>δυο</w><w>μαθηται</w><w>λαλουντο<ex>ς</ex></w><w>και</w><w>ηκολουθησ<ex>αν</ex></w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w>
+<lb xml:id="P130rC1L32-994S" n="32"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L33-994S" n="33"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130rC1L34-994S" n="34"/><note type="commentary">Untranscribed commentary text</note>
+<pb xml:id="P130v-994S" n="130v" type="folio"/>
+<cb xml:id="P130vC1-994S" n="1"/>
+<lb xml:id="P130vC1L1-994S" n="1"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L2-994S" n="2"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L3-994S" n="3"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L4-994S" n="4"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L5-994S" n="5"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L6-994S" n="6"/><note type="commentary">Untranscribed commentary text</note></ab><ab n="B04K1V38"><w>Στραφ<ex>εις</ex></w><w><ex>δε</ex></w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w><ex>και</ex></w><w>θεασαμ<ex>ενος</ex></w><w>αυτ<ex>ους</ex></w><w>ακολουθουντ<ex>ας</ex></w><w>λεγει</w><w>αυτ<ex>οις</ex></w><w>τι</w><w>ζη
+<lb break="no" xml:id="P130vC1L7-994S" n="7"/>τειτε</w><w>οι</w><w>δε</w><w>ειπον</w><w>αυτω</w><w>ραββι</w><w>ο</w><w>λεγετ<ex>αι</ex></w><w>ερμηνευομ<ex>εν</ex>ον</w><w>διδασκαλε</w><w>που</w><w>μεν<ex>εις</ex></w></ab><ab n="B04K1V39"><w>λεγει</w><w>αυτ<ex>οις</ex></w><w>ερχεσθ<ex>αι</ex></w><w><ex>και</ex></w><w>ιδετε</w><w>ηλθον</w><w>ουν</w>
+<lb xml:id="P130vC1L8-994S" n="8"/><w>και</w><w>ειδον</w><w>που</w><w>μενει</w><w>και</w><w>παρ</w><w>αυτω</w><w>εμειν<ex>αν</ex></w><w>την</w><w>ημερ<ex>αν</ex></w><w>εκειν<ex>ην</ex></w><w>ωρα</w><w>ην</w><w>ως</w><w>δεκατη</w>
+<lb xml:id="P130vC1L9-994S" n="9"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L10-994S" n="10"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L11-994S" n="11"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L12-994S" n="12"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L13-994S" n="13"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L14-994S" n="14"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L15-994S" n="15"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L16-994S" n="16"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L17-994S" n="17"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L18-994S" n="18"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L19-994S" n="19"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L20-994S" n="20"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L21-994S" n="21"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L22-994S" n="22"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L23-994S" n="23"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L24-994S" n="24"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L25-994S" n="25"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L26-994S" n="26"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L27-994S" n="27"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L28-994S" n="28"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L29-994S" n="29"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L30-994S" n="30"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L31-994S" n="31"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L32-994S" n="32"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L33-994S" n="33"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L34-994S" n="34"/><note type="commentary">Untranscribed commentary text</note>
+<lb xml:id="P130vC1L35-994S" n="35"/><note type="commentary">Untranscribed commentary text</note><note type="local">1.40-22.0</note></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

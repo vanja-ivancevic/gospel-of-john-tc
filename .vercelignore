@@ -1,0 +1,5 @@
+# Vercel only serves the static dashboard in site/ (configured via vercel.json
+# outputDirectory). Exclude everything else so deploys stay small and fast.
+/*
+!/site
+!/vercel.json

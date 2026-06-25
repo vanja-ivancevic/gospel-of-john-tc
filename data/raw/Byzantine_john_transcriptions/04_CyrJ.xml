@@ -1,0 +1,942 @@
+<!DOCTYPE TEI [
+<!ENTITY lac-allusion "(allusion)">
+<!ENTITY lac-absent "(not quoted)">
+<!ENTITY lac-allusions "(allusions)">
+]>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John for the Byzantine Text Project</title>
+<title type="document" key="CyrJ">Cyril of Jerusalem</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>Roderic L. Mullen</name><name>and members of the International Greek New Testament Project</name>
+</respStmt>
+<funder>The United Bible Societies</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.0">Version 2.0, created <date>11.7.2014</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>11.7.2014</date>
+<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country/>
+ <settlement/>
+ <repository/>
+ <idno/>
+ <msName xml:lang="en">Cyril of Jerusalem (text reconstructed from citations)</msName>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by Roderic Mullen and colleagues on the International Greek New Testament Project working towards an Electronic Edition of the Gospel According to John in the Byzantine Tradition, first published in 2007.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/byzantine/"/></p>
+
+<p>The plain text file was converted to XML by Hugh Houghton and Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p>
+<p>The original plain text header reads as follows: Status:Cyril of Jerusalem --from RLM's book, which see for further details John begins Folio Transcribed by: RLMTranscription begun: 1992Transcription finished: 1993Transference to Collate by: RLMTransference to Collate begun: 15.07.03Transference to Collate finished: 15.07.03File date  and time:Placed in Level1: RLMLevel1 file date  and time: 15.07.03Placed in Level2:Placed in Level2 by: RLM-CJSLevel2 file date  and time: 21.07.03These files were  compared and differences resolved by:Placed in  Level3:Placed in  Level3 by:Final transcription file date  and time:  note-- The remark (allusion) means that all or part of a verse is attested only by an allusion.  The Greek is  given in parts of the  verse where clear textual info is discernable.</p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="0" when="2014-07-09">Converted from plain text by Hugh Houghton using Python conversion scripts 1.0.</change>
+</revisionDesc>
+
+</teiHeader><text xml:lang="grc"><body><div n="04" type="book"><div type="incipit" n="B04incipit"><ab>(not quoted) </ab>
+<lb/></div><lb/><div n="B04K1" type="chapter"><ab n="B04K1V1"><w>εν</w><w>αρχη</w><w>ην</w><w>ο</w><w>λογος</w><w>και</w><w>ο</w><w>λογος</w><w>ην</w><w>προς</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><w>και</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>ην</w><w>ο</w><w>λογος</w></ab>
+<lb/><ab n="B04K1V2">(not quoted) </ab>
+<lb/><ab n="B04K1V3"><w>παντα</w><note type="local">gar-ADAPT twice</note><w>δι</w><w>αυτου</w><w>εγενετο</w><w>και</w><w>χωρις</w><w>αυτου</w><w>εγενετο</w><w>ουδε</w><w>εν</w>(not quoted) </ab>
+<lb/><ab n="B04K1V4">(not quoted) </ab>
+<lb/><ab n="B04K1V5">(not quoted) </ab>
+<lb/><ab n="B04K1V6">(not quoted) </ab>
+<lb/><ab n="B04K1V7">(not quoted) </ab>
+<lb/><ab n="B04K1V8">(not quoted) </ab>
+<lb/><ab n="B04K1V9">(not quoted) </ab>
+<lb/><ab n="B04K1V10"><w>εν</w><note type="local">gar-ADAPT</note><w>τω</w><w>κοσμω</w><w>ην</w><w>και</w><w>ο</w><w>κοσμος</w><w>δι</w><w>αυτου</w><w>εγενετο</w>(not quoted) </ab>
+<lb/><ab n="B04K1V11"><w>εις</w><note type="local">gar-ADAPT twice</note><w>τα</w><w>ιδια</w><w>ηλθε</w><w>και</w><w>οι</w><w>ιδιοι</w><w>αυτον</w><w>ου</w><w>παρελαβον</w></ab>
+<lb/><ab n="B04K1V12"><w>οσοι</w><w>δε</w><w>ελαβον</w><w>αυτον</w><w>εδωκεν</w><w>αυτοις</w><w>εξουσιαν</w><w>τεκνα</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>γενεσθαι</w><w>τοις</w><w>πιστευουσιν</w><w>εις</w><w>το</w><w>ονομα</w><w>αυτου</w></ab>
+<lb/><ab n="B04K1V13"><w>οι</w><w>ουκ</w><w>εξ</w><w>αιματων</w><w>ουδε</w><w>εκ</w><w>θεληματος</w><w>σαρκος</w><w>ουδε</w><w>εκ</w><w>θεληματος</w><w>ανδρος</w><w>αλλ</w><w>εκ</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>εγεννηθησαν</w></ab>
+<lb/><ab n="B04K1V14"><w>και</w><w>ο</w><w>λογος</w><w>σαρξ</w><w>εγενετο</w><w>και</w><w>εσκηνωσεν</w><w>εν</w><w>ημιν</w><w>και</w><w>εθεασαμεθα</w><w>την</w><w>δοξαν</w><w>αυτου</w><w>δοξαν</w><w>ως</w><w>μονογενους</w><w>παρα</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>πληρης</w><w>χαριτος</w><w>και</w><w>αληθειας</w></ab>
+<lb/><ab n="B04K1V15">(not quoted) </ab>
+<lb/><ab n="B04K1V16">(not quoted) </ab>
+<lb/><ab n="B04K1V17">(not quoted) </ab>
+<lb/><ab n="B04K1V18"><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><w>ουδεις</w><w>εωρακε</w><w>πωποτε</w><w>ο</w><w>μονογενης</w>(not quoted) <w>εξηγησατο</w></ab>
+<lb/><ab n="B04K1V19">(not quoted) </ab>
+<lb/><ab n="B04K1V20">(not quoted) </ab>
+<lb/><ab n="B04K1V21">(not quoted) </ab>
+<lb/><ab n="B04K1V22">(not quoted) </ab>
+<lb/><ab n="B04K1V23">(not quoted) <w>ευθυνατε</w><w>την</w><w>οδον</w><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w>(not quoted) </ab>
+<lb/><ab n="B04K1V24">(not quoted) </ab>
+<lb/><ab n="B04K1V25">(not quoted) </ab>
+<lb/><ab n="B04K1V26">(not quoted) </ab>
+<lb/><ab n="B04K1V27">(not quoted) </ab>
+<lb/><ab n="B04K1V28">(not quoted) </ab>
+<lb/><ab n="B04K1V29">(not quoted) </ab>
+<lb/><ab n="B04K1V30">(not quoted) </ab>
+<lb/><ab n="B04K1V31">(not quoted) </ab>
+<lb/><ab n="B04K1V32">(not quoted) </ab>
+<lb/><ab n="B04K1V33"><w>εγω</w><w>ουκ</w><w>ηδειν</w><w>αυτον</w><w>αλλ</w><w>ο</w><w>πεμψας</w><w>με</w><w>βαπτιζειν</w><w>εν</w><w>υδατι</w><w>εκεινος</w><w>μοι</w><w>ειπεν</w><w>εφ</w><w>ον</w><w>αν</w><w>ιδης</w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>καταβαινον</w><w>και</w><w>μενον</w><w>επ</w><w>αυτον</w><app><rdg type="PatrAlt" hand="A"><w>εκεινος</w></rdg><rdg type="PatrAlt" hand="B"><w>ουτος</w></rdg></app><w>εστιν</w><w>ο</w><w>βαπτιζων</w><w>εν</w><w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><w>αγιω</w></ab>
+<lb/><ab n="B04K1V34">(not quoted) </ab>
+<lb/><ab n="B04K1V35">(not quoted) </ab>
+<lb/><ab n="B04K1V36">(not quoted) </ab>
+<lb/><ab n="B04K1V37">(not quoted) </ab>
+<lb/><ab n="B04K1V38">(not quoted) </ab>
+<lb/><ab n="B04K1V39">(not quoted) </ab>
+<lb/><ab n="B04K1V40">(not quoted) </ab>
+<lb/><ab n="B04K1V41">(not quoted) </ab>
+<lb/><ab n="B04K1V42">(not quoted) </ab>
+<lb/><ab n="B04K1V43">(not quoted) </ab>
+<lb/><ab n="B04K1V44">(not quoted) </ab>
+<lb/><ab n="B04K1V45">(not quoted) </ab>
+<lb/><ab n="B04K1V46">(not quoted) </ab>
+<lb/><ab n="B04K1V47">(not quoted) </ab>
+<lb/><ab n="B04K1V48">(not quoted) </ab>
+<lb/><ab n="B04K1V49">(not quoted) </ab>
+<lb/><ab n="B04K1V50">(not quoted) </ab>
+<lb/><ab n="B04K1V51">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K2" type="chapter"><ab n="B04K2V1">(not quoted) </ab>
+<lb/><ab n="B04K2V2">(not quoted) </ab>
+<lb/><ab n="B04K2V3">(not quoted) </ab>
+<lb/><ab n="B04K2V4">(not quoted) </ab>
+<lb/><ab n="B04K2V5">(not quoted) </ab>
+<lb/><ab n="B04K2V6">(not quoted) </ab>
+<lb/><ab n="B04K2V7">(not quoted) </ab>
+<lb/><ab n="B04K2V8">(not quoted) </ab>
+<lb/><ab n="B04K2V9">(not quoted) </ab>
+<lb/><ab n="B04K2V10">(not quoted) </ab>
+<lb/><ab n="B04K2V11">(not quoted) </ab>
+<lb/><ab n="B04K2V12">(not quoted) </ab>
+<lb/><ab n="B04K2V13">(not quoted) </ab>
+<lb/><ab n="B04K2V14">(not quoted) </ab>
+<lb/><ab n="B04K2V15">(not quoted) </ab>
+<lb/><ab n="B04K2V16">(not quoted) <w>αρατε</w><w>ταυτα</w><w>εντευθεν</w><w>και</w><w>μη</w><w>ποιειτε</w><w>τον</w><w>οικον</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>μου</w><w>οικον</w><w>εμποριου</w></ab>
+<lb/><ab n="B04K2V17">(not quoted) </ab>
+<lb/><ab n="B04K2V18">(not quoted) </ab>
+<lb/><ab n="B04K2V19">(not quoted) </ab>
+<lb/><ab n="B04K2V20">(not quoted) </ab>
+<lb/><ab n="B04K2V21">(not quoted) </ab>
+<lb/><ab n="B04K2V22">(not quoted) </ab>
+<lb/><ab n="B04K2V23">(not quoted) </ab>
+<lb/><ab n="B04K2V24">(not quoted) </ab>
+<lb/><ab n="B04K2V25">(not quoted) <w>ου</w><w>χρειαν</w><w>ειχεν</w><w>ινα</w><w>τις</w><w>αυτον</w><w>ερωτησε</w><w>περι</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><w>αυτος</w><w>γαρ</w><w>ηδει</w><w>τι</w><w>ην</w><w>εν</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ανω</hi></abbr></w><note type="local">this verse ADAPT</note></ab>
+<lb/></div><lb/><div n="B04K3" type="chapter"><ab n="B04K3V1">(not quoted) </ab>
+<lb/><ab n="B04K3V2">(not quoted) </ab>
+<lb/><ab n="B04K3V3">(not quoted) </ab>
+<lb/><ab n="B04K3V4">(not quoted) </ab>
+<lb/><ab n="B04K3V5">(not quoted) <w>εαν</w><w>μη</w><w>τις</w><w>γεννηθη</w><w>εξ</w><w>υδατος</w><w>και</w><w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w><w>ου</w><w>δυναται</w><w>εισελθειν</w><w>εις</w><w>την</w><w>βασιλειαν</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab>
+<lb/><ab n="B04K3V6">(not quoted) </ab>
+<lb/><ab n="B04K3V7">(not quoted) </ab>
+<lb/><ab n="B04K3V8"><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>οπου</w><w>θελει</w><w>πνει</w><w>και</w><w>την</w><w>φωνην</w><w>αυτου</w><w>ακουεις</w><w>αλλ</w><w>ουκ</w><w>οιδας</w><w>ποθεν</w><w>ερχεται</w><w>και</w><w>που</w><w>υπαγει</w>(not quoted) </ab>
+<lb/><ab n="B04K3V9">(not quoted) </ab>
+<lb/><ab n="B04K3V10">(not quoted) </ab>
+<lb/><ab n="B04K3V11">(not quoted) </ab>
+<lb/><ab n="B04K3V12">(not quoted) </ab>
+<lb/><ab n="B04K3V13">(not quoted) </ab>
+<lb/><ab n="B04K3V14">(not quoted) <w>οφις</w>(not quoted) <w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>(allusion)</w></ab>
+<lb/><ab n="B04K3V15"><w>(allusion)</w></ab>
+<lb/><ab n="B04K3V16"><w>ουτω</w><w>γαρ</w><w>ηγαπησεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τον</w><w>κοσμον</w><w>ωστε</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>αυτου</w><w>τον</w><w>μονογενη</w><w>εδωκεν</w><w>ινα</w><w>ο</w><w>πιστευων</w><w>εις</w><w>αυτον</w><w>μη</w><w>αποληται</w><w>αλλ</w><w>εχη</w><w>ζωην</w><w>αιωνιον</w></ab>
+<lb/><ab n="B04K3V17">(not quoted) </ab>
+<lb/><ab n="B04K3V18"><w>ο</w><w>πιστευων</w><w>εις</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>ου</w><w>κρινεται</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K3V19">(not quoted) </ab>
+<lb/><ab n="B04K3V20">(not quoted) </ab>
+<lb/><ab n="B04K3V21">(not quoted) </ab>
+<lb/><ab n="B04K3V22">(not quoted) </ab>
+<lb/><ab n="B04K3V23">(not quoted) </ab>
+<lb/><ab n="B04K3V24">(not quoted) </ab>
+<lb/><ab n="B04K3V25">(not quoted) </ab>
+<lb/><ab n="B04K3V26">(not quoted) </ab>
+<lb/><ab n="B04K3V27">(not quoted) </ab>
+<lb/><ab n="B04K3V28">(not quoted) </ab>
+<lb/><ab n="B04K3V29">(not quoted) </ab>
+<lb/><ab n="B04K3V30">(not quoted) </ab>
+<lb/><ab n="B04K3V31">(not quoted) </ab>
+<lb/><ab n="B04K3V32">(not quoted) </ab>
+<lb/><ab n="B04K3V33">(not quoted) </ab>
+<lb/><ab n="B04K3V34">(not quoted) <w>ου</w><w>γαρ</w><w>εκ</w><w>μετρου</w><w>διδωσιν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w></ab>
+<lb/><ab n="B04K3V35"><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>αγαπα</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>και</w><w>παντα</w><w>δεδωκεν</w><w>εν</w><w>τη</w><w>χειρι</w><w>αυτου</w></ab>
+<lb/><ab n="B04K3V36"><w>ο</w><w>πιστευων</w><w>εις</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>εχει</w><w>ζωην</w><w>αιωνιον</w><w>ο</w><w>δε</w><w>απειθων</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">υω</hi></abbr></w><w>ουκ</w><w>οψεται</w><app><rdg type="PatrAlt" hand="A"></rdg><rdg type="PatrAlt" hand="B"><w>την</w></rdg></app><w>ζωην</w><w>αλλ</w><w>η</w><w>οργη</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>μενει</w><w>επ</w><w>αυτον</w></ab>
+<lb/></div><lb/><div n="B04K4" type="chapter"><ab n="B04K4V1">(not quoted) </ab>
+<lb/><ab n="B04K4V2">(not quoted) </ab>
+<lb/><ab n="B04K4V3">(not quoted) </ab>
+<lb/><ab n="B04K4V4">(not quoted) </ab>
+<lb/><ab n="B04K4V5">(not quoted) </ab>
+<lb/><ab n="B04K4V6">(not quoted) </ab>
+<lb/><ab n="B04K4V7">(not quoted) </ab>
+<lb/><ab n="B04K4V8">(not quoted) </ab>
+<lb/><ab n="B04K4V9">(not quoted) </ab>
+<lb/><ab n="B04K4V10">(not quoted) </ab>
+<lb/><ab n="B04K4V11">(not quoted) </ab>
+<lb/><ab n="B04K4V12">(not quoted) </ab>
+<lb/><ab n="B04K4V13">(not quoted) </ab>
+<lb/><ab n="B04K4V14"><w>ος</w><w>δ</w><w>αν</w><w>πιη</w><w>εκ</w><w>του</w><w>υδατος</w>(not quoted) <w>αλλα</w><w>το</w><w>υδωρ</w><w>ο</w><w>δωσω</w><w>αυτω</w><w>γενησεται</w><w>εν</w><w>αυτω</w><w>πηγη</w><w>υδατος</w><app><rdg type="PatrAlt" hand="A"></rdg><rdg type="PatrAlt" hand="B"><w>ζωντος</w></rdg></app><w>αλλομενου</w><w>εις</w><w>ζωην</w><w>αιωνιον</w></ab>
+<lb/><ab n="B04K4V15">(not quoted) </ab>
+<lb/><ab n="B04K4V16">(not quoted) </ab>
+<lb/><ab n="B04K4V17">(not quoted) </ab>
+<lb/><ab n="B04K4V18">(not quoted) </ab>
+<lb/><ab n="B04K4V19">(not quoted) </ab>
+<lb/><ab n="B04K4V20">(not quoted) </ab>
+<lb/><ab n="B04K4V21">(not quoted) </ab>
+<lb/><ab n="B04K4V22">(not quoted) </ab>
+<lb/><ab n="B04K4V23"><w>αλλ</w><w>ερχεται</w><w>ωρα</w><w>και</w><w>νυν</w><w>εστιν</w><w>οτε</w><w>οι</w><w>αληθινοι</w><w>προσκυνηται</w><w>προσκυνησουσι</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">πρι</hi></abbr></w><w>εν</w><w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><w>και</w><w>αληθεια</w><w>και</w><w>γαρ</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>τοιουτους</w><w>ζητει</w><w>τους</w><w>προσκυνουντας</w><w>αυτον</w></ab>
+<lb/><ab n="B04K4V24"><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>και</w><w>τους</w><w>προσκυνουντας</w><w>αυτον</w><w>εν</w><w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><w>και</w><w>αληθεια</w><w>δει</w><w>προσκυνειν</w></ab>
+<lb/><ab n="B04K4V25">(not quoted) </ab>
+<lb/><ab n="B04K4V26">(not quoted) </ab>
+<lb/><ab n="B04K4V27">(not quoted) </ab>
+<lb/><ab n="B04K4V28">(not quoted) </ab>
+<lb/><ab n="B04K4V29"><w>δευτε</w><w>ιδετε</w><w><abbr type="nomSac"><hi rend="overline">ανον</hi></abbr></w><w>ος</w><w>ειπε</w><w>μοι</w><w>παντα</w><w>οσα</w><w>εποιησα</w><w>μητι</w><w>ουτος</w><w>εστιν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w></ab>
+<lb/><ab n="B04K4V30">(not quoted) </ab>
+<lb/><ab n="B04K4V31">(not quoted) </ab>
+<lb/><ab n="B04K4V32">(not quoted) </ab>
+<lb/><ab n="B04K4V33">(not quoted) </ab>
+<lb/><ab n="B04K4V34">(not quoted) </ab>
+<lb/><ab n="B04K4V35">(not quoted) </ab>
+<lb/><ab n="B04K4V36"><w>και</w><w>ο</w><w>θεριζων</w><w>μισθον</w><w>λαμβανει</w><w>και</w><w>συναγει</w><w>καρπον</w><w>εις</w><w>ζωην</w><w>αιωνιον</w>(not quoted) </ab>
+<lb/><ab n="B04K4V37">(not quoted) </ab>
+<lb/><ab n="B04K4V38">(not quoted) </ab>
+<lb/><ab n="B04K4V39">(not quoted) </ab>
+<lb/><ab n="B04K4V40">(not quoted) </ab>
+<lb/><ab n="B04K4V41">(not quoted) </ab>
+<lb/><ab n="B04K4V42">(not quoted) </ab>
+<lb/><ab n="B04K4V43">(not quoted) </ab>
+<lb/><ab n="B04K4V44">(not quoted) </ab>
+<lb/><ab n="B04K4V45">(not quoted) </ab>
+<lb/><ab n="B04K4V46">(not quoted) </ab>
+<lb/><ab n="B04K4V47">(not quoted) </ab>
+<lb/><ab n="B04K4V48">(not quoted) </ab>
+<lb/><ab n="B04K4V49">(not quoted) </ab>
+<lb/><ab n="B04K4V50">(not quoted) </ab>
+<lb/><ab n="B04K4V51">(not quoted) </ab>
+<lb/><ab n="B04K4V52">(not quoted) </ab>
+<lb/><ab n="B04K4V53">(not quoted) </ab>
+<lb/><ab n="B04K4V54">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K5" type="chapter"><ab n="B04K5V1">(not quoted) </ab>
+<lb/><ab n="B04K5V2">(not quoted) <w>εν</w><note type="local">gar-- ADAPT</note><w>τοις</w><w>ιεροσολυμοις</w><w>ην</w><note type="local">ADAPT</note><w>προβατικη</w><w>κολυμβηθρα</w>(not quoted) <w>πεντε</w><w>στοας</w><w>εχουσα</w></ab>
+<lb/><ab n="B04K5V3"><w>εν</w><w>η</w><w>κατεκειτο</w><w>πληθος</w><w>ασθενουντων</w>(not quoted) </ab>
+<lb/><ab n="B04K5V4">(not quoted) </ab>
+<lb/><ab n="B04K5V5">(not quoted) <w>οκτω</w><w>και</w><w>τριακοντα</w><w>ετη</w><note type="local">ADAPT</note>(not quoted) </ab>
+<lb/><ab n="B04K5V6">(not quoted) <w>ιδων</w>(not quoted) <w>κατακειμενον</w>(not quoted) <w>γνους</w>(not quoted) <w>πολυν</w>(not quoted) <w>χρονον</w>(not quoted) <w>θελεις</w><w>υγιης</w><w>γενεσθαι</w></ab>
+<lb/><ab n="B04K5V7">(not quoted) <w>ναι</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ανον</hi></abbr></w><w>δε</w><w>ουκ</w><w>εχω</w><w>ινα</w><w>οταν</w><w>ταραχθη</w><w>το</w><w>υδωρ</w><w>βαλη</w><w>με</w><w>εις</w><w>την</w><w>κολυμβηθραν</w>(not quoted) </ab>
+<lb/><ab n="B04K5V8">(not quoted) <w>εγειραι</w><w>αρον</w><w>τον</w><w>κραββατον</w><w>σου</w><w>και</w><w>περιπατει</w></ab>
+<lb/><ab n="B04K5V9"><w>(allusion)</w></ab>
+<lb/><ab n="B04K5V10">(not quoted) <w>σαββατον</w><w>εστιν</w><w>ουκ</w><w>εξεστιν</w><w>σοι</w><w>αραι</w><w>τον</w><w>κραββατον</w><w>σου</w></ab>
+<lb/><ab n="B04K5V11">(not quoted) <w>ο</w><w>ποιησας</w><w>με</w><w>υγιη</w><w>εκεινος</w><w>μοι</w><w>ειπεν</w><w>αρον</w><w>τον</w><w>κραββατον</w><w>σου</w>(not quoted) </ab>
+<lb/><ab n="B04K5V12">(not quoted) </ab>
+<lb/><ab n="B04K5V13">(not quoted) <w>ουκ</w><w>ηδει</w><w>ο</w><w>θεραπευθεις</w><w>τις</w><w>εστιν</w><w>ο</w><w>θεραπευων</w><note type="local">ADAPT</note></ab>
+<lb/><ab n="B04K5V14">(not quoted) <w>ιδε</w><w>υγιης</w><w>γεγονας</w><w>μηκετι</w><w>αμαρτανε</w><w>ινα</w><w>μη</w><app><rdg type="PatrAlt" hand="A"><w>χειρον</w><w>σοι</w><w>τι</w></rdg><rdg type="PatrAlt" hand="B"><w>τι</w><w>σοι</w><w>χειρον</w></rdg></app><w>γενηται</w></ab>
+<lb/><ab n="B04K5V15">(not quoted) </ab>
+<lb/><ab n="B04K5V16">(not quoted) </ab>
+<lb/><ab n="B04K5V17">(not quoted) <w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>μου</w><w>εως</w><w>αρτι</w><w>εργαζεται</w><w>καγω</w><w>εργαζομαι</w></ab>
+<lb/><ab n="B04K5V18">(not quoted) </ab>
+<lb/><ab n="B04K5V19">(not quoted) <w>ου</w><w>δυναται</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>ποιειν</w><w>αφ</w><w>εαυτου</w><w>ουδεν</w><w>εαν</w><w>μη</w><w>τι</w><w>βλεπη</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>ποιουντα</w><w>α</w><w>γαρ</w><w>αν</w><w>εκεινος</w><w>ποιη</w><w>ταυτα</w><w>και</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>ομοιως</w><w>ποιει</w></ab>
+<lb/><ab n="B04K5V20">(not quoted) </ab>
+<lb/><ab n="B04K5V21"><w>ωσπερ</w><note type="local">ADAPT</note><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>ους</w><w>θελει</w><w>ζωοποιει</w><w>ουτω</w><w>και</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>ους</w><w>θελει</w><w>ζωοποιει</w></ab>
+<lb/><ab n="B04K5V22"><w>ουδε</w><w>γαρ</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>κρινει</w><w>ουδενα</w><w>αλλα</w><w>την</w><w>κρισιν</w><w>πασαν</w><w>δεδωκε</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">υω</hi></abbr></w></ab>
+<lb/><ab n="B04K5V23"><w>ινα</w><w>παντες</w><w>τιμωσι</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>καθως</w><w>τιμωσι</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w>(not quoted) </ab>
+<lb/><ab n="B04K5V24"><w>αμην</w><w>αμην</w><w>λεγω</w><w>υμιν</w><w>οτι</w><w>ο</w><w>τον</w><w>λογον</w><w>μου</w><w>ακουων</w><w>και</w><w>πιστευων</w><w>τω</w><w>πεμψαντι</w><w>με</w><w>εχει</w><w>ζωην</w><w>αιωνιον</w><w>και</w><w>εις</w><w>κρισιν</w><w>ουκ</w><w>ερχεται</w><w>αλλα</w><w>μεταβεβηκεν</w><w>εκ</w><w>του</w><w>θανατου</w><w>εις</w><w>την</w><w>ζωην</w></ab>
+<lb/><ab n="B04K5V25">(not quoted) </ab>
+<lb/><ab n="B04K5V26"><w>ωσπερ</w><w>γαρ</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>εχει</w><w>ζωην</w><w>εν</w><w>εαυτω</w><w>ουτω</w><w>και</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">υω</hi></abbr></w><w>εδωκε</w><w>ζωην</w><w>εχειν</w><w>εν</w><w>εαυτω</w></ab>
+<lb/><ab n="B04K5V27">(not quoted) </ab>
+<lb/><ab n="B04K5V28">(not quoted) </ab>
+<lb/><ab n="B04K5V29">(not quoted) </ab>
+<lb/><ab n="B04K5V30">(not quoted) </ab>
+<lb/><ab n="B04K5V31">(not quoted) </ab>
+<lb/><ab n="B04K5V32">(not quoted) </ab>
+<lb/><ab n="B04K5V33">(not quoted) </ab>
+<lb/><ab n="B04K5V34">(not quoted) </ab>
+<lb/><ab n="B04K5V35">(not quoted) </ab>
+<lb/><ab n="B04K5V36">(not quoted) </ab>
+<lb/><ab n="B04K5V37">(not quoted) <w>ουτε</w><w>γαρ</w><w>φωνης</w><w>αυτου</w><w>πωποτε</w><w>ακηκοατε</w><w>ουτε</w><w>ειδος</w><w>αυτου</w><w>εωρακατε</w></ab>
+<lb/><ab n="B04K5V38">(not quoted) </ab>
+<lb/><ab n="B04K5V39">(not quoted) </ab>
+<lb/><ab n="B04K5V40">(not quoted) </ab>
+<lb/><ab n="B04K5V41">(not quoted) </ab>
+<lb/><ab n="B04K5V42">(not quoted) </ab>
+<lb/><ab n="B04K5V43"><w>εγω</w><w>εληλυθα</w><w>εν</w><w>τω</w><w>ονοματι</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>μου</w><w>και</w><w>ου</w><w>λαμβανετε</w><w>με</w><w>εαν</w><w>δε</w><w>αλλος</w><w>ελθη</w><w>εν</w><w>τω</w><w>ονοματι</w><w>τω</w><w>ιδιω</w><w>εκεινον</w><w>ληψεσθε</w></ab>
+<lb/><ab n="B04K5V44">(not quoted) </ab>
+<lb/><ab n="B04K5V45">(not quoted) </ab>
+<lb/><ab n="B04K5V46">(not quoted) </ab>
+<lb/><ab n="B04K5V47">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K6" type="chapter"><ab n="B04K6V1">(not quoted) </ab>
+<lb/><ab n="B04K6V2">(not quoted) </ab>
+<lb/><ab n="B04K6V3">(not quoted) </ab>
+<lb/><ab n="B04K6V4">(not quoted) </ab>
+<lb/><ab n="B04K6V5">(not quoted) </ab>
+<lb/><ab n="B04K6V6">(not quoted) </ab>
+<lb/><ab n="B04K6V7">(not quoted) </ab>
+<lb/><ab n="B04K6V8">(not quoted) </ab>
+<lb/><ab n="B04K6V9">(not quoted) </ab>
+<lb/><ab n="B04K6V10">(not quoted) </ab>
+<lb/><ab n="B04K6V11">(not quoted) </ab>
+<lb/><ab n="B04K6V12">(not quoted) </ab>
+<lb/><ab n="B04K6V13">(not quoted) </ab>
+<lb/><ab n="B04K6V14">(not quoted) </ab>
+<lb/><ab n="B04K6V15">(not quoted) </ab>
+<lb/><ab n="B04K6V16">(not quoted) </ab>
+<lb/><ab n="B04K6V17">(not quoted) </ab>
+<lb/><ab n="B04K6V18">(not quoted) </ab>
+<lb/><ab n="B04K6V19">(not quoted) </ab>
+<lb/><ab n="B04K6V20">(not quoted) </ab>
+<lb/><ab n="B04K6V21">(not quoted) </ab>
+<lb/><ab n="B04K6V22">(not quoted) </ab>
+<lb/><ab n="B04K6V23">(not quoted) </ab>
+<lb/><ab n="B04K6V24">(not quoted) </ab>
+<lb/><ab n="B04K6V25">(not quoted) </ab>
+<lb/><ab n="B04K6V26">(not quoted) </ab>
+<lb/><ab n="B04K6V27">(not quoted) </ab>
+<lb/><ab n="B04K6V28">(not quoted) </ab>
+<lb/><ab n="B04K6V29">(not quoted) </ab>
+<lb/><ab n="B04K6V30">(not quoted) </ab>
+<lb/><ab n="B04K6V31">(not quoted) </ab>
+<lb/><ab n="B04K6V32">(not quoted) </ab>
+<lb/><ab n="B04K6V33">(not quoted) </ab>
+<lb/><ab n="B04K6V34">(not quoted) </ab>
+<lb/><ab n="B04K6V35">(not quoted) </ab>
+<lb/><ab n="B04K6V36">(not quoted) </ab>
+<lb/><ab n="B04K6V37">(not quoted) </ab>
+<lb/><ab n="B04K6V38">(not quoted) </ab>
+<lb/><ab n="B04K6V39">(not quoted) </ab>
+<lb/><ab n="B04K6V40">(not quoted) </ab>
+<lb/><ab n="B04K6V41">(not quoted) </ab>
+<lb/><ab n="B04K6V42">(not quoted) </ab>
+<lb/><ab n="B04K6V43">(not quoted) </ab>
+<lb/><ab n="B04K6V44">(not quoted) </ab>
+<lb/><ab n="B04K6V45">(not quoted) </ab>
+<lb/><ab n="B04K6V46"><w>ουχ</w><w>οτι</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>τις</w><w>εωρακεν</w><w>ει</w><w>μη</w><w>ο</w><w>ων</w><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>ουτος</w><w>εωρακε</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w></ab>
+<lb/><ab n="B04K6V47">(not quoted) </ab>
+<lb/><ab n="B04K6V48">(not quoted) </ab>
+<lb/><ab n="B04K6V49">(not quoted) </ab>
+<lb/><ab n="B04K6V50">(not quoted) </ab>
+<lb/><ab n="B04K6V51">(not quoted) </ab>
+<lb/><ab n="B04K6V52">(not quoted) </ab>
+<lb/><ab n="B04K6V53">(not quoted) </ab>
+<lb/><ab n="B04K6V54">(not quoted) </ab>
+<lb/><ab n="B04K6V55">(not quoted) </ab>
+<lb/><ab n="B04K6V56">(not quoted) </ab>
+<lb/><ab n="B04K6V57">(not quoted) </ab>
+<lb/><ab n="B04K6V58">(not quoted) </ab>
+<lb/><ab n="B04K6V59">(not quoted) </ab>
+<lb/><ab n="B04K6V60">(not quoted) </ab>
+<lb/><ab n="B04K6V61">(not quoted) </ab>
+<lb/><ab n="B04K6V62">(not quoted) </ab>
+<lb/><ab n="B04K6V63">(not quoted) <w>τα</w><w>ρηματα</w><w>α</w><w>εγω</w><w>λελαληκα</w><w>υμιν</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>εστι</w><w>και</w><w>ζωη</w><w>εστιν</w></ab>
+<lb/><ab n="B04K6V64">(not quoted) </ab>
+<lb/><ab n="B04K6V65">(not quoted) </ab>
+<lb/><ab n="B04K6V66">(not quoted) </ab>
+<lb/><ab n="B04K6V67">(not quoted) </ab>
+<lb/><ab n="B04K6V68">(not quoted) </ab>
+<lb/><ab n="B04K6V69">(not quoted) </ab>
+<lb/><ab n="B04K6V70">(not quoted) </ab>
+<lb/><ab n="B04K6V71">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K7" type="chapter"><ab n="B04K7V1">(not quoted) </ab>
+<lb/><ab n="B04K7V2">(not quoted) </ab>
+<lb/><ab n="B04K7V3">(not quoted) </ab>
+<lb/><ab n="B04K7V4">(not quoted) </ab>
+<lb/><ab n="B04K7V5">(not quoted) </ab>
+<lb/><ab n="B04K7V6">(not quoted) </ab>
+<lb/><ab n="B04K7V7">(not quoted) </ab>
+<lb/><ab n="B04K7V8">(not quoted) </ab>
+<lb/><ab n="B04K7V9">(not quoted) </ab>
+<lb/><ab n="B04K7V10">(not quoted) </ab>
+<lb/><ab n="B04K7V11">(not quoted) </ab>
+<lb/><ab n="B04K7V12">(not quoted) </ab>
+<lb/><ab n="B04K7V13">(not quoted) </ab>
+<lb/><ab n="B04K7V14">(not quoted) </ab>
+<lb/><ab n="B04K7V15">(not quoted) </ab>
+<lb/><ab n="B04K7V16">(not quoted) </ab>
+<lb/><ab n="B04K7V17">(not quoted) </ab>
+<lb/><ab n="B04K7V18">(not quoted) </ab>
+<lb/><ab n="B04K7V19">(not quoted) </ab>
+<lb/><ab n="B04K7V20">(not quoted) </ab>
+<lb/><ab n="B04K7V21">(not quoted) </ab>
+<lb/><ab n="B04K7V22">(not quoted) </ab>
+<lb/><ab n="B04K7V23">(not quoted) </ab>
+<lb/><ab n="B04K7V24">(not quoted) </ab>
+<lb/><ab n="B04K7V25">(not quoted) </ab>
+<lb/><ab n="B04K7V26">(not quoted) </ab>
+<lb/><ab n="B04K7V27">(not quoted) </ab>
+<lb/><ab n="B04K7V28">(not quoted) </ab>
+<lb/><ab n="B04K7V29">(not quoted) </ab>
+<lb/><ab n="B04K7V30">(not quoted) </ab>
+<lb/><ab n="B04K7V31">(not quoted) </ab>
+<lb/><ab n="B04K7V32">(not quoted) </ab>
+<lb/><ab n="B04K7V33">(not quoted) </ab>
+<lb/><ab n="B04K7V34">(not quoted) </ab>
+<lb/><ab n="B04K7V35">(not quoted) </ab>
+<lb/><ab n="B04K7V36">(not quoted) </ab>
+<lb/><ab n="B04K7V37">(not quoted) </ab>
+<lb/><ab n="B04K7V38"><w>ο</w><w>πιστευων</w><w>εις</w><w>εμε</w><w>καθως</w><w>ειπεν</w><w>η</w><w>γραφη</w><w>ποταμοι</w><app><rdg type="PatrAlt" hand="A"><w>εκ</w><w>της</w><w>κοιλιας</w><w>αυτου</w><w>ρευσουσιν</w></rdg><rdg type="PatrAlt" hand="B"><w>ρευσουσιν</w><w>εκ</w><w>της</w><w>κοιλιας</w><w>αυτου</w></rdg></app><w>υδατος</w><w>ζωντος</w></ab>
+<lb/><ab n="B04K7V39"><w>τουτο</w><w>δε</w><w>ειπεν</w><w>περι</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w><w>ου</w><w>εμελλον</w><w>λαμβανειν</w><w>οι</w><w>πιστευοντες</w><w>εις</w><w>αυτον</w>(not quoted) </ab>
+<lb/><ab n="B04K7V40">(not quoted) </ab>
+<lb/><ab n="B04K7V41">(not quoted) </ab>
+<lb/><ab n="B04K7V42">(not quoted) </ab>
+<lb/><ab n="B04K7V43">(not quoted) </ab>
+<lb/><ab n="B04K7V44">(not quoted) </ab>
+<lb/><ab n="B04K7V45">(not quoted) </ab>
+<lb/><ab n="B04K7V46">(not quoted) </ab>
+<lb/><ab n="B04K7V47">(not quoted) </ab>
+<lb/><ab n="B04K7V48">(not quoted) </ab>
+<lb/><ab n="B04K7V49">(not quoted) </ab>
+<lb/><ab n="B04K7V50">(not quoted) </ab>
+<lb/><ab n="B04K7V51">(not quoted) </ab>
+<lb/><ab n="B04K7V52">(not quoted) </ab>
+<lb/><ab n="B04K7V53">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K8" type="chapter"><ab n="B04K8V1">(not quoted) </ab>
+<lb/><ab n="B04K8V2">(not quoted) </ab>
+<lb/><ab n="B04K8V3">(not quoted) </ab>
+<lb/><ab n="B04K8V4">(not quoted) </ab>
+<lb/><ab n="B04K8V5">(not quoted) </ab>
+<lb/><ab n="B04K8V6">(not quoted) </ab>
+<lb/><ab n="B04K8V7">(not quoted) </ab>
+<lb/><ab n="B04K8V8">(not quoted) </ab>
+<lb/><ab n="B04K8V9">(not quoted) </ab>
+<lb/><ab n="B04K8V10">(not quoted) </ab>
+<lb/><ab n="B04K8V11">(not quoted) </ab>
+<lb/><ab n="B04K8V12">(not quoted) </ab>
+<lb/><ab n="B04K8V13">(not quoted) </ab>
+<lb/><ab n="B04K8V14">(not quoted) </ab>
+<lb/><ab n="B04K8V15">(not quoted) </ab>
+<lb/><ab n="B04K8V16">(not quoted) </ab>
+<lb/><ab n="B04K8V17">(not quoted) </ab>
+<lb/><ab n="B04K8V18">(not quoted) </ab>
+<lb/><ab n="B04K8V19">(not quoted) </ab>
+<lb/><ab n="B04K8V20">(not quoted) </ab>
+<lb/><ab n="B04K8V21">(not quoted) </ab>
+<lb/><ab n="B04K8V22">(not quoted) </ab>
+<lb/><ab n="B04K8V23">(not quoted) </ab>
+<lb/><ab n="B04K8V24">(not quoted) </ab>
+<lb/><ab n="B04K8V25">(not quoted) </ab>
+<lb/><ab n="B04K8V26">(not quoted) </ab>
+<lb/><ab n="B04K8V27">(not quoted) </ab>
+<lb/><ab n="B04K8V28">(not quoted) </ab>
+<lb/><ab n="B04K8V29">(not quoted) <w>τα</w><w>αρεστα</w><w>αυτω</w><w>ποιει</w><note type="local">ADAPT</note><w>παντοτε</w></ab>
+<lb/><ab n="B04K8V30">(not quoted) </ab>
+<lb/><ab n="B04K8V31">(not quoted) </ab>
+<lb/><ab n="B04K8V32">(not quoted) </ab>
+<lb/><ab n="B04K8V33">(not quoted) </ab>
+<lb/><ab n="B04K8V34">(not quoted) </ab>
+<lb/><ab n="B04K8V35">(not quoted) <w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>μενει</w><w>εις</w><w>τον</w><w>αιωνα</w></ab>
+<lb/><ab n="B04K8V36">(not quoted) </ab>
+<lb/><ab n="B04K8V37">(not quoted) </ab>
+<lb/><ab n="B04K8V38">(not quoted) <w>α</w><w>εωρακα</w><w>παρα</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">πρι</hi></abbr></w><w>μου</w><w>ταυτα</w><w>λαλω</w>(not quoted) </ab>
+<lb/><ab n="B04K8V39">(not quoted) <w>ει</w><w>τεκνα</w><w>του</w><w>αβρααμ</w><w>ητε</w><w>τα</w><w>εργα</w><w>του</w><w>αβρααμ</w><w>εποιειτε</w></ab>
+<lb/><ab n="B04K8V40">(not quoted) </ab>
+<lb/><ab n="B04K8V41"><w>υμεις</w><w>τα</w><w>εργα</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>υμων</w><w>ποιετε</w><note type="local">ADAPT</note>(not quoted) </ab>
+<lb/><ab n="B04K8V42">(not quoted) </ab>
+<lb/><ab n="B04K8V43">(not quoted) </ab>
+<lb/><ab n="B04K8V44"><w>(allusion)</w></ab>
+<lb/><ab n="B04K8V45">(not quoted) </ab>
+<lb/><ab n="B04K8V46">(not quoted) </ab>
+<lb/><ab n="B04K8V47">(not quoted) </ab>
+<lb/><ab n="B04K8V48">(not quoted) </ab>
+<lb/><ab n="B04K8V49">(not quoted) <w>εγω</w><w>γαρ</w><note type="local">ADAPT</note>(not quoted) <w>τιμω</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w>(not quoted) </ab>
+<lb/><ab n="B04K8V50">(not quoted) </ab>
+<lb/><ab n="B04K8V51">(not quoted) </ab>
+<lb/><ab n="B04K8V52">(not quoted) </ab>
+<lb/><ab n="B04K8V53">(not quoted) </ab>
+<lb/><ab n="B04K8V54">(not quoted) </ab>
+<lb/><ab n="B04K8V55">(not quoted) </ab>
+<lb/><ab n="B04K8V56"><w>αβρααμ</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>υμων</w><note type="local">preceding 3 words uncertain in Cyril's text</note><w>ηγαλλιασατο</w><w>ινα</w><w>ιδη</w><w>την</w><w>ημεραν</w><w>την</w><w>εμην</w><w>και</w><w>ειδε</w><w>και</w><w>εχαρη</w></ab>
+<lb/><ab n="B04K8V57">(not quoted) </ab>
+<lb/><ab n="B04K8V58">(not quoted) <w>πριν</w><w>αβρααμ</w><w>γενεσθαι</w><w>εγω</w><w>ειμι</w></ab>
+<lb/><ab n="B04K8V59"><w>(allusion)</w></ab>
+<lb/></div><lb/><div n="B04K9" type="chapter"><ab n="B04K9V1"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V2"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V3"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V4"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V5"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V6"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V7"><w>(allusion)</w></ab>
+<lb/><ab n="B04K9V8">(not quoted) </ab>
+<lb/><ab n="B04K9V9">(not quoted) </ab>
+<lb/><ab n="B04K9V10">(not quoted) </ab>
+<lb/><ab n="B04K9V11">(not quoted) </ab>
+<lb/><ab n="B04K9V12">(not quoted) </ab>
+<lb/><ab n="B04K9V13">(not quoted) </ab>
+<lb/><ab n="B04K9V14">(not quoted) </ab>
+<lb/><ab n="B04K9V15">(not quoted) </ab>
+<lb/><ab n="B04K9V16">(not quoted) </ab>
+<lb/><ab n="B04K9V17">(not quoted) </ab>
+<lb/><ab n="B04K9V18">(not quoted) </ab>
+<lb/><ab n="B04K9V19">(not quoted) </ab>
+<lb/><ab n="B04K9V20">(not quoted) </ab>
+<lb/><ab n="B04K9V21">(not quoted) </ab>
+<lb/><ab n="B04K9V22">(not quoted) </ab>
+<lb/><ab n="B04K9V23">(not quoted) </ab>
+<lb/><ab n="B04K9V24">(not quoted) </ab>
+<lb/><ab n="B04K9V25">(not quoted) </ab>
+<lb/><ab n="B04K9V26">(not quoted) </ab>
+<lb/><ab n="B04K9V27">(not quoted) </ab>
+<lb/><ab n="B04K9V28">(not quoted) </ab>
+<lb/><ab n="B04K9V29">(not quoted) <w>τουτον</w><w>ουκ</w><w>οιδαμεν</w><w>ποθεν</w><w>εστιν</w></ab>
+<lb/><ab n="B04K9V30">(not quoted) </ab>
+<lb/><ab n="B04K9V31">(not quoted) </ab>
+<lb/><ab n="B04K9V32">(not quoted) </ab>
+<lb/><ab n="B04K9V33">(not quoted) </ab>
+<lb/><ab n="B04K9V34">(not quoted) </ab>
+<lb/><ab n="B04K9V35">(not quoted) </ab>
+<lb/><ab n="B04K9V36">(not quoted) </ab>
+<lb/><ab n="B04K9V37">(not quoted) </ab>
+<lb/><ab n="B04K9V38">(not quoted) </ab>
+<lb/><ab n="B04K9V39">(not quoted) </ab>
+<lb/><ab n="B04K9V40">(not quoted) </ab>
+<lb/><ab n="B04K9V41">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K10" type="chapter"><ab n="B04K10V1">(not quoted) </ab>
+<lb/><ab n="B04K10V2">(not quoted) </ab>
+<lb/><ab n="B04K10V3">(not quoted) </ab>
+<lb/><ab n="B04K10V4">(not quoted) </ab>
+<lb/><ab n="B04K10V5">(not quoted) </ab>
+<lb/><ab n="B04K10V6">(not quoted) </ab>
+<lb/><ab n="B04K10V7">(not quoted) </ab>
+<lb/><ab n="B04K10V8">(not quoted) </ab>
+<lb/><ab n="B04K10V9">(not quoted) </ab>
+<lb/><ab n="B04K10V10">(not quoted) </ab>
+<lb/><ab n="B04K10V11">(not quoted) </ab>
+<lb/><ab n="B04K10V12">(not quoted) </ab>
+<lb/><ab n="B04K10V13">(not quoted) </ab>
+<lb/><ab n="B04K10V14">(not quoted) </ab>
+<lb/><ab n="B04K10V15"><w>(allusion)</w></ab>
+<lb/><ab n="B04K10V16">(not quoted) </ab>
+<lb/><ab n="B04K10V17">(not quoted) </ab>
+<lb/><ab n="B04K10V18">(not quoted) <w>εξουσιαν</w><w>εχω</w><w>θειναι</w><w>την</w><w>ψυχην</w><w>μου</w><w>και</w><w>εξουσιαν</w><w>εχω</w><w>παλιν</w><w>λαβειν</w><w>αυτην</w>(not quoted) </ab>
+<lb/><ab n="B04K10V19">(not quoted) </ab>
+<lb/><ab n="B04K10V20">(not quoted) </ab>
+<lb/><ab n="B04K10V21">(not quoted) </ab>
+<lb/><ab n="B04K10V22">(not quoted) </ab>
+<lb/><ab n="B04K10V23">(not quoted) </ab>
+<lb/><ab n="B04K10V24">(not quoted) </ab>
+<lb/><ab n="B04K10V25">(not quoted) </ab>
+<lb/><ab n="B04K10V26">(not quoted) </ab>
+<lb/><ab n="B04K10V27">(not quoted) </ab>
+<lb/><ab n="B04K10V28">(not quoted) </ab>
+<lb/><ab n="B04K10V29">(not quoted) </ab>
+<lb/><ab n="B04K10V30"><w>εγω</w><w>και</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>εν</w><w>εσμεν</w></ab>
+<lb/><ab n="B04K10V31">(not quoted) </ab>
+<lb/><ab n="B04K10V32">(not quoted) </ab>
+<lb/><ab n="B04K10V33">(not quoted) </ab>
+<lb/><ab n="B04K10V34">(not quoted) </ab>
+<lb/><ab n="B04K10V35">(not quoted) </ab>
+<lb/><ab n="B04K10V36">(not quoted) </ab>
+<lb/><ab n="B04K10V37">(not quoted) </ab>
+<lb/><ab n="B04K10V38">(not quoted) </ab>
+<lb/><ab n="B04K10V39">(not quoted) </ab>
+<lb/><ab n="B04K10V40">(not quoted) </ab>
+<lb/><ab n="B04K10V41">(not quoted) </ab>
+<lb/><ab n="B04K10V42">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K11" type="chapter"><ab n="B04K11V1">(not quoted) </ab>
+<lb/><ab n="B04K11V2">(not quoted) </ab>
+<lb/><ab n="B04K11V3">(not quoted) </ab>
+<lb/><ab n="B04K11V4">(not quoted) </ab>
+<lb/><ab n="B04K11V5">(not quoted) </ab>
+<lb/><ab n="B04K11V6">(not quoted) <w>παρεληλυθει</w><w>μια</w><w>και</w><w>δευτερα</w><w>και</w><w>τριτη</w><w>ημερα</w></ab>
+<lb/><ab n="B04K11V7">(not quoted) </ab>
+<lb/><ab n="B04K11V8">(not quoted) </ab>
+<lb/><ab n="B04K11V9">(not quoted) </ab>
+<lb/><ab n="B04K11V10">(not quoted) </ab>
+<lb/><ab n="B04K11V11">(not quoted) </ab>
+<lb/><ab n="B04K11V12">(not quoted) </ab>
+<lb/><ab n="B04K11V13">(not quoted) </ab>
+<lb/><ab n="B04K11V14">(not quoted) <w>ετελευτησεν</w><w>ο</w><w>λαζαρος</w></ab>
+<lb/><ab n="B04K11V15">(not quoted) </ab>
+<lb/><ab n="B04K11V16">(not quoted) </ab>
+<lb/><ab n="B04K11V17">(not quoted) </ab>
+<lb/><ab n="B04K11V18">(not quoted) </ab>
+<lb/><ab n="B04K11V19">(not quoted) </ab>
+<lb/><ab n="B04K11V20">(not quoted) </ab>
+<lb/><ab n="B04K11V21">(not quoted) </ab>
+<lb/><ab n="B04K11V22">(not quoted) </ab>
+<lb/><ab n="B04K11V23">(not quoted) </ab>
+<lb/><ab n="B04K11V24">(not quoted) </ab>
+<lb/><ab n="B04K11V25">(not quoted) </ab>
+<lb/><ab n="B04K11V26">(not quoted) </ab>
+<lb/><ab n="B04K11V27">(not quoted) </ab>
+<lb/><ab n="B04K11V28">(not quoted) </ab>
+<lb/><ab n="B04K11V29">(not quoted) </ab>
+<lb/><ab n="B04K11V30">(not quoted) </ab>
+<lb/><ab n="B04K11V31">(not quoted) </ab>
+<lb/><ab n="B04K11V32"><w>ελθοντι</w><w>γαρ</w><w>τω</w><w>κυριω</w><w>προσεπεσεν</w><w>η</w><w>αδελφη</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V33"><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V34"><w>και</w><w>λεγουσι</w><w>που</w><w>τεθεικατε</w><w>αυτον</w>(not quoted) </ab>
+<lb/><ab n="B04K11V35">(not quoted) </ab>
+<lb/><ab n="B04K11V36">(not quoted) </ab>
+<lb/><ab n="B04K11V37">(not quoted) </ab>
+<lb/><ab n="B04K11V38">(not quoted) </ab>
+<lb/><ab n="B04K11V39">(not quoted) <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>ηδη</w><w>οζει</w><w>τεταρταιος</w><w>γαρ</w><w>εστι</w></ab>
+<lb/><ab n="B04K11V40">(not quoted) <w>εαν</w><w>πιστευσης</w><w>οψη</w><w>την</w><w>δοξαν</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab>
+<lb/><ab n="B04K11V41"><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V42"><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V43"><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V44"><w>(allusion)</w></ab>
+<lb/><ab n="B04K11V45">(not quoted) </ab>
+<lb/><ab n="B04K11V46">(not quoted) </ab>
+<lb/><ab n="B04K11V47">(not quoted) </ab>
+<lb/><ab n="B04K11V48">(not quoted) </ab>
+<lb/><ab n="B04K11V49">(not quoted) </ab>
+<lb/><ab n="B04K11V50">(not quoted) </ab>
+<lb/><ab n="B04K11V51">(not quoted) </ab>
+<lb/><ab n="B04K11V52">(not quoted) </ab>
+<lb/><ab n="B04K11V53">(not quoted) </ab>
+<lb/><ab n="B04K11V54">(not quoted) </ab>
+<lb/><ab n="B04K11V55">(not quoted) </ab>
+<lb/><ab n="B04K11V56">(not quoted) </ab>
+<lb/><ab n="B04K11V57">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K12" type="chapter"><ab n="B04K12V1">(not quoted) </ab>
+<lb/><ab n="B04K12V2">(not quoted) </ab>
+<lb/><ab n="B04K12V3">(not quoted) </ab>
+<lb/><ab n="B04K12V4">(not quoted) </ab>
+<lb/><ab n="B04K12V5">(not quoted) </ab>
+<lb/><ab n="B04K12V6">(not quoted) </ab>
+<lb/><ab n="B04K12V7">(not quoted) </ab>
+<lb/><ab n="B04K12V8">(not quoted) </ab>
+<lb/><ab n="B04K12V9">(not quoted) </ab>
+<lb/><ab n="B04K12V10">(not quoted) </ab>
+<lb/><ab n="B04K12V11">(not quoted) </ab>
+<lb/><ab n="B04K12V12">(not quoted) </ab>
+<lb/><ab n="B04K12V13">(not quoted) </ab>
+<lb/><ab n="B04K12V14">(not quoted) </ab>
+<lb/><ab n="B04K12V15">(not quoted) </ab>
+<lb/><ab n="B04K12V16">(not quoted) </ab>
+<lb/><ab n="B04K12V17">(not quoted) </ab>
+<lb/><ab n="B04K12V18">(not quoted) </ab>
+<lb/><ab n="B04K12V19">(not quoted) </ab>
+<lb/><ab n="B04K12V20">(not quoted) </ab>
+<lb/><ab n="B04K12V21">(not quoted) </ab>
+<lb/><ab n="B04K12V22">(not quoted) </ab>
+<lb/><ab n="B04K12V23">(not quoted) </ab>
+<lb/><ab n="B04K12V24">(not quoted) </ab>
+<lb/><ab n="B04K12V25"><w>ο</w><w>φιλων</w><w>την</w><w>ψυχην</w><w>αυτου</w><w>απολεσει</w><w>αυτην</w><w>και</w><w>ο</w><w>μισων</w><w>την</w><w>ψυχην</w><w>αυτου</w><w>εν</w><w>τω</w><w>κοσμω</w><w>τουτω</w><w>εις</w><w>ζωην</w><w>αιωνιον</w><w>φυλαξει</w><w>αυτην</w></ab>
+<lb/><ab n="B04K12V26">(not quoted) </ab>
+<lb/><ab n="B04K12V27">(not quoted) </ab>
+<lb/><ab n="B04K12V28">(not quoted) </ab>
+<lb/><ab n="B04K12V29">(not quoted) </ab>
+<lb/><ab n="B04K12V30">(not quoted) </ab>
+<lb/><ab n="B04K12V31">(not quoted) </ab>
+<lb/><ab n="B04K12V32">(not quoted) </ab>
+<lb/><ab n="B04K12V33">(not quoted) </ab>
+<lb/><ab n="B04K12V34">(not quoted) </ab>
+<lb/><ab n="B04K12V35">(not quoted) </ab>
+<lb/><ab n="B04K12V36">(not quoted) </ab>
+<lb/><ab n="B04K12V37">(not quoted) </ab>
+<lb/><ab n="B04K12V38">(not quoted) </ab>
+<lb/><ab n="B04K12V39">(not quoted) </ab>
+<lb/><ab n="B04K12V40">(not quoted) </ab>
+<lb/><ab n="B04K12V41">(not quoted) </ab>
+<lb/><ab n="B04K12V42">(not quoted) </ab>
+<lb/><ab n="B04K12V43">(not quoted) </ab>
+<lb/><ab n="B04K12V44">(not quoted) </ab>
+<lb/><ab n="B04K12V45">(not quoted) </ab>
+<lb/><ab n="B04K12V46">(not quoted) </ab>
+<lb/><ab n="B04K12V47">(not quoted) </ab>
+<lb/><ab n="B04K12V48">(not quoted) </ab>
+<lb/><ab n="B04K12V49">(not quoted) </ab>
+<lb/><ab n="B04K12V50">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K13" type="chapter"><ab n="B04K13V1">(not quoted) </ab>
+<lb/><ab n="B04K13V2">(not quoted) </ab>
+<lb/><ab n="B04K13V3">(not quoted) </ab>
+<lb/><ab n="B04K13V4">(not quoted) <w>λεντιον</w><w>ανθρωποτητος</w><w>περιζωσαμενος</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V5">(not quoted) </ab>
+<lb/><ab n="B04K13V6">(not quoted) </ab>
+<lb/><ab n="B04K13V7">(not quoted) </ab>
+<lb/><ab n="B04K13V8">(not quoted) </ab>
+<lb/><ab n="B04K13V9">(not quoted) </ab>
+<lb/><ab n="B04K13V10">(not quoted) </ab>
+<lb/><ab n="B04K13V11">(not quoted) </ab>
+<lb/><ab n="B04K13V12">(not quoted) </ab>
+<lb/><ab n="B04K13V13">(not quoted) </ab>
+<lb/><ab n="B04K13V14">(not quoted) </ab>
+<lb/><ab n="B04K13V15">(not quoted) </ab>
+<lb/><ab n="B04K13V16">(not quoted) </ab>
+<lb/><ab n="B04K13V17">(not quoted) </ab>
+<lb/><ab n="B04K13V18">(not quoted) </ab>
+<lb/><ab n="B04K13V19">(not quoted) </ab>
+<lb/><ab n="B04K13V20">(not quoted) </ab>
+<lb/><ab n="B04K13V21">(not quoted) </ab>
+<lb/><ab n="B04K13V22">(not quoted) </ab>
+<lb/><ab n="B04K13V23">(not quoted) <w>των</w><w>μαθητων</w><w>(allusion)</w><note type="local">in this context</note></ab>
+<lb/><ab n="B04K13V24">(not quoted) </ab>
+<lb/><ab n="B04K13V25">(not quoted) </ab>
+<lb/><ab n="B04K13V26"><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V27"><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V28"><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V29"><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V30"><w>(allusion)</w></ab>
+<lb/><ab n="B04K13V31">(not quoted) <w>νυν</w><w>εδοξασθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>(not quoted) </ab>
+<lb/><ab n="B04K13V32">(not quoted) </ab>
+<lb/><ab n="B04K13V33">(not quoted) </ab>
+<lb/><ab n="B04K13V34">(not quoted) </ab>
+<lb/><ab n="B04K13V35">(not quoted) </ab>
+<lb/><ab n="B04K13V36">(not quoted) </ab>
+<lb/><ab n="B04K13V37">(not quoted) </ab>
+<lb/><ab n="B04K13V38">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K14" type="chapter"><ab n="B04K14V1">(not quoted) </ab>
+<lb/><ab n="B04K14V2">(not quoted) </ab>
+<lb/><ab n="B04K14V3">(not quoted) </ab>
+<lb/><ab n="B04K14V4">(not quoted) </ab>
+<lb/><ab n="B04K14V5">(not quoted) </ab>
+<lb/><ab n="B04K14V6">(not quoted) <w>ουδεις</w><w>ερχεται</w><w>προς</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>ει</w><w>μη</w><w>δι</w><w>εμου</w></ab>
+<lb/><ab n="B04K14V7">(not quoted) </ab>
+<lb/><ab n="B04K14V8">(not quoted) </ab>
+<lb/><ab n="B04K14V9">(not quoted) <w>ο</w><w>εωρακως</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>εωρακε</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><note type="local">ADAPT</note>(not quoted) </ab>
+<lb/><ab n="B04K14V10">(not quoted) </ab>
+<lb/><ab n="B04K14V11">(not quoted) </ab>
+<lb/><ab n="B04K14V12">(not quoted) </ab>
+<lb/><ab n="B04K14V13">(not quoted) </ab>
+<lb/><ab n="B04K14V14">(not quoted) </ab>
+<lb/><ab n="B04K14V15">(not quoted) </ab>
+<lb/><ab n="B04K14V16"><w>καγω</w><w>ερωτησω</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>και</w><w>αλλον</w><w>παρακλητον</w><w>δωσει</w><w>υμιν</w><w>ινα</w><w>μεθ</w><w>υμων</w><w>η</w><w>εις</w><w>τον</w><w>αιωνα</w></ab>
+<lb/><ab n="B04K14V17"><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>της</w><w>αληθειας</w><w>ο</w><w>ο</w><w>κοσμος</w><w>ου</w><w>δυναται</w><w>λαβειν</w><w>οτι</w><w>ου</w><w>θεωρει</w><w>αυτο</w><w>ουδε</w><w>γινωσκει</w><w>αυτο</w><w>υμεις</w><w>δε</w><w>γινωσκετε</w><w>αυτο</w><w>οτι</w><w>παρ</w><w>υμιν</w><w>μενει</w><w>και</w><w>εν</w><w>υμιν</w><w>εσται</w></ab>
+<lb/><ab n="B04K14V18">(not quoted) </ab>
+<lb/><ab n="B04K14V19">(not quoted) </ab>
+<lb/><ab n="B04K14V20">(not quoted) </ab>
+<lb/><ab n="B04K14V21">(not quoted) </ab>
+<lb/><ab n="B04K14V22">(not quoted) </ab>
+<lb/><ab n="B04K14V23">(not quoted) </ab>
+<lb/><ab n="B04K14V24">(not quoted) </ab>
+<lb/><ab n="B04K14V25"><w>ταυτα</w><w>λελαληκα</w><w>υμιν</w><w>παρ</w><w>υμιν</w><w>μενων</w></ab>
+<lb/><ab n="B04K14V26"><w>ο</w><w>δε</w><w>παρακλητος</w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>το</w><w>αγιον</w><w>ο</w><w>πεμψει</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>εν</w><w>τω</w><w>ονοματι</w><w>μου</w><w>εκεινος</w><app><rdg type="PatrAlt" hand="A"><w>διδαξει</w><w>υμας</w></rdg><rdg type="PatrAlt" hand="B"><w>υμας</w><w>διδαξει</w></rdg></app><w>παντα</w><w>και</w><w>υπομνησει</w><app><rdg type="PatrAlt" hand="A"><w>υμας</w><w>παντα</w><w>α</w></rdg><rdg type="PatrAlt" hand="B"><w>οσα</w></rdg></app><w>ειπον</w><w>υμιν</w></ab>
+<lb/><ab n="B04K14V27">(not quoted) </ab>
+<lb/><ab n="B04K14V28">(not quoted) </ab>
+<lb/><ab n="B04K14V29">(not quoted) </ab>
+<lb/><ab n="B04K14V30">(not quoted) </ab>
+<lb/><ab n="B04K14V31">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K15" type="chapter"><ab n="B04K15V1">(not quoted) </ab>
+<lb/><ab n="B04K15V2">(not quoted) </ab>
+<lb/><ab n="B04K15V3">(not quoted) </ab>
+<lb/><ab n="B04K15V4">(not quoted) </ab>
+<lb/><ab n="B04K15V5"><w>εγω</w><w>ειμι</w><w>η</w><w>αμπελος</w><w>και</w><w>υμεις</w><w>τα</w><w>κληματα</w>(not quoted) <note type="local">--remainder of verse is ALLUSION only -- o menwn en emoi kagw en autw outos ferei karpon polun oti cwris emou ou dunasqe poiein ouden</note></ab>
+<lb/><ab n="B04K15V6">(not quoted) </ab>
+<lb/><ab n="B04K15V7">(not quoted) </ab>
+<lb/><ab n="B04K15V8">(not quoted) </ab>
+<lb/><ab n="B04K15V9">(not quoted) </ab>
+<lb/><ab n="B04K15V10">(not quoted) <w>καθως</w><w>εγω</w><w>τας</w><w>εντολας</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>μου</w><w>τετηρηκα</w><w>και</w><w>μενω</w><w>αυτου</w><w>εν</w><w>τη</w><w>αγαπη</w></ab>
+<lb/><ab n="B04K15V11">(not quoted) </ab>
+<lb/><ab n="B04K15V12">(not quoted) </ab>
+<lb/><ab n="B04K15V13">(not quoted) </ab>
+<lb/><ab n="B04K15V14">(not quoted) </ab>
+<lb/><ab n="B04K15V15">(not quoted) </ab>
+<lb/><ab n="B04K15V16">(not quoted) </ab>
+<lb/><ab n="B04K15V17">(not quoted) </ab>
+<lb/><ab n="B04K15V18">(not quoted) </ab>
+<lb/><ab n="B04K15V19">(not quoted) </ab>
+<lb/><ab n="B04K15V20">(not quoted) </ab>
+<lb/><ab n="B04K15V21">(not quoted) </ab>
+<lb/><ab n="B04K15V22">(not quoted) </ab>
+<lb/><ab n="B04K15V23">(not quoted) </ab>
+<lb/><ab n="B04K15V24">(not quoted) </ab>
+<lb/><ab n="B04K15V25">(not quoted) </ab>
+<lb/><ab n="B04K15V26"><w>οταν</w><w>δε</w><w>ελθη</w><w>ο</w><w>παρακλητος</w><w>ον</w><w>εγω</w><w>πεμψω</w><w>υμιν</w><w>παρα</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>της</w><w>αληθειας</w><w>ο</w><w>παρα</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>εκπορευεται</w><w>εκεινος</w><w>μαρτυρησει</w><w>περι</w><w>εμου</w></ab>
+<lb/><ab n="B04K15V27">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K16" type="chapter"><ab n="B04K16V1">(not quoted) </ab>
+<lb/><ab n="B04K16V2">(not quoted) </ab>
+<lb/><ab n="B04K16V3">(not quoted) </ab>
+<lb/><ab n="B04K16V4">(not quoted) </ab>
+<lb/><ab n="B04K16V5">(not quoted) </ab>
+<lb/><ab n="B04K16V6">(not quoted) </ab>
+<lb/><ab n="B04K16V7">(not quoted) <w>εαν</w><w>γαρ</w><w>εγω</w><w>μη</w><w>απελθω</w><w>ο</w><w>παρακλητος</w><w>ου</w><w>μη</w><app><rdg type="PatrAlt" hand="A"><w>ελθη</w></rdg><rdg type="PatrAlt" hand="B"><w>ερχεται</w></rdg></app><w>προς</w>(not quoted) <note type="local">umas ean de poreuqw pemyw auton pros umas --these words appear in one Cyril ms only</note></ab>
+<lb/><ab n="B04K16V8"><w>και</w><w>ελθων</w><w>εκεινος</w><w>ελεγξει</w><w>τον</w><w>κοσμον</w><w>περι</w><w>αμαρτιας</w><w>και</w><w>περι</w><w>δικαιοσυνης</w><w>και</w><w>περι</w><w>κρισεως</w></ab>
+<lb/><ab n="B04K16V9">(not quoted) </ab>
+<lb/><ab n="B04K16V10">(not quoted) </ab>
+<lb/><ab n="B04K16V11">(not quoted) </ab>
+<lb/><ab n="B04K16V12"><w>ετι</w><w>πολλα</w><w>εχω</w><w>λεγειν</w><w>υμιν</w><w>αλλ</w><w>ου</w><w>δυνασθε</w><w>βασταζειν</w><w>αρτι</w></ab>
+<lb/><ab n="B04K16V13"><w>οταν</w><w>δε</w><w>ελθη</w><w>εκεινος</w><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>της</w><w>αληθειας</w><w>διηγησεται</w><w>υμιν</w><w>την</w><w>αληθειαν</w><w>πασαν</w><w>ου</w><w>γαρ</w><w>αφ</w><w>εαυτου</w><w>λαλησει</w><w>αλλ</w><w>οσα</w><w>αν</w><w>ακουση</w><w>λαλησει</w><w>και</w><w>τα</w><w>ερχομενα</w><w>αναγγελει</w><w>υμιν</w></ab>
+<lb/><ab n="B04K16V14"><w>εκεινος</w><w>εμε</w><w>δοξασει</w><w>οτι</w><w>εκ</w><w>του</w><w>εμου</w><app><rdg type="PatrAlt" hand="A"><w>ληψεται</w></rdg><rdg type="PatrAlt" hand="B"><w>λαμβανει</w></rdg></app><w>και</w><w>αναγγελει</w><w>υμιν</w></ab>
+<lb/><ab n="B04K16V15"><w>παντα</w><w>οσα</w><w>εχει</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>εμα</w><w>εστιν</w><w>δια</w><w>τουτο</w><w>ειπον</w><w>υμιν</w><w>οτι</w><w>εκ</w><w>του</w><w>εμου</w><w>ληψεται</w><w>και</w><w>αναγγελει</w><w>υμιν</w></ab>
+<lb/><ab n="B04K16V16">(not quoted) </ab>
+<lb/><ab n="B04K16V17">(not quoted) </ab>
+<lb/><ab n="B04K16V18">(not quoted) </ab>
+<lb/><ab n="B04K16V19">(not quoted) </ab>
+<lb/><ab n="B04K16V20">(not quoted) </ab>
+<lb/><ab n="B04K16V21">(not quoted) </ab>
+<lb/><ab n="B04K16V22">(not quoted) </ab>
+<lb/><ab n="B04K16V23">(not quoted) </ab>
+<lb/><ab n="B04K16V24">(not quoted) </ab>
+<lb/><ab n="B04K16V25">(not quoted) </ab>
+<lb/><ab n="B04K16V26">(not quoted) </ab>
+<lb/><ab n="B04K16V27">(not quoted) </ab>
+<lb/><ab n="B04K16V28">(not quoted) </ab>
+<lb/><ab n="B04K16V29">(not quoted) </ab>
+<lb/><ab n="B04K16V30">(not quoted) </ab>
+<lb/><ab n="B04K16V31">(not quoted) </ab>
+<lb/><ab n="B04K16V32">(not quoted) </ab>
+<lb/><ab n="B04K16V33">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K17" type="chapter"><ab n="B04K17V1">(not quoted) </ab>
+<lb/><ab n="B04K17V2">(not quoted) </ab>
+<lb/><ab n="B04K17V3">(not quoted) </ab>
+<lb/><ab n="B04K17V4">(not quoted) </ab>
+<lb/><ab n="B04K17V5"><w>και</w><w>νυν</w><w>δοξασον</w><w>με</w><w>συ</w><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>παρα</w><w>σεαυτω</w><w>τη</w><w>δοξη</w><w>η</w><w>ειχον</w><w>προ</w><w>του</w><w>τον</w><w>κοσμον</w><w>ειναι</w><w>παρα</w><w>σοι</w></ab>
+<lb/><ab n="B04K17V6">(not quoted) </ab>
+<lb/><ab n="B04K17V7">(not quoted) </ab>
+<lb/><ab n="B04K17V8">(not quoted) </ab>
+<lb/><ab n="B04K17V9">(not quoted) </ab>
+<lb/><ab n="B04K17V10"><w>τα</w><w>γαρ</w><note type="local">maybe ADAPT</note><w>εμα</w><w>παντα</w><w>σα</w><w>εστι</w><w>και</w><w>τα</w><w>σα</w><w>εμα</w>(not quoted) </ab>
+<lb/><ab n="B04K17V11">(not quoted) </ab>
+<lb/><ab n="B04K17V12"><w>(allusion)</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>της</w><w>απωλειας</w>(not quoted) </ab>
+<lb/><ab n="B04K17V13">(not quoted) </ab>
+<lb/><ab n="B04K17V14">(not quoted) </ab>
+<lb/><ab n="B04K17V15">(not quoted) </ab>
+<lb/><ab n="B04K17V16">(not quoted) </ab>
+<lb/><ab n="B04K17V17">(not quoted) </ab>
+<lb/><ab n="B04K17V18">(not quoted) </ab>
+<lb/><ab n="B04K17V19">(not quoted) </ab>
+<lb/><ab n="B04K17V20">(not quoted) </ab>
+<lb/><ab n="B04K17V21">(not quoted) </ab>
+<lb/><ab n="B04K17V22">(not quoted) </ab>
+<lb/><ab n="B04K17V23">(not quoted) </ab>
+<lb/><ab n="B04K17V24">(not quoted) <w>οτι</w><w>ηγαπησας</w><w>με</w><w>προ</w><w>καταβολης</w><w>κοσμου</w></ab>
+<lb/><ab n="B04K17V25"><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>δικαιε</w>(not quoted) </ab>
+<lb/><ab n="B04K17V26">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K18" type="chapter"><ab n="B04K18V1">(not quoted) </ab>
+<lb/><ab n="B04K18V2">(not quoted) </ab>
+<lb/><ab n="B04K18V3">(not quoted) </ab>
+<lb/><ab n="B04K18V4">(not quoted) </ab>
+<lb/><ab n="B04K18V5">(not quoted) </ab>
+<lb/><ab n="B04K18V6">(not quoted) </ab>
+<lb/><ab n="B04K18V7">(not quoted) </ab>
+<lb/><ab n="B04K18V8">(not quoted) <w>ει</w><w>εμε</w><w>ζητειτε</w><w>αφετε</w><w>τουτους</w><w>υπαγειν</w></ab>
+<lb/><ab n="B04K18V9">(not quoted) </ab>
+<lb/><ab n="B04K18V10">(not quoted) </ab>
+<lb/><ab n="B04K18V11">(not quoted) </ab>
+<lb/><ab n="B04K18V12">(not quoted) </ab>
+<lb/><ab n="B04K18V13">(not quoted) </ab>
+<lb/><ab n="B04K18V14">(not quoted) </ab>
+<lb/><ab n="B04K18V15">(not quoted) </ab>
+<lb/><ab n="B04K18V16">(not quoted) </ab>
+<lb/><ab n="B04K18V17">(not quoted) </ab>
+<lb/><ab n="B04K18V18">(not quoted) <w>ανθρακιας</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K18V19">(not quoted) </ab>
+<lb/><ab n="B04K18V20">(not quoted) </ab>
+<lb/><ab n="B04K18V21">(not quoted) </ab>
+<lb/><ab n="B04K18V22">(not quoted) <w>υπηρετης</w><app><rdg type="PatrAlt" hand="A"><w>διδωσι</w><w>ραπισμα</w></rdg><rdg type="PatrAlt" hand="B"><w>ο</w><w>ραπισμα</w><w>δους</w></rdg></app><note type="local">ALLUSIONS only</note>(not quoted) </ab>
+<lb/><ab n="B04K18V23">(not quoted) </ab>
+<lb/><ab n="B04K18V24">(not quoted) </ab>
+<lb/><ab n="B04K18V25">(not quoted) </ab>
+<lb/><ab n="B04K18V26">(not quoted) </ab>
+<lb/><ab n="B04K18V27">(not quoted) </ab>
+<lb/><ab n="B04K18V28">(not quoted) </ab>
+<lb/><ab n="B04K18V29">(not quoted) </ab>
+<lb/><ab n="B04K18V30">(not quoted) </ab>
+<lb/><ab n="B04K18V31">(not quoted) </ab>
+<lb/><ab n="B04K18V32">(not quoted) </ab>
+<lb/><ab n="B04K18V33">(not quoted) </ab>
+<lb/><ab n="B04K18V34">(not quoted) </ab>
+<lb/><ab n="B04K18V35">(not quoted) </ab>
+<lb/><ab n="B04K18V36">(not quoted) </ab>
+<lb/><ab n="B04K18V37">(not quoted) </ab>
+<lb/><ab n="B04K18V38">(not quoted) </ab>
+<lb/><ab n="B04K18V39">(not quoted) </ab>
+<lb/><ab n="B04K18V40">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K19" type="chapter"><ab n="B04K19V1">(not quoted) </ab>
+<lb/><ab n="B04K19V2">(not quoted) </ab>
+<lb/><ab n="B04K19V3">(not quoted) </ab>
+<lb/><ab n="B04K19V4">(not quoted) </ab>
+<lb/><ab n="B04K19V5">(not quoted) </ab>
+<lb/><ab n="B04K19V6">(not quoted) </ab>
+<lb/><ab n="B04K19V7">(not quoted) </ab>
+<lb/><ab n="B04K19V8">(not quoted) </ab>
+<lb/><ab n="B04K19V9">(not quoted) </ab>
+<lb/><ab n="B04K19V10">(not quoted) </ab>
+<lb/><ab n="B04K19V11">(not quoted) </ab>
+<lb/><ab n="B04K19V12">(not quoted) </ab>
+<lb/><ab n="B04K19V13">(not quoted) <w>πιλατος</w>(not quoted) <w>καθεζομενος</w>(not quoted) <w>λιθοστρωτον</w><w>(allusions)</w><w>γολγοθαν</w></ab>
+<lb/><ab n="B04K19V14">(not quoted) </ab>
+<lb/><ab n="B04K19V15">(not quoted) <w>αιρε</w><w>αιρε</w><w>σταυρωσον</w><w>αυτον</w>(not quoted) </ab>
+<lb/><ab n="B04K19V16">(not quoted) </ab>
+<lb/><ab n="B04K19V17">(not quoted) </ab>
+<lb/><ab n="B04K19V18">(not quoted) </ab>
+<lb/><ab n="B04K19V19">(not quoted) </ab>
+<lb/><ab n="B04K19V20">(not quoted) </ab>
+<lb/><ab n="B04K19V21">(not quoted) </ab>
+<lb/><ab n="B04K19V22">(not quoted) </ab>
+<lb/><ab n="B04K19V23"><w>οι</w><w>στρατιωται</w>(not quoted) <w>τεσσαρα</w>(not quoted) <w>ο</w><w>δε</w><w>χιτων</w>(not quoted) </ab>
+<lb/><ab n="B04K19V24"><w>(allusions)</w><w>ουκ</w><w>εσχισθη</w><w>(allusions)</w><w>και</w><w>λαχμος</w><w>περι</w><w>τουτου</w><w>γινεται</w><w>(allusions)</w></ab>
+<lb/><ab n="B04K19V25">(not quoted) </ab>
+<lb/><ab n="B04K19V26">(not quoted) <w>ιδων</w><w>την</w><w>μαριαμ</w><w>την</w><w>εαυτου</w><w>κατα</w><w>σαρκα</w><w><abbr type="nomSac"><hi rend="overline">μρα</hi></abbr></w><w>και</w><w>τον</w><w>ιωαννην</w><w>τον</w><w>των</w><w>μαθητων</w><w>προσφιλεστατων</w><note type="local">ADAPT</note><note type="local">extraneous text</note><w>φησι</w><w>προς</w><w>δε</w><w>την</w><w>μαριαμ</w><w>ιδου</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>σου</w></ab>
+<lb/><ab n="B04K19V27">(not quoted) <w>προς</w><w>εκεινον</w><w>μεν</w><note type="local">ADAPT</note><w>ιδου</w><w>η</w><w><abbr type="nomSac"><hi rend="overline">μηρ</hi></abbr></w><w>σου</w>(not quoted) </ab>
+<lb/><ab n="B04K19V28">(not quoted) <w>λεγει</w><w>διψω</w></ab>
+<lb/><ab n="B04K19V29">(not quoted) </ab>
+<lb/><ab n="B04K19V30">(not quoted) </ab>
+<lb/><ab n="B04K19V31">(not quoted) </ab>
+<lb/><ab n="B04K19V32">(not quoted) </ab>
+<lb/><ab n="B04K19V33">(not quoted) </ab>
+<lb/><ab n="B04K19V34">(not quoted) <note type="local">ADAPT</note><w>και</w><w>την</w><w>πλευραν</w><w>νυγεις</w><w>εξηγαγεν</w><w>αιμα</w><w>και</w><w>υδωρ</w></ab>
+<lb/><ab n="B04K19V35">(not quoted) </ab>
+<lb/><ab n="B04K19V36">(not quoted) </ab>
+<lb/><ab n="B04K19V37"><w>(allusions)</w><w>εκκεντησαντες</w></ab>
+<lb/><ab n="B04K19V38">(not quoted) </ab>
+<lb/><ab n="B04K19V39">(not quoted) <w>και</w><w>ο</w><w>νικοδημος</w>(not quoted) <w>φερων</w><w>μιγμα</w><w>σμυρνης</w><w>και</w><w>αλοης</w>(not quoted) </ab>
+<lb/><ab n="B04K19V40">(not quoted) </ab>
+<lb/><ab n="B04K19V41">(not quoted) <w>εν</w><w>κηπω</w><w>εσταυρωθη</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K19V42">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K20" type="chapter"><ab n="B04K20V1">(not quoted) <w>μαρια</w>(not quoted) <w>ηλθεν</w><w>ετι</w><w>ουσης</w><w>σκοτιας</w><note type="local">ADAPT</note>(not quoted) </ab>
+<lb/><ab n="B04K20V2">(not quoted) </ab>
+<lb/><ab n="B04K20V3">(not quoted) <w>πετρος</w><w>και</w><w>ιωαννης</w><w>(allusions)</w><w>επι</w><w>το</w><w>μνημα</w></ab>
+<lb/><ab n="B04K20V4"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V5"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V6"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V7">(not quoted) </ab>
+<lb/><ab n="B04K20V8">(not quoted) </ab>
+<lb/><ab n="B04K20V9">(not quoted) </ab>
+<lb/><ab n="B04K20V10">(not quoted) </ab>
+<lb/><ab n="B04K20V11"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V12"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V13">(not quoted) <w>ηραν</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w><w>μου</w><w>και</w><w>ουκ</w><w>οιδα</w><w>που</w><w>τεθεικαν</w><w>αυτον</w></ab>
+<lb/><ab n="B04K20V14"><w>(allusion)</w></ab>
+<lb/><ab n="B04K20V15">(not quoted) </ab>
+<lb/><ab n="B04K20V16">(not quoted) </ab>
+<lb/><ab n="B04K20V17">(not quoted) <w>αναβαινω</w><w>προς</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>μου</w><w>και</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>υμων</w><w>και</w><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><w>μου</w><w>και</w><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><w>υμων</w></ab>
+<lb/><ab n="B04K20V18">(not quoted) </ab>
+<lb/><ab n="B04K20V19"><w>ειτα</w><w>αναστας</w><w>εισηλθε</w><w>δια</w><w>θυρων</w><w>κεκλεισμενων</w><w>αλλ</w><w>ηπιστειτο</w><note type="local">ADAPT</note></ab>
+<lb/><ab n="B04K20V20">(not quoted) </ab>
+<lb/><ab n="B04K20V21">(not quoted) </ab>
+<lb/><ab n="B04K20V22"><w>και</w><w>τουτο</w><w>ειπων</w><w>ενεφυσησε</w><w>και</w><w>λεγει</w><w>αυτοις</w><w>λαβετε</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>αγιον</w></ab>
+<lb/><ab n="B04K20V23"><w>εαν</w><w>τινων</w><w>αφητε</w><w>τας</w><w>αμαρτιας</w><w>αφιενται</w><w>αυτοις</w><w>εαν</w><w>τινων</w><w>κρατητε</w><w>κεκρατηνται</w></ab>
+<lb/><ab n="B04K20V24">(not quoted) </ab>
+<lb/><ab n="B04K20V25">(not quoted) </ab>
+<lb/><ab n="B04K20V26">(not quoted) </ab>
+<lb/><ab n="B04K20V27">(not quoted) </ab>
+<lb/><ab n="B04K20V28">(not quoted) </ab>
+<lb/><ab n="B04K20V29">(not quoted) </ab>
+<lb/><ab n="B04K20V30">(not quoted) </ab>
+<lb/><ab n="B04K20V31">(not quoted) </ab>
+<lb/></div><lb/><div n="B04K21" type="chapter"><ab n="B04K21V1"><w>(allusion)</w><w>η</w><w>θαλασσα</w>(not quoted) </ab>
+<lb/><ab n="B04K21V2">(not quoted) </ab>
+<lb/><ab n="B04K21V3">(not quoted) </ab>
+<lb/><ab n="B04K21V4">(not quoted) </ab>
+<lb/><ab n="B04K21V5">(not quoted) </ab>
+<lb/><ab n="B04K21V6"><w>(allusion)</w><w>των</w><w>ιχθυων</w></ab>
+<lb/><ab n="B04K21V7"><w>(allusion)</w></ab>
+<lb/><ab n="B04K21V8"><w>(allusion)</w><w>των</w><w>ιχθυων</w></ab>
+<lb/><ab n="B04K21V9"><w>(allusion)</w><w>οψαριον</w><w>το</w><w>επικειμενον</w>(not quoted) </ab>
+<lb/><ab n="B04K21V10">(not quoted) </ab>
+<lb/><ab n="B04K21V11">(not quoted) </ab>
+<lb/><ab n="B04K21V12">(not quoted) </ab>
+<lb/><ab n="B04K21V13">(not quoted) </ab>
+<lb/><ab n="B04K21V14">(not quoted) </ab>
+<lb/><ab n="B04K21V15"><w>(allusion)</w><w>πετρος</w><w>(allusion)</w></ab>
+<lb/><ab n="B04K21V16"><w>(allusion)</w><w>ποιμαινειν</w><w><supplied reason="lacuna/illegible">τα</supplied></w><w>προβατα</w>(not quoted) </ab>
+<lb/><ab n="B04K21V17"><w>(allusion)</w><w>το</w><w>δε</w><w>τριτον</w>(not quoted) <w>προβατα</w>(not quoted) </ab>
+<lb/><ab n="B04K21V18">(not quoted) </ab>
+<lb/><ab n="B04K21V19">(not quoted) </ab>
+<lb/><ab n="B04K21V20">(not quoted) </ab>
+<lb/><ab n="B04K21V21">(not quoted) </ab>
+<lb/><ab n="B04K21V22">(not quoted) </ab>
+<lb/><ab n="B04K21V23">(not quoted) </ab>
+<lb/><ab n="B04K21V24">(not quoted) </ab>
+<lb/><ab n="B04K21V25">(not quoted) </ab>
+<lb/></div><lb/><div type="explicit" n="B04explicit"><ab>(not quoted) </ab>
+<lb/></div></div></body></text></TEI>

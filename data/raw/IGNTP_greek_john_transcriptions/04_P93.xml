@@ -1,0 +1,71 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAP93">
+<teiHeader>
+  <fileDesc>
+   
+   <titleStmt>
+    <title>A Transcription of John in P93</title>
+<title type="document" key="10093" n="P93">P93</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>    <respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+    </respStmt>
+    <funder>The Arts and Humanities Research Council</funder> 
+    <sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+   </titleStmt>
+   
+   <editionStmt>
+    <edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+   </editionStmt>
+   
+   <publicationStmt>
+    <publisher>
+     <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+     <name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+    <availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+   
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <country>Italy</country>
+      <settlement>Florence</settlement>
+      <repository>Istituto Papirologico 'G Vitelli'</repository>
+      <idno>PSI Inv. 108</idno>
+      <msName xml:lang="en">Papyrus 93</msName>
+      <altIdentifier type="GA"><idno>P93</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>10093</idno></altIdentifier>
+      <altIdentifier type="TM"><idno>61650</idno></altIdentifier>
+      <altIdentifier type="LDAB"><idno>2800</idno></altIdentifier>
+     </msIdentifier>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  
+  <encodingDesc n="1.4">
+   <projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+   <editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+<revisionDesc>
+<change n="2" when="2013-07-22">Ghost page removed by Catherine Smith.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 (apart from handling of ghost pages) by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+  
+ </teiHeader>
+ <text xml:lang="grc"><body>
+<pb xml:id="P1x-P93" n="1→" type="page"/><note type="header">→ (Jn 13,15-17)</note>
+<cb xml:id="P1xC1-P93" n="1"/>
+ <lb xml:id="P1xC1L1-P93" n="1"/><div type="book" n="B04"><div n="B04K13" type="chapter"><ab n="B04K13V15"><gap extent="rest" unit="verse" reason="lacuna"/><w><unclear>και</unclear></w><w><supplied reason="unspecified">υμεις</supplied></w><w><supplied reason="unspecified">ποιητε</supplied></w></ab><ab n="B04K13V16"><w><supplied reason="unspecified">αμην</supplied></w><w><supplied reason="unspecified">αμην</supplied></w>
+<lb xml:id="P1xC1L2-P93" n="2"/><w>λεγω</w><w>ι<unclear>μ</unclear><supplied reason="unspecified">ιν</supplied></w><w><supplied reason="unspecified">ουκ</supplied></w><w><supplied reason="unspecified">εστι</supplied></w><w><supplied reason="unspecified">δουλος</supplied></w><w><supplied reason="unspecified">μιζων</supplied></w>
+<lb xml:id="P1xC1L3-P93" n="3"/><w>του</w><w>κυρ<supplied reason="unspecified">ιου</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w><w><supplied reason="unspecified">ουδε</supplied></w><w><supplied reason="unspecified">αποστολος</supplied></w>
+<lb xml:id="P1xC1L4-P93" n="4"/><w>μιζων</w><w><supplied reason="unspecified">του</supplied></w><w><supplied reason="unspecified">πεμψαντος</supplied></w><w><supplied reason="unspecified">αυτον</supplied></w>
+<lb xml:id="P1xC1L5-P93" n="5"/></ab><ab n="B04K13V17"><w><unclear>ι</unclear></w><w>ταυτ<unclear>α</unclear></w><w><supplied reason="unspecified">οιδατε</supplied></w><w><supplied reason="unspecified">μακαριοι</supplied></w><w><supplied reason="unspecified">εστε</supplied></w><w><supplied reason="unspecified">εαν</supplied></w>
+<lb xml:id="P1xC1L6-P93" n="6"/><w>πιιτε</w><gap reason="witnessEnd"/>
+<lb xml:id="P1xC1L7-P93" n="7"/><note type="editorial">↓ blank</note></ab>
+</div></div></body></text></TEI>

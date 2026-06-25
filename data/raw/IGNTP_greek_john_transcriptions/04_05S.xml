@@ -1,0 +1,320 @@
+<!DOCTYPE TEI [
+<!ENTITY om "OM">
+]>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA05S">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>A Transcription of John in Codex Bezae Supplement (GA 05S)</title>
+				<title type="document" key="20005" n="05S">GA 05S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="04">john</title>
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			
+			<editionStmt>
+				<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+			</editionStmt>
+			
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>12.8.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+			
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>United Kingdom</country>
+						<settlement>Cambridge</settlement>
+						<repository>University Library</repository>
+						<idno>Nn.2.41</idno>
+						<msName xml:lang="la">Codex Bezae</msName>
+						<altIdentifier type="GA"><idno>05S</idno></altIdentifier>
+						<altIdentifier type="Liste"><idno>20005</idno></altIdentifier>
+						<altIdentifier type="Tischendorf"><idno>D</idno></altIdentifier>
+						<altIdentifier type="TM"><idno>61777</idno></altIdentifier>
+						<altIdentifier type="LDAB"><idno>2929</idno></altIdentifier>
+					</msIdentifier>
+				</msDesc>
+				<listWit><witness xml:id="firsthand"/><witness xml:id="secunda_manu"/></listWit>
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		
+		
+		<revisionDesc>
+			<change n="2" when="2014-06-24">Rest of verse gap tag added at 20.13 by Rachel Kevern.</change>
+			<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 by Hugh Houghton.</change>
+			<change n="0" when="2013-05-20">Extracted from Codex Bezae project transcriptions and given new header.</change>
+		</revisionDesc>
+		
+	</teiHeader>
+	<text xml:lang="grc"><body>
+
+<pb xml:id="P169v-05S" n="169v" type="Quire_22-1v" subtype="hair" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/308/"/>
+<div type="book" n="B04"><div n="B04K18" type="chapter"><ab n="B04K18V14"><seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XVIII·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P169vC1-05S" n="1"/>
+<note type="editorial">The left hand margin is missing</note>
+<lb xml:id="P169vC1L1-05S" n="1" rend="hang"/><w>ε̂ν</w><w>δε</w><w>καϊαφας</w><pc>.</pc><w>ο</w><w>συμβουλευσας</w><w>τοις</w><w>ϊουδαιοις</w><pc>.</pc>
+<lb xml:id="P169vC1L2-05S" n="2"/><w>οτι</w><w>συμφερει</w><w>εν</w><w>ανθρωπον</w><w>αποθανειν</w>
+<lb xml:id="P169vC1L3-05S" n="3" rend="hang"/><w>υπερ</w><w>του</w><w>λαου</w><pc>·</pc></ab><ab n="B04K18V15"><w>ηκολουθει</w><w>δε</w><w>τω</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><w>σιμων</w><w>πετρος</w><pc>.</pc>
+<lb xml:id="P169vC1L4-05S" n="4"/><w>και</w><w>αλλος</w><w>μαθητης</w><pc>·</pc><w>ο</w><w>δε</w><w>μαθητης</w><w>εκεινος</w>
+<lb xml:id="P169vC1L5-05S" n="5"/><w>ε̂ν</w><w>γνωστος</w><w>τω</w><w>αρχϊερι</w><pc>·</pc><w>και</w><w>συνεισηλθεν</w><w>τω</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w>
+<lb xml:id="P169vC1L6-05S" n="6"/><w>εις</w><w>την</w><w>αυλην</w><w>του</w><w>αρχϊερεως</w><pc>·</pc>
+<lb xml:id="P169vC1L7-05S" n="7"/></ab><ab n="B04K18V16"><w>ο</w><w>δε</w><w>πετρος</w><w>ϊστηκει</w><w>προς</w><w>τη</w><w>θυρα</w><w>εξω</w><pc>·</pc>
+<lb xml:id="P169vC1L8-05S" n="8"/><w>εξηλθεν</w><w>ουν</w><w>ο</w><w>μαθητης</w><w>ο</w><w>αλλος</w><pc>.</pc>
+<lb xml:id="P169vC1L9-05S" n="9"/><w>ος</w><w>ην</w><w>γνωστος</w><w>τω</w><w>αρχϊερει</w><pc>·</pc>
+<lb xml:id="P169vC1L10-05S" n="10"/><w>και</w><w>ειπεν</w><w>τη</w><w>θυρωρω</w><pc>·</pc>
+<lb xml:id="P169vC1L11-05S" n="11"/><w>και</w><w>εισηγαγεν</w><w>τον</w><w>πετρον</w><pc>·</pc>
+<lb xml:id="P169vC1L12-05S" n="12" rend="hang"/></ab><ab n="B04K18V17"><w>λεγει</w><w>ουν</w><w>η</w><w>παιδισκη</w><w>η</w><w>θυρωρος</w><w>τω</w><w>πετρω</w><pc>·</pc>
+<lb xml:id="P169vC1L13-05S" n="13" rend="hang"/><w>μη</w><w>και</w><w>συ</w><w>εκ</w><w>των</w><w>μαθητων</w><w>ει</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ανου</hi></abbr></w><w>τουτου</w><pc>·</pc>
+<lb xml:id="P169vC1L14-05S" n="14" rend="hang"/><w>λεγει</w><w>εκεινος</w><pc>.</pc><w>ουκ</w><w>ειμι</w><pc>·</pc>
+<lb xml:id="P169vC1L15-05S" n="15" rend="hang"/></ab><ab n="B04K18V18"><w>ειστηκεισαν</w><w>δε</w><w>οι</w><w>δουλοι</w><w>και</w><w>οι</w><w>ϋπηρετι</w><w>ανθρακιαν</w>
+<lb xml:id="P169vC1L16-05S" n="16"/><w>πεποιηκοτες</w><w>οτι</w><w>ψυχος</w><w>ην</w><pc>·</pc><w>και</w><w>εθερμαινοντο</w><pc>·</pc>
+<lb xml:id="P169vC1L17-05S" n="17" rend="hang"/><w>ην</w><w>δε</w><w>μετ</w><w>αυτων</w><w>ο</w><w>πετρος</w><w>εστως</w><pc>.</pc><w>και</w><w>θερμενος</w><pc>·</pc>
+<lb xml:id="P169vC1L18-05S" n="18" rend="hang"/></ab><ab n="B04K18V19"><w>ο</w><w>ουν</w><w>αρχϊερευς</w><w>ηρωτησεν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>.</pc>
+<lb xml:id="P169vC1L19-05S" n="19"/><w>περι</w><w>των</w><w>μαθητων</w><w>αυτου</w><w>και</w><w>περι</w><w>της</w><w>διδαχης</w><w>αυτου</w><pc>·</pc>
+<lb xml:id="P169vC1L20-05S" n="20" rend="hang"/></ab><ab n="B04K18V20"><w>απεκριθη</w><w>αυτω</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc><w>εγω</w><w>παρρησια</w><note type="editorial">Latin p in place of Greek ρ</note><w>ελαλησα</w><w>τω</w><w>κοσμω</w><pc>·</pc>
+<lb xml:id="P169vC1L21-05S" n="21"/><w>εγω</w><w>παντοτε</w><w>εδιδαξα</w><w>εν</w><w>συναγωγη</w><w>και</w><w>εν</w><w>τω</w><w>ϊερω</w>
+<lb xml:id="P169vC1L22-05S" n="22"/><w>οπου</w><w>παντοτε</w><w>οι</w><w>ϊουδαηοι</w><w>συνερχονται</w><pc>.</pc>
+<lb xml:id="P169vC1L23-05S" n="23"/><w>και</w><w>ε</w><w>κρυπτω</w><w>ελαλησα</w><w>ουδεν</w><pc>·</pc></ab><ab n="B04K18V21"><w>τι</w><w>με</w><w>επερωτας</w><pc>·</pc>
+<lb xml:id="P169vC1L24-05S" n="24"/><w>επερωτεσον</w><w>τους</w><w>ακηκοοτας</w><w>τι</w><w>ελαλησα</w><w>αυτοις</w><pc>·</pc>
+<lb xml:id="P169vC1L25-05S" n="25"/><w>ειδε</w><w>ουτοι</w><w>οιδασιν</w><w>α</w><w>ειπον</w><w>εγω</w><pc>·</pc>
+<lb xml:id="P169vC1L26-05S" n="26" rend="hang"/></ab><ab n="B04K18V22"><w>ταυτα</w><w>δε</w><w>αυτου</w><w>ειποντος</w><pc>.</pc><w>εις</w><w>των</w><w>ϋπηρετων</w><w>παρεστηκως</w>
+<lb xml:id="P169vC1L27-05S" n="27"/><w>εδωκεν</w><w>ραπισμα</w><w>τω</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><w>ειπων</w><pc>·</pc>
+<lb xml:id="P169vC1L28-05S" n="28"/><w>ουτως</w><w>αποκρινη</w><w>τω</w><w>αρχϊερει</w><pc>·</pc></ab><ab n="B04K18V23"><w>απεκριθη</w><w>αυτω</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>.</pc>
+<lb xml:id="P169vC1L29-05S" n="29"/><w>ει</w><w>κακως</w><w>ελαλησα</w><pc>.</pc><w>μαρτυρησον</w><w>περι</w><w>του</w><w>κακου</w><pc>·</pc>
+<lb xml:id="P169vC1L30-05S" n="30"/><w>ει</w><w>δε</w><w>καλως</w><pc>.</pc><w>τι</w><w>με</w><w>δερεις</w><pc>·</pc></ab><ab n="B04K18V24"><w>απεστειλεν</w><w>αυτον</w><w>αννας</w>
+<lb xml:id="P169vC1L31-05S" n="31"/><w>δεδεμενον</w><w>προς</w><w>καιαφαν</w><w>τον</w><w>αρχιερεα</w><pc>·</pc>
+<lb xml:id="P169vC1L32-05S" n="32" rend="hang"/></ab><ab n="B04K18V25"><w>ην</w><w>δε</w><w>σιμων</w><w>πετρος</w><pc>.</pc><w>εστως</w><w>και</w><w>θερμενος</w><pc>.</pc>
+<lb xml:id="P169vC1L33-05S" n="33"/><w>ειπον</w><w>ουν</w><w>αυτω</w><pc>·</pc><w>μη</w><w>και</w><w>συ</w><w>εκ</w><w>των</w><w>μαθητων</w><w>αυτου</w><w>ει</w><pc>·</pc>
+<pb xml:id="P170v-05S" n="170v" type="Quire_22-2v" subtype="flesh" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/310/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XVIII·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P170vC1-05S" n="1"/>
+<lb xml:id="P170vC1L1-05S" n="1"/><w>ηρνησατο</w><w>εκεινος</w><w>και</w><w>ειπεν</w><pc>·</pc><w>ουκ</w><w>ειμι</w><pc>·</pc></ab><ab n="B04K18V26"><w>λεγει</w><w>εις</w><w>εκ</w><w>των</w><w>δολων</w>
+<lb xml:id="P170vC1L2-05S" n="2"/><w>του</w><w>αρχϊερεως</w><pc>.</pc><w>συνγενης</w><w>ων</w><w>ου</w><w>απεκοψεν</w><w>πετρος</w><w>το</w><w>ωτιον</w><pc>·</pc>
+<lb xml:id="P170vC1L3-05S" n="3"/><w>ουκ</w><w>εγω</w><w>σε</w><w>ιδον</w><w>εν</w><w>τω</w><w>κηπω</w><w>μετ</w><w>αυτου</w><pc>·</pc>
+<lb xml:id="P170vC1L4-05S" n="4"/></ab><ab n="B04K18V27"><w>παλιν</w><w>ουν</w><w>ηρνησατο</w><w>πετρως</w><pc>.</pc><w>και</w><w>ευθεως</w><w>αλεκτωρ</w><w>εφωνησεν</w><pc>·</pc>
+<lb xml:id="P170vC1L5-05S" n="5" rend="hang"/></ab><ab n="B04K18V28"><w>αγουσιν</w><w>ουν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><w>απο</w><w>του</w><w>καϊφα</w><w>εις</w><w>το</w><w>πραιτωριον</w><pc>.</pc>
+<lb xml:id="P170vC1L6-05S" n="6"/><w>ην</w><w>δε</w><w>πρωϊ</w><pc>·</pc><w>και</w><w>αυτοι</w><w>ουκ</w><w>εισηλθον</w><w>εις</w><w>το</w><w>πραιτωριον</w>
+<lb xml:id="P170vC1L7-05S" n="7"/><w>ινα</w><w>μη</w><w>μιανθωσιν</w><pc>·</pc><w>αλλα</w><w>φαγωσιν</w><w>το</w><w>πασχα</w><pc>·</pc>
+<lb xml:id="P170vC1L8-05S" n="8" rend="hang"/></ab><ab n="B04K18V29"><w>εξηλθεν</w><w>ουν</w><w>ο</w><w>πιλατος</w><w>προς</w><w>αυτους</w><pc>·</pc><w>και</w><w>ειπεν</w><pc>·</pc>
+<lb xml:id="P170vC1L9-05S" n="9"/><w>τινα</w><w>κατηγοριαν</w><w>φερεται</w><w>κατα</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ανου</hi></abbr></w><w>τουτου</w><pc>·</pc>
+<lb xml:id="P170vC1L10-05S" n="10"/></ab><ab n="B04K18V30"><w>απεκριθησαν</w><w>και</w><w>ειπεν</w><w>αυτω</w><pc>·</pc><w>ει</w><w>μη</w><w>ην</w><w>ουτος</w>
+<lb xml:id="P170vC1L11-05S" n="11"/><w>κακοποιος</w><pc>.</pc><w>ουκ</w><w>αν</w><w>σοι</w><w>παρεδωκαμεν</w><w>αυτον</w><pc>·</pc>
+<lb xml:id="P170vC1L12-05S" n="12"/></ab><ab n="B04K18V31"><w>ειπεν</w><w>ουν</w><w>αυτοις</w><w>ο</w><w>πειλατος</w><pc>.</pc><w>λαβεται</w><w>αυτον</w><w>ϋμεις</w><pc>.</pc>
+<lb xml:id="P170vC1L13-05S" n="13"/><w>και</w><w>κατα</w><w>τον</w><w>νομον</w><w>ϋμων</w><w>κρινατε</w><w>αυτον</w><pc>,</pc>
+<lb xml:id="P170vC1L14-05S" n="14"/><w>ειπον</w><w>δε</w><w>αυτω</w><w>οι</w><w>ιοϋδαιοι</w><pc>,</pc><w>ημιν</w><w>ουκ</w><w>εξεστιν</w>
+<lb xml:id="P170vC1L15-05S" n="15"/><w>αποκτειναι</w><w>ουδενα</w><pc>,</pc></ab><ab n="B04K18V32"><w>ϊνα</w><w>ο</w><w>λογος</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><w>πληρωθη</w>
+<lb xml:id="P170vC1L16-05S" n="16"/><w>ον</w><w>ειπεν</w><pc>.</pc><w>σημινων</w><w>ποιω</w><w>θανατω</w><w>ημελλεν</w><w>αποθνησκειν</w><pc>·</pc>
+<lb xml:id="P170vC1L17-05S" n="17"/></ab><ab n="B04K18V33"><w>εισηλθον</w><w>ουν</w><w>παλιν</w><w>εις</w><w>το</w><w>πραιτωριον</w><w>πειλατος</w><pc>.</pc>
+<lb xml:id="P170vC1L18-05S" n="18"/><w>και</w><w>εφωιησεν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc><w>και</w><w>ειπεν</w><w>αυτω</w><pc>·</pc>
+<lb xml:id="P170vC1L19-05S" n="19"/><w>συ</w><w>ει</w><w>ο</w><w>βασιλευς</w><w>των</w><w>ιουδαιων</w><pc>·</pc></ab><ab n="B04K18V34"><w>και</w><w>απεκρινατο</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc>
+<lb xml:id="P170vC1L20-05S" n="20" rend="hang"/><w>αφ</w><w>εαυτου</w><w>τουτο</w><w>λεγεις</w><pc>·</pc><w>η</w><w>αλλοι</w>
+<lb xml:id="P170vC1L21-05S" n="21"/><w>ειπον</w><w>σοι</w><w>περι</w><w>εμου</w><pc>·</pc></ab><ab n="B04K18V35"><w>απεικριθη</w><w>ο</w><w>πειλατος</w><pc>·</pc><w>μητι</w><w>εγω</w>
+<lb xml:id="P170vC1L22-05S" n="22"/><w>ιουδαιος</w><w>ειμι</w><pc>·</pc><w>το</w><w>εθνος</w><w>το</w><w>σον</w><w>και</w><w>αρχϊερεις</w><pc>·</pc>
+<lb xml:id="P170vC1L23-05S" n="23"/><w>παρεδωκαν</w><w>σε</w><w>εμοι</w><pc>,</pc><w>τι</w><w>εποιησας</w><pc>·</pc></ab><ab n="B04K18V36"><w>απεκριθη</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc>
+<lb xml:id="P170vC1L24-05S" n="24" rend="hang"/><w>η</w><w>βασιλεια</w><w>η</w><w>εμη</w><pc>·</pc><w>ουκ</w><w>εστιν</w><w>εκ</w><w>του</w><w>κοσμου</w><w>τουτου</w><pc>.</pc>
+<lb xml:id="P170vC1L25-05S" n="25"/><w>ει</w><w>εκ</w><w>του</w><w>κοσμου</w><w>τουτου</w><w>ην</w><w>η</w><w>εμη</w><w>βασιλεια</w><pc>.</pc>
+<lb xml:id="P170vC1L26-05S" n="26"/><w>οι</w><w>ϋπηρεται</w><w>αν</w><w>οι</w><w>εμοι</w><w>ηγωνιζοτο</w><w>ϊνα</w><w>μη</w><w>παραδω</w><w>τοις</w>
+<lb xml:id="P170vC1L27-05S" n="27"/><w>ιουδαις</w><pc>·</pc><w>νυν</w><w>δε</w><w>η</w><w>βασιλεια</w><w>η</w><w>εμι</w><w>ουκ</w><w>εστιν</w><w>εντευθεν</w><pc>·</pc>
+<lb xml:id="P170vC1L28-05S" n="28"/></ab><ab n="B04K18V37"><w>ειπεν</w><w>ουν</w><w>αυτω</w><w>ο</w><w>πειλατος</w><pc>·</pc><w>ουκουν</w><w>βασιλευς</w><w>ει</w><w>συ</w><pc>·</pc>
+<lb xml:id="P170vC1L29-05S" n="29" rend="hang"/><w>απεκριθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc><w>συ</w><w>λεγεις</w><w>οτι</w><w>βασιλευς</w><w>ειμι</w><pc>·</pc>
+<lb xml:id="P170vC1L30-05S" n="30"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>εγω</w><w>εις</w><w>τουτο</w><w>γεγεννημαι</w><pc>·</pc><w>και</w><w>εις</w><w>τουτο</w><w>εληλυθα</w>
+<lb xml:id="P170vC1L31-05S" n="31"/><w>εις</w><w>τον</w><w>κοσμον</w><pc>.</pc><w>ϊνα</w><w>μαρτυρησων</w><w>τη</w><w>αληθεια</w><pc>,</pc>
+<lb xml:id="P170vC1L32-05S" n="32"/><w>πας</w><w>ο</w><w>ων</w><w>εκ</w><w>της</w><w>αληθειας</w><pc>,</pc><w>ακουι</w><w>μου</w><w>της</w><w>φωνης</w><pc>·</pc>
+<lb xml:id="P170vC1L33-05S" n="33" rend="hang"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg></ab><ab n="B04K18V38"><w>λεγει</w><w>αυτω</w><w>ο</w><w>πειλατος</w><pc>.</pc><app><rdg type="orig" hand="firsthand"><gap reason="illegible" unit="char" extent="7"/><w><gap reason="illegible" unit="char" extent="1"/>ληθεια</w></rdg><rdg type="corr" hand="firsthand"><w>τι</w><w>εστιν</w><w>αληθεια</w></rdg></app><pc>·</pc>
+<pb xml:id="P171v-05S" n="171v" type="Quire_22-3v" subtype="hair" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/312/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XVIII·XIX·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P171vC1-05S" n="1"/>
+<note type="editorial">The top left hand margin is missing.</note>
+<lb xml:id="P171vC1L1-05S" n="1" rend="hang"/><w>και</w><w>τουτο</w><w>ειπων</w><pc>·</pc><w>παλιν</w><w>εξηλθεν</w><w>προς</w><w>τους</w><w>ϊουδαιους</w><pc>.</pc>
+<lb xml:id="P171vC1L2-05S" n="2"/><w>και</w><w>λεγει</w><w>αυτοις</w><pc>·</pc><w>εγω</w><w>ουδεμιαν</w><w>αιτιαν</w><w>εν</w><w>αυτω</w><w>ευρισκω</w><pc>·</pc>
+<lb xml:id="P171vC1L3-05S" n="3"/></ab><ab n="B04K18V39"><w>εστιν</w><w>δε</w><w>συνηθαια</w><w>ϋμιν</w><pc>.</pc><w>ϊνα</w><w>ενα</w><w>απολυσω</w><w>ϋμιν</w><w>εν</w><w>τω</w><w>πασχα</w><pc>.</pc>
+<lb xml:id="P171vC1L4-05S" n="4"/><w>βουλεσται</w><w>ουν</w><pc>·</pc><w>απολυσω</w><w>ϋμιν</w><w>τον</w><w>βασιλεα</w><w>των</w><w>ιουδαιων</w><pc>·</pc>
+<lb xml:id="P171vC1L5-05S" n="5"/></ab><ab n="B04K18V40"><w>εκραυγασαν</w><w>ουν</w><w>παλιν</w><w>λεγοντες</w><w>παντες</w><pc>·</pc><w>μη</w><w>τουτον</w><pc>·</pc>
+<lb xml:id="P171vC1L6-05S" n="6"/><w>αλλα</w><w>βαραββαν</w><pc>·</pc><w>ην</w><w>δε</w><w>βαραββας</w><w>ληστης</w><pc>·</pc></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V1"><w>τοτε</w><w>ουν</w><w>ελαβεν</w>
+<lb xml:id="P171vC1L7-05S" n="7"/><w>ο</w><w>πειλατος</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc><w>και</w><w>εμαστιγωσεν</w><pc>·</pc></ab><ab n="B04K19V2"><w>και</w><w>οι</w><w>στρατιωται</w>
+<lb xml:id="P171vC1L8-05S" n="8"/><w>πλεξαντες</w><w>στεφανον</w><w>εξ</w><w>ακανθων</w><pc>·</pc><w>επεθηκαν</w><w>αυτου</w>
+<lb xml:id="P171vC1L9-05S" n="9"/><w>τη</w><w>κεφαλη</w><pc>·</pc><w>και</w><w>ειματιον</w><w>πορφυρουν</w><w>περιεβαλον</w><w>αυτον</w><pc>,</pc>
+<lb xml:id="P171vC1L10-05S" n="10"/></ab><ab n="B04K19V3"><w>και</w><w>ελεγον</w><pc>·</pc><w>χαιρε</w><w>ο</w><w>βασιλευς</w><w>των</w><w>ιουδαιων</w><pc>·</pc>
+<lb xml:id="P171vC1L11-05S" n="11"/><w>και</w><w>εδιδουν</w><w>αυτω</w><w>ραπισματα</w><pc>·</pc></ab><ab n="B04K19V4"><w>εξηλθεν</w><w>παλιν</w><w>εξω</w>
+<lb xml:id="P171vC1L12-05S" n="12"/><w>ο</w><w>πειλατος</w><pc>·</pc><w>και</w><w>λεγει</w><w>αυτοις</w><pc>·</pc><w>ϊδε</w><w>αγω</w><w>ϋμιν</w><w>αυτον</w><w>εξω</w><pc>.</pc>
+<lb xml:id="P171vC1L13-05S" n="13"/><w>ϊνα</w><w>γνωτε</w><w>ωτι</w><w>εν</w><w>αυτω</w><w>ουδεμιαν</w><w>αιτιαν</w><w>ευρισκω</w><pc>·</pc>
+<lb xml:id="P171vC1L14-05S" n="14" rend="hang"/></ab><ab n="B04K19V5"><w>εξηλθεν</w><w>ουν</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><w>εξω</w><pc>.</pc><w>φορων</w><w>τον</w><w>ακανθινον</w><w>στεφανον</w><pc>.</pc>
+<lb xml:id="P171vC1L15-05S" n="15"/><w>και</w><w>το</w><w>πορφυρουν</w><w>ϊματιον</w><pc>·</pc><w>και</w><w>λεγει</w><w>αυτοις</w><pc>·</pc><w>ϊδε</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ανος</hi></abbr></w><pc>,</pc>
+<lb xml:id="P171vC1L16-05S" n="16" rend="hang"/></ab><ab n="B04K19V6"><w>οτε</w><w>ουν</w><w>ϊδον</w><w>αυτον</w><w>οι</w><w>αρχϊερεις</w><w>και</w><w>οι</w><w>ϋπηρεται</w><pc>.</pc>
+<lb xml:id="P171vC1L17-05S" n="17"/><w>εκραυγασαν</w><w>λεγοντες</w><pc>·</pc><w>σταυρωσον</w><w>σταυρωσον</w><w>αυτον</w><pc>·</pc>
+<lb xml:id="P171vC1L18-05S" n="18" rend="hang"/><w>λεγει</w><w>αυτοις</w><w>ο</w><w>πειλατος</w><pc>,</pc><w>λαβετε</w><w>ϋμεις</w><w>αυτον</w><pc>·</pc><w>και</w><w>σταυρωσαται</w><pc>·</pc>
+<lb xml:id="P171vC1L19-05S" n="19"/><w>εγω</w><w>γαρ</w><pc>.</pc><w>ουχ</w><w>ευρισκω</w><w>εν</w><w>αυτω</w><w>αιτιαν</w><pc>·</pc>
+<lb xml:id="P171vC1L20-05S" n="20" rend="hang"/></ab><ab n="B04K19V7"><w>απεκριθησαν</w><w>αυτω</w><w>οι</w><w>ϊουδαιοι</w><pc>·</pc><app><rdg type="orig" hand="firsthand"><w>ημις</w></rdg><rdg type="corr" hand="firsthand"><w>ημεις</w></rdg></app><w>νομον</w><w>εχομεν</w><pc>.</pc>
+<lb xml:id="P171vC1L21-05S" n="21"/><w>και</w><w>κατα</w><w>τον</w><w>νομον</w><w>οφιλει</w><w>αποθανειν</w><pc>.</pc>
+<lb xml:id="P171vC1L22-05S" n="22"/><w>οτι</w><w>εαυτον</w><w>ϋιον</w><w><abbr type="nomSac"><hi rend="ol">θυ</hi></abbr></w><w>εποιησεν</w><pc>·</pc></ab><ab n="B04K19V8"><w>οτε</w><w>ουν</w><w>εκουσεν</w><w>ο</w><w>πειλατος</w>
+<lb xml:id="P171vC1L23-05S" n="23"/><w>τουτον</w><w>τον</w><w>λογων</w><pc>.</pc><w>μαλλον</w><w>εφοβηθη</w><pc>,</pc></ab><ab n="B04K19V9"><w>και</w><w>εισηλθον</w>
+<lb xml:id="P171vC1L24-05S" n="24"/><w>εις</w><w>τω</w><w>πραιτωριον</w><w>παλιν</w><pc>.</pc><w>και</w><w>λεγει</w><w>τω</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc>
+<lb xml:id="P171vC1L25-05S" n="25"/><w>ποθεν</w><w>ει</w><w>συ</w><pc>·</pc><w>ο</w><w>δε</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc><w>αποκρισιν</w><w>ουκ</w><w>εδωκεν</w><w>αυτω</w><pc>·</pc>
+<lb xml:id="P171vC1L26-05S" n="26" rend="hang"/></ab><ab n="B04K19V10"><w>λεγει</w><w>ουν</w><w>αυτω</w><w>ο</w><w>πειλατος</w><pc>·</pc><w>εμοι</w><w>ου</w><w>λαλεις</w><pc>.</pc>
+<lb xml:id="P171vC1L27-05S" n="27"/><w>ουκ</w><w>οιδας</w><w>οτι</w><w>εξουσιαν</w><w>εχω</w><w>σταυρωσαι</w><w>σε</w><pc>·</pc>
+<lb xml:id="P171vC1L28-05S" n="28"/><w>και</w><w>εξουσιαν</w><w>εχω</w><w>απολυσαι</w><w>σε</w><pc>·</pc></ab><ab n="B04K19V11"><w>απεκριθη</w><w>αυτω</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc>
+<lb xml:id="P171vC1L29-05S" n="29" rend="hang"/><w>ουκ</w><w>εχεις</w><w>εξουσιαν</w><w>κατ</w><w>εμου</w><w>ουδεμιαν</w><pc>.</pc><w>ει</w><w>μη</w><w>ην</w>
+<lb xml:id="P171vC1L30-05S" n="30"/><w>δεδομενον</w><w>σοι</w><w>ανωθεν</w><pc>·</pc><w>δια</w><w>τουτο</w><w>ο</w><w>παραδιδους</w><w>με</w><w>σοι</w><pc>.</pc>
+<lb xml:id="P171vC1L31-05S" n="31"/><w>μιζονα</w><w>αμαρτιαν</w><w>εχει</w><pc>·</pc></ab><ab n="B04K19V12"><w>εκ</w><w>τουτου</w><w>εζηται</w><w>ο</w><w>πειλατος</w>
+<lb xml:id="P171vC1L32-05S" n="32"/><w>απολυσαι</w><w>αυτον</w><pc>·</pc><w>οι</w><w>δε</w><w>ϊουδαιοι</w><w>εκραυγασαν</w><w>λεγοντες</w><pc>·</pc>
+<pb xml:id="P172v-05S" n="172v" type="Quire_22-4v" subtype="flesh" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/314/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XIX·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P172vC1-05S" n="1"/>
+<note type="editorial">The left hand margin is missing. It is not obvious whether any lines have ekthesis.</note>
+<lb xml:id="P172vC1L1-05S" n="1"/><w>εαν</w><w>τουτον</w><w>απολυσης</w><pc>.</pc><w>ουκ</w><w>ει</w><w>φιλος</w><w>του</w><w>καισαρος</w><pc>,</pc>
+<lb xml:id="P172vC1L2-05S" n="2"/><w>πας</w><w>γαρ</w><w>ο</w><w>βασιλεα</w><w>εαυτον</w><w>ποιων</w><pc>.</pc><w>αντιλεγει</w><w>τω</w><w>καισαρι</w><pc>,</pc>
+<lb xml:id="P172vC1L3-05S" n="3"/></ab><ab n="B04K19V13"><w>ο</w><w>ουν</w><w>πειλατος</w><w>ακουσας</w><w>τουτων</w><app><rdg type="orig" hand="firsthand"><w>τον</w><w>λογον</w></rdg><rdg type="corr" hand="firsthand"><w>των</w><w>λογων</w></rdg></app><pc>·</pc>
+<lb xml:id="P172vC1L4-05S" n="4"/><w>εγαγεν</w><w>εξω</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc><w>και</w><w>εκαθεισεν</w><w>επι</w><w>βηματος</w><pc>.</pc>
+<lb xml:id="P172vC1L5-05S" n="5"/><w>εις</w><w>τοπον</w><w>λεγομενον</w><w>λιθοστρωτον</w><pc>,</pc>
+<lb xml:id="P172vC1L6-05S" n="6"/><w>εβραϊστι</w><w>γαββαθα</w><pc>·</pc></ab><ab n="B04K19V14"><w>ην</w><w>δε</w><w>παρασκευη</w><w>του</w><w>πασχα</w><pc>.</pc>
+<lb xml:id="P172vC1L7-05S" n="7"/><w>ωρα</w><w>ην</w><w>οσει</w><w>τριτη</w><pc>·</pc><w>και</w><w>λεγει</w><w>τοις</w><w>ιουδαιοις</w><pc>·</pc>
+<lb xml:id="P172vC1L8-05S" n="8"/><w>ϊδε</w><w>ο</w><w>βασιλευς</w><w>ϋμων</w><pc>·</pc></ab><ab n="B04K19V15"><w>οι</w><w>δε</w><w>εκραυγαζον</w><pc>·</pc>
+<lb xml:id="P172vC1L9-05S" n="9"/><w>αρον</w><w>αρον</w><pc>·</pc><w>σταυρωσον</w><w>αυτον</w><pc>·</pc><w>λεγει</w><w>αυτοις</w><w>ο</w><w>πειλατος</w><pc>·</pc>
+<lb xml:id="P172vC1L10-05S" n="10"/><w>τον</w><w>βασιλεα</w><w>ϋμων</w><w>σταυρωσω</w><pc>·</pc><w>απεκριθησαν</w><w>οι</w><w>αρχϊε
+<lb break="no" xml:id="P172vC1L11-05S" n="11"/>ρεις</w><pc>·</pc><w>ουκ</w><w>εχομεν</w><w>βασιλεα</w><w>ει</w><w>μη</w><w>καισαρα</w><pc>.</pc>
+<lb xml:id="P172vC1L12-05S" n="12"/></ab><ab n="B04K19V16"><w><unclear>τ</unclear>οτε</w><w>ουν</w><w>παρεδωκεν</w><w>αυτον</w><w>αυτοις</w><pc>·</pc><w>ϊνα</w><w>σταυρωθη</w><pc>,</pc>
+<lb xml:id="P172vC1L13-05S" n="13"/><w><unclear>π</unclear>αρελαβον</w><w>ουν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc><w>και</w><w>ηγαγον</w><pc>·</pc></ab><ab n="B04K19V17"><w>και</w><w>βασταζων</w><w>εαυτου</w>
+<lb xml:id="P172vC1L14-05S" n="14"/><w>τον</w><w>σταυρον</w><pc>·</pc><w>εξηλθεν</w><w>εις</w><w>τον</w><w>λεγομενον</w><w>κρανιου</w><w>τοπον</w><pc>·</pc>
+<lb xml:id="P172vC1L15-05S" n="15"/><w>ος</w><w>λεγηται</w><w>εβραϊστι</w><w>γολγοτα</w><pc>.</pc></ab><ab n="B04K19V18"><w>οπου</w><w>αυτον</w><w>εσταυρωσαν</w><pc>·</pc>
+<lb xml:id="P172vC1L16-05S" n="16"/><w>και</w><w>μετ</w><w>αυτου</w><w>δυο</w><w>αλλους</w><w>τευθεν</w><w>και</w><w>εντευθεν</w><pc>.</pc><w>μεσον</w><w>δε</w>
+<lb xml:id="P172vC1L17-05S" n="17"/><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιυν</hi></abbr></w><pc>·</pc></ab><ab n="B04K19V19"><w>εγραψεν</w><w>δε</w><w>και</w><w>τιτλον</w><w>ο</w><w>πειλατος</w><pc>·</pc><w>και</w><w>εθηκεν</w>
+<lb xml:id="P172vC1L18-05S" n="18"/><w>επι</w><w>του</w><w>σταυρου</w><pc>·</pc><w>ην</w><w>δε</w><w>το</w><w>γεγραμμενον</w><pc>·</pc><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><w>ο</w><w>ναζωρεος</w><pc>.</pc>
+<lb xml:id="P172vC1L19-05S" n="19"/><w>ο</w><w>βασιλευς</w><w>των</w><w>ιουδαιων</w><pc>·</pc></ab><ab n="B04K19V20"><w>τουτον</w><w>ουν</w><w>τον</w><w>τιτλον</w><w>πολλοι</w>
+<lb xml:id="P172vC1L20-05S" n="20"/><w>των</w><w>ιουδαιων</w><w>ανεγνωσαν</w><pc>·</pc><w>οτι</w><w>εγγυς</w><app><rdg type="orig" hand="firsthand"><w><unclear>ει̂</unclear>ν</w></rdg><rdg type="corr" hand="firsthand"><w>ην</w></rdg></app><w>ο</w><w>τοπος</w><w>της</w><w>πολεως</w>
+<lb xml:id="P172vC1L21-05S" n="21"/><w>οπου</w><w>εσταυρωθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>,</pc><w>και</w><w>ην</w><w>γεγραμμενον</w><pc>·</pc><w>εβραϊσται</w><pc>·</pc>
+<lb xml:id="P172vC1L22-05S" n="22"/><w>ελληνισται</w><pc>·</pc><w>ρωμαϊσται</w><pc>·</pc></ab><ab n="B04K19V21"><w>ελεγον</w><w>ου</w><w>τω</w><w>πειλατω</w><w>αρχϊερεις</w>
+<lb xml:id="P172vC1L23-05S" n="23"/><w>των</w><w>ϊουδαιων</w><pc>·</pc><w>μη</w><w>γραφε</w><pc>·</pc><w>ο</w><w>βασιλευς</w><w>των</w><w>ϊουδαιων</w><pc>·</pc>
+<lb xml:id="P172vC1L24-05S" n="24"/><w>αλλα</w><w>οτι</w><w>εκεινος</w><w>ειπεν</w><pc>·</pc><app><rdg type="orig" hand="firsthand"><w>βασυλευ</w></rdg><rdg type="corr" hand="firsthand"><w>βασυλευς</w></rdg></app><w>ειμι</w><w>των</w><w>ϊουδαιων</w><pc>·</pc>
+<lb xml:id="P172vC1L25-05S" n="25"/></ab><ab n="B04K19V22"><w>απεκριθη</w><w>ο</w><w>πειλατος</w><pc>·</pc><w>ο</w><w>γεγραφα</w><pc>·</pc><w>γεγραφα</w><pc>·</pc>
+<lb xml:id="P172vC1L26-05S" n="26"/></ab><ab n="B04K19V23"><w>οι</w><w>ουν</w><w>στρατιωται</w><w>οτε</w><w>εσταυρωσαν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc>
+<lb xml:id="P172vC1L27-05S" n="27"/><w>ελαβον</w><w>τα</w><w>ειματια</w><w>αυτου</w><pc>.</pc><w>και</w><w>ποιησαντες</w><w>τεσσαρα</w><w>μερη</w><pc>.</pc>
+<lb xml:id="P172vC1L28-05S" n="28"/><w>εκαστω</w><w>στρατιωτη</w><w>μερος</w><pc>.</pc><w>και</w><w>τον</w><w>χιτωνα</w><pc>,</pc>
+<lb xml:id="P172vC1L29-05S" n="29"/><w>ην</w><w>δε</w><w>ο</w><w>χιτον</w><w>αραφος</w><pc>.</pc><w>εκ</w><w>των</w><w>ανωθεν</w><w>ϋφαντος</w><w>δι</w><w>ολου</w><pc>·</pc>
+<lb xml:id="P172vC1L30-05S" n="30"/></ab><ab n="B04K19V24"><w>ειπον</w><w>δε</w><w>προς</w><w>αλληλους</w><pc>·</pc><w>μη</w><w>σχισωμεν</w><w>αυτον</w><pc>·</pc>
+<lb xml:id="P172vC1L31-05S" n="31"/><w>αλλα</w><w>λαχωμεν</w><w>περι</w><w>αυτου</w><w>τινος</w><w>εστιν</w><pc>·</pc>
+<lb xml:id="P172vC1L32-05S" n="32"/><w>ϊνα</w><w>ε</w><w>γραφη</w><w>πληρωθη</w><w>η</w><w>λεγουσα</w><pc>·</pc>
+<pb xml:id="P173v-05S" n="173v" type="Quire_22-5v" subtype="hair" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/316/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XIX·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P173vC1-05S" n="1"/>
+<lb xml:id="P173vC1L1-05S" n="1"/><w>διεμερισαντο</w><w>τα</w><w>ιματια</w><w>μου</w><w>εαυτοις</w><pc>.</pc><w>και</w><w>επι</w><w>τον</w><w>ϊματισμ<ex>ο</ex>ν</w>
+<lb xml:id="P173vC1L2-05S" n="2"/><w>μου</w><w>εβαλον</w><w>κληρον</w><pc>·</pc><w>οι</w><w>μεν</w><w>ουν</w><w>στρατιωται</w><pc>.</pc><w>ταυτα</w><w>εποιησαν</w><pc>·</pc>
+<lb xml:id="P173vC1L3-05S" n="3" rend="hang"/></ab><ab n="B04K19V25"><w>ϊστηκεισαν</w><w>δε</w><w>παρα</w><w>τω</w><w>σταυρω</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc><w>η</w><w>μητηρ</w><w>αυτου</w><pc>.</pc>
+<lb xml:id="P173vC1L4-05S" n="4"/><w>και</w><app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="firsthand"><w>η</w></rdg></app><w>αδελφη</w><w>της</w><w>μητρος</w><w>αυτου</w><pc>·</pc><w>μαρια</w><w>η</w><w>του</w><w>κλωπα</w><pc>.</pc>
+<lb xml:id="P173vC1L5-05S" n="5"/><w>και</w><w>μαρια</w><w>η</w><w>μαγδαληνη</w><pc>·</pc></ab><ab n="B04K19V26"><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><w>ουν</w><app><rdg type="orig" hand="firsthand"><w>εϊδων</w></rdg><rdg type="corr" hand="firsthand"><w>ϊδων</w></rdg></app><w>την</w><w>μητερα</w>
+<lb xml:id="P173vC1L6-05S" n="6"/><w>και</w><w>τον</w><w>μαθητην</w><w>παρεστωτα</w><w>ον</w><w>ηγαπα</w><pc>.</pc>
+<lb xml:id="P173vC1L7-05S" n="7"/><w>λεγει</w><w>τη</w><w>μητρι</w><w>αυτου</w><pc>·</pc>
+<lb xml:id="P173vC1L8-05S" n="8"/><w>γυναι</w><w>ειδε</w><w>ο</w><w>ϋϊος</w><w>σου</w>
+<lb xml:id="P173vC1L9-05S" n="9"/></ab><ab n="B04K19V27"><w>ειτα</w><app><rdg type="orig" hand="firsthand"><w>γεγει</w></rdg><rdg type="corr" hand="firsthand"><w>λεγει</w></rdg></app><w>τω</w><w>μαθητη</w><pc>·</pc><w>ϊδου</w><w>η</w><w>μητηρ</w><w>σ<ex>ο</ex>υ</w><pc>·</pc>
+<lb xml:id="P173vC1L10-05S" n="10"/><w>και</w><w>απ</w><w>εκεινης</w><w>της</w><w>ωρας</w><pc>.</pc><w>ελαβεν</w><w>αυτην</w>
+<lb xml:id="P173vC1L11-05S" n="11"/><w>ο</w><w>μαθητης</w><w>εις</w><w>τα</w><w>ϊδια</w><pc>.</pc>
+<lb xml:id="P173vC1L12-05S" n="12" rend="hang"/></ab><ab n="B04K19V28"><w>μετα</w><w>τουτο</w><w>ειδως</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w>
+<lb xml:id="P173vC1L13-05S" n="13"/><w>οτι</w><w>ηδην</w><w>παντα</w><w>τετελειωται</w><pc>.</pc>
+<lb xml:id="P173vC1L14-05S" n="14"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>ϊνα</w><w>πληρωθη</w><app><rdg type="orig" hand="firsthand"><w>οι</w></rdg><rdg type="corr" hand="firsthand"><w>η</w></rdg></app><w>γραφη</w><pc>.</pc><w>λεγει</w><w>διψω</w><pc>·</pc>
+<lb xml:id="P173vC1L15-05S" n="15"/></ab><ab n="B04K19V29"><w>σκευος</w><w>ουν</w><w>εκειτο</w><w>οξους</w><w>μεστον</w><pc>·</pc>
+<lb xml:id="P173vC1L16-05S" n="16"/><w>οι</w><w>δε</w><w>πλησαντες</w><w>σπογγον</w><w>οξους</w>
+<lb xml:id="P173vC1L17-05S" n="17"/><w>και</w><w>ϋσσωπω</w><w>περιθεντες</w><pc>.</pc>
+<lb xml:id="P173vC1L18-05S" n="18"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>προσηνεγκαν</w><w>αυτου</w><app><rdg type="orig" hand="firsthand"><w>τος</w></rdg><rdg type="corr" hand="firsthand"><w>τω</w></rdg></app><w>στοματι</w><pc>·</pc>
+<lb xml:id="P173vC1L19-05S" n="19"/></ab><ab n="B04K19V30"><w>οτε</w><w>ουν</w><w>ελαβεν</w><w>το</w><w>οξος</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><w>ειπεν</w><pc>·</pc><w>τετελειωται</w><pc>·</pc><w>και</w><w>κλινας</w>
+<lb xml:id="P173vC1L20-05S" n="20"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>την</w><app><rdg type="orig" hand="firsthand"><w>κ<gap reason="illegible" unit="char" extent="1"/>φαλην</w></rdg><rdg type="corr" hand="firsthand"><w>κεφαλην</w></rdg></app><pc>·</pc><w>παρεδωκεν</w><w>το</w><w><abbr type="nomSac"><hi rend="ol">πνα</hi></abbr></w><pc>·</pc></ab><ab n="B04K19V31"><w>οι</w><w>ουν</w><w>ϊουδαιοι</w><pc>.</pc>
+<lb xml:id="P173vC1L21-05S" n="21"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>ϊνα</w><w>μη</w><w>μινητ</w><w>επι</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">στρου</hi></abbr></w><w>τα</w><w>σωματα</w><w>εν</w><w>τω</w><w>σαββατω</w><pc>.</pc>
+<lb xml:id="P173vC1L22-05S" n="22"/><w>επι</w><w>παρασκευι</w><pc>·</pc><w>ην</w><w>γαρ</w><w>μεγαλη</w><w>η</w><w>ημερα</w><w>του</w><w>σαββατου</w><w>εκεινου</w><pc>·</pc>
+<lb xml:id="P173vC1L23-05S" n="23"/><w>ηρωτησαν</w><w>τον</w><w>πειλατον</w><w>ϊνα</w><w>κατεαγωσιν</w><w>αυτων</w><w>τα</w><w>σκελη</w><pc>.</pc>
+<lb xml:id="P173vC1L24-05S" n="24"/><w>και</w><w>αρτωσιν</w><pc>·</pc></ab><ab n="B04K19V32"><w>ηλθον</w><w>ουν</w><w>οι</w><w>στρατιωται</w><pc>·</pc><w>και</w><w>του</w><w>μεν</w><w>πρωτου</w>
+<lb xml:id="P173vC1L25-05S" n="25"/><w>κατεαξαν</w><w>τα</w><w>σκελη</w><pc>·</pc><w>και</w><w>του</w><w>αλλου</w><w>του</w><w>συνσταυρωθεντος</w>
+<lb xml:id="P173vC1L26-05S" n="26"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><app><rdg type="orig" hand="firsthand"><w>αυ<gap reason="illegible" unit="char" extent="2"/></w></rdg><rdg type="corr" hand="firsthand"><w>αυτω</w></rdg></app><pc>·</pc></ab><ab n="B04K19V33"><w>επι</w><w>δε</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><w>ελθοντες</w><pc>.</pc><w>ως</w><w>ϊδον</w><w>αυτον</w><w>ηδη</w><w>τεθνικοτα</w><pc>.</pc>
+<lb xml:id="P173vC1L27-05S" n="27"/><w>ου</w><w>κατεαξαν</w><w>αυτου</w><w>τα</w><w>σκελη</w><pc>·</pc></ab><ab n="B04K19V34"><w>αλλα</w><w>εις</w><w>των</w><w>στρατιωτων</w>
+<lb xml:id="P173vC1L28-05S" n="28"/><w>λογχη</w><w>αυτου</w><w>την</w><w>πλευραν</w><w>ενυξεν</w><pc>·</pc><w>και</w><w>ευθεως</w><w>εξηλθεν</w>
+<lb xml:id="P173vC1L29-05S" n="29"/><w>αιμα</w><w>και</w><w>ϋδωρ</w><pc>,</pc></ab><ab n="B04K19V35"><w>και</w><w>ο</w><w>εορακως</w><w>μεμαρτυρηκεν</w><pc>·</pc><w>και</w><w>αληθινη</w>
+<lb xml:id="P173vC1L30-05S" n="30"/><w>αυτου</w><w>εστιν</w><w>η</w><w>μαρτυρια</w><pc>,</pc><w>κακεινος</w><w>οιδεν</w><w>οτι</w><w>αληθη</w><w>λεγι</w><pc>.</pc>
+<lb xml:id="P173vC1L31-05S" n="31"/><w>ϊνα</w><w>και</w><w>ϋμεις</w><w>πιστευσηται</w><pc>·</pc></ab><ab n="B04K19V36"><w>εγενετο</w><w>γαρ</w><w>ταυτα</w><pc>·</pc><w>ϊνα</w><w>η</w><w>γραφη</w>
+<lb xml:id="P173vC1L32-05S" n="32"/><w>πληρωθη</w><pc>·</pc><w>οστουν</w><w>ου</w><w>συντριβησεται</w><w>αυτου</w><pc>,</pc></ab><ab n="B04K19V37"><w>και</w><w>παλιν</w><pc>·</pc><w>ετερα</w>
+<lb xml:id="P173vC1L33-05S" n="33"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>γραφη</w><w>λεγει</w><pc>·</pc><w>οψονται</w><w>εις</w><w>ον</w><w>εξεκεντησαν</w><pc>·</pc><app><rdg type="orig" hand="firsthand"><gap unit="char" extent="12" reason="illegible"/></rdg><rdg type="corr" hand="secunda_manu"></rdg></app><note type="editorial">There is an erased portion of text at the end of the line.</note>
+<pb xml:id="P174v-05S" n="174v" type="Quire_22-6v" subtype="flesh" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/318/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XIX·XX·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P174vC1-05S" n="1"/>
+<lb xml:id="P174vC1L1-05S" n="1"/></ab><ab n="B04K19V38"><w>μετα</w><w>δε</w><w>ταυτα</w><pc>·</pc><w>ηρωτησε</w><w>τον</w><w>πιλατον</w><w>ϊωσηφ</w><w>απο</w><w>αριμαθεας</w><pc>.</pc>
+<lb xml:id="P174vC1L2-05S" n="2"/><w>ων</w><w>μαθητης</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc><w>κεκρυμμενος</w><w>δε</w>
+<lb xml:id="P174vC1L3-05S" n="3"/><w>δια</w><w>τον</w><w>φοβον</w><w>των</w><w>ϊουδαιων</w><pc>.</pc>
+<lb xml:id="P174vC1L4-05S" n="4"/><w>ϊνα</w><w>αρη</w><w>το</w><w>σωμα</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc>
+<lb xml:id="P174vC1L5-05S" n="5"/><w>και</w><w>επετρεψεν</w><w>ο</w><w>πιλατος</w><pc>·</pc>
+<lb xml:id="P174vC1L6-05S" n="6"/><w>ηλθεν</w><w>ουν</w><pc>.</pc><w>και</w><w>ηρεν</w><w>το</w><w>σωμα</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc>
+<lb xml:id="P174vC1L7-05S" n="7"/></ab><ab n="B04K19V39"><w>ηλθεν</w><w>δε</w><w>και</w><w>νιδημος</w><pc>.</pc>
+<lb xml:id="P174vC1L8-05S" n="8"/><w>ο</w><w>ελθων</w><w>προς</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><w>νυκτος</w><w>το</w><w>πρωτον</w><pc>.</pc>
+<lb xml:id="P174vC1L9-05S" n="9"/><w>φερων</w><w>μιγμα</w><w>ζμυρνης</w><w>και</w><w>αλοης</w>
+<lb xml:id="P174vC1L10-05S" n="10"/><w>ως</w><w>λιτρας</w><w>εκατον</w><pc>·</pc>
+<lb xml:id="P174vC1L11-05S" n="11"/></ab><ab n="B04K19V40"><w>ελαβον</w><w>ουν</w><w>το</w><w>σωμα</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc>
+<lb xml:id="P174vC1L12-05S" n="12"/><w>και</w><w>εδησαν</w><w>αυτο</w><w>εν</w><w>οθονιοις</w>
+<lb xml:id="P174vC1L13-05S" n="13"/><w>μετα</w><w>των</w><w>αρωματων</w>
+<lb xml:id="P174vC1L14-05S" n="14"/><w>καθως</w><w>εθος</w><w>εστιν</w><w>ϊουδαις</w><w>ενταφιαζειν</w><pc>·</pc>
+<lb xml:id="P174vC1L15-05S" n="15"/></ab><ab n="B04K19V41"><w>ην</w><w>δε</w><w>εν</w><w>τοπω</w><w>οπου</w><w>εσταυρωθη</w><w>κηκηπος</w><pc>.</pc>
+<lb xml:id="P174vC1L16-05S" n="16"/><w>και</w><w>εν</w><w>τω</w><w>κηπω</w><w>μνημιον</w><w>κενον</w><pc>.</pc>
+<lb xml:id="P174vC1L17-05S" n="17" rend="centerJust"/><w>εν</w><w>ω</w>
+<lb xml:id="P174vC1L18-05S" n="18" rend="centerJust"/><w>ουδεπω</w><w>ουδις</w>
+<lb xml:id="P174vC1L19-05S" n="19" rend="centerJust"/><w>ετεθη</w><pc>,</pc>
+<lb xml:id="P174vC1L20-05S" n="20" rend="centerJust"/></ab><ab n="B04K19V42"><w>εκει</w><w>ουν</w>
+<lb xml:id="P174vC1L21-05S" n="21" rend="centerJust"/><w>δια</w>
+<lb xml:id="P174vC1L22-05S" n="22" rend="centerJust"/><w>την</w><w>παρασκευην</w>
+<lb xml:id="P174vC1L23-05S" n="23" rend="centerJust"/><w>των</w><w>ϊουδαιων</w><pc>.</pc>
+<lb xml:id="P174vC1L24-05S" n="24" rend="centerJust"/><w>οτι</w><w>εγγυς</w><w>ην</w>
+<lb xml:id="P174vC1L25-05S" n="25" rend="centerJust"/><w>το</w><w>μνημιον</w><pc>.</pc>
+<lb xml:id="P174vC1L26-05S" n="26" rend="centerJust"/><w>εθηκαν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">ιν</hi></abbr></w><pc>·</pc>
+<lb xml:id="P174vC1L27-05S" n="27" rend="centerJust"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V1"><w>τη</w><w>δε</w><w>μια</w><w>των</w><w>σαββατων</w><pc>·</pc>
+<lb xml:id="P174vC1L28-05S" n="28" rend="centerJust"/><w>μαρια</w><w>η</w><w>μαγδαληνη</w>
+<lb xml:id="P174vC1L29-05S" n="29" rend="centerJust"/><w>ερχετε</w>
+<lb xml:id="P174vC1L30-05S" n="30" rend="centerJust"/><w>πρωι</w>
+<lb xml:id="P174vC1L31-05S" n="31" rend="centerJust"/><w>σκο
+<lb break="no" xml:id="P174vC1L32-05S" n="32" rend="centerJust"/>τιας</w>
+<pb xml:id="P175v-05S" n="175v" type="Quire_22-7v" subtype="hair" facs="http://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/320/"/>
+<seg type="margin" subtype="pagetop"><seg type="margin" subtype="lineleft"><fw type="chapRef" rend="ink">XX·</fw></seg><fw type="runTitle" place="center"><w>κατ<ex>α</ex></w><w>ιωαν<ex>νην</ex></w></fw></seg>
+<cb xml:id="P175vC1-05S" n="1"/>
+<lb xml:id="P175vC1L1-05S" n="1"/><w>ετι</w><w>ουσης</w><w>εις</w><w>το</w><w>μνημιον</w><pc>·</pc><w>και</w><w>βλεπει</w>
+<lb xml:id="P175vC1L2-05S" n="2"/><w>τον</w><w>λιθον</w><w>ηρμενον</w><w>εκ</w><w>του</w><w>μνημιου</w><pc>·</pc>
+<lb xml:id="P175vC1L3-05S" n="3"/></ab><ab n="B04K20V2"><w>τρεχει</w><w>ουν</w><w>και</w><w>ερχεται</w>
+<lb xml:id="P175vC1L4-05S" n="4"/><w>προς</w><w>σιμωνα</w><w>πετρον</w><pc>.</pc><w>και</w><w>προς</w><w>τον</w><w>αλλον</w>
+<lb xml:id="P175vC1L5-05S" n="5"/><w>μαθητην</w><w>ον</w><w>εφιλι</w><w>ο</w><w><abbr type="nomSac"><hi rend="ol">ις</hi></abbr></w><pc>·</pc><w>και</w><w>λεγει</w><w>αυτοις</w><pc>·</pc>
+<lb xml:id="P175vC1L6-05S" n="6"/><w>ηραν</w><w>τον</w><w><abbr type="nomSac"><hi rend="ol">κν</hi></abbr></w><w>εκ</w><w>του</w><w>μνημιου</w><pc>·</pc>
+<lb xml:id="P175vC1L7-05S" n="7"/><w>και</w><w>ουκ</w><w>οιδαμεν</w><w>που</w><w>εθηκαν</w><w>αυτον</w><pc>·</pc>
+<lb xml:id="P175vC1L8-05S" n="8" rend="hang"/></ab><ab n="B04K20V3"><w>εξηλθεν</w><w>ουν</w><w>ο</w><w>πετρος</w><w>και</w><w>αλλος</w><w>μαθητης</w><pc>.</pc>
+<lb xml:id="P175vC1L9-05S" n="9"/><w>και</w><w>ερχοντο</w><w>εις</w><w>το</w><w>μνημιον</w><pc>·</pc>
+<lb xml:id="P175vC1L10-05S" n="10" rend="hang"/></ab><ab n="B04K20V4"><w>ετρεχον</w><w>δε</w><w>οι</w><w>δυο</w><w>ομου</w>
+<lb xml:id="P175vC1L11-05S" n="11"/><w>και</w><w>ο</w><w>αλλος</w><w>μαθητης</w><w>προεδραμεν</w><w>ταχιον</w><w>του</w><w>πετρου</w><pc>·</pc>
+<lb xml:id="P175vC1L12-05S" n="12"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>και</w><w>ηλθεν</w><w>πρωτος</w><w>εις</w><w>το</w><w>μνημιον</w><pc>·</pc>
+<lb xml:id="P175vC1L13-05S" n="13"/></ab><ab n="B04K20V5"><w>και</w><w>παρακυψας</w><pc>·</pc><w>βλεπει</w><w>κιμενα</w><w>τα</w><w>οθονια</w><pc>·</pc>
+<lb xml:id="P175vC1L14-05S" n="14"/><w>ου</w><w>μεντοι</w><w>εισηλθεν</w>
+<lb xml:id="P175vC1L15-05S" n="15" rend="hang"/></ab><ab n="B04K20V6"><w>ερχεται</w><w>ουν</w><w>σιμων</w><w>πετρος</w><w>ακολουθων</w><w>αυτω</w><pc>·</pc>
+<lb xml:id="P175vC1L16-05S" n="16"/><w>και</w><w>εισηλθεν</w><w>εις</w><w>το</w><w>μνημιον</w><pc>·</pc>
+<lb xml:id="P175vC1L17-05S" n="17"/><w>και</w><w>θεωρει</w><w>τα</w><w>οθονια</w><w>κιμενα</w><pc>.</pc>
+<lb xml:id="P175vC1L18-05S" n="18"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg></ab><ab n="B04K20V7"><w>και</w><w>το</w><w>σουδαριον</w><w>ο</w><w>ην</w><w>επι</w><w>της</w><w>κεφαλης</w><w>αυτου</w><pc>·</pc>
+<lb xml:id="P175vC1L19-05S" n="19"/><w>ου</w><w>μετα</w><w>των</w><w>οθονιων</w><w>κιμενον</w><pc>·</pc>
+<lb xml:id="P175vC1L20-05S" n="20"/><w>αλλα</w><w>χωρις</w><w>εντετυλιγμενον</w><w>εις</w><w>ενα</w><w>τοπον</w><pc>·</pc>
+<lb xml:id="P175vC1L21-05S" n="21" rend="hang"/></ab><ab n="B04K20V8"><w>τοτε</w><w>ουν</w><w>εισηλθεν</w><w>ο</w><w>αλλος</w><w>μαθητης</w><pc>.</pc>
+<lb xml:id="P175vC1L22-05S" n="22"/><w>ο</w><w>ηλθων</w><w>πρωτος</w><app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="firsthand"><w>εις</w></rdg></app><w>το</w><w>μνημιον</w><pc>·</pc>
+<lb xml:id="P175vC1L23-05S" n="23"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>και</w><w>ϊδεν</w><w>και</w><w>ουκ</w><w>επιστευσεν</w><pc>·</pc></ab><ab n="B04K20V9"><w>ουδεπω</w><w>γαρ</w>
+<lb xml:id="P175vC1L24-05S" n="24"/><w>εδισαν</w><w>την</w><w>γραφην</w><pc>·</pc><w>ωτι</w><w>δι</w><w>αυτον</w>
+<lb xml:id="P175vC1L25-05S" n="25"/><w>εκ</w><w>νεκρων</w><w>αναστηναι</w><pc>·</pc></ab><ab n="B04K20V10"><w>απηλθον</w><w>ουν</w><w>παλιν</w>
+<lb xml:id="P175vC1L26-05S" n="26"/><w>προς</w><w>εαυτους</w><w>οι</w><w>μαθηται</w><pc>·</pc></ab><ab n="B04K20V11"><w>μαρια</w><w>δε</w><w>ειστηκει</w>
+<lb xml:id="P175vC1L27-05S" n="27"/><seg type="margin" subtype="lineleft"><pc>"</pc></seg><w>προς</w><w>το</w><w>μνημιω</w><w>κλαιουσα</w><w>εξω</w><pc>·</pc>
+<lb xml:id="P175vC1L28-05S" n="28"/><w>ως</w><w>ουν</w><w>εκλειεν</w><w>παρεκυψεν</w><w>εις</w><w>το</w><w>μνημιον</w><pc>,</pc>
+<lb xml:id="P175vC1L29-05S" n="29"/></ab><ab n="B04K20V12"><w>και</w><w>θεωρι</w><w>δυο</w><w>αγγελους</w><pc>·</pc><w>ενα</w><w>προς</w><w>τη</w><w>κεφαλη</w>
+<lb xml:id="P175vC1L30-05S" n="30"/><w>και</w><w>ενα</w><w>προς</w><w>τοις</w><w>ποδιν</w><pc>·</pc><w>οπου</w><w>εκειτο</w>
+<lb xml:id="P175vC1L31-05S" n="31" rend="centerJust"/><w>το</w><w>σωμα</w><w>του</w><w><abbr type="nomSac"><hi rend="ol">ιυ</hi></abbr></w><pc>·</pc>
+	<lb xml:id="P175vC1L32-05S" n="32"/></ab><ab n="B04K20V13" part="I"><w>και</w><w>λεγουσιν</w><w>αυτη</w><w>εκεινοι</w><pc>·</pc><w>γυναι</w><w>τι</w><w>κλαιεις</w><pc>·</pc><gap extent="rest" unit="verse" reason="lacuna"/></ab>
+<note type="editorial">There is no longer a folio 176; the supplied text runs straight from 175v to 177v.</note></div></div></body></text></TEI>

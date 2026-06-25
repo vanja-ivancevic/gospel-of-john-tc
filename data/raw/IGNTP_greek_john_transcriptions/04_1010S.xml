@@ -1,0 +1,122 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA1010S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 1010S</title>
+				<title type="document" key="31010" n="1010S">GA 1010S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>8.8.2013</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>8.8.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>1010S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>31010</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	<revisionDesc>
+		<change n="0" when="2013-08-08">Converted from plain text by Catherine Smith using Python conversion scripts 1.0.</change>
+		</revisionDesc>	
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">Status:G-Α 1010(Supplementary)Αthos Ιviron 738 John begins Folio 153r Τranscribed by: WJΕ Τranscription begun: 18-03-08Τranscription finished: 31-03-08Τransference to Collate by: Τransference to Collate begun:Τransference to Collate finished:File date  and time:Ρlaced in Level1:Level1 file date  and time:Ρlaced in Level2:Ρlaced in Level2 by:Level2 file date  and time:Τhese files were  compared and differences resolved by:Ρlaced in  Level3:Ρlaced in  Level3 by:Final transcription file date  and time:    </note>
+<pb xml:id="P153r-1010S" n="153r" type="folio"/>
+<cb xml:id="P153rC1-1010S" n="1"/>
+<lb xml:id="P153rC1L1-1010S" n="1"/><div type="book" n="B04"><div n="B04K12" type="chapter"><ab n="B04K12V25"><gap reason="lacuna" unit="verse" extent="rest"/><w>αιωνιον</w><w>φυλαξει</w><w>αυτην</w></ab><ab n="B04K12V26"><w>εαν</w><w>εμοι</w><w>διακονη</w><w>τις</w>
+<lb xml:id="P153rC1L2-1010S" n="2"/><w>εμοι</w><w>ακολουθητω</w><w>και</w><w>οπου</w><w>ειμοι</w><w>εγω</w><w>εκει</w><w>και</w><w>ο</w>
+<lb xml:id="P153rC1L3-1010S" n="3"/><w>διακονος</w><w>ο</w><w>εμος</w><w>εσται</w><w>και</w><w>εαν</w><w>τις</w><w>εμοι</w><w>δια
+<lb break="no" xml:id="P153rC1L4-1010S" n="4"/>κονη</w><w>τιμησει</w><w>αυτον</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w></ab><ab n="B04K12V27"><w>νην</w><w>η</w><w>ψυχη</w><w>μου</w>
+<lb xml:id="P153rC1L5-1010S" n="5"/><w>τεταρακται</w><w>και</w><w>τι</w><w>ειπω</w><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>σωσον</w><w>με</w><w>εκ</w>
+<lb xml:id="P153rC1L6-1010S" n="6"/><w>της</w><w>ωρας</w><w>ταυτης</w><w>αλλα</w><w>δια</w><w>τουτο</w><w>ηλθον</w><w>εις</w><w>την</w>
+<lb xml:id="P153rC1L7-1010S" n="7"/><w>ωραν</w><w>ταυτην</w></ab><ab n="B04K12V28"><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>δοξασον</w><w>σου</w><w>το</w><w>ονομα</w><w>ηλ
+<lb break="no" xml:id="P153rC1L8-1010S" n="8"/>θεν</w><w>ουν</w><w>φωνη</w><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w>και</w><w>εδοξασα</w><w>και</w>
+<lb xml:id="P153rC1L9-1010S" n="9"/><w>παλιν</w><w>δοξασω</w></ab><ab n="B04K12V29"><w>ο</w><w>ουν</w><w>οχλος</w><w>ο</w><w>εστως</w><w>και</w><w>ακουσας</w>
+<lb xml:id="P153rC1L10-1010S" n="10"/><w>ελεγεν</w><w>βροντην</w><w>γεγονεναι</w><w>αλλοι</w><w>ελεγον</w>
+<lb xml:id="P153rC1L11-1010S" n="11"/><w>αγγελος</w><w>αυτω</w><w>λελαληκεν</w></ab><ab n="B04K12V30"><w>απεκριθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P153rC1L12-1010S" n="12"/><w>και</w><w>ειπεν</w><w>ου</w><w>δι</w><w>εμαι</w><w>αυτη</w><w>η</w><w>φωνη</w><w>γεγονεν</w>
+<lb xml:id="P153rC1L13-1010S" n="13"/><w>αλλα</w><w>δι</w><w>υμας</w></ab><ab n="B04K12V31"><w>νυν</w><w>κρισις</w><w>εστι</w><w>του</w><w>κοσμου</w><w>του
+<lb break="no" xml:id="P153rC1L14-1010S" n="14"/>του</w><w>εκβλιθησεται</w><w>εξω</w></ab><ab n="B04K12V32"><w>καγω</w><w>εαν</w><w>υψωθω</w>
+<lb xml:id="P153rC1L15-1010S" n="15"/><w>εκ</w><w>της</w><w>γης</w><w>παντας</w><w>ελκυσω</w><w>προς</w><w>εμαυτον</w>
+<lb xml:id="P153rC1L16-1010S" n="16"/></ab><ab n="B04K12V33"><w>τουτο</w><w>δε</w><app><rdg type="orig" hand="firsthand"><w>ελεγεν</w><w>ημαινων</w></rdg><rdg type="corr" hand="corrector"><w>ελεγε</w><w>σημαινων</w></rdg></app><w>ποιω</w><w>θανατω</w>
+<lb xml:id="P153rC1L17-1010S" n="17"/><w>ημελλεν</w><w>αποθνησκειν</w></ab><ab n="B04K12V34"><w>απεκριθη</w><w>αυτω</w><w>ο</w>
+<lb xml:id="P153rC1L18-1010S" n="18"/><w>οχλος</w><w>ημεις</w><w>ηκουσαμεν</w><w>εκ</w><w>του</w><w>νομου</w><w>οτι</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w>
+<lb xml:id="P153rC1L19-1010S" n="19"/><w>μενει</w><w>εις</w><w>τον</w><w>αιωνα</w><w>και</w><w>πως</w><w>συ</w><w>λεγεις</w><w>οτι</w>
+<lb xml:id="P153rC1L20-1010S" n="20"/><w>δει</w><w>υψωθυναι</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><w>τις</w><w>εστιν</w><w>ου
+<lb break="no" xml:id="P153rC1L21-1010S" n="21"/>τος</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w></ab><ab n="B04K12V35"><w>ειπεν</w><w>ουν</w><w>αυτοις</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P153rC1L22-1010S" n="22"/><w>ετι</w><w>μικρον</w><w>χρονον</w><w>το</w><w>φως</w><w>μεθ</w><w>υμων</w><w>εστι</w>
+<lb xml:id="P153rC1L23-1010S" n="23"/><w>περιπατειται</w><w>εως</w><w>το</w><w>φως</w><w>εχεται</w><w>ινα</w><w>μη</w><w>σκο
+<lb break="no" xml:id="P153rC1L24-1010S" n="24"/>τια</w><w>υμας</w><w>καταλαβη</w><w>και</w><w>ο</w><w>περιπατων</w><w>εν</w>
+<pb xml:id="P153v-1010S" n="153v" type="folio"/><note type="editorial">The microfilm failed to photograph Ff. 153v-154r, thus 12.36-13.5 is missing.</note>
+<cb xml:id="P153vC1-1010S" n="1"/>
+<lb xml:id="P153vC1L1-1010S" n="1"/><gap reason="lacuna" unit="line" extent="unspecified"/><note type="local">12.36-13.5</note>
+<pb xml:id="P154v-1010S" n="154v" type="folio"/>
+<cb xml:id="P154vC1-1010S" n="1"/>
+<lb xml:id="P154vC1L1-1010S" n="1"/></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V6"><w>ερχεται</w><w>ουν</w><w>προς</w><w>σιμωνα</w><w>πετρον</w><w>και</w><w>λεγει</w><w>αυτω</w><w>εκει
+<lb break="no" xml:id="P154vC1L2-1010S" n="2"/>νος</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>συ</w><w>μου</w><w>νιπτης</w><w>τους</w><w>ποδας</w></ab><ab n="B04K13V7"><w>απεκριθη</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P154vC1L3-1010S" n="3"/><w>και</w><w>ειπεν</w><w>αυτω</w><w>ο</w><w>εγω</w><w>ποιω</w><w>συ</w><w>ουκ</w><w>οιδας</w><w>αρτι</w><w>γνω
+<lb break="no" xml:id="P154vC1L4-1010S" n="4"/>ση</w><w>δε</w><w>μετα</w><w>ταυτα</w></ab><ab n="B04K13V8"><w>λεγει</w><w>δε</w><w>αυτω</w><w>πετρος</w><w>ου</w><w>μη</w><w>νιψη
+<lb break="no" xml:id="P154vC1L5-1010S" n="5"/>ς</w><w>τους</w><w>ποδας</w><w>μου</w><w>εις</w><w>τον</w><w>αιωνα</w><w>απεκριθη</w><w>αυτω</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P154vC1L6-1010S" n="6"/><w>εαν</w><w>μη</w><w>νιψω</w><w>σε</w><w>ουκ</w><w>εχης</w><w>μερος</w><w>μετ</w><w>εμου</w></ab><ab n="B04K13V9"><w>λεγει</w><w>αυ
+<lb break="no" xml:id="P154vC1L7-1010S" n="7"/>τω</w><w>σιμων</w><w>πετρος</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>μη</w><w>τους</w><w>ποδας</w><w>μονον</w><w>αλλα</w>
+<lb xml:id="P154vC1L8-1010S" n="8"/><w>και</w><w>τας</w><w>χειρας</w><w>και</w><w>την</w><w>κεφαλην</w></ab><ab n="B04K13V10"><w>λεγει</w><w>αυτω</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ο</w><w>λελου
+<lb break="no" xml:id="P154vC1L9-1010S" n="9"/>μενος</w><w>ου</w><w>χρειαν</w><w>εχει</w><w>η</w><w>τους</w><w>ποδας</w><w>νιψασθαι</w><w>αλλ</w>
+<lb xml:id="P154vC1L10-1010S" n="10"/><w>εστι</w><w>καθαρος</w><w>ολος</w><w>και</w><w>υμεις</w><w>καθαροι</w><w>εστε</w><w>αλλ</w><w>ουχι</w><w>παν
+<lb break="no" xml:id="P154vC1L11-1010S" n="11"/>τες</w></ab><ab n="B04K13V11"><w>ηδι</w><w>γαρ</w><w>τον</w><w>παραδιδοντα</w><w>αυτον</w><w>δια</w><w>τουτο</w><w>ειπεν</w>
+<lb xml:id="P154vC1L12-1010S" n="12"/><w>ουχι</w><w>παντες</w><w>καθαροι</w><w>εστε</w></ab><ab n="B04K13V12"><w>οτε</w><w>ουν</w><w>ενιψε</w>
+<lb xml:id="P154vC1L13-1010S" n="13"/><w>τους</w><w>ποδας</w><w>αυτων</w><w>και</w><w>ελαβε</w><w>τα</w><w>ιματια</w><w>αυτου</w>
+<lb xml:id="P154vC1L14-1010S" n="14"/><w>αναπεσων</w><w>παλιν</w><w>ειπεν</w><w>αυτοις</w><w>γινωσκετε</w><w>τι</w><w>πε
+<lb break="no" xml:id="P154vC1L15-1010S" n="15"/>ποιηκα</w><w>υμην</w></ab><ab n="B04K13V13"><w>υμεις</w><w>φωνειτε</w><w>με</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w><w>και</w><w>ο</w><w>διδασ
+<lb break="no" xml:id="P154vC1L16-1010S" n="16"/>καλος</w><w>και</w><w>καλως</w><w>λεγεται</w><w>ειμι</w><w>γαρ</w></ab><ab n="B04K13V14"><w>ει</w><w>ουν</w><w>εγω</w><w>ενι
+<lb break="no" xml:id="P154vC1L17-1010S" n="17"/>ψα</w><w>υμων</w><w>τους</w><w>ποδας</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w><w>και</w><w>ο</w><w>διδασκαλος</w><w>και</w><w>υμεις</w>
+<lb xml:id="P154vC1L18-1010S" n="18"/><w>οφειλεται</w><w>αλληλων</w><w>νιπτην</w><w>τους</w><w>ποδας</w></ab><ab n="B04K13V15"><w>υποδειγμα</w>
+<lb xml:id="P154vC1L19-1010S" n="19"/><w>γαρ</w><w>εδωκα</w><w>υμην</w><w>ινα</w><w>καθως</w><w>εγω</w><w>εποιησα</w><w>υ
+<lb break="no" xml:id="P154vC1L20-1010S" n="20"/>μιν</w><w>και</w><w>υμεις</w><w>ποιειτε</w></ab><ab n="B04K13V16"><w>αμην</w><w>αμην</w><w>λεγω</w><w>υμιν</w><w>ου
+<lb break="no" xml:id="P154vC1L21-1010S" n="21"/>κ</w><w>εστι</w><w>δουλος</w><w>μειζων</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><w>αυτου</w><w>ουδε</w><w>αποστολ<ex>ος</ex></w>
+<lb xml:id="P154vC1L22-1010S" n="22"/><w>μειζων</w><w>του</w><w>πεμψαντος</w><w>αυτον</w></ab><ab n="B04K13V17"><w>ει</w><w>ταυτα</w><w>οιδατε</w>
+<lb xml:id="P154vC1L23-1010S" n="23"/><w>μακαριοι</w><w>εστε</w><w>εαν</w><w>ποιητε</w><w>αυτα</w></ab><ab n="B04K13V18"><w>ου</w><w>περι</w><w>παν
+<lb break="no" xml:id="P154vC1L24-1010S" n="24"/>των</w><w>υμων</w><w>λεγω</w><w>εγω</w><w>οιδα</w><w>ους</w><w>εξελεξαμην</w><w>αλλ</w><w>ινα</w><w>η</w>
+<pb xml:id="P155r-1010S" n="155r" type="folio"/>
+<cb xml:id="P155rC1-1010S" n="1"/>
+<lb xml:id="P155rC1L1-1010S" n="1"/><w>η</w><w>γραφη</w><w>πληρωθη</w><w>ο</w><w>τρωγων</w><w>μετ</w><w>εμου</w><w>τον</w><w>αρτον</w>
+<lb xml:id="P155rC1L2-1010S" n="2"/><w>επηρεν</w><w>επ</w><w>εμε</w><w>την</w><w>πτερναν</w><w>αυτου</w></ab><ab n="B04K13V19"><w>απ</w><w>αρτι</w><w>λεγω</w>
+<lb xml:id="P155rC1L3-1010S" n="3"/><w>υμιν</w><w>προ</w><w>του</w><w>γενεσθαι</w><w>ινα</w><w>οταν</w><w>γενητε</w><w>πιστευ
+<lb break="no" xml:id="P155rC1L4-1010S" n="4"/>σητε</w><w>ειμι</w></ab><ab n="B04K13V20"><w>αμην</w><w>αμην</w><w>λεγω</w><w>υμιν</w><w>ο</w><w>λαμβα
+<lb break="no" xml:id="P155rC1L5-1010S" n="5"/>νων</w><w>εαν</w><w>τινα</w><w>πεμψω</w><w>εμε</w><w>λαμβανει</w><w>ο</w><w>δε</w><w>εμε</w>
+<lb xml:id="P155rC1L6-1010S" n="6"/><w>λαμβανων</w><w>λαμβανει</w><w>τον</w><w>πεμψατα</w><w>με</w></ab><ab n="B04K13V21"><w>ταυτα</w>
+<lb xml:id="P155rC1L7-1010S" n="7"/><w>ειπων</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>εταραχθη</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><w>και</w><w>ε
+<lb break="no" xml:id="P155rC1L8-1010S" n="8"/>μαρτυρησεν</w><w>και</w><w>ειπεν</w><w>αμην</w>
+<lb xml:id="P155rC1L9-1010S" n="9"/><w>αμην</w>
+<lb xml:id="P155rC1L10-1010S" n="10"/><w>λεγω</w><w>υμιν</w><w>οτι</w><w>εις</w><w>εξ</w><w>υμων</w><w>παραδωσει</w><w>με</w></ab><ab n="B04K13V22"><w>εβλε
+<lb break="no" xml:id="P155rC1L11-1010S" n="11"/>πον</w><w>ουν</w><w>προς</w><w>αλληλους</w><w>οι</w><w>μαθηται</w>
+<lb xml:id="P155rC1L12-1010S" n="12"/><w>απορουμενοι</w><w>περι</w><w>τινος</w><w>λε
+<lb break="no" xml:id="P155rC1L13-1010S" n="13"/>γει</w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRfa19">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Fayumic (fa19)</title>
+<title type="document" n="fa19">Vienna, Österreichische Nationalbibliothek K 10112</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Austria</country>
+ <settlement>Vienna</settlement>
+ <repository>Österreichische Nationalbibliothek</repository>
+ <idno>K 10112</idno>
+  <msName xml:lang="en">Coptic (Fayumic) fa 19</msName>
+      <altIdentifier type="SMR"><idno>fa 19</idno></altIdentifier>
+<altIdentifier type="TM"><idno>108462</idno></altIdentifier>
+     <altIdentifier type="LDAB"><idno>108462</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit>
+<additional>Walter Till, “Faijumische Bruchstücke des Neuen Testamentes,” Le Muséon 51 (1938): 228–231.</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P1r-fa19" n="1r" type="folio" facs="http://www.iohannes.com/images/coptic/K10112r.jpg"/>
+<cb n="P1rC1-fa19"/>
+<lb n="P1rC1L1-fa19"/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V3"><w>Ⳁ</w><w><unclear>ⲁ</unclear><unclear>ϥ</unclear>ⲕⲱ</w><w>ⲥⲱϥ</w><w>ϯⲟⲩⲉⲓⲇⲉⲁ</w>
+<lb n="P1rC1L2-fa19"/><w>ⲡⲁⲗⲓⲛ</w><w>ⲁⲛ</w><w>ⲁϥϣⲏ</w><w>ⲉⲧⲅⲁⲗⲓⲗⲉⲁ</w></ab><ab n="B04K4V4"><w>ⲛⲉϩⲱϯ</w>
+<lb n="P1rC1L3-fa19"/><w>ⲉⲗⲁϥ</w><w>ⲧⲉϥⲓ</w><w>ⲉⲃⲁⲗ</w><w><unclear>ϩ</unclear><unclear>ⲓ</unclear>ⲧⲉⲧⲥⲁⲙⲁⲣ<unclear>ⲓ</unclear><supplied reason="lacuna">ⲁ</supplied></w></ab><ab n="B04K4V5"><w>ⲁϥⲓ</w>
+<lb n="P1rC1L4-fa19"/><w>ⲟⲩⲛ</w><w>ⲉⲩⲡ<unclear>ⲟ</unclear>ⲗⲓⲥ</w><w>ⲛⲧⲉⲧⲥⲁⲙⲁⲣⲓⲁ</w><w>ⲉⲡⲉⲥ
+<lb break="no" xml:id="P1rC1L5-fa19" n="5"/>ⲗⲉⲛ</w><w>ⲡⲉ</w><w>ⲥⲩⲭⲁⲣ</w><w>ϩⲁⲧⲏ</w><w>ⲡϭⲱⲙ</w><w>ⲛⲧⲁⲓⲁ
+<lb break="no" xml:id="P1rC1L6-fa19" n="6"/>ⲕⲱⲃ</w><w>ⲧⲉⲓϥ</w><w>ⲛⲓⲱⲥⲏⲫ</w><w>ⲡⲉϥϣⲏⲗⲓ</w></ab><ab n="B04K4V6"><w>ⲛⲉ
+<lb break="no" xml:id="P1rC1L7-fa19" n="7"/>ⲟⲩⲁⲛ</w><w>ⲟⲩⲡⲏⲅⲏ</w><w>ⲛ<unclear>ⲧ</unclear>ⲉ</w><w>ⲓⲁⲕⲱⲃ</w><w>ⲙⲉⲩ</w><w>ⲓ̅ⲏ̅ⲥ̅</w>
+<lb n="P1rC1L8-fa19"/><w>ⲇⲉ</w><w>ⲧⲉⲗⲉϥϩⲓⲥⲓ</w><w>ⲉϥⲙⲁϣⲓ</w><w>ϩⲓ</w><w>ⲧⲉϩⲓⲏ</w><w>ⲁϥ
+<lb break="no" xml:id="P1rC1L9-fa19" n="9"/>ϩⲙⲁⲥ</w><w>ⲉϫⲉ</w><w>ⲧⲡⲏⲅⲏ</w><space unit="char" extent="4"/><w>ⲛⲉ</w><w>ⲡⲛⲉⲩ</w>
+<lb n="P1rC1L10-fa19"/><w>ⲧⲯⲁ</w><w>ⲡⲉ</w></ab><ab n="B04K4V7"><w>ⲁⲥⲓ</w><w>ϫⲉ</w><w>ⲟⲩⲥⲓⲙⲓ</w><w>ⲉⲃⲁⲗ</w><w>ⲛ<unclear>ⲧ</unclear><unclear>ⲥ</unclear>ⲁ
+<lb break="no" xml:id="P1rC1L11-fa19" n="11"/>ⲙⲁⲣⲓⲁ</w><w>ⲉⲙⲉϩ</w><w><unclear>ⲙ</unclear>ⲁⲩ</w><w>ⲙⲉϫⲉ</w><w>ⲓ̅ⲏ̅ⲥ̅</w>
+<lb n="P1rC1L12-fa19"/><w>ⲛⲏⲥ</w><w>ϫⲉ</w><w>ⲁⲩⲉⲓⲥ</w><w>ⲧⲁ<unclear>ⲥ</unclear>ⲱ</w></ab><ab n="B04K4V8"><w>ⲛⲉϥⲙⲁⲑⲏ
+<lb break="no" xml:id="P1rC1L13-fa19" n="13"/><unclear>ⲧ</unclear><unclear>ⲏ</unclear>ⲥ</w><w>ⲇⲉ</w><w>ⲁⲩϣⲏ</w><w>ⲉϩ<unclear>ⲗ</unclear>ⲏⲉ<unclear>ⲓ</unclear></w><w>ⲉⲧⲡⲟⲗⲓⲥ</w><w>ⲉϣ
+<lb break="no" xml:id="P1rC1L14-fa19" n="14"/>ⲱⲡ</w><w>ⲛⲉⲛϩⲣ<unclear>ⲏ</unclear><unclear>ⲟ</unclear><unclear>ⲩ</unclear><unclear>ⲉ</unclear><unclear>ⲓ</unclear></w></ab><ab n="B04K4V9"><w><unclear>ⲙ</unclear>ⲉϫⲉ</w><w>ⲧⲉⲥⲓ<unclear>ⲙ</unclear>ⲓ</w>
+<lb n="P1rC1L15-fa19"/><w>ⲥⲁⲙⲁⲣⲓⲧⲏⲥ</w><w>ⲛⲏϥ</w><w><unclear>ϫ</unclear><unclear>ⲉ</unclear></w><w>ⲡⲱⲥ</w><w><unclear>ⲛ</unclear><unclear>ⲧ</unclear><unclear>ⲁ</unclear>ⲕ</w>
+<lb n="P1rC1L16-fa19"/><w>ⲧ<unclear>ⲉ</unclear>ⲕ</w><w>ⲟⲩⲉⲓⲟⲩ<unclear>ⲇ</unclear><unclear>ⲁ</unclear><unclear>ⲓ</unclear></w><w><unclear>ⲕ</unclear>ⲉⲗⲉⲧⲉⲓⲛ</w><w>ⲉⲥⲉ</w>
+<lb n="P1rC1L17-fa19"/><w><unclear>ⲙ</unclear>ⲁⲩ</w><w><unclear>ⲛ</unclear><unclear>ⲧ</unclear><unclear>ⲁ</unclear><unclear>ⲧ</unclear></w><w><unclear>ⲉ</unclear><unclear>ⲁ</unclear><supplied reason="lacuna">ⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲟⲩ</supplied><unclear>ⲥ</unclear>ⲓⲙⲓ</w><w><unclear>ⲥ</unclear>ⲁⲙⲁ
+<cb n="P1rC2-fa19" break="no"/>
+<lb n="P1rC2L1-fa19"/>ⲣⲓⲧⲏⲥ</w></ab><ab n="B04K4V10"><w>ⲙⲉϫⲉ</w><w>ⲓ̅ⲏ̅ⲥ̅</w><w>ⲛⲏⲥ</w><w>ϫⲉ</w><w>ⲉⲛⲉ
+<lb break="no" xml:id="P1rC2L2-fa19" n="2"/>ⲁⲗⲉⲥⲁⲟⲩⲛ</w><w><supplied reason="lacuna">ⲉⲧ</supplied>ⲇ<unclear>ⲱ</unclear>ⲣⲉⲁ</w><w>ⲛⲧⲉ</w><w>ⲫϯ</w><w>ϫⲉ</w>
+<lb n="P1rC2L3-fa19"/><w>ⲛⲓⲙ</w><w>ⲡⲉⲧϫⲱ</w><w><unclear>ⲙ</unclear>ⲁⲥ</w><w>ⲛⲏ</w><w>ϫⲉ</w><w>ⲁⲩⲉⲓⲥ</w>
+<lb n="P1rC2L4-fa19"/><w>ⲧⲁⲥⲱ</w><w>ⲛⲧⲁϩⲱⲓ</w><w>ⲛⲁⲗⲉⲉⲗⲉⲧⲉⲓⲛ</w>
+<lb n="P1rC2L5-fa19"/><w><unclear>ⲙ</unclear>ⲁϥ</w><w>ϥϯ</w><w>ⲛⲏ</w><w>ⲡⲙⲁⲩ</w><w>ⲛⲧⲉⲡⲱⲛⲁϩ</w>
+<lb n="P1rC2L6-fa19"/></ab><ab n="B04K4V11"><w>ⲙⲉϫⲉ</w><w>ⲧⲉⲥ<unclear>ⲓ</unclear>ⲙⲓ</w><w>ⲛⲏϥ</w><w>ϫⲉ</w><w>ⲡ⳪̅</w><w>ⲟⲩⲇⲉ</w>
+<lb n="P1rC2L7-fa19"/><w>ⲙⲉⲗⲁⲩⲓ</w><w>ⲥ<unclear>ⲉ</unclear>ⲕ</w><w>ⲙⲁⲩ</w><w>ⲛⲧⲁⲧⲕ</w><w>ⲁⲩⲱ</w>
+<lb n="P1rC2L8-fa19"/><w>ⲧϫⲱϯ</w><w>ϣⲏⲕ</w><w>ⲡⲙⲁⲩ</w><w>ϭⲏ</w><w>ⲛ<supplied reason="lacuna">ⲱ</supplied>ⲛⲁϩ</w>
+<lb n="P1rC2L9-fa19"/><w>ⲁϥⲉⲧⲏⲕ</w><w>ⲉⲃⲁⲗ</w><w>ⲧⲱⲛ</w></ab><ab n="B04K4V12"><w>ⲉⲙⲁⲁⲉⲕ</w>
+<lb n="P1rC2L10-fa19"/><w>ⲉⲓⲁⲕⲱⲃ</w><w>ⲡⲉⲛⲓⲱⲧ</w><w>ⲧⲁϥ</w><gap extent="1" unit="char" reason="illegible"/><w>ⲁϥϯ</w>
+<lb n="P1rC2L11-fa19"/><w>ⲛⲏⲛ</w><w>ⲛⲧⲉⲓϣ<unclear>ⲱ</unclear><unclear>ϯ</unclear></w><w>ⲁⲩⲱ</w><app><rdg type="orig" hand="firsthand"><w>ⲧⲁϥⲥⲱ</w></rdg><rdg type="corr" hand="corrector"><w>ⲧⲁϥⲥⲱϣⲁⲩ</w></rdg></app><w>ⲉⲃⲁⲗ</w>
+<lb n="P1rC2L12-fa19"/><w>ⲛϩⲏⲧⲥ</w><w>ⲙⲉ</w><w>ⲛⲉϥϣⲏⲗⲓ</w><w>ⲙⲉ</w><w>ⲛⲉⲧⲉϥ
+<lb break="no" xml:id="P1rC2L13-fa19" n="13"/>ϣⲉⲛϣ</w><w>ⲙⲁⲩ</w></ab><ab n="B04K4V13"><w>ⲁϥ<unclear>ϯ</unclear></w><w>ϩⲉⲗⲟⲩⲱ</w><w>ϫⲉ</w><w>ⲓ<unclear>︦</unclear><unclear>ⲏ</unclear>︦ⲥ︦</w>
+<lb n="P1rC2L14-fa19"/><w>ⲙⲉϫⲉϥ</w><w>ⲛⲏⲥ</w><w>ϫⲉ</w><w>ⲡⲉⲧⲛⲉⲥⲱ</w><w>ⲉⲃⲁⲗ</w><w><unclear>ⲛ</unclear>
+<lb break="no" xml:id="P1rC2L15-fa19" n="15"/>ⲡⲉⲓⲙⲁⲩ</w><w><unclear>ϥ</unclear>ⲉⲉⲓⲃⲓ</w><w>ⲁⲛ</w></ab><ab n="B04K4V14"><w>ⲡⲏ</w><w>ⲇⲉ</w><w>ⲧⲁϥ</w><w>ⲉⲧ
+<lb break="no" xml:id="P1rC2L16-fa19" n="16"/>ⲛⲉⲥⲱ</w><w><unclear>ⲉ</unclear><unclear>ⲃ</unclear>ⲁⲗ</w><w>ⲡⲙⲁⲩ</w><w>ⲉϯⲛⲉⲧⲉⲓϥ</w><gap extent="2" unit="line" reason="illegible"/>
+<lb n="P1rC2L17-fa19"/><w>ⲛⲉϥ<unclear>ⲓ</unclear>ⲃⲓ</w><w><supplied reason="lacuna">3-4</supplied></w><w>ϣⲁ</w><w>ⲉⲛⲉϩ</w><w>ⲁⲗⲗⲁ</w><w><unclear>ⲡ</unclear><unclear>ⲙ</unclear><unclear>ⲁ</unclear><unclear>ⲩ</unclear></w>
+<lb n="P1rC2L18-fa19"/><w>ⲉϯⲛⲉⲧⲉⲓϥ</w><w>ⲛⲏϥ</w><w>ϥⲉϣⲱⲡⲓ</w><w>ⲛϩ<unclear>ⲏ</unclear><supplied reason="lacuna">ⲧϥ</supplied></w>
+<lb n="P1rC2L19-fa19"/><w><unclear>ⲛ</unclear>ⲟ<unclear>ⲩ</unclear>ⲡⲏⲅⲏ</w><w><unclear>ⲙ</unclear>ⲁⲩ</w><w>ⲉϥϫ<supplied reason="illegible">ⲓ</supplied></w><w><supplied reason="illegible">ⲡⲏⲓ</supplied></w><w><supplied reason="illegible">ϣⲁ</supplied></w><w><supplied reason="lacuna">ⲱⲛϩ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲛⲉϩ</supplied></w>
+<pb xml:id="P1v-fa19" n="1v" type="folio" facs="http://www.iohannes.com/images/coptic/K10112v.jpg"/>
+<cb n="P1vC1-fa19"/><note type="editorial">verso is blank</note>
+</ab></div></div></body></text></TEI>

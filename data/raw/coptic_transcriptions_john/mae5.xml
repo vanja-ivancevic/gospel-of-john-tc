@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRmae5">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Middle Egyptian</title>
+<title type="document" n="mae5">Petrie Museum UC71048</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>United Kingdom</country>
+ <settlement>London</settlement>
+ <repository>Petrie Museum</repository>
+ <idno>UC71048</idno>
+  <msName xml:lang="en">Coptic (Middle Egyptian)</msName>
+      <altIdentifier type="SMR"><idno>mae 5</idno></altIdentifier>
+ </msIdentifier>
+  <surrogates>The images to which this transcription is linked are © Petrie Museum of Egyptian Archaeology UCL (UC71048)</surrogates>
+</msDesc>
+<additional>Askeland, Christian. John’s gospel: the Coptic translations of its Greek text. Arbeiten zur neutestamentlichen Textforschung. Berlin: De Gruyter, forthcoming 2012/2013.</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P99v-mae5" n="99v" type="folio"/>
+<cb n="P99vC1-mae5"/>
+<lb n="P99vC1L1-mae5"/><gap reason="lacuna" unit="char" extent="1"/><div type="book" n="B04"><div type="chapter" n="B04K14"><ab n="B04K14V26"><gap reason="lacuna" unit="char" extent="1"/>
+<lb n="P99vC1L2-mae5"/><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲉ</supplied>
+<pb xml:id="P100r-mae5" n="100r" type="folio" facs="http://www.iohannes.com/images/coptic/UC71048recto.jpg" break="no"/>
+<cb n="P100rC1-mae5"/><note type="editorial">Petrie Museum, London, UC71048</note>
+<lb n="P100rC1L1-mae5"/><unclear>ⲧ</unclear>ⲉⲣⲏ</w><w>ⲡⲁ<supplied reason="lacuna">ⲓⲱⲧ</supplied></w><w><supplied reason="lacuna">ϫⲁⲟⲩⲧⲉϥ</supplied></w><w><supplied reason="lacuna">ϩⲉⲛ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲣⲉⲛ</supplied></w>
+<lb n="P100rC1L2-mae5"/><w>ⲡⲉⲉⲓ</w><w>ⲉⲧⲉ</w><w><unclear>ϥ</unclear><supplied reason="lacuna">ⲛⲁϯⲥⲃⲱ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲙⲛⲏⲧⲉ</supplied><unclear>ⲛ</unclear></w>
+<lb n="P100rC1L3-mae5"/><w>ⲉⲛⲕⲉ</w><w>ⲛⲓⲙ</w><w><unclear>ⲉ</unclear><supplied reason="lacuna">ⲧⲉ</supplied></w><w><supplied reason="lacuna">ϥⲛⲁⲉⲣ</supplied></w><w><unclear>ⲡ</unclear>ⲙⲏ<unclear>ⲟ</unclear><supplied reason="lacuna">ⲩ</supplied><unclear>ⲏ</unclear></w><w>ⲛ<unclear>ⲉ</unclear><unclear>ⲧ</unclear>
+<lb break="no" xml:id="P100rC1L4-mae5" n="4"/>ⲉ<supplied reason="lacuna">ⲛ</supplied></w><w>ⲉⲧ<supplied reason="lacuna">ⲉ</supplied></w><w>ϩⲁⲓ̄ϫⲁⲩ</w><w><supplied reason="lacuna">ⲛⲉⲙⲛ</supplied><unclear>ⲏ</unclear>ⲧⲉⲛ</w></ab><ab n="B04K14V27"><w>ⲟⲩⲓ̅
+<lb break="no" xml:id="P100rC1L5-mae5" n="5"/>ⲣⲏ<unclear>ⲛ</unclear><unclear>ⲏ</unclear></w><w>ϯϯ</w><w>ⲙⲙ<supplied reason="lacuna">ⲁⲥ</supplied></w><w><supplied reason="lacuna">ⲛⲉⲙⲛⲏ</supplied>ⲧⲉⲛ</w><w>ϯⲣⲏ
+<lb break="no" xml:id="P100rC1L6-mae5" n="6"/>ⲛⲏ</w><w>ⲉⲧⲏ</w><w>ⲧⲱⲓ̄</w><w><unclear>ⲧ</unclear>ⲏ</w><w><unclear>ϯ</unclear><unclear>ϯ</unclear></w><gap extent="1" unit="char" reason="lacuna"/><w><unclear>ⲙ</unclear>ⲙⲁⲥ</w><w>ⲛⲉⲙ
+<lb break="no" xml:id="P100rC1L7-mae5" n="7"/>ⲛⲏⲧⲉⲛ</w><w>ⲙⲡⲉⲣⲧⲏ</w><w><supplied reason="lacuna">ⲡ</supplied>ⲉⲧⲉⲛϩⲏⲧ</w>
+<lb n="P100rC1L8-mae5"/><w>ϣⲧⲁ<unclear>ⲣ</unclear><unclear>ⲧ</unclear>ⲉⲣ</w><w>ⲁⲩⲱ</w><w>ⲙⲡ<unclear>ⲉ</unclear><unclear>ⲣ</unclear></w><w>ⲉⲣ</w><w>ϩⲁⲧⲏ</w>
+<lb n="P100rC1L9-mae5"/></ab><ab n="B04K14V28"><w><supplied reason="lacuna">ϩⲁ</supplied>ⲧⲉⲧⲉ<unclear>ⲛ</unclear>ⲥⲱⲧⲉⲙ</w><w>ϫ<supplied reason="lacuna">ⲉ</supplied></w><w>ϩⲁⲓ̄ϫⲁⲥ</w>
+<lb n="P100rC1L10-mae5"/><w><supplied reason="lacuna">ⲛⲏ</supplied>ⲧⲉ<unclear>ⲛ</unclear></w><w><supplied reason="lacuna">ϫ</supplied><unclear>ⲉ</unclear></w><w>ϯⲥⲱⲕ</w><w>ⲁⲩⲱ</w><w>ⲁⲛ</w><w>ϯⲛⲛⲏ<supplied reason="lacuna">ⲟⲩ</supplied></w>
+<lb n="P100rC1L11-mae5"/><w><supplied reason="lacuna">5-7</supplied><supplied reason="lacuna">8-12</supplied></w>
+<lb n="P100rC1L12-mae5"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">7–8 lines lost</note>
+<lb n="P100rC1L13-mae5"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">14.29-14.31</note>
+<pb xml:id="P100v-mae5" n="100v" type="folio" facs="http://www.iohannes.com/images/coptic/UC71048verso.jpg" />
+<cb n="P100vC1-mae5"/>
+<lb n="P100vC1L1-mae5"/><w><supplied reason="lacuna">14-16</supplied><unclear>ⲏ</unclear><unclear>ⲥ</unclear></w><w><gap extent="1" unit="char" reason="illegible"/><gap extent="2" unit="char" reason="lacuna"/></w>
+<lb n="P100vC1L2-mae5"/><gap extent="2" unit="char" reason="lacuna"/><w><supplied reason="lacuna">ⲉⲧⲉ</supplied></w><w><supplied reason="lacuna">ϩⲁϥϯ</supplied></w><w><supplied reason="lacuna">ⲉⲛⲧⲟⲗ</supplied>ⲏ</w><w>ⲙⲙ<unclear>ⲁ</unclear><unclear>ⲓ</unclear></w>
+<lb n="P100vC1L3-mae5"/><w><supplied reason="lacuna">7-9</supplied></w><w><supplied reason="lacuna">ⲙⲁⲣⲁⲛ</supplied></w><w>ⲉⲃⲁⲗ</w><gap extent="2" unit="char" reason="illegible"/>
+<lb n="P100vC1L4-mae5"/><w><gap extent="4" unit="char" reason="illegible"/><gap extent="3" unit="char" reason="lacuna"/></w></ab></div><div type="chapter" n="B04K15"><ab n="B04K15V1"><w><supplied reason="lacuna">ⲁⲛⲁⲕ</supplied></w><w><supplied reason="lacuna">ⲡⲏ</supplied></w><w><unclear>ⲧ</unclear>ⲃⲱ</w><w>ⲛⲉⲗⲁ
+<lb break="no" xml:id="P100vC1L5-mae5" n="5"/>ⲗⲏ</w><w>ⲙⲙⲉ<supplied reason="lacuna">ⲏ</supplied></w><w><supplied reason="lacuna">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲓ</supplied>ⲱⲧ</w><w>ⲡⲏ</w><w>ⲡⲟⲩ
+<lb break="no" xml:id="P100vC1L6-mae5" n="6"/>ⲁ<unclear>ⲉ</unclear><unclear>ⲓ</unclear>ⲏ</w></ab><ab n="B04K15V2"><w>ⲕ<unclear>ⲗ</unclear><supplied reason="lacuna">ⲏⲙⲁ</supplied></w><w><supplied reason="lacuna">ⲛⲓ</supplied>ⲙ</w><w>ⲉⲧⲉⲛ<supplied reason="lacuna">ⲁ</supplied><unclear>ϥ</unclear>ϯ</w>
+<lb n="P100vC1L7-mae5"/><w>ⲕⲁⲣⲡⲟⲥ</w><w><unclear>ϩ</unclear><unclear>ⲣ</unclear><supplied reason="lacuna">ⲏⲓ</supplied></w><w><supplied reason="lacuna">ⲛϩⲏⲧ</supplied></w><w><supplied reason="lacuna">ⲉⲛ</supplied></w><w>ϣⲁⲣ<unclear>ⲟ</unclear><unclear>ⲩ</unclear>ϫⲁ
+<lb break="no" xml:id="P100vC1L8-mae5" n="8"/>ϫⲉϥ</w><w>ⲉⲃⲁⲗ</w><w>ⲟⲩⲁⲛ</w><w>ⲛ<supplied reason="lacuna">ⲓ</supplied>ⲙ</w><w>ⲉⲧⲏ</w><w>ϩⲁⲩ
+<lb break="no" xml:id="P100vC1L9-mae5" n="9"/>ϯⲕⲁⲣⲡⲟⲥ</w><w>ϩⲣⲏⲓ̄</w><w>ⲛϩⲏⲧ</w><w>ϣⲁⲩ<unclear>ⲕ</unclear><unclear>ⲁ</unclear>
+<lb break="no" xml:id="P100vC1L10-mae5" n="10"/>ⲑⲁ<unclear>ⲣ</unclear>ⲓⲍⲏ</w><w>ⲙⲙ<unclear>ⲁ</unclear>ⲟⲩ</w><w>ϫ<unclear>ⲉ</unclear>ⲩ<unclear>ⲉ</unclear>ϯ</w><w>ϩ<unclear>ⲟ</unclear><supplied reason="lacuna">ⲩⲁ</supplied></w>
+<lb n="P100vC1L11-mae5"/><w><unclear>ⲙ</unclear><unclear>ⲡ</unclear>ⲕⲁⲣⲡⲟⲥ</w><w>ⲉⲃⲁⲗ</w></ab><ab n="B04K15V3"><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲉⲛ</supplied>ⲕ<supplied reason="lacuna">ⲁ</supplied><unclear><unclear>ⲑ</unclear></unclear>ⲁⲣ<supplied reason="lacuna">ⲧⲟⲥ</supplied></w>
+<lb n="P100vC1L12-mae5"/><w><supplied reason="lacuna">ⲛ</supplied>ⲧⲱⲧⲉⲛ</w><w><unclear>ϣ</unclear><unclear>ⲱ</unclear>ⲡⲏ</w><w>ⲉⲧ<supplied reason="lacuna">ⲃⲏ</supplied></w><w><supplied reason="lacuna">ⲡⲁⲥ</supplied>ⲉϫ<supplied reason="lacuna">ⲏ</supplied></w>
+<lb n="P100vC1L13-mae5"/><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">15.4-21.25</note><note type="editorial">7–8 lines lost</note></ab></div></div></body></text></TEI>

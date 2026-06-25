@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+<!ENTITY lac "lac">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL18"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in Fragmenta Weingartensia</title>
+<title type="document" n="VL18">Fragmenta Weingartensia</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name>
+<resp>Proofread by</resp><name>Hugh Houghton</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date>. Includes editorial notes.</edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Germany</country>
+<settlement>Darmstadt</settlement>
+<repository>Hessiche Landes- und Hochschulbibliothek</repository>
+<idno>895</idno>
+<msName xml:lang="la">Fragmenta Weingartensia</msName>
+<altIdentifier type="partial">
+<country>Germany</country>
+<settlement>Donaueschingen</settlement>
+<repository>Fürstliche Fürstenbergische Hofbibliothek</repository>
+<idno>925</idno>
+<note>formerly 192 and 193</note>
+</altIdentifier>
+<altIdentifier type="partial">
+<country>Germany</country><settlement>Stuttgart</settlement>
+<repository>Württembergische Landesbibliothek</repository>
+ <idno>HB. VI.114; HB. VII.29; HB. XIV.15</idno>
+  </altIdentifier>
+ <altIdentifier type="Vetus_Latina"><idno>18</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>8.1175, 1176</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Xw</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>π</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>67314</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>8584</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Fragmenta Euangeliorum</title>
+<title type="uniform" xml:lang="en">Fragments of Matthew, Luke and John</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p>Palimpsests extracted from bindings.</p></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>uncial</term>.</p>
+</handDesc>
+<decoDesc><p>ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>North Italy</origPlace>
+<origDate notBefore="60001" notAfter="70001">Seventh century</origDate>
+</origin></history>
+<additional>
+<surrogates><listBibl><bibl>A. Dold, Konstanzer altlateinische Propheten- und Evangelienbruchstuecke mit Glossen (Texte und Arbeiten 7-9), Beuron, 1923, 194-224</bibl></listBibl></surrogates>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription only covers the Johannine readings. Dold identifies some further letters which may be from Johannine lections. Dold's caveat also applies: 'Die grossen Textausfüllungen (z. B. auf Bl. 3, 4, 6, 10, 13, 19) verfolgen nicht den Zweck, den alten Text wiederherzustellen, sie dienen vielmehr lediglich dazu, die wenigen von manchem Seiten noch erhaltenen Textworte in das 17 zeilige Beschriftungssystem vollständiger Seiten einzugliedern und dadurch sowohl die Anlage des Perikopenbuches als vor allem die Ordnung der einzelnen Perikopen zu erhärten.' The transcription is based entirely on Dold's edition, with the exception that we only provide reconstructed text for a line in which there is at least one letter extant, on the grounds that it is misleading to provide text for several or more lines which are completely missing. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-06-10">Changes made in order to display properly with VLI.xsl transformation by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+
+<text xml:lang="lat"><body>
+<pb xml:id="P2r-VL18" n="2r" type="folio"/><div n="04" type="book"><div n="B04K7" type="chapter"><ab n="B04K7V24"><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of three fragments from Codex Darmstadt 895.</note></seg>
+<cb n="P2rC1-VL18"/>
+<lb n="P2rC1L1-VL18"/><note type="editorial">Folio 1 (from Codex Donaueschingen 192) contains Lc 4:41, Mt 9:32-9:35 and twenty letters over four lines which Dold suggests may be John but cannot be identified with any single pericope. The text of Folio 2r begins at line 15. Line 13 reads 'e', and Line 14 reads 'dns ihs'. This is not part of the previous text in any other Old Latin manuscript.</note><w>n<supplied reason="lacuna">olite</supplied></w><w><supplied reason="lacuna">iudicare</supplied></w><w><supplied reason="lacuna">secundum</supplied></w>
+<lb n="P2rC1L2-VL18"/><w>faciem</w><w><supplied reason="lacuna">sed</supplied></w><w><supplied reason="lacuna">iustum</supplied></w><w><supplied reason="lacuna">iudici</supplied>
+<lb n="P2rC1L3-VL18" break="no"/>um</w><w>iudic<supplied reason="lacuna">ate</supplied></w></ab><ab n="B04K7V25"><w><supplied reason="lacuna">dicebant</supplied></w>
+<pb xml:id="P2v-VL18" n="2v" type="folio"/>
+<cb n="P2vC1-VL18"/>
+<lb n="P2vC1L1-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P2vC1L2-VL18"/><w><supplied reason="lacuna">nonne</supplied></w><w>hic</w><w><supplied reason="lacuna">est</supplied></w><w><supplied reason="lacuna">que</supplied>m</w><w>qua<supplied reason="lacuna">e</supplied>runt</w>
+<lb n="P2vC1L3-VL18"/><w><supplied reason="lacuna">occide</supplied>re</w></ab><ab n="B04K7V26"><w>e<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">ecc</supplied>e</w><w>pa<supplied reason="lacuna">lam</supplied></w><w>lo
+<lb n="P2vC1L4-VL18" break="no"/><supplied reason="lacuna">quitur</supplied></w><w>et</w><w>nihil</w><w>ei</w><w>dicunt</w>
+<lb n="P2vC1L5-VL18"/><w><supplied reason="lacuna">numquid</supplied></w><w>uero</w><w>cognouerunt</w>
+<lb n="P2vC1L6-VL18"/><w><supplied reason="lacuna">prin</supplied>cepis</w><w>quia</w><w>hic</w><w>es<supplied reason="lacuna">t</supplied></w>
+<lb n="P2vC1L7-VL18"/><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">xps</hi></supplied></abbr></w><note type="editorial">Dold observes that the parchment is perforated at this point</note></ab><ab n="B04K7V27"><w>sed</w><w>hunc</w><w>scimus</w>
+<lb n="P2vC1L8-VL18"/><w><supplied reason="lacuna">unde</supplied></w><w>sit</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>autem</w><w>cum</w>
+<lb n="P2vC1L9-VL18"/><w><supplied reason="lacuna">uene</supplied>rit</w><w>nemo</w><w>scit</w><w>unde</w><w>sit</w>
+<lb n="P2vC1L10-VL18"/></ab><ab n="B04K7V28"><w><supplied reason="lacuna">clam</supplied>abant</w><w>ergo</w><w>docens</w><w>in</w>
+<lb n="P2vC1L11-VL18"/><w><supplied reason="lacuna">temp</supplied>lo</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>e<supplied reason="lacuna">t</supplied></w><w>dicens</w><w>et</w>
+<lb n="P2vC1L12-VL18"/><w><supplied reason="lacuna">me</supplied></w><w><supplied reason="lacuna">n</supplied>ostis</w><w>et</w><w>scitis</w><w>hunde</w>
+<lb n="P2vC1L13-VL18"/><w><supplied reason="lacuna">sim</supplied></w><w><supplied reason="lacuna">e</supplied>t</w><w>a</w><w>me</w><w>ips<supplied reason="lacuna">o</supplied></w><w>no<supplied reason="lacuna">n</supplied></w><w><supplied reason="lacuna">u</supplied>en<supplied reason="lacuna">i</supplied></w>
+<lb n="P2vC1L14-VL18"/><w><supplied reason="lacuna">sed</supplied></w><w><supplied reason="lacuna">e</supplied>st</w><w>uerus</w><w>qui</w><w>me</w><w>misit</w>
+<lb n="P2vC1L15-VL18"/><w><supplied reason="lacuna">quem</supplied></w><w>uos</w><w><supplied reason="lacuna">ne</supplied>scitis</w></ab><ab n="B04K7V29"><w>ego</w><w>no
+<lb n="P2vC1L16-VL18" break="no"/><supplied reason="lacuna">ui</supplied></w><w><supplied reason="lacuna">eum</supplied></w><w><supplied reason="lacuna">quia</supplied></w><w><supplied reason="lacuna">ab</supplied></w><w>ipso</w><w>sum</w><pc>·</pc><w>et</w>
+<lb n="P2vC1L17-VL18"/><w><supplied reason="lacuna">ipse</supplied></w><w><supplied reason="lacuna">me</supplied></w><w><supplied reason="lacuna">misit</supplied></w></ab><ab n="B04K7V30"><w><supplied reason="lacuna">q</supplied>uerebant</w>
+<pb xml:id="P3r-VL18" n="3r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of three fragments from Codex Darmstadt 895.</note></seg>
+<cb n="P3rC1-VL18"/>
+<lb n="P3rC1L1-VL18"/><note type="editorial">Dold reconstructs the text of the entire page; we have only included those lines in which letters can be read.</note><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L2-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L3-VL18"/><w><supplied reason="lacuna">quia</supplied></w><w><supplied reason="lacuna">nondum</supplied></w><w><supplied reason="lacuna">uener</supplied>at</w><w>hor<supplied reason="lacuna">a</supplied></w>
+<lb n="P3rC1L4-VL18"/><w><supplied reason="lacuna">eius</supplied></w></ab><ab n="B04K7V31"><w><supplied reason="lacuna">de</supplied></w><w><supplied reason="lacuna">turba</supplied></w><w><supplied reason="lacuna">autem</supplied></w><w><supplied reason="lacuna">m</supplied>ul
+<lb n="P3rC1L5-VL18" break="no"/><supplied reason="lacuna">ti</supplied></w><w><supplied reason="lacuna">crediderunt</supplied></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">eu</supplied>m</w><w>et</w>
+<lb n="P3rC1L6-VL18"/><w><supplied reason="lacuna">dicebant</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">xps</hi></supplied></abbr></w><w><supplied reason="lacuna">cum</supplied></w><w><supplied reason="lacuna">uen</supplied>erit</w>
+<lb n="P3rC1L7-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L8-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K7V32"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L9-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L10-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L11-VL18"/><w><supplied reason="lacuna">h</supplied>a<supplied reason="lacuna">e</supplied>c</w><w><supplied reason="lacuna">et</supplied></w><w>mis<supplied reason="lacuna">er</supplied>u<supplied reason="lacuna">nt</supplied></w><w><supplied reason="lacuna">prin</supplied>
+<lb n="P3rC1L12-VL18" break="no"/><supplied reason="lacuna">ci</supplied>p<supplied reason="lacuna">es</supplied></w><w><supplied reason="lacuna">atque</supplied></w><note type="editorial">Dold includes the word 'atque ' in brackets, with a question mark.</note><w><supplied reason="lacuna">pharisaei</supplied></w>
+<lb n="P3rC1L13-VL18"/><w>m<supplied reason="lacuna">inistro</supplied>s</w><w><supplied reason="lacuna">ut</supplied></w><w><supplied reason="lacuna">a</supplied>d<supplied reason="lacuna">prehen</supplied>
+<lb n="P3rC1L14-VL18" break="no"/><supplied reason="lacuna">derent</supplied></w><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K7V33"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3rC1L15-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">tem</supplied>pu<supplied reason="lacuna">s</supplied></w><w><supplied reason="lacuna">mo</supplied>
+<lb n="P3rC1L16-VL18" break="no"/>dicum</w><w><supplied reason="lacuna">uobiscum</supplied></w><w><supplied reason="lacuna">sum</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">ua</supplied>
+<lb n="P3rC1L17-VL18" break="no"/>do</w><w>ad</w><w>illum</w><w>qui</w><w>misi<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">me</supplied></w>
+<pb xml:id="P3v-VL18" n="3v" type="folio"/>
+<cb n="P3vC1-VL18"/>
+<lb n="P3vC1L1-VL18"/></ab><ab n="B04K7V34"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">inue</supplied>
+<lb n="P3vC1L2-VL18" break="no"/>n<supplied reason="lacuna">ietis</supplied></w><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">Dold reconstructs the text of the entire page; we have only included those lines in which letters can be read.</note>
+<lb n="P3vC1L3-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K7V35"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L4-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L5-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L6-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L7-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L8-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L9-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K7V36"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L10-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L11-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L12-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L13-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K7V37"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L14-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L15-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P3vC1L16-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">u</supplied>en<supplied reason="lacuna">i</supplied>am</w>
+<lb n="P3vC1L17-VL18"/><w><supplied reason="lacuna">ad</supplied></w><w><supplied reason="lacuna">eum</supplied></w><w>et</w><w>bebat</w></ab><ab n="B04K7V38"><w>qui</w><w>credit</w>
+<pb xml:id="P4r-VL18" n="4r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of six fragments from Codex Donaueschingen 193</note></seg>
+<cb n="P4rC1-VL18"/>
+<lb n="P4rC1L1-VL18"/></ab></div><div n="B04K9" type="chapter"><ab n="B04K9V22"><w><supplied reason="lacuna">synagog</supplied>a</w><w>fa<supplied reason="lacuna">c</supplied>eret</w></ab><ab n="B04K9V23"><w><supplied reason="lacuna">propterea</supplied></w>
+<lb n="P4rC1L2-VL18"/><w><supplied reason="lacuna">parent</supplied>es</w><w>eius</w><w>dix<supplied reason="lacuna">e</supplied>runt</w><w>ae
+<lb n="P4rC1L3-VL18" break="no"/><supplied reason="lacuna">tatem</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC1L4-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K9V24"><gap reason="lacuna" unit="char" extent="unknown"/><w>e<supplied reason="lacuna">r</supplied>go</w>
+<lb n="P4rC1L5-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC1L6-VL18"/><w><supplied reason="lacuna">caecus</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">dixerunt</supplied></w><w><supplied reason="lacuna">ei</supplied></w><w><supplied reason="lacuna">d</supplied>a</w><w>ho
+<lb n="P4rC1L7-VL18" break="no"/><supplied reason="lacuna">norem</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">do</hi></supplied></abbr></w><w><supplied reason="lacuna">nos</supplied></w><w><supplied reason="lacuna">scimus</supplied></w><w><supplied reason="lacuna">qu</supplied>ia</w><w>hic</w>
+<lb n="P4rC1L8-VL18"/><w><supplied reason="lacuna">homo</supplied></w><w><supplied reason="lacuna">peccator</supplied></w><w><supplied reason="lacuna">est</supplied></w></ab><ab n="B04K9V25"><w><supplied reason="lacuna">dixit</supplied></w><w><supplied reason="lacuna">erg</supplied>o</w>
+<lb n="P4rC1L9-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC1L10-VL18"/></ab><ab n="B04K9V26"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC1L11-VL18"/></ab><ab n="B04K9V27"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P4rC1L12-VL18"/><w><supplied reason="lacuna">numquid</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">uos</supplied></w><w><supplied reason="lacuna">uul</supplied>tis</w>
+<pb xml:id="P4v-VL18" n="4v" type="folio"/>
+<cb n="P4vC1-VL18"/>
+<lb n="P4vC1L1-VL18"/><w><supplied reason="lacuna">discipuli</supplied></w><w><supplied reason="lacuna">e</supplied>ius</w><w>fieri</w></ab><ab n="B04K9V28"><w><supplied reason="lacuna">ma</supplied>
+<lb n="P4vC1L2-VL18" break="no"/><supplied reason="lacuna">l</supplied>edixerunt</w><w><supplied reason="lacuna">ei</supplied></w><w>et</w><w><supplied reason="lacuna">dixerunt</supplied></w>
+<lb n="P4vC1L3-VL18"/><w><supplied reason="lacuna">t</supplied>u</w><w>s<supplied reason="lacuna">is</supplied></w><w><supplied reason="lacuna">discipulus</supplied></w><w><supplied reason="lacuna">eius</supplied></w>
+<lb n="P4vC1L4-VL18"/><w>nos</w><w>uero</w><w><supplied reason="lacuna">m</supplied>oysei</w><w>d<supplied reason="lacuna">isci</supplied>
+<lb n="P4vC1L5-VL18" break="no"/>poli</w><w>sumus</w></ab><ab n="B04K9V29"><w><supplied reason="lacuna">nos</supplied></w><w><supplied reason="lacuna">scimus</supplied></w>
+<lb n="P4vC1L6-VL18"/><w>quia</w><w>moys<supplied reason="lacuna">eo</supplied></w><note type="editorial">Dold includes the 'eo ' in brackets with a question mark</note><w><supplied reason="lacuna">locutus</supplied></w><w><supplied reason="lacuna">est</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ds</hi></supplied></abbr></w>
+<lb n="P4vC1L7-VL18"/><w>hunc</w><w>au<supplied reason="lacuna">tem</supplied></w><w><supplied reason="lacuna">nescimus</supplied></w><w><supplied reason="lacuna">unde</supplied></w>
+<lb n="P4vC1L8-VL18"/><w>sit</w><pc>÷</pc></ab><ab n="B04K9V30"><w>resp<supplied reason="lacuna">ondit</supplied></w><w><supplied reason="lacuna">ille</supplied></w><w><supplied reason="lacuna">homo</supplied></w><w><supplied reason="lacuna">et</supplied></w>
+<lb n="P4vC1L9-VL18"/><w>dixit</w><w>ei<supplied reason="lacuna">s</supplied></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">hoc</supplied></w><w><supplied reason="lacuna">enim</supplied></w><w><supplied reason="lacuna">mirabi</supplied>
+<lb n="P4vC1L10-VL18" break="no"/>le</w><w>est</w><w>quia</w><w>uo<supplied reason="lacuna">s</supplied></w><w><supplied reason="lacuna">nescitis</supplied></w><w><supplied reason="lacuna">un</supplied>
+<lb n="P4vC1L11-VL18" break="no"/>de</w><w>sit</w><w>et</w><w><supplied reason="lacuna">a</supplied>perui<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">oculos</supplied></w><w><supplied reason="lacuna">me</supplied>
+<lb n="P4vC1L12-VL18" break="no"/>os</w><pc>:</pc></ab><ab n="B04K9V31"><w>scimus</w><w>aute<supplied reason="lacuna">m</supplied></w><w><supplied reason="lacuna">quia</supplied></w><w><supplied reason="lacuna">pec</supplied>
+<lb n="P4vC1L13-VL18" break="no"/>catore<supplied reason="lacuna">s</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">d</hi></supplied><hi rend="overline">s</hi></abbr></w><w>non</w><w>ex<supplied reason="lacuna">audit</supplied></w><w><supplied reason="lacuna">sed</supplied></w>
+<lb n="P4vC1L14-VL18"/><w>si</w><w>quis</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>culto<supplied reason="lacuna">r</supplied></w><w>e<supplied reason="lacuna">st</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">uo</supplied>
+<lb n="P4vC1L15-VL18" break="no"/>luntatem</w><w>eius</w><w>f<supplied reason="lacuna">ecerit</supplied></w>
+<lb n="P4vC1L16-VL18"/><w>hunc</w><w>ex<supplied reason="lacuna">a</supplied>udit</w><pc>:</pc></ab><ab n="B04K9V32"><w>a</w><w>s<supplied reason="lacuna">aeculo</supplied></w>
+<lb n="P4vC1L17-VL18"/><w>numqu<supplied reason="lacuna">am</supplied></w><w>e<supplied reason="lacuna">s</supplied>t</w><w>auditum</w><note type="editorial">Folio 5 (from Codex Donaueschingen 192) contains Matthew 6:2-12</note>
+<pb xml:id="P6r-VL18" n="6r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of three fragments from Codex Donaueschingen 192.</note></seg>
+<cb n="P6rC1-VL18"/>
+<lb n="P6rC1L1-VL18"/></ab></div><div n="B04K11" type="chapter"><ab n="B04K11V19"><gap reason="lacuna" unit="char" extent="unknown"/><w>d<supplied reason="lacuna">e</supplied></w><w><supplied reason="lacuna">fr</supplied>a
+<lb n="P6rC1L2-VL18" break="no"/><supplied reason="lacuna">tre</supplied></w><w><supplied reason="lacuna">suo</supplied></w></ab><ab n="B04K11V20"><w><supplied reason="lacuna">martha</supplied></w><w><supplied reason="lacuna">er</supplied>go</w><w>ut</w><w>a<supplied reason="lacuna">u</supplied>
+<lb n="P6rC1L3-VL18" break="no"/><supplied reason="lacuna">diuit</supplied></w><w><supplied reason="lacuna">quia</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">dns</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="lacuna">u</supplied>eni<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">o</supplied>cu<supplied reason="lacuna">r</supplied>
+<lb n="P6rC1L4-VL18" break="no"/><supplied reason="lacuna">rit</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P6rC1L5-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K11V21"><w><supplied reason="lacuna">dixit</supplied></w><w><supplied reason="lacuna">er</supplied>go</w><w>mar<supplied reason="lacuna">t</supplied>h<supplied reason="lacuna">a</supplied></w>
+<lb n="P6rC1L6-VL18"/><w><supplied reason="lacuna">ad</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">dnm</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ihm</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">dne</hi></supplied></abbr></w><w><supplied reason="lacuna">si</supplied></w><w><supplied reason="lacuna">hi</supplied>c</w><w>fuiss<supplied reason="lacuna">es</supplied></w>
+<pb xml:id="P6v-VL18" n="6v" type="folio"/>
+<cb n="P6vC1-VL18"/>
+<lb n="P6vC1L1-VL18"/><note type="editorial">Dold reconstructs the text of the entire page; we have only included those lines in which letters can be read.</note></ab><ab n="B04K11V26"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P6vC1L2-VL18"/><w>qu<supplied reason="lacuna">i</supplied></w><w>uiu<supplied reason="lacuna">it</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">credit</supplied></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">me</supplied></w><w><supplied reason="lacuna">non</supplied></w>
+<lb n="P6vC1L3-VL18"/><w>mo<supplied reason="lacuna">rietur</supplied></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">aeternum</supplied></w>
+<lb n="P6vC1L4-VL18"/><w>c<supplied reason="lacuna">redis</supplied></w><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K11V27"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P6vC1L5-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P6vC1L6-VL18"/><w><supplied reason="lacuna">qui</supplied>a</w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P6vC1L7-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P7r-VL18" n="7r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio comes from Codex Stuttgart H.B.VII.29 </note></seg>
+<cb n="P7rC1-VL18"/>
+<lb n="P7rC1L1-VL18"/></ab><ab n="B04K11V38"><gap reason="lacuna" unit="char" extent="unknown"/><w>nomentum</w><pc>:</pc><w>erat</w><w>autem</w><w>spe<supplied reason="lacuna">lun</supplied>
+<lb n="P7rC1L2-VL18" break="no"/>ca</w><w>et</w><w>lapis</w><w>superpositus</w><w>e<supplied reason="lacuna">ra</supplied>t</w><w><supplied reason="lacuna">il</supplied>
+<lb n="P7rC1L3-VL18" break="no"/>li</w><pc>:</pc></ab><ab n="B04K11V39"><w>ait</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>tollite</w><w>lapidem</w>
+<lb n="P7rC1L4-VL18"/><w>dicit</w><w>ei</w><w>martha</w><w>soror</w><w>defunc<supplied reason="lacuna">ti</supplied></w>
+<lb n="P7rC1L5-VL18"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>iam</w><w>faetet</w><w>quadriduum</w>
+<lb n="P7rC1L6-VL18"/><w>enem</w><w>habit</w><pc>:</pc></ab><ab n="B04K11V40"><w>dicit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>n<supplied reason="lacuna">on</supplied></w>
+<lb n="P7rC1L7-VL18"/><w>dixi</w><w>tibi</w><w>quia</w><w>si</w><w>credederis</w><w>u<supplied reason="lacuna">i</supplied>
+<lb n="P7rC1L8-VL18" break="no"/>deuis</w><w>gloriam</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><pc>·</pc></ab><ab n="B04K11V41"><w>tullerunt</w>
+<lb n="P7rC1L9-VL18"/><w>ergo</w><w>lapidem</w><pc>÷</pc><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>autem</w><w><supplied reason="lacuna">le</supplied>
+<lb n="P7rC1L10-VL18" break="no"/>uauit</w><w>ocolus</w><w>suos</w><w>in</w><w>caelu<supplied reason="lacuna">m</supplied></w>
+<lb n="P7rC1L11-VL18"/><w>dixit</w><w>pater</w><w>gratias</w><w>ago</w><w>tibi</w><pc>·</pc>
+<lb n="P7rC1L12-VL18"/><w>quia</w><w>audisti</w><w>me</w></ab><ab n="B04K11V42"><w>et</w><w>ego</w><w>sc<supplied reason="lacuna">i</supplied>ebam</w><note type="editorial">The final letter of 'sciebam ' is printed in smaller type.</note>
+<lb n="P7rC1L13-VL18"/><w>quia</w><w>semper</w><w>me</w><w>audis</w><w>sed</w><w>pro<supplied reason="lacuna">p</supplied>
+<lb n="P7rC1L14-VL18" break="no"/>ter</w><w>turbam</w><w>circumstantem</w>
+<lb n="P7rC1L15-VL18"/><w>dixit</w><w>ut</w><w>credant</w><pc>·</pc><w>quia</w><w>tu</w><w><supplied reason="lacuna">me</supplied></w>
+<lb n="P7rC1L16-VL18"/><w>misisti</w><pc>·</pc></ab><ab n="B04K11V43"><w>et</w><w>cum</w><w>haec</w><w>dix<supplied reason="lacuna">isset</supplied></w>
+<lb n="P7rC1L17-VL18"/><w>uocem</w><w>magna</w><w>clamauit</w>
+<pb xml:id="P7v-VL18" n="7v" type="folio"/>
+<cb n="P7vC1-VL18"/>
+<lb n="P7vC1L1-VL18"/><w>lazare</w><w>ueni</w><w>foras</w></ab><ab n="B04K11V44"><w>et</w><w>exiit</w><w>ille</w>
+<lb n="P7vC1L2-VL18"/><w>mortuus</w><w><supplied reason="lacuna">l</supplied>ig<supplied reason="lacuna">a</supplied>tus</w><w>pedes</w><w>et</w><w>m<supplied reason="lacuna">a</supplied>
+<lb n="P7vC1L3-VL18" break="no"/><supplied reason="lacuna">nu</supplied>s</w><w>institis</w><w>et</w><w>facies</w><w>eius</w>
+<lb n="P7vC1L4-VL18"/><w><supplied reason="lacuna">o</supplied>rario</w><w>conligat<supplied reason="lacuna">a</supplied></w><w>erat</w><pc>÷</pc><w>dici<supplied reason="lacuna">t</supplied></w>
+<lb n="P7vC1L5-VL18"/><w><supplied reason="lacuna">ill</supplied>is</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>soluite</w><w>eum</w><w>et</w>
+<lb n="P7vC1L6-VL18"/><w><supplied reason="lacuna">sinite</supplied></w><w><supplied reason="lacuna">abi</supplied>re</w></ab><ab n="B04K11V45"><w>multi</w><w>ergo</w><w>ex</w>
+<lb n="P7vC1L7-VL18"/><w><supplied reason="lacuna">iudae</supplied>is</w><w>qui</w><w>uenerant</w><w>ad</w><w>mariam</w><note type="editorial">The final letter of 'mariam ' is printed in smaller type.</note>
+<lb n="P7vC1L8-VL18"/><w><supplied reason="lacuna">et</supplied></w><w>uiderant</w><w>que</w><w>ficit</w><w>crede
+<lb n="P7vC1L9-VL18" break="no"/><supplied reason="lacuna">derun</supplied>t</w><w>in</w><w>eum</w><pc>÷</pc></ab><ab n="B04K11V46"><w>quidam</w><w>autem</w>
+<lb n="P7vC1L10-VL18"/><w><supplied reason="lacuna">ex</supplied></w><w><supplied reason="lacuna">ipsis</supplied></w><w>abierunt</w><w>ad</w><w>phar<supplied reason="lacuna">isae</supplied>
+<lb n="P7vC1L11-VL18" break="no"/><supplied reason="lacuna">o</supplied>s</w><w><supplied reason="lacuna">et</supplied></w><w>dixerunt</w><w>eis</w><w>quod</w><w>ficit</w>
+<lb n="P7vC1L12-VL18"/><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>÷</pc></ab><ab n="B04K11V47"><w>colligerunt</w><w>ergo</w>
+<lb n="P7vC1L13-VL18"/><w><supplied reason="lacuna">p</supplied>ontifices</w><w>et</w><w>pharisaei</w><w>c<supplied reason="lacuna">on</supplied>
+<lb n="P7vC1L14-VL18" break="no"/><supplied reason="lacuna">cil</supplied>ium</w><w>et</w><w>dicib<supplied reason="lacuna">a</supplied>nt</w><w>quid</w><w>faci
+<lb n="P7vC1L15-VL18" break="no"/><supplied reason="lacuna">emus</supplied></w><w>quod</w><w>hic</w><w>homo</w><w>m<supplied reason="lacuna">ul</supplied>t<supplied reason="lacuna">a</supplied></w>
+<lb n="P7vC1L16-VL18"/><w><supplied reason="lacuna">signa</supplied></w><w><supplied reason="lacuna">fac</supplied>it</w></ab><ab n="B04K11V48"><w>si</w><w>dimitimus</w><w>ill<supplied reason="lacuna">um</supplied></w>
+<lb n="P7vC1L17-VL18"/><w><supplied reason="lacuna">sic</supplied></w><w><supplied reason="lacuna">omne</supplied>s</w><w>credunt</w><w>in</w><w>eum</w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P8r-VL18" n="8r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of three fragments from Codex Darmstadt 895.</note></seg>
+<cb n="P8rC1-VL18"/>
+<lb n="P8rC1L1-VL18"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V25"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">dix</supplied>it</w><w><supplied reason="lacuna">eis</supplied></w><w><supplied reason="lacuna">ni</supplied>
+<lb n="P8rC1L2-VL18" break="no"/>s<supplied reason="lacuna">i</supplied></w><w>u<supplied reason="lacuna">idero</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P8rC1L3-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P8rC1L4-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">lo</supplied>
+<lb n="P8rC1L5-VL18" break="no"/><supplied reason="lacuna">c</supplied>u<supplied reason="lacuna">m</supplied></w><w>clauorum</w><w>e<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">mittam</supplied></w><w><supplied reason="lacuna">ma</supplied>
+<lb n="P8rC1L6-VL18" break="no"/>num</w><w>meam</w><w>in</w><w>latus</w><w><supplied reason="lacuna">eius</supplied></w><w><supplied reason="lacuna">non</supplied></w>
+<lb n="P8rC1L7-VL18"/><w>c<supplied reason="lacuna">re</supplied>d<supplied reason="lacuna">am</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P8v-VL18" n="8v" type="folio"/>
+<cb n="P8vC1-VL18"/>
+<lb n="P8vC1L1-VL18"/></ab><ab n="B04K20V28"><gap reason="lacuna" unit="char" extent="unknown"/><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>meus</w><w><supplied reason="lacuna">et</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ds</hi></supplied></abbr></w><w><supplied reason="lacuna">meus</supplied></w>
+<lb n="P8vC1L2-VL18"/></ab><ab n="B04K20V29"><w><supplied reason="lacuna">ait</supplied></w><w><supplied reason="lacuna">ei</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">dns</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ihs</hi></supplied></abbr></w><w>quia</w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P8vC1L3-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P8vC1L4-VL18"/><w><supplied reason="lacuna">uideru</supplied>nt</w><w>et</w><w>c<supplied reason="lacuna">r</supplied>ededeirunt</w>
+<lb n="P8vC1L5-VL18"/></ab><ab n="B04K20V30"><w><supplied reason="lacuna">multa</supplied></w><w>quidem</w><w>et</w><w>halia</w><w>sig<supplied reason="lacuna">n</supplied>a</w>
+<lb n="P8vC1L6-VL18"/><w><supplied reason="lacuna">fecit</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">dns</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">conspe</supplied>cto</w>
+<lb n="P8vC1L7-VL18"/><w><supplied reason="lacuna">discipulorum</supplied></w><w><supplied reason="lacuna">suorum</supplied></w><w><supplied reason="lacuna">qua</supplied>e</w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P9r-VL18" n="9r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><note type="header">This folio consists of three fragments from Codex Darmstadt 895.</note></seg>
+<cb n="P9rC1-VL18"/>
+<lb n="P9rC1L1-VL18"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V34"><w>q<supplied reason="lacuna">uem</supplied></w><w><supplied reason="lacuna">misit</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ds</hi></supplied></abbr></w><w><supplied reason="lacuna">uerba</supplied></w><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">di</hi></supplied></abbr></w>
+<lb n="P9rC1L2-VL18"/><w>loquetur</w><w><supplied reason="lacuna">non</supplied></w><w><supplied reason="lacuna">en</supplied>im</w>
+<lb n="P9rC1L3-VL18"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P9rC1L4-VL18"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K3V35"><w><supplied reason="lacuna">pater</supplied></w><w><supplied reason="lacuna">di</supplied>
+<lb n="P9rC1L5-VL18" break="no"/>ligit</w><w>filium</w><w>e<supplied reason="lacuna">t</supplied></w><w>omni<supplied reason="lacuna">a</supplied></w>
+<lb n="P9rC1L6-VL18"/><w>in</w><w>manum</w><w>eiu<supplied reason="lacuna">s</supplied></w><w><supplied reason="lacuna">dedit</supplied></w></ab><ab n="B04K3V36"><w><supplied reason="lacuna">qui</supplied></w>
+<lb n="P9rC1L7-VL18"/><w>credit</w><w>in</w><w><supplied reason="lacuna">f</supplied>ilium</w><w>habe<supplied reason="lacuna">t</supplied></w>
+<lb n="P9rC1L8-VL18"/><w>uitam</w><w>aet<supplied reason="lacuna">er</supplied>na<supplied reason="lacuna">m</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P9v-VL18" n="9v" type="folio"/>
+<cb n="P9vC1-VL18"/>
+<lb n="P9vC1L1-VL18"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V39"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">resus</supplied>
+<lb n="P9vC1L2-VL18" break="no"/><supplied reason="lacuna">cit</supplied>em</w><w><supplied reason="lacuna">illud</supplied></w><w><supplied reason="lacuna">in</supplied></w><w><supplied reason="lacuna">nouissimo</supplied></w><w>diae</w>
+<lb n="P9vC1L3-VL18"/></ab><ab n="B04K6V40"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P9vC1L4-VL18"/><w><supplied reason="lacuna">p</supplied>a<supplied reason="lacuna">tris</supplied></w><w><supplied reason="lacuna">mei</supplied></w><w><supplied reason="lacuna">qui</supplied></w><w><supplied reason="lacuna">me</supplied></w><w><supplied reason="lacuna">mis</supplied>it</w>
+<lb n="P9vC1L5-VL18"/><w><supplied reason="lacuna">ut</supplied></w><w><supplied reason="lacuna">omnis</supplied></w><w><supplied reason="lacuna">qui</supplied></w><w><supplied reason="lacuna">u</supplied>i<supplied reason="lacuna">det</supplied></w><w>filium</w>
+<lb n="P9vC1L6-VL18"/><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">c</supplied>redit</w><w>in</w><w>eum</w><w>h<supplied reason="lacuna">a</supplied>ue<supplied reason="lacuna">at</supplied></w><w>ui
+<lb n="P9vC1L7-VL18" break="no"/><supplied reason="lacuna">tam</supplied></w><w><supplied reason="lacuna">ae</supplied>ternam</w><w><supplied reason="lacuna">et</supplied></w><w>resuscita
+<lb n="P9vC1L8-VL18" break="no"/><supplied reason="lacuna">bo</supplied></w><w><supplied reason="lacuna">e</supplied>um</w><w>in</w><w>no<supplied reason="lacuna">uissimo</supplied></w><w>diae</w>
+<lb n="P9vC1L9-VL18"/></ab><ab n="B04K6V41"><w><supplied reason="lacuna">mu</supplied>rmuraba<supplied reason="lacuna">nt</supplied></w><w><supplied reason="lacuna">ergo</supplied></w><w><supplied reason="lacuna">iudae</supplied>i</w><w>de</w>
+<lb n="P9vC1L10-VL18"/><w><supplied reason="lacuna">eo</supplied></w><w><supplied reason="lacuna">qui</supplied>a</w><w>d<supplied reason="lacuna">ixisset</supplied></w><w><supplied reason="lacuna">eg</supplied>o</w><w><supplied reason="lacuna">sum</supplied></w><gap reason="lacuna" unit="char" extent="unknown"/><note type="editorial">Folios 10 and 11 (from Codex Stuttgart H.B. VI 114 and XIV 15 respectively) contain Matthew 13:1-15</note></ab></div></div></body></text></TEI>

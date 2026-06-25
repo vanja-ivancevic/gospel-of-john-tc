@@ -1,0 +1,39 @@
+[project]
+name = "john-tc"
+version = "0.1.0"
+description = "Computational textual criticism of the Gospel of John, rebuilt on real cross-witness ECM collation data"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "CC-BY-NC-4.0" }
+dependencies = [
+    "lxml>=5.2",
+    "duckdb>=1.1",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "statsmodels>=0.14",
+    "matplotlib>=3.9",
+    "pyarrow>=17.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/john_tc"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,118 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAL704S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in L704S</title>
+				<title type="document" key="40704" n="L704S">GA L704S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>25.2.2014</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>25.2.2014</date>
+				<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>L704S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>40704</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was initially made by the Byzantine Text of John Project in 2004-7, led by Roderic L. Mullen, and later adopted for the International Greek New Testament Project in its work towards the Editio Critica Maior of John.</p>
+<p>The IGNTP transcription file was duplicated for the standalone version of the Byzantine Text of John on 9.7.2014. This means that there may be slight discrepancies between the 2007 file used to prepared the Byzantine apparatus and the 2014 transcription in the present file.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	<revisionDesc>
+		<change n="0" when="2014-05-06">Liste id fixed (was missing a zero) by Rachel Kevern.</change>
+	</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">This base text is divided into three sections:1. The Synaxarion. Readings are identified by 'S' for 'Synaxarion', 'W' for 'Week' and 'D' for 'Day' 2. Resurrection Readings are identified by 'R' for 'Resurrection3. The Menologion. Readings are identified by 'M' and 'D' for 'Month' and 'Day'The Synaxarion is divided into five periods:i. Pascha to Pentecost: S1 W1 D1 – S1 W8 D1ii. Pentecost to the Elevation of the Cross: S2 W1 D2 – S2 W18 D2iii. Elevation of the Cross to Lent: S3 W1 D2 – S3 W20 D1iv. Lent to Holy Week: S4 W1 D2 – S4 W7 D1cv. Holy Week: S5 W1 D2a – S5 W1 D7bStatus:G-A number: L 704 (Athos, Koutloumousiou 90) supplementΝame of book transcribed: JohnFirst folio transcribed: P 31-32, Jn 5.40-6.2 and 6.14-17, - This is a supplement in a later hand. Τranscribed by: RLMΤranscription begun: 20.06.02Τranscription finished: 08.11.02Τransference to Collate by: RLMΤransference to Collate begun: 20.06.02Τransference to Collate finished: 08.11.02 File date  and time:Ρlaced in Level1: RLMLevel1 file date  and time: 28.10.02Ρlaced in Level2: read a second time and compared with the collation of Johannes Karavidopoulos.  Ηoly Week and Menologion read in MuensterΡlaced in Level2 by: RLMLevel2 file date  and time: 15.11.02Τhese files were  compared and differences resolved by:Ρlaced in  Level3:Ρlaced in  Level3 by:Final transcription file date  and time:   Page layout added by: acmStart date: 4.9.13 End date: 4.9.13Does this manuscript contain (delete and complete as appropriate):Initials and other enlarged letters - Yes  	Diples (&gt; or &gt;&gt; in the margin next to certain text, indicating that text is a quotation from the Old Testament) -    No	Are there any special symbols in the margin next to any of the following verses:		5.4		No		7.53 - 8.11	No 		Other remarks:   </note>
+<pb xml:id="P31-L704S" n="31" type="page"/>
+<cb xml:id="P31C1-L704S" n="1"/>
+<lb xml:id="P31C1L1-L704S" n="1"/><div n="S1W2D6" type="lection"><note type="local">John 5,30-6,2</note><div n="B04" type="book"><div n="B04K5" type="chapter"><note type="local">5.30-39</note><note type="editorial">For the beginning of this lection, see the main transcription.</note><ab n="B04K5V40"><gap reason="lacuna" unit="line" extent="unspecified"/>
+<lb xml:id="P31C1L2-L704S" n="2"/><w>ινα</w><w>ζωην</w><w>εχητε</w>
+<lb xml:id="P31C1L3-L704S" n="3"/></ab><ab n="B04K5V41"><w>δοξαν</w><w>παρα</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb xml:id="P31C1L4-L704S" n="4"/><w>ου</w><w>λαμβανω</w></ab><ab n="B04K5V42"><w>αλ
+<lb break="no" xml:id="P31C1L5-L704S" n="5"/>λ</w><w>εγνωκα</w><w>υμας</w><w>οτι</w>
+<lb xml:id="P31C1L6-L704S" n="6"/><w>την</w><w>αγαπην</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>ουκ</w>
+<lb xml:id="P31C1L7-L704S" n="7"/><w>εχετε</w><w>εν</w><w>εαυτοις</w></ab><ab n="B04K5V43"><w>εγω</w>
+<lb xml:id="P31C1L8-L704S" n="8"/><w>εληλυθα</w><w>εν</w><w>τω</w><w>ο
+<lb break="no" xml:id="P31C1L9-L704S" n="9"/>νοματι</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><w>μου</w>
+<lb xml:id="P31C1L10-L704S" n="10"/><w>και</w><w>ου</w><w>λαμβανετε</w><w>με</w>
+<lb xml:id="P31C1L11-L704S" n="11"/><w>εαν</w><w>αλλος</w><w>ελθη</w>
+<lb xml:id="P31C1L12-L704S" n="12"/><w>εν</w><w>τω</w><w>ονοματι</w><w>τω</w>
+<lb xml:id="P31C1L13-L704S" n="13"/><w>ιδιω</w><w>εκεινον</w><w>ληψεσ
+<lb break="no" xml:id="P31C1L14-L704S" n="14"/>θε</w></ab><ab n="B04K5V44"><w>πως</w><w>δυνασθε</w>
+<lb xml:id="P31C1L15-L704S" n="15"/><w>υμεις</w><w>πιστευσαι</w>
+<cb xml:id="P31C2-L704S" n="2"/>
+<lb xml:id="P31C2L1-L704S" n="1"/><w>δοξαν</w><w>παρα</w><w>αλλη
+<lb break="no" xml:id="P31C2L2-L704S" n="2"/>λων</w><w>λαμβανοντες</w><w>και</w>
+<lb xml:id="P31C2L3-L704S" n="3"/><w>την</w><w>δοξαν</w><w>την</w><w>παρα</w><w>του</w>
+<lb xml:id="P31C2L4-L704S" n="4"/><w>μονου</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>ου</w><w>ζητειτε</w>
+<lb xml:id="P31C2L5-L704S" n="5"/></ab><ab n="B04K5V45"><w>μη</w><w>δοκειτε</w><w>οτι</w><w>εγω</w>
+<lb xml:id="P31C2L6-L704S" n="6"/><w>κατηγορησω</w><w>υμων</w><w>προς</w>
+<lb xml:id="P31C2L7-L704S" n="7"/><w>τον</w><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w><w>εστιν</w><w>ο</w><w>κατη
+<lb break="no" xml:id="P31C2L8-L704S" n="8"/>γορων</w><w>υμων</w><w>μωσης</w>
+<lb xml:id="P31C2L9-L704S" n="9"/><w>εις</w><w>ον</w><w>υμεις</w><w>ηλπι
+<lb break="no" xml:id="P31C2L10-L704S" n="10"/>κατε</w></ab><ab n="B04K5V46"><w>ει</w><w>γαρ</w><w>επιστευ
+<lb break="no" xml:id="P31C2L11-L704S" n="11"/>ετε</w><w>μωσει</w><w>επιστευετε</w>
+<lb xml:id="P31C2L12-L704S" n="12"/><w>αν</w><w>εμοι</w><w>περι</w><w>γαρ</w>
+<lb xml:id="P31C2L13-L704S" n="13"/><w>εμου</w><w>εκεινος</w><w>εγρα
+<lb break="no" xml:id="P31C2L14-L704S" n="14"/>ψεν</w></ab><ab n="B04K5V47"><w>ει</w><w>δε</w><w>τοις</w><w>εκεινου</w>
+<pb xml:id="P32-L704S" n="32" type="page"/>
+<cb xml:id="P32C1-L704S" n="1"/>
+<lb xml:id="P32C1L1-L704S" n="1"/><w>γραμμασιν</w><w>ου</w><w>πιστευ
+<lb break="no" xml:id="P32C1L2-L704S" n="2"/>ετε</w><w>πως</w><w>τοις</w><w>εμοις</w><w>ρημασι</w><w>πι
+<lb break="no" xml:id="P32C1L3-L704S" n="3"/>στευσητε</w></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V1"><w>μετα</w><w>ταυτα</w>
+<lb xml:id="P32C1L4-L704S" n="4"/><w>απηλθεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>περαν</w>
+<lb xml:id="P32C1L5-L704S" n="5"/><w>της</w><w>θαλασσης</w><w>της</w><w>γαλιλαιας</w>
+<lb xml:id="P32C1L6-L704S" n="6"/><w>της</w><w>τιβεριαδος</w></ab><ab n="B04K6V2"><w>και</w><w>η
+<lb break="no" xml:id="P32C1L7-L704S" n="7"/>κολουθει</w><w>αυτω</w><w>οχλος</w>
+<lb xml:id="P32C1L8-L704S" n="8"/><w>πολυς</w><w>οτι</w><w>εωρουν</w>
+<lb xml:id="P32C1L9-L704S" n="9"/><w>αυτου</w><w>τα</w><w>σημεια</w><w>α</w><w>ε
+<lb break="no" xml:id="P32C1L10-L704S" n="10"/>ποιει</w><w>επι</w><w>των</w><w>ασθε
+<lb break="no" xml:id="P32C1L11-L704S" n="11"/>νουντων</w>
+<lb xml:id="P32C1L12-L704S" n="12"/></ab></div></div></div><div n="S1W2D7" type="lection"><note type="local">John 6,14-27a</note><fw type="lectTitle"><seg type="margin" subtype="pagetop"><w>σαββατω</w><w><abbr type="num"><hi rend="overline">β</hi></abbr></w></seg><w>εκ</w><w>του</w><w>κατα</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w></fw>
+<lb xml:id="P32C1L13-L704S" n="13"/><div n="B04" type="book"><div n="B04K6" type="chapter"><ab n="B04K6V14"><w>τω</w><w>καιρω</w><w>εκεινω</w><w>ι
+<lb break="no" xml:id="P32C1L14-L704S" n="14"/>δοντες</w><w>οι</w><w><abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr></w><w>ο</w><w>εποι
+<lb break="no" xml:id="P32C1L15-L704S" n="15"/>ησε</w><w>σημειον</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ελε
+<cb xml:id="P32C2-L704S" n="2" break="no"/>
+<lb xml:id="P32C2L1-L704S" n="1"/>γον</w><w>οτι</w><w>ουτος</w><w>εστιν</w><w>α
+<lb break="no" xml:id="P32C2L2-L704S" n="2"/>ληθως</w><w>ο</w><w>προφητης</w>
+<lb xml:id="P32C2L3-L704S" n="3"/><w>ο</w><w>ερχομενος</w><w>εις</w><w>τον</w>
+<lb xml:id="P32C2L4-L704S" n="4"/><w>κοσμον</w></ab><ab n="B04K6V15"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ουν</w><w>γνους</w>
+<lb xml:id="P32C2L5-L704S" n="5"/><w>οτι</w><w>μελλουσιν</w><w>ερχε
+<lb break="no" xml:id="P32C2L6-L704S" n="6"/>σθαι</w><w>και</w><w>αρπαζειν</w><w>αυτον</w>
+<lb xml:id="P32C2L7-L704S" n="7"/><w>ινα</w><w>ποιησωσιν</w><w>αυτον</w>
+<lb xml:id="P32C2L8-L704S" n="8"/><w>βασιλεα</w><w>ανεχωρησεν</w>
+<lb xml:id="P32C2L9-L704S" n="9"/><w>εις</w><w>το</w><w>ορος</w><w>αυτος</w><w>μονος</w>
+<lb xml:id="P32C2L10-L704S" n="10"/></ab><ab n="B04K6V16"><w>ως</w><w>δε</w><w>οψια</w><w>εγενετο</w>
+<lb xml:id="P32C2L11-L704S" n="11"/><w>κατεβησαν</w><w>οι</w><w>μαθηται</w>
+<lb xml:id="P32C2L12-L704S" n="12"/><w>αυτου</w><w>επι</w><w>την</w><w>θαλασσαν</w></ab><ab n="B04K6V17"><w>και</w>
+<lb xml:id="P32C2L13-L704S" n="13"/><w>εμβαντες</w><w>εις</w><w>πλοιον</w>
+<lb xml:id="P32C2L14-L704S" n="14"/><w>ηρχοντο</w><w>περαν</w><w>της</w><w>θαλασσεις</w>
+<lb xml:id="P32C2L15-L704S" n="15"/><w>εις</w><w>καπερναουμ</w><w>και</w><gap reason="witnessEnd"/><note type="editorial">For the rest of this lection see main transcription.</note></ab></div></div></div></body></text></TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL49"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of the Lectio Veronensis of John</title>
+<title type="document" n="VL49">VL49</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date>. Does not include text of editorial notes.</edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Italy</country>
+<settlement>Verona</settlement>
+<repository>Biblioteca Capitolare</repository>
+<idno>LI (49), fol. 19v</idno>
+<msName xml:lang="la">Lectio Veronensis</msName>
+ <altIdentifier type="Vetus_Latina"><idno>49</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>4.504 (fol. 19v)</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>66611</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>7859</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Lectio ex euangelio secundum Iohannem in margine scripta</title>
+<title type="uniform" xml:lang="en">Lection from the Gospel according to John in the margin of a homily</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<history><origin>
+<origPlace>Verona</origPlace>
+<origDate notBefore="70001" notAfter="80001">Copied in the eighth century</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white plate in Lowe, Codices Latini Antiquiores vol. IV.</bibl>
+<bibl>Photocopy of an edition in ITSEE, supplied by Vetus Latina-Institut.</bibl>
+</surrogates>
+<listBibl><bibl/></listBibl>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription is only of the marginal gloss, which contains John 12:12-13.Three minor orthographic changes have been made to the photocopied edition, regarding the rendering of 'ae' and the word 'hierusolima'. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P19v-VL49" n="19v" type="folio"/><note type="local">An addition in the left hand margin of Verona Bib Cap</note>
+<cb n="P19vC1-VL49"/>
+<lb n="P19vC1L1-VL49"/><div n="04" type="book"><div n="B04K12" type="chapter"><ab n="B04K12V12"><seg type="line" subtype="here"><pc>†</pc></seg><w>altera</w><w>die</w>
+<lb n="P19vC1L2-VL49"/><w>turbe</w><w>multę</w><note type="local">The edition has multae</note><pc>·</pc>
+<lb n="P19vC1L3-VL49"/><w>quæ</w><note type="local">The edition has quae</note><w>uenerant</w>
+<lb n="P19vC1L4-VL49"/><w>ad</w><w>diem</w><w>festum</w><pc>·</pc>
+<lb n="P19vC1L5-VL49"/><w>audito</w>
+<lb n="P19vC1L6-VL49"/><w>quod</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>uenit</w>
+<lb n="P19vC1L7-VL49"/><w>in</w><w>hierusolima</w><note type="local">Capelle's edition has hierusolyma</note><pc>·</pc>
+<lb n="P19vC1L8-VL49"/></ab><ab n="B04K12V13"><w>acceperunt</w>
+<lb n="P19vC1L9-VL49"/><w>flores</w><w>palma
+<lb n="P19vC1L10-VL49" break="no"/>rum</w><pc>·</pc><w>et</w><w>exierunt</w>
+<lb n="P19vC1L11-VL49"/><w>illi</w><w>obuiam</w><pc>·</pc>
+<lb n="P19vC1L12-VL49"/><w>et</w><w>clamabant</w>
+<lb n="P19vC1L13-VL49"/><w>osanna</w><w>bene
+<lb n="P19vC1L14-VL49" break="no"/>dictus</w><w>qui</w>
+<lb n="P19vC1L15-VL49"/><w>uenit</w><w>in<hi rend="¯">m</hi></w><w>n<ex>omine</ex></w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><pc>·</pc>
+<lb n="P19vC1L16-VL49"/><w>rex</w><w><abbr type="nomSac"><hi rend="overline">ihl</hi></abbr></w><pc>·</pc></ab></div></div></body></text></TEI>

@@ -1,0 +1,74 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAL1692S2"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in L1692S2</title>
+				<title type="document" key="41692" n="L1692S2">GA L1692S2</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>25.2.2014</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>25.2.2014</date>
+				<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>L1692S2</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>41692</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was initially made by the Byzantine Text of John Project in 2004-7, led by Roderic L. Mullen, and later adopted for the International Greek New Testament Project in its work towards the Editio Critica Maior of John.</p>
+<p>The IGNTP transcription file was duplicated for the standalone version of the Byzantine Text of John on 9.7.2014. This means that there may be slight discrepancies between the 2007 file used to prepared the Byzantine apparatus and the 2014 transcription in the present file.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	<revisionDesc>
+		<change n="0" when="2014-05-06">Liste id fixed (S2 removed) by Rachel Kevern.</change>
+	</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">This base text is divided into three sections:1. The Synaxarion. Readings are identified by 'S' for 'Synaxarion', 'W' for 'Week' and 'D' for 'Day' 2. Resurrection Readings are identified by 'R' for 'Resurrection3. The Menologion. Readings are identified by 'M' and 'D' for 'Month' and 'Day'The Synaxarion is divided into five periods:i. Pascha to Pentecost: S1 W1 D1 – S1 W8 D1ii. Pentecost to the Elevation of the Cross: S2 W1 D2 – S2 W18 D2iii. Elevation of the Cross to Lent: S3 W1 D2 – S3 W20 D1iv. Lent to Holy Week: S4 W1 D2 – S4 W7 D1cv. Holy Week: S5 W1 D2a – S5 W1 D7bStatus:G-Α number: L 1692 (Αthos, Dionysiou 587) supplement 2Νame of book transcribed: JohnFirst folio transcribed: 176vThis supplement contains Jn 3.13-17.Τranscribed by: RLΜΤranscription begun: 18.06.02Τranscription finished: 10.11.02Τransference to Collate by: RLΜΤransference to Collate begun: 18.06.02Τransference to Collate finished: 10.11.02File date  and time:Ρlaced in Level1: RLΜLevel1 file date  and time: 10.11.02Ρlaced in Level2: read a second time and compared with the collation of Johannes Κaravidopoulos.  Ηoly Week and Μenologion read in ΜuensterΡlaced in Level2 by: RLΜLevel2 file date  and time: 03.12.02Τhese files were  compared and differences resolved by:Ρlaced in  Level3:Ρlaced in  Level3 by:Final transcription file date  and time:   Page layout added by: acmStart date: 6.11.13 End date: 8.11.13   		Other remarks:  This supplement created by RK 4.2.14.</note>
+<pb xml:id="P176v-L1692S2" n="176v" type="folio"/>
+<cb xml:id="P176vC1-L1692S2" n="1"/>
+<lb xml:id="P176vC1L1-L1692S2" n="1"/><note type="local">lect</note>
+<lb xml:id="P176vC1L2-L1692S2" n="2"/><note type="local">lect</note>
+<lb xml:id="P176vC1L3-L1692S2" n="3"/><note type="local">lect</note>
+<lb xml:id="P176vC1L4-L1692S2" n="4"/><note type="local">lect</note>
+<lb xml:id="P176vC1L5-L1692S2" n="5"/><note type="local">lect</note>
+<lb xml:id="P176vC1L6-L1692S2" n="6"/><note type="local">lect</note>
+<lb xml:id="P176vC1L7-L1692S2" n="7"/><div n="Sp2" type="lection"><note type="editorial">The heading instructs the user to read this pericope on the Sunday before the 14th September, the Feast of the Elevation of the Cross.</note><fw type="lectTitle"><w>κιριακι</w><w>προ</w><w>της</w><w>υψοσεος</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w></fw><note type="editorial">The heading is in the left margin.</note><div n="B04" type="book"><div n="B04K3" type="chapter"><ab n="B04K3V13"><w>ειπεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w><w>ουδεις</w><w>αναβεβηκαιν</w><w>εις</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w>
+<lb xml:id="P176vC1L8-L1692S2" n="8"/><w>ει</w><w>μη</w><w>ο</w><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w>καταβας</w><w>ο</w><w>υος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb xml:id="P176vC1L9-L1692S2" n="9"/><w>ο</w><w>ων</w><w>εν</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr></w></ab><ab n="B04K3V14"><w>και</w><w>καθως</w><w>μωυσης</w><w>υψω
+<lb break="no" xml:id="P176vC1L10-L1692S2" n="10"/>σε</w><w>τον</w><w>οφιν</w><w>εν</w><w>τη</w><w>ερημω</w><w>ουτος</w><w>υψοθηνε</w><w>δει</w>
+<lb xml:id="P176vC1L11-L1692S2" n="11"/><w>τον</w><w>υον</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w></ab><ab n="B04K3V15"><w>ινα</w><w>πας</w><w>ο</w><w>πιστευων</w><w>εις</w>
+<lb xml:id="P176vC1L12-L1692S2" n="12"/><w>αυτον</w><w>μη</w><w>απολητε</w><w>αλλ</w><w>εχη</w><w>ζωην</w><w>αιωνι
+<lb break="no" xml:id="P176vC1L13-L1692S2" n="13"/>ον</w></ab><ab n="B04K3V16"><w>ουτως</w><w>ηγαπισεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τον</w><w>κοσμον</w>
+<lb xml:id="P176vC1L14-L1692S2" n="14"/><w>οστε</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>αυτου</w><w>τον</w><w>μονογενη</w><w>εδοκεν</w>
+<lb xml:id="P176vC1L15-L1692S2" n="15"/><w>ινα</w><w>πας</w><w>ο</w><w>πιστευω</w><w>εις</w><w>αυτον</w><w>μι</w><w>απολητε</w>
+<lb xml:id="P176vC1L16-L1692S2" n="16"/><w>αλ</w><w>εχη</w><w>ζωην</w><w>αιωνιον</w></ab><ab n="B04K3V17"><w>ου</w><w>γαρ</w><w>απεστειλεν</w>
+<lb xml:id="P176vC1L17-L1692S2" n="17"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>αυτου</w><w>εις</w><w>τον</w><w>κοσμον</w><w>ινα</w>
+<lb xml:id="P176vC1L18-L1692S2" n="18"/><w>κρινη</w><w>τον</w><w>κοσμον</w><w>αλλ</w><w>ινα</w><w>σωθη</w><w>ο</w><w>κοσ
+<lb break="no" xml:id="P176vC1L19-L1692S2" n="19"/>μος</w><w>δι</w><w>αυτου</w></ab></div></div></div></body></text></TEI>

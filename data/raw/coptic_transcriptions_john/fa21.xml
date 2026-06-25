@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRfa21">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Fayumic (fa21)</title>
+<title type="document" n="fa21">Vienna, Österreichische Nationalbibliothek K 3275, 2583, 3274, 2862, 2865</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Austria</country>
+ <settlement>Vienna</settlement>
+ <repository>Österreichische Nationalbibliothek</repository>
+ <idno>K 3275, 2583, 3274, 2862, 2865</idno>
+  <msName xml:lang="en">Coptic (Fayumic) fa 21</msName>
+      <altIdentifier type="SMR"><idno>fa 21</idno></altIdentifier>
+<altIdentifier type="TM"><idno>108349</idno></altIdentifier>
+     <altIdentifier type="LDAB"><idno>108349</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<additional>Walter Till, “Wiener Faijumica,” Le Muséon 49 (1936): 189–191, 193; Walter Till, “Papyrussammlung der Nationalbibliothek in Wien. Katalog der koptischen Bibelbruchstücke: die Pergamente.” Zeitschrift für die neutestamentliche Wissenschaft und die Kunde der älteren Kirche 39 (1941): 49–50.</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-12">Converted to XML by <name>Catherine Smith</name> and <name>Hugh Houghton</name></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P50r-fa21" n="50r" type="folio" facs="http://www.iohannes.com/images/coptic/K3275r.jpg" />
+<cb n="P50rC1-fa21"/>
+<lb n="P50rC1L1-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<cb n="P50rC2-fa21"/><note type="editorial">K 3275, hairside</note>
+<lb n="P50rC2L1-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P50rC2L2-fa21"/><div type="book" n="B04"><div type="chapter" n="B04K9"><ab n="B04K9V19"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P50rC2L3-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P50rC2L4-fa21"/><gap reason="lacuna" unit="char" extent="1"/><w><supplied reason="lacuna">ⲡⲉⲧⲉⲛϣⲏ</supplied>
+<lb break="no" xml:id="P50rC2L5-fa21" n="5"/>ⲗⲓ̈</w><w>ⲉ<supplied reason="lacuna">ⲧ</supplied><supplied reason="illegible">ⲉ</supplied>ⲧ<supplied reason="lacuna">ⲛ</supplied><unclear>ϫ</unclear>ⲱ</w><w>ⲙ
+<lb break="no" xml:id="P50rC2L6-fa21" n="6"/>ⲙⲁ<supplied reason="illegible">ⲥ</supplied></w><w>ϫⲉ</w><w>ⲁ<supplied reason="lacuna">ⲛ</supplied><unclear>ϫ</unclear>ⲡⲁϥ</w><w>ⲉϥ
+<lb break="no" xml:id="P50rC2L7-fa21" n="7"/><supplied reason="illegible">ⲁ</supplied>ⲓ̇</w><w>ⲛⲃⲉⲗⲗ<supplied reason="lacuna">ⲏ</supplied></w><w>ⲟⲩⲛ</w><w>ⲧⲉ</w><w>ⲧ
+<lb break="no" xml:id="P50rC2L8-fa21" n="8"/><supplied reason="lacuna">ϩⲏ</supplied></w><w>ϯⲛⲟ<supplied reason="illegible">ⲩ</supplied></w><w><unclear>ⲛ</unclear>ⲧⲁϥⲛⲉⲩ</w>
+<lb n="P50rC2L9-fa21"/><w><supplied reason="lacuna">ⲉⲃ</supplied><unclear>ⲁ</unclear>ⲗ</w><pc>•</pc><space unit="char" extent="1"/></ab><ab n="B04K9V20"><w><unclear>ⲁ</unclear>ⲛⲉϥⲓ̇ⲁϯ</w><w>ⲉⲗ</w>
+<lb n="P50rC2L10-fa21"/><w><supplied reason="lacuna">ⲟⲩⲱ</supplied></w><w><supplied reason="lacuna">ⲡⲉ</supplied><unclear>ϫ</unclear>ⲉⲩ</w><w>ϫⲉ</w><w>ⲛⲧ<unclear>ⲉ</unclear>
+<lb break="no" xml:id="P50rC2L11-fa21" n="11"/><supplied reason="lacuna">ⲛⲉⲓⲙⲓ</supplied></w><gap reason="lacuna" unit="char" extent="1"/><gap extent="1" unit="line" reason="illegible"/><note type="editorial">9.21-9.23</note>
+<pb xml:id="P50v-fa21" n="50v" type="folio" facs="http://www.iohannes.com/images/coptic/K3275v.jpg" />
+<cb n="P50vC1-fa21"/><note type="editorial">K 3275, fleshside</note>
+<lb n="P50vC1L1-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P50vC1L2-fa21"/></ab><ab n="B04K9V24"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P50vC1L3-fa21"/><w><supplied reason="lacuna">9-11</supplied></w><w><supplied reason="lacuna">ⲙⲡⲙⲉϩ</supplied>
+<lb break="no" xml:id="P50vC1L4-fa21" n="4"/>ⲥ<unclear>ⲁ</unclear><unclear>ⲡ</unclear></w><w>ⲃ̄</w><w><unclear>ⲡ</unclear><supplied reason="lacuna">ⲉⲧⲉ</supplied></w><w>ⲛⲁϥ
+<lb break="no" xml:id="P50vC1L5-fa21" n="5"/>ⲁⲓ</w><w>ⲛⲃⲉ<supplied reason="lacuna">ⲗⲗⲏ</supplied></w><space unit="char" extent="1"/><w>ⲡⲉϫⲉⲩ</w>
+<lb n="P50vC1L6-fa21"/><w>ⲇⲉ</w><w>ⲛⲏ<unclear>ϥ</unclear></w><w><supplied reason="lacuna">ϫ</supplied>ⲉ</w><w>ⲙⲁ</w><w>ⲁⲩ</w><w>ⲙⲫ̅<supplied reason="lacuna">ϯ̅</supplied></w>
+<lb n="P50vC1L7-fa21"/><w>ⲧⲉⲛⲥⲁ<unclear>ⲟ</unclear><supplied reason="illegible">ⲩ</supplied>ⲛ</w><w>ϫⲉ</w><w><supplied reason="lacuna">ⲡⲉⲓ</supplied>
+<lb break="no" xml:id="P50vC1L8-fa21" n="8"/>ⲗⲱⲙⲓ</w><w>ⲟⲩⲗ<supplied reason="illegible">ⲉ</supplied><unclear>ϥ</unclear>ⲉ<unclear>ⲗ</unclear><supplied reason="lacuna">ⲛⲁ</supplied>
+<lb break="no" xml:id="P50vC1L9-fa21" n="9"/>ⲃⲓ̇</w><w>ⲡⲉ</w><pc>•</pc><space unit="char" extent="2"/></ab><ab n="B04K9V25"><w>ⲁ<unclear>ϥ</unclear><supplied reason="lacuna">ⲉⲗ</supplied></w><w><supplied reason="lacuna">ⲟⲩⲱ</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<cb n="P50vC2-fa21"/>
+<lb n="P50vC2L1-fa21"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">9.26-16.32</note>
+<pb xml:id="P80r-fa21" n="80r" type="folio" facs="http://www.iohannes.com/images/coptic/K2583r_3274r.jpg" />
+<cb n="P80rC1-fa21"/>
+<lb n="P80rC1L1-fa21"/><note type="editorial">K 2583, hairside</note>
+<lb n="P80rC1L2-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80rC1L3-fa21"/></ab></div><div type="chapter" n="B04K16"><ab n="B04K16V32">
+<lb n="P80rC1L4-fa21"/><w><supplied reason="lacuna">ⲉⲧⲉ</supplied>
+<lb break="no" xml:id="P80rC1L5-fa21" n="5"/>ⲧⲉⲛⲥⲱⲱⲣⲉ</w><w>ⲉⲃⲁⲗ</w>
+<lb n="P80rC1L6-fa21"/><w>ⲡⲟⲩⲉⲓ̇</w><w>ⲡⲟⲩⲉⲓ̇</w><w>ⲉⲛⲉ
+<lb break="no" xml:id="P80rC1L7-fa21" n="7"/><supplied reason="lacuna">ϥⲙⲉ</supplied></w><w><supplied reason="lacuna">2-4</supplied><gap extent="3" unit="char" reason="illegible"/></w><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80rC1L8-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80rC1L9-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80rC1L10-fa21"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">16.33-17.3</note>
+<cb n="P80rC2-fa21"/>
+<lb n="P80rC2L1-fa21"/><note type="editorial">K 3274 (G3), hairside</note>
+<lb n="P80rC2L2-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80rC2L3-fa21"/></ab></div><div type="chapter" n="B04K17"><ab n="B04K17V4"><w><supplied reason="lacuna">ⲁ</supplied>ⲛⲁⲕ</w><w>ⲁⲓ̇ϯ</w><w>ⲉⲁⲩ</w><w>ⲛⲏⲕ</w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲓ</supplied>
+<lb break="no" xml:id="P80rC2L4-fa21" n="4"/>ϫⲉⲛ</w><w>ⲡⲕ<unclear>ⲉ</unclear>ϩⲓ̇</w><w>ⲡⲉⲕ
+<lb break="no" xml:id="P80rC2L5-fa21" n="5"/>ϩⲱⲃ</w><w>ⲛⲧⲁⲕⲧⲉⲓ̇ϥ</w><w>ϩⲓ̇
+<lb break="no" xml:id="P80rC2L6-fa21" n="6"/>ⲛⲁ</w><w>ⲛⲛⲧⲁⲉⲓ̇ϥⲁⲓ̇</w><w><unclear>ϫ</unclear>ⲁ
+<lb break="no" xml:id="P80rC2L7-fa21" n="7"/><supplied reason="lacuna">ⲕ</supplied>ϥ</w><w>ⲉⲃⲁⲗ</w><pc>:</pc></ab><ab n="B04K17V5"><w>ⲁⲩⲱ</w><w>ϯⲛⲟⲩ</w>
+<lb n="P80rC2L8-fa21"/><w><supplied reason="lacuna">ⲙ</supplied><unclear>ⲁ</unclear>ⲁⲩ</w><w>ⲛⲏⲓ̇</w><w>ⲡⲓ̇ⲱⲧ</w><w>ϩⲙ</w>
+<lb n="P80rC2L9-fa21"/><w><supplied reason="lacuna">ⲡⲉⲁ</supplied>ⲩ</w><w>ⲉⲧⲉ</w><w>ⲛⲛⲁϥϩ<unclear>ⲁ</unclear>
+<lb break="no" xml:id="P80rC2L10-fa21" n="10"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb break="no" xml:id="P80rC2L11-fa21" n="11"/><gap reason="lacuna" unit="line" extent="1"/><note type="editorial">17.6-8</note>
+<lb break="no" xml:id="P80rC2L12-fa21" n="12"/><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P80v-fa21" n="80v" type="folio" facs="http://www.iohannes.com/images/coptic/K2583v_3274v.jpg"  break="no"/>
+<cb n="P80vC1-fa21"/>
+<lb n="P80vC1L1-fa21"/><note type="editorial">K 3274, fleshside</note>
+<lb n="P80vC1L2-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC1L3-fa21"/><gap reason="lacuna" unit="char" extent="1"/></w></ab><ab n="B04K17V9"><w><supplied reason="lacuna">ⲁⲛⲟⲕ</supplied></w>
+<lb n="P80vC1L4-fa21"/><w><unclear>ⲧ</unclear>ⲱ<supplied reason="illegible">ⲃ</supplied><unclear>ϩ</unclear></w><w>ⲉⲧⲃⲉ</w><w>ⲡⲕⲟⲥ
+<lb break="no" xml:id="P80vC1L5-fa21" n="5"/>ⲙⲟⲥ</w><w>ⲉⲛ</w><pc>•</pc><w>ⲁⲗⲗⲁ</w><w>ⲉⲧ
+<lb break="no" xml:id="P80vC1L6-fa21" n="6"/>ⲃⲉ</w><w>ⲛⲏ</w><w>ⲛⲧⲁⲕⲧⲉⲓ̇
+<lb break="no" xml:id="P80vC1L7-fa21" n="7"/>ⲧⲟⲩ</w><w>ⲛⲏ<unclear>ⲓ</unclear></w></ab><ab n="B04K17V10"><w>ϫⲉ</w><w>ⲛⲱⲕ</w>
+<lb n="P80vC1L8-fa21"/><w>ⲛⲉ</w><pc>•</pc><w>ⲁⲩⲱ</w><w>ⲛⲉⲧⲉ</w><w><supplied reason="lacuna">ⲛⲱⲓ</supplied></w>
+<lb n="P80vC1L9-fa21"/><w>ⲧⲏⲗⲟⲩ</w><w>ⲛⲱⲕ</w><w>ⲛ<unclear>ⲉ</unclear></w>
+<lb n="P80vC1L10-fa21" rend="hang"/><w><hi rend="cap" height="2">Ⲁ</hi>ⲩⲱ</w><w>ⲁⲓ̇ϫⲓ̇</w><w>ⲉⲁⲩ</w><w><unclear>ϩ</unclear><supplied reason="lacuna">ⲗⲏⲓ</supplied></w>
+<lb n="P80vC1L11-fa21"/><w><supplied reason="lacuna">ⲛϩⲏⲧⲟⲩ</supplied></w><note type="editorial">17.11-12</note><gap reason="lacuna" unit="line" extent="1"/>
+<cb n="P80vC2-fa21"/>
+<lb n="P80vC2L1-fa21"/><note type="editorial"> K 2583, fleshside</note>
+<lb n="P80vC2L2-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC2L3-fa21"/></ab><ab n="B04K17V13"><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC2L4-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC2L5-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC2L6-fa21"/><gap reason="lacuna" unit="line" extent="1"/>
+<lb n="P80vC2L7-fa21"/><w>ⲉϥϫⲏⲕ</w><w>ⲉⲃⲁⲗ</w><w>ϩⲗⲏⲓ̇</w>
+<lb n="P80vC2L8-fa21"/><w><unclear>ⲛ</unclear>ϩⲏⲧⲟⲩ</w><space unit="char" extent="1"/></ab><ab n="B04K17V14"><w>ⲁⲛⲁⲕ</w><w><unclear>ⲁ</unclear><unclear>ⲓ</unclear><unclear>ϯ</unclear></w>
+<lb n="P80vC2L9-fa21"/><w><supplied reason="lacuna">ⲛⲏⲟⲩ</supplied></w><gap reason="lacuna" unit="char" extent="1"/><note type="editorial">17.15-21:25</note></ab></div></div></body></text></TEI>

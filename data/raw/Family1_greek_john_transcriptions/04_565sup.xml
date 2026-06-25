@@ -1,0 +1,144 @@
+<!DOCTYPE TEI [
+<!ENTITY omission "[omission]"> <!-- omission -->
+<!ENTITY lac "[lacuna]"> <!-- lacuna --> 
+<!ENTITY marking "[marking]"> <!-- marking --> 
+]>
+<?xml-stylesheet type="text/xsl" href="Family1.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA565S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 565S</title>
+				<title type="document" key="30565S" n="565S">GA 565S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="04">john</title>      
+				<respStmt><resp>Created by</resp><name>Alison Welsby</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="2">Version 2, created on <date>30.4.2015</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>30.4.2015</date>
+				<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>565S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>30565S</idno>						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by Alison Welsby in conjunction with her doctoral thesis, available at <ptr target="http://etheses.bham.ac.uk/3338/"/>. The file was then incorporated into the International Greek New Testament Project's work towards the Editio Critica Maior of John. This is Welsby's original transcription, converted to XML by Hugh Houghton. The first edition, published online in the Anastasia software, was created in 2011. This second edition is made available in XML only, in 2015</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+								<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+		</revisionDesc>	
+	</teiHeader>
+	
+	<text xml:lang="grc"><body>
+<div type="book" n="B04"><div type="incipit" n="B04incipit"><ab><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K1">
+<ab n="B04K1V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K2">
+<ab n="B04K2V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K3">
+<ab n="B04K3V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K4">
+<ab n="B04K4V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K5">
+<ab n="B04K5V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K6">
+<ab n="B04K6V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K7">
+<ab n="B04K7V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K8">
+<ab n="B04K8V1"><w n="1">&lac;;</w> </ab>
+</div>
+<div type="chapter" n="B04K9">
+<ab n="B04K9V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K10">
+<ab n="B04K10V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K11">
+<ab n="B04K11V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K12">
+<ab n="B04K12V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K13">
+<ab n="B04K13V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K14">
+<ab n="B04K14V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K15">
+<ab n="B04K15V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K16">
+<ab n="B04K16V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K17">
+<ab n="B04K17V1"><w n="1">&lac;</w> <pb n="389 a"/><lb/><w n="2">και</w> <w n="3">ο</w> <w n="4">υιοσ</w> <w n="5">σου</w> <w n="6">δοξασει</w> <w n="7">σε</w> </ab>
+<ab n="B04K17V2"><w n="1">καθ(ωσ)</w> <w n="2">εδωκ(ασ)</w> <lb/><w n="3">αυτω</w> <w n="4">εξουσιαν</w> <w n="5">πασ(η)σ</w> <w n="6">σαρκο(σ)</w> <w n="7">ι(ν)α</w> <lb/><w n="8">παν</w> <w n="9">ο</w> <w n="10">δεδωκ(ασ)</w> <w n="11">αυτω</w> <w n="12">δωσει</w> <w n="13">αυτοισ</w> <lb/><w n="14">ζωην</w> <w n="15">αιωνιον</w> </ab>
+<ab n="B04K17V3"><w n="1">αυτη</w> <w n="2">δε</w> <w n="3">εστ(ιν)</w> <w n="4">η</w> <w n="5">αιω(νιοσ)</w> <lb/><w n="6">ζωη</w> <w n="7">ινα</w> <w n="8">γινωσκωσι</w> <w n="9">σε</w> <w n="10">τ(ον)</w> <w n="11">μον(ον)</w> <lb/><w n="12">αληθιν(ον)</w> <w n="13">θν̅</w> <w n="14">κ(αι)</w> <w n="15">ον</w> <w n="16">απεστειλ(ασ)</w> <w n="17">ισ̅</w>  <w n="18">χν̅</w> </ab>
+<ab n="B04K17V4"><w n="1">ε<lb break="no"/>εγω</w> <w n="2">σε</w> <w n="3">εδοξασα</w> <w n="4">επι</w> <w n="5">τ(η)σ</w> <w n="6">γ(η)σ</w> <w n="7">το</w> <w n="8">εργ(ον)</w> <lb/><w n="9">ετελειωσα</w> <w n="10">ο</w> <w n="11">δεδωκασ</w> <w n="12">μοι</w> <w n="13">ινα</w> <w n="14">ποι<lb break="no"/>ησω</w> </ab>
+<ab n="B04K17V5"><w n="1">κ(αι)</w> <w n="2">νυν</w> <w n="3">δοξασον</w> <w n="4">με</w> <w n="5">συ</w> <w n="6">πε̅ρ</w> <w n="7">πα<lb break="no"/>ρα</w> <w n="8">σεαυτω</w> <w n="9">τη</w> <w n="10">δοξη</w> <w n="11">η</w> <w n="12">ειχ(ον)</w> <w n="13">προ</w> <lb/><w n="14">του</w> <w n="15">τ(ον)</w> <w n="16">κοσμον</w> <w n="17">ειναι</w> <w n="18">παρα</w> <w n="19">σοι</w> </ab>
+<ab n="B04K17V6"><w n="1">ε<lb break="no"/>φανερωσα</w> <w n="2">σου</w> <w n="3">το</w> <w n="4">ονομα</w> <w n="5">τοισ</w> <lb/><w n="6">αν̅οισ</w> <w n="7">ουσ</w> <w n="8">δεδωκασ</w> <w n="9">μοι</w> <w n="10">εκ</w> <w n="11">του</w> <lb/><w n="12">κοσμου</w> <w n="13">σοι</w> <w n="14">ησαν</w> <w n="15">κ(αι)</w> <w n="16">εμοι</w> <w n="17">αυτ(ουσ)</w> <lb/><w n="18">δεδωκασ</w> <w n="19">κ(αι)</w> <w n="20">τ(ον)</w> <w n="21">λογον</w> <w n="22">σου</w> <w n="23">τετηρη<lb break="no"/>κασιν</w> </ab>
+<ab n="B04K17V7"><w n="1">νυν</w> <w n="2">εγνωκαν</w> <w n="3">οτι</w> <w n="4">παντα</w> <lb/><w n="5">οσα</w> <w n="6">δεδωκασ</w> <w n="7">μοι</w> <w n="8">παρα</w> <w n="9">σου</w> <w n="10">εστιν</w> <lb/></ab>
+<ab n="B04K17V8"><w n="1">οτι</w> <w n="2">τα</w> <w n="3">ρηματα</w> <w n="4">α</w> <w n="5">δεδωκασ</w> <w n="6">μοι</w> <pb n="389 b"/><lb/><w n="7">δεδωκα</w> <w n="8">αυτοισ</w> <w n="9">κ(αι)</w> <w n="10">αυτοι</w> <w n="11">ελαβο(ν)</w> <lb/><w n="12">κ(αι)</w> <w n="13">εγνωσαν</w> <w n="14">αληθωσ</w> <w n="15">οτι</w> <w n="16">πα<lb break="no"/>ρα</w> <w n="17">σου</w> <w n="18">εξηλθον</w> <w n="19">κ(αι)</w> <w n="20">επιστευσα(ν)</w> <lb/><w n="21">οτι</w> <w n="22">συ</w> <w n="23">με</w> <w n="24">απεστειλασ</w> </ab>
+<ab n="B04K17V9"><w n="1">εγω</w> <lb/><w n="2">περι</w> <w n="3">αυτων</w> <w n="4">ερωτω</w> <w n="5">ου</w> <w n="6">πε<lb break="no"/>ρι</w> <w n="7">του</w> <w n="8">κοσμου</w> <w n="9">ερωτω</w> <w n="10">αλλα</w> <lb/><w n="11">περι</w> <w n="12">ων</w> <w n="13">δεδωκασ</w> <w n="14">μοι</w> <w n="15">οτι</w> <lb/><w n="16">σοι</w> <w n="17">εισι</w> </ab>
+<ab n="B04K17V10"><w n="1">κ(αι)</w> <w n="2">τα</w> <w n="3">εμα</w> <w n="4">παντα</w> <lb/><w n="5">σα</w> <w n="6">εστι</w> <w n="7">κ(αι)</w> <w n="8">τα</w> <w n="9">σα</w> <w n="10">εμα</w> <w n="11">κ(αι)</w> <w n="12">δε<lb break="no"/>δοξασμε</w> <w n="13">εν</w> <w n="14">αυτοισ</w> </ab>
+<ab n="B04K17V11"><w n="1">κ(αι)</w> <w n="2">ουκε<lb break="no"/>τι</w> <w n="3">ειμι</w> <w n="4">εν</w> <w n="5">τωεντω</w> <w n="6">κοσμω</w> <lb/><w n="7">κ(αι)</w> <w n="8">ουτοι</w> <w n="9">εν</w> <w n="10">τω</w> <w n="11">κοσμω</w> <w n="12">εισι</w> <w n="13">κ(αι)</w> <lb/><w n="14">εγω</w> <w n="15">προ(σ)</w> <w n="16">σε</w> <w n="17">ερχομ(αι)</w> <w n="18">πε̅ρ</w> <w n="19">αγιε</w> <lb/><w n="20">τηρησον</w> <w n="21">αυτουσ</w> <w n="22">εν</w> <w n="23">τω</w> <w n="24">ονο<lb break="no"/>ματι</w> <w n="25">σου</w> <w n="26">ω</w> <w n="27">δεδωκασ</w> <w n="28">μοι</w> <w n="29">ι(ν)α</w> <lb/><w n="30">ωσιν</w> <w n="31">εν</w> <w n="32">καθ(ωσ)</w> <w n="33">η(μεισ)</w> </ab>
+<ab n="B04K17V12"><w n="1">οτε</w> <w n="2">ημ(ην)</w> <w n="3">μετ</w> <w n="4">αυτ(ων)</w> <lb/><w n="5">εν</w> <w n="6">τω</w> <w n="7">κοσμ(ω)</w> <w n="8">εγω</w> <w n="9">ετηρο(υν)</w> <w n="10">αυτουσ</w> <w n="11">εν</w> <w n="12">τω</w> <lb/><w n="13">ονοματ(ι)</w> <w n="14">ουσ</w> <w n="15">δεδωκασ</w> <w n="16">μ(οι)</w> <w n="17">εφυλα<lb break="no"/>ξα</w> <w n="18">κ(αι)</w> <w n="19">ουδεισ</w> <w n="20">εξ</w> <w n="21">αυτ(ων)</w> <w n="22">απωλε</w> <w n="23">&lac;</w> </ab>
+<ab n="B04K17V13"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V14"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V15"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V16"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V17"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V18"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V19"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V20"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V21"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V22"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V23"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V24"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V25"><w n="1">&lac;</w> </ab>
+<ab n="B04K17V26"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K18">
+<ab n="B04K18V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K19">
+<ab n="B04K19V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K20">
+<ab n="B04K20V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K21">
+<ab n="B04K21V1"><w n="1">&lac;</w> </ab>
+</div>
+<div type="chapter" n="B04K22">
+<ab n="B04K22V1"><w n="1">&lac;</w></ab></div></div></body></text></TEI>

@@ -1,0 +1,48 @@
+# Single source of truth for corpus, paths, seeds, thresholds.
+# Every "magic constant" lives here — never hard-coded mid-script.
+
+seed: 20260624
+
+paths:
+  ecm_negative: data/raw/ecm/negative   # records only divergent witnesses (compact)
+  ecm_positive: data/raw/ecm/positive   # every witness cited at every reading -> real denominators
+  transcriptions: data/raw/IGNTP_greek_john_transcriptions   # KEEP: per-MS, same B04KxVy IDs
+  derived: data/derived                 # DuckDB + Parquet (gitignored, regenerable)
+  collation_db: data/derived/collation.duckdb
+  reports: reports
+
+corpus:
+  book: B04            # Gospel of John
+  n_chapters: 21
+  # Use the POSITIVE apparatus for any density/instability metric (full attestation).
+  density_polarity: positive
+  # ECM Greek witnesses only (clean, comparable denominator) per project decision 2026-06-24.
+
+witness:
+  # Collapse hand/corrector/lection suffixes to a base Gregory-Aland number for denominators.
+  # Raw siglum is always retained; base_ga is the normalized manuscript identity.
+  base_ga_regex: '^(P\d+|L\d+|\d+)'
+  # Hand classification (coarse) by siglum pattern.
+  corrector_markers: ['C', 'S1', 'S2', 'Z', 'corr']
+  firsthand_markers: ['*']
+
+metrics:
+  # A variation unit counts toward "substantive variation" only if app type == main.
+  substantive_app_types: ['main']
+  coverage_app_types: ['lac']
+  # Reading types that are NOT substantive textual variation (spelling/sub-variants).
+  nonsubstantive_reading_types: ['subreading']
+  lacuna_reading_types: ['lac']
+  omission_reading_types: ['om']
+
+validation:
+  # Known textual phenomena the presence/absence method MUST recover in the correct direction.
+  # (verse_id list; the gate asserts these are anomalous vs. surrounding context)
+  pericope_adulterae: [B04K7V53, B04K8V1, B04K8V2, B04K8V3, B04K8V4, B04K8V5, B04K8V6, B04K8V7, B04K8V8, B04K8V9, B04K8V10, B04K8V11]
+  known_interpolations: [B04K5V4]      # angel troubling the water (omitted by earliest MSS)
+  appendix: [B04K21V1]                 # chapter 21 onset (debated later addition)
+
+stats:
+  fdr_alpha: 0.05
+  n_permutations: 10000
+  n_bootstrap: 10000

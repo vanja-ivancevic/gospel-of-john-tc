@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL10A"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in the Canon Tables of Codex Brixianus</title>
+<title type="document" n="VL10A">Codex Brixianus</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<name>P.H. Burton</name>
+<name>J. Balserak</name>
+<name>H.A.G. Houghton</name>
+<name>D.C. Parker</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date>. Includes editorial notes.</edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Italy</country>
+<settlement>Brescia</settlement>
+<repository>Bibliotheca Civica Queriniana</repository>
+<idno>s.n.</idno>
+<msName xml:lang="la">Codex Brixianus</msName>
+ <altIdentifier type="Vetus_Latina"><idno>10A</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>3.281</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Jg</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>f</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>66390</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>7641</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Quattuor Euangelia</title>
+<title type="uniform" xml:lang="en">Four Gospels in order Mt Jo Lc Mc</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Purple parchment</material></support>
+<condition><p>Some pages very badly preserved, with parchment eroded by ink and preserved by gauze; others in excellent condition.</p></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>majuscule</term>.</p>
+</handDesc>
+<decoDesc><p>Silver and gold ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>North Italy, possibly Ravenna</origPlace>
+<origDate notBefore="50001" notAfter="60001">Sixth century</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white photographs in ITSEE, supplied by Vetus Latina-Institut.</bibl>
+</surrogates>
+<listBibl><bibl>In some places these are clearer than the manuscript in its current state.</bibl></listBibl>
+</additional>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>ff. 152r-240v</locus>. The first part of the manuscript (ff. 1-38), also on purple parchment, was added later. It includes canon tables with the opening text of each Ammonian Section. The text of the manuscript is also given in full in <bibl>J. Wordsworth and H.J. White (edd.), Novum Testamentum Domini Nostri Iesu Christi Secundum Editionem Sancti Hieronymi. Pars Prior: Evangelia. Oxford: Clarendon Press, 1889-1898.</bibl>The transcription includes foliation, lineation, all punctuation, abbreviations and digraphs. Ammonian Section numbers are usually included at the beginning of each verse to which they pertain. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-06-10">Changes made in order to display properly with VLI.xsl transformation by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+
+<text xml:lang="lat"><body>
+<pb xml:id="P8v-VL10A" n="8v" type="folio"/>
+<cb n="P8vC1-VL10A"/>
+<lb n="P8vC1L1-VL10A"/><note type="editorial">Fol 8v (marked with Quire Sig. IIII) ends with the incipit for Canon VII (Mt Io), but the pages are missing</note>
+<pb xml:id="P9r-VL10A" n="9r" type="folio"/><note type="local">img grey13</note><div n="04" type="book"><div n="B04K13" type="chapter"><ab n="B04K13V14"><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P9rC1-VL10A"/>
+<lb n="P9rC1L1-VL10A"/><note type="canonRef">John 13:14</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxuii</w></num><w>Si</w><w>ergo</w><w>ego</w><w>laui</w><w><unclear>pe</unclear>
+<lb n="P9rC1L2-VL10A" break="no"/>des</w><w>uestros</w><w><abbr type="nomSac"><unclear><hi rend="overline">dns</hi></unclear></abbr></w>
+<lb n="P9rC1L3-VL10A"/><w>et</w><w>magister</w>
+<lb n="P9rC1L4-VL10A"/></ab><ab n="B04K13V18"><note type="canonRef">John 13:18</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxuiiii</w></num><w>Qui</w><w>manducat</w><w>me
+<lb n="P9rC1L5-VL10A" break="no"/>cum</w><w>panem</w><w>leua
+<lb n="P9rC1L6-VL10A" break="no"/>bit</w><w>super</w><w>me</w><w>cal
+<lb n="P9rC1L7-VL10A" break="no"/>caneum</w><w>suum</w>
+<lb n="P9rC1L8-VL10A"/></ab><ab n="B04K13V24"><note type="canonRef">John 13:24</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxiii</w></num><w>Innuit</w><w>ergo</w><w>iohan
+<lb n="P9rC1L9-VL10A" break="no"/>ni</w><w>simon</w><w>petrus</w>
+<lb n="P9rC1L10-VL10A"/><w>ut</w><w>interrog<supplied reason="illegible">aret</supplied></w>
+<lb n="P9rC1L11-VL10A"/><w>qui</w><w>esset</w><w>tra<supplied reason="illegible">di</supplied>
+<lb n="P9rC1L12-VL10A" break="no"/>tor</w>
+<lb n="P9rC1L13-VL10A"/></ab><ab n="B04K13V27"><note type="canonRef">John 13:26</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxiiii</w></num><w>Et</w><w>cum</w><w>intinxis
+<lb n="P9rC1L14-VL10A" break="no"/>set</w><w>panem</w><w>dedit</w>
+<lb n="P9rC1L15-VL10A"/><w>iudae</w><w>simonis</w><w><unclear>ca</unclear>
+<lb n="P9rC1L16-VL10A" break="no"/>riotae</w>
+<lb n="P9rC1L17-VL10A"/></ab><ab n="B04K13V27"><note type="canonRef">John 13:27</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxu</w></num><w>Quod</w><w>facis</w><w>fac</w><w>ce
+<lb n="P9rC1L18-VL10A" break="no"/>lerius</w>
+<lb n="P9rC1L19-VL10A"/></ab><ab n="B04K13V34"><note type="canonRef">John 13:34</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Mandatum</w><w>nouum</w>
+<lb n="P9rC1L20-VL10A"/><w>do</w><w>uobis</w><w>ut</w><w>di<supplied reason="illegible">liga</supplied>
+<lb n="P9rC1L21-VL10A" break="no"/>tis</w><w>inuicem</w>
+<pb xml:id="P9v-VL10A" n="9v" type="folio"/><note type="local">img grey14</note>
+<cb n="P9vC1-VL10A"/>
+<lb n="P9vC1L1-VL10A"/></ab></div><div n="B04K14" type="chapter"><ab n="B04K14V2"><note type="canonRef">John 14:2</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxuii</w></num><w>In</w><w>domo</w><w>patris</w>
+<lb n="P9vC1L2-VL10A"/><w>mei</w><w>mansiones</w>
+<lb n="P9vC1L3-VL10A"/><w>multae</w><w>sunt</w>
+<lb n="P9vC1L4-VL10A"/></ab><ab n="B04K14V6"><note type="canonRef">John 14:6</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>sum</w><w>uia</w><w>ue
+<lb n="P9vC1L5-VL10A" break="no"/>ritas</w><w>et</w><w>uita</w>
+<lb n="P9vC1L6-VL10A"/></ab><ab n="B04K14V8"><note type="canonRef">John 14:8</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Dicit</w><w>ei</w><w>filippus</w>
+<lb n="P9vC1L7-VL10A"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>ostende</w>
+<lb n="P9vC1L8-VL10A"/><w>nobis</w><w>patrem</w>
+<lb n="P9vC1L9-VL10A"/></ab><ab n="B04K14V16"><note type="canonRef">John 14:16</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxuiiii</w></num><w>Ego</w><w>rogabo</w><w>pa
+<lb n="P9vC1L10-VL10A" break="no"/>trem</w><w>meum</w><w>et</w>
+<lb n="P9vC1L11-VL10A"/><w>alium</w><w>paracle
+<lb n="P9vC1L12-VL10A" break="no"/>tum</w><w>dabit</w><w>uobis</w>
+<lb n="P9vC1L13-VL10A"/></ab><ab n="B04K14V21"><note type="canonRef">John 14:21</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxx</w></num><w>Qui</w><w>diligit</w><w>me</w><w>dili
+<lb n="P9vC1L14-VL10A" break="no"/>getur</w><w>a</w><w>patre</w><w>meo</w>
+<lb n="P9vC1L15-VL10A"/></ab><ab n="B04K14V22"><note type="canonRef">John 14:22</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxxi</w></num><w>Dicit</w><w>iudas</w><w>non</w><w>il
+<lb n="P9vC1L16-VL10A" break="no"/>le</w><w>scarioth</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr>
+<lb n="P9vC1L17-VL10A" break="no"/>quid</w><w>facturus</w><w>es</w>
+<lb n="P9vC1L18-VL10A"/></ab><ab n="B04K14V26"><note type="canonRef">John 14:26</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxxii</w></num><w>Paracletus</w><w>autem</w>
+<lb n="P9vC1L19-VL10A" break="no"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">scs</hi></abbr></w><w>quem</w><w>mit
+<lb n="P9vC1L20-VL10A" break="no"/>tet</w><w>pater</w><w>ipse
+<lb n="P9vC1L21-VL10A" break="no"/>uos</w><w>docebit</w><note type="editorial">This Canon continues on Fol. 25r</note><seg type="margin" subtype="pagebottom">
+<lb/><fw type="quireSig">VI</fw></seg>
+<pb xml:id="P10r-VL10A" n="10r" type="folio"/><note type="local">img grey15</note><note type="editorial">Canon VIII in quo II (Lc Mc)</note>
+<pb xml:id="P10v-VL10A" n="10v" type="folio"/><note type="local">img grey17</note>
+<cb n="P10vC1-VL10A"/>
+<lb n="P10vC1L1-VL10A"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>INCIPIT</w><w>CANON</w><w>VIIII</w><w>IN</w><w>QUO</w><w>II</w><pc>·</pc><w>IOH</w><pc>·</pc><w>LC</w></fw></seg>
+<lb n="P10vC1L2-VL10A"/><note type="canonRef">John 113, 194; Luke 262</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxiii</w><pc>·</pc><w>cxciiii</w></num></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V2"><w>Abiit</w><w>diabolus</w>
+<lb n="P10vC1L3-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>cclxii</w></num><w>in</w><w>corde</w><w>iudae</w>
+<lb n="P10vC1L4-VL10A"/><note type="canonRef">John 182, 186, 190; Luke 303, 307, 312</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxxii</w><pc>·</pc><w>clxxxui</w><pc>·</pc><w>cxc</w></num></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V38"><w>Ego</w><w>nullam</w>
+<lb n="P10vC1L5-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>ccciii</w><pc>·</pc><w>cccuii</w><pc>·</pc><w>cccxii</w></num><w>inuenio</w>
+<lb n="P10vC1L6-VL10A"/><w>culpam</w><w>in</w><w>eo</w>
+<lb n="P10vC1L7-VL10A"/><note type="canonRef">John 203, 217; Luke 340</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cciii</w><pc>·</pc><w>ccxuii</w></num></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V19"><w>Cum</w><w>esset</w><w>ergo</w>
+<lb n="P10vC1L8-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>cccxl</w></num><w>sero</w><w>die</w><w>illa</w><w>quae</w>
+<lb n="P10vC1L9-VL10A"/><w>est</w><w>prima</w><w>post</w><w>sab
+<lb n="P10vC1L10-VL10A" break="no"/>batum</w><w>ianuis</w><w>clau
+<lb n="P10vC1L11-VL10A" break="no"/>sis</w><w>stetit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>me
+<lb n="P10vC1L12-VL10A" break="no"/>dio</w><w>discipulorum</w>
+<lb n="P10vC1L13-VL10A"/><w>et</w><w>dixit</w><w>eis</w><w>pax</w>
+<lb n="P10vC1L14-VL10A"/><w>uobis</w>
+<pb xml:id="P11r-VL10A" n="11r" type="folio"/><note type="local">img grey18</note>
+<cb n="P11rC1-VL10A"/>
+<lb n="P11rC1L1-VL10A"/><note type="canonRef">John 221; Luke 341</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cc<supplied reason="illegible">xxi</supplied></w></num></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V9"><w>Postquam</w><w>ergo</w>
+<lb n="P11rC1L2-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>cccxl<supplied reason="illegible">i</supplied></w></num><w>descenderunt</w>
+<lb n="P11rC1L3-VL10A"/><w>in</w><w>terram</w><w>uident</w>
+<lb n="P11rC1L4-VL10A"/><w>carbones</w><w>incen
+<lb n="P11rC1L5-VL10A" break="no"/>sos</w><w>et</w><w>piscem</w><w>in
+<lb n="P11rC1L6-VL10A" break="no"/>positum</w><w>et</w><w>panem</w>
+<lb n="P11rC1L7-VL10A"/><note type="canonRef">John 222; Luke 30</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxxii</w></num></ab><ab n="B04K21V11"><w>Et</w><w>ascendit</w><w>simon</w>
+<lb n="P11rC1L8-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>xxx</w></num><w>petrus</w><w>et</w><w>traxit</w>
+<lb n="P11rC1L9-VL10A"/><w>retia</w><w>in</w><w>terram</w>
+<lb n="P11rC1L10-VL10A"/><note type="canonRef">John 223; Luke 341</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxxiii</w></num></ab><ab n="B04K21V12"><w>Dicit</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>uenite</w>
+<lb n="P11rC1L11-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w>cccxl<supplied reason="illegible">i</supplied></w></num><w>prandete</w>
+<lb n="P11rC1L12-VL10A"/><note type="canonRef">John 225; Luke 341</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w><supplied reason="illegible">ccxxu</supplied></w></num></ab><ab n="B04K21V13"><w><supplied reason="illegible">Ue</supplied>nit</w><w>ergo</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w>
+<lb n="P11rC1L13-VL10A"/><num type="AmmSec"><w>luc</w><pc>·</pc><w><supplied reason="illegible">cccxli</supplied></w></num><w><supplied reason="illegible">one</supplied></w><w><supplied reason="illegible">line</supplied></w>
+<lb n="P11rC1L14-VL10A"/><w><unclear>pa</unclear>nem</w><gap extent="4" unit="char" reason="illegible"/><w>de
+<lb n="P11rC1L15-VL10A" break="no"/>dit</w><w>eis</w><w>et</w><w>piscem</w>
+<lb n="P11rC1L16-VL10A"/><w>similiter</w>
+<pb xml:id="P11v-VL10A" n="11v" type="folio"/><note type="local">img grey19</note>
+<cb n="P11vC1-VL10A"/>
+<lb n="P11vC1L1-VL10A"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>explicit</w><w>canon</w><w>VIIII</w><pc>.</pc><w>incpit</w><w>canon</w><w>X</w><w>in</w><w>quo</w><w>mattheus</w></fw></seg>
+<pb xml:id="P19r-VL10A" n="19r" type="folio"/><note type="local">img grey20</note>
+<cb n="P19rC1-VL10A"/>
+<lb n="P19rC1L1-VL10A"/><note type="local">first half of page end of Canon X Mt</note>
+<lb n="P19rC1L2-VL10A"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>INC<ex>I</ex>P<ex>IT</ex></w><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IOHANNIS</w></fw></seg>
+<lb n="P19rC1L3-VL10A"/>
+<lb n="P19rC1L4-VL10A"/></ab></div><div n="B04K1" type="chapter"><ab n="B04K1V11"><note type="canonRef">John 1:11</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>iiii</w></num><w>In</w><w>propria</w><w>uenit</w>
+<lb n="P19rC1L5-VL10A"/><w>et</w><w>sui</w><w>eum</w><w>non</w>
+<lb n="P19rC1L6-VL10A"/><w>receperunt</w>
+<lb n="P19rC1L7-VL10A"/></ab><ab n="B04K1V15"><note type="canonRef">John 1:15</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ui</w></num><w>Hic</w><w>est</w><w>de</w><w>quo</w><w>dixi</w>
+<lb n="P19rC1L8-VL10A"/><w><supplied reason="illegible">quia</supplied></w><w>qui</w><w>post</w><w>me</w>
+<lb n="P19rC1L9-VL10A"/><w><supplied reason="illegible">uenit</supplied></w>
+<pb xml:id="P19v-VL10A" n="19v" type="folio"/><note type="local">img grey21</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg><note type="editorial">This page is very difficult to make out from the images</note>
+<cb n="P19vC1-VL10A"/>
+<lb n="P19vC1L1-VL10A"/></ab><ab n="B04K1V16"><note type="canonRef">John 1:16</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">uii</supplied></w></num><w><supplied reason="illegible">Et</supplied></w><w><supplied reason="illegible">de</supplied></w><w><supplied reason="illegible">p</supplied>lenitudi
+<lb n="P19vC1L2-VL10A" break="no"/><supplied reason="illegible">ne</supplied></w><w><supplied reason="illegible">eius</supplied></w><w><supplied reason="illegible">nos</supplied></w><w><supplied reason="illegible">om</supplied>
+<lb n="P19vC1L3-VL10A" break="no"/>nes</w><w>accepimus</w>
+<lb n="P19vC1L4-VL10A"/></ab><ab n="B04K1V19"><note type="canonRef">John 1:19</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">ix</supplied></w></num><w><supplied reason="illegible">Ho</supplied>c</w><w>est</w><w>test<supplied reason="illegible">i</supplied>
+<lb n="P19vC1L5-VL10A" break="no"/>mo<supplied reason="illegible">nium</supplied></w><w><supplied reason="illegible">iohan</supplied>
+<lb n="P19vC1L6-VL10A" break="no"/><supplied reason="illegible">nis</supplied></w><w><supplied reason="illegible">qua</supplied>ndo</w><w>mise
+<lb n="P19vC1L7-VL10A" break="no"/>runt</w><w>iudaei</w><w>ad</w>
+<lb n="P19vC1L8-VL10A"/><w>eum</w>
+<lb n="P19vC1L9-VL10A"/></ab><ab n="B04K1V24"><note type="canonRef">John 1:24</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">xi</supplied></w></num><w>Et</w><w>qui</w><w>missi</w><w>fue
+<lb n="P19vC1L10-VL10A" break="no"/><supplied reason="illegible">rant</supplied></w><w><supplied reason="illegible">ex</supplied></w><w><unclear>fari</unclear></w>
+<lb n="P19vC1L11-VL10A"/><gap reason="lacuna" unit="line" extent="unknown"/><note type="local">[unr]saeis ut interrogarent eum[/unr]</note>
+<lb n="P19vC1L12-VL10A"/><w>lac</w><pc>;</pc>
+<lb n="P19vC1L13-VL10A"/><w>lac</w><pc>;</pc>
+<lb n="P19vC1L14-VL10A"/><w>lac</w><pc>;</pc>
+<lb n="P19vC1L15-VL10A"/></ab><ab n="B04K1V29"><note type="canonRef">John 1:29</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">xiiii</supplied></w></num><w>Ecce</w><w>agnus</w><w><abbr type="nomSac"><unclear><hi rend="overline">di</hi></unclear></abbr></w><w><unclear>qui</unclear></w>
+<lb n="P19vC1L16-VL10A"/><w>tollit</w><w>peccat<unclear>um</unclear></w>
+<lb n="P19vC1L17-VL10A"/><w>mundi</w>
+<lb n="P19vC1L18-VL10A"/></ab><ab n="B04K1V35"><note type="canonRef">John 1:35</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">xui</supplied></w></num><w>Alte<unclear>ra</unclear></w><w><unclear>die</unclear></w><w>iterum</w>
+<lb n="P19vC1L19-VL10A"/><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">[unr]stabat iohannes et ex {|L|}discipulis eius duo[/unr]</note><w>|F</w><w>20|</w><note type="local">imggrey22</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<lb n="P19vC1L20-VL10A"/></ab><ab n="B04K1V46"><note type="canonRef">John 1:46</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xuiii</w></num><w>Dixit</w><w>natana
+<lb n="P19vC1L21-VL10A" break="no"/>hel</w><w>ad</w><w>filippum</w>
+<lb n="P19vC1L22-VL10A"/><w>nazareth</w><w>po
+<lb n="P19vC1L23-VL10A" break="no"/>test</w><w>aliquid</w><w>boni</w>
+<lb n="P19vC1L24-VL10A"/><w>esse</w></ab></div><div n="B04K2" type="chapter"><ab n="B04K2V1"><w>et</w><w>de</w><w>nup
+<lb n="P19vC1L25-VL10A" break="no"/>tiis</w><w>in</w><w>cana</w><w>ga
+<lb n="P19vC1L26-VL10A" break="no"/>lileae</w>
+<lb n="P19vC1L27-VL10A"/></ab><ab n="B04K2V17"><note type="canonRef">John 2:17</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxii</w></num><w>Scribtum</w><w>est</w><w>zelus</w>
+<lb n="P19vC1L28-VL10A"/><w>domus</w><w>tuae</w><w>co
+<lb n="P19vC1L29-VL10A" break="no"/>medit</w><w>me</w>
+<lb n="P19vC1L30-VL10A"/></ab><ab n="B04K2V19"><note type="canonRef">John 2:19</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxiiii</w></num><w>Soluite</w><w>templum</w>
+<lb n="P19vC1L31-VL10A"/><w>hoc</w><w>et</w><w>in</w><w>tribus</w>
+<lb n="P19vC1L32-VL10A"/><w>diebus</w><w>suscita
+<lb n="P19vC1L33-VL10A" break="no"/>bo</w><w>illud</w></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V1"><w>et</w><w>de</w>
+<lb n="P19vC1L34-VL10A"/><w>nicodemo</w>
+<lb n="P19vC1L35-VL10A"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V25"><note type="canonRef">John 3:25</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxuii</w></num><w>Facta</w><w>est</w><w>ergo</w>
+<lb n="P19vC1L36-VL10A"/><w>quaestio</w><w>ex</w><w>dis
+<lb n="P19vC1L37-VL10A" break="no"/>cipulis</w><w>iohan
+<lb n="P19vC1L38-VL10A" break="no"/>nis</w><w>cum</w><w>iudaeis</w>
+<lb n="P19vC1L39-VL10A"/><w>de</w><w>purificatione</w>
+<pb xml:id="P20v-VL10A" n="20v" type="folio"/><note type="local">img grey23</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P20vC1-VL10A"/>
+<lb n="P20vC1L1-VL10A"/></ab><ab n="B04K3V29"><note type="canonRef">John 3:29</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxuiiii</w></num><w>Amicus</w><w>autem</w>
+<lb n="P20vC1L2-VL10A"/><w>sponsi</w><w>qui</w><w>stat</w>
+<lb n="P20vC1L3-VL10A"/><w>et</w><w>audit</w><w>eum</w>
+<lb n="P20vC1L4-VL10A"/></ab><ab n="B04K3V36"><note type="canonRef">John 3:36</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxxi</w></num><w>Qui</w><w>enim</w><w>credit</w><w>in</w>
+<lb n="P20vC1L5-VL10A"/><w>filium</w><w>habet</w><w>ui
+<lb n="P20vC1L6-VL10A" break="no"/>tam</w><w>aeternam</w>
+<lb n="P20vC1L7-VL10A"/></ab></div><div n="B04K4" type="chapter"><ab n="B04K4V5"><note type="canonRef">John 4:5</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxxiii</w></num><w>Uenit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>ciui
+<lb n="P20vC1L8-VL10A" break="no"/>tatem</w><w>samari
+<lb n="P20vC1L9-VL10A" break="no"/>ae</w><w>quae</w><w>dicitur</w>
+<lb n="P20vC1L10-VL10A"/><w>sychar</w>
+<lb n="P20vC1L11-VL10A"/></ab><ab n="B04K4V45"><note type="canonRef">John 4:45</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxxui</w></num><w>Exceperunt</w><w>il
+<lb n="P20vC1L12-VL10A" break="no"/>lum</w><w>galilei</w><w>cum</w>
+<lb n="P20vC1L13-VL10A"/><w>omnia</w><w>uidissent</w>
+<lb n="P20vC1L14-VL10A"/><w>quae</w><w>fecit</w><w>hie
+<lb n="P20vC1L15-VL10A" break="no"/>rosolymis</w>
+<lb n="P20vC1L16-VL10A"/></ab></div><div n="B04K5" type="chapter"><ab n="B04K5V11"><note type="canonRef">John 5:11</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xxxuiiii</w></num><w>Qui</w><w>me</w><w>fecit</w><w>sa
+<lb n="P20vC1L17-VL10A" break="no"/>num</w><w>ille</w><w>mihi</w>
+<lb n="P20vC1L18-VL10A"/><w>dixit</w><w>tolle</w>
+<lb n="P20vC1L19-VL10A"/><w>grauatum</w><w>tu
+<lb n="P20vC1L20-VL10A" break="no"/>um</w><w>et</w><w>ambula</w>
+<pb xml:id="P21r-VL10A" n="21r" type="folio"/><note type="local">img grey24</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P21rC1-VL10A"/>
+<lb n="P21rC1L1-VL10A"/></ab><ab n="B04K5V24"><note type="canonRef">John 5:24</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xli</w></num><w>Qui</w><w>audit</w><w>uer
+<lb n="P21rC1L2-VL10A" break="no"/>bum</w><w>meum</w><w>et</w>
+<lb n="P21rC1L3-VL10A"/><w>credit</w><w>ei</w><w>qui</w><w>me</w>
+<lb n="P21rC1L4-VL10A"/><w>misit</w><w>habet</w><w>ui
+<lb n="P21rC1L5-VL10A" break="no"/>tam</w><w>aeternam</w>
+<lb n="P21rC1L6-VL10A"/></ab><ab n="B04K5V35"><note type="canonRef">John 5:35</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xliii</w></num><w>Il</w><note type="editorial">hole in parchment</note><w>le</w><w>erat</w><w>lucer
+<lb n="P21rC1L7-VL10A" break="no"/>na</w><w>ardens</w><w>et</w>
+<lb n="P21rC1L8-VL10A"/><w>lucens</w>
+<lb n="P21rC1L9-VL10A"/></ab><ab n="B04K5V39"><note type="canonRef">John 5:39</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xlu</w></num><w>Scrutamini</w><w>scri<unclear>b</unclear>
+<lb n="P21rC1L10-VL10A" break="no"/>turas</w><w>in</w><w>quibus</w>
+<lb n="P21rC1L11-VL10A"/><w>putatis</w><w>uos</w><w>ui
+<lb n="P21rC1L12-VL10A" break="no"/>tam</w><w>aeternam</w>
+<lb n="P21rC1L13-VL10A"/><w>habere</w>
+<lb n="P21rC1L14-VL10A"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V15"><note type="canonRef">John 6:15</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>l</w></num><w><abbr type="nomSac"><hi rend="overline">Ihs</hi></abbr></w><w>ergo</w><w>cum</w><w>cog
+<lb n="P21rC1L15-VL10A" break="no"/>nouisset</w><w>quia</w><w>incipiunt</w><w>ue
+<lb n="P21rC1L16-VL10A" break="no"/>nire</w><w>et</w><w>rapere</w>
+<lb n="P21rC1L17-VL10A"/><w>eum</w><w>ut</w><w>face
+<lb n="P21rC1L18-VL10A" break="no"/>rent</w><w>eum</w><w>regem</w>
+<lb n="P21rC1L19-VL10A"/></ab><ab n="B04K6V27"><note type="canonRef">John 6:27</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lii</w></num><w>Operamini</w><w><unclear>non</unclear></w><w><unclear>ci</unclear>
+<lb n="P21rC1L20-VL10A" break="no"/>bum</w><w>qui</w><w>perit</w>
+<pb xml:id="P21v-VL10A" n="21v" type="folio"/><note type="local">img grey25</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHAN<ex>NES</ex></w></fw></seg>
+<cb n="P21vC1-VL10A"/>
+<lb n="P21vC1L1-VL10A"/></ab><ab n="B04K6V31"><note type="canonRef">John 6:31</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>liiii</w></num><w>Patres</w><w>nostri</w>
+<lb n="P21vC1L2-VL10A"/><w>manducaue
+<lb n="P21vC1L3-VL10A" break="no"/>runt</w><w>mannam</w>
+<lb n="P21vC1L4-VL10A"/><w>in</w><w>deserto</w><w>sicut</w>
+<lb n="P21vC1L5-VL10A"/><w>scribtum</w><w>est</w>
+<lb n="P21vC1L6-VL10A"/></ab><ab n="B04K6V37"><note type="canonRef">John 6:37</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lui</w></num><note type="editorial">Hole in parchment?</note><w>Et</w><w>eum</w><w>qui</w><w>ueni
+<lb n="P21vC1L7-VL10A" break="no"/>et</w><w>ad</w><w>me</w><w>non</w><w>ei
+<lb n="P21vC1L8-VL10A" break="no"/>cio</w><w>foras</w>
+<lb n="P21vC1L9-VL10A"/></ab><ab n="B04K6V39"><note type="canonRef">John 6:39</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>luiii</w></num><w>Haec</w><w>est</w><w>autem</w>
+<lb n="P21vC1L10-VL10A"/><w>uoluntas</w><w>eius</w>
+<lb n="P21vC1L11-VL10A"/><w>qui</w><w>misit</w><w>me</w>
+<lb n="P21vC1L12-VL10A"/></ab><ab n="B04K6V44"><note type="canonRef">John 6:44</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lx</w></num><w>Nemo</w><w>potest</w><w>ue
+<lb n="P21vC1L13-VL10A" break="no"/>nire</w><w>ad</w><w>me</w><w>nisi</w>
+<lb n="P21vC1L14-VL10A"/><w>pater</w><w>qui</w><w>me</w><w>mi
+<lb n="P21vC1L15-VL10A" break="no"/>sit</w><w>adtraxerit</w>
+<lb n="P21vC1L16-VL10A"/><w>eum</w>
+<lb n="P21vC1L17-VL10A"/></ab><ab n="B04K6V47"><note type="canonRef">John 6:47</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxii</w></num><w>Qui</w><w>credit</w><w>in</w><w>me</w>
+<lb n="P21vC1L18-VL10A"/><w>habet</w><w>uitam</w>
+<lb n="P21vC1L19-VL10A"/><w>aeternam</w>
+<lb n="P21vC1L20-VL10A"/></ab><ab n="B04K6V49"><note type="canonRef">John 6:49</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxiiii</w></num><w>Patres</w><w>uestri</w><w>man
+<lb n="P21vC1L21-VL10A" break="no"/>ducauerunt</w><w>man
+<lb n="P21vC1L22-VL10A" break="no"/>na</w><w>in</w><w>deserto</w><w>et</w>
+<lb n="P21vC1L23-VL10A"/><w>mortui</w><w>sunt</w>
+<pb xml:id="P22r-VL10A" n="22r" type="folio"/><note type="local">img grey26</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P22rC1-VL10A"/>
+<lb n="P22rC1L1-VL10A"/></ab><ab n="B04K6V53"><note type="canonRef">John 6:53</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxui</w></num><w>Nisi</w><w>manducauer
+<lb n="P22rC1L2-VL10A" break="no"/>itis</w><w>carnem</w>
+<lb n="P22rC1L3-VL10A"/><w>fili</w><w>hominis</w>
+<lb n="P22rC1L4-VL10A"/></ab><ab n="B04K6V56"><note type="canonRef">John 6:56</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxuiii</w></num><w>Qui</w><w>edit</w><w>carnem</w>
+<lb n="P22rC1L5-VL10A"/><w>meam</w><w>et</w><w>uibit</w>
+<lb n="P22rC1L6-VL10A"/><w>meum</w><w>sanguinem</w>
+<lb n="P22rC1L7-VL10A"/></ab><ab n="B04K6V63"><note type="canonRef">John 6:63</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxi</w></num><w>Uerba</w><w>quae</w><w>ego</w>
+<lb n="P22rC1L8-VL10A"/><w>locutus</w><w>sum</w>
+<lb n="P22rC1L9-VL10A"/><w>uobis</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>est</w>
+<lb n="P22rC1L10-VL10A"/><w>et</w><w>uita</w><w>est</w>
+<lb n="P22rC1L11-VL10A"/></ab><ab n="B04K6V65"><note type="canonRef">John 6:65</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxiii</w></num><w>Nemo</w><w>potest</w><w>ue
+<lb n="P22rC1L12-VL10A" break="no"/>nire</w><w>ad</w><w>me</w><w>nisi</w>
+<lb n="P22rC1L13-VL10A"/><w>fuerit</w><w>ei</w><w>datum</w>
+<lb n="P22rC1L14-VL10A"/><w>a</w><w>patre</w><w>meo</w>
+<lb n="P22rC1L15-VL10A"/></ab><ab n="B04K6V70"><note type="canonRef">John 6:70</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxu</w></num><w>Nonne</w><w>ego</w><w>uos</w>
+<lb n="P22rC1L16-VL10A"/><w>duodecim</w><w>elegi</w>
+<lb n="P22rC1L17-VL10A"/><w>et</w><w>unus</w><w>ex</w><w>uobis</w>
+<lb n="P22rC1L18-VL10A"/><w>diabolus</w><w>est</w>
+<lb n="P22rC1L19-VL10A"/></ab></div><div n="B04K7" type="chapter"><ab n="B04K7V15"><note type="canonRef">John 7:15</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Quomodo</w><w>hic</w><w>lit
+<lb n="P22rC1L20-VL10A" break="no"/>teras</w><w>scit</w><w>cum</w>
+<lb n="P22rC1L21-VL10A"/><w>non</w><w>didicerit</w>
+<pb xml:id="P22v-VL10A" n="22v" type="folio"/><note type="local">img grey27</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHAN<ex>NES</ex></w></fw></seg>
+<cb n="P22vC1-VL10A"/>
+<lb n="P22vC1L1-VL10A"/></ab><ab n="B04K7V31"><note type="canonRef">John 7:31</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxuiii</w></num><w><abbr type="nomSac"><hi rend="overline">Xps</hi></abbr></w><w>cum</w><w>uene
+<lb n="P22vC1L2-VL10A" break="no"/>rit</w><w>numquid</w><w>plu
+<lb n="P22vC1L3-VL10A" break="no"/>ra</w><w>signa</w><w>faciet</w>
+<lb n="P22vC1L4-VL10A"/></ab><ab n="B04K7V33"><note type="canonRef">John 7:33</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxx</w></num><w>Adhuc</w><w>modicum</w>
+<lb n="P22vC1L5-VL10A"/><w>tempus</w><w>uobis
+<lb n="P22vC1L6-VL10A" break="no"/>cum</w><w>sum</w><w>et</w><w>ua
+<lb n="P22vC1L7-VL10A" break="no"/>do</w><w>ad</w><w>eum</w><w>qui</w>
+<lb n="P22vC1L8-VL10A"/><w>me</w><w>misit</w>
+<lb n="P22vC1L9-VL10A"/></ab><ab n="B04K7V34"><note type="canonRef">John 7:34</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxxi</w></num><w>Quaeritis</w><w>me</w><w>et</w>
+<lb n="P22vC1L10-VL10A"/><w>non</w><w>inuenietis</w>
+<lb n="P22vC1L11-VL10A"/></ab><ab n="B04K7V37"><note type="canonRef">John 7:37</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Qui</w><w>sitit</w><w>ueniat</w>
+<lb n="P22vC1L12-VL10A"/><w>ad</w><w>me</w><w>et</w><w>bibat</w>
+<lb n="P22vC1L13-VL10A"/></ab><ab n="B04K7V43"><note type="canonRef">John 7:43</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxxiiii</w></num><w>Dissensio</w><w>itaque</w>
+<lb n="P22vC1L14-VL10A"/><w>facta</w><w>est</w><w><unclear>in</unclear></w><w>tur
+<lb n="P22vC1L15-VL10A" break="no"/>ba</w><w>propter</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w>
+<lb n="P22vC1L16-VL10A"/></ab><ab n="B04K7V46"><note type="canonRef">John 7:46</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>lxxxui</w></num><w>Responderunt</w><w>mi
+<lb n="P22vC1L17-VL10A" break="no"/>nistri</w><w>numquam</w>
+<lb n="P22vC1L18-VL10A"/><w>sic</w><w>locutus</w><w>est</w>
+<lb n="P22vC1L19-VL10A"/><w>homo</w><w>sicut</w><w>hic</w>
+<lb n="P22vC1L20-VL10A"/><w>homo</w>
+<lb n="P22vC1L21-VL10A"/></ab><ab n="B04K7V12"><note type="canonRef">John 8:12</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>sum</w><w>lu<unclear>x</unclear></w><w>mun<supplied reason="illegible">di</supplied></w>
+<pb xml:id="P23r-VL10A" n="23r" type="folio"/><note type="local">img grey28</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P23rC1-VL10A"/>
+<lb n="P23rC1L1-VL10A"/></ab><ab n="B04K7V21"><note type="canonRef">John 8:21</note><num type="AmmSec">lxxxuiiii</num><w>Ego</w><w>uado</w><w>et</w>
+<lb n="P23rC1L2-VL10A"/><w>queritis</w><w>me</w>
+<lb n="P23rC1L3-VL10A"/></ab><ab n="B04K7V26"><note type="canonRef">John 8:26</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Multa</w><w>habeo</w><w>de</w>
+<lb n="P23rC1L4-VL10A"/><w>uobis</w><w>dicere</w>
+<lb n="P23rC1L5-VL10A"/><w>et</w><w>iudicare</w>
+<lb n="P23rC1L6-VL10A"/></ab><ab n="B04K7V28"><note type="canonRef">John 8:28</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Cum</w><w>exaltabe<unclear>ri</unclear>
+<lb n="P23rC1L7-VL10A" break="no"/>tis</w><w>filium</w><w>ho
+<lb n="P23rC1L8-VL10A" break="no"/>minis</w>
+<lb n="P23rC1L9-VL10A"/></ab><ab n="B04K7V34"><note type="canonRef">John 8:34</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Omnis</w><w>qui</w><w>facit</w><w>pec
+<lb n="P23rC1L10-VL10A" break="no"/>catum</w><w>seruus</w>
+<lb n="P23rC1L11-VL10A"/><w>est</w><w>peccati</w>
+<lb n="P23rC1L12-VL10A"/></ab><ab n="B04K7V38"><note type="canonRef">John 8:38</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>quod</w><w>uidi</w>
+<lb n="P23rC1L13-VL10A"/><w>aput</w><w>patrem</w>
+<lb n="P23rC1L14-VL10A"/><w>meum</w><w>loquor</w>
+<lb n="P23rC1L15-VL10A"/></ab><ab n="B04K7V39"><note type="canonRef">John 8:39</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Si</w><w>filii</w><w>habraae</w>
+<lb n="P23rC1L16-VL10A"/><w>essetis</w>
+<lb n="P23rC1L17-VL10A"/></ab><ab n="B04K7V42"><note type="canonRef">John 8:42</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Si</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>pater</w><w>ues
+<lb n="P23rC1L18-VL10A" break="no"/>ter</w><w>esset</w>
+<lb n="P23rC1L19-VL10A"/></ab><ab n="B04K7V47"><note type="canonRef">John 8:47</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Qui</w><w>est</w><w>ex</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>uer
+<lb n="P23rC1L20-VL10A" break="no"/>ba</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>audit</w>
+<lb n="P23rC1L21-VL10A"/></ab><ab n="B04K7V49"><note type="canonRef">John 8:49</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>demonium</w>
+<lb n="P23rC1L22-VL10A"/><w>non</w><w>habeo</w>
+<pb xml:id="P23v-VL10A" n="23v" type="folio"/><note type="local">img grey29</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHAN<ex>NES</ex></w></fw></seg>
+<cb n="P23vC1-VL10A"/>
+<lb n="P23vC1L1-VL10A"/></ab><ab n="B04K7V54"><note type="canonRef">John 8:54</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Si</w><w>ego</w><w>glorifico</w>
+<lb n="P23vC1L2-VL10A"/><w>meipsum</w>
+<lb n="P23vC1L3-VL10A"/></ab><ab n="B04K7V56"><note type="canonRef">John 8:56</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Abraham</w><w>pater</w>
+<lb n="P23vC1L4-VL10A"/><w>uester</w><w>exulta
+<lb n="P23vC1L5-VL10A" break="no"/>bit</w><w><supplied reason="illegible">ut</supplied></w><w><supplied reason="illegible">uideret</supplied></w>
+<lb n="P23vC1L6-VL10A"/><w><supplied reason="illegible">diem</supplied></w><w><supplied reason="illegible">meum</supplied></w>
+<lb n="P23vC1L7-VL10A"/></ab></div><div n="B04K9" type="chapter"><ab n="B04K9V1"><note type="canonRef">John 9:1</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>De</w><w>caeco</w><gap extent="4-5" unit="line" reason="illegible"/>
+<lb n="P23vC1L8-VL10A"/><w><unclear>qui</unclear></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P23vC1L9-VL10A"/><w>tum</w><w><gap extent="1" unit="char" reason="illegible"/>a<unclear>r</unclear><gap extent="1" unit="char" reason="illegible"/>ens</w>
+<lb n="P23vC1L10-VL10A"/><w><unclear>rum</unclear></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P23vC1L11-VL10A"/></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V7"><note type="canonRef">John 10:7</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>sum</w><w><supplied reason="illegible">ianua</supplied></w><w><supplied reason="illegible">o</supplied>u
+<lb n="P23vC1L12-VL10A" break="no"/>ium</w>
+<lb n="P23vC1L13-VL10A"/></ab><ab n="B04K10V14"><note type="canonRef">John 10:14</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w><supplied reason="illegible">sum</supplied></w><w><supplied reason="illegible">pastor</supplied></w>
+<lb n="P23vC1L14-VL10A"/><w><supplied reason="illegible">bonus</supplied></w>
+<lb n="P23vC1L15-VL10A"/></ab><ab n="B04K10V16"><note type="canonRef">John 10:16</note><num type="AmmSec"><w>ioh</w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">xcii</supplied></w></num><w><supplied reason="illegible">Et</supplied></w><w><supplied reason="illegible">alias</supplied></w><w>oues</w><w>ha
+<lb n="P23vC1L16-VL10A" break="no"/>beo</w><w>quae</w><w>non</w><w>sunt</w>
+<lb n="P23vC1L17-VL10A"/><w><unclear>ex</unclear></w><w>hoc</w><w>ouili</w>
+<lb n="P23vC1L18-VL10A"/></ab><ab n="B04K10V22"><note type="canonRef">John 10:22</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>De</w><w>dedicatione<hi rend="¯">m</hi></w>
+<lb n="P23vC1L19-VL10A"/><w>in</w><w>hierosolymis</w>
+<lb n="P23vC1L20-VL10A"/></ab><ab n="B04K10V27"><note type="canonRef">John 10:27</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Oues</w><w>meae</w><w>uo
+<lb n="P23vC1L21-VL10A" break="no"/>cem</w><w>meam</w><w>au
+<lb n="P23vC1L22-VL10A" break="no"/>dient</w>
+<pb xml:id="P24r-VL10A" n="24r" type="folio"/><note type="local">img grey30</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P24rC1-VL10A"/>
+<lb n="P24rC1L1-VL10A"/></ab></div><div n="B04K11" type="chapter"><ab n="B04K11V1"><note type="canonRef">John 11:1</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xciiii</w></num><w>Ubi</w><w>lazarum</w>
+<lb n="P24rC1L2-VL10A"/><w>a</w><w>mortuis</w><w>suscitauit</w>
+<lb n="P24rC1L3-VL10A"/></ab><ab n="B04K11V57"><note type="canonRef">John 11:57</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xcuii</w></num><w>Dederant</w><w>autem</w>
+<lb n="P24rC1L4-VL10A"/><w>principes</w><w>sacer
+<lb n="P24rC1L5-VL10A" break="no"/>dotum</w><w>et</w><w>fari
+<lb n="P24rC1L6-VL10A" break="no"/>sei</w><w>praeceptum</w>
+<lb n="P24rC1L7-VL10A"/><w>ut</w><w>adprehenderetur</w>
+<lb n="P24rC1L8-VL10A"/></ab></div><div n="B04K12" type="chapter"><ab n="B04K12V9"><note type="canonRef">John 12:9</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>xcuiiii</w></num><w>Ubi</w><w>uenerunt</w><w>iu
+<lb n="P24rC1L9-VL10A" break="no"/>daei</w><w>uidere</w>
+<lb n="P24rC1L10-VL10A"/><w>lazarum</w>
+<lb n="P24rC1L11-VL10A"/></ab><ab n="B04K12V20"><note type="canonRef">John 12:20</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">cii</supplied></w></num><w><supplied reason="illegible">Erant</supplied></w><w><supplied reason="illegible">greci</supplied></w><w><supplied reason="illegible">qui</supplied>
+<lb n="P24rC1L12-VL10A" break="no"/>dam</w><w>|21|</w><w>hi</w><w>ergo</w><w>ac
+<lb n="P24rC1L13-VL10A" break="no"/><supplied reason="illegible">cesserunt</supplied></w><w>ad</w>
+<lb n="P24rC1L14-VL10A"/><w>filippum</w><w>dicen
+<lb n="P24rC1L15-VL10A" break="no"/>tes</w><w>uolumus</w>
+<lb n="P24rC1L16-VL10A"/><w>uidere</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w>
+<lb n="P24rC1L17-VL10A"/></ab><ab n="B04K12V24"><note type="canonRef">John 12:24</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">ciiii</supplied></w></num><w>Nisi</w><w>granum</w><w>trit
+<lb n="P24rC1L18-VL10A" break="no"/>tici</w><w>cadens</w><w>in</w>
+<lb n="P24rC1L19-VL10A"/><w>terram</w><w>mortu
+<lb n="P24rC1L20-VL10A" break="no"/>um</w><w>fuerit</w>
+<pb xml:id="P24v-VL10A" n="24v" type="folio"/><note type="local">img grey33</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOHA<ex>NNES</ex></w></fw></seg>
+<cb n="P24vC1-VL10A"/>
+<lb n="P24vC1L1-VL10A"/></ab><ab n="B04K12V26"><note type="canonRef">John 12:26</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cui</w></num><w>Si</w><w>quis</w><w>mihi</w><w>minis
+<lb n="P24vC1L2-VL10A" break="no"/>trat</w><w>me</w><w>sequatur</w>
+<lb n="P24vC1L3-VL10A"/></ab><ab n="B04K12V28"><note type="canonRef">John 12:28</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cuiii</w></num><w>Pater</w><w>clarifica</w>
+<lb n="P24vC1L4-VL10A"/><w>tuum</w><w>nomen</w>
+<lb n="P24vC1L5-VL10A"/></ab><ab n="B04K12V35"><note type="canonRef">John 12:35</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Adhuc</w><w>modicum</w>
+<lb n="P24vC1L6-VL10A"/><w>tempus</w><w>lux</w>
+<lb n="P24vC1L7-VL10A"/><w>in</w><w>uobis</w><w>est</w>
+<lb n="P24vC1L8-VL10A"/></ab><ab n="B04K12V42"><note type="canonRef">John 12:42</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cx</w></num><w>Timuerunt</w><w>farise
+<lb n="P24vC1L9-VL10A" break="no"/>os</w><w>confiteri</w><w><abbr type="nomSac"><hi rend="overline">ih</hi><unclear><hi rend="overline">m</hi></unclear></abbr></w>
+<lb n="P24vC1L10-VL10A"/><w>ut</w><w>non</w><w>de</w><w>synago
+<lb n="P24vC1L11-VL10A" break="no"/>ga</w><w>eicierentur</w>
+<lb n="P24vC1L12-VL10A"/></ab><ab n="B04K12V46"><note type="canonRef">John 12:46</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxii</w></num><w>Ego</w><w>lux</w><w>in</w><w>hunc</w>
+<lb n="P24vC1L13-VL10A"/><w>mundum</w><w>ueni</w><w>om
+<lb n="P24vC1L14-VL10A" break="no"/>nis</w><w>qui</w><w>credit</w><w>in</w>
+<lb n="P24vC1L15-VL10A"/><w>me</w><w>in</w><w>tenebris</w>
+<lb n="P24vC1L16-VL10A"/><w>non</w><w>manet</w>
+<lb n="P24vC1L17-VL10A"/></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V4"><note type="canonRef">John 13:4</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxu</w></num><w>Et</w><w>accipiens</w><w>lin
+<lb n="P24vC1L18-VL10A" break="no"/>teum</w><w>praecinc
+<lb n="P24vC1L19-VL10A" break="no"/>xit</w><w>se</w><w>et</w><w>lauit</w><w>pe
+<lb n="P24vC1L20-VL10A" break="no"/>des</w><w>discipulorum</w><note type="editorial">This canon continues on Fol. 9r (out of sequence)</note>
+<pb xml:id="P25r-VL10A" n="25r" type="folio"/><note type="local">img grey34</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P25rC1-VL10A"/>
+<lb n="P25rC1L1-VL10A"/></ab><ab n="B04K13V27"><note type="canonRef">John 14:27</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Pacem</w><w>meam</w>
+<lb n="P25rC1L2-VL10A"/><w>do</w><w>uobis</w><w>pa
+<lb n="P25rC1L3-VL10A" break="no"/>cem</w><w>meam</w><w>re
+<lb n="P25rC1L4-VL10A" break="no"/>linquo</w><w>uobis</w>
+<lb n="P25rC1L5-VL10A"/></ab><ab n="B04K13V5"><note type="canonRef">John 15:5</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Ego</w><w>sum</w><w>uitis</w><w>uos</w><w>pal
+<lb n="P25rC1L6-VL10A" break="no"/>mites</w><w>estis</w>
+<lb n="P25rC1L7-VL10A"/></ab><ab n="B04K13V8"><note type="canonRef">John 15:8</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxxiiii</w></num><w>In</w><w>hoc</w><w>glorificatus</w>
+<lb n="P25rC1L8-VL10A"/><w>est</w><w>pater</w><w>meus</w>
+<lb n="P25rC1L9-VL10A"/><w>ut</w><w>fructum</w><w>plu
+<lb n="P25rC1L10-VL10A" break="no"/>rimum</w><w>adferatis</w>
+<lb n="P25rC1L11-VL10A"/></ab><ab n="B04K13V14"><note type="canonRef">John 15:14</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxxui</w></num><w>Uos</w><w>amici</w><w>mei</w><w>estis</w>
+<lb n="P25rC1L12-VL10A"/><w>si</w><w>feceritis</w><w>quae</w>
+<lb n="P25rC1L13-VL10A"/><w>ego</w><w>praecipio</w><w>uobis</w>
+<lb n="P25rC1L14-VL10A"/></ab><ab n="B04K13V18"><note type="canonRef">John 15:18</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxxuiii</w></num><w>Si</w><w>hic</w><w>mundus</w><w>uos</w>
+<lb n="P25rC1L15-VL10A"/><w>odit</w><w>scitote</w><w>quia</w>
+<lb n="P25rC1L16-VL10A"/><w>me</w><w>priorem</w>
+<lb n="P25rC1L17-VL10A"/></ab><ab n="B04K13V20"><note type="canonRef">John 15:20</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxl</w></num><w>Si</w><w>me</w><w>persecuti</w>
+<lb n="P25rC1L18-VL10A"/><w>sunt</w><w>et</w><w>uos</w><w>per
+<lb n="P25rC1L19-VL10A" break="no"/>sequentur</w>
+<lb n="P25rC1L20-VL10A"/></ab><ab n="B04K13V22"><note type="canonRef">John 15:22</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxliii</w></num><w>Si</w><w>non</w><w>uenissem</w><w>et</w><w>lo
+<lb n="P25rC1L21-VL10A" break="no"/>cutus</w><w>fuissem</w><w>eis</w>
+<lb n="P25rC1L22-VL10A"/><w>peccatum</w><w>non</w><w>haberent</w>
+<pb xml:id="P25v-VL10A" n="25v" type="folio"/><note type="local">img grey35</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P25vC1-VL10A"/>
+<lb n="P25vC1L1-VL10A"/></ab><ab n="B04K13V24"><note type="canonRef">John 15:24</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxlu</w></num><w>Si</w><w>opera</w><w><supplied reason="illegible">non</supplied></w><w><supplied reason="illegible">feciss</supplied>
+<lb n="P25vC1L2-VL10A" break="no"/><supplied reason="illegible">em</supplied></w><w><supplied reason="illegible">in</supplied></w><w><supplied reason="illegible">eis</supplied></w><w>qua<supplied reason="illegible">e</supplied></w><w><supplied reason="illegible">ne</supplied>
+<lb n="P25vC1L3-VL10A" break="no"/>mo</w><w>alius</w><w>fecit</w>
+<lb n="P25vC1L4-VL10A"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V7"><note type="canonRef">John 16:7</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxluii</w></num><w>Expedit</w><w>uobis</w><w>ut</w><w>ego</w>
+<lb n="P25vC1L5-VL10A"/><w>uadam</w>
+<lb n="P25vC1L6-VL10A"/></ab><ab n="B04K16V16"><note type="canonRef">John 16:16</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxluiiii</w></num><w>Modicum</w><w>et</w><w>non</w><w>ui
+<lb n="P25vC1L7-VL10A" break="no"/>debitis</w><w>me</w>
+<lb n="P25vC1L8-VL10A"/></ab><ab n="B04K16V20"><note type="canonRef">John 16:20</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Plorabitis</w><w>uos</w><w>et</w><w>fle
+<lb n="P25vC1L9-VL10A" break="no"/>bitis</w>
+<lb n="P25vC1L10-VL10A"/></ab><ab n="B04K16V25"><note type="canonRef">John 16:25</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cli</w></num><w>Haec</w><w>in</w><w>prouerbis</w><w>lo
+<lb n="P25vC1L11-VL10A" break="no"/>cutus</w><w>sum</w><w>uobis</w>
+<lb n="P25vC1L12-VL10A"/></ab><ab n="B04K16V33"><note type="canonRef">John 16:33</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cliii</w></num><w>Haec</w><w>locutus</w><w>sum</w>
+<lb n="P25vC1L13-VL10A"/><w>uobis</w><w>ut</w><w>in</w><w>me</w><w>pa
+<lb n="P25vC1L14-VL10A" break="no"/>cem</w><w>habeatis</w>
+<lb n="P25vC1L15-VL10A"/></ab></div><div n="B04K17" type="chapter"><ab n="B04K17V3"><note type="canonRef">John 17:3</note><num type="AmmSec"><w>et</w><w>iterum</w></num><w>Haec</w><w>est</w><w>autem</w><w>ui
+<lb n="P25vC1L16-VL10A" break="no"/>ta</w><w>aeterna</w><w>ut</w><w>cog
+<lb n="P25vC1L17-VL10A" break="no"/>noscant</w><w>te</w><w>so
+<lb n="P25vC1L18-VL10A" break="no"/>lum</w><w>uerum</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w>
+<lb n="P25vC1L19-VL10A"/></ab><ab n="B04K17V25"><note type="canonRef">John 17:25</note><num type="AmmSec"><w><supplied reason="illegible">ioh</supplied></w><pc><supplied reason="illegible">·</supplied></pc><w><supplied reason="illegible">clu</supplied></w></num><w>Et</w><w>isti</w><w>cognouerunt</w>
+<lb n="P25vC1L20-VL10A"/><w>quia</w><w>tu</w><w>me</w><w>misisti</w>
+<pb xml:id="P26r-VL10A" n="26r" type="folio"/><note type="local">img grey36</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P26rC1-VL10A"/>
+<lb n="P26rC1L1-VL10A"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V2"><note type="canonRef">John 18:2</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cluii</w></num><w><supplied reason="illegible">Sciebat</supplied></w><w><supplied reason="illegible">autem</supplied></w><w><supplied reason="illegible">iu</supplied>
+<lb n="P26rC1L2-VL10A" break="no"/>das</w><w><unclear>locum</unclear></w>
+<lb n="P26rC1L3-VL10A"/></ab><ab n="B04K18V4"><note type="canonRef">John 18:4</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cluiiii</w></num><w>Dixit</w><w>eis</w><w><abbr type="nomSac"><unclear><hi rend="overline">ihs</hi></unclear></abbr></w><w><unclear>quem</unclear></w>
+<lb n="P26rC1L4-VL10A"/><w><supplied reason="illegible">quaeri</supplied>tis</w><w><unclear>respon</unclear>
+<lb n="P26rC1L5-VL10A" break="no"/><unclear>derunt</unclear></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P26rC1L6-VL10A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P26rC1L7-VL10A"/></ab><ab n="B04K18V12"><note type="canonRef">John 18:12</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxiii</w></num><w>Conpraehenderunt</w>
+<lb n="P26rC1L8-VL10A"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>et</w><w>ligaue
+<lb n="P26rC1L9-VL10A" break="no"/>runt</w><w>eum</w>
+<lb n="P26rC1L10-VL10A"/></ab><ab n="B04K18V15"><note type="canonRef">John 18:15</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxu</w></num><w>Discipulus</w><w>autem</w><w>ille</w>
+<lb n="P26rC1L11-VL10A"/><w>notus</w><w>erat</w><w>prin
+<lb n="P26rC1L12-VL10A" break="no"/>cipi</w><w>sacerdotum</w>
+<lb n="P26rC1L13-VL10A"/></ab><ab n="B04K18V16"><note type="canonRef">John 18:16</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxuii</w></num><w>Exiit</w><w>discipulus</w><w><supplied reason="illegible">ille</supplied></w>
+<lb n="P26rC1L14-VL10A"/><w>et</w><w>dixit</w><w>ostiariae</w>
+<lb n="P26rC1L15-VL10A"/><w>et</w><w>introduxit</w><w>pet
+<lb n="P26rC1L16-VL10A" break="no"/>rum</w>
+<lb n="P26rC1L17-VL10A"/></ab><ab n="B04K18V18"><note type="canonRef">John 18:19</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxuiiii</w></num><w>Princeps</w><w>interro
+<lb n="P26rC1L18-VL10A" break="no"/>gauit</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>de</w><w>dis
+<lb n="P26rC1L19-VL10A" break="no"/>cipulis</w><w>et</w><w>de</w><w>doc
+<lb n="P26rC1L20-VL10A" break="no"/>trina</w>
+<pb xml:id="P26v-VL10A" n="26v" type="folio"/><note type="local">img grey37</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P26vC1-VL10A"/>
+<lb n="P26vC1L1-VL10A"/></ab><ab n="B04K18V21"><note type="canonRef">John 18:21</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxi</w></num><w>Quid</w><w>me</w><w>interro
+<lb n="P26vC1L2-VL10A" break="no"/>gas</w>
+<lb n="P26vC1L3-VL10A"/></ab><ab n="B04K18V23"><note type="canonRef">John 18:23</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxiii</w></num><w>Si</w><w>male</w><w>locutus</w><w>sum</w>
+<lb n="P26vC1L4-VL10A"/><w>testimonium</w><w>pe
+<lb n="P26vC1L5-VL10A" break="no"/>ribe</w><w>de</w><w>malo</w>
+<lb n="P26vC1L6-VL10A"/></ab><ab n="B04K18V28"><note type="canonRef">John 18:28</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxuii</w></num><w>Et</w><w>ipsi</w><w>non</w><w>introie
+<lb n="P26vC1L7-VL10A" break="no"/><unclear>r</unclear>unt</w><w>in</w><w>pretorium</w>
+<lb n="P26vC1L8-VL10A"/></ab><ab n="B04K18V36"><note type="canonRef">John 18:36</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxuiiii</w></num><w>Regnum</w><w>meum</w><w>non</w>
+<lb n="P26vC1L9-VL10A"/><w>est</w><w>de</w><w>hoc</w><w>mun
+<lb n="P26vC1L10-VL10A" break="no"/>do</w>
+<lb n="P26vC1L11-VL10A"/></ab><ab n="B04K18V37"><note type="canonRef">John 18:37</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxxi</w></num><w>Ego</w><w>in</w><w>hoc</w><w>natus</w>
+<lb n="P26vC1L12-VL10A"/><w>sum</w><w>et</w><w>ideo</w><w>ueni</w>
+<lb n="P26vC1L13-VL10A"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V6"><note type="canonRef">John 19:6</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>clxxxuiiii</w></num><w>Dixit</w><w>illis</w><w>pilatus</w>
+<lb n="P26vC1L14-VL10A"/><w>accipite</w><w>eum</w><w>uos</w>
+<lb n="P26vC1L15-VL10A"/><w>et</w><w>crucifigite</w>
+<lb n="P26vC1L16-VL10A"/></ab><ab n="B04K19V7"><note type="canonRef">John 19:7</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxci</w></num><w>Secundum</w><w>legem</w>
+<lb n="P26vC1L17-VL10A"/><w>nostram</w><w>debet</w>
+<lb n="P26vC1L18-VL10A"/><w>mori</w>
+<lb n="P26vC1L19-VL10A"/></ab><ab n="B04K19V10"><note type="canonRef">John 19:10</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxciii</w></num><w>Nescis</w><w>quia</w><w>po
+<lb n="P26vC1L20-VL10A" break="no"/>testatem</w><w>ha
+<lb n="P26vC1L21-VL10A" break="no"/>beo</w><w>crucifige
+<lb n="P26vC1L22-VL10A" break="no"/>re</w><w>te</w>
+<pb xml:id="P27r-VL10A" n="27r" type="folio"/><note type="local">img grey38</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P27rC1-VL10A"/>
+<lb n="P27rC1L1-VL10A"/></ab><ab n="B04K19V15"><note type="canonRef">John 19:15</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxcu</w></num><w>Regem</w><w>uestrum</w>
+<lb n="P27rC1L2-VL10A"/><w>crucifigam</w>
+<lb n="P27rC1L3-VL10A"/></ab><ab n="B04K19V20"><note type="canonRef">John 19:20</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cc</w></num><w>Hunc</w><w>ergo</w><w>titulum</w>
+<lb n="P27rC1L4-VL10A"/><w>multi</w><w>legerunt</w>
+<lb n="P27rC1L5-VL10A"/></ab><ab n="B04K19V25"><note type="canonRef">John 19:25</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccii</w></num><w>Et</w><w>stabant</w><w>iuxta</w><w>cru
+<lb n="P27rC1L6-VL10A" break="no"/>cem</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>mater</w>
+<lb n="P27rC1L7-VL10A"/><w>et</w><w>soror</w><w>matris</w>
+<lb n="P27rC1L8-VL10A"/><w>eius</w>
+<lb n="P27rC1L9-VL10A"/></ab><ab n="B04K19V31"><note type="canonRef">John 19:31</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccu</w></num><w>Rogauerunt</w><w>iudaei</w>
+<lb n="P27rC1L10-VL10A"/><w>pilatum</w><w>ut</w><w>fran
+<lb n="P27rC1L11-VL10A" break="no"/>gerentur</w><w>crura</w>
+<lb n="P27rC1L12-VL10A"/><w>eorum</w>
+<lb n="P27rC1L13-VL10A"/></ab><ab n="B04K19V39"><note type="canonRef">John 19:39</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccuii</w></num><w>Uenit</w><w>et</w><w>nicodemus</w>
+<lb n="P27rC1L14-VL10A"/><w>ferens</w><w>mixtura<unclear><hi rend="¯">m</hi></unclear></w>
+<lb n="P27rC1L15-VL10A"/><w>murrae</w><w>et</w><w>aloe</w>
+<lb n="P27rC1L16-VL10A"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V2"><note type="canonRef">John 20:2</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccx</w></num><w>Cucurrit</w><w>maria</w><w>et</w>
+<lb n="P27rC1L17-VL10A"/><w>uenit</w><w>ad</w><w>simonem</w>
+<lb n="P27rC1L18-VL10A"/><w>petrum</w><w>et</w><w>ad</w><w>alium</w>
+<lb n="P27rC1L19-VL10A"/><w>discipulum</w>
+<lb n="P27rC1L20-VL10A"/></ab><ab n="B04K20V13"><note type="canonRef">John 20:13</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxii</w></num><w>Et</w><w>dicunt</w><w>ei</w><w>illi</w><w>angeli</w>
+<lb n="P27rC1L21-VL10A"/><w>mulier</w><w>quid</w><w>ploras</w>
+<lb n="P27rC1L22-VL10A"/></ab><ab n="B04K20V20"><note type="canonRef">John 20:20</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxiiii</w></num><w>Et</w><w>gauisi</w><w>sunt</w><w>disci
+<lb n="P27rC1L23-VL10A" break="no"/>puli</w><w>uiso</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<pb xml:id="P27v-VL10A" n="27v" type="folio"/><note type="local">img grey39</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>IOH<ex>ANNES</ex></w></fw></seg>
+<cb n="P27vC1-VL10A"/>
+<lb n="P27vC1L1-VL10A"/></ab><ab n="B04K20V24"><note type="canonRef">John 20:24</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxui</w></num><w>Thomas</w><w>uero</w>
+<lb n="P27vC1L2-VL10A"/><w>unus</w><w>ex</w><w>duodecim</w>
+<lb n="P27vC1L3-VL10A"/><w>non</w><w>erat</w><w>cum</w><w>eis</w>
+<lb n="P27vC1L4-VL10A"/></ab><ab n="B04K20V28"><note type="canonRef">John 20:28</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxuiii</w></num><w>Respondit</w><w>thomas</w>
+<lb n="P27vC1L5-VL10A"/><w>et</w><w>dixit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P27vC1L6-VL10A"/><w>meus</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>meus</w>
+<lb n="P27vC1L7-VL10A"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V1"><note type="canonRef">John 21:1</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxuiiii</w></num><w>Post</w><w>haec</w><w>osten
+<lb n="P27vC1L8-VL10A" break="no"/>dit</w><w>se</w><w>iterum</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w>
+<lb n="P27vC1L9-VL10A"/><w>discipulis</w><w>suis</w><w>ad</w>
+<lb n="P27vC1L10-VL10A"/><w>mare</w><w>tiberiadis</w>
+<lb n="P27vC1L11-VL10A"/></ab><ab n="B04K21V7"><note type="canonRef">John 21:7</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxx</w></num><w>Subcinxit</w><w>se</w><w>tunicam</w>
+<lb n="P27vC1L12-VL10A"/><w>petrus</w><w>erat</w><w>enim</w>
+<lb n="P27vC1L13-VL10A"/><w>nudus</w>
+<lb n="P27vC1L14-VL10A"/></ab><ab n="B04K21V12"><note type="canonRef">John 21:12</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxxiiii</w></num><w>Nemo</w><w>tamen</w><w>audebat</w>
+<lb n="P27vC1L15-VL10A"/><w>interrogare</w><w>eum</w>
+<lb n="P27vC1L16-VL10A"/><w>tu</w><w>quis</w><w>es</w>
+<lb n="P27vC1L17-VL10A"/></ab><ab n="B04K21V15"><note type="canonRef">John 21:15-17</note><num type="AmmSec"><w>ioh</w><pc>·</pc><w>cxxui</w><w>ccxxuiii</w><w>ccxxx</w></num><w>Dicit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si
+<lb n="P27vC1L18-VL10A" break="no"/>moni</w><w>petro</w><w>simon</w>
+<lb n="P27vC1L19-VL10A"/><w>iohannis</w><w>diligis</w><w>me</w>
+<lb n="P27vC1L20-VL10A"/><num type="AmmSec"><w>ioh</w><pc>·</pc><w>ccxxuii</w><w>ccxxuiiii</w><w>cxxxi</w></num><w>Dixit</w><w>ei</w>
+<lb n="P27vC1L21-VL10A"/><w>pasce</w><w>oues</w><w>meas</w>
+<pb xml:id="P28r-VL10A" n="28r" type="folio"/><note type="local">img grey40</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IN</w><w>QUO</w><pc>·</pc><w>LUC<ex>AS</ex></w></fw></seg>
+<cb n="P28rC1-VL10A"/>
+<lb n="P28rC1L1-VL10A"/></ab><ab n="B04K21V18"><note type="canonRef">John 21:18</note><num type="AmmSec"><w><unclear>ioh</unclear></w><pc><unclear>·</unclear></pc><w><unclear>ccxxxii</unclear></w></num><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P28rC1L2-VL10A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P28rC1L3-VL10A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P28rC1L4-VL10A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P28rC1L5-VL10A"/><w>EXPL<ex>ICIT</ex></w><w>CANON</w><pc>·</pc><w>X</w><pc>·</pc><w>IOHAN<ex>NIS</ex></w></ab></div></div></body></text></TEI>

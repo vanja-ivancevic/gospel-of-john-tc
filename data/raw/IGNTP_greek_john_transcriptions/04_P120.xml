@@ -1,0 +1,106 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAP120">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in P120</title>
+<title type="document" key="10120" n="P120">P120</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.0">Version 1.0, created <date>23.3.2016</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>23.3.2016</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+
+  <msName xml:lang="en">Papyrus 120</msName>
+ <altIdentifier type="GA"><idno>P120</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>10120</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John.</p></projectDesc>
+<editorialDecl>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+</teiHeader>
+<text xml:lang="GRC"><body>
+<pb n="P1-P120" type="page"/><div type="book" n="B04"><div type="chapter" n="B04K1">
+<cb n="P1C-P120"/>
+<lb n="P1CL1-P120"/><ab n="B04K1V25"><gap reason="lacuna"/><gap reason="witnessEnd"/><w>ο</w><w>προφητης</w>
+<lb n="P1CL2-P120"/></ab><ab n="B04K1V26"><w><supplied source="na28" reason="lacuna">απεκριθη</supplied></w><w><supplied source="na28" reason="lacuna">αυτοις</supplied></w><w><supplied source="na28" reason="lacuna">ο</supplied></w><w><supplied source="na28" reason="lacuna">ιωαν</supplied>νης</w><w>εγω</w><w>βα
+<lb n="P1CL3-P120" break="no"/><supplied source="na28" reason="lacuna">πτιζω</supplied></w><w><supplied source="na28" reason="lacuna">υμας</supplied></w><w><supplied source="na28" reason="lacuna">εν</supplied></w><w><supplied source="na28" reason="lacuna">υδατι</supplied></w><w><supplied source="na28" reason="lacuna">με</supplied><unclear>σ</unclear>ος</w><w><unclear>ϋμω</unclear>ν</w><w><unclear>ϊ</unclear>
+<lb n="P1CL4-P120"/><supplied source="na28" reason="lacuna">στηκει</supplied></w><w><supplied source="na28" reason="lacuna">ον</supplied></w><w><supplied source="na28" reason="lacuna">υμεις</supplied></w><w><supplied source="na28" reason="lacuna">ουκ</supplied></w><w><supplied source="na28" reason="lacuna">οιδ</supplied><unclear>α</unclear>τε</w></ab><ab n="B04K1V27"><w>ο</w><w>οπισω</w>
+<lb n="P1CL5-P120"/><w><supplied source="na28" reason="lacuna">μου</supplied></w><w><supplied source="na28" reason="lacuna">ερχομενος</supplied></w><w><supplied source="na28" reason="lacuna">ου</supplied></w><w><supplied source="na28" reason="lacuna">εγω</supplied></w><w><supplied source="na28" reason="lacuna">ουκ</supplied></w><w><supplied source="na28" reason="lacuna">ει</supplied><unclear>μ</unclear>ι</w><w>αξιος</w><w>ϊν<unclear>α</unclear></w>
+<lb n="P1CL6-P120"/><w><supplied source="na28" reason="lacuna">λυσω</supplied></w><w><supplied source="na28" reason="lacuna">αυτου</supplied></w><w><supplied source="na28" reason="lacuna">τον</supplied></w><w><supplied source="na28" reason="lacuna">ιμαντα</supplied></w><w><unclear>τ</unclear>ου</w><w>ϋποδη
+ <lb n="P1CL7-P120" break="no"/><supplied source="na28" reason="lacuna">ματος</supplied></w></ab><ab n="B04K1V28"><w><supplied source="na28" reason="lacuna">ταυτα</supplied></w><w><supplied source="na28" reason="lacuna">εν</supplied></w><w><supplied source="na28" reason="lacuna">βηθανι</supplied>α</w><w>εγενετο</w><gap reason="lacuna" unit="unspecified" extent="text"/>
+<lb n="P1CL8-P120"/>
+<lb n="P1CL9-P120"/>
+<lb n="P1CL10-P120"/>
+<lb n="P1CL11-P120"/>
+<lb n="P1CL12-P120"/>
+<lb n="P1CL13-P120"/>
+<lb n="P1CL14-P120"/>
+<lb n="P1CL15-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL23-P120"/></ab><ab n="B04K1V33"><gap reason="lacuna" unit="unspecified" extent="text"/><w>εφ</w><w><unclear>ο</unclear>ν</w><w><unclear>ε</unclear>α<unclear>ν</unclear></w><w><supplied source="na28" reason="lacuna">ιδης
+<lb n="P1CL24-P120"/></supplied></w><w><supplied source="na28" reason="lacuna">το</supplied></w><w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></supplied></w><w><supplied source="na28" reason="lacuna">καταβαινον</supplied></w><w><supplied source="na28" reason="lacuna">κα</supplied>ι</w><w>μενον</w><w><unclear>ε</unclear><supplied source="na28" reason="lacuna">π</supplied></w>
+<lb n="P1CL25-P120"/><w><supplied source="na28" reason="lacuna">αυτον</supplied></w><w><supplied source="na28" reason="lacuna">ουτος</supplied></w><w><supplied source="na28" reason="lacuna">εστιν</supplied></w><w><supplied source="na28" reason="lacuna">ο</supplied></w><w><supplied source="na28" reason="lacuna">βαπ</supplied><unclear>τ</unclear><supplied source="na28" reason="lacuna">ιζων</supplied></w><w><supplied source="na28" reason="lacuna">εν
+<lb n="P1CL26-P120"/></supplied></w><w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></supplied></w><w><supplied source="na28" reason="lacuna">αγιω</supplied></w></ab><ab n="B04K1V34"><w><supplied source="na28" reason="lacuna">καγω</supplied></w><w><supplied source="na28" reason="lacuna">εωρακα</supplied></w><w><unclear>κ</unclear>αι</w><w>με<unclear>μ</unclear><supplied source="na28" reason="lacuna">αρ
+<lb n="P1CL27-P120" break="no"/>τυρηκα</supplied></w><w><supplied source="na28" reason="lacuna">οτι</supplied></w><w><supplied source="na28" reason="lacuna">ουτος</supplied></w><w><supplied source="na28" reason="lacuna">εστ</supplied><unclear>ι</unclear>ν</w><w>ο</w><w>ϋιος</w><w><unclear>ο</unclear></w>
+<pb n="P1-P120" type="page"/>
+<cb n="P1C-P120"/>
+<lb n="P1CL1-P120"/><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab><ab n="B04K1V35"><w>τ<unclear>η</unclear></w><w><supplied source="na28" reason="lacuna">επαυριον</supplied></w><w><supplied source="na28" reason="lacuna">ειστηκει</supplied></w><w><supplied source="na28" reason="lacuna">ο</supplied></w><w><supplied source="na28" reason="lacuna">ιωαν</supplied>
+<lb n="P1CL2-P120" break="no"/>νης</w><w>κα<unclear>ι</unclear></w><w><unclear>ε</unclear><supplied source="na28" reason="lacuna">κ</supplied></w><w><supplied source="na28" reason="lacuna">των</supplied></w><w><supplied source="na28" reason="lacuna">μαθητων</supplied></w><w><supplied source="na28" reason="lacuna">αυτου</supplied></w><w><supplied source="na28" reason="lacuna">δυο</supplied></w>
+<lb n="P1CL3-P120"/></ab><ab n="B04K1V36"><w>κα<unclear>ι</unclear></w><w><unclear>εμ</unclear>βλ<unclear>ε</unclear><supplied source="na28" reason="lacuna">ψας</supplied></w><w><supplied source="na28" reason="lacuna">τω</supplied></w><w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">ιηυ</hi></abbr></supplied></w><w><supplied source="na28" reason="lacuna">περιπατουντι</supplied></w>
+<lb n="P1CL4-P120"/><w>λεγει</w><w>ϊδε</w><w>ο</w><w><supplied source="na28" reason="lacuna">αμνος</supplied></w><w><supplied source="na28" reason="lacuna">του</supplied></w><w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></supplied></w></ab><ab n="B04K1V37"><w><supplied source="na28" reason="lacuna">και</supplied></w><w><supplied source="na28" reason="lacuna">ακουσαν</supplied>
+<lb n="P1CL5-P120"/><supplied source="na28" reason="lacuna">τ</supplied>ες</w><w>οι</w><w>δυο</w><w><unclear>μ</unclear><supplied source="na28" reason="lacuna">αθηται</supplied></w><w><supplied source="na28" reason="lacuna">αυτου</supplied></w><w><supplied source="na28" reason="lacuna">λαλουντος</supplied></w>
+<lb n="P1CL6-P120"/><w>ηκολουθη<supplied source="na28" reason="lacuna">σαν</supplied></w><w><supplied source="na28" reason="lacuna">τω</supplied></w><w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">ιηυ</hi></abbr></supplied></w></ab><ab n="B04K1V38"><w><supplied source="na28" reason="lacuna">στραφεις</supplied></w><w><supplied source="na28" reason="lacuna">δε</supplied></w><w><supplied source="na28" reason="lacuna">ο</supplied></w>
+ <lb n="P1CL7-P120"/><w><abbr type="nomSac"><hi rend="overline"><unclear>ι</unclear>ης</hi></abbr></w><w>και</w><w>θε<unclear>α</unclear></w><gap reason="lacuna" unit="unspecified" extent="text"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+<lb n="P1CL-P120"/>
+ <lb n="P1CL22-P120"/></ab><ab n="B04K1V42"><gap reason="lacuna" unit="unspecified" extent="text"/><w><unclear>ν</unclear>ευεται</w><w><unclear>π</unclear><supplied source="na28" reason="lacuna">ετρος</supplied></w></ab><ab n="B04K1V43"><w><supplied source="na28" reason="lacuna">τη</supplied></w><w><supplied source="na28" reason="lacuna">επαυριον</supplied></w><w><supplied source="na28" reason="lacuna">ηθελη</supplied>
+<lb n="P1CL23-P120" break="no"/><supplied source="na28" reason="lacuna">σ</supplied>εν</w><w><unclear>ε</unclear>ξελ<supplied source="na28" reason="lacuna">θειν</supplied></w><w><supplied source="na28" reason="lacuna">εις</supplied></w><w><supplied source="na28" reason="lacuna">την</supplied></w><w><supplied source="na28" reason="lacuna">γαλιλαιαν</supplied></w><w><supplied source="na28" reason="lacuna">και</supplied></w>
+<lb n="P1CL24-P120"/><w><supplied source="na28" reason="lacuna">ευρισ</supplied><unclear>κε</unclear><supplied source="na28" reason="lacuna">ι</supplied></w><w><supplied source="na28" reason="lacuna">φιλιππον</supplied></w><w><supplied source="na28" reason="lacuna">και</supplied></w><w><supplied source="na28" reason="lacuna">λεγει</supplied></w><w><supplied source="na28" reason="lacuna">αυτω</supplied></w>
+<lb n="P1CL25-P120"/><w><supplied source="na28" reason="lacuna">α</supplied>κολουθ<supplied source="na28" reason="lacuna">ει</supplied></w><w><supplied source="na28" reason="lacuna">μοι</supplied></w></ab><ab n="B04K1V44"><w><supplied source="na28" reason="lacuna">ην</supplied></w><w><supplied source="na28" reason="lacuna">δε</supplied></w><w><supplied source="na28" reason="lacuna">ο</supplied></w><w><supplied source="na28" reason="lacuna">φιλιππος</supplied></w><w><supplied source="na28" reason="lacuna">απο</supplied></w>
+<lb n="P1CL26-P120"/><w>βηθ᾽σαϊ<unclear>δ</unclear></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

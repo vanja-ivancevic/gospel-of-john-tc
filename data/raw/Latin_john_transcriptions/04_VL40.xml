@@ -1,0 +1,267 @@
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+<!ENTITY om "om">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL40"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of the text of John from Canon Tables in Vendôme BM 2</title>
+<title type="document" n="VL40">VL40</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<resp>Transcribed by</resp><name>P.H. Burton</name><name>D.C. Parker</name>
+<resp>Proofread by</resp><name>H.A.G. Houghton</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date>. Does not include text of editorial notes.</edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>France</country>
+<settlement>Vendôme</settlement>
+<repository>Bibliothèque Muncipale</repository>
+<idno>2</idno>
+<msName xml:lang="en">Vendôme BM 2</msName>
+ <altIdentifier type="Vetus_Latina"><idno>40</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>Not included</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>Not included</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Canones Eusebiani</title>
+<title type="uniform" xml:lang="en">Canon Tables</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<history><origin>
+<origPlace>France</origPlace>
+<origDate notBefore="900" notAfter="1000">Tenth century?</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white photographs in ITSEE, supplied by Vetus Latina-Institut.</bibl>
+</surrogates>
+<listBibl><bibl/></listBibl>
+</additional>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project between 2004 and 2008 as part of an online and printed edition of the Old Latin versions of John.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>extracts of ff. 6r, 6v, 7r, 8v, 11r</locus>. Only the text of John in the canon tables has been transcribed. However, because of the repetition of verses, the page breaks in this transcription relate to the chapter breaks of John rather than the pagination of the manuscript.The transcription includes the text of John from the canon tables for collation purposes. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P6r-VL40" n="6r" type="folio"/><note type="editorial">This witness is a set of canon tables. The Johannine material has been extracted.</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>I</w></fw></seg>
+<cb n="P6rC1-VL40"/>
+<lb n="P6rC1L1-VL40"/><div n="04" type="book"><div n="B04K1" type="chapter"><ab n="B04K1V23"><note type="canonRef">Matt. 3:3; John 1:23</note><num type="AmmSec">x</num><w>Uox</w><w>clamantis</w><w>in</w><w>deserto</w><pc>·</pc><note type="editorial">This text probably derives from Matt. 3:3, not John.</note>
+<lb n="P6rC1L2-VL40"/></ab><ab n="B04K1V26"><note type="canonRef">Matt. 3:11; John 1:26</note><num type="AmmSec">xii</num><w>Ego</w><w>uos</w><w>baptizo</w><w>in</w><w>aqua</w><note type="editorial">This text probably derives from Matt. 3:11, not John.</note>
+<lb n="P6rC1L3-VL40"/></ab><ab n="B04K1V15"><note type="canonRef">John 1:15</note><num type="AmmSec">ui</num><app><rdg type="orig" hand="firsthand"><w>Ioh<ex>ann</ex>is</w></rdg><rdg type="corr" hand="corrector"><w>Ioh<ex>anne</ex>s</w></rdg></app><w>testimoniu<hi rend="¯">m</hi></w><w>p<ex>er</ex>hibet</w><w>de</w><w>illo</w>
+<lb n="P6rC1L4-VL40"/></ab><ab n="B04K1V31"><note type="canonRef">John 1:31</note><num type="AmmSec">xiiii</num><w>Et</w><w>ego</w><w>nesciebam</w><w>illum</w>
+<lb n="P6rC1L5-VL40"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V28"><note type="canonRef">John 3:28</note><num type="AmmSec">xxviii</num><w>Ipsi</w><w>uos</w><w>testimoniu<hi rend="¯">m</hi></w><w>p<ex>er</ex>hibetis</w><w>michi</w>
+<lb n="P6rC1L6-VL40"/></ab></div><div n="B04K1" type="chapter"><ab n="B04K1V32"><note type="canonRef">Matt. 3:16; John 1:32</note><num type="AmmSec">xv</num><w>Uidi</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>descendente<hi rend="¯">m</hi></w><w>de</w><w>cęlo</w><note type="editorial">This text probably derives from Matt. 3:16, not John.</note>
+<lb n="P6rC1L7-VL40"/></ab></div><div n="B04K12" type="chapter"><ab n="B04K12V44"><note type="canonRef">John 12:44</note><num type="AmmSec">cxi</num><w>Qui</w><w>credit</w><w>in</w><w>me</w><w>n<ex>on</ex></w><w>credit</w><w>in</w><w>me</w>
+<lb n="P6rC1L8-VL40"/></ab><ab n="B04K12V23"><note type="canonRef">John 5:23</note><num type="AmmSec">xl</num><w>Qui</w><w>n<ex>on</ex></w><w>honorificat</w><w>filiu<hi rend="¯">m</hi></w><w>n<ex>on</ex></w><w>honorificat</w>
+<lb n="P6rC1L9-VL40"/></ab><ab n="B04K12V21"><note type="canonRef">John 14:21</note><num type="AmmSec">cxxx</num><w>Qui</w><w>aut<ex>em</ex></w><w>diligit</w><w>me</w><w>diligitur</w><w>a</w><w>patre</w><w>meo</w>
+<lb n="P6rC1L10-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V23"><note type="canonRef">John 15:23</note><num type="AmmSec">cxliiii</num><w>Qui</w><w>me</w><w>odit</w><w><hi rend="lig">et</hi></w><w>patre<hi rend="¯">m</hi></w><w>meu<hi rend="¯">m</hi></w><w>odit</w>
+<lb n="P6rC1L11-VL40"/></ab></div><div n="B04K14" type="chapter"><ab n="B04K14V24"><note type="canonRef">John 14:24</note><num type="AmmSec">cxxxi</num><w>Et</w><w>sermone<hi rend="¯">m</hi></w><w>que<hi rend="¯">m</hi></w><w>audistis</w><w>n<ex>on</ex></w><w>est</w><w>meus</w>
+<lb n="P6rC1L12-VL40"/></ab><ab n="B04K14V42"><note type="canonRef">John 1:42</note><num type="AmmSec">xvii</num><w>Tu</w><w>es</w><w>fili<ex>us</ex></w><w>iona</w><w>tu</w><w>uocaberis</w><w>cephas</w>
+<lb n="P6rC1L13-VL40"/></ab></div><div n="B04K8" type="chapter"><ab n="B04K8V20"><note type="canonRef">John 8:20</note><num type="AmmSec">lxxxviii</num><w>Hęc</w><w>locutus</w><w>est</w><w>et</w><w>nemo</w><w>adp<ex>re</ex>hendit</w><w>eum</w>
+<lb n="P6rC1L14-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V21"><note type="canonRef">John 15:21</note><num type="AmmSec">cxli</num><w>Hęc</w><w>om<ex>n</ex>ia</w><w>facient</w><w>uob<ex>is</ex></w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>nom<ex>en</ex></w><w>meu<hi rend="¯">m</hi></w>
+<lb n="P6rC1L15-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V4"><note type="canonRef">John 6:4</note><num type="AmmSec">xlviii</num><w>Erat</w><w>aut<ex>em</ex></w><w>in</w><w>p<ex>ro</ex>ximo</w><w>pascha</w><w>dies</w><w>fest<ex>us</ex></w>
+<lb n="P6rC1L16-VL40"/></ab></div><div n="B04K11" type="chapter"><ab n="B04K11V54"><note type="canonRef">John 11:54</note><num type="AmmSec">xcvi</num><w>Abiit</w><w>in</w><w>regione</w><w>iuxta</w><w>desertu<hi rend="¯">m</hi></w><w>in</w><w>ciuitat<ex>em</ex></w><w>efre<hi rend="¯">m</hi></w>
+<pb xml:id="P6v-VL40" n="6v" type="folio"/>
+<cb n="P6vC1-VL40"/>
+<lb n="P6vC1L1-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V48"><note type="canonRef">John 6:48</note><num type="AmmSec">lxiii</num><w>Ego</w><w>su<hi rend="¯">m</hi></w><w>panis</w><w>uitę</w>
+<lb n="P6vC1L2-VL40"/></ab><ab n="B04K6V51"><note type="canonRef">John 6:51</note><num type="AmmSec">lxv</num><w>Ego</w><w>su<hi rend="¯">m</hi></w><w>panis</w><w>uiuus</w><w>qui</w><w>de</w><w>cęlo</w><w>descendi</w><pc>·</pc>
+<lb n="P6vC1L3-VL40"/></ab><ab n="B04K6V55"><note type="canonRef">John 6:55</note><num type="AmmSec">lxvii</num><w>Caro</w><w>eni<hi rend="¯">m</hi></w><w>mea</w><w>uere</w><w>est</w><w>cib<ex>us</ex></w><w><hi rend="lig">et</hi></w><w>sanguis</w>
+<lb n="P6vC1L4-VL40"/></ab></div><div n="B04K5" type="chapter"><ab n="B04K5V30"><note type="canonRef">John 5:30</note><num type="AmmSec">xlii</num><w>Q<ex>uonia</ex>m</w><w>n<ex>on</ex></w><w>quęro</w><w>uoluntate<hi rend="¯">m</hi></w><w>meam</w>
+<lb n="P6vC1L5-VL40"/></ab></div><div n="B04K7" type="chapter"><ab n="B04K7V32"><note type="canonRef">John 7:32</note><num type="AmmSec">lxxviiii</num><w>Miser<ex>unt</ex></w><w>principes</w><w>sacerdotum</w>
+<lb n="P6vC1L6-VL40"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V24"><note type="canonRef">John 18:24</note><w>Annas</w><w>misit</w><w>eu<hi rend="¯">m</hi></w><w>ad</w><w>caiphan</w><w>principem</w>
+<lb n="P6vC1L7-VL40"/></ab><ab n="B04K18V17"><note type="canonRef">John 18:17</note><num type="AmmSec">clxviii</num><w>Dic<ex>it</ex></w><w>petro</w><w>ancilla</w><w>ostiaria</w>
+<lb n="P6vC1L8-VL40"/></ab><ab n="B04K18V37"><note type="canonRef">John 18:37</note><num type="AmmSec">clxxx</num><w>Ergo</w><w>rex</w><w>es</w><w>tu</w>
+<pb xml:id="P7r-VL40" n="7r" type="folio"/>
+<cb n="P7rC1-VL40"/>
+<lb n="P7rC1L1-VL40"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V11"><note type="canonRef">John 20:11</note><num type="AmmSec">ccxi</num><w>Maria</w><w>stabat</w><w>ante</w><w>sepulchrum</w>
+<pb xml:id="P8r-VL40" n="8r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>III</w></fw></seg>
+<cb n="P8rC1-VL40"/>
+<lb n="P8rC1L1-VL40"/></ab></div><div n="B04K1" type="chapter"><ab n="B04K1V9"><note type="canonRef">John 1:9</note><num type="AmmSec">iii</num><w>Erat</w><w>lux</w><w>uera</w><w>quę</w><w>illuminat</w><w>omne<hi rend="¯">m</hi></w><w>homine<hi rend="¯">m</hi></w>
+<pb xml:id="P8v-VL40" n="8v" type="folio"/>
+<cb n="P8vC1-VL40"/>
+<lb n="P8vC1L1-VL40"/></ab><ab n="B04K1V14"><note type="canonRef">John 1:14</note><num type="AmmSec">v</num><w>Et</w><w>uerbu<hi rend="¯">m</hi></w><w>caro</w><w>factu<hi rend="¯">m</hi></w><w>est</w><w><hi rend="lig">et</hi></w><w>habitabit</w><w>in</w><w>nob<ex>is</ex></w>
+<lb n="P8vC1L2-VL40"/></ab><ab n="B04K1V6"><note type="canonRef">Matt. 3:7; John 1:6</note><num type="AmmSec">ii</num><w>Fuit</w><w>homo</w><w>missus</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>cui</w><w>nom<ex>en</ex></w><w>erat</w><w>ioh<ex>anne</ex>s</w><note type="editorial">This text also has the reference Matt. 3:7, but John offers the closer match.</note>
+<lb n="P8vC1L3-VL40"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V23"><note type="canonRef">John 3:23</note><num type="AmmSec">xxv</num><w>Erat</w><w>aut<ex>em</ex></w><w>ioh<ex>annes</ex></w><w>baptizans</w><w>in</w><w>ęnon</w>
+<lb n="P8vC1L4-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V20"><note type="canonRef">John 15:20</note><num type="AmmSec">cxxxviiii</num><w>Mem<ex>en</ex>tote</w><w>sermonis</w><w>mei</w><w>que<hi rend="¯">m</hi></w><w>ego</w><w>dixi</w><w>uob<ex>is</ex></w>
+<lb n="P8vC1L5-VL40"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V35"><note type="canonRef">John 3:35</note><num type="AmmSec">xxx</num><w>Pat<ex>er</ex></w><w>diligit</w><w>filiu<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>om<ex>n</ex>ia</w><w>dedit</w><w>in</w><w>manu</w><w>illius</w>
+<lb n="P8vC1L6-VL40"/></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V23"><note type="canonRef">John 13:23</note><num type="AmmSec">cxiiii</num><w>Sciens</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>quia</w><w>om<ex>n</ex>ia</w><w>dedit</w><w>ei</w><w>pat<ex>er</ex></w>
+<lb n="P8vC1L7-VL40"/></ab></div><div n="B04K5" type="chapter"><ab n="B04K5V37"><note type="canonRef">John 5:37</note><num type="AmmSec">xliiii</num><w>Neq<ex>ue</ex></w><w>uoce<hi rend="¯">m</hi></w><w>ei<ex>us</ex></w><w>umqua<hi rend="¯">m</hi></w><w>audistis</w><pc>˙</pc>
+<lb n="P8vC1L8-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V46"><note type="canonRef">John 6:46</note><num type="AmmSec">xli</num><w>Non</w><w>q<ex>uia</ex></w><w>patre<hi rend="¯">m</hi></w><w>uidit</w><w>quisqua<hi rend="¯">m</hi></w>
+<lb n="P8vC1L9-VL40"/></ab></div><div n="B04K7" type="chapter"><ab n="B04K7V28"><note type="canonRef">John 7:28</note><num type="AmmSec">lxxvii</num><w>Neq<ex>ue</ex></w><w>me</w><w>nostis</w><pc>.</pc><w>neq<ex>ue</ex></w><w>unde</w><w>sim</w><w>scitis</w>
+<lb n="P8vC1L10-VL40"/></ab></div><div n="B04K8" type="chapter"><ab n="B04K8V19"><note type="canonRef">John 8:19</note><num type="AmmSec">lxxxviii</num><w>Neq<ex>ue</ex></w><w>me</w><w>nostis</w><w>neq<ex>ue</ex></w><w>patre<hi rend="¯">m</hi></w><w>meu<hi rend="¯">m</hi></w>
+<lb n="P8vC1L11-VL40"/></ab></div><div n="B04K1" type="chapter"><ab n="B04K1V18"><note type="canonRef">John 1:18</note><num type="AmmSec">lxxxviiii</num><num type="EusCan">iii</num><w><abbr type="nomSac"><hi rend="overline">Dm</hi></abbr></w><w>nemo</w><w>uidit</w><w>umqua<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>rel<ex>i</ex>q<ex>ua</ex></w>
+<lb n="P8vC1L12-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V21"><note type="canonRef">John 15:21</note><num type="AmmSec">cxlii</num><w>Quia</w><w>nesciunt</w><w>eu<hi rend="¯">m</hi></w><w>qui</w><w>misit</w><w>me</w>
+<lb n="P8vC1L13-VL40"/></ab></div><div n="B04K17" type="chapter"><ab n="B04K17V25"><note type="canonRef">John 17:25</note><num type="AmmSec">cliii</num><w>Pat<ex>er</ex></w><w>mundus</w><w>te</w><w>non</w><w>cognouit</w>
+<lb n="P8vC1L14-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V3"><note type="canonRef">Matt. 12:9; John 6:3</note><num type="AmmSec">xluii</num><w>Abiit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>monte<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>ibi</w><w>sedebat</w><w>cu<hi rend="¯">m</hi></w><w>discipulis</w><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>IV</w></fw></seg>
+<lb n="P8vC1L15-VL40"/></ab></div></div><div n="04" type="book"><div n="B04K6" type="chapter"><ab n="B04K6V30"><note type="canonRef">John 6:30</note><num type="AmmSec">liii</num><w>Q<ex>uo</ex>d</w><w>signu<hi rend="¯">m</hi></w><w>ostendis</w><w>nobis</w><w>q<ex>uia</ex></w><w>hęc</w><w>facis</w>
+<lb n="P8vC1L16-VL40"/></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V15"><note type="canonRef">John 10:15</note><num type="AmmSec">cxxxv</num><note type="editorial">The Ammonian Section anticipates the next one in error</note><note type="local">The Ammonian Section anticipates the next one in error</note><w>Anima<hi rend="¯">m</hi></w><w>mea<hi rend="¯">m</hi></w><w>pono</w><w>p<ex>ro</ex></w><w>ouib<ex>us</ex></w><w>meis</w>
+<lb n="P8vC1L17-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V13"><note type="canonRef">John 15:13</note><num type="AmmSec">cxxxv</num><w>Maiore<hi rend="¯">m</hi></w><app><rdg type="orig" hand="firsthand"><w>hanc</w></rdg><rdg type="corr" hand="corrector"><w>hac</w></rdg></app><w>dilectione<hi rend="¯">m</hi></w><w>nemo</w><w>habet</w>
+<lb n="P8vC1L18-VL40"/></ab></div><div n="B04K14" type="chapter"><ab n="B04K14V13"><note type="canonRef">John 14:13</note><num type="AmmSec">cxxxviii</num><note type="editorial">The Ammonian Section should be cxxviii</note><note type="local">The Ammonian Section should be cxxviii</note><w>Q<ex>uo</ex>dcu<hi rend="¯">m</hi>q<ex>ue</ex></w><w>petieritis</w><w>in</w><w>no<ex>m</ex>i<ex>n</ex>e</w><w>meo</w>
+<lb n="P8vC1L19-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V7"><note type="canonRef">John 15:7</note><num type="AmmSec">cxxviii</num><w>Quodcunq<ex>ue</ex></w><w>uolueritis</w><w>petite</w><w><hi rend="lig">et</hi></w><w>fiet</w>
+<lb n="P8vC1L20-VL40"/></ab><ab n="B04K15V16"><note type="canonRef">John 15:16</note><app><rdg type="orig" hand="firsthand"><num type="AmmSec">cxxxiiii</num></rdg><rdg type="corr" hand="corrector"><num type="AmmSec">cxxxiii</num></rdg></app><w>Q<ex>uo</ex>dcunq<ex>ue</ex></w><w>petieritis</w><w>patre<hi rend="¯">m</hi></w>
+<lb n="P8vC1L21-VL40"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V23"><note type="canonRef">John 16:23</note><num type="AmmSec">cl</num><w>Idipsu<hi rend="¯">m</hi></w><w>ut</w><w>sup<ex>er</ex>ius</w><w>habetur</w><note type="editorial">This seems to be a reference to the text of 14:13 three lines above</note>
+<lb n="P8vC1L22-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V63"><note type="canonRef">John 6:63</note><num type="AmmSec">lxxii</num><w>Sciebat</w><w>ab</w><w>initio</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>q<ex>u</ex>is</w><w>e<ex>ss</ex>et</w><w>tradit<ex>urus</ex></w><w>eu<hi rend="¯">m</hi></w>
+<pb xml:id="P9r-VL40" n="9r" type="folio"/>
+<cb n="P9rC1-VL40"/>
+<lb n="P9rC1L1-VL40"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V5"><note type="canonRef">John 19:5</note><num type="AmmSec">clxxxvii</num><w>Exiit</w><w>aut<ex>em</ex></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>foras</w><w>habens</w><w>spinea<hi rend="¯">m</hi></w><w>corona<hi rend="¯">m</hi></w>
+<pb xml:id="P10v-VL40" n="10v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>VII</w></fw></seg>
+<cb n="P10vC1-VL40"/>
+<lb n="P10vC1L1-VL40"/></ab></div><div n="B04K4" type="chapter"><ab n="B04K4V3"><note type="canonRef">John 4:3</note><num type="AmmSec">xxxii</num><w>Reliquit</w><w>iudęa<hi rend="¯">m</hi></w><w>terra<hi rend="¯">m</hi></w><w>et</w><w>abiit</w><w>iterum</w>
+<lb n="P10vC1L2-VL40"/></ab><ab n="B04K4V43"><note type="canonRef">John 4:43</note><num type="AmmSec">xxxiiii</num><w>Post</w><w>duos</w><w>dies</w><w>p<ex>ro</ex>fectus</w><w>est</w><w>inde</w><w>in</w><w>galilea<hi rend="¯">m</hi></w>
+<pb xml:id="P11r-VL40" n="11r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>IX</w></fw></seg><note type="editorial">The title is, erroneously, Canon Octauus. The titles blend elements of Luke and John</note>
+<cb n="P11rC1-VL40"/>
+<lb n="P11rC1L1-VL40"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V11"><note type="canonRef">John 21:11</note><num type="AmmSec">cxxii</num><w>Intrauit</w><w>petrus</w><w><hi rend="lig">et</hi></w><w>trax<ex>it</ex></w><w>rete</w><w>cliii</w><pc>·</pc><w>piscib<ex>us</ex></w>
+<lb n="P11rC1L2-VL40"/></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V2"><note type="canonRef">Luke, John 13:2</note><num type="AmmSec">cxiii</num><w>Et</w><w>cu<hi rend="¯">m</hi></w><w>cęna</w><w>fieret</w><w>intrauit</w><w>satanas</w><w>in</w><w>iuda<hi rend="¯">m</hi></w><pc>·</pc>
+<lb n="P11rC1L3-VL40"/></ab><ab n="B04K13V26"><note type="canonRef">John 13:26</note><num type="AmmSec">cxxiiii</num><w>Et</w><w>cu<hi rend="¯">m</hi></w><w>tinxisset</w><w>pane<hi rend="¯">m</hi></w><w>dedit</w><w>iudę</w>
+<lb n="P11rC1L4-VL40"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V15"><note type="canonRef">John 21:15</note><num type="AmmSec">ccxxvii</num><w>Petro</w><w>dicit</w><w>pasce</w><w>oues</w><w>meas</w><pc>·</pc>
+<lb n="P11rC1L5-VL40"/></ab><ab n="B04K21V16"><note type="canonRef">John 21:16</note><num type="AmmSec">ccxxxi</num><w>Iteru<hi rend="¯">m</hi></w><w>petro</w><w>dicit</w><w>pasce</w><w>oues</w><w>meas</w><pc>·</pc>
+<lb n="P11rC1L6-VL40"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V38"><note type="canonRef">John 18:38</note><num type="AmmSec">clxxxii</num><w>Pilatus</w><w>dicit</w><w>nulla<hi rend="¯">m</hi></w><w>causa<hi rend="¯">m</hi></w><w>inueni</w><w>in</w><w>hunc</w>
+<lb n="P11rC1L7-VL40"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V19"><note type="canonRef">Luke 24:36; John 20:19</note><num type="AmmSec">ccxiii</num><w>Prima</w><w>sabbati</w><w>ostiis</w><w>clausis</w><w>uenit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w>
+<lb n="P11rC1L8-VL40"/></ab><ab n="B04K20V26"><note type="canonRef">John 20:26</note><num type="AmmSec">ccxvii</num><w>Post</w><w>dies</w><w>octo</w><w>iteru<hi rend="¯">m</hi></w><w>uenit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>ianuis</w><w>clausis</w>
+<lb n="P11rC1L9-VL40"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V10"><note type="canonRef">John 21:10</note><num type="AmmSec">ccxxi</num><w><abbr type="nomSac"><hi rend="overline">Ihs</hi></abbr></w><w>dicit</w><w>afferte</w><w>de</w><w>piscib<ex>us</ex></w><w>q<ex>u</ex>os</w><w>coepistis</w>
+<lb n="P11rC1L10-VL40"/></ab><ab n="B04K21V12"><note type="canonRef">John 21:12</note><num type="AmmSec">ccxxiii</num><w>Dicit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>uenite</w><w>prandete</w>
+<lb n="P11rC1L11-VL40"/></ab><ab n="B04K21V13"><note type="canonRef">John 21:13</note><num type="AmmSec">ccxxv</num><w>Et</w><w>dabat</w><w>discip<ex>u</ex>lis</w><w>suis</w><w>pane<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>pisce<hi rend="¯">m</hi></w><pc>·</pc>
+<pb xml:id="P12r-VL40" n="12r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>Canon</w><w>X</w></fw></seg>
+<cb n="P12rC1-VL40"/>
+<lb n="P12rC1L1-VL40"/></ab></div><div n="B04K1" type="chapter"><ab n="B04K1V11"><note type="canonRef">John 1:11</note><num type="AmmSec">iiii</num><w>In</w><w>sua</w><w>p<ex>ro</ex>pria</w><w>uenit</w><w><hi rend="lig">et</hi></w><w>sui</w><w>eu<hi rend="¯">m</hi></w><w>n<ex>on</ex></w>
+<lb n="P12rC1L2-VL40"/></ab><ab n="B04K1V16"><note type="canonRef">John 1:16</note><num type="AmmSec">vii</num><w>Et</w><w>de</w><w>plenitudine</w><w>ei<ex>us</ex></w><w>nos</w><w>om<ex>ne</ex>s</w><w>accepi<ex>mus</ex></w>
+<lb n="P12rC1L3-VL40"/></ab><ab n="B04K1V19"><note type="canonRef">John 1:19</note><num type="AmmSec">viiii</num><w>Et</w><w>hoc</w><w>e<ex>st</ex></w><w>testimoniu<hi rend="¯">m</hi></w><w>ioh<ex>ann</ex>is</w><w>cu<hi rend="¯">m</hi></w><w>mis<ex>erunt</ex></w>
+<lb n="P12rC1L4-VL40"/></ab><ab n="B04K1V24"><note type="canonRef">John 1:24</note><num type="AmmSec">xi</num><w>Et</w><w>q<ex>u</ex>i</w><w>missi</w><w>fuerant</w><w>erant</w><w>ex</w><w>phari<ex>saeis</ex></w>
+<lb n="P12rC1L5-VL40"/></ab><ab n="B04K1V28"><note type="canonRef">John 1:28</note><num type="AmmSec">xiii</num><w>Hęc</w><w>in</w><w>bethania</w><w>facta</w><w>s<ex>unt</ex></w><w>trans</w><w>i<hi rend="lig">or</hi><ex>danen</ex></w>
+<lb n="P12rC1L6-VL40"/></ab><ab n="B04K1V35"><note type="canonRef">John 1:35</note><num type="AmmSec">xvi</num><w>Altera</w><w>au<ex>tem</ex></w><w>die</w><w>stabat</w><w>ioh<ex>anne</ex>s</w><w><hi rend="lig">et</hi></w><w>ex</w>
+<lb n="P12rC1L7-VL40"/></ab><ab n="B04K1V43"><note type="canonRef">John 1:43</note><num type="AmmSec">xviii</num><w>In</w><w>crastinu<hi rend="¯">m</hi></w><w>uoluit</w><w>exire</w><w>in</w><w>gali<ex>leam</ex></w>
+<lb n="P12rC1L8-VL40"/></ab></div><div n="B04K2" type="chapter"><ab n="B04K2V17"><note type="canonRef">John 2:17</note><num type="AmmSec">xxii</num><w>Recordati</w><w>s<ex>unt</ex></w><w>discipuli</w><w>ei<ex>us</ex></w><w>q<ex>uia</ex></w><w>script<ex>um</ex></w>
+<lb n="P12rC1L9-VL40"/></ab><ab n="B04K2V19"><note type="canonRef">John 2:19</note><num type="AmmSec">xxiiii</num><w>Respondit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w><hi rend="lig">et</hi></w><w>dix<ex>it</ex></w><w>eis</w><w>soluite</w>
+<lb n="P12rC1L10-VL40"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V25"><note type="canonRef">John 3:25</note><num type="AmmSec">xxvii</num><w>Facta</w><w><hi rend="÷">est</hi></w><w>q<ex>ue</ex>stio</w><w>ex</w><w>discip<ex>u</ex>lis</w><w>ioh<ex>ann</ex>is</w>
+<lb n="P12rC1L11-VL40"/></ab><ab n="B04K3V29"><note type="canonRef">John 3:29</note><num type="AmmSec">xxviiii</num><w>Qui</w><w>habet</w><w>sponsa<hi rend="¯">m</hi></w><w>spons<ex>us</ex></w><w><hi rend="÷">est</hi></w>
+<lb n="P12rC1L12-VL40"/></ab><ab n="B04K3V36"><note type="canonRef">John 3:36</note><num type="AmmSec">xxxi</num><w>Qui</w><w>credit</w><w>in</w><w>filiu<hi rend="¯">m</hi></w><w>habet</w><w>uita<hi rend="¯">m</hi></w>
+<lb n="P12rC1L13-VL40"/></ab></div><div n="B04K4" type="chapter"><ab n="B04K4V4"><note type="canonRef">John 4:4</note><num type="AmmSec">xxxiii</num><w>Op<hi rend="lig">or</hi>tebat</w><w>au<ex>tem</ex></w><w>eu<hi rend="¯">m</hi></w><w>transire</w><w>p<ex>er</ex></w><w>sa<ex>mariam</ex></w>
+<cb n="P12rC2-VL40"/>
+<lb n="P12rC2L1-VL40"/></ab><ab n="B04K4V45"><note type="canonRef">John 4:45</note><num type="AmmSec">xxxvi</num><w>Cu<hi rend="¯">m</hi></w><w><ex>er</ex>go</w><w>uenisset</w><w>in</w><w>galilea<hi rend="¯">m</hi></w><w>exceper<ex>unt</ex></w><w>eu<hi rend="¯">m</hi></w><w>galilei</w>
+<lb n="P12rC2L2-VL40"/></ab></div><div n="B04K5" type="chapter"><ab n="B04K5V10"><note type="canonRef">John 5:10</note><num type="AmmSec">xxxviiii</num><w>Dicebant</w><w>iudęi</w><w>illi</w><w>q<ex>u</ex>i</w><w>san<ex>us</ex></w><w>fact<ex>us</ex></w><w>fuerat</w>
+<lb n="P12rC2L3-VL40"/></ab><ab n="B04K5V24"><note type="canonRef">John 5:24</note><num type="AmmSec">xli</num><w>Am<ex>en</ex></w><w>am<ex>en</ex></w><w>dico</w><w>uob<ex>is</ex></w><w>q<ex>uia</ex></w><w>q<ex>u</ex>i</w><w>uerbu<hi rend="¯">m</hi></w><w>meu<hi rend="¯">m</hi></w><w>aud<ex>it</ex></w>
+<lb n="P12rC2L4-VL40"/></ab><ab n="B04K5V31"><note type="canonRef">John 5:31</note><num type="AmmSec">xliii</num><w>Si</w><w>ego</w><w>testimoniu<hi rend="¯">m</hi></w><w>p<ex>er</ex>hibeo</w><w>de</w><w>me</w><pc>·</pc>
+<lb n="P12rC2L5-VL40"/></ab><ab n="B04K5V38"><note type="canonRef">John 5:38</note><num type="AmmSec">xlv</num><w>Et</w><w>uerbu<hi rend="¯">m</hi></w><w>ei<ex>us</ex></w><w>n<ex>on</ex></w><w>habetis</w><w>in</w><w>uob<ex>is</ex></w><w>manens</w>
+<lb n="P12rC2L6-VL40"/></ab></div><div n="B04K6" type="chapter"><ab n="B04K6V14"><note type="canonRef">John 6:14</note><num type="AmmSec">l</num><w>Illi</w><w><ex>er</ex>go</w><w>ho<ex>min</ex>es</w><w>cu<hi rend="¯">m</hi></w><w>uidissent</w><w>q<ex>uo</ex>d</w><w>fec<ex>it</ex></w><w>signu<hi rend="¯">m</hi></w>
+<lb n="P12rC2L7-VL40"/></ab><ab n="B04K6V22"><note type="canonRef">John 6:22</note><num type="AmmSec">lii</num><w>Altera</w><w>die</w><w>turba</w><w>q<ex>ue</ex></w><w>stabat</w><w>trans</w><w>mare</w>
+<lb n="P12rC2L8-VL40"/></ab><ab n="B04K6V31"><note type="canonRef">John 6:31</note><num type="AmmSec">liiii</num><w>Patres</w><w>n<ex>ost</ex>ri</w><w>manna</w><w>manducauer<ex>unt</ex></w>
+<lb n="P12rC2L9-VL40"/></ab><ab n="B04K6V35"><note type="canonRef">John 6:35</note><num type="AmmSec">lvi</num><w>Qui</w><w>uenit</w><w>ad</w><w>me</w><w>n<ex>on</ex></w><w>esuriet</w><w><hi rend="₇">et</hi></w><w>q<ex>u</ex>i</w><w>credit</w><w>in</w><w>me</w>
+<lb n="P12rC2L10-VL40"/></ab><ab n="B04K6V39"><note type="canonRef">John 6:39</note><num type="AmmSec">lviii</num><w>Hęc</w><w>est</w><w>aut<ex>em</ex></w><w>uoluntas</w><w>ei<ex>us</ex></w><w>q<ex>u</ex>i</w><w>misit</w><w>me</w><w>patris</w>
+<lb n="P12rC2L11-VL40"/></ab><ab n="B04K6V43"><note type="canonRef">John 6:43</note><num type="AmmSec">lx</num><w>Respondit</w><w><ex>er</ex>go</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w><hi rend="lig">et</hi></w><w>dix<ex>it</ex></w><w>nolite</w><w>murmur<ex>are</ex></w>
+<lb n="P12rC2L12-VL40"/></ab><ab n="B04K6V47"><note type="canonRef">John 6:47</note><num type="AmmSec">lxii</num><w>Am<ex>en</ex></w><w>dico</w><w>uob<ex>is</ex></w><w>q<ex>u</ex>i</w><w>credit</w><w>in</w><w>me</w><w>habet</w><w>uita<hi rend="¯">m</hi></w>
+<lb n="P12rC2L13-VL40"/></ab><ab n="B04K6V49"><note type="canonRef">John 6:49</note><num type="AmmSec">lxiiii</num><w>Patres</w><w>u<ex>est</ex>ri</w><w>manducauer<ex>unt</ex></w><w>in</w><w>deserto</w><w>manna</w>
+<pb xml:id="P12v-VL40" n="12v" type="folio"/>
+<cb n="P12vC1-VL40"/>
+<lb n="P12vC1L1-VL40"/></ab><ab n="B04K6V52"><note type="canonRef">John 6:52</note><num type="AmmSec">lxvi</num><w>Litigabant</w><w><ex>er</ex>go</w><w>iudęi</w><w>ad</w><w>inuice<hi rend="¯">m</hi></w>
+<lb n="P12vC1L2-VL40"/></ab><ab n="B04K6V56"><note type="canonRef">John 6:56</note><num type="AmmSec">lxviii</num><w>Qui</w><w>manducat</w><w>mea<hi rend="¯">m</hi></w><w>carne<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>bi<ex>bit</ex></w>
+<lb n="P12vC1L3-VL40"/></ab><ab n="B04K6V63"><note type="canonRef">John 6:63</note><num type="AmmSec">lxxi</num><w>Uerba</w><w>q<ex>ue</ex></w><w>ego</w><w>locut<ex>us</ex></w><w>sum</w><w>uob<ex>is</ex></w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w><hi rend="lig">et</hi></w>
+<lb n="P12vC1L4-VL40"/></ab><ab n="B04K6V65"><note type="canonRef">John 6:65</note><num type="AmmSec">lxxiii</num><w>Et</w><w>dicebat</w><w>p<ex>ro</ex>pt<ex>er</ex>ea</w><w>dixi</w><w>uob<ex>is</ex></w><w>q<ex>uia</ex></w><w>ne<ex>mo</ex></w>
+<lb n="P12vC1L5-VL40"/></ab><ab n="B04K6V70"><note type="canonRef">John 6:70</note><num type="AmmSec">lxxv</num><w>Respondit</w><w><ex>er</ex>go</w><w>eis</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>n<ex>on</ex>ne</w><w>ego</w><w>uos</w>
+<lb n="P12vC1L6-VL40"/></ab></div><div n="B04K7" type="chapter"><ab n="B04K7V31"><note type="canonRef">John 7:31</note><num type="AmmSec">lxxviii</num><w>De</w><w>turba</w><w>aut<ex>em</ex></w><w>multi</w><w>credider<ex>unt</ex></w>
+<lb n="P12vC1L7-VL40"/></ab><ab n="B04K7V33"><note type="canonRef">John 7:33</note><num type="AmmSec">lxxx</num><w>Dix<ex>it</ex></w><w><ex>er</ex>go</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>adhuc</w><w>modicu<hi rend="¯">m</hi></w><w>te<hi rend="¯">m</hi>p<ex>us</ex></w>
+<lb n="P12vC1L8-VL40"/></ab><ab n="B04K7V34"><note type="canonRef">John 7:34</note><num type="AmmSec">lxxxi</num><w>Quęretis</w><w>me</w><w><hi rend="lig">et</hi></w><w>n<ex>on</ex></w><w>inuenietis</w><pc>·</pc>
+<lb n="P12vC1L9-VL40"/></ab><ab n="B04K7V43"><note type="canonRef">John 7:43</note><num type="AmmSec">lxxxiiii</num><w>Dissensio</w><w>itaq<ex>ue</ex></w><w>facta</w><w>e<ex>st</ex></w><w>in</w><w>t<ex>ur</ex>ba</w>
+<lb n="P12vC1L10-VL40"/></ab><ab n="B04K7V45"><note type="canonRef">John 7:45</note><num type="AmmSec">lxxxvi</num><w>Uener<ex>unt</ex></w><w><ex>er</ex>go</w><w>ministri</w><w>ad</w><w>pontifice<hi rend="¯">m</hi></w>
+<lb n="P12vC1L11-VL40"/></ab></div><div n="B04K8" type="chapter"><ab n="B04K8V21"><note type="canonRef">John 8:21</note><num type="AmmSec">lxxxviiii</num><w>Dix<ex>it</ex></w><w><ex>er</ex>go</w><w>eis</w><w>iteru<hi rend="¯">m</hi></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>ego</w><w>uado</w><w><hi rend="lig">et</hi></w>
+<lb n="P12vC1L12-VL40"/></ab></div><div n="B04K10" type="chapter"><ab n="B04K10V16"><note type="canonRef">John 10:16</note><num type="AmmSec">xcii</num><w>Et</w><w>alias</w><w>oues</w><w>habeo</w><w>q<ex>ue</ex></w><w>n<ex>on</ex></w><w>s<ex>unt</ex></w><w>ex</w><w>hoc</w>
+<lb n="P12vC1L13-VL40"/></ab><ab n="B04K10V41"><note type="canonRef">John 10:41</note><num type="AmmSec">xciiii</num><w>Et</w><w>multi</w><w>uener<ex>unt</ex></w><w>ad</w><w>eu<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>diceba<hi rend="lig">nt</hi></w>
+<lb n="P12vC1L14-VL40"/></ab></div><div n="B04K11" type="chapter"><ab n="B04K11V55"><note type="canonRef">John 11:55</note><num type="AmmSec">xcvii</num><w>Et</w><w>ascender<ex>unt</ex></w><w>multi</w><w>de</w><w>regione</w>
+<lb n="P12vC1L15-VL40"/></ab></div><div n="B04K12" type="chapter"><ab n="B04K12V9"><note type="canonRef">John 12:9</note><num type="AmmSec">xcviiii</num><w>Cognouit</w><w><ex>er</ex>go</w><w>t<ex>ur</ex>ba</w><w>multa</w><w>ex</w><w>iude<ex>is</ex></w>
+<lb n="P12vC1L16-VL40"/></ab><ab n="B04K12V16"><note type="canonRef">John 12:16</note><num type="AmmSec">cii</num><w>Hęc</w><w>n<ex>on</ex></w><w>cognouer<ex>unt</ex></w><w>discip<ex>u</ex>li</w><w>ei<ex>us</ex></w><w>p<ex>r</ex>imu<hi rend="¯">m</hi></w>
+<lb n="P12vC1L17-VL40"/></ab><ab n="B04K12V24"><note type="canonRef">John 12:24</note><num type="AmmSec">ciiii</num><w>Am<ex>en</ex></w><w>am<ex>en</ex></w><w>dico</w><w>uob<ex>is</ex></w><w>nisi</w><w>granu<hi rend="¯">m</hi></w><w>fru<ex>menti</ex></w>
+<lb n="P12vC1L18-VL40"/></ab><ab n="B04K12V26"><note type="canonRef">John 12:26</note><num type="AmmSec">cvi</num><w>Si</w><w>q<ex>u</ex>is</w><w>mi<ex>hi</ex></w><w>ministrat</w><w>me</w><w>sequat<ex>ur</ex></w>
+<lb n="P12vC1L19-VL40"/></ab><ab n="B04K12V27"><note type="canonRef">John 12:27</note><num type="AmmSec">cviii</num><w>Pat<ex>er</ex></w><w>saluifica</w><w>me</w><w>ex</w><w>hac</w><w>hora</w>
+<lb n="P12vC1L20-VL40"/></ab><ab n="B04K12V41"><note type="canonRef">John 12:41</note><num type="AmmSec">cx</num><w>Hęc</w><w>dix<ex>it</ex></w><w>isaias</w><w>q<ex>ua</ex>ndo</w><w>uidit</w><w>gl<ex>ori</ex>am</w>
+<lb n="P12vC1L21-VL40"/></ab><ab n="B04K12V46"><note type="canonRef">John 12:46</note><num type="AmmSec">cxii</num><w>Ego</w><w>lux</w><w>in</w><w>mundu<hi rend="¯">m</hi></w><w>ueni</w><w>ut</w><w>om<ex>n</ex>is</w>
+<lb n="P12vC1L22-VL40"/></ab></div><div n="B04K13" type="chapter"><ab n="B04K13V3"><note type="canonRef">John 13:3</note><num type="AmmSec">cxv</num><w>Et</w><w>q<ex>uia</ex></w><w>a</w><w>deo</w><w>exiuit</w><w><hi rend="lig">et</hi></w><w>ad</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>uad<ex>it</ex></w>
+<lb n="P12vC1L23-VL40"/></ab><ab n="B04K13V14"><note type="canonRef">John 13:14</note><num type="AmmSec">cxvii</num><w>Si</w><w><ex>er</ex>go</w><w>ego</w><w>laui</w><w>u<ex>est</ex>ros</w><w>pedes</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><hi rend="lig">et</hi></w>
+<lb n="P12vC1L24-VL40"/></ab><ab n="B04K13V17"><note type="canonRef">John 13:17</note><num type="AmmSec">cxviiii</num><w>Si</w><w>h<ex>aec</ex></w><w>scitis</w><w>beati</w><w>eritis</w><w>si</w><w>feceritis</w>
+<lb n="P12vC1L25-VL40"/></ab><ab n="B04K13V23"><note type="canonRef">John 13:23</note><num type="AmmSec">cxxiii</num><w>Erat</w><w><ex>er</ex>go</w><w>recu<hi rend="¯">m</hi>bens</w><w>un<ex>us</ex></w><w>ex</w><w>discip<ex>u</ex>lis</w>
+<lb n="P12vC1L26-VL40"/></ab><ab n="B04K13V27"><note type="canonRef">John 13:27</note><num type="AmmSec">cxxv</num><w>Dic<ex>it</ex></w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>q<ex>uo</ex>d</w><w>facis</w><w>fac</w><w>cicius</w>
+<lb n="P12vC1L27-VL40"/></ab></div><div n="B04K14" type="chapter"><ab n="B04K14V1"><note type="canonRef">John 14:1</note><num type="AmmSec">cxxvii</num><w>Non</w><w>turbet<ex>ur</ex></w><w>cor</w><w>u<ex>est</ex>r<ex>u</ex>m</w><w>credite</w>
+<lb n="P12vC1L28-VL40"/></ab><ab n="B04K14V15"><note type="canonRef">John 14:15</note><num type="AmmSec">cxxviiii</num><w>Si</w><w>diligitis</w><w>me</w><w>mandata</w><w>mea</w>
+<lb n="P12vC1L29-VL40"/></ab><ab n="B04K14V25"><note type="canonRef">John 14:25</note><num type="AmmSec">cxxxii</num><w>Hęc</w><w>locut<ex>us</ex></w><w>su<hi rend="¯">m</hi></w><w>uob<ex>is</ex></w><w>ap<ex>u</ex>d</w><w>uos</w><w>man<ex>en</ex>s</w>
+<lb n="P12vC1L30-VL40"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V8"><note type="canonRef">John 15:8</note><num type="AmmSec">cxxxiiii</num><w>In</w><w>hoc</w><w>clarificat<ex>us</ex></w><w>e<ex>st</ex></w><w>pat<ex>er</ex></w><w>me<ex>us</ex></w><w>ut</w><w>fur<ex>ctum</ex></w><note type="local">sic</note>
+<lb n="P12vC1L31-VL40"/></ab><ab n="B04K15V14"><note type="canonRef">John 15:14</note><num type="AmmSec">cxxxvi</num><w>Uos</w><w>amici</w><w>mei</w><w>estis</w><w>si</w><w>feceritis</w><w>q<ex>ue</ex></w>
+<lb n="P12vC1L32-VL40"/></ab><ab n="B04K15V17"><note type="canonRef">John 15:17</note><num type="AmmSec">cxxxviii</num><w>Hęc</w><w>mando</w><w>uob<ex>is</ex></w><w>ut</w><w>diligatis</w><w>in<ex>uicem</ex></w>
+<lb n="P12vC1L33-VL40"/></ab><ab n="B04K15V20"><note type="canonRef">John 15:20</note><num type="AmmSec">cxl</num><w>Si</w><w>me</w><w>p<ex>er</ex>secuti</w><w>s<ex>unt</ex></w><w><hi rend="lig">et</hi></w><w>uos</w><w>p<ex>er</ex>seq<ex>ue</ex>nt<ex>ur</ex></w>
+<lb n="P12vC1L34-VL40"/></ab><ab n="B04K15V22"><note type="canonRef">John 15:22</note><num type="AmmSec">cxliii</num><w>Si</w><w>n<ex>on</ex></w><w>uenisse<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>locut<ex>us</ex></w><w>eis</w><w>fuisse<hi rend="¯">m</hi></w>
+<lb n="P12vC1L35-VL40"/></ab><ab n="B04K15V24"><note type="canonRef">John 15:24</note><num type="AmmSec">cxlv</num><w>Si</w><w>op<ex>er</ex>a</w><w>in</w><w>eis</w><w>n<ex>on</ex></w><w>fecisse<hi rend="¯">m</hi></w><w>q<ex>ue</ex></w><app><rdg type="orig" hand="firsthand"><w>n<ex>on</ex></w></rdg><rdg type="corr" hand="corrector"><w>nemo</w></rdg></app><w>alius</w>
+<cb n="P12vC2-VL40"/>
+<lb n="P12vC2L1-VL40"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V4"><note type="canonRef">John 16:4</note><num type="AmmSec">cxlvii</num><w>Hęc</w><w>aut<ex>em</ex></w><w>uob<ex>is</ex></w><w>ab</w><w>initio</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>n<ex>on</ex></w></rdg></app><w>dixi</w><w>q<ex>uia</ex></w><w>uob<ex>is</ex>cum</w>
+<lb n="P12vC2L2-VL40"/></ab><ab n="B04K16V15"><note type="canonRef">John 16:15</note><num type="AmmSec">cxlviiii</num><w>P<ex>ro</ex>pt<ex>er</ex>ea</w><w>dixi</w><w>q<ex>uia</ex></w><w>de</w><w>meo</w><w>accipiet</w><pc>·</pc>
+<lb n="P12vC2L3-VL40"/></ab><ab n="B04K16V25"><note type="canonRef">John 16:25</note><num type="AmmSec">cli</num><w>Hęc</w><w>in</w><w>p<ex>ro</ex>uerbiis</w><w>locut<ex>us</ex></w><w>sum</w><w>uobis</w>
+<lb n="P12vC2L4-VL40"/></ab><ab n="B04K16V33"><note type="canonRef">John 16:33</note><num type="AmmSec">cliii</num><w>Hęc</w><w>locutus</w><w>sum</w><w>uob<ex>is</ex></w><w>ut</w><w>in</w><w>me</w><w>pacem</w>
+<lb n="P12vC2L5-VL40"/></ab></div><div n="B04K17" type="chapter"><ab n="B04K17V25"><note type="canonRef">John 17:25</note><num type="AmmSec">clv</num><w>Et</w><w>hii</w><w>cognouer<ex>unt</ex></w><w>q<ex>uia</ex></w><w>tu</w><w>me</w><w>misisti</w>
+<lb n="P12vC2L6-VL40"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V2"><note type="canonRef">John 18:2</note><num type="AmmSec">clvii</num><w>Sciebat</w><w>aut<ex>em</ex></w><w><hi rend="lig">et</hi></w><w>iudas</w><w>q<ex>u</ex>i</w><w>tradebat</w><w>eum</w>
+<lb n="P12vC2L7-VL40"/></ab><ab n="B04K18V4"><note type="canonRef">John 18:4</note><num type="AmmSec">clviiii</num><w><abbr type="nomSac"><hi rend="overline">Ihs</hi></abbr></w><w>aut<ex>em</ex></w><w>sciens</w><w>om<ex>n</ex>ia</w><w>q<ex>ue</ex></w><w>uentura</w><w>erant</w>
+<lb n="P12vC2L8-VL40"/></ab><ab n="B04K18V13"><note type="canonRef">John 18:13</note><num type="AmmSec">clxiii</num><w>Erat</w><w>eni<hi rend="¯">m</hi></w><w>socer</w><w>caiphę</w><w>qui</w><w>erat</w><w>pontifex</w>
+<lb n="P12vC2L9-VL40"/></ab><ab n="B04K18V15"><note type="canonRef">John 18:15</note><num type="AmmSec">clv</num><note type="editorial">The number is an error for clxv</note><w>Discip<ex>u</ex>l<ex>u</ex>s</w><w>aut<ex>em</ex></w><w>ille</w><w>erat</w><w>notus</w><w>potifici</w><note type="local">sic</note>
+<lb n="P12vC2L10-VL40"/></ab><ab n="B04K18V16"><note type="canonRef">John 18:16</note><num type="AmmSec">clxvii</num><w>Exiit</w><w><ex>er</ex>go</w><w>discip<ex>u</ex>l<ex>u</ex>s</w><w>ille</w><w>ali<ex>us</ex></w><w>qui</w><w>erat</w><w>notus</w>
+<lb n="P12vC2L11-VL40"/></ab><ab n="B04K18V19"><note type="canonRef">John 18:19</note><num type="AmmSec">clxviiii</num><w>Pontifex</w><w><ex>er</ex>go</w><w>int<ex>er</ex>rogauit</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>de</w><w>discip<ex>ulis</ex></w>
+<lb n="P12vC2L12-VL40"/></ab><ab n="B04K18V21"><note type="canonRef">John 18:21</note><num type="AmmSec">clxxi</num><w>Q<ex>u</ex>id</w><w>me</w><w>int<ex>er</ex>rogas</w><w>int<ex>er</ex>roga</w><w>eos</w><w>q<ex>u</ex>i</w><w>audier<ex>unt</ex></w>
+<lb n="P12vC2L13-VL40"/></ab><ab n="B04K18V23"><note type="canonRef">John 18:23</note><num type="AmmSec">clxxiii</num><w>Respondit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>si</w><w>male</w><w>locut<ex>us</ex></w><w>su<hi rend="¯">m</hi></w><w>argue</w>
+<lb n="P12vC2L14-VL40"/></ab><ab n="B04K18V28"><note type="canonRef">John 18:28</note><num type="AmmSec">clxxvii</num><w>Et</w><w>ipsi</w><w>n<ex>on</ex></w><w>introierunt</w><w>in</w><w>p<ex>re</ex>toriu<hi rend="¯">m</hi></w>
+<lb n="P12vC2L15-VL40"/></ab><ab n="B04K18V35"><note type="canonRef">John 18:35</note><num type="AmmSec">clxxviiii</num><w>Respondit</w><w>pilat<ex>us</ex></w><w>nunqu<ex>i</ex>d</w><w>ego</w><w>iudęus</w>
+<lb n="P12vC2L16-VL40"/></ab><ab n="B04K18V37"><note type="canonRef">John 18:37</note><num type="AmmSec">clxxxi</num><w>Ego</w><w>in</w><w>hoc</w><w>natus</w><w>su<hi rend="¯">m</hi></w><w><hi rend="lig">et</hi></w><w>ad</w><w>hoc</w><w>ueni</w><w>in</w>
+<lb n="P12vC2L17-VL40"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V6"><note type="canonRef">John 19:6</note><num type="AmmSec">clxxxviiii</num><w>Dic<ex>it</ex></w><app><rdg type="orig" hand="firsthand"><w>ei</w></rdg><rdg type="corr" hand="corrector"><w>eis</w></rdg></app><w>pilat<ex>us</ex></w><w>accipite</w><w>eu<hi rend="¯">m</hi></w><w>uos</w><w><hi rend="lig">et</hi></w><w>crucifig<ex>ite</ex></w>
+<lb n="P12vC2L18-VL40"/></ab><ab n="B04K19V7"><note type="canonRef">John 19:7</note><num type="AmmSec">cxci</num><w>Responder<ex>unt</ex></w><w>iudęi</w><w>nos</w><w>lege<hi rend="¯">m</hi></w><w>habem<ex>us</ex></w>
+<lb n="P12vC2L19-VL40"/></ab><ab n="B04K19V10"><note type="canonRef">John 19:10</note><num type="AmmSec">cxciii</num><w>Dic<ex>it</ex></w><w><ex>er</ex>go</w><w>ei</w><w>pilatus</w><w>mi<ex>hi</ex></w><w>n<ex>on</ex></w><w>loqueris</w><pc>·</pc>
+<lb n="P12vC2L20-VL40"/></ab><ab n="B04K19V15"><note type="canonRef">John 19:15</note><num type="AmmSec">cxcv</num><w>Dic<ex>it</ex></w><w>eis</w><w>pilat<ex>us</ex></w><w>rege<hi rend="¯">m</hi></w><w>u<ex>est</ex>r<ex>u</ex>m</w><w>crucifigam</w>
+<lb n="P12vC2L21-VL40"/></ab><ab n="B04K19V20"><note type="canonRef">John 19:20</note><num type="AmmSec">cc</num><w>Hunc</w><w><ex>er</ex>go</w><w>titulu<hi rend="¯">m</hi></w><w>multi</w><w>leger<ex>unt</ex></w><w>iudęor<ex>um</ex></w>
+<lb n="P12vC2L22-VL40"/></ab><ab n="B04K19V23"><note type="canonRef">John 19:23</note><num type="AmmSec">ccii</num><w>Et</w><w>tunica</w><w>erat</w><w>inconsubtil<ex>is</ex></w><w>desup<ex>er</ex></w><w>con<ex>texta</ex></w>
+<lb n="P12vC2L23-VL40"/></ab><ab n="B04K19V31"><note type="canonRef">John 19:31</note><num type="AmmSec">ccv</num><w>Iudęi</w><w><ex>er</ex>go</w><w>q<ex>uonia</ex>m</w><w>parasceue</w><w>erat</w><w>ut</w><w>n<ex>on</ex></w><w>rem<ex>anerent</ex></w>
+<lb n="P12vC2L24-VL40"/></ab><ab n="B04K19V39"><note type="canonRef">John 19:39</note><num type="AmmSec">ccvii</num><w>Uenit</w><w>aut<ex>em</ex></w><w><hi rend="₇">et</hi></w><w>nichodem<ex>us</ex></w><w>q<ex>u</ex>i</w><w>uenerat</w><w>ad</w>
+<lb n="P12vC2L25-VL40"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V2"><note type="canonRef">John 20:2</note><num type="AmmSec">ccx</num><w>Cucurrit</w><w><ex>er</ex>go</w><w><hi rend="lig">et</hi></w><w>uenit</w><w>ad</w><w>simone<hi rend="¯">m</hi></w><w>petru<hi rend="¯">m</hi></w>
+<lb n="P12vC2L26-VL40"/></ab><ab n="B04K20V13"><note type="canonRef">John 20:13</note><num type="AmmSec">ccxii</num><w>Dicunt</w><w>ei</w><w>illi</w><w>mulier</w><w>q<ex>u</ex>id</w><w>ploras</w>
+<lb n="P12vC2L27-VL40"/></ab><ab n="B04K20V20"><note type="canonRef">John 20:20</note><num type="AmmSec">ccxiiii</num><w>Gauisi</w><w>s<ex>unt</ex></w><w><ex>er</ex>go</w><w>discip<ex>u</ex>li</w><w>uiso</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><pc>·</pc>
+<lb n="P12vC2L28-VL40"/></ab><ab n="B04K20V24"><note type="canonRef">John 20:24</note><num type="AmmSec">ccxvi</num><w>Thomas</w><w>aut<ex>em</ex></w><w>q<ex>u</ex>i</w><w>d<ex>icitu</ex>r</w><w>didimus</w><pc>·</pc>
+<lb n="P12vC2L29-VL40"/></ab><ab n="B04K20V28"><note type="canonRef">John 20:28</note><num type="AmmSec">ccxviii</num><w>Respondit</w><w>thomas</w><w><hi rend="lig">et</hi></w><w>dix<ex>it</ex></w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>m<ex>eu</ex>s</w>
+<lb n="P12vC2L30-VL40"/></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V7"><note type="canonRef">John 21:7</note><num type="AmmSec">ccxx</num><w>Dix<ex>it</ex></w><w><ex>er</ex>go</w><w>discip<ex>u</ex>l<ex>u</ex>s</w><w>ille</w><w>que<hi rend="¯">m</hi></w><w>diligebat</w><w>petro</w>
+<lb n="P12vC2L31-VL40"/></ab><ab n="B04K21V12"><note type="canonRef">John 21:12</note><num type="AmmSec">ccxxiiii</num><w>Et</w><w>nemo</w><w>audebat</w><w>discu<hi rend="¯">m</hi>bentiu<hi rend="¯">m</hi></w><w>int<ex>er</ex>rog<ex>are</ex></w>
+<lb n="P12vC2L32-VL40"/></ab><ab n="B04K21V14"><note type="canonRef">John 21:14</note><num type="AmmSec">ccxxvi</num><w>Hoc</w><w>ia<hi rend="¯">m</hi></w><w>t<ex>er</ex>tio</w><w>manifestat<ex>us</ex></w><w>e<ex>st</ex></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>discip<ex>u</ex>lis</w>
+<lb n="P12vC2L33-VL40"/></ab><ab n="B04K21V16"><note type="canonRef">John 21:16</note><num type="AmmSec">ccxxviii</num><w>Dic<ex>it</ex></w><w>ei</w><w>iteru<hi rend="¯">m</hi></w><pc>·</pc><w>simon</w><w>ioh<ex>ann</ex>is</w><w>diligis</w><w>me</w>
+<lb n="P12vC2L34-VL40"/></ab><ab n="B04K21V17"><note type="canonRef">John 21:17</note><num type="AmmSec">ccxxx</num><w>Dic<ex>it</ex></w><w>ei</w><w>t<ex>er</ex>tio</w><w>simon</w><w>ioh<ex>ann</ex>is</w><w>amas</w><w>me</w>
+<lb n="P12vC2L35-VL40"/></ab><ab n="B04K21V18"><note type="canonRef">John 21:18</note><num type="AmmSec">ccxxxii</num><w>Am<ex>en</ex></w><w>am<ex>en</ex></w><w>dico</w><w>tibi</w><w>cu<hi rend="¯">m</hi></w><w>esses</w><w>iunior</w></ab></div></div></body></text></TEI>

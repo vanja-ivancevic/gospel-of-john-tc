@@ -1,0 +1,114 @@
+<!DOCTYPE TEI [
+<!ENTITY om "OM">
+]>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAP63">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in P63</title>
+<title type="document" key="10063" n="P63">P63</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+  <country>Germany</country>
+  <settlement>Berlin</settlement>
+  <repository>Staatliche Museen, Ägyptische Abteilung</repository>
+  <idno>P. 11914</idno>
+  <msName xml:lang="en">Papyrus 63</msName>
+  <altIdentifier type="GA"><idno>P63</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>10063</idno></altIdentifier>
+  <altIdentifier type="TM"><idno>61661</idno></altIdentifier>
+  <altIdentifier type="LDAB"><idno>2811</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<listWit><witness xml:id="firsthand"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="4" when="2014-11-04">[ου] spa spa spa spa [πεστειλεν] changed to [ου γαρ απεστειλεν] at 3.16 by Rachel Kevern.</change>
+<change n="3" when="2014-06-12">Line breaks removed from segs by Catherine Smith.</change>
+<change n="2" when="2013-07-22">Removal of ghost page by Catherine Smith.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 (apart from handling of ghost pages) by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1x-P63" n="1→" type="page"/><div type="book" n="B04"><div n="B04K3" type="chapter"><ab n="B04K3V14"><note type="header">First page, → (Jn 3,14-15)</note><seg type="margin" subtype="pagetop"><fw type="pageNum"><hi rend="overline">ριβ</hi></fw></seg>
+<cb xml:id="P1xC1-P63" n="1"/>
+<lb xml:id="P1xC1L1-P63" n="1"/><gap extent="rest" unit="verse" reason="lacuna"/><w>καθ<unclear>ως</unclear></w><w><unclear>μ</unclear>ωϋσης</w><w>ϋψω
+<lb break="no" xml:id="P1xC1L2-P63" n="2"/>σεν</w><w>τον</w><w>οφιν</w><w><unclear>ε</unclear>ν</w><w>τη</w><w>ερ<unclear>η</unclear>
+<lb break="no" xml:id="P1xC1L3-P63" n="3"/>μω</w><w>ουτως</w><w>ϋψωθηναι</w>
+<lb xml:id="P1xC1L4-P63" n="4"/><w>δει</w><w>τον</w><w>υιον</w><w>του</w><w>αν<unclear>θρω</unclear>
+<lb break="no" xml:id="P1xC1L5-P63" n="5"/>π<unclear>ο</unclear><supplied reason="unspecified">υ</supplied></w></ab><ab n="B04K3V15"><w><supplied reason="unspecified">ινα</supplied></w><w>πας</w><w>ο</w><w>π<supplied reason="unspecified">ιστευ</supplied>
+<lb break="no" xml:id="P1xC1L6-P63" n="6"/>ω<supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><unclear>α</unclear>υτον</w><w>μη</w><w>απο
+<lb break="no" xml:id="P1xC1L7-P63" n="7"/>λ<unclear>ητ</unclear><supplied reason="unspecified">αι</supplied></w><w><supplied reason="unspecified">αλ</supplied>λ'</w><w>ε<unclear>χη</unclear></w><w>ζωην</w>
+<lb xml:id="P1xC1L8-P63" n="8"/><w>αιωνιον</w>
+<lb xml:id="P1xC1L9-P63" n="9"/><note type="editorial">Hermeneia beneath</note>
+<pb xml:id="P2y-P63" n="2↓" type="page"/><note type="header">Second page, ↓ (Jn 3,16-18)</note><seg type="margin" subtype="pagetop"><fw type="pageNum"><hi rend="overline">ριγ</hi></fw></seg>
+<cb xml:id="P2yC1-P63" n="1"/>
+<lb xml:id="P2yC1L1-P63" n="1"/></ab><ab n="B04K3V16"><w>ουτως</w><w>γαρ</w><w>ηγα<supplied reason="unspecified">πη</supplied>σεν</w><w>ο</w><w>θε
+<lb break="no" xml:id="P2yC1L2-P63" n="2"/><unclear>ο</unclear>ς</w><w>τον</w><w>κοσμον</w><w><unclear>ωσ</unclear><supplied reason="unspecified">τε</supplied></w><w>τον</w><w>υι
+<lb break="no" xml:id="P2yC1L3-P63" n="3"/><unclear>ο</unclear>ν</w><w>αυτου</w><w>το<unclear>ν</unclear></w><w><supplied reason="unspecified">μονογ</supplied><unclear>ε</unclear><supplied reason="unspecified">νη</supplied></w><w>εδω
+<lb break="no" xml:id="P2yC1L4-P63" n="4"/>κεν</w><w>εις</w><w>το<supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">κοσμ</supplied>ον</w><w>ϊνα</w><w><unclear>ο</unclear></w><w>πι
+<lb break="no" xml:id="P2yC1L5-P63" n="5"/>στευων</w><w>εις</w><w><supplied reason="unspecified">αυ</supplied><unclear>τ</unclear><supplied reason="unspecified">ο</supplied><unclear>ν</unclear></w><w>μη</w><w>απολη
+<lb break="no" xml:id="P2yC1L6-P63" n="6"/>ται</w><w>αλλ'</w><w>ε<supplied reason="unspecified">χη</supplied></w><w>ζω<supplied reason="unspecified">ην</supplied></w><w>αιωνιον</w>
+ <lb xml:id="P2yC1L7-P63" n="7"/></ab><ab n="B04K3V17"><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">γαρ</supplied></w><w><supplied reason="unspecified">απεστειλεν</supplied></w><w><unclear>ο</unclear></w><w><unclear>θ</unclear>εος</w><w>τον</w>
+<lb xml:id="P2yC1L8-P63" n="8"/><w>υιον</w><w>αυτου</w><w>εις</w><w>τ<unclear>ο</unclear><supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">κ</supplied><unclear>οσ</unclear>μ<supplied reason="unspecified">ον</supplied></w>
+<lb xml:id="P2yC1L9-P63" n="9"/><w>αλλ</w><w>ϊνα</w><w><unclear>σωθ</unclear><supplied reason="unspecified">η</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w>κο<supplied reason="unspecified">σμ</supplied>ος</w><w><unclear>δ</unclear>ι</w><w>αυ
+<lb break="no" xml:id="P2yC1L10-P63" n="10"/>του</w></ab><ab n="B04K3V18"><w>ο</w><w>πιστ<unclear>ε</unclear>υων</w><w>εις</w><w>αυτον</w><w>ου</w>
+<lb xml:id="P2yC1L11-P63" n="11"/><w>κρινεται</w><w>ο</w><w>δε</w><w>μη</w><w>πιστευων</w>
+<lb xml:id="P2yC1L12-P63" n="12"/><w>ηδη</w><w>καικρ<supplied reason="unspecified">ι</supplied>νεται</w><w>οτι</w><w>μη</w><w>πε
+<lb break="no" xml:id="P2yC1L13-P63" n="13"/>πιστ<supplied reason="unspecified">ευ</supplied>κεν</w><w>εις</w><w>το</w><w>ονομα</w><w>του</w>
+<lb xml:id="P2yC1L14-P63" n="14"/><w>μονογενους</w><w>υιου</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P2yC1L15-P63" n="15"/><note type="editorial">Hermeneia beneath</note>
+<pb xml:id="P3y-P63" n="3↓" type="page"/><note type="header">Third page ↓ (Jn 4,9)</note><seg type="margin" subtype="pagetop"><fw type="pageNum"><hi rend="overline">ρκ<supplied reason="unspecified">β</supplied></hi></fw></seg>
+<cb xml:id="P3yC1-P63" n="1"/>
+<lb xml:id="P3yC1L1-P63" n="1"/></ab></div><div n="B04K4" type="chapter"><ab n="B04K4V9"><w>λεγει</w><w>ουν</w><w>αυτω</w><w>η</w><w>γυνη</w><w>η</w><w>σα
+<lb break="no" xml:id="P3yC1L2-P63" n="2"/>μα<unclear>ρειτις</unclear></w><w>πως</w><w>συ</w><w>ϊουδαιος</w>
+<lb xml:id="P3yC1L3-P63" n="3"/><w>ων</w><w>παρ</w><w>εμου</w><w>πειν</w><w>αιτεις</w>
+<lb xml:id="P3yC1L4-P63" n="4"/><w>γυναικος</w><w>σαμαρι<unclear>τ</unclear>ιδος</w>
+<lb xml:id="P3yC1L5-P63" n="5"/><w>ουση<unclear>ς</unclear></w><w>ου</w><w>γαρ</w><w>συνχρων
+<lb break="no" xml:id="P3yC1L6-P63" n="6"/>ται</w><w>ϊουδαιοι</w><w>σαμαρει
+<lb break="no" xml:id="P3yC1L7-P63" n="7"/>ταις</w>
+<lb xml:id="P3yC1L8-P63" n="8"/><note type="editorial">Hermeneia beneath</note>
+<pb xml:id="P4x-P63" n="4→" type="page"/><note type="header">Fourth page, → (Jn 4,10)</note><seg type="margin" subtype="pagetop"><fw type="pageNum"><hi rend="overline">ρκγ</hi></fw></seg>
+<cb xml:id="P4xC1-P63" n="1"/>
+<lb xml:id="P4xC1L1-P63" n="1"/></ab><ab n="B04K4V10"><w>απεκριθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>ει<unclear>π</unclear><supplied reason="unspecified">ε</supplied><unclear>ν</unclear></w><w>αυτ<supplied reason="unspecified">η</supplied></w>
+<lb xml:id="P4xC1L2-P63" n="2"/><w>ει</w><w>ηδεις</w><w>την</w><w>δωρεαν</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>και</w>
+<lb xml:id="P4xC1L3-P63" n="3"/><w>τις</w><w>εστιν</w><w>ο</w><w>λεγων</w><w>σοι</w><w>δ<supplied reason="unspecified">ο</supplied>ς</w><w>μοι</w>
+<lb xml:id="P4xC1L4-P63" n="4"/><w>πειν</w><w>συ</w><w><unclear>α</unclear>ν</w><w>ητησας</w><w><supplied reason="unspecified">α</supplied>υ<unclear>τ</unclear>ον</w><w>και</w>
+<lb xml:id="P4xC1L5-P63" n="5"/><w>εδω<unclear>κε</unclear>ν</w><w>αν</w><w>σοι</w><app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="firsthand"><w>ζω</w></rdg></app><w><unclear>υδ</unclear>ωρ</w>
+<lb xml:id="P4xC1L6-P63" n="6"/><w>ζων</w>
+<lb xml:id="P4xC1L7-P63" n="7"/><note type="editorial">Hermeneia beneath</note></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

@@ -1,0 +1,74 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John for the Byzantine Text Project</title>
+<title type="document" key="461S4" n="30461">GA 461 supp4</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>Roderic L. Mullen</name><name>and members of the International Greek New Testament Project</name>
+</respStmt>
+<funder>The United Bible Societies</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.0">Version 2.0, created <date>11.7.2014</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>11.7.2014</date>
+<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country/>
+ <settlement/>
+ <repository/>
+ <idno/>
+ <msName xml:lang="la"/>
+ <altIdentifier type="GA"><idno>461</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>30461</idno></altIdentifier>
+ <!--altIdentifier type="Tischendorf"><idno></idno></altIdentifier>
+ <altIdentifier type="TM"><idno></idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno></idno></altIdentifier-->
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by Roderic Mullen and colleagues on the International Greek New Testament Project working towards an Electronic Edition of the Gospel According to John in the Byzantine Tradition, first published in 2007.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/byzantine/"/></p>
+
+<p>The plain text file was converted to XML by Hugh Houghton and Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p>
+<p>The original plain text header reads as follows: Status:G-A 461 (St Petersburg, Uspensky Gospels), dated to 835 in colophon John begins Folio 264r at 1.16--5.4 marked as doubtful-- 7.53-8.11 added twice --this file is corrector 2 for that block--paragraph breaks according to Eusebian Canon NumbersTranscribed by: RLMTranscription begun: 11.11.02Transcription finished:Transference to Collate by: RLMTransference to Collate begun: 11.11.02Transference to Collate finished:File date  and time:Placed in Level1: RLMLevel1 file date  and time: 11.11.02Placed in Level2: compared with transcription by MBM and differences resolvedPlaced in Level2 by: RLMLevel2 file date  and time: 14.04.03</p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="0" when="2014-07-09">Converted from plain text by Hugh Houghton using Python conversion scripts 1.0.</change>
+</revisionDesc>
+
+</teiHeader><text xml:lang="grc"><body><div n="04" type="book"><div n="B04K7" type="chapter"><ab n="B04K7V53"><w>και</w><w>επορευθη</w><w>εκαστος</w><w>εις</w><w>τον</w><w>οικον</w><w>αυτου</w></ab>
+<lb/></div><lb/><div n="B04K8" type="chapter"><ab n="B04K8V1"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>δε</w><w>επορευθη</w><w>προς</w><w>το</w><w>ορος</w><w>των</w><w>ελαιων</w></ab>
+<lb/><ab n="B04K8V2"><w>ορθρου</w><w>δε</w><w>παλιν</w><w>παρεγενετο</w><w>εις</w><w>το</w><w>ιερον</w><w>και</w><w>πας</w><w>ο</w><w>λαος</w><w>ηρχετο</w><w>προς</w><w>αυτον</w><w>και</w><w>καθισας</w><w>εδιδασκεν</w><w>αυτους</w></ab>
+<lb/><ab n="B04K8V3"><w>αγουσι</w><w><unclear>δε</unclear></w><w>οι</w><w>γραμματεις</w><w>και</w><w>οι</w><w>φαρισαιοι</w><w>προς</w><w>αυτον</w><w>γυναικα</w><w>επι</w><w>μοιχεια</w><w>κατειλημμενην</w><w>και</w><w>στησαντες</w><w>αυτην</w><w>εν</w><w>τω</w><w>μεσω</w></ab>
+<lb/><ab n="B04K8V4"><w>ειπον</w><w>αυτω</w><w>διδασκαλε</w><w>αυτη</w><w>η</w><w>γυνη</w><w>ειληπτ<ex>αι</ex></w><w>επ</w><w>αυτοφωρω</w><w>μοιχευομενη</w></ab>
+<lb/><ab n="B04K8V5"><w>εν</w><w>δε</w><w>τω</w><w>νομω</w><w>μωσης</w><w>ημιν</w><w>ενετειλατο</w><w>τας</w><w>τοιαυτας</w><w>λιθαζειν</w><w>συ</w><w>ουν</w><w>τι</w><w>λεγεις</w><w>περι</w><w>αυτου</w></ab>
+<lb/><ab n="B04K8V6"><w>τουτο</w><w>δε</w><w>ελεγον</w><w>πειραζοντες</w><w>αυτον</w><w>ινα</w><w>σχω<ex>σι</ex></w><w>κατηγοριαν</w><w>κατ</w><w>αυτου</w><w>ο</w><w>δε</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>κατω</w><w>κυψας</w><w>τω</w><w>δακτυλω</w><w>εγραφεν</w><w>εις</w><w>την</w><w>γην</w></ab>
+<lb/><ab n="B04K8V7"><w>ως</w><w>δε</w><w>επεμενον</w><w>ερωτωντες</w><w>αυτον</w><w>ανεκυψε</w><w>και</w><w>ειπεν</w><w>αυτοις</w><w>ο</w><w>αναμαρτητος</w><w>υμων</w><w>πρωτος</w><w>επ</w><w>αυτη</w><w>λιθον</w><w>βαλετω</w></ab>
+<lb/><ab n="B04K8V8"><w>και</w><w>παλιν</w><w>κατω</w><w>κυψας</w><w>εγραφεν</w><w>εις</w><w>την</w><w>γην</w></ab>
+<lb/><ab n="B04K8V9"><w>οι</w><w>δε</w><w>ακουσαντες</w><w>υπο</w><w>της</w><w>συνειδησεως</w><w>ελεγχομενοι</w><w>εξηρχοντο</w><w>εις</w><w>καθ</w><w>εις</w><w>αρξαμενοι</w><w>απο</w><w>των</w><w>πρεσβυτερων</w><w>εως</w><w>των</w><w>εσχατων</w><w>και</w><w>κατελειφθη</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>η</w><w>γυνη</w><w>εν</w><w>μεσω</w><w>εστωσα</w></ab>
+<lb/><ab n="B04K8V10"><w>ανακυψας</w><w>δε</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>μηδενα</w><w>θεασαμενος</w><w>πλην</w><w>της</w><w>γυναικος</w><w>ειπεν</w><w>αυτη</w><w>η</w><w>γυνη</w><w>που</w><w>εισιν</w><w>οι</w><w>κατηγοροι</w><w>σου</w><w>ουδεις</w><w>σε</w><w>κατεκρινεν</w></ab>
+<lb/><ab n="B04K8V11"><w>η</w><w>δε</w><w>ειπεν</w><w>ουδεις</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>ο</w><w>δε</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ειπεν</w><w>αυτη</w><w>ουδε</w><w>εγω</w><w>σε</w><w>κατακρινω</w><w>πορευου</w><w>και</w><w>απο</w><w>του</w><w>νυν</w><w>μηκετι</w><w>αμαρτανε</w></ab>
+<lb/></div></div></body></text></TEI>

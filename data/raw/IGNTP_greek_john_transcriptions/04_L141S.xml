@@ -1,0 +1,94 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAL141S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in L141S</title>
+				<title type="document" key="40141" n="L141S">GA L141S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>25.2.2014</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>25.2.2014</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>L141S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>40141</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	<revisionDesc>
+		<change n="0" when="2014-05-06">Liste id fixed (was missing a zero) by Rachel Kevern.</change>
+	</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">G-Α number: Supplement to L141Νame of book transcribed: JohnFirst folio transcribed: F 258rΒase text: TRnsΤranscribed by: acmΤranscription begun: 5.7.12Τranscription finished: 9.11.12Only one lection in L 141 has been written in a different hand.</note>
+<pb xml:id="P258r-L141S" n="258r" type="folio"/>
+<cb xml:id="P258rC1-L141S" n="1"/>
+<lb xml:id="P258rC1L1-L141S" n="1"/><note type="local">lect</note>
+<lb xml:id="P258rC1L2-L141S" n="2"/><note type="local">lect</note>
+<lb xml:id="P258rC1L3-L141S" n="3"/><note type="local">lect</note>
+<lb xml:id="P258rC1L4-L141S" n="4"/><note type="local">lect</note>
+<lb xml:id="P258rC1L5-L141S" n="5"/><note type="local">lect</note>
+<lb xml:id="P258rC1L6-L141S" n="6"/><note type="local">lect</note>
+<lb xml:id="P258rC1L7-L141S" n="7"/><note type="local">lect</note>
+<lb xml:id="P258rC1L8-L141S" n="8"/><note type="local">lect</note>
+<lb xml:id="P258rC1L9-L141S" n="9"/><note type="local">lect</note>
+<lb xml:id="P258rC1L10-L141S" n="10"/><note type="local">lect</note>
+<lb xml:id="P258rC1L11-L141S" n="11"/><note type="local">lect</note>
+<lb xml:id="P258rC1L12-L141S" n="12"/><note type="local">lect</note>
+<lb xml:id="P258rC1L13-L141S" n="13"/><note type="local">lect</note>
+<lb xml:id="P258rC1L14-L141S" n="14"/><note type="local">lect</note>
+<lb xml:id="P258rC1L15-L141S" n="15"/><note type="local">lect</note>
+<lb xml:id="P258rC1L16-L141S" n="16"/><note type="local">μαιος</note><div n="M9D8a" type="lection"><note type="local">John 19, 25-27; 21, 24-25</note><fw type="lectTitle"><w>μηνι</w><w>τω</w><w>αυτω</w><w><abbr type="num"><hi rend="overline">η</hi></abbr></w><w>του</w><w>αγιου</w><w>και</w>
+<lb xml:id="P258rC1L17-L141S" n="17"/><w>πανευφημου</w><w>αποστολου</w><w>και</w><w>ευαγγελι
+<lb break="no" xml:id="P258rC1L18-L141S" n="18"/>στου</w><w>θεολογου</w><w>του</w><w>ιωαννου</w>
+<lb xml:id="P258rC1L19-L141S" n="19"/><w>και</w><w>του</w><w>αγιου</w><w>μαρτυρος</w><w>ακακηου</w>
+<cb xml:id="P258rC2-L141S" n="2"/>
+<lb xml:id="P258rC2L1-L141S" n="1"/><w>κατα</w><w>ιωαννην</w><w>κεφαλαιον</w><w><abbr type="num"><hi rend="overline">σβ</hi></abbr></w></fw>
+<lb xml:id="P258rC2L2-L141S" n="2"/><div n="B04" type="book"><div n="B04K19" type="chapter"><ab n="B04K19V25"><w>τω</w><w>καιρω</w><w>εκεινω</w><w>ειστηκεισαν</w>
+<lb xml:id="P258rC2L3-L141S" n="3"/><w>παρα</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">στρω</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><w>η</w><w>μητηρ</w><w>αυ
+<lb break="no" xml:id="P258rC2L4-L141S" n="4"/>του</w><w>και</w><w>η</w><w>αδελφη</w><w>της</w><w><abbr type="nomSac"><hi rend="overline">μρς</hi></abbr></w><w>αυτου</w>
+<lb xml:id="P258rC2L5-L141S" n="5"/><w>μαρια</w><w>η</w><w>του</w><w>κλωπα</w><w>και</w><w>μαρι
+<lb break="no" xml:id="P258rC2L6-L141S" n="6"/>α</w><w>η</w><w>μαγδαλινη</w></ab><ab n="B04K19V26"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ουν</w><w>ιδων</w>
+<lb xml:id="P258rC2L7-L141S" n="7"/><w>την</w><w><abbr type="nomSac"><hi rend="overline">μρα</hi></abbr></w><app><rdg type="orig" hand="firsthand"><w>αυτου</w></rdg><rdg type="corr" hand="corrector"/></app><w>και</w><w>τον</w><w>μαθη
+<lb break="no" xml:id="P258rC2L8-L141S" n="8"/>την</w><w>παρεστωτα</w><w>ον</w><w>ηγαπα</w><w>λε
+<lb break="no" xml:id="P258rC2L9-L141S" n="9"/>γει</w><w>τη</w><w><abbr type="nomSac"><hi rend="overline">μρι</hi></abbr></w><w>αυτου</w><w>γυναι</w><w>ιδε</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w>
+<lb xml:id="P258rC2L10-L141S" n="10"/><w>σου</w></ab><ab n="B04K19V27"><w>ειτα</w><w>λεγει</w><w>τω</w><w>μαθητι</w><w>ιδου</w><w>η</w>
+<lb xml:id="P258rC2L11-L141S" n="11"/><w><abbr type="nomSac"><hi rend="overline">μηρ</hi></abbr></w><w>σου</w><w>και</w><w>απ</w><w>εκεινης</w><w>της</w><w>η
+<lb break="no" xml:id="P258rC2L12-L141S" n="12"/>μερας</w><w>ελαβεν</w><w>αυτην</w><w>ο</w><w>μαθητις</w>
+<lb xml:id="P258rC2L13-L141S" n="13"/><w>εκεινος</w><w>εις</w><w>τα</w><w>ιδια</w></ab></div><div n="B04K21" type="chapter"><ab n="B04K21V24"><w>ουτος</w><w>εστιν</w>
+<lb xml:id="P258rC2L14-L141S" n="14"/><w>ο</w><w>μαθητης</w><w>ο</w><w>μαρτυρων</w><w>περι</w><w>του
+<lb break="no" xml:id="P258rC2L15-L141S" n="15"/>των</w><w>και</w><w>γραψας</w><w>ταυτα</w><w>και</w><w>οιδα
+<lb break="no" xml:id="P258rC2L16-L141S" n="16"/>μεν</w><w>οτι</w><w>αληθεις</w><w>εστιν</w><w>η</w><w>μαρτυρια</w>
+<lb xml:id="P258rC2L17-L141S" n="17"/><w>αυτου</w></ab><ab n="B04K21V25"><w>εστην</w><w>δε</w><w>και</w><w>αλλα</w><w>πολλα</w><w>οσα</w>
+<lb xml:id="P258rC2L18-L141S" n="18"/><w>εποιεισεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ατηνα</w><w>εαν</w><w>γραφητε</w>
+<lb xml:id="P258rC2L19-L141S" n="19"/><w>καθ</w><w>εν</w><w>ουδε</w><w>αυτον</w><w>οιμαι</w><w>τον</w><w>κοσμον</w>
+<lb xml:id="P258rC2L20-L141S" n="20"/><w>χωρησαι</w><w>τα</w><w>γραφομενα</w><w>βηβλια</w><w>αμην</w></ab></div></div></div></body></text></TEI>

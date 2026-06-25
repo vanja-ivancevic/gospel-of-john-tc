@@ -1,0 +1,295 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAL640S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in L640S</title>
+				<title type="document" key="40640" n="L640S">GA L640S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="4">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="4">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>25.2.2014</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>25.2.2014</date>
+				<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>L640S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>40640</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was initially made by the Byzantine Text of John Project in 2004-7, led by Roderic L. Mullen, and later adopted for the International Greek New Testament Project in its work towards the Editio Critica Maior of John.</p>
+<p>The IGNTP transcription file was duplicated for the standalone version of the Byzantine Text of John on 9.7.2014. This means that there may be slight discrepancies between the 2007 file used to prepared the Byzantine apparatus and the 2014 transcription in the present file.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used were version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	<revisionDesc>
+		<change n="2" when="2014-06-23">21.15 block marker changed to 21.25 by Rachel Kevern.</change>
+		<change n="1" when="2014-06-13">Ghost pages removed by Catherine Smith.</change>
+		<change n="0" when="2014-05-06">Liste id fixed (was missing a zero) by Rachel Kevern.</change>
+	</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">Status:G-A number: L 640 (Athos Dionysiou 21) SupplementΝame of book transcribed: JohnFirst folio transcribed: 237rΤranscribed by: RLM Τranscription begun: 08.07.02Τranscription finished: 06.11.02Τransference to Collate by: RLMΤransference to Collate begun: 08.07.02Τransference to Collate finished: 06.11.02File date  and time:Ρlaced in Level1: RLMLevel1 file date  and time: 06.11.02Ρlaced in Level2: read a second time and compared with the collation of Johannes Karavidopoulos.  Ηoly Week and Menologion read in MuensterΡlaced in Level2 by: RLMLevel2 file date  and time: 15.11.02Page layout added by: acmStart date: 23.8.13 End date: 28.8.13This manuscript is a supplement to L 640 covering F237r - F250v.  </note>
+<pb xml:id="P237r-L640S" n="237r" type="folio"/>
+<cb xml:id="P237rC1-L640S" n="1"/>
+<lb xml:id="P237rC1L1-L640S" n="1"/><div n="R11" type="lection"><note type="local">John 21,14-21 (Scrivener and Pinakes John 21,15-25)</note><div n="B04" type="book"><div n="B04K21" type="chapter"><note type="editorial">The beginning of this lection is lacunose.</note><ab n="B04K21V25"><gap reason="lacuna" unit="verse" extent="rest"/><w>τον</w><w>κοσμον</w><w>χωρη
+<lb break="no" xml:id="P237rC1L2-L640S" n="2"/>σαι</w><w>τα</w><w>γραφομε
+<lb break="no" xml:id="P237rC1L3-L640S" n="3"/>να</w><w>βιβλια</w><w>αμην</w>
+<lb xml:id="P237rC1L4-L640S" n="4"/><note type="local">lect</note>
+<lb xml:id="P237rC1L5-L640S" n="5"/><note type="local">lect</note>
+<lb xml:id="P237rC1L6-L640S" n="6"/><note type="local">lect</note>
+<lb xml:id="P237rC1L7-L640S" n="7"/><note type="local">lect</note>
+<lb xml:id="P237rC1L8-L640S" n="8"/><note type="local">lect</note>
+<lb xml:id="P237rC1L9-L640S" n="9"/><note type="local">lect</note>
+<lb xml:id="P237rC1L10-L640S" n="10"/><note type="local">lect</note>
+<lb xml:id="P237rC1L11-L640S" n="11"/><note type="local">lect</note>
+<cb xml:id="P237rC2-L640S" n="2"/>
+<lb xml:id="P237rC2L1-L640S" n="1"/><note type="local">lect</note>
+<pb xml:id="P244r-L640S" n="244r" type="folio"/>
+<cb xml:id="P244rC1-L640S" n="1"/>
+<lb xml:id="P244rC1L1-L640S" n="1"/><note type="local">lect</note>
+<lb xml:id="P244rC1L2-L640S" n="2"/><note type="local">lect</note>
+<lb xml:id="P244rC1L3-L640S" n="3"/><note type="local">lect</note>
+<lb xml:id="P244rC1L4-L640S" n="4"/><note type="local">lect</note>
+<lb xml:id="P244rC1L5-L640S" n="5"/><note type="local">lect</note>
+<lb xml:id="P244rC1L6-L640S" n="6"/><note type="local">lect</note>
+<lb xml:id="P244rC1L7-L640S" n="7"/><note type="local">lect</note>
+<lb xml:id="P244rC1L8-L640S" n="8"/><note type="local">lect</note>
+<lb xml:id="P244rC1L9-L640S" n="9"/><note type="local">lect</note>
+<lb xml:id="P244rC1L10-L640S" n="10"/><note type="local">lect</note></ab></div></div></div><div n="S5W1D4a" type="lection"><note type="local">John 12,17-50 Matins (Scrivener 13,17-47 or 11,47-53 (Gale)</note><fw type="lectTitle"><seg type="margin" subtype="pagetop"><w>τη</w><w>αγια</w><w>και</w><w>μεγαλη</w><w><abbr type="num"><hi rend="overline">δ</hi></abbr></w></seg><w>εκ</w><w>του</w><w>κατα</w><w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w></fw>
+<lb xml:id="P244rC1L11-L640S" n="11"/><div n="B04" type="book"><div n="B04K12" type="chapter"><ab n="B04K12V17"><w>τω</w><w>καιρω</w><w>εκεινω</w>
+<lb xml:id="P244rC1L12-L640S" n="12"/><w>εμαρτυρει</w><w>ο</w><w>οχλος</w>
+<lb xml:id="P244rC1L13-L640S" n="13"/><w>ο</w><w>ων</w><w>μετ</w><w>αυτου</w><w>ο
+<lb break="no" xml:id="P244rC1L14-L640S" n="14"/>τε</w><w>τον</w><w>λαζαρον</w><w>ε
+<lb break="no" xml:id="P244rC1L15-L640S" n="15"/>φωνησεν</w><w>εκ</w><w>του</w>
+<lb xml:id="P244rC1L16-L640S" n="16"/><w>μνημειου</w><w>και</w><w>ηγει
+<lb break="no" xml:id="P244rC1L17-L640S" n="17"/>ρεν</w><w>αυτον</w><w>εκ</w><w>νεκρων</w>
+<lb xml:id="P244rC1L18-L640S" n="18"/></ab><ab n="B04K12V18"><w>δια</w><w>τουτο</w><w>και</w><w>υπην
+<lb break="no" xml:id="P244rC1L19-L640S" n="19"/>τισεν</w><w>αυτω</w><w>ο</w><w>οχλος</w>
+<lb xml:id="P244rC1L20-L640S" n="20"/><w>οτι</w><w>ηκουσε</w><w>τουτο</w>
+<lb xml:id="P244rC1L21-L640S" n="21"/><w>αυτον</w><w>πεποιηκεναι</w>
+<cb xml:id="P244rC2-L640S" n="2"/>
+<lb xml:id="P244rC2L1-L640S" n="1"/><w>το</w><w>σημειον</w></ab><ab n="B04K12V19"><w>οι</w><w>ουν</w>
+<lb xml:id="P244rC2L2-L640S" n="2"/><w>φαρισαιοι</w><w>ειπον</w>
+<lb xml:id="P244rC2L3-L640S" n="3"/><w>προς</w><w>αυτους</w><w>θεω
+<lb break="no" xml:id="P244rC2L4-L640S" n="4"/>ρειτε</w><w>οτι</w><w>ουκ</w><w>ωφε
+<lb break="no" xml:id="P244rC2L5-L640S" n="5"/>λειται</w><w>ουδεν</w><w>ιδε</w>
+<lb xml:id="P244rC2L6-L640S" n="6"/><w>ο</w><w>κοσμος</w><w>οπισω</w>
+<lb xml:id="P244rC2L7-L640S" n="7"/><w>αυτου</w><w>απηλθεν</w>
+<lb xml:id="P244rC2L8-L640S" n="8"/></ab><ab n="B04K12V20"><w>ησαν</w><w>δε</w><w>τινες</w><w>ελλη
+<lb break="no" xml:id="P244rC2L9-L640S" n="9"/>νες</w><w>εκ</w><w>των</w><w>αναβαι
+<lb break="no" xml:id="P244rC2L10-L640S" n="10"/>νοντων</w><w>ινα</w><w>προσ
+<lb break="no" xml:id="P244rC2L11-L640S" n="11"/>κυνησωσιν</w><w>εν</w><w>τη</w>
+<lb xml:id="P244rC2L12-L640S" n="12"/><w>εορτη</w></ab><ab n="B04K12V21"><w>ουτοι</w><w>προσ
+<lb break="no" xml:id="P244rC2L13-L640S" n="13"/>ηλθον</w><w>φιλιππω</w><w>τω</w>
+<lb xml:id="P244rC2L14-L640S" n="14"/><w>απο</w><w>βηθσαιδα</w>
+<lb xml:id="P244rC2L15-L640S" n="15"/><w>της</w><w>γαλιλαιας</w><w>και</w>
+<lb xml:id="P244rC2L16-L640S" n="16"/><w>ηρωτων</w><w>αυτον</w><w>λε
+<lb break="no" xml:id="P244rC2L17-L640S" n="17"/>γοντες</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>θελομεν</w>
+<lb xml:id="P244rC2L18-L640S" n="18"/><w>τον</w><w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><w>ιδειν</w></ab><ab n="B04K12V22"><w>ερχε
+<lb break="no" xml:id="P244rC2L19-L640S" n="19"/>τε</w><w>φιλιππος</w><w>και</w>
+<lb xml:id="P244rC2L20-L640S" n="20"/><w>λεγει</w><w>τω</w><w>ανδρεα</w>
+<lb xml:id="P244rC2L21-L640S" n="21"/><w>και</w><w>παλιν</w><w>ανδρεας</w>
+<pb xml:id="P244v-L640S" n="244v" type="folio"/>
+<cb xml:id="P244vC1-L640S" n="1"/>
+<lb xml:id="P244vC1L1-L640S" n="1"/><w>και</w><w>φιλιππος</w><w>λε
+<lb break="no" xml:id="P244vC1L2-L640S" n="2"/>γουσι</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w></ab><ab n="B04K12V23"><w>ο</w><w>δε</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P244vC1L3-L640S" n="3"/><w>απεκρινατο</w><w>αυτοις</w>
+<lb xml:id="P244vC1L4-L640S" n="4"/><w>λεγων</w><w>εληλυθεν</w><w>η</w>
+<lb xml:id="P244vC1L5-L640S" n="5"/><w>ωρα</w><w>ινα</w><w>δοξασθει</w>
+<lb xml:id="P244vC1L6-L640S" n="6"/><w>ο</w><w>υιος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w></ab><ab n="B04K12V24"><w>α
+<lb break="no" xml:id="P244vC1L7-L640S" n="7"/>μην</w><w>αμην</w><w>λεγω</w><w>υμιν</w>
+<lb xml:id="P244vC1L8-L640S" n="8"/><w>εαν</w><w>μη</w><w>ο</w><w>κοκκος</w>
+<lb xml:id="P244vC1L9-L640S" n="9"/><w>του</w><w>σιτου</w><w>πεσων</w><w>εις</w>
+<lb xml:id="P244vC1L10-L640S" n="10"/><w>την</w><w>γην</w><w>αποθανει</w>
+<lb xml:id="P244vC1L11-L640S" n="11"/><w>αυτος</w><w>μονος</w><w>μενει</w>
+<lb xml:id="P244vC1L12-L640S" n="12"/><w>εαν</w><w>δε</w><w>αποθανει</w><w>πο
+<lb break="no" xml:id="P244vC1L13-L640S" n="13"/>λυν</w><w>καρπον</w><w>φερει</w>
+<lb xml:id="P244vC1L14-L640S" n="14"/></ab><ab n="B04K12V25"><w>ο</w><w>φιλων</w><w>την</w><w>ψυχην</w>
+<lb xml:id="P244vC1L15-L640S" n="15"/><w>αυτου</w><w>απολεσει</w>
+<lb xml:id="P244vC1L16-L640S" n="16"/><w>αυτην</w><w>και</w><w>ο</w><w>μισων</w>
+<lb xml:id="P244vC1L17-L640S" n="17"/><w>την</w><w>ψυχην</w><w>αυτου</w><w>εν</w>
+<lb xml:id="P244vC1L18-L640S" n="18"/><w>τω</w><w>κοσμω</w><w>τουτο</w><w>εις</w>
+<lb xml:id="P244vC1L19-L640S" n="19"/><w>ζωην</w><w>αιωνιον</w><w>φυλα
+<lb break="no" xml:id="P244vC1L20-L640S" n="20"/>ξει</w><w>αυτην</w></ab><ab n="B04K12V26"><w>εαν</w><w>εμοι</w>
+<lb xml:id="P244vC1L21-L640S" n="21"/><w>διακονει</w><w>τις</w><w>εμοι</w>
+<cb xml:id="P244vC2-L640S" n="2"/>
+<lb xml:id="P244vC2L1-L640S" n="1"/><w>ακολουθειτω</w><w>και</w>
+<lb xml:id="P244vC2L2-L640S" n="2"/><w>οπου</w><w>ειμι</w><w>εγω</w><w>εκει</w>
+<lb xml:id="P244vC2L3-L640S" n="3"/><w>και</w><w>ο</w><w>διακονος</w><w>ο</w><w>ε
+<lb break="no" xml:id="P244vC2L4-L640S" n="4"/>μος</w><w>εσται</w><w>και</w><w>εαν</w><w>τις</w>
+<lb xml:id="P244vC2L5-L640S" n="5"/><w>εμοι</w><w>διακονει</w><w>τιμη
+<lb break="no" xml:id="P244vC2L6-L640S" n="6"/>σει</w><w>αυτον</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w></ab><ab n="B04K12V27"><w>νυν</w>
+<lb xml:id="P244vC2L7-L640S" n="7"/><w>η</w><w>ψυχη</w><w>μου</w><w>τεταρα
+<lb break="no" xml:id="P244vC2L8-L640S" n="8"/>κται</w><w>και</w><w>τι</w><w>ειπω</w>
+<lb xml:id="P244vC2L9-L640S" n="9"/><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>σωσον</w><w>με</w><w>εκ</w><w>της</w>
+<lb xml:id="P244vC2L10-L640S" n="10"/><w>ωρας</w><w>ταυτης</w><w>αλλα</w>
+<lb xml:id="P244vC2L11-L640S" n="11"/><w>δια</w><w>τουτο</w><w>ηλθον</w><w>εις</w>
+<lb xml:id="P244vC2L12-L640S" n="12"/><w>την</w><w>ωραν</w><w>ταυτην</w></ab><ab n="B04K12V28"><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w>
+<lb xml:id="P244vC2L13-L640S" n="13"/><w>δοξασον</w><w>σου</w><w>το</w><w>ονο
+<lb break="no" xml:id="P244vC2L14-L640S" n="14"/>μα</w><w>ηλθεν</w><w>ουν</w><w>φωνη</w>
+<lb xml:id="P244vC2L15-L640S" n="15"/><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><w>και</w><w>εδο
+<lb break="no" xml:id="P244vC2L16-L640S" n="16"/>ξασα</w><w>και</w><w>παλιν</w><w>δοξα
+<lb break="no" xml:id="P244vC2L17-L640S" n="17"/>σω</w></ab><ab n="B04K12V29"><w>ο</w><w>ουν</w><w>οχλος</w><w>ο</w><w>ε
+<lb break="no" xml:id="P244vC2L18-L640S" n="18"/>στως</w><w>και</w><w>ακουσας</w><w>ελε
+<lb break="no" xml:id="P244vC2L19-L640S" n="19"/>γε</w><w>βροντην</w><w>γεγονεναι</w>
+<lb xml:id="P244vC2L20-L640S" n="20"/><w>αλλοι</w><w>ελεγον</w><w>αγγελος</w>
+<lb xml:id="P244vC2L21-L640S" n="21"/><w>αυτω</w><w>λελαληκεν</w>
+<pb xml:id="P245r-L640S" n="245r" type="folio"/>
+<cb xml:id="P245rC1-L640S" n="1"/>
+<lb xml:id="P245rC1L1-L640S" n="1"/></ab><ab n="B04K12V30"><w>απεκριθη</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>ει
+<lb break="no" xml:id="P245rC1L2-L640S" n="2"/>πεν</w><w>ου</w><w>δι</w><w>εμε</w><w>αυτη</w>
+<lb xml:id="P245rC1L3-L640S" n="3"/><w>η</w><w>φωνη</w><w>γεγονεν</w><w>αλλα</w>
+<lb xml:id="P245rC1L4-L640S" n="4"/><w>δι</w><w>υμας</w></ab><ab n="B04K12V31"><w>νυν</w><w>κρισις</w>
+<lb xml:id="P245rC1L5-L640S" n="5"/><w>εστι</w><w>του</w><w>κοσμου</w><w>τουτου</w>
+<lb xml:id="P245rC1L6-L640S" n="6"/><w>νυν</w><w>ο</w><w>αρχων</w><w>του</w><w>κοσ
+<lb break="no" xml:id="P245rC1L7-L640S" n="7"/>μου</w><w>τουτου</w><w>εκβλη
+<lb break="no" xml:id="P245rC1L8-L640S" n="8"/>θησεται</w><w>εξω</w></ab><ab n="B04K12V32"><w>καγω</w>
+<lb xml:id="P245rC1L9-L640S" n="9"/><w>εαν</w><w>υψωθω</w><w>εκ</w><w>της</w><w>γης</w>
+<lb xml:id="P245rC1L10-L640S" n="10"/><w>παντας</w><w>ελκυσω</w><w>προς</w>
+<lb xml:id="P245rC1L11-L640S" n="11"/><w>εμαυτον</w></ab><ab n="B04K12V33"><w>τουτο</w><w>δε</w><w>ε
+<lb break="no" xml:id="P245rC1L12-L640S" n="12"/>λεγε</w><w>σημαινων</w><w>ποιω</w>
+<lb xml:id="P245rC1L13-L640S" n="13"/><w>θανατω</w><w>ημελλεν</w>
+<lb xml:id="P245rC1L14-L640S" n="14"/><w>αποθνησκειν</w></ab><ab n="B04K12V34"><w>απε
+<lb break="no" xml:id="P245rC1L15-L640S" n="15"/>κριθη</w><w>αυτω</w><w>ο</w><w>οχλος</w>
+<lb xml:id="P245rC1L16-L640S" n="16"/><w>ημεις</w><w>ηκουσαμεν</w>
+<lb xml:id="P245rC1L17-L640S" n="17"/><w>εκ</w><w>του</w><w>νομου</w><w>οτι</w><w>ο</w>
+<lb xml:id="P245rC1L18-L640S" n="18"/><w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w><w>μενει</w><w>εις</w><w>τον</w><w>αιω
+<lb break="no" xml:id="P245rC1L19-L640S" n="19"/>να</w><w>και</w><w>πως</w><w>συ</w><w>λεγεις</w>
+<lb xml:id="P245rC1L20-L640S" n="20"/><w>δει</w><w>υψωθηναι</w><w>τον</w><w>υι
+<lb break="no" xml:id="P245rC1L21-L640S" n="21"/>ον</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><w>τις</w><w>εστιν</w>
+<cb xml:id="P245rC2-L640S" n="2"/>
+<lb xml:id="P245rC2L1-L640S" n="1"/><w>ουτος</w><w>ο</w><w>υιος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb xml:id="P245rC2L2-L640S" n="2"/></ab><ab n="B04K12V35"><w>ειπεν</w><w>ουν</w><w>αυτοις</w><w>ο</w>
+<lb xml:id="P245rC2L3-L640S" n="3"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ετι</w><w>μικρον</w><w>χρο
+<lb break="no" xml:id="P245rC2L4-L640S" n="4"/>νον</w><w>το</w><w>φως</w><w>μεθ</w><w>υ
+<lb break="no" xml:id="P245rC2L5-L640S" n="5"/>μων</w><w>εστι</w><w>περιπατει
+<lb break="no" xml:id="P245rC2L6-L640S" n="6"/>τε</w><w>εως</w><w>το</w><w>φως</w><w>εχε
+<lb break="no" xml:id="P245rC2L7-L640S" n="7"/>τε</w><w>ινα</w><w>μη</w><w>σκοτεια</w>
+<lb xml:id="P245rC2L8-L640S" n="8"/><w>υμας</w><w>καταλαβοι</w><w>και</w>
+<lb xml:id="P245rC2L9-L640S" n="9"/><w>ο</w><w>περιπατων</w><w>εν</w><w>τη</w>
+<lb xml:id="P245rC2L10-L640S" n="10"/><w>σκοτεια</w><w>ουκ</w><w>οιδε</w>
+<lb xml:id="P245rC2L11-L640S" n="11"/><w>που</w><w>υπαγει</w></ab><ab n="B04K12V36"><w>εως</w><w>το</w>
+<lb xml:id="P245rC2L12-L640S" n="12"/><w>φως</w><w>εχετε</w><w>πιστευε
+<lb break="no" xml:id="P245rC2L13-L640S" n="13"/>τε</w><w>εις</w><w>το</w><w>φως</w><w>ινα</w>
+<lb xml:id="P245rC2L14-L640S" n="14"/><w>υιοι</w><w>φωτος</w><w>γενησθε</w>
+<lb xml:id="P245rC2L15-L640S" n="15"/><w>ταυτα</w><w>ελαλησεν</w><w>ο</w>
+<lb xml:id="P245rC2L16-L640S" n="16"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>απελθων</w><w>ε
+<lb break="no" xml:id="P245rC2L17-L640S" n="17"/>κρυβη</w><w>απ</w><w>αυτων</w>
+<lb xml:id="P245rC2L18-L640S" n="18"/></ab><ab n="B04K12V37"><w>τοσαυτα</w><w>δε</w><w>αυτου</w>
+<lb xml:id="P245rC2L19-L640S" n="19"/><w>σημεια</w><w>πεποιη<unclear>κο</unclear>
+<lb break="no" xml:id="P245rC2L20-L640S" n="20"/>τος</w><w>εμπροσθεν</w><w>αυ
+<lb break="no" xml:id="P245rC2L21-L640S" n="21"/>των</w><w>ουκ</w><w>επιστευον</w>
+<pb xml:id="P245v-L640S" n="245v" type="folio"/>
+<cb xml:id="P245vC1-L640S" n="1"/>
+<lb xml:id="P245vC1L1-L640S" n="1"/><w>εις</w><w>αυτον</w></ab><ab n="B04K12V38"><w>ινα</w><w>ο</w><w>λο
+<lb break="no" xml:id="P245vC1L2-L640S" n="2"/>γος</w><w>ησαιου</w><w>του</w><w>προ
+<lb break="no" xml:id="P245vC1L3-L640S" n="3"/>φητου</w><w>πληρωθη</w>
+<lb xml:id="P245vC1L4-L640S" n="4"/><w>ον</w><w>ειπε</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>τις</w><w>επι
+<lb break="no" xml:id="P245vC1L5-L640S" n="5"/>στευσε</w><w>τη</w><w>ακοη</w><w>η
+<lb break="no" xml:id="P245vC1L6-L640S" n="6"/>μων</w><w>και</w><w>ο</w><w>βραχιων</w>
+<lb xml:id="P245vC1L7-L640S" n="7"/><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><w>τινι</w><w>απεκαλυ
+<lb break="no" xml:id="P245vC1L8-L640S" n="8"/>φθη</w></ab><ab n="B04K12V39"><w>δια</w><w>τουτο</w><w>ου
+<lb break="no" xml:id="P245vC1L9-L640S" n="9"/>κ</w><w>ηδυναντο</w><w>πιστε
+<lb break="no" xml:id="P245vC1L10-L640S" n="10"/>υειν</w><w>οτι</w><w>παλιν</w><w>ει
+<lb break="no" xml:id="P245vC1L11-L640S" n="11"/>πεν</w><w>ησαιας</w></ab><ab n="B04K12V40"><w>τετυ
+<lb break="no" xml:id="P245vC1L12-L640S" n="12"/>φλωκεν</w><w>αυτων</w><w>τους</w>
+<lb xml:id="P245vC1L13-L640S" n="13"/><w>οφθαλμους</w><w>και</w><w>πε
+<lb break="no" xml:id="P245vC1L14-L640S" n="14"/>πωρωκεν</w><w>αυτων</w>
+<lb xml:id="P245vC1L15-L640S" n="15"/><w>την</w><w>καρδιαν</w><w>ινα</w>
+<lb xml:id="P245vC1L16-L640S" n="16"/><w>μη</w><w>ιδωσι</w><w>τοις</w><w>ο
+<lb break="no" xml:id="P245vC1L17-L640S" n="17"/>φθαλμοις</w><w>και</w><w>νοη
+<lb break="no" xml:id="P245vC1L18-L640S" n="18"/>σωσι</w><w>τη</w><w>καρδια</w><w>και</w>
+<lb xml:id="P245vC1L19-L640S" n="19"/><w>επιστραφωσι</w><w>και</w><w>ι
+<lb break="no" xml:id="P245vC1L20-L640S" n="20"/>ασομαι</w><w>αυτους</w>
+<lb xml:id="P245vC1L21-L640S" n="21"/></ab><ab n="B04K12V41"><w>ταυτα</w><w>ειπεν</w><w>ησαι
+<cb xml:id="P245vC2-L640S" n="2" break="no"/>
+<lb xml:id="P245vC2L1-L640S" n="1"/>ας</w><w>οτε</w><w>ειδε</w><w>την</w><w>δο
+<lb break="no" xml:id="P245vC2L2-L640S" n="2"/>ξαν</w><w>αυτου</w><w>και</w><w>ελα
+<lb break="no" xml:id="P245vC2L3-L640S" n="3"/>λησε</w><w>περι</w><w>αυτου</w>
+<lb xml:id="P245vC2L4-L640S" n="4"/></ab><ab n="B04K12V42"><w>ομως</w><w>μεντοι</w><w>και</w><w>εκ</w>
+<lb xml:id="P245vC2L5-L640S" n="5"/><w>των</w><w>αρχοντων</w><w>πο
+<lb break="no" xml:id="P245vC2L6-L640S" n="6"/>λλοι</w><w>επιστευσαν</w><w>εις</w>
+<lb xml:id="P245vC2L7-L640S" n="7"/><w>αυτον</w><w>αλλα</w><w>δια</w><w>τους</w>
+<lb xml:id="P245vC2L8-L640S" n="8"/><w>φαρισαιους</w><w>ουχ</w><w>ο
+<lb break="no" xml:id="P245vC2L9-L640S" n="9"/>μολογουν</w><w>ινα</w><w>μη</w><w>α
+<lb break="no" xml:id="P245vC2L10-L640S" n="10"/>ποσυναγωγοι</w><w>γε
+<lb break="no" xml:id="P245vC2L11-L640S" n="11"/>νονται</w></ab><ab n="B04K12V43"><w>ηγαπησαν</w>
+<lb xml:id="P245vC2L12-L640S" n="12"/><w>γαρ</w><w>την</w><w>δοξαν</w><w>των</w>
+<lb xml:id="P245vC2L13-L640S" n="13"/><w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w><w>μαλλον</w><w>υπερ</w>
+<lb xml:id="P245vC2L14-L640S" n="14"/><w>την</w><w>δοξαν</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P245vC2L15-L640S" n="15"/></ab><ab n="B04K12V44"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>δε</w><w>εκραξε</w><w>και</w>
+<lb xml:id="P245vC2L16-L640S" n="16"/><w>ειπεν</w><w>ο</w><w>πιστευων</w>
+<lb xml:id="P245vC2L17-L640S" n="17"/><w>εις</w><w>εμε</w><w>ου</w><w>πιστευει</w>
+<lb xml:id="P245vC2L18-L640S" n="18"/><w>εις</w><w>εμε</w><w>αλλ</w><w>εις</w><w>τον</w>
+<lb xml:id="P245vC2L19-L640S" n="19"/><w>πεμψαντα</w><w>με</w></ab><ab n="B04K12V45"/><ab n="B04K12V46"><w>ε
+<lb break="no" xml:id="P245vC2L20-L640S" n="20"/>γω</w><w>φως</w><w>εις</w><w>τον</w><w>κο
+<lb break="no" xml:id="P245vC2L21-L640S" n="21"/>σμον</w><w>εληλυθα</w><w>ι
+<pb xml:id="P246r-L640S" n="246r" type="folio" break="no"/>
+<cb xml:id="P246rC1-L640S" n="1"/>
+<lb xml:id="P246rC1L1-L640S" n="1"/>να</w><w>πας</w><w>ο</w><w>πιστευων</w>
+<lb xml:id="P246rC1L2-L640S" n="2"/><w>εις</w><w>εμε</w><w>εν</w><w>τη</w><w>σκο
+<lb break="no" xml:id="P246rC1L3-L640S" n="3"/>τια</w><w>μη</w><w>μεινει</w></ab><ab n="B04K12V47"><w>και</w>
+<lb xml:id="P246rC1L4-L640S" n="4"/><w>εαν</w><w>τις</w><w>μου</w><w>ακουση</w>
+<lb xml:id="P246rC1L5-L640S" n="5"/><w>των</w><w>ρηματων</w><w>και</w>
+<lb xml:id="P246rC1L6-L640S" n="6"/><w>μη</w><w>πιστευση</w><w>εγω</w><w>ου</w>
+<lb xml:id="P246rC1L7-L640S" n="7"/><w>κρινω</w><w>αυτον</w><w>ου</w><w>γαρ</w>
+<lb xml:id="P246rC1L8-L640S" n="8"/><w>ηλθον</w><w>ινα</w><w>κρινω</w>
+<lb xml:id="P246rC1L9-L640S" n="9"/><w>τον</w><w>κοσμον</w><w>αλλ</w><w>ινα</w>
+<lb xml:id="P246rC1L10-L640S" n="10"/><w>σωσω</w><w>τον</w><w>κοσμον</w>
+<lb xml:id="P246rC1L11-L640S" n="11"/></ab><ab n="B04K12V48"><w>ο</w><w>αθετων</w><w>εμε</w><w>και</w>
+<lb xml:id="P246rC1L12-L640S" n="12"/><w>μη</w><w>λαμβανων</w><w>τα</w>
+<lb xml:id="P246rC1L13-L640S" n="13"/><w>ρηματα</w><w>μου</w><w>εχει</w>
+<lb xml:id="P246rC1L14-L640S" n="14"/><w>τον</w><w>κρινοντα</w><w>αυτον</w>
+<lb xml:id="P246rC1L15-L640S" n="15"/><w>ο</w><w>λογος</w><w>ον</w><w>ελαλησα</w>
+<lb xml:id="P246rC1L16-L640S" n="16"/><w>εκεινος</w><w>κρινει</w><w>αυ
+<lb break="no" xml:id="P246rC1L17-L640S" n="17"/>τον</w><w>εν</w><w>τη</w><w>εσχατη</w><w>η
+<lb break="no" xml:id="P246rC1L18-L640S" n="18"/>μερα</w></ab><ab n="B04K12V49"><w>οτι</w><w>εγω</w><w>εξ</w><w>ε
+<lb break="no" xml:id="P246rC1L19-L640S" n="19"/>μαυτου</w><w>ουκ</w><w>ελαλη
+<lb break="no" xml:id="P246rC1L20-L640S" n="20"/>σα</w><w>αλλ</w><w>ο</w><w>πεμψας</w>
+<lb xml:id="P246rC1L21-L640S" n="21"/><w>με</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>αυτος</w><w>μοι</w>
+<cb xml:id="P246rC2-L640S" n="2"/>
+<lb xml:id="P246rC2L1-L640S" n="1"/><w>εντολην</w><w>εδωκε</w>
+<lb xml:id="P246rC2L2-L640S" n="2"/><w>τι</w><w>ειπω</w><w>και</w><w>τι</w><w>λα
+<lb break="no" xml:id="P246rC2L3-L640S" n="3"/>λησω</w></ab><ab n="B04K12V50"><w>και</w><w>οιδα</w><w>ο
+<lb break="no" xml:id="P246rC2L4-L640S" n="4"/>τι</w><w>η</w><w>εντολη</w><w>αυτου</w>
+<lb xml:id="P246rC2L5-L640S" n="5"/><w>ζωη</w><w>αιωνιος</w><w>εστιν</w>
+<lb xml:id="P246rC2L6-L640S" n="6"/><w>α</w><w>ουν</w><w>λαλω</w><w>εγω</w><w>κα
+<lb break="no" xml:id="P246rC2L7-L640S" n="7"/>θως</w><w>ειρηκε</w><w>μοι</w><w>ο</w>
+<lb xml:id="P246rC2L8-L640S" n="8"/><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>ουτως</w><w>λαλω</w>
+<lb xml:id="P246rC2L9-L640S" n="9"/><note type="local">lect</note>
+<lb xml:id="P246rC2L10-L640S" n="10"/><note type="local">lect</note>
+<lb xml:id="P246rC2L11-L640S" n="11"/><note type="local">lect</note>
+<lb xml:id="P246rC2L12-L640S" n="12"/><note type="local">lect</note>
+<lb xml:id="P246rC2L13-L640S" n="13"/><note type="local">lect</note>
+<lb xml:id="P246rC2L14-L640S" n="14"/><note type="local">lect</note>
+<lb xml:id="P246rC2L15-L640S" n="15"/><note type="local">lect</note>
+<lb xml:id="P246rC2L16-L640S" n="16"/><note type="local">lect</note>
+<lb xml:id="P246rC2L17-L640S" n="17"/><note type="local">lect</note>
+<lb xml:id="P246rC2L18-L640S" n="18"/><note type="local">lect</note>
+<lb xml:id="P246rC2L19-L640S" n="19"/><note type="local">lect</note>
+<lb xml:id="P246rC2L20-L640S" n="20"/><note type="local">lect</note>
+<lb xml:id="P246rC2L21-L640S" n="21"/><note type="local">lect</note></ab></div></div></div></body></text></TEI>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL16"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in Codex Sangallensis 1394</title>
+<title type="document" n="VL16">VL16</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<resp>Transcribed and reconciled by</resp><name>P.H. Burton</name>
+<name>D.C. Parker</name><name>H.A.G. Houghton</name><resp>Proofread by</resp><name>H.A.G. Houghton</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Switzerland</country>
+<settlement>St Gall</settlement>
+<repository>Stadtbibliothek</repository>
+<idno>s.n.</idno>
+<msName xml:lang="la">Codex Sangallensis</msName>
+ <altIdentifier type="Vetus_Latina"><idno>16</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>7.978a</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Xn</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>n</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>67122</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>8391</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Fragmentum Euangelii Secundum Iohannem (ex Quattuor Evangeliis)</title>
+<title type="uniform" xml:lang="en">A fragment of John, from a manuscript of the four Gospels in order Mt Jo Lc Mc</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p/></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="2"><p>In two columns.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>uncial</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink with rubrics</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>Italy</origPlace>
+<origDate notBefore="40001" notAfter="50001">Fifth century</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white photographs in ITSEE, supplied by Vetus Latina-Institut.</bibl>
+<bibl>Images of the Stiftsbibliothek fragments of the Synoptic Gospels (but not John) are online at http://www.e-codices.unifr.ch/en/csg/1394/</bibl>
+</surrogates>
+<listBibl><bibl>Wordsworth, J., Sanday, W. and White, H.J., Portions of the Gospels according to St Mark and St Matthew. (Oxford Old Latin Biblical Texts 2). Oxford 1886.</bibl>
+<bibl>B. Bischoff, in Miscellanea Giovanni Mercati, Vol. 1, Rome, 1946, pp. 420-4</bibl></listBibl>
+</additional>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>ff. 10-11</locus>. These contain John 19:13-17, 24-42. The rest of the manuscript is in various places; the bulk at St Gall Stiftsbibliothek 1394.The transcription includes foliation, lineation, all punctuation and abbreviations. Although the editors agree on the readings of the extant part of Folio 10, they differ in the restoration. Our edition has followed Bischoff's reconstruction, while supplying the differences between the editions as footnotes. It should also be noted that while White regularly finds the first 1-3 letters illegible on the left hand side of Folio 11, they are quite clear in the plates; it seems they were still folded over when White consulted the manuscript, but have subsequently been flattened. White was, however, better placed than the present editors to judge the relative antiquity of hands and correctors, and we also reproduce his transcription of the High German glosses as a footnote. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the revised plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="3" when="2015-03-26">Revision of the plain text file to include new fragments from Gamper 2012 by <name>Hugh Houghton</name>.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-06-10">Changes made in order to display properly with VLI.xsl transformation by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P109-VL16" n="109" type="page"/>
+<cb n="P109C1-VL16"/>
+<lb n="P109C1L1-VL16"/><note type="header">StiASG Fragment Bl recto, Bf2 recto</note>
+<lb n="P109C1L2-VL16"/><div n="04" type="book"><div n="B04K14" type="chapter"><ab n="B04K14V23"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C1L3-VL16"/>
+<lb n="P109C1L4-VL16"/><w>meus</w><w>di<supplied reason="unspecified">ligit</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">et</supplied></w>
+<lb n="P109C1L5-VL16"/><w><supplied reason="unspecified">a</supplied>d</w><w>eum</w><w>uen<supplied reason="unspecified">iemus</supplied></w>
+<lb n="P109C1L6-VL16"/><w><supplied reason="unspecified">et</supplied></w><w>aput</w><w>eum</w><w>man
+<lb n="P109C1L7-VL16" break="no"/><supplied reason="unspecified">si</supplied>onem</w><w>faciemus</w><pc>·</pc>
+<lb n="P109C1L8-VL16"/></ab><ab n="B04K14V24"><w><supplied reason="unspecified">qu</supplied>i</w><w>non</w><w>diligit</w><w>me</w>
+<lb n="P109C1L9-VL16"/><w><supplied reason="unspecified">s</supplied>ermo<supplied reason="unspecified">nes</supplied></w><w>meo<supplied reason="unspecified">s</supplied></w>
+<lb n="P109C1L10-VL16"/><w><supplied reason="unspecified">n</supplied>on</w><w>seruat</w><w>sermo
+<lb n="P109C1L11-VL16" break="no"/><supplied reason="unspecified">n</supplied>em</w><w>quem</w><w>audis
+<lb n="P109C1L12-VL16" break="no"/><supplied reason="unspecified">tis</supplied></w><w>meus</w><w>non</w><w>es<supplied reason="unspecified">t</supplied></w><w>sed</w>
+<lb n="P109C1L13-VL16"/><w><supplied reason="unspecified">ei</supplied>us</w><w>qui</w><w>me</w><w>mis<supplied reason="unspecified">i</supplied>t</w><w>pa
+<lb n="P109C1L14-VL16" break="no"/><supplied reason="unspecified">tr</supplied>is</w><space unit="char" extent="1"/></ab><ab n="B04K14V25"><w>haec</w><w><supplied reason="unspecified">l</supplied>ocutus</w>
+<lb n="P109C1L15-VL16"/><w><supplied reason="unspecified">s</supplied>um</w><w>uobis</w><w>apu<supplied reason="unspecified">t</supplied></w><w>uos</w>
+<lb n="P109C1L16-VL16"/><w>manens</w></ab><ab n="B04K14V26"><w>solum
+<lb n="P109C1L17-VL16" break="no"/>modo</w><w>paracletus</w>
+<lb n="P109C1L18-VL16"/><w>autem</w><w>ille</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>sa<hi rend="lig">nc</hi>
+<lb n="P109C1L19-VL16" break="no"/>tus</w><w>quem</w><w>mittet</w><w>pa
+<lb n="P109C1L20-VL16" break="no"/>ter</w><w>in</w><w>nomine</w><w>meo</w>
+<lb n="P109C1L21-VL16"/><w>ille</w><w>uos</w><w>docebit</w><w>om
+<lb n="P109C1L22-VL16" break="no"/>nia</w><w>et</w><w>suggeret</w><w>uo
+<lb n="P109C1L23-VL16" break="no"/>bis</w><w>quaecumque</w><w>di
+<lb n="P109C1L24-VL16" break="no"/>xero</w><space unit="char" extent="2"/></ab><ab n="B04K14V27"><w>pacem</w><w>me
+<lb n="P109C1L25-VL16" break="no"/><supplied reason="unspecified">a</supplied>m</w><w>do</w><w>uobis</w><w>pacem</w>
+<cb n="P109C2-VL16"/>
+<lb n="P109C2L1-VL16"/><note type="header">StiASG Bf2 recto</note>
+<lb n="P109C2L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P109C2L8-VL16"/><w>fo<supplied reason="unspecified">rmidet</supplied></w>
+<lb n="P109C2L9-VL16" rend="hang"/></ab><ab n="B04K14V28"><w>Audistis</w><w><unclear>qu</unclear><supplied reason="unspecified">ia</supplied></w><w><supplied reason="unspecified">dixi</supplied></w>
+<lb n="P109C2L10-VL16"/><w>uobis</w><w>uado</w><w>et</w><w>ue
+<lb n="P109C2L11-VL16" break="no"/>nio</w><w>ad</w><w>uos</w><w>si</w><w>dilige
+<lb n="P109C2L12-VL16" break="no"/>retis</w><w>me</w><w>gaudere
+<lb n="P109C2L13-VL16" break="no"/>tis</w><w>quoniam</w><w>uado</w>
+<lb n="P109C2L14-VL16"/><w>ad</w><w>pat<supplied reason="unspecified">rem</supplied></w><w>qu<unclear>i</unclear><supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">pa</supplied>
+<lb n="P109C2L15-VL16" break="no"/>ter</w><w>m<supplied reason="unspecified">aior</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">est</supplied></w>
+<lb n="P109C2L16-VL16"/></ab><ab n="B04K14V29"><w>nun<unclear>c</unclear></w><w><supplied reason="unspecified">dixi</supplied></w><w><supplied reason="unspecified">uobis</supplied></w>
+<lb n="P109C2L17-VL16"/><w>antequam</w><w>f<supplied reason="unspecified">iat</supplied></w><w><supplied reason="unspecified">ut</supplied></w>
+<lb n="P109C2L18-VL16"/><w>cum</w><w>factum</w><w>fue
+<lb n="P109C2L19-VL16" break="no"/>rit</w><w>credatis</w>
+<lb n="P109C2L20-VL16" rend="hang"/></ab><ab n="B04K14V30"><w>Iam</w><w>non</w><w>multa</w><w>l<supplied reason="unspecified">o</supplied>
+<lb n="P109C2L21-VL16" break="no"/>quar</w><w>uobis</w><w>uenit</w>
+<lb n="P109C2L22-VL16"/><w>enim</w><w>princeps</w><w>hu
+<lb n="P109C2L23-VL16" break="no"/>ius</w><w>mundi</w><w>et</w><w>in</w><w>me</w>
+<lb n="P109C2L24-VL16"/><w>non</w><w>habet</w><w>quicqua<hi rend="¯">m</hi></w>
+<lb n="P109C2L25-VL16"/><w>inuenire</w></ab><ab n="B04K14V31"><w>sed</w><w>ut</w>
+<pb xml:id="P110-VL16" n="110" type="page"/>
+<cb n="P110C1-VL16"/>
+<lb n="P110C1L1-VL16"/><note type="header">StiASG Fragment Bf2 verso</note>
+<lb n="P110C1L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P110C1L8-VL16"/></ab></div><div n="B04K15" type="chapter"><ab n="B04K15V1"><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">sum</supplied></w><w>ui
+<lb n="P110C1L9-VL16" break="no"/><supplied reason="unspecified">tis</supplied></w><w><unclear>uera</unclear></w><w><supplied reason="unspecified">et</supplied></w><w>pater</w>
+<lb n="P110C1L10-VL16"/><w>meus</w><w>agricola</w></ab><ab n="B04K15V2"><w>om
+<lb n="P110C1L11-VL16" break="no"/>nem</w><w>sarmentum</w>
+<lb n="P110C1L12-VL16"/><w>in</w><w>me</w><w>non</w><w>feren
+<lb n="P110C1L13-VL16" break="no"/>tem</w><w>fructum</w><w>tol
+<lb n="P110C1L14-VL16" break="no"/><supplied reason="unspecified">let</supplied></w><w>e<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">pat</supplied>er</w><w>et</w><w>om
+<lb n="P110C1L15-VL16" break="no"/><supplied reason="unspecified">nem</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">fert</supplied></w><w>fructu<hi rend="¯">m</hi></w>
+<lb n="P110C1L16-VL16"/><w><supplied reason="unspecified">purgabit</supplied></w><w><supplied reason="unspecified">eu</supplied>m</w><w>ut</w>
+<lb n="P110C1L17-VL16"/><w><supplied reason="unspecified">fru</supplied>ctum</w><w>plurimu<hi rend="¯">m</hi></w>
+<lb n="P110C1L18-VL16"/><w>adferat</w>
+<lb n="P110C1L19-VL16" rend="hang"/></ab><ab n="B04K15V3"><w><supplied reason="unspecified">Ia</supplied>m</w><w>uos</w><w>mundi</w><w>es
+<lb n="P110C1L20-VL16" break="no"/><supplied reason="unspecified">ti</supplied>s</w><w>propter</w><w>sermo
+<lb n="P110C1L21-VL16" break="no"/>nem</w><w>quem</w><w>locu
+<lb n="P110C1L22-VL16" break="no"/>tus</w><w>sum</w><w>uobis</w></ab><ab n="B04K15V4"><w>ma
+<lb n="P110C1L23-VL16" break="no"/>nete</w><w>in</w><w>me</w><w>et</w><w>ego</w>
+<lb n="P110C1L24-VL16"/><w>in</w><w>uobis</w><w>sicut</w><w>sar
+<lb n="P110C1L25-VL16" break="no"/>mentum</w><w>non</w><w>po
+<cb n="P110C2-VL16" break="no"/>
+<lb n="P110C2L1-VL16"/><note type="header">StiASG Fragment Bl verso, Fragment Bf2 verso</note><note type="editorial">Note that some of the characters on this page which are no longer visible on p.110 are visible as offset on p. 113</note>
+<lb n="P110C2L2-VL16"/><supplied reason="unspecified">test</supplied></w><w><supplied reason="unspecified">ferre</supplied></w><w><supplied reason="unspecified">fructum</supplied></w><w><supplied reason="unspecified">a</supplied></w>
+<lb n="P110C2L3-VL16"/><w><supplied reason="unspecified">se</supplied></w><w><supplied reason="unspecified">nisi</supplied></w><w><supplied reason="unspecified">manserit</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P110C2L4-VL16"/><w><supplied reason="unspecified">uite</supplied></w><w><supplied reason="unspecified">sic</supplied></w><w><supplied reason="unspecified">e</supplied>t</w><w>qui</w><w>in</w>
+<lb n="P110C2L5-VL16"/><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">no</supplied>n</w><w>manet</w>
+<lb n="P110C2L6-VL16" rend="hang"/></ab><ab n="B04K15V5"><w><supplied reason="unspecified">E</supplied>go</w><w>sum</w><w>uitis</w><w>et</w><w>u<supplied reason="unspecified">os</supplied></w>
+<lb n="P110C2L7-VL16"/><w>sarmenta</w><w>qui</w><w>m<supplied reason="unspecified">a</supplied>
+<lb n="P110C2L8-VL16" break="no"/>net</w><w>in</w><w>me</w><w>et</w><w>ego</w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P110C2L9-VL16"/><w>illo</w><w>h<supplied reason="unspecified">ic</supplied></w><w><supplied reason="unspecified">a</supplied>dferet</w><w><supplied reason="unspecified">fruc</supplied>
+<lb n="P110C2L10-VL16" break="no"/>tum</w><w>copiosum</w><w><supplied reason="unspecified">qui</supplied>
+<lb n="P110C2L11-VL16" break="no"/>a</w><w><supplied reason="unspecified">s</supplied>ine</w><w>me</w><w>nihi<supplied reason="unspecified">l</supplied></w><note type="editorial">There is an original hole in the parchment in the middle of nihil</note>
+<lb n="P110C2L12-VL16"/><w>potestis</w><w>facere</w></ab><ab n="B04K15V6"><w>s<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">quis</supplied></w>
+<lb n="P110C2L13-VL16"/><w>in</w><w>me</w><w>non</w><w>man<supplied reason="unspecified">se</supplied>
+<lb n="P110C2L14-VL16" break="no"/>ri<supplied reason="unspecified">t</supplied></w><w>praecisus</w><w>est</w><w><supplied reason="unspecified">si</supplied>
+<lb n="P110C2L15-VL16" break="no"/>cut</w><w>sarmentum</w><w><supplied reason="unspecified">et</supplied></w>
+<lb n="P110C2L16-VL16"/><w>mi<supplied reason="unspecified">t</supplied>tetur</w><w>foris</w><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">a</supplied>
+<lb n="P110C2L17-VL16" break="no"/>rescit</w><w>et</w><w>colligent</w>
+<lb n="P110C2L18-VL16"/><app><rdg type="orig" hand="firsthand"><w>eos</w></rdg><rdg type="corr" hand="corrector"><w>eas</w><w>et</w></rdg></app><w>in</w><w>ignem</w><w>mit
+<lb n="P110C2L19-VL16" break="no"/>tent</w><w>et</w><w>ardent</w>
+<lb n="P110C2L20-VL16" rend="hang"/></ab><ab n="B04K15V7"><w>Si</w><w>manseritis</w><w>in</w><w>me</w>
+<lb n="P110C2L21-VL16"/><w>et</w><w>uerba</w><w>mea</w><w>in</w><w>uo
+<lb n="P110C2L22-VL16" break="no"/>bis</w><w>manserint</w><w>quod
+<lb n="P110C2L23-VL16" break="no"/>cumque</w><w>petere</w><w>uo
+<lb n="P110C2L24-VL16" break="no"/>lueritis</w><w>fiet</w><w>uobis</w></ab><ab n="B04K15V8"><w>in</w>
+<lb n="P110C2L25-VL16"/><w>hoc</w><w>clarificatus</w><w>e<supplied reason="unspecified">st</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P115-VL16" n="115" type="page"/>
+<cb n="P115C1-VL16"/>
+<lb n="P115C1L1-VL16"/><note type="header">StiASG Fragment Bb recto</note>
+<lb n="P115C1L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L8-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L9-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C1L10-VL16" rend="hang"/></ab><ab n="B04K15V26"><w>Cum</w><w>ergo</w><w>uenerit</w>
+<lb n="P115C1L11-VL16"/><w>paracletus</w><w>quem</w>
+<lb n="P115C1L12-VL16"/><w>ego</w><w>mitto</w><w>uobis</w><w>a</w><w>pa
+<lb n="P115C1L13-VL16" break="no"/>tre</w><w>meo</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><pc>·</pc><w>uerita
+<lb n="P115C1L14-VL16" break="no"/>tis</w><w>qui</w><w>a</w><w>patre</w><w>meo</w>
+<lb n="P115C1L15-VL16"/><w><supplied reason="unspecified">procedit</supplied></w>
+<lb n="P115C1L16-VL16" rend="hang"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<cb n="P115C2-VL16"/>
+<lb n="P115C2L1-VL16"/><note type="header">StiASG Fragment Bb recto</note>
+<lb n="P115C2L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L8-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L9-VL16"/></ab></div><div n="B04K16" type="chapter"><ab n="B04K16V4"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L10-VL16"/><w>uobis</w><w>ut</w><w>cum</w><w>uene
+<lb n="P115C2L11-VL16" break="no"/>rit</w><w>hora</w><w>eorum</w>
+<lb n="P115C2L12-VL16"/><w>reminiscamini</w><w>eo
+<lb n="P115C2L13-VL16" break="no"/>rum</w><w>quia</w><w>ego</w><w>dixi</w>
+<lb n="P115C2L14-VL16"/><w>uobis</w>
+<lb n="P115C2L15-VL16" rend="hang"/><w>Haec</w><w>autem</w><w>ab</w><w>ini
+<lb n="P115C2L16-VL16" break="no"/><supplied reason="unspecified">tio</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L17-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L18-VL16"/></ab><ab n="B04K16V5"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P115C2L19-VL16"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">nemo</supplied></w><w><supplied reason="unspecified">ex</supplied></w><w><supplied reason="unspecified">uo</supplied>bis</w>
+<lb n="P115C2L20-VL16"/><w><supplied reason="unspecified">interroga</supplied>t</w><w>me</w><w>quo</w>
+<lb n="P115C2L21-VL16"/><w><supplied reason="unspecified">uadis</supplied></w></ab><ab n="B04K16V6"><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">qui</supplied>a</w><w>haec</w>
+<lb n="P115C2L22-VL16"/><w><supplied reason="unspecified">locutus</supplied></w><w><supplied reason="unspecified">su</supplied><unclear>m</unclear></w><w><unclear>uobis</unclear></w>
+<lb n="P115C2L23-VL16"/><w><supplied reason="unspecified">tristitia</supplied></w><w>impleuit</w>
+<lb n="P115C2L24-VL16"/><w><supplied reason="unspecified">cor</supplied></w><w><supplied reason="unspecified">uestr</supplied>um</w></ab><ab n="B04K16V7"><w>sed</w>
+<lb n="P115C2L25-VL16"/><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">uerit</supplied>atem</w><w>dico</w>
+<pb xml:id="P116-VL16" n="116" type="page"/>
+<cb n="P116C1-VL16"/>
+<lb n="P116C1L1-VL16"/><note type="header">StiASG Fragment Bb verso</note>
+<lb n="P116C1L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L8-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L9-VL16"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K16V8"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">cum</supplied></w>
+<lb n="P116C1L10-VL16"/><w>aduenerit</w><w>ille</w><w>ar
+<lb n="P116C1L11-VL16" break="no"/>guet</w><w>mundum</w><w>de</w>
+<lb n="P116C1L12-VL16"/><w>peccato</w><w>et</w><w>de</w><w>iustitia</w>
+<lb n="P116C1L13-VL16"/><w>et</w><w>de</w><w>iudicio</w></ab><ab n="B04K16V9"><w>de</w><w>pecca
+<lb n="P116C1L14-VL16" break="no"/>to</w><w>quidem</w><w>quia</w><w>non</w>
+<lb n="P116C1L15-VL16"/><w>crediderunt</w><w>in</w><w>me</w>
+<lb n="P116C1L16-VL16"/></ab><ab n="B04K16V10"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L17-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C1L18-VL16"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K16V11"><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">iudi</supplied>
+<lb n="P116C1L19-VL16" break="no"/>cio</w><w>a<supplied reason="unspecified">utem</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">prin</supplied>
+<lb n="P116C1L20-VL16" break="no"/>ceps</w><w>huiu<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">mundi</supplied></w>
+<lb n="P116C1L21-VL16"/><w>iudicatus</w><w>est</w>
+<lb n="P116C1L22-VL16" rend="hang"/></ab><ab n="B04K16V12"><w>Adhuc</w><w><supplied reason="unspecified">multa</supplied></w><w><supplied reason="unspecified">habeo</supplied></w>
+<lb n="P116C1L23-VL16"/><w>uobis</w><w>dicere</w><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P116C1L24-VL16"/><w>potestis</w><w>ill<supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">modo</supplied></w>
+<lb n="P116C1L25-VL16"/><w>portare</w></ab><ab n="B04K16V13"><w>cu<supplied reason="unspecified">m</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<cb n="P116C2-VL16"/>
+<lb n="P116C2L1-VL16"/><note type="header">StiASG Fragment Bb verso and offset from Bc on p. 119</note>
+<lb n="P116C2L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L3-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L4-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L5-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L6-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L7-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L8-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L9-VL16"/><w>tur</w><w>et</w><w>haec</w><w>quae</w><w>ue<hi rend="¯">n</hi>
+<lb n="P116C2L10-VL16" break="no"/>tura</w><w>sunt</w><w>adnunti
+<lb n="P116C2L11-VL16" break="no"/>auit</w><w>uobis</w></ab><ab n="B04K16V14"><w>ille</w><w>me</w><w>cla
+<lb n="P116C2L12-VL16" break="no"/>rificauit</w><w>quia</w><w>de</w><w>meo</w>
+<lb n="P116C2L13-VL16"/><w>accipiet</w><w>et</w><w>adnun
+<lb n="P116C2L14-VL16" break="no"/><supplied reason="unspecified">tiauit</supplied></w><w><supplied reason="unspecified">uobis</supplied></w>
+<lb n="P116C2L15-VL16"/></ab><ab n="B04K16V15"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P116C2L16-VL16"/><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">s</supplied>unt</w><w>prop<supplied reason="unspecified">terea</supplied></w><w><supplied reason="unspecified">di</supplied>
+<lb n="P116C2L17-VL16" break="no"/><supplied reason="unspecified">x</supplied>i</w><w>uobis</w><w>quia</w><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">meo</supplied></w>
+<lb n="P116C2L18-VL16"/><w>accipiet</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">adnun</supplied>
+<lb n="P116C2L19-VL16" break="no"/><supplied reason="unspecified">ti</supplied>auit</w><w>uo</w>bis</ab><ab n="B04K16V16"><w><supplied reason="unspecified">mo</supplied>
+<lb n="P116C2L20-VL16" break="no"/>dicum</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">iam</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P116C2L21-VL16"/><w>uidebit<supplied reason="unspecified">is</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">iterum</supplied></w>
+<lb n="P116C2L22-VL16"/><w>m<supplied reason="unspecified">odi</supplied>cu<supplied reason="unspecified">m</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P117-VL16" n="117" type="page"/>
+<cb n="P117C1-VL16"/>
+<lb n="P117C1L1-VL16"/><note type="header">StiASG Fragment Bb recto</note>
+<lb n="P117C1L2-VL16"/></ab><ab n="B04K16V18"><w><supplied reason="unspecified">dicebant</supplied></w><w><supplied reason="unspecified">igi</supplied>
+<lb n="P117C1L3-VL16" break="no"/><unclear>t</unclear><supplied reason="unspecified">ur</supplied></w><w><supplied reason="unspecified">quid</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">hoc</supplied></w>
+<lb n="P117C1L4-VL16"/><w>m<supplied reason="unspecified">odicum</supplied></w><w><supplied reason="unspecified">nescimus</supplied></w>
+<lb n="P117C1L5-VL16"/><w>q<supplied reason="unspecified">uid</supplied></w><w><supplied reason="unspecified">loquitur</supplied></w>
+<lb n="P117C1L6-VL16" rend="hang"/></ab><ab n="B04K16V19"><w>C<supplied reason="unspecified">ognouit</supplied></w>
+<cb n="P117C2-VL16"/>
+<lb n="P117C2L1-VL16"/><note type="header">StiASG Fragment Bb recto</note>
+<lb n="P117C2L2-VL16"/></ab><ab n="B04K16V29"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">p</supplied>a
+<lb n="P117C2L3-VL16" break="no"/><supplied reason="unspecified">lam</supplied></w><w><supplied reason="unspecified">loqueris</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>pro
+<lb n="P117C2L4-VL16" break="no"/><supplied reason="unspecified">uerbium</supplied></w><w><supplied reason="unspecified">nullu</supplied>m</w>
+<pb xml:id="P121-VL16" n="121" type="page"/>
+<cb n="P121C1-VL16"/>
+<lb n="P121C1L1-VL16"/><note type="header">StiASG Fragment Aa recto</note>
+<lb n="P121C1L2-VL16"/></ab><ab n="B04K16V32"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">sum</supplied></w><w><supplied reason="unspecified">so</supplied>l<hi rend="lig">us</hi></w>
+<lb n="P121C1L3-VL16"/><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">pater</supplied></w><w><supplied reason="unspecified">mecu</supplied>m</w>
+<lb n="P121C1L4-VL16"/><w><supplied reason="unspecified">est</supplied></w></ab><ab n="B04K16V33"><w><supplied reason="unspecified">haec</supplied></w><w><supplied reason="unspecified">locut</supplied>us</w>
+<lb n="P121C1L5-VL16"/><w><supplied reason="unspecified">sum</supplied></w><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">in</supplied></w><w>me</w>
+<lb n="P121C1L6-VL16"/><w><supplied reason="unspecified">pacem</supplied></w><w><supplied reason="unspecified">habeatis</supplied></w><w><supplied reason="unspecified">i</supplied>n</w>
+<lb n="P121C1L7-VL16"/><w><supplied reason="unspecified">hoc</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">mu</supplied>ndo</w>
+<lb n="P121C1L8-VL16"/><w><supplied reason="unspecified">pressuram</supplied></w><w><supplied reason="unspecified">h</supplied><unclear>abe</unclear>
+<lb n="P121C1L9-VL16" break="no"/><supplied reason="unspecified">bitis</supplied></w><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">ga<supplied reason="unspecified">udete</supplied></supplied></w><w><supplied reason="unspecified">quo</supplied>
+<lb n="P121C1L10-VL16" break="no"/><supplied reason="unspecified">niam</supplied><supplied reason="unspecified"/></w><w><supplied reason="unspecified">eg</supplied>o</w><w>uici</w><w>mun
+<lb n="P121C1L11-VL16" break="no"/><supplied reason="unspecified">dum</supplied></w></ab></div><div n="B04K17" type="chapter"><ab n="B04K17V1"><w>haec</w><w>locu<supplied reason="unspecified">t</supplied><hi rend="lig">us</hi></w>
+<lb n="P121C1L12-VL16"/><w><supplied reason="unspecified">est</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">et</supplied></w><w>leuauit</w><w>o<supplied reason="unspecified">cu</supplied>
+<lb n="P121C1L13-VL16" break="no"/><supplied reason="unspecified">los</supplied></w><w><supplied reason="unspecified">suos</supplied></w><w><supplied reason="unspecified">i</supplied>n</w><w>caelum</w><w><supplied reason="unspecified">et</supplied></w>
+<lb n="P121C1L14-VL16"/><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">p</supplied>ater</w><w>uenit</w>
+<lb n="P121C1L15-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P121C1L16-VL16"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K17V3"><gap reason="lacuna" unit="line" extent="unknown"/>
+<cb n="P121C2-VL16"/>
+<lb n="P121C2L1-VL16"/><note type="header">StiASG Fragment Aa recto plus offset</note>
+<lb n="P121C2L2-VL16"/><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>et</w><w>quem</w><w>misisti</w>
+<lb n="P121C2L3-VL16"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><pc>·</pc><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><pc>·</pc>
+<lb n="P121C2L4-VL16" rend="hang"/></ab><ab n="B04K17V4"><w>Ego</w><w>te</w><w>clarificaui</w><w>su
+<lb n="P121C2L5-VL16" break="no"/>per</w><w>terram</w><w>operae</w>
+<lb n="P121C2L6-VL16"/><w>consummato</w><w>quod</w>
+<lb n="P121C2L7-VL16"/><w>dedisti</w><w>mihi</w><w>ut</w><w>faci
+<lb n="P121C2L8-VL16" break="no"/>am</w></ab><ab n="B04K17V5"><w>et</w><w>nunc</w><w>clari
+<lb n="P121C2L9-VL16" break="no"/>fica</w><w>me</w><w>tu</w><w>pater</w><w>ap<hi rend="lig">ut</hi></w>
+<lb n="P121C2L10-VL16"/><w>temet</w><w>ipsum</w><w>clari
+<lb n="P121C2L11-VL16" break="no"/>tatem</w><w>quam</w><w>habui</w>
+<lb n="P121C2L12-VL16"/><w>priusquam</w><w>mun
+<lb n="P121C2L13-VL16" break="no"/><supplied reason="unspecified">dus</supplied></w><w><supplied reason="unspecified">es</supplied>set</w><w><supplied reason="unspecified">a</supplied>put</w><w>te</w></ab><ab n="B04K17V6"><w>ma
+<lb n="P121C2L14-VL16" break="no"/><supplied reason="unspecified">nifestaui</supplied></w><w><supplied reason="unspecified">tuu</supplied>m</w><w>no
+<lb n="P121C2L15-VL16" break="no"/><supplied reason="unspecified">men</supplied></w><w><supplied reason="unspecified">homi</supplied>nibus</w>
+<lb n="P121C2L16-VL16"/><w>qu<supplied reason="unspecified">os</supplied></w><w><supplied reason="unspecified">dedisti</supplied></w><w>mihi</w>
+<lb n="P121C2L17-VL16"/><w>de</w><w><supplied reason="unspecified">mu</supplied>ndo</w><w><supplied reason="unspecified">t</supplied>ui</w><w>era<hi rend="lig">nt</hi></w>
+<lb n="P121C2L18-VL16"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">mihi</supplied></w><w>dedisti</w><w>eos</w>
+<lb n="P121C2L19-VL16"/><w>et</w><w>sermonem</w><w>tuu<hi rend="¯">m</hi></w>
+<lb n="P121C2L20-VL16"/><w>ser<supplied reason="unspecified">ua</supplied>ui</w></ab><ab n="B04K17V7"><w>et</w><w>nunc</w>
+<lb n="P121C2L21-VL16"/><w><supplied reason="unspecified">cognoui</supplied></w><w><supplied reason="unspecified">qui</supplied>a</w><w>om
+<lb n="P121C2L22-VL16" break="no"/><supplied reason="unspecified">nia</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P121C2L23-VL16"/></ab><ab n="B04K17V8"><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P124-VL16" n="124" type="page"/>
+<cb n="P124C1-VL16"/>
+<lb n="P124C1L1-VL16"/><note type="header">StiASG Fragment Aa verso</note>
+<lb n="P124C1L2-VL16"/><w>dedi</w><w>eis</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ip</supplied>si</w><w>acce
+<lb n="P124C1L3-VL16" break="no"/>perunt</w><w>ea</w><w>et</w><w>cogno
+<lb n="P124C1L4-VL16" break="no"/>uerunt</w><w>quia</w><w>a</w><w><supplied reason="unspecified">te</supplied></w><w>ue
+<lb n="P124C1L5-VL16" break="no"/>re</w><w>exierunt</w><w>et</w><w>cre
+<lb n="P124C1L6-VL16" break="no"/>diderunt</w><w>quia</w><w>tu</w>
+<lb n="P124C1L7-VL16"/><w>me</w><w>misi<supplied reason="unspecified">sti</supplied></w></ab><ab n="B04K17V9"><w>et</w><w>ego</w><w>ro
+<lb n="P124C1L8-VL16" break="no"/>go</w><w>pro</w><w>ei<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">no</supplied>n</w><w>pr<supplied reason="unspecified">o</supplied></w>
+<lb n="P124C1L9-VL16"/><w>mund<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">rogo</supplied></w><w>s<supplied reason="unspecified">ed</supplied></w>
+<lb n="P124C1L10-VL16"/><w>pro</w><w>his</w><w>quos</w><w>mihi</w><w>de
+<lb n="P124C1L11-VL16" break="no"/>disti</w><w>quia</w><w>tui</w><w>su<hi rend="lig">nt</hi></w></ab><ab n="B04K17V10"><w>et</w>
+<lb n="P124C1L12-VL16"/><w>mea</w><w>omnia</w><w>tua</w><w>su<hi rend="lig">nt</hi></w>
+<lb n="P124C1L13-VL16"/><w>et</w><w>tua</w><w><supplied reason="unspecified">o</supplied>mni<supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">mea</supplied></w>
+<lb n="P124C1L14-VL16"/><w>sunt</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">clarificatus</supplied></w>
+<lb n="P124C1L15-VL16"/><w>sum</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">eis</supplied></w></ab><ab n="B04K17V11"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">iam</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P124C1L16-VL16"/><w>sum</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">hoc</supplied></w><w><supplied reason="unspecified">mundo</supplied></w>
+<lb n="P124C1L17-VL16"/><w>et</w><w>hi</w><w>in</w><w><supplied reason="unspecified">ho</supplied>c</w><w><supplied reason="unspecified">mun</supplied><supplied reason="unspecified"/>
+<lb n="P124C1L18-VL16" break="no"/><supplied reason="unspecified">do</supplied><supplied reason="unspecified"/></w><w><supplied reason="unspecified">sunt</supplied></w><w><supplied reason="unspecified">e<supplied reason="unspecified">t</supplied></supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">te</supplied></w>
+<lb n="P124C1L19-VL16"/><w>ueni<supplied reason="unspecified">o</supplied></w><w>et</w><w><supplied reason="unspecified">iam</supplied></w><w><supplied reason="unspecified">non</supplied></w>
+<lb n="P124C1L20-VL16"/><w>sum</w><w>in</w><w><supplied reason="unspecified">hoc</supplied></w><w><supplied reason="unspecified">mun</supplied>
+<lb n="P124C1L21-VL16" break="no"/>do</w><w>et</w><w>in</w><w>hoc</w><w><supplied reason="unspecified">mun</supplied>
+<lb n="P124C1L22-VL16" break="no"/><unclear>do</unclear></w><w>s<supplied reason="unspecified">um</supplied></w>
+<lb n="P124C1L23-VL16" rend="hang"/><w><supplied reason="unspecified">Pate</supplied>r</w><w>san<supplied reason="unspecified">cte</supplied></w><w><supplied reason="unspecified">con</supplied>
+<lb n="P124C1L24-VL16" break="no"/><supplied reason="unspecified">ser</supplied>ua</w><w>eos</w><w>in</w><w><supplied reason="unspecified">nomi</supplied>
+<lb n="P124C1L25-VL16" break="no"/>ne</w><w>tuo</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>quos</w><w>ded<supplied reason="unspecified">isti</supplied></w><w><supplied reason="unspecified">mihi</supplied></w></rdg></app><w>in</w><w>hoc</w><w>mun
+<cb n="P124C2-VL16" break="no"/>
+<lb n="P124C2L1-VL16"/><note type="header">StiASG Fragment Aa verso</note>
+<lb n="P124C2L2-VL16"/>do</w></ab><ab n="B04K17V12"><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">essem</supplied></w><w><supplied reason="unspecified">cum</supplied></w>
+<lb n="P124C2L3-VL16"/><w>ei<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">seruabam</supplied></w>
+<lb n="P124C2L4-VL16"/><w>eo<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">nomine</supplied></w><w><supplied reason="unspecified">tuo</supplied></w>
+<lb n="P124C2L5-VL16"/><w>q<supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">dedisti</supplied></w><w><supplied reason="unspecified">mihi</supplied></w>
+<lb n="P124C2L6-VL16"/><w>c<supplied reason="unspecified">ustodiui</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">nemo</supplied></w>
+<lb n="P124C2L7-VL16"/><w>ex</w><gap extent="3-5" unit="char" reason="unspecified"/><w><supplied reason="unspecified">perit</supplied></w><w><supplied reason="unspecified">nisi</supplied></w>
+<lb n="P124C2L8-VL16"/><w>fil<supplied reason="unspecified">ius</supplied></w><w><supplied reason="unspecified">perditionis</supplied></w><w><supplied reason="unspecified">ut</supplied></w>
+<lb n="P124C2L9-VL16"/><w>scriptur<supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">implea</supplied>
+<lb n="P124C2L10-VL16" break="no"/>tur</w><space unit="char" extent="3"/></ab><ab n="B04K17V13"><w>nu<supplied reason="unspecified">nc</supplied></w><w><supplied reason="unspecified">autem</supplied></w>
+<lb n="P124C2L11-VL16"/><w><supplied reason="unspecified">a</supplied>d</w><w>te</w><w>ueni<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">haec</supplied></w>
+<lb n="P124C2L12-VL16"/><w><supplied reason="unspecified">l</supplied>oquor</w><w>in</w><w><supplied reason="unspecified">hoc</supplied></w><w><supplied reason="unspecified">mun</supplied>
+<lb n="P124C2L13-VL16" break="no"/>do</w><w>ut</w><w>ha<supplied reason="unspecified">beant</supplied></w><w><supplied reason="unspecified">gau</supplied>
+<lb n="P124C2L14-VL16" break="no"/>dium</w><w>me<supplied reason="unspecified">um</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P127-VL16" n="127" type="page"/>
+<cb n="P127C1-VL16"/>
+<lb n="P127C1L1-VL16"/><note type="header">StiASG Fragment Bg, Bf2 verso</note>
+<lb n="P127C1L2-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P127C1L3-VL16"/>
+<lb n="P127C1L4-VL16"/>
+<lb n="P127C1L5-VL16"/>
+<lb n="P127C1L6-VL16"/>
+<lb n="P127C1L7-VL16"/>
+<lb n="P127C1L8-VL16"/></ab><ab n="B04K17V17"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P127C1L9-VL16"/><w>ueri<supplied reason="unspecified">tas</supplied></w><w><supplied reason="unspecified">est</supplied></w></ab><ab n="B04K17V18"><w><supplied reason="unspecified">sicut</supplied></w><w><supplied reason="unspecified">me</supplied></w>
+<lb n="P127C1L10-VL16"/><w>misi<supplied reason="unspecified">sti</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">hunc</supplied></w><w><supplied reason="unspecified">mun</supplied>
+<lb n="P127C1L11-VL16" break="no"/>dum</w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">misi</supplied></w><w><supplied reason="unspecified">eos</supplied></w>
+<lb n="P127C1L12-VL16"/><w>in</w><w>hu<supplied reason="unspecified">nc</supplied></w><w><supplied reason="unspecified">mundum</supplied></w>
+<lb n="P127C1L13-VL16"/></ab><ab n="B04K17V19"><w>et</w><w>sa<supplied reason="unspecified">nctifico</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">ip</supplied>
+<lb n="P127C1L14-VL16" break="no"/>sum</w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">sint</supplied></w><w><supplied reason="unspecified">ipsi</supplied></w><w><supplied reason="unspecified">sanc</supplied>
+<lb n="P127C1L15-VL16" break="no"/>tifica<supplied reason="unspecified">ti</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">ueritate</supplied></w>
+<lb n="P127C1L16-VL16" rend="hang"/></ab><ab n="B04K17V20"><w>Non</w><w>p<supplied reason="unspecified">ro</supplied></w><w><supplied reason="unspecified">his</supplied></w><w><supplied reason="unspecified">tantum</supplied></w>
+<lb n="P127C1L17-VL16"/><w>rogo</w><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">pro</supplied></w><w><supplied reason="unspecified">eis</supplied></w>
+<lb n="P127C1L18-VL16"/><w>qui</w><w><unclear>cr</unclear><supplied reason="unspecified">edituri</supplied></w><w><supplied reason="unspecified">sunt</supplied></w>
+<lb n="P127C1L19-VL16"/><w>per</w><w>ue<supplied reason="unspecified">rbum</supplied></w><w><supplied reason="unspecified">illorum</supplied></w>
+<lb n="P127C1L20-VL16"/><w>in</w><w>me</w></ab><ab n="B04K17V21"><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">omnes</supplied></w><w><supplied reason="unspecified">u</supplied>
+<lb n="P127C1L21-VL16" break="no"/>num</w><w><supplied reason="unspecified">sint</supplied></w><w><supplied reason="unspecified">sicut</supplied></w><w><supplied reason="unspecified">tu</supplied></w>
+<lb n="P127C1L22-VL16"/><w>pater</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P127C1L23-VL16"/><w>te</w><w>ut</w><w>e<supplied reason="unspecified">t</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P128-VL16" n="128" type="page"/>
+<cb n="P128C1-VL16"/>
+<lb n="P128C1L1-VL16"/><note type="header">StiASG Fragment Ac, Bf2 verso</note>
+<lb n="P128C1L2-VL16"/></ab></div><div n="B04K18" type="chapter"><ab n="B04K18V2"><gap reason="lacuna" unit="char" extent="unknown"/><w>locum</w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P128C1L3-VL16"/>
+<lb n="P128C1L4-VL16"/>
+<lb n="P128C1L5-VL16"/></ab><ab n="B04K18V3"><w><supplied reason="unspecified">i</supplied>u<supplied reason="unspecified">das</supplied></w><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">acce</supplied>
+<lb n="P128C1L6-VL16" break="no"/><supplied reason="unspecified">p</supplied>is<supplied reason="unspecified">set</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P128C1L7-VL16"/>
+<lb n="P128C1L8-VL16"/>
+<lb n="P128C1L9-VL16"/>
+<lb n="P128C1L10-VL16"/></ab><ab n="B04K18V4"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P128C1L11-VL16"/><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">s</supplied>uper</w>
+<lb n="P128C1L12-VL16"/><w><supplied reason="unspecified">eum</supplied></w><gap extent="3-6" unit="char" reason="unspecified"/><w><supplied reason="unspecified">i</supplied>llis</w>
+<lb n="P128C1L13-VL16"/><w><supplied reason="unspecified">quem</supplied></w><w><supplied reason="unspecified">quaeri</supplied>tis</w>
+<lb n="P128C1L14-VL16"/></ab><ab n="B04K18V5"><w><supplied reason="unspecified">responderu</supplied>nt</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">i</hi><supplied reason="unspecified"><hi rend="overline">hm</hi></supplied></abbr></w><w><supplied reason="unspecified">nazare</supplied>nu<unclear>m</unclear></w>
+<lb n="P128C1L16-VL16"/><w><supplied reason="unspecified">dicit</supplied></w><w><supplied reason="unspecified">eis</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">s</supplied>um</w>
+<lb n="P128C1L17-VL16"/><w><supplied reason="unspecified">stabat</supplied></w><w><supplied reason="unspecified">aute</supplied>m</w><w>et</w><w>iu
+<lb n="P128C1L18-VL16" break="no"/><supplied reason="unspecified">das</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">trad</supplied>ebat</w>
+<lb n="P128C1L19-VL16"/><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">ips</supplied>is</w>
+<lb n="P128C1L20-VL16" rend="hang"/></ab><ab n="B04K18V6"><w><supplied reason="unspecified">Ut</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">dixit</supplied></w><w><supplied reason="unspecified">e</supplied>is</w><w>ego</w>
+<lb n="P128C1L21-VL16"/><w><supplied reason="unspecified">sum</supplied></w><w><supplied reason="unspecified">abieru</supplied>nt</w><w>re
+<lb n="P128C1L22-VL16" break="no"/><supplied reason="unspecified">trorsum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">c</supplied>ecide
+<lb n="P128C1L23-VL16" break="no"/><supplied reason="unspecified">runt</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">terr</supplied>am</w>
+<lb n="P128C1L24-VL16"/></ab><ab n="B04K18V7"><w><supplied reason="unspecified">iterum</supplied></w><gap extent="3-4" unit="char" reason="unspecified"/><w>in
+<lb n="P128C1L25-VL16" break="no"/><supplied reason="unspecified">terrogauit</supplied></w><w>eos</w><w>que<hi rend="¯">m</hi></w>
+<lb n="P128C1L26-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P131-VL16" n="131" type="page"/>
+<cb n="P131C1-VL16"/>
+<lb n="P131C1L1-VL16"/><note type="header">VadSlg Ms. 70a fol. 1r</note>
+<lb n="P131C1L2-VL16"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V13"><gap reason="lacuna" unit="char" extent="unknown"/><w>dit</w><w>pro</w><w><supplied reason="unspecified">tribunali</supplied></w>
+<lb n="P131C1L3-VL16"/><w>in</w><w>loco</w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">dicitur</supplied></w>
+<lb n="P131C1L4-VL16"/><w>lycho<supplied reason="unspecified">strotus</supplied></w><w><supplied reason="unspecified">hebrai</supplied>
+<lb n="P131C1L5-VL16" break="no"/>cae</w><w>au<supplied reason="unspecified">tem</supplied></w><w><gap extent="4-6" unit="char" reason="unspecified"/>
+<lb n="P131C1L6-VL16" break="no"/>tha</w><pc>·</pc><space unit="char" extent="2"/></ab><ab n="B04K19V14"><w><supplied reason="unspecified">erat</supplied></w><w><supplied reason="unspecified">autem</supplied></w>
+<lb n="P131C1L7-VL16"/><w>praep<supplied reason="unspecified">aratio</supplied></w><w><supplied reason="unspecified">paschae</supplied></w>
+<lb n="P131C1L8-VL16"/><w>hora</w><w>e<supplied reason="unspecified">rat</supplied></w><w><supplied reason="unspecified">quasi</supplied></w><w><supplied reason="unspecified">sex</supplied>
+<lb n="P131C1L9-VL16" break="no"/>ta</w><w>et</w><w>ai<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">iudaeis</supplied></w><w><supplied reason="unspecified">ec</supplied>
+<lb n="P131C1L10-VL16" break="no"/>ce</w><w>rex</w><w><supplied reason="unspecified">uester</supplied></w></ab><ab n="B04K19V15"><w><supplied reason="unspecified">at</supplied></w><w><supplied reason="unspecified">illi</supplied></w>
+<lb n="P131C1L11-VL16"/><w>exclam<supplied reason="unspecified">auerunt</supplied></w><gap extent="0-5" unit="line" reason="unspecified"/>
+<lb n="P131C1L12-VL16"/><w>tolle</w><w>c<supplied reason="unspecified">rucifige</supplied></w><w><supplied reason="unspecified">eum</supplied></w>
+<lb n="P131C1L13-VL16" rend="hang"/><w>Ait</w><app><rdg type="orig" hand="firsthand"><w>illi</w></rdg><rdg type="corr" hand="corrector"><w>illis</w></rdg></app><w>p<supplied reason="unspecified">ilatus</supplied></w><w><supplied reason="unspecified">regem</supplied></w>
+<lb n="P131C1L14-VL16"/><w>uestr<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">crucifigam</supplied></w>
+<lb n="P131C1L15-VL16"/><w>respo<supplied reason="unspecified">nderunt</supplied></w><w><supplied reason="unspecified">prin</supplied>
+<lb n="P131C1L16-VL16" break="no"/>cipes</w><w>s<supplied reason="unspecified">acerdotum</supplied></w>
+<lb n="P131C1L17-VL16"/><w>non</w><w>h<supplied reason="unspecified">abemus</supplied></w><w><supplied reason="unspecified">re</supplied>
+<lb n="P131C1L18-VL16" break="no"/>gem</w><w>n<supplied reason="unspecified">isi</supplied></w><w><supplied reason="unspecified">caesarem</supplied></w>
+<lb n="P131C1L19-VL16"/></ab><ab n="B04K19V16"><w>tunc</w><w>e<supplied reason="unspecified">rgo</supplied></w><w><supplied reason="unspecified">tradidit</supplied></w>
+<lb n="P131C1L20-VL16"/><w>eis</w><w>illu<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">crucifi</supplied>
+<lb n="P131C1L21-VL16" break="no"/>geret<supplied reason="unspecified">ur</supplied></w>
+<lb n="P131C1L22-VL16" rend="hang"/><w>Suscep<supplied reason="unspecified">erunt</supplied></w><w><supplied reason="unspecified">ergo</supplied></w>
+<lb n="P131C1L23-VL16"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><pc>·</pc></ab><ab n="B04K19V17"><w><unclear>e</unclear><supplied reason="unspecified">t</supplied></w><gap extent="6-8" unit="char" reason="unspecified"/><w><supplied reason="unspecified">si</supplied>
+<lb n="P131C1L24-VL16" break="no"/>bi</w><w>cru<supplied reason="unspecified">cem</supplied></w><w><supplied reason="unspecified">perue</supplied>
+<lb n="P131C1L25-VL16" break="no"/>nit</w><w>in</w><w><supplied reason="unspecified">locum</supplied></w><w><supplied reason="unspecified">qui</supplied></w>
+<cb n="P131C2-VL16"/>
+<lb n="P131C2L1-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P132-VL16" n="132" type="page"/>
+<cb n="P132C1-VL16"/>
+<lb n="P132C1L1-VL16"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<cb n="P132C2-VL16"/>
+<lb n="P132C2L1-VL16"/><note type="header">VadSlg Ms. 70a fol. 1v</note>
+<lb n="P132C2L2-VL16"/></ab><ab n="B04K19V24"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">diuis</supplied>erunt</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>sib<supplied reason="unspecified">i</supplied></w></rdg></app>
+<lb n="P132C2L3-VL16"/><w><supplied reason="unspecified">uestiment</supplied>a</w><w>mea</w>
+<lb n="P132C2L4-VL16"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">super</supplied></w><w>uestem</w>
+<lb n="P132C2L5-VL16"/><w><supplied reason="unspecified">meam</supplied></w><w>miser<hi rend="lig">unt</hi></w>
+<lb n="P132C2L6-VL16"/><w><supplied reason="unspecified">sortem</supplied></w>
+<lb n="P132C2L7-VL16" rend="hang"/><w><supplied reason="unspecified">Et</supplied></w><w><supplied reason="unspecified">milites</supplied></w><w><supplied reason="unspecified">qui</supplied>dem</w>
+<lb n="P132C2L8-VL16"/><w><supplied reason="unspecified">haec</supplied></w><w><supplied reason="unspecified">feceru</supplied>nt</w>
+<lb n="P132C2L9-VL16" rend="hang"/></ab><ab n="B04K19V25"><w><supplied reason="unspecified">Stabant</supplied></w><w><supplied reason="unspecified">aute</supplied>m</w><w>iux
+<lb n="P132C2L10-VL16" break="no"/><supplied reason="unspecified">ta</supplied></w><w><supplied reason="unspecified">crucem</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">i</hi></supplied><hi rend="overline">hu</hi></abbr></w><pc>·</pc><w>ma
+<lb n="P132C2L11-VL16" break="no"/><supplied reason="unspecified">ter</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">so</supplied>ror</w><w>ma
+<lb n="P132C2L12-VL16" break="no"/><supplied reason="unspecified">tris</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w><supplied reason="unspecified">ma</supplied>ria</w><w>cleo
+<lb n="P132C2L13-VL16" break="no"/><supplied reason="unspecified">phae</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ma</supplied>ria</w><w>mag
+<lb n="P132C2L14-VL16" break="no"/><supplied reason="unspecified">dalene</supplied></w>
+<lb n="P132C2L15-VL16" rend="hang"/></ab><ab n="B04K19V26"><w><supplied reason="unspecified">Cum</supplied></w><w><supplied reason="unspecified">uidisse</supplied>t</w><w>aute<hi rend="¯">m</hi></w>
+<lb n="P132C2L16-VL16"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="unspecified">matre</supplied>m</w><w>suam</w>
+<lb n="P132C2L17-VL16"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">discipulu</supplied>m</w><w>ad
+<lb n="P132C2L18-VL16" break="no"/><supplied reason="unspecified">stantem</supplied></w><w><supplied reason="unspecified">qu</supplied>em</w><w>di
+<lb n="P132C2L19-VL16" break="no"/><supplied reason="unspecified">ligebat</supplied></w><w><supplied reason="unspecified">ait</supplied></w><w><supplied reason="unspecified">m</supplied>atri</w><w>su
+<lb n="P132C2L20-VL16" break="no"/><supplied reason="unspecified">ae</supplied></w><w><supplied reason="unspecified">mulier</supplied></w><w><supplied reason="unspecified">ec</supplied>ce</w><w>fili
+<lb n="P132C2L21-VL16" break="no"/><supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">tuus</supplied></w></ab><ab n="B04K19V27"><w><supplied reason="unspecified">dein</supplied>de</w><w>dicit</w>
+<lb n="P132C2L22-VL16"/><w><supplied reason="unspecified">discipulo</supplied></w><w><supplied reason="unspecified">ec</supplied>ce</w><w>ma<unclear>t</unclear>
+<lb n="P132C2L23-VL16" break="no"/><supplied reason="unspecified">er</supplied></w><w><supplied reason="unspecified">tua</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ex</supplied></w><w><supplied reason="unspecified">i</supplied>lla</w><w>ho
+<lb n="P132C2L24-VL16" break="no"/><supplied reason="unspecified">ra</supplied></w><w><supplied reason="unspecified">accepit</supplied></w><w><supplied reason="unspecified">il</supplied>lam</w>
+<lb n="P132C2L25-VL16"/><w><supplied reason="unspecified">discipulus</supplied></w><w><supplied reason="unspecified">il</supplied>le</w><w>in</w><w>sua</w>
+<pb xml:id="P135-VL16" n="135" type="page"/><note type="header">VadSlg Ms. 70a fol. 1v</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>iohannen</w><w><hi rend="rubric">ΙΔ</hi></w></fw></seg>
+<cb n="P135C1-VL16"/>
+<lb n="P135C1L1-VL16" rend="hang"/></ab><ab n="B04K19V28"><w>Postea</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>·</pc><w>sciens</w><w>quo
+<lb n="P135C1L2-VL16" break="no"/>niam</w><w>omnia</w><w>con
+<lb n="P135C1L3-VL16" break="no"/>summata</w><w>sunt</w><w>ut</w>
+<lb n="P135C1L4-VL16"/><w>scriptura</w><w>implere
+<lb n="P135C1L5-VL16" break="no"/>tur</w><w>ait</w><w>sitio</w></ab><ab n="B04K19V29"><w>et</w><w>uas</w>
+<lb n="P135C1L6-VL16"/><w>positum</w><w>erat</w><w>ace
+<lb n="P135C1L7-VL16" break="no"/>to</w><w>plenum</w><w>hysopo</w>
+<lb n="P135C1L8-VL16"/><w>admiscentes</w><w>spon
+<lb n="P135C1L9-VL16" break="no"/>giam</w><w>ergo</w><w>plenam</w>
+<lb n="P135C1L10-VL16"/><w>aceto</w><w>perticae</w><w>cir
+<lb n="P135C1L11-VL16" break="no"/>cumponentes</w><w>op
+<lb n="P135C1L12-VL16" break="no"/>tulerunt</w><w>ori</w><w>eius</w>
+<lb n="P135C1L13-VL16" rend="hang"/></ab><ab n="B04K19V30"><w>Cum</w><w>ergo</w><w>accepis
+<lb n="P135C1L14-VL16" break="no"/>set</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>·</pc><w>acetum</w><w>dixit</w>
+<lb n="P135C1L15-VL16"/><w>omnia</w><w>consum
+<lb n="P135C1L16-VL16" break="no"/>mata</w><w>sunt</w><w>et</w><w>incli
+<lb n="P135C1L17-VL16" break="no"/>nato</w><w>capite</w><app><rdg type="orig" hand="firsthand"><w>credidit</w></rdg><rdg type="corr" hand="corrector"><w>re<hi rend="rubric">d</hi>didit</w></rdg></app>
+<lb n="P135C1L18-VL16"/><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><pc>·</pc><space unit="char" extent="2"/></ab><ab n="B04K19V31"><w>iudaei</w><w>ergo</w>
+<lb n="P135C1L19-VL16"/><w>quoniam</w><w>cena</w><w>pu
+<lb n="P135C1L20-VL16" break="no"/>ra</w><w>erat</w><w>ne</w><w>remane
+<lb n="P135C1L21-VL16" break="no"/>rent</w><w>in</w><w>crucem</w><w>cor
+<lb n="P135C1L22-VL16" break="no"/>pora</w><w>in</w><w>sabbato</w><w>erat</w>
+<lb n="P135C1L23-VL16"/><w>enim</w><w>magnus</w><w>dies</w>
+<lb n="P135C1L24-VL16"/><w>illius</w><w>sabbati</w><w>roga
+<cb n="P135C2-VL16" break="no"/>
+<lb n="P135C2L1-VL16"/>uerunt</w><w>pilatum</w>
+<lb n="P135C2L2-VL16"/><w>ut</w><w>frangerentur</w>
+<lb n="P135C2L3-VL16"/><w>eorum</w><app><rdg type="orig" hand="firsthand"><w>cura</w></rdg><rdg type="corr" hand="firsthand"><w>crura</w></rdg></app><w>et</w><w>tol
+<lb n="P135C2L4-VL16" break="no"/>lerentur</w><w>de</w><w>cruce</w>
+<lb n="P135C2L5-VL16" rend="hang"/></ab><ab n="B04K19V32"><w>Uenerunt</w><w>ergo</w>
+<lb n="P135C2L6-VL16"/><w>milites</w><w>et</w><w>illius</w><w>qui
+<lb n="P135C2L7-VL16" break="no"/>dem</w><w>primi</w><w>frege
+<lb n="P135C2L8-VL16" break="no"/>runt</w><w>crura</w><w>et</w><w>al
+<lb n="P135C2L9-VL16" break="no"/>terius</w><w>similiter</w>
+<lb n="P135C2L10-VL16"/><w>qui</w><w>crucifixi</w><w>era<hi rend="lig">nt</hi></w>
+<lb n="P135C2L11-VL16"/><w>cum</w><w>eo</w>
+<lb n="P135C2L12-VL16" rend="hang"/></ab><ab n="B04K19V33"><w>Ad</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><pc>·</pc><w>autem</w><w>cu<hi rend="¯">m</hi></w>
+<lb n="P135C2L13-VL16"/><w>uenissent</w><app><rdg type="orig" hand="firsthand"><w>ut</w></rdg><rdg type="corr" hand="corrector"><w>et</w></rdg></app><w>uide
+<lb n="P135C2L14-VL16" break="no"/>rent</w><w>eum</w><w>iam</w><w>mor
+<lb n="P135C2L15-VL16" break="no"/>tuum</w><w>non</w><w>frege
+<lb n="P135C2L16-VL16" break="no"/>runt</w><w>eius</w><w>crura</w>
+<lb n="P135C2L17-VL16"/></ab><ab n="B04K19V34"><w>sed</w><w>unus</w><w>ex</w><w>mili
+<lb n="P135C2L18-VL16" break="no"/>tibus</w><w>lancea</w><w>latus</w>
+<lb n="P135C2L19-VL16"/><w>eius</w><w>percussit</w><w>et</w><w>exi
+<lb n="P135C2L20-VL16" break="no"/>uit</w><w>continuo</w><w>san
+<lb n="P135C2L21-VL16" break="no"/>guis</w><w>et</w><w>aqua</w></ab><ab n="B04K19V35"><w>et</w><w>qui</w>
+<lb n="P135C2L22-VL16"/><w>uidit</w><w>testificatur</w>
+<lb n="P135C2L23-VL16"/><w>et</w><w>testimonium</w>
+<lb n="P135C2L24-VL16"/><w>perhibuit</w><w>et</w><w>uerum</w>
+<pb xml:id="P136-VL16" n="136" type="page"/><note type="header">VadSlg Ms. 70a fol. 2v</note><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>secund<ex>um</ex></w></fw></seg><note type="editorial">Note in left margin, 15/16th century: Offic. curia const(antiensis) p(u)bl(ic)o in s(an)cto gallo notum facimus q(uod) dn¬s n(oste)r cpo f.lio</note>
+<cb n="P136C1-VL16"/>
+<lb n="P136C1L1-VL16"/><w>est</w><app><rdg type="orig" hand="firsthand"><w>et</w><w>uerum</w><w>est</w></rdg><rdg type="corr" hand="corrector"/></app><w>tes
+<lb n="P136C1L2-VL16" break="no"/>timonium</w><w>eius</w><w>et</w>
+<lb n="P136C1L3-VL16"/><w>ille</w><w>scit</w><w>quia</w><w>uera</w>
+<lb n="P136C1L4-VL16"/><w>dicit</w><w>ut</w><w>et</w><w>uos</w><w>cre
+<lb n="P136C1L5-VL16" break="no"/>datis</w></ab><ab n="B04K19V36"><w>facta</w><w>sunt</w>
+<lb n="P136C1L6-VL16"/><w>enim</w><w>haec</w><w>ut</w><w>scrip
+<lb n="P136C1L7-VL16" break="no"/>turae</w><w>inplerent<hi rend="lig">ur</hi></w>
+<lb n="P136C1L8-VL16" rend="indent"/><w>ossum</w><w>non</w><w>co<hi rend="¯">n</hi>
+<lb n="P136C1L9-VL16" break="no" rend="indent"/>fringetis</w><w>ab</w><w>eo</w>
+<lb n="P136C1L10-VL16" rend="hang"/></ab><ab n="B04K19V37"><w>Et</w><w>iterum</w><w>alia</w><w>scrip
+<lb n="P136C1L11-VL16" break="no"/>tura</w>
+<lb n="P136C1L12-VL16" rend="indent"/><w>uidebunt</w><w>ad</w>
+<lb n="P136C1L13-VL16" rend="indent"/><w>quem</w><w>in</w><w>quem</w>
+<lb n="P136C1L14-VL16" rend="indent"/><w>conpuncxer<hi rend="lig">unt</hi></w>
+<lb n="P136C1L15-VL16" rend="hang"/></ab><ab n="B04K19V38"><note type="editorial">There are Old High German glosses above the next seven lines apart from proper nouns. The reading is: aft(er) deisu so pat (pilatum ioseph ab arimathia) der uuas disco (iesu) taucono so duruh forahtun iudeono</note><w>Post</w><w>haec</w><w>autem</w><w>ro
+<lb n="P136C1L16-VL16" break="no"/>gauit</w><w>pilatum</w><w>io
+<lb n="P136C1L17-VL16" break="no"/>seph</w><w>ab</w><w>arimathi
+<lb n="P136C1L18-VL16" break="no"/>a</w><pc>·</pc><w>qui</w><w>fuit</w><w>discipu
+<lb n="P136C1L19-VL16" break="no"/>lus</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><pc>·</pc><w>occulte</w><w>au
+<lb n="P136C1L20-VL16" break="no"/>tem</w><w>propter</w><w>metu<hi rend="¯">m</hi></w>
+<lb n="P136C1L21-VL16"/><w>iudaeorum</w><w>ut</w><w>tol
+<lb n="P136C1L22-VL16" break="no"/>leret</w><w>corpus</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><pc>·</pc>
+<lb n="P136C1L23-VL16"/><w>et</w><w>permisit</w><w>pilatus</w>
+<lb n="P136C1L24-VL16"/><w>uenerunt</w><w>ergo</w>
+<cb n="P136C2-VL16"/>
+<lb n="P136C2L1-VL16"/><w>et</w><w>tulerunt</w><w>eum</w>
+<lb n="P136C2L2-VL16" rend="hang"/></ab><ab n="B04K19V39"><w>Uenit</w><w>autem</w><w>et</w><w>ni
+<lb n="P136C2L3-VL16" break="no"/>codemus</w><w>qui</w><w>pri
+<lb n="P136C2L4-VL16" break="no"/>mum</w><w>uenerat</w><w>ad</w>
+<lb n="P136C2L5-VL16"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><pc>·</pc><w>nocte</w><w>ferens</w>
+<lb n="P136C2L6-VL16"/><w>mixturam</w><w>mur
+<lb n="P136C2L7-VL16" break="no"/>rae</w><w>et</w><w>aloen</w><w>qua
+<lb n="P136C2L8-VL16" break="no"/>si</w><w>libras</w><w>centum</w>
+<lb n="P136C2L9-VL16" rend="hang"/></ab><ab n="B04K19V40"><w>Acceperunt</w><w>ergo</w>
+<lb n="P136C2L10-VL16"/><w>corpus</w><pc>·</pc><app><rdg type="orig" hand="firsthand"><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w></rdg><rdg type="corr" hand="corrector"><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></rdg></app><pc>·</pc><w>et</w><w>al
+<lb n="P136C2L11-VL16" break="no"/>ligauerunt</w><w>eum</w>
+<lb n="P136C2L12-VL16"/><w>linteis</w><w>cum</w><w>aroma
+<lb n="P136C2L13-VL16" break="no"/>tibus</w><w>sicut</w><w>est</w><w>con
+<lb n="P136C2L14-VL16" break="no"/>suetudo</w><w>iudaeis</w>
+<lb n="P136C2L15-VL16"/><w>sepelire</w>
+<lb n="P136C2L16-VL16" rend="hang"/></ab><ab n="B04K19V41"><w>Erat</w><w>autem</w><w>in</w><w>lo
+<lb n="P136C2L17-VL16" break="no"/>co</w><w>ubi</w><w>crucifixus</w>
+<lb n="P136C2L18-VL16"/><w>est</w><w>hortus</w><w>et</w><w>in</w><w>hor
+<lb n="P136C2L19-VL16" break="no"/>to</w><w>monumentum</w>
+<lb n="P136C2L20-VL16"/><w>nouum</w><w>in</w><w>quo</w><w>no<hi rend="¯">n</hi>
+<lb n="P136C2L21-VL16" break="no"/>dum</w><w>quisquam</w>
+<lb n="P136C2L22-VL16"/><w>positus</w><w>erat</w></ab><ab n="B04K19V42"><w>ibi</w><w>er
+<lb n="P136C2L23-VL16" break="no"/>go</w><w>propter</w><w>paras
+<lb n="P136C2L24-VL16" break="no"/>ceue</w><w>quia</w><w>iuxta</w><w>e</w><gap reason="lacuna" unit="char" extent="unknown"/></ab></div></div></body></text></TEI>

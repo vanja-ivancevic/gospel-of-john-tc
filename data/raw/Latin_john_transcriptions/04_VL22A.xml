@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL22A"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in Codex Sarzanensis (pars altera)</title>
+<title type="document" n="VL22A">VL22A</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<resp>Transcribed by</resp><name>H.A.G. Houghton</name>
+<resp>Proofread by</resp><name>H.A.G. Houghton</name></respStmt>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.0">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Italy</country>
+<settlement>Sarrezano bei Tortona</settlement>
+<repository>Chiesa</repository>
+<idno>s.n.</idno>
+<msName xml:lang="la">Codex Sarzanensis (pars altera)</msName>
+ <altIdentifier type="Vetus_Latina"><idno>22A</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>4.436b</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>Xj</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>j</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>66543</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>7789</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Euangelium secundum Iohannem</title>
+<title type="uniform" xml:lang="en">Gospel according to John</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Purple parchment</material></support>
+<condition><p>Very badly deteriorated.</p></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="2"><p>In two columns.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>uncial</term>.</p>
+</handDesc>
+<decoDesc><p>Silver ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>North Italy</origPlace>
+<origDate notBefore="50001" notAfter="52501">Beginning of sixth century</origDate>
+</origin></history>
+<additional>
+<surrogates><listBibl><bibl>G. Godu, Codex Sarzanensis. Fragments d'ancienne version latine du quatrième Evangile (Spicilegium Casinense 2), Monte Cassino, 1936</bibl>
+<bibl>G. Amelli, Un antichissimo codice biblico latino purpureo conservato nella chiesa di Sarezzano presso Tortona. Dissertazione critico-storica con note illustrative, Milan, 1872</bibl></listBibl></surrogates>
+</additional>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made in 2008 by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>ff. 65r-72v</locus>, based on Godu's edition. There are no Amelli readings in folios 58-72. This manuscript covers <locus>John 18:36-19:17</locus>and <locus>John 19:31-20:14</locus>and was bound with VL 22 in antiquity.The transcription is based on Godu's edition, distinguishing between letters still visible and letters no longer visible. It includes foliation, lineation, all punctuation and abbreviations. We only provide reconstructed text for a line in which there is at least one letter extant, on the grounds that it is misleading to provide text for several or more lines which are completely missing. An exception is that we reconstruct partially extant words, and where a line begins and ends with such a word, text is supplied between them.The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change>
+<change n="3" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="1" when="2011-06-10">Changes made in order to display properly with VLI.xsl transformation by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+<text xml:lang="lat"><body>
+<pb xml:id="P65r-VL22A" n="65r" type="folio"/><div n="04" type="book"><div n="B04K18" type="chapter"><ab n="B04K18V35"><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>iohannen</w></fw></seg>
+<cb n="P65rC1-VL22A"/>
+<lb n="P65rC1L1-VL22A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P65rC1L2-VL22A"/></ab><ab n="B04K18V36"><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">tradere</supplied>r</w>
+<lb n="P65rC1L3-VL22A"/><w><supplied reason="unspecified">iu</supplied>d<supplied reason="unspecified">a</supplied>e<supplied reason="unspecified">is</supplied></w><w>n<supplied reason="unspecified">u</supplied>n<supplied reason="unspecified">c</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">regnu</supplied>m</w>
+<lb n="P65rC1L4-VL22A"/><w>meu<supplied reason="unspecified">m</supplied></w><w>n<supplied reason="unspecified">o</supplied>n</w><w>est</w><w>h<supplied reason="unspecified">inc</supplied></w>
+<lb n="P65rC1L5-VL22A"/></ab><ab n="B04K18V37"><w>d<supplied reason="unspecified">i</supplied>cit</w><w><supplied reason="unspecified">it</supplied>aq<supplied reason="unspecified">ue</supplied></w><w>pilatu<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">rex</supplied></w>
+<lb n="P65rC1L6-VL22A"/><w><supplied reason="unspecified">es</supplied></w><w><supplied reason="unspecified">tu</supplied></w><w>re<supplied reason="unspecified">s</supplied>pond<supplied reason="unspecified">it</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">i</hi></supplied><hi rend="overline">h</hi><supplied reason="unspecified"><hi rend="overline">s</hi></supplied></abbr></w><w><supplied reason="unspecified">tu</supplied></w><w>d<supplied reason="unspecified">ici</supplied>s</w>
+<lb n="P65rC1L7-VL22A"/><w>q<supplied reason="unspecified">ui</supplied>a</w><w>ego</w><w><supplied reason="unspecified">rex</supplied></w><w>su<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">ego</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">ho</supplied>c</w>
+<lb n="P65rC1L8-VL22A"/><w><supplied reason="unspecified">u</supplied>eni</w><w>in</w><w>hunc</w><w>m<supplied reason="unspecified">undum</supplied></w><w><supplied reason="unspecified">ut</supplied></w>
+<lb n="P65rC1L9-VL22A"/><w>testimonium</w><w>p<supplied reason="unspecified">erhibeam</supplied></w>
+<lb n="P65rC1L10-VL22A"/><w><supplied reason="unspecified">u</supplied>e<supplied reason="unspecified">r</supplied>itati</w><w>o<supplied reason="unspecified">mnis</supplied></w><w><supplied reason="unspecified">qui</supplied></w><w><supplied reason="unspecified">de</supplied></w><w><supplied reason="unspecified">ueri</supplied>
+<lb n="P65rC1L11-VL22A" break="no"/>tat<supplied reason="unspecified">e</supplied></w><w>es<supplied reason="unspecified">t</supplied></w><w>aud<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">uocem</supplied></w><w><supplied reason="unspecified">meam</supplied></w>
+<lb n="P65rC1L12-VL22A" rend="hang"/></ab><ab n="B04K18V38"><w>D<supplied reason="unspecified">icit</supplied></w><w>ei</w><w><supplied reason="unspecified">p</supplied>il<supplied reason="unspecified">at</supplied>u<supplied reason="unspecified">s</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P65rC1L13-VL22A"/>
+<lb n="P65rC1L14-VL22A"/>
+<lb n="P65rC1L15-VL22A"/>
+<lb n="P65rC1L16-VL22A"/></ab><ab n="B04K18V39"><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P65v-VL22A" n="65v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>secund</w></fw></seg>
+<cb n="P65vC1-VL22A"/>
+<lb n="P65vC1L1-VL22A"/><w><supplied reason="unspecified">autem</supplied></w><w><supplied reason="unspecified">consuet</supplied>ud<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">uobis</supplied></w>
+<lb n="P65vC1L2-VL22A"/><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">unum</supplied></w><w>d<supplied reason="unspecified">i</supplied>m<supplied reason="unspecified">ittam</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">pas</supplied>
+<lb n="P65vC1L3-VL22A" break="no"/><supplied reason="unspecified">cha</supplied></w><w><supplied reason="unspecified">uultis</supplied></w><w>ergo</w><w>di<supplied reason="unspecified">m</supplied>ittam</w>
+<lb n="P65vC1L4-VL22A"/><w><supplied reason="unspecified">uobis</supplied></w><w><supplied reason="unspecified">rege</supplied>m</w><w>i<supplied reason="unspecified">u</supplied>daeorum</w>
+<lb n="P65vC1L5-VL22A"/></ab><ab n="B04K18V40"><w><supplied reason="unspecified">exclama</supplied>uerunt</w><w>ergo</w><w>om
+<lb n="P65vC1L6-VL22A" break="no"/><supplied reason="unspecified">nes</supplied></w><w>n<supplied reason="unspecified">on</supplied></w><w>h<supplied reason="unspecified">u</supplied>n<supplied reason="unspecified">c</supplied></w><w>sed</w><w>bar<supplied reason="unspecified">abb</supplied>a<hi rend="¯">m</hi></w>
+<lb n="P65vC1L7-VL22A"/><w><supplied reason="unspecified">erat</supplied></w><w><supplied reason="unspecified">aut</supplied>e<supplied reason="unspecified">m</supplied></w><w>ba<supplied reason="unspecified">rab</supplied>bas</w><w>lat<supplied reason="unspecified">ro</supplied></w>
+<lb n="P65vC1L8-VL22A" rend="hang"/></ab></div><div n="B04K19" type="chapter"><ab n="B04K19V1"><w>T<supplied reason="unspecified">unc</supplied></w><w><supplied reason="unspecified">e</supplied>r<supplied reason="unspecified">g</supplied>o</w><w>adpraehendit</w><w>pi
+<lb n="P65vC1L9-VL22A" break="no"/><supplied reason="unspecified">latus</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ihm</hi></supplied></abbr></w><w>et</w><w>flagellis</w><w>ceci
+<lb n="P65vC1L10-VL22A" break="no"/><supplied reason="unspecified">dit</supplied></w><space unit="char" extent="7"/></ab><ab n="B04K19V2"><w><supplied reason="unspecified">et</supplied></w><w>milites</w><w>nec<supplied reason="unspecified">t</supplied>en
+<lb n="P65vC1L11-VL22A" break="no"/>t<supplied reason="unspecified">es</supplied></w><w><supplied reason="unspecified">corona</supplied>m</w><w>de</w><w>spin<supplied reason="unspecified">is</supplied></w><w>in
+<lb n="P65vC1L12-VL22A" break="no"/><supplied reason="unspecified">posuerunt</supplied></w><w>capiti</w><w>eius</w><w>et</w><w><supplied reason="unspecified">u</supplied>es
+<lb n="P65vC1L13-VL22A" break="no"/>t<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">purpuream</supplied></w><w>cir<supplied reason="unspecified">cum</supplied>de
+<lb n="P65vC1L14-VL22A" break="no"/><supplied reason="unspecified">derunt</supplied></w><w><supplied reason="unspecified">eum</supplied></w></ab><ab n="B04K19V3"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P65vC1L15-VL22A"/>
+<pb xml:id="P66r-VL22A" n="66r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>iohannen</w></fw></seg>
+<cb n="P66rC1-VL22A"/>
+<lb n="P66rC1L1-VL22A"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K19V4"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P66rC1L2-VL22A"/>
+<lb n="P66rC1L3-VL22A"/><w>e<supplied reason="unspecified">i</supplied>s</w><w>ecc<supplied reason="unspecified">e</supplied></w><w>addu<supplied reason="unspecified">co</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w>u<supplied reason="unspecified">obi</supplied>s</w>
+<lb n="P66rC1L4-VL22A"/><w><supplied reason="unspecified">f</supplied>oras</w><w>ut</w><w>cog<supplied reason="unspecified">no</supplied>s<supplied reason="unspecified">c</supplied>a<supplied reason="unspecified">tis</supplied></w><w><supplied reason="unspecified">q</supplied>u<supplied reason="unspecified">i</supplied>a</w><w><supplied reason="unspecified">n</supplied>on</w>
+<lb n="P66rC1L5-VL22A"/><w>inuenio</w><w>ca<supplied reason="unspecified">u</supplied>s<supplied reason="unspecified">am</supplied></w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">eo</supplied></w>
+<lb n="P66rC1L6-VL22A" rend="hang"/></ab><ab n="B04K19V5"><w>Exiuit</w><w>ergo</w><w><abbr type="nomSac"><hi rend="overline">ih</hi><supplied reason="unspecified"><hi rend="overline">s</hi></supplied></abbr></w><w>fo<supplied reason="unspecified">ras</supplied></w><w>h<supplied reason="unspecified">abe</supplied>ns</w>
+<lb n="P66rC1L7-VL22A"/><w>sp<supplied reason="unspecified">i</supplied>neam</w><w>coro<supplied reason="unspecified">n</supplied>am</w><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">p</supplied>ur<supplied reason="unspecified">p</supplied>u
+<lb n="P66rC1L8-VL22A" break="no"/>reum</w><w><supplied reason="unspecified">u</supplied>es<supplied reason="unspecified">t</supplied>im<supplied reason="unspecified">entum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>d<supplied reason="unspecified">i</supplied>
+<lb n="P66rC1L9-VL22A" break="no"/>cit</w><w>illis</w><w>ecce</w><w>homo</w></ab><ab n="B04K19V6"><w>cum</w><w><supplied reason="unspecified">er</supplied>
+<lb n="P66rC1L10-VL22A" break="no"/>go</w><w>uidissent</w><w>eu<supplied reason="unspecified">m</supplied></w><w>pri<supplied reason="unspecified">ncip</supplied>es</w>
+<lb n="P66rC1L11-VL22A"/><w>sacerdotum</w><w>e<supplied reason="unspecified">t</supplied></w><w>m<supplied reason="unspecified">ini</supplied>s<supplied reason="unspecified">t</supplied>r<supplied reason="unspecified">i</supplied></w>
+<lb n="P66rC1L12-VL22A"/><w>ex<supplied reason="unspecified">c</supplied>lamauer<supplied reason="unspecified">un</supplied>t</w><w>di<supplied reason="unspecified">cente</supplied>s</w>
+<lb n="P66rC1L13-VL22A"/><w>cru<supplied reason="unspecified">ci</supplied></w><w>adfige</w><w>eum</w><w><supplied reason="unspecified">cr</supplied>u<supplied reason="unspecified">ci</supplied></w><w><supplied reason="unspecified">a</supplied>d
+<lb n="P66rC1L14-VL22A" break="no"/>fige</w><w>eum</w><space unit="char" extent="7"/><w>d<supplied reason="unspecified">icit</supplied></w><w><supplied reason="unspecified">eis</supplied></w>
+<lb n="P66rC1L15-VL22A"/><w>pi<supplied reason="unspecified">l</supplied>atus</w><w>a<supplied reason="unspecified">c</supplied>cip<supplied reason="unspecified">ite</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">uos</supplied></w>
+<lb n="P66rC1L16-VL22A"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">cruci</supplied></w><w><supplied reason="unspecified">adfigite</supplied></w><w><supplied reason="unspecified">e</supplied>g<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">eni</supplied>m</w>
+<pb xml:id="P66v-VL22A" n="66v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>secund</w></fw></seg>
+<cb n="P66vC1-VL22A"/>
+<lb n="P66vC1L1-VL22A"/><w>n<supplied reason="unspecified">o</supplied>n</w><w><supplied reason="unspecified">i</supplied>n<supplied reason="unspecified">ue</supplied>n<supplied reason="unspecified">io</supplied></w><w><supplied reason="unspecified">ca</supplied>usam</w><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">eo</supplied></w>
+<lb n="P66vC1L2-VL22A" rend="hang"/></ab><ab n="B04K19V7"><w>R<supplied reason="unspecified">es</supplied>po<supplied reason="unspecified">nderunt</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w>iud<supplied reason="unspecified">ae</supplied>i</w>
+<lb n="P66vC1L3-VL22A"/><w>n<supplied reason="unspecified">os</supplied></w><w>le<supplied reason="unspecified">g</supplied>em</w><w>hab<supplied reason="unspecified">e</supplied>m<supplied reason="unspecified">u</supplied>s</w><w>et</w><w>se
+<lb n="P66vC1L4-VL22A" break="no"/><supplied reason="unspecified">cu</supplied>nd<supplied reason="unspecified">um</supplied></w><w>l<supplied reason="unspecified">e</supplied>ge<supplied reason="unspecified">m</supplied></w><w>debet</w><w>mo
+<lb n="P66vC1L5-VL22A" break="no"/>ri</w><w>qu<supplied reason="unspecified">ia</supplied></w><w>f<supplied reason="unspecified">i</supplied>l<supplied reason="unspecified">ium</supplied></w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>se</w><w>fecit</w>
+<lb n="P66vC1L6-VL22A" rend="hang"/></ab><ab n="B04K19V8"><w>C<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">er</supplied>go</w><w>a<supplied reason="unspecified">u</supplied>disset</w><w>pi<supplied reason="unspecified">lat</supplied>us</w>
+<lb n="P66vC1L7-VL22A"/><w>hunc</w><w>s<supplied reason="unspecified">e</supplied>rmonem</w><w>mag<supplied reason="unspecified">i</supplied>s</w><w>ti
+<lb n="P66vC1L8-VL22A" break="no"/><supplied reason="unspecified">muit</supplied></w></ab><ab n="B04K19V9"><w><supplied reason="unspecified">et</supplied></w><w>introi<supplied reason="unspecified">u</supplied>it</w><w>in</w><w>prae
+<lb n="P66vC1L9-VL22A" break="no"/>t<supplied reason="unspecified">oriu</supplied>m</w><w>iterum</w><w>et</w><w>dicit</w><w>ad</w>
+<lb n="P66vC1L10-VL22A"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w><supplied reason="unspecified">u</supplied>nde</w><w>es</w><w>tu</w><pc>·</pc><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>·</pc><w>autem</w>
+<lb n="P66vC1L11-VL22A"/><w>r<supplied reason="unspecified">es</supplied>p<supplied reason="unspecified">o</supplied>n<supplied reason="unspecified">su</supplied>m</w><w>non</w><w>d<supplied reason="unspecified">e</supplied>di<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">e</supplied>i</w>
+<lb n="P66vC1L12-VL22A"/></ab><ab n="B04K19V10"><w>d<supplied reason="unspecified">icit</supplied></w><w><supplied reason="unspecified">e</supplied>rg<supplied reason="unspecified">o</supplied></w><w>ei</w><w>pilatus</w><w>mihi</w>
+<lb n="P66vC1L13-VL22A"/><w><supplied reason="unspecified">non</supplied></w><w>l<supplied reason="unspecified">oqu</supplied>eris</w><w>nesci<supplied reason="unspecified">s</supplied></w><w>qu<supplied reason="unspecified">o</supplied>
+<lb n="P66vC1L14-VL22A" break="no"/><supplied reason="unspecified">niam</supplied></w><w><supplied reason="unspecified">pote</supplied>statem</w><w>habeo</w>
+<lb n="P66vC1L15-VL22A"/><w><supplied reason="unspecified">cruci</supplied></w><w><supplied reason="unspecified">figendi</supplied></w><w><supplied reason="unspecified">t</supplied>e</w><w>et</w><w>potesta
+<lb n="P66vC1L16-VL22A" break="no"/>t<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">habeo</supplied></w><w>d<supplied reason="unspecified">imitte</supplied>nd<supplied reason="unspecified">i</supplied></w>
+<pb xml:id="P67r-VL22A" n="67r" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>iohannen</w></fw></seg>
+<cb n="P67rC1-VL22A"/>
+<lb n="P67rC1L1-VL22A" rend="hang"/><w>T<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">pot</supplied>estat<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">habeo</supplied></w><w><supplied reason="unspecified">cr</supplied>u
+<lb n="P67rC1L2-VL22A" break="no"/>c<supplied reason="unspecified">i</supplied></w><w>f<supplied reason="unspecified">i</supplied>g<supplied reason="unspecified">e</supplied>ndi</w><w>t<supplied reason="unspecified">e</supplied></w><space unit="char" extent="5"/></ab><ab n="B04K19V11"><w><supplied reason="unspecified">respon</supplied>
+<lb n="P67rC1L3-VL22A" break="no"/>dit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ih</hi><supplied reason="unspecified"><hi rend="overline">s</hi></supplied></abbr></w><pc><supplied reason="unspecified">·</supplied></pc><w>n<supplied reason="unspecified">o</supplied>n</w><w>h<supplied reason="unspecified">aberes</supplied></w><w><supplied reason="unspecified">po</supplied>
+<lb n="P67rC1L4-VL22A" break="no"/>testa<supplied reason="unspecified">t</supplied>em</w><w>adue<supplied reason="unspecified">rsus</supplied></w><w><supplied reason="unspecified">me</supplied></w><w><supplied reason="unspecified">u</supplied>l
+<lb n="P67rC1L5-VL22A" break="no"/>lam</w><w>ni<supplied reason="unspecified">s</supplied>i</w><w>esset</w><w><supplied reason="unspecified">ti</supplied>b<supplied reason="unspecified">i</supplied></w><w>d<supplied reason="unspecified">ata</supplied></w><w>d<supplied reason="unspecified">e</supplied>
+<lb n="P67rC1L6-VL22A" break="no"/>su<supplied reason="unspecified">pe</supplied>r</w><w>propter<supplied reason="unspecified">ea</supplied></w><w>q<supplied reason="unspecified">ui</supplied></w><w>m<supplied reason="unspecified">e</supplied></w>
+<lb n="P67rC1L7-VL22A"/><w>tradidit</w><w>tibi</w><w>mai<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">peccat</supplied>um</w>
+<lb n="P67rC1L8-VL22A"/><w>habet</w></ab><ab n="B04K19V12"><w><supplied reason="unspecified">e</supplied>xind<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">p</supplied>ilatu<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">quae</supplied>re
+<lb n="P67rC1L9-VL22A" break="no"/>bat</w><w>dim<supplied reason="unspecified">i</supplied>ttere</w><w>eum</w>
+<lb n="P67rC1L10-VL22A" rend="hang"/><w>Iudaei</w><w>autem</w><w>clam<supplied reason="unspecified">ab</supplied>ant</w><w>d<supplied reason="unspecified">i</supplied>
+<lb n="P67rC1L11-VL22A" break="no"/>centes</w><w>s<supplied reason="unspecified">i</supplied></w><w>hun<supplied reason="unspecified">c</supplied></w><w>d<supplied reason="unspecified">imittis</supplied></w><w>n<supplied reason="unspecified">on</supplied></w>
+<lb n="P67rC1L12-VL22A"/><w>es</w><w>amicus</w><w>cae<supplied reason="unspecified">s</supplied>a<supplied reason="unspecified">ris</supplied></w><w><supplied reason="unspecified">o</supplied>mn<supplied reason="unspecified">i</supplied>s</w>
+<lb n="P67rC1L13-VL22A"/><w>qui</w><w><supplied reason="unspecified">r</supplied>egem</w><w>se</w><w>fa<supplied reason="unspecified">cit</supplied></w><w><supplied reason="unspecified">co</supplied>n<supplied reason="unspecified">tr</supplied>a
+<lb n="P67rC1L14-VL22A" break="no"/>dicit</w><w>cae<supplied reason="unspecified">s</supplied>ari</w>
+<lb n="P67rC1L15-VL22A" rend="hang"/></ab><ab n="B04K19V13"><w>Pilatu<supplied reason="unspecified">s</supplied></w><w>ergo</w><w>c<supplied reason="unspecified">um</supplied></w><w>a<supplied reason="unspecified">u</supplied>d<supplied reason="unspecified">isse</supplied>t</w>
+<lb n="P67rC1L16-VL22A"/><w>h<supplied reason="unspecified">os</supplied></w><w><supplied reason="unspecified">s</supplied>erm<supplied reason="unspecified">o</supplied>n<supplied reason="unspecified">es</supplied></w><w><supplied reason="unspecified">a</supplied>dd<supplied reason="unspecified">uxit</supplied></w><w>f<supplied reason="unspecified">o</supplied></w><note type="local">This concatenation has been removed, because if it is kept, the running title of 67v does not display</note>
+<pb xml:id="P67v-VL22A" n="67v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb rend="centerJust"/><fw type="runTitle"><w>secund</w></fw></seg>
+<cb n="P67vC1-VL22A"/>
+<lb n="P67vC1L1-VL22A"/><w><supplied reason="unspecified">ras</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ih</hi></supplied><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">se</supplied>dit</w><w>p<supplied reason="unspecified">ro</supplied></w><w><supplied reason="unspecified">tribu</supplied>na
+<lb n="P67vC1L2-VL22A" break="no"/><supplied reason="unspecified">li</supplied></w><w><supplied reason="unspecified">in</supplied></w><w>l<supplied reason="unspecified">ocu</supplied>m</w><w>q<supplied reason="unspecified">u</supplied>i</w><w>dic<supplied reason="unspecified">itur</supplied></w><w><supplied reason="unspecified">litho</supplied>
+<lb n="P67vC1L3-VL22A" break="no"/><supplied reason="unspecified">strotus</supplied></w><w><supplied reason="unspecified">he</supplied>br<supplied reason="unspecified">a</supplied>eice</w><w>autem</w>
+<lb n="P67vC1L4-VL22A"/><w>g<supplied reason="unspecified">enn</supplied>e<supplied reason="unspecified">t</supplied>a</w></ab><ab n="B04K19V14"><w>e<supplied reason="unspecified">ra</supplied>t</w><w>a<supplied reason="unspecified">u</supplied>t<supplied reason="unspecified">e</supplied>m</w><w><supplied reason="unspecified">p</supplied>arasce
+<lb n="P67vC1L5-VL22A" break="no"/><supplied reason="unspecified">ue</supplied></w><w><supplied reason="unspecified">pasc</supplied>h<supplied reason="unspecified">ae</supplied></w><w>h<supplied reason="unspecified">o</supplied>ra</w><w>erat</w><w>quasi</w>
+<lb n="P67vC1L6-VL22A"/><w><supplied reason="unspecified">sexta</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>d<supplied reason="unspecified">i</supplied>c<supplied reason="unspecified">i</supplied>t</w><w>iudaeis</w><w>ecce</w><w>rex</w>
+<lb n="P67vC1L7-VL22A"/><w><supplied reason="unspecified">uester</supplied></w></ab><ab n="B04K19V15"><w><supplied reason="unspecified">c</supplied>lamauerunt</w><w>ergo</w>
+<lb n="P67vC1L8-VL22A"/><w><supplied reason="unspecified">i</supplied>ll<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">to</supplied>ll<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">to</supplied>ll<supplied reason="unspecified">e</supplied></w><w>cru<supplied reason="unspecified">ci</supplied>fige</w><w>eum</w>
+<lb n="P67vC1L9-VL22A"/><w>dicit</w><w>eis</w><w>pilatus</w><w>r<supplied reason="unspecified">e</supplied>gem</w><w>ues
+<lb n="P67vC1L10-VL22A" break="no"/>t<supplied reason="unspecified">rum</supplied></w><w><supplied reason="unspecified">cr</supplied>ucifigam</w>
+<lb n="P67vC1L11-VL22A" rend="hang"/><w>Re<supplied reason="unspecified">spo</supplied>nd<supplied reason="unspecified">er</supplied>unt</w><w>pontifices</w>
+<lb n="P67vC1L12-VL22A"/><w><supplied reason="unspecified">no</supplied>n</w><w><supplied reason="unspecified">habemu</supplied>s</w><w>r<supplied reason="unspecified">e</supplied>g<supplied reason="unspecified">e</supplied>m</w><w>nisi</w>
+<lb n="P67vC1L13-VL22A"/><w><supplied reason="unspecified">caesarem</supplied></w><space unit="char" extent="9"/></ab><ab n="B04K19V16"><w>tunc</w>
+<lb n="P67vC1L14-VL22A"/><w><supplied reason="unspecified">e</supplied>rgo</w><w>tradidit</w><w>eis</w><w>illum</w><w>ut</w><w>cru
+<lb n="P67vC1L15-VL22A" break="no"/><supplied reason="unspecified">ci</supplied>f<supplied reason="unspecified">i</supplied>g<supplied reason="unspecified">e</supplied>ren<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">s</supplied>usceperunt</w><w>er
+<lb n="P67vC1L16-VL22A" break="no"/><supplied reason="unspecified">go</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ih</hi></supplied><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w></ab><ab n="B04K19V17"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">bai</supplied>ul<supplied reason="unspecified">a</supplied>ns</w><w><supplied reason="unspecified">s</supplied>i<supplied reason="unspecified">bi</supplied></w><w><supplied reason="unspecified">c</supplied>ru
+<pb xml:id="P68r-VL22A" n="68r" type="folio" break="no"/>
+<cb n="P68rC1-VL22A"/>
+<lb n="P68rC1L1-VL22A"/><supplied reason="unspecified">cem</supplied></w><note type="editorial">Folio 68r is without legible text</note>
+<pb xml:id="P68v-VL22A" n="68v" type="folio"/>
+<cb n="P68vC1-VL22A"/>
+<lb n="P68vC1L1-VL22A"/><note type="editorial">Folio 68v is without legible text</note>
+<pb xml:id="P69r-VL22A" n="69r" type="folio"/>
+<cb n="P69rC1-VL22A"/>
+<lb n="P69rC1L1-VL22A"/><note type="editorial">Folio 69r is without legible text</note>
+<pb xml:id="P69v-VL22A" n="69v" type="folio"/>
+<cb n="P69vC1-VL22A"/>
+<lb n="P69vC1L1-VL22A"/><note type="editorial">Folio 69v is without legible text</note>
+<lb n="P69vC1L2-VL22A"/>
+<lb n="P69vC1L3-VL22A"/>
+<lb n="P69vC1L4-VL22A"/>
+<lb n="P69vC1L5-VL22A"/>
+<lb n="P69vC1L6-VL22A"/>
+<lb n="P69vC1L7-VL22A"/>
+<lb n="P69vC1L8-VL22A"/>
+<lb n="P69vC1L9-VL22A"/>
+<lb n="P69vC1L10-VL22A"/>
+<lb n="P69vC1L11-VL22A"/>
+<lb n="P69vC1L12-VL22A"/>
+<lb n="P69vC1L13-VL22A"/>
+<lb n="P69vC1L14-VL22A"/>
+<lb n="P69vC1L15-VL22A"/>
+<lb n="P69vC1L16-VL22A"/></ab><ab n="B04K19V31"><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P70r-VL22A" n="70r" type="folio"/><note type="editorial">There is no running title on folio 70r or the subsequent pages</note>
+<cb n="P70rC1-VL22A"/>
+<lb n="P70rC1L1-VL22A"/><w>ill<supplied reason="unspecified">ius</supplied></w><w><supplied reason="unspecified">sabbati</supplied></w><space unit="char" extent="7"/><w><supplied reason="unspecified">ro</supplied>g<supplied reason="unspecified">a</supplied>
+<lb n="P70rC1L2-VL22A" break="no"/><supplied reason="unspecified">uerunt</supplied></w><w>pil<supplied reason="unspecified">atum</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">fra</supplied>ng<supplied reason="unspecified">e</supplied>
+<lb n="P70rC1L3-VL22A" break="no"/>r<supplied reason="unspecified">e</supplied>n<supplied reason="unspecified">tu</supplied>r</w><w>cru<supplied reason="unspecified">ra</supplied></w><app><rdg type="orig" hand="firsthand"><w><supplied reason="unspecified">eor</supplied></w></rdg><rdg type="corr" hand="corrector"><w><supplied reason="unspecified">eor</supplied>um</w></rdg></app><note type="editorial">The 'um' of the correction of 'eor' to 'eorum' is visible above the line.</note></ab><ab n="B04K19V32"><w>u<supplied reason="unspecified">e</supplied>n<supplied reason="unspecified">eru</supplied>nt</w>
+<lb n="P70rC1L4-VL22A"/><w>erg<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">m</supplied>ilit<supplied reason="unspecified">es</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">i</supplied>ll<supplied reason="unspecified">ius</supplied></w><w>qu<supplied reason="unspecified">i</supplied>d<supplied reason="unspecified">e</supplied>m</w>
+<lb n="P70rC1L5-VL22A"/><w>prim<supplied reason="unspecified">i</supplied></w><w>f<supplied reason="unspecified">r</supplied>ege<supplied reason="unspecified">ru</supplied>n<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">crur</supplied>a</w><w>e<supplied reason="unspecified">t</supplied></w>
+<lb n="P70rC1L6-VL22A"/><w>alteri<supplied reason="unspecified">us</supplied></w><w>qu<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">s</supplied>im<supplied reason="unspecified">ul</supplied></w><w><supplied reason="unspecified">cr</supplied>u<supplied reason="unspecified">ci</supplied>fi
+<lb n="P70rC1L7-VL22A" break="no"/>xus</w><w>cum</w><w>e<supplied reason="unspecified">o</supplied></w></ab><ab n="B04K19V33"><w><supplied reason="unspecified">a</supplied>d</w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">i</hi></supplied><hi rend="overline">hm</hi></abbr></w><w><supplied reason="unspecified">aute</supplied>m</w>
+<lb n="P70rC1L8-VL22A"/><w>cum</w><w>u<supplied reason="unspecified">e</supplied>nissent</w><w>et</w><w>uidissent</w>
+<lb n="P70rC1L9-VL22A"/><w>eum</w><w>iam</w><w>m<supplied reason="unspecified">or</supplied>t<supplied reason="unspecified">u</supplied>um</w><w>non</w><w>fre
+<lb n="P70rC1L10-VL22A" break="no"/>gerunt</w><w>eiu<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">crur</supplied>a</w></ab><ab n="B04K19V34"><w>s<supplied reason="unspecified">e</supplied>d</w><w><supplied reason="unspecified">unus</supplied></w>
+<lb n="P70rC1L11-VL22A"/><w>mil<supplied reason="unspecified">i</supplied>t<supplied reason="unspecified">u</supplied>m</w><w>lan<supplied reason="unspecified">ce</supplied>am</w><w>ha<supplied reason="unspecified">be</supplied>ns</w>
+<lb n="P70rC1L12-VL22A"/><w>lat<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w><supplied reason="unspecified">aperuit</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">exiuit</supplied></w>
+<lb n="P70rC1L13-VL22A"/><w>con<supplied reason="unspecified">ti</supplied>n<supplied reason="unspecified">uo</supplied></w><w><supplied reason="unspecified">s</supplied>ang<supplied reason="unspecified">uis</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">aqua</supplied></w>
+<lb n="P70rC1L14-VL22A" rend="hang"/></ab><ab n="B04K19V35"><w>Et</w><w>qui</w><w><supplied reason="unspecified">ui</supplied>d<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">testimo</supplied>n<supplied reason="unspecified">ium</supplied></w>
+<lb n="P70rC1L15-VL22A"/><w>perhibuit</w><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">uer</supplied>um</w><w>e<supplied reason="unspecified">st</supplied></w><w><supplied reason="unspecified">t</supplied>es
+<lb n="P70rC1L16-VL22A" break="no"/>ti<supplied reason="unspecified">monium</supplied></w><w><supplied reason="unspecified">eius</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ille</supplied></w><w><supplied reason="unspecified">scit</supplied></w>
+<pb xml:id="P70v-VL22A" n="70v" type="folio"/><note type="local">No running title</note>
+<cb n="P70vC1-VL22A"/>
+<lb n="P70vC1L1-VL22A"/><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">ue</supplied>ra</w><w>dicit</w><w>u<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">uos</supplied></w><w><supplied reason="unspecified">cre</supplied>da
+<lb n="P70vC1L2-VL22A" break="no"/>t<supplied reason="unspecified">is</supplied></w></ab><ab n="B04K19V36"><w>fa<supplied reason="unspecified">cta</supplied></w><w><supplied reason="unspecified">sunt</supplied></w><w><supplied reason="unspecified">enim</supplied></w><w><supplied reason="unspecified">haec</supplied></w><w><supplied reason="unspecified">ut</supplied></w><w><supplied reason="unspecified">scriptu</supplied>
+<lb n="P70vC1L3-VL22A" break="no"/><supplied reason="unspecified">ra</supplied></w><w><supplied reason="unspecified">imp</supplied>l<supplied reason="unspecified">eatur</supplied></w><w>os<supplied reason="unspecified">sum</supplied></w><w>n<supplied reason="unspecified">o</supplied>n</w><w>con
+<lb n="P70vC1L4-VL22A" break="no"/><supplied reason="unspecified">frin</supplied>g<supplied reason="unspecified">eti</supplied>s</w><w><supplied reason="unspecified">e</supplied>x</w><w><supplied reason="unspecified">eo</supplied></w><space unit="char" extent="4"/></ab><ab n="B04K19V37"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">it</supplied>erum</w>
+<lb n="P70vC1L5-VL22A"/><w>al<supplied reason="unspecified">ia</supplied></w><w><supplied reason="unspecified">script</supplied>u<supplied reason="unspecified">ra</supplied></w><w>d<supplied reason="unspecified">icit</supplied></w><w><supplied reason="unspecified">ui</supplied>d<supplied reason="unspecified">e</supplied>runt</w>
+<lb n="P70vC1L6-VL22A"/><w>in</w><w>qu<supplied reason="unspecified">em</supplied></w><w><supplied reason="unspecified">t</supplied>r<supplied reason="unspecified">a</supplied>n<supplied reason="unspecified">s</supplied>f<supplied reason="unspecified">i</supplied>xe<supplied reason="unspecified">r</supplied>unt</w>
+<lb n="P70vC1L7-VL22A" rend="hang"/></ab><ab n="B04K19V38"><w>P<supplied reason="unspecified">ost</supplied></w><w>h<supplied reason="unspecified">ae</supplied>c</w><w>au<supplied reason="unspecified">tem</supplied></w><w>rogabit</w><w>pila
+<lb n="P70vC1L8-VL22A" break="no"/>t<supplied reason="unspecified">u</supplied>m</w><w>ios<supplied reason="unspecified">e</supplied>ph</w><w>ab</w><w>arima<supplied reason="unspecified">ti</supplied>a</w><w>qui</w><w>et</w>
+<lb n="P70vC1L9-VL22A"/><w><supplied reason="unspecified">ip</supplied>s<supplied reason="unspecified">e</supplied></w><w>di<supplied reason="unspecified">s</supplied>cipul<supplied reason="unspecified">us</supplied></w><w>e<supplied reason="unspecified">ra</supplied>t</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>oc
+<lb n="P70vC1L10-VL22A" break="no"/><supplied reason="unspecified">cu</supplied>l<supplied reason="unspecified">t</supplied>u<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">a</supplied>u<supplied reason="unspecified">t</supplied>e<supplied reason="unspecified">m</supplied></w><w>propte<supplied reason="unspecified">r</supplied></w><w>metum</w>
+<lb n="P70vC1L11-VL22A"/><w>iu<supplied reason="unspecified">dae</supplied>or<supplied reason="unspecified">u</supplied>m</w><w><supplied reason="unspecified">ut</supplied></w><w>toll<supplied reason="unspecified">er</supplied>e<supplied reason="unspecified">t</supplied></w><w>cor
+<lb n="P70vC1L12-VL22A" break="no"/><supplied reason="unspecified">pus</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ih</hi></supplied><supplied reason="unspecified"><hi rend="overline">u</hi></supplied></abbr></w><w><supplied reason="unspecified">et</supplied></w><w>pe<supplied reason="unspecified">r</supplied>mi<supplied reason="unspecified">sit</supplied></w><w>p<supplied reason="unspecified">ilatu</supplied>s</w>
+<lb n="P70vC1L13-VL22A"/><w><supplied reason="unspecified">ue</supplied>n<supplied reason="unspecified">er</supplied>un<supplied reason="unspecified">t</supplied></w><w>e<supplied reason="unspecified">r</supplied>go</w><w><supplied reason="unspecified">e</supplied>t</w><w>t<supplied reason="unspecified">u</supplied>l<supplied reason="unspecified">e</supplied>runt</w>
+<lb n="P70vC1L14-VL22A"/><w>e<supplied reason="unspecified">um</supplied></w></ab><ab n="B04K19V39"><w><supplied reason="unspecified">uenit</supplied></w><w><supplied reason="unspecified">autem</supplied></w><w>e<supplied reason="unspecified">t</supplied></w><w>n<supplied reason="unspecified">ico</supplied>de
+<lb n="P70vC1L15-VL22A" break="no"/>m<supplied reason="unspecified">u</supplied>s</w><w>q<supplied reason="unspecified">ui</supplied></w><w>u<supplied reason="unspecified">en</supplied>e<supplied reason="unspecified">r</supplied>at</w><w>ad</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>noc
+<lb n="P70vC1L16-VL22A" break="no"/>te</w><w>pr<supplied reason="unspecified">imum</supplied></w><w><supplied reason="unspecified">fer</supplied>ens</w><w>m<supplied reason="unspecified">ixtu</supplied>ram</w>
+<pb xml:id="P71r-VL22A" n="71r" type="folio"/><note type="local">No running title</note>
+<cb n="P71rC1-VL22A"/>
+<lb n="P71rC1L1-VL22A"/><w>m<supplied reason="unspecified">urr</supplied>ae</w><w>et</w><w><supplied reason="unspecified">aloes</supplied></w><w><supplied reason="unspecified">quasi</supplied></w><w><supplied reason="unspecified">libras</supplied></w>
+<lb n="P71rC1L2-VL22A"/><w><supplied reason="unspecified">c</supplied>en<supplied reason="unspecified">tum</supplied></w></ab><ab n="B04K19V40"><w><supplied reason="unspecified">a</supplied>c<supplied reason="unspecified">ceperunt</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">cor</supplied>
+<lb n="P71rC1L3-VL22A" break="no"/>p<supplied reason="unspecified">us</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ih</hi></supplied><supplied reason="unspecified"><hi rend="overline">u</hi></supplied></abbr></w><w>et</w><w><supplied reason="unspecified">ligauerunt</supplied></w><w><supplied reason="unspecified">eum</supplied></w>
+<lb n="P71rC1L4-VL22A"/><w><supplied reason="unspecified">l</supplied>in<supplied reason="unspecified">teis</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">aromatibus</supplied></w>
+<lb n="P71rC1L5-VL22A"/><w>sicu<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">mos</supplied></w><w><supplied reason="unspecified">est</supplied></w><w><supplied reason="unspecified">iu</supplied>d<supplied reason="unspecified">aeis</supplied></w><w><supplied reason="unspecified">sepe</supplied>
+<lb n="P71rC1L6-VL22A" break="no"/>lire</w><space unit="char" extent="8"/></ab><ab n="B04K19V41"><w>era<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">a</supplied>u<supplied reason="unspecified">tem</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P71rC1L7-VL22A"/><w>loco</w><w>ub<supplied reason="unspecified">i</supplied></w><w>c<supplied reason="unspecified">rucifi</supplied>x<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">est</supplied></w><w>h<supplied reason="unspecified">ort</supplied>us</w>
+<lb n="P71rC1L8-VL22A"/><w>et</w><w>in</w><w>h<supplied reason="unspecified">orto</supplied></w><w><supplied reason="unspecified">monume</supplied>n<supplied reason="unspecified">tum</supplied></w>
+<lb n="P71rC1L9-VL22A"/><w>no<supplied reason="unspecified">uum</supplied></w><w><supplied reason="unspecified">i</supplied>n</w><w><supplied reason="unspecified">quo</supplied></w><w><supplied reason="unspecified">no</supplied>nd<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">qu</supplied>is
+<lb n="P71rC1L10-VL22A" break="no"/>qu<supplied reason="unspecified">am</supplied></w><w><supplied reason="unspecified">po</supplied>situs</w><w><supplied reason="unspecified">er</supplied>at</w></ab><ab n="B04K19V42"><w><supplied reason="unspecified">ibi</supplied></w><w><supplied reason="unspecified">er</supplied>g<supplied reason="unspecified">o</supplied></w>
+<lb n="P71rC1L11-VL22A"/><w>pro<supplied reason="unspecified">p</supplied>t<supplied reason="unspecified">e</supplied>r</w><w><supplied reason="unspecified">p</supplied>a<supplied reason="unspecified">ras</supplied>c<supplied reason="unspecified">eu</supplied>e</w><w>q<supplied reason="unspecified">uia</supplied></w><w><supplied reason="unspecified">i</supplied>ux
+<lb n="P71rC1L12-VL22A" break="no"/>ta</w><w>er<supplied reason="unspecified">at</supplied></w><w><supplied reason="unspecified">mo</supplied>n<supplied reason="unspecified">ume</supplied>n<supplied reason="unspecified">t</supplied>u<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">po</supplied>
+<lb n="P71rC1L13-VL22A" break="no"/>sue<supplied reason="unspecified">runt</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ih</hi></supplied><supplied reason="unspecified"><hi rend="overline">m</hi></supplied></abbr></w><space unit="char" extent="6"/></ab></div><div n="B04K20" type="chapter"><ab n="B04K20V1"><w>d<supplied reason="unspecified">ie</supplied></w><w><supplied reason="unspecified">au</supplied>
+<lb n="P71rC1L14-VL22A" break="no"/>tem</w><w>pr<supplied reason="unspecified">i</supplied>ma</w><w>s<supplied reason="unspecified">abbati</supplied></w><w><supplied reason="unspecified">u</supplied>en<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">m</supplied>a
+<lb n="P71rC1L15-VL22A" break="no"/>r<supplied reason="unspecified">i</supplied>a</w><w>magdal<supplied reason="unspecified">e</supplied>n<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">a</supplied>dhuc</w>
+<lb n="P71rC1L16-VL22A"/><w><supplied reason="unspecified">t</supplied>en<supplied reason="unspecified">ebrae</supplied></w><w><supplied reason="unspecified">esse</supplied>n<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">a</supplied>d</w><w><supplied reason="unspecified">monu</supplied>
+<pb xml:id="P71v-VL22A" n="71v" type="folio" break="no"/>
+<cb n="P71vC1-VL22A"/>
+<lb n="P71vC1L1-VL22A"/><supplied reason="unspecified">mentum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ui</supplied>dit</w><w>lap<supplied reason="unspecified">i</supplied>d<supplied reason="unspecified">e</supplied>m</w><w>re
+<lb n="P71vC1L2-VL22A" break="no"/><supplied reason="unspecified">uolutum</supplied></w><w><supplied reason="unspecified">a</supplied></w><w>monu<supplied reason="unspecified">m</supplied>ento</w></ab><ab n="B04K20V2"><w>cu
+<lb n="P71vC1L3-VL22A" break="no"/><supplied reason="unspecified">currit</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">ue</supplied>n<supplied reason="unspecified">it</supplied></w><w>ad</w><w><supplied reason="unspecified">si</supplied>mo
+<lb n="P71vC1L4-VL22A" break="no"/><supplied reason="unspecified">nem</supplied></w><w><supplied reason="unspecified">petrum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">a</supplied>d</w><w><supplied reason="unspecified">a</supplied>l<supplied reason="unspecified">iu</supplied>m</w><w>dis
+<lb n="P71vC1L5-VL22A" break="no"/><supplied reason="unspecified">cipu</supplied>l<supplied reason="unspecified">um</supplied></w><w>q<supplied reason="unspecified">uem</supplied></w><w><supplied reason="unspecified">amabat</supplied></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>·</pc>
+<lb n="P71vC1L6-VL22A"/><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">dicit</supplied></w><w><supplied reason="unspecified">e</supplied>i<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">t</supplied>ul<supplied reason="unspecified">e</supplied>runt</w><pc>·</pc><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><pc>·</pc>
+<lb n="P71vC1L7-VL22A"/><w>d<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">mo</supplied>n<supplied reason="unspecified">ume</supplied>n<supplied reason="unspecified">to</supplied></w><w>e<supplied reason="unspecified">t</supplied></w><w>nesci
+<lb n="P71vC1L8-VL22A" break="no"/>mu<supplied reason="unspecified">s</supplied></w><w>u<supplied reason="unspecified">bi</supplied></w><w>p<supplied reason="unspecified">osuerunt</supplied></w><w><supplied reason="unspecified">eu</supplied>m</w>
+<lb n="P71vC1L9-VL22A" rend="hang"/></ab><ab n="B04K20V3"><w>E<supplied reason="unspecified">xiuit</supplied></w><w><supplied reason="unspecified">e</supplied>rg<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">pet</supplied>ru<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">e</supplied>t</w><w>ille</w><w>ali
+<lb n="P71vC1L10-VL22A" break="no"/>u<supplied reason="unspecified">s</supplied></w><w>d<supplied reason="unspecified">isci</supplied>pul<supplied reason="unspecified">us</supplied></w><w>e<supplied reason="unspecified">t</supplied></w><w>uen<supplied reason="unspecified">er</supplied>unt</w>
+<lb n="P71vC1L11-VL22A"/><w>ad</w><w><supplied reason="unspecified">mo</supplied>numen<supplied reason="unspecified">tum</supplied></w></ab><ab n="B04K20V4"><w>p<supplied reason="unspecified">r</supplied>aecur
+<lb n="P71vC1L12-VL22A" break="no"/>re<supplied reason="unspecified">ba</supplied>nt</w><w>au<supplied reason="unspecified">te</supplied>m</w><w>a<supplied reason="unspecified">mbo</supplied></w><w><supplied reason="unspecified">p</supplied>ariter</w>
+<lb n="P71vC1L13-VL22A"/><w>ill<supplied reason="unspecified">e</supplied></w><w><supplied reason="unspecified">aut</supplied>em</w><w>dis<supplied reason="unspecified">cipu</supplied>l<supplied reason="unspecified">us</supplied></w><w><supplied reason="unspecified">pr</supplied>ae
+<lb n="P71vC1L14-VL22A" break="no"/><supplied reason="unspecified">cucurrit</supplied></w><w><supplied reason="unspecified">citius</supplied></w><w><supplied reason="unspecified">petro</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>uenit</w>
+<lb n="P71vC1L15-VL22A"/><w>prio<supplied reason="unspecified">r</supplied></w><w><supplied reason="unspecified">a</supplied>d</w><w><supplied reason="unspecified">mo</supplied>n<supplied reason="unspecified">ume</supplied>n<supplied reason="unspecified">tu</supplied>m</w></ab><ab n="B04K20V5"><w>et</w>
+<lb n="P71vC1L16-VL22A"/><w><supplied reason="unspecified">c</supplied>u<supplied reason="unspecified">m</supplied></w><w><supplied reason="unspecified">se</supplied></w><w><supplied reason="unspecified">i</supplied>n<supplied reason="unspecified">c</supplied>l<supplied reason="unspecified">i</supplied>n<supplied reason="unspecified">asset</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">p</supplied>r<supplied reason="unspecified">o</supplied>s
+<pb xml:id="P72r-VL22A" n="72r" type="folio" break="no"/>
+<cb n="P72rC1-VL22A"/>
+<lb n="P72rC1L1-VL22A"/><supplied reason="unspecified">pexisset</supplied></w><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P72rC1L2-VL22A"/>
+<lb n="P72rC1L3-VL22A" rend="hang"/></ab><ab n="B04K20V6"><w>U<supplied reason="unspecified">enit</supplied></w><w><supplied reason="unspecified">ergo</supplied></w><w><supplied reason="unspecified">simon</supplied></w><w><supplied reason="unspecified">petrus</supplied></w><w><supplied reason="unspecified">se</supplied>
+<lb n="P72rC1L4-VL22A" break="no"/>quen<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">i</supplied>n<supplied reason="unspecified">tro</supplied>iui<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">in</supplied></w>
+<lb n="P72rC1L5-VL22A"/><w>mon<supplied reason="unspecified">u</supplied>m<supplied reason="unspecified">e</supplied>n<supplied reason="unspecified">tum</supplied></w><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">uidit</supplied></w><w><supplied reason="unspecified">lin</supplied>
+<lb n="P72rC1L6-VL22A" break="no"/>team<supplied reason="unspecified">i</supplied>na</w><w>posita</w></ab><ab n="B04K20V7"><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">su</supplied>d<supplied reason="unspecified">arium</supplied></w>
+<lb n="P72rC1L7-VL22A"/><w>qu<supplied reason="unspecified">o</supplied>d</w><w>e<supplied reason="unspecified">rat</supplied></w><w><supplied reason="unspecified">su</supplied>p<supplied reason="unspecified">e</supplied>r</w><w><supplied reason="unspecified">ca</supplied>pu<supplied reason="unspecified">t</supplied></w><w>eiu<supplied reason="unspecified">s</supplied></w>
+<lb n="P72rC1L8-VL22A"/><w><supplied reason="unspecified">non</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w>l<supplied reason="unspecified">inteamin</supplied>ibu<supplied reason="unspecified">s</supplied></w>
+<lb n="P72rC1L9-VL22A"/><w><supplied reason="unspecified">positum</supplied></w><w><supplied reason="unspecified">sed</supplied></w><w><supplied reason="unspecified">se</supplied>p<supplied reason="unspecified">a</supplied>r<supplied reason="unspecified">atim</supplied></w><w><supplied reason="unspecified">inuo</supplied>
+<lb n="P72rC1L10-VL22A" break="no"/><supplied reason="unspecified">lutum</supplied></w><w><supplied reason="unspecified">i</supplied>n</w><w>unum</w><w>locum</w>
+<lb n="P72rC1L11-VL22A" rend="hang"/></ab><ab n="B04K20V8"><w>T<supplied reason="unspecified">u</supplied>nc</w><w>ergo</w><w>et</w><w>introi<supplied reason="unspecified">uit</supplied></w><w>e<supplied reason="unspecified">t</supplied></w><w>i<supplied reason="unspecified">l</supplied>
+<lb n="P72rC1L12-VL22A" break="no"/>le</w><w>dis<supplied reason="unspecified">ci</supplied>pulus</w><w>qui</w><w>u<supplied reason="unspecified">e</supplied>nerat</w>
+<lb n="P72rC1L13-VL22A"/><w>prio<supplied reason="unspecified">r</supplied></w><w><supplied reason="unspecified">ad</supplied></w><w><supplied reason="unspecified">mo</supplied>numen<supplied reason="unspecified">tum</supplied></w><w>et</w>
+<lb n="P72rC1L14-VL22A"/><w>uidit</w><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">cre</supplied>d<supplied reason="unspecified">idit</supplied></w></ab><ab n="B04K20V9"><w>n<supplied reason="unspecified">o</supplied>nd<supplied reason="unspecified">u</supplied>m</w>
+<lb n="P72rC1L15-VL22A"/><w>en<supplied reason="unspecified">im</supplied></w><w><supplied reason="unspecified">sciebat</supplied></w><w><supplied reason="unspecified">sc</supplied>r<supplied reason="unspecified">ipturam</supplied></w>
+<lb n="P72rC1L16-VL22A"/><w>q<supplied reason="unspecified">ui</supplied>a</w><w><supplied reason="unspecified">oportet</supplied></w><w><supplied reason="unspecified">eum</supplied></w><w><supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">mortuis</supplied></w>
+<pb xml:id="P72v-VL22A" n="72v" type="folio"/>
+<cb n="P72vC1-VL22A"/>
+<lb n="P72vC1L1-VL22A"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K20V10"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P72vC1L2-VL22A"/>
+<lb n="P72vC1L3-VL22A"/><gap reason="lacuna" unit="char" extent="unknown"/></ab><ab n="B04K20V11"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P72vC1L4-VL22A"/><w><supplied reason="unspecified">monumentum</supplied></w><w><supplied reason="unspecified">p</supplied>l<supplied reason="unspecified">ora</supplied>ns</w><w>et</w>
+<lb n="P72vC1L5-VL22A"/><w><supplied reason="unspecified">cum</supplied></w><w><supplied reason="unspecified">fleret</supplied></w><w>in<supplied reason="unspecified">c</supplied>l<supplied reason="unspecified">i</supplied>nabit</w><w>se</w>
+<lb n="P72vC1L6-VL22A"/><w><supplied reason="unspecified">et</supplied></w><w><supplied reason="unspecified">prospexit</supplied></w><w>in</w><w>mon<supplied reason="unspecified">u</supplied>men
+<lb n="P72vC1L7-VL22A" break="no"/><supplied reason="unspecified">tu</supplied>m</w></ab><ab n="B04K20V12"><w>e<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">ui</supplied>d<supplied reason="unspecified">it</supplied></w><w><supplied reason="unspecified">duos</supplied></w><w><supplied reason="unspecified">a</supplied>ngelos</w>
+<lb n="P72vC1L8-VL22A"/><w><supplied reason="unspecified">in</supplied></w><w><supplied reason="unspecified">albis</supplied></w><w><supplied reason="unspecified">se</supplied>d<supplied reason="unspecified">entes</supplied></w><w><supplied reason="unspecified">unum</supplied></w><w><supplied reason="unspecified">a</supplied>d</w>
+<lb n="P72vC1L9-VL22A"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P72vC1L10-VL22A"/><w><supplied reason="unspecified">po</supplied>situm</w><w>erat</w><w>corpus</w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">i</hi></supplied><hi rend="overline">h</hi><supplied reason="unspecified"><hi rend="overline">u</hi></supplied></abbr></w></ab><ab n="B04K20V13"><w>d<supplied reason="unspecified">i</supplied>
+<lb n="P72vC1L11-VL22A" break="no"/><supplied reason="unspecified">cunt</supplied></w><w><supplied reason="unspecified">ei</supplied></w><w><supplied reason="unspecified">i</supplied>lli</w><w>angel<supplied reason="unspecified">i</supplied></w><w><supplied reason="unspecified">mu</supplied>l<supplied reason="unspecified">i</supplied>er</w>
+<lb n="P72vC1L12-VL22A"/><w>qu<supplied reason="unspecified">i</supplied>d</w><w>pl<supplied reason="unspecified">o</supplied>ras</w><w>dicit</w><w>ei<supplied reason="unspecified">s</supplied></w><w><supplied reason="unspecified">quia</supplied></w><w><supplied reason="unspecified">t</supplied>u
+<lb n="P72vC1L13-VL22A" break="no"/>l<supplied reason="unspecified">e</supplied>r<supplied reason="unspecified">u</supplied>n<supplied reason="unspecified">t</supplied></w><w><abbr type="nomSac"><hi rend="overline">d</hi><supplied reason="unspecified"><hi rend="overline">n</hi></supplied><hi rend="overline">m</hi></abbr></w><note type="editorial">Godu reconstructs this as 'do¬m', but this form of nomen sacrum is not found elsewhere in this quaternion (cf. folio 71v)</note><w><supplied reason="unspecified">meu</supplied>m</w><w><supplied reason="unspecified">et</supplied></w><w>nes
+<lb n="P72vC1L14-VL22A" break="no"/>ci<supplied reason="unspecified">o</supplied></w><w><supplied reason="unspecified">ubi</supplied></w><w><supplied reason="unspecified">posuerunt</supplied></w><w><supplied reason="unspecified">eu</supplied>m</w>
+<lb n="P72vC1L15-VL22A" rend="hang"/></ab><ab n="B04K20V14"><w>Ha<supplied reason="unspecified">ec</supplied></w><w><supplied reason="unspecified">cum</supplied></w><w>d<supplied reason="unspecified">ixisset</supplied></w><w><supplied reason="unspecified">co</supplied>n<supplied reason="unspecified">u</supplied>er
+<lb n="P72vC1L16-VL22A" break="no"/>s<supplied reason="unspecified">a</supplied></w><w><supplied reason="unspecified">e</supplied>s<supplied reason="unspecified">t</supplied></w><w><supplied reason="unspecified">retror</supplied>s<supplied reason="unspecified">um</supplied></w><w><supplied reason="unspecified">et</supplied></w><w>uid<supplied reason="unspecified">e</supplied>t</w><note type="editorial">The manuscript breaks off at this point.</note>
+<lb n="P72vC1L17-VL22A"/><seg type="margin" subtype="pagebottom"><pc><unclear>❧</unclear></pc><note type="editorial">The quire signature in the bottom margin is preceded by a decorative device.</note><w>Q</w><pc>.</pc><w>LXXI</w></seg></ab></div></div></body></text></TEI>

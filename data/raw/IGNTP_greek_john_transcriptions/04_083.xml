@@ -1,0 +1,677 @@
+<!DOCTYPE TEI [
+<!ENTITY om "OM">
+]>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA083">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in GA 083</title>
+<title type="document" key="20083" n="083">GA 083</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Russia</country>
+ <settlement>St Petersburg</settlement>
+ <repository>National Library of Russia</repository>
+ <idno>Gr. 10, fols. 1-6 </idno>
+  <msName xml:lang="la">083</msName>
+ <altIdentifier type="GA"><idno>083</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20083</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61776</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2928</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="8" when="2014-12-09">Gap 8-12 lines changed to gap 8-12 chars at 4.39  by Rachel Kevern.</change>
+<change n="7" when="2014-11-04">Word break corrected at 3.22 by Rachel Kevern.</change>
+<change n="6" when="2014-09-26">[κατεφ]αγεται changed to [καταφ]αγεται at 2.17 by Rachel Kevern.</change>
+<change n="5" when="2013-10-24">Editorial note added at 1.26 by David Parker.</change>
+<change n="4" when="2013-10-09">Tagging of ανος/ανου/ανοι at 2.10, 3.13, 14, 19 corrected by David Parker.</change>
+<change n="3" when="2013-07-23">Placement of ab/gap across page boundaries fixed by Catherine Smith.</change>
+<change n="2" when="2013-07-03">Adjusted to XML specifications 1.4 (apart from handling of ghost pages) by Hugh Houghton.</change>
+<change n="1" when="2013-04-18">Adjustment to lacuna at end of page 1v and Ammonian Sections fixed by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1r-083" n="1r" type="folio"/>
+<cb xml:id="P1rC1-083" n="1"/>
+<lb xml:id="P1rC1L1-083" n="1"/><div type="book" n="B04"><div n="B04K1" type="chapter"><ab n="B04K1V25"><gap reason="lacuna" unit="verse" extent="rest"/><w><supplied reason="unspecified">τι</supplied></w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">βα</supplied><unclear>πτ</unclear><supplied reason="unspecified">ιζεις</supplied></w>
+<lb xml:id="P1rC1L2-083" n="2"/><w><unclear>ει</unclear></w><w><unclear>συ</unclear></w><w>ουκ</w><w>ει</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w><w>ουτε</w>
+<lb xml:id="P1rC1L3-083" n="3"/><w>ηλιας</w><w>ουδε</w><w>ο</w><w>προ
+<lb break="no" xml:id="P1rC1L4-083" n="4"/>φητης</w>
+<lb xml:id="P1rC1L5-083" n="5"/></ab><ab n="B04K1V26"><note type="editorial">Tischendorf, Editio octava maior, records that a corrector has added και at this point. It is not visible on the images available to us.</note><w>Απεκρι<unclear>θη</unclear></w><w>α<supplied reason="unspecified">υ</supplied>τοις</w><w><unclear>ο</unclear></w>
+<lb xml:id="P1rC1L6-083" n="6"/><w>ϊωαννης</w><w>λεγων</w>
+<lb xml:id="P1rC1L7-083" n="7"/><w>εγω</w><w>βαπτιζω</w><w>εν</w>
+<lb xml:id="P1rC1L8-083" n="8"/><w>ϋδατι</w><w>μεσος</w><w>ϋμων</w>
+<lb xml:id="P1rC1L9-083" n="9"/><w>εστηκεν</w><w>ον</w><w>υμε<supplied reason="unspecified">ι</supplied>ς</w>
+<lb xml:id="P1rC1L10-083" n="10"/><w>ουκ</w><w>ο<unclear>ι</unclear>δατε</w></ab><ab n="B04K1V27"><w>ο</w><w>οπισω</w>
+<lb xml:id="P1rC1L11-083" n="11"/><w>μου</w><w>ερχομενος</w>
+<lb xml:id="P1rC1L12-083" n="12"/><w><unclear>ου</unclear></w><w>ουκ</w><w>ειμι</w><w>εγω</w>
+<lb xml:id="P1rC1L13-083" n="13"/><w><unclear>αξιο</unclear>ς</w><w>ϊνα</w><w>λυσω</w>
+<lb xml:id="P1rC1L14-083" n="14"/><w>αυτου</w><w>τον</w><w>ϊμαντα</w>
+<lb xml:id="P1rC1L15-083" n="15"/><w>του</w><w>υποδηματος</w>
+<lb xml:id="P1rC1L16-083" n="16"/></ab><ab n="B04K1V28"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">ιγ</hi></num></seg><w>Τ<unclear>αυ</unclear>τα</w><w>εν</w><w>βηθαβαρα</w>
+<lb xml:id="P1rC1L17-083" n="17"/><w>εγενετο</w><w>περαν</w><w>το<supplied reason="unspecified">υ</supplied></w>
+<lb xml:id="P1rC1L18-083" n="18"/><w>ιορδανου</w><w>οπο<unclear>υ</unclear></w><gap reason="lacuna" unit="line" extent="rest"/>
+<cb xml:id="P1rC2-083" n="2"/>
+<lb xml:id="P1rC2L1-083" n="1"/></ab><ab n="B04K1V30"><gap reason="lacuna" unit="verse" extent="rest"/><w>εστιν</w><w>περι</w><w><unclear>ου</unclear></w><w>εγω</w>
+<lb xml:id="P1rC2L2-083" n="2"/><w>ειπον</w><w>οπισω</w><w><unclear>μ</unclear><supplied reason="unspecified">ο</supplied>υ</w>
+<lb xml:id="P1rC2L3-083" n="3"/><w>ερχεται</w><w>ανηρ</w><w>ο<unclear>ς</unclear></w><w><unclear>ε</unclear><supplied reason="unspecified">μ</supplied>
+<lb break="no" xml:id="P1rC2L4-083" n="4"/>προσθεν</w><w>μου</w><w>γεγον<supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">οτι</supplied></w>
+<lb xml:id="P1rC2L5-083" n="5"/><w>πρωτον</w><w>μου</w><w>ην</w>
+<lb xml:id="P1rC2L6-083" n="6"/></ab><ab n="B04K1V31"><w>καγω</w><w><unclear>ο</unclear>υκ</w><w>ηδ<unclear>ει</unclear>ν</w><w><unclear>αυ</unclear>τον</w>
+<lb xml:id="P1rC2L7-083" n="7"/><w>αλλ</w><w>ϊνα</w><w>φανερωθη</w>
+<lb xml:id="P1rC2L8-083" n="8"/><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><w>δια</w><w>τουτο</w>
+<lb xml:id="P1rC2L9-083" n="9"/><w>ηλθον</w><w>εγω</w><w>εν</w><w>ϋδατι</w>
+<lb xml:id="P1rC2L10-083" n="10"/><w>βαπτιζων</w>
+<lb xml:id="P1rC2L11-083" n="11"/></ab><ab n="B04K1V32"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">ιε</hi></num></seg><w>Και</w><w>εμαρτυρησεν</w>
+<lb xml:id="P1rC2L12-083" n="12"/><w>ϊωαννης</w><w>λεγων</w>
+<lb xml:id="P1rC2L13-083" n="13"/><w>οτι</w><w>εγω</w><w>τεθεαμαι</w><w>το</w>
+<lb xml:id="P1rC2L14-083" n="14"/><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><w>καταβαινον</w>
+<lb xml:id="P1rC2L15-083" n="15"/><w>ως</w><w>περιστεραν</w><w>εξ</w><w>ου
+<lb break="no" xml:id="P1rC2L16-083" n="16"/>ρανου</w><w>και</w><w>εμεινεν</w>
+<lb xml:id="P1rC2L17-083" n="17"/><w>επ</w><w>εαυτον</w></ab><ab n="B04K1V33"><w>καγω</w><w>ου
+<lb break="no" xml:id="P1rC2L18-083" n="18"/><supplied reason="unspecified">κ</supplied></w><w><supplied reason="unspecified">ηδειν</supplied></w><w><supplied reason="unspecified">αυ</supplied>τον</w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P1v-083" n="1v" type="folio"/>
+<cb xml:id="P1vC1-083" n="1"/>
+<lb xml:id="P1vC1L1-083" n="1"/><w><abbr type="nomSac"><unclear><hi rend="overline">π</hi></unclear><hi rend="overline">νι</hi></abbr></w><w>τω</w><w>αγιω</w></ab><ab n="B04K1V34"><w>κα
+<lb break="no" xml:id="P1vC1L2-083" n="2"/>γω</w><w>εωρακα</w><w>και</w><w>με
+<lb break="no" xml:id="P1vC1L3-083" n="3"/><unclear>μα</unclear>ρτυρηκα</w><w>οτι</w><w>ου
+<lb break="no" xml:id="P1vC1L4-083" n="4"/>τος</w><w>εστιν</w><w>ο</w><w>υιος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P1vC1L5-083" n="5"/></ab><ab n="B04K1V35"><w>Τη</w><w>επαυριον</w><w>παλι¯</w>
+<lb xml:id="P1vC1L6-083" n="6"/><w>ϊστηκει</w><w>ο</w><w>ϊωαννης</w>
+<lb xml:id="P1vC1L7-083" n="7"/><w>κ<supplied reason="unspecified">α</supplied>ι</w><w>εκ</w><w>των</w><w>μαθη
+<lb break="no" xml:id="P1vC1L8-083" n="8"/>των</w><w>αυτου</w><w>δυο</w></ab><ab n="B04K1V36"><w>και</w>
+<lb xml:id="P1vC1L9-083" n="9"/><w>εμβλεψας</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><w>πε
+<lb break="no" xml:id="P1vC1L10-083" n="10"/>ριπατουντι</w><w>λεγει</w>
+<lb xml:id="P1vC1L11-083" n="11"/><w>ϊδε</w><w>ο</w><w>αμνος</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc>
+<lb xml:id="P1vC1L12-083" n="12"/></ab><ab n="B04K1V37"><w>Και</w><w>ηκουσαν</w><w>οι</w><w>δυο</w>
+<lb xml:id="P1vC1L13-083" n="13"/><w>αυτου</w><w>μαθηται</w><w>λα
+<lb break="no" xml:id="P1vC1L14-083" n="14"/>λουντος</w><w>και</w><w>ηκο
+<lb break="no" xml:id="P1vC1L15-083" n="15"/>λουθησαν</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w>
+<lb xml:id="P1vC1L16-083" n="16"/></ab><ab n="B04K1V38"><w>Στραφεις</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>θεα
+<lb break="no" xml:id="P1vC1L17-083" n="17"/>σαμενος</w><w>αυτους</w><w>ακο
+<lb break="no" xml:id="P1vC1L18-083" n="18"/>λουθουντας</w><w>λεγει</w>
+<lb xml:id="P1vC1L19-083" n="19"/><w>αυτοι<unclear>ς</unclear></w><w><supplied reason="unspecified">τι</supplied></w><w><supplied reason="unspecified">ζη</supplied>τειτ
+<lb break="no" xml:id="P1vC1L20-083" n="20"/><supplied reason="unspecified">ε</supplied></w><gap reason="lacuna" unit="line" extent="rest"/>
+<cb xml:id="P1vC2-083" n="2"/>
+<lb xml:id="P1vC2L1-083" n="1"/></ab><ab n="B04K1V39"><gap reason="lacuna" unit="verse" extent="rest"/><w>και</w><w>οψεσθε</w><w>και</w><w>ηλ
+<lb break="no" xml:id="P1vC2L2-083" n="2"/>θον</w><w>ουν</w><w>και</w><w>ιδον</w><w>που</w>
+<lb xml:id="P1vC2L3-083" n="3"/><w>μενει</w><w>και</w><w>παρ</w><w>αυ
+<lb break="no" xml:id="P1vC2L4-083" n="4"/>τω</w><w>εμειναν</w><w>την</w>
+<lb xml:id="P1vC2L5-083" n="5"/><w>ημεραν</w><w>εκεινην</w>
+<lb xml:id="P1vC2L6-083" n="6"/><w>ωρα</w><w>ην</w><w>ως</w><w>δεκατη</w>
+<lb xml:id="P1vC2L7-083" n="7"/></ab><ab n="B04K1V40"><w>ην</w><w>ανδρεας</w><w>ο</w><w>αδελ
+<lb break="no" xml:id="P1vC2L8-083" n="8"/>φος</w><w>σιμωνος</w><w>πετρου</w>
+<lb xml:id="P1vC2L9-083" n="9"/><w>εκ</w><w>των</w><w>ακουσαντω¯</w>
+<lb xml:id="P1vC2L10-083" n="10"/><w>παρα</w><w>ιωαννου</w><w>και</w>
+<lb xml:id="P1vC2L11-083" n="11"/><w>ακολουθησαντων</w>
+<lb xml:id="P1vC2L12-083" n="12"/><w>αυτω</w>
+<lb xml:id="P1vC2L13-083" n="13"/></ab><ab n="B04K1V41"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">ιζ</hi></num></seg><w>Ευρισκει</w><w>ουτος</w><w>πρω
+<lb break="no" xml:id="P1vC2L14-083" n="14"/>τον</w><w>τον</w><w>αδελφον</w>
+<lb xml:id="P1vC2L15-083" n="15"/><w>τον</w><w>ιδιον</w><w>σιμωνα</w>
+<lb xml:id="P1vC2L16-083" n="16"/><w>και</w><w>λεγει</w><w>αυτω</w>
+<lb xml:id="P1vC2L17-083" n="17"/><w>ευρηκαμεν</w><w>τον</w>
+<lb xml:id="P1vC2L18-083" n="18"/><w>μεσσιαν</w><w>ο</w><w>εστιν</w>
+<lb xml:id="P1vC2L19-083" n="19"/><w><supplied reason="unspecified">μεθερμην</supplied>ευομε
+<lb break="no" xml:id="P1vC2L20-083" n="1"/><supplied reason="unspecified">νον</supplied></w><gap reason="lacuna" unit="page" extent="rest"/>
+<pb xml:id="P2r-083" n="2r" type="folio"/>
+<cb xml:id="P2rC1-083" n="1"/>
+<lb xml:id="P2rC1L1-083" n="1"/></ab></div><div n="B04K2" type="chapter"><ab n="B04K2V9"><gap reason="lacuna" unit="verse" extent="rest"/><w>και</w><w>ουκ</w><w>ηδει</w><w>ποθε¯</w>
+<lb xml:id="P2rC1L2-083" n="2"/><w>εστιν</w><w>οι</w><w>δε</w><w>διακονοι</w>
+<lb xml:id="P2rC1L3-083" n="3"/><w>ηδεισαν</w><w>οι</w><w>ηντλη
+<lb break="no" xml:id="P2rC1L4-083" n="4"/>κοτες</w><w>το</w><w>ῠδωρ</w><w>φω
+<lb break="no" xml:id="P2rC1L5-083" n="5"/>νει</w><w>τον</w><w>νυμφιο¯</w>
+<lb xml:id="P2rC1L6-083" n="6"/><w>Ο</w><w>αρχιτρικλινος</w>
+<lb xml:id="P2rC1L7-083" n="7"/></ab><ab n="B04K2V10"><w>και</w><w>λεγει</w><w>αυτω</w>
+ <lb xml:id="P2rC1L8-083" n="8"/><w>πας</w><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w><w>πρωτο¯</w>
+<lb xml:id="P2rC1L9-083" n="9"/><w>τον</w><w>καλον</w><w>οινον</w>
+<lb xml:id="P2rC1L10-083" n="10"/><w>τιθησιν</w><w>και</w><w>οταν</w>
+<lb xml:id="P2rC1L11-083" n="11"/><w>μεθυσθωσι</w><w>τον</w>
+<lb xml:id="P2rC1L12-083" n="12"/><w>ελασσω</w><w>συ</w><w>τετη
+<lb break="no" xml:id="P2rC1L13-083" n="13"/>ρηκας</w><w>τον</w><w>καλον</w>
+<lb xml:id="P2rC1L14-083" n="14"/><w>οινον</w><w>εως</w><w>αρτι</w>
+<lb xml:id="P2rC1L15-083" n="15"/></ab><ab n="B04K2V11"><w>Ταυτην</w><w>εποιησεν</w>
+<lb xml:id="P2rC1L16-083" n="16"/><w>αρχην</w><w>των</w><w>ση
+<lb break="no" xml:id="P2rC1L17-083" n="17"/>μειων</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>εν</w><w>κα
+<lb break="no" xml:id="P2rC1L18-083" n="18"/>να</w><w>της</w><w>γαλιλαιας</w>
+<lb xml:id="P2rC1L19-083" n="19"/><w>και</w><w>εφανερωσε¯</w>
+<lb xml:id="P2rC1L20-083" n="20"/><w>την</w><w>δοξαν</w><w>αυτου</w>
+<lb xml:id="P2rC1L21-083" n="21"/><w>και</w><w>επιστευσαν</w>
+<lb xml:id="P2rC1L22-083" n="22"/><w>εις</w><w>αυτον</w><w>οι</w><w>μαθη
+<lb break="no" xml:id="P2rC1L23-083" n="23"/>ται</w><w>αυτου</w>
+<lb xml:id="P2rC1L24-083" n="24"/></ab><ab n="B04K2V12"><w>Μετα</w><w>τουτο</w><w>κατε
+<lb break="no" xml:id="P2rC1L25-083" n="25"/>βη</w><w>εις</w><w>καφαρναουμ</w>
+<cb xml:id="P2rC2-083" n="2"/>
+<lb xml:id="P2rC2L1-083" n="1"/><w>αυτος</w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">η</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">μηρ</hi></supplied></abbr></w><w><supplied reason="unspecified">αυ</supplied>
+<lb break="no" xml:id="P2rC2L2-083" n="2"/>του</w><w>και</w><w>ο<supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">αδελφοι</supplied></w>
+<lb xml:id="P2rC2L3-083" n="3"/><w>και</w><w>οι</w><w>μ<supplied reason="unspecified">αθηται</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w>
+<lb xml:id="P2rC2L4-083" n="4"/><w>και</w><w><unclear>εκ</unclear><supplied reason="unspecified">ει</supplied></w><w><supplied reason="unspecified">εμειναν</supplied></w>
+<lb xml:id="P2rC2L5-083" n="5"/><w><unclear>ου</unclear></w><w>πολ<supplied reason="unspecified">λας</supplied></w><w><supplied reason="unspecified">ημερας</supplied></w>
+<lb xml:id="P2rC2L6-083" n="6"/></ab><ab n="B04K2V13"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">κα</hi></num></seg><w>Και</w><w>εγγυ<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">ην</supplied></w><w><supplied reason="unspecified">το</supplied></w><w><supplied reason="unspecified">πασ</supplied>
+<lb break="no" xml:id="P2rC2L7-083" n="7"/>χα</w><w>των</w><w>ιουδαιων</w>
+<lb xml:id="P2rC2L8-083" n="8"/><w>και</w><w>ανε<supplied reason="unspecified">βη</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">ιερο</supplied>
+<lb break="no" xml:id="P2rC2L9-083" n="9"/>σολυμα</w><w>ο</w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w></ab><ab n="B04K2V14"><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ευ</supplied>
+<lb break="no" xml:id="P2rC2L10-083" n="10"/>ρεν</w><w>εν</w><w><supplied reason="unspecified">τω</supplied></w><w><supplied reason="unspecified">ιερω</supplied></w>
+<lb xml:id="P2rC2L11-083" n="11"/><w>τους</w><w>π<unclear>ω</unclear><supplied reason="unspecified">λουντας</supplied></w>
+<lb xml:id="P2rC2L12-083" n="12"/><w>βοας</w><w>κ<unclear>αι</unclear></w><w><supplied reason="unspecified">προβατα</supplied></w>
+<lb xml:id="P2rC2L13-083" n="13"/><w>και</w><w>περ<supplied reason="unspecified">ιστερας</supplied></w>
+<lb xml:id="P2rC2L14-083" n="14"/><w>και</w><w>το<supplied reason="unspecified">υς</supplied></w><w><supplied reason="unspecified">κερματι</supplied>
+<lb break="no" xml:id="P2rC2L15-083" n="15"/>στας</w><w>κ<supplied reason="unspecified">αθημενους</supplied></w>
+<lb xml:id="P2rC2L16-083" n="16"/></ab><ab n="B04K2V15"><w>και</w><w>ποι<unclear>η</unclear><supplied reason="unspecified">σας</supplied></w><w><supplied reason="unspecified">φρα</supplied>
+<lb break="no" xml:id="P2rC2L17-083" n="17"/>γελλιο<unclear>ν</unclear></w><w><supplied reason="unspecified">εκ</supplied></w><w><supplied reason="unspecified">σχοινιων</supplied></w>
+<lb xml:id="P2rC2L18-083" n="18"/><w>παντ<unclear>α</unclear><supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">εξεβαλεν</supplied></w>
+<lb xml:id="P2rC2L19-083" n="19"/><w>εκ</w><w>του</w><w>ι<supplied reason="unspecified">ερου</supplied></w><w>τα</w><w>τε</w>
+<lb xml:id="P2rC2L20-083" n="20"/><w>προβατ<supplied reason="unspecified">α</supplied></w><w>και</w><w>τους</w>
+<lb xml:id="P2rC2L21-083" n="21"/><w>βοας</w><w>κ<unclear>α</unclear><supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">των</supplied></w><w><supplied reason="unspecified">κολ</supplied>
+<lb break="no" xml:id="P2rC2L22-083" n="22"/>λυβισ<supplied reason="unspecified">των</supplied></w><w><supplied reason="unspecified">εξεχεεν</supplied></w>
+<lb xml:id="P2rC2L23-083" n="23"/><w>τα</w><w>κ<supplied reason="unspecified">ερματα</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">τας</supplied></w>
+<lb xml:id="P2rC2L24-083" n="24"/><w>τραπε<supplied reason="unspecified">ζας</supplied></w><w><supplied reason="unspecified">ανετρε</supplied>
+<lb break="no" xml:id="P2rC2L25-083" n="25"/>ψεν</w></ab><ab n="B04K2V16"><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">τοις</supplied></w><w><supplied reason="unspecified">τας</supplied></w><w><supplied reason="unspecified">πε</supplied>
+<pb xml:id="P2v-083" n="2v" type="folio" break="no"/>
+<cb xml:id="P2vC1-083" n="1"/>
+<lb xml:id="P2vC1L1-083" n="1"/><supplied reason="unspecified">ριστερας</supplied></w><w><supplied reason="unspecified">π</supplied>ωλουσι¯</w>
+<lb xml:id="P2vC1L2-083" n="2"/><w><supplied reason="unspecified">ειπεν</supplied></w><w><supplied reason="unspecified">αρα</supplied>τε</w><w>ταυτα</w>
+<lb xml:id="P2vC1L3-083" n="3"/><w><supplied reason="unspecified">εντευθεν</supplied></w><w>μη</w><w>ποι
+<lb break="no" xml:id="P2vC1L4-083" n="4"/><supplied reason="unspecified">ειτε</supplied></w><w><supplied reason="unspecified">τον</supplied></w><w><supplied reason="unspecified">οι</supplied>κον</w><w>του</w>
+<lb xml:id="P2vC1L5-083" n="5"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πρς</hi></supplied></abbr></w><w><supplied reason="unspecified">μου</supplied></w><w><supplied reason="unspecified">οι</supplied>κον</w><w>εμ
+<lb break="no" xml:id="P2vC1L6-083" n="6"/><supplied reason="unspecified">ποριου</supplied></w>
+<lb xml:id="P2vC1L7-083" n="7"/></ab><ab n="B04K2V17"><w><supplied reason="unspecified">εμνησθησ</supplied>αν</w><w>οι</w><w>μα
+<lb break="no" xml:id="P2vC1L8-083" n="8"/><supplied reason="unspecified">θηται</supplied></w><w><supplied reason="unspecified">αυτο</supplied>υ</w><w>οτι</w><w>γε
+<lb break="no" xml:id="P2vC1L9-083" n="9"/><supplied reason="unspecified">γραμμεν</supplied>ον</w><w>εστι¯</w>
+<lb xml:id="P2vC1L10-083" n="10"/><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">ζηλος</supplied></w><w><supplied reason="unspecified">τ</supplied>ου</w><w>οικου</w>
+<lb xml:id="P2vC1L11-083" n="11"/><w><supplied reason="unspecified">σου</supplied></w><w><supplied reason="unspecified">καταφ</supplied>αγεται</w><w>με</w>
+<lb xml:id="P2vC1L12-083" n="12"/></ab><ab n="B04K2V18"><w><supplied reason="unspecified">Απεκριθησα</supplied>ν</w><w>ουν</w><w>οι</w>
+<lb xml:id="P2vC1L13-083" n="13"/><w><supplied reason="unspecified">ιουδαιοι</supplied></w><w><supplied reason="unspecified">κ</supplied><unclear>α</unclear>ι</w><w>ειπον</w>
+<lb xml:id="P2vC1L14-083" n="14"/><w><supplied reason="unspecified">αυτω</supplied></w><w><supplied reason="unspecified">τι</supplied></w><w><supplied reason="unspecified">σ</supplied>ημειο¯</w>
+<lb xml:id="P2vC1L15-083" n="15"/><w><supplied reason="unspecified">δεικνυεις</supplied></w><w><supplied reason="unspecified">ο</supplied>τι</w><w>ταυτα</w>
+<lb xml:id="P2vC1L16-083" n="16"/><w><supplied reason="unspecified">ποιεις</supplied></w></ab><ab n="B04K2V19"><w><supplied reason="unspecified">Απεκριθ</supplied>η</w><w>και</w><w>ειπε¯</w>
+<lb xml:id="P2vC1L17-083" n="17"/><w><supplied reason="unspecified">αυτοις</supplied></w><w><supplied reason="unspecified">λυσ</supplied>ατε</w><w>το¯</w>
+<lb xml:id="P2vC1L18-083" n="18"/><w><supplied reason="unspecified">ναον</supplied></w><w><supplied reason="unspecified">του</supplied>τον</w><w>και</w>
+<lb xml:id="P2vC1L19-083" n="19"/><w><supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">τρισιν</supplied></w><w>ημεραις</w>
+<lb xml:id="P2vC1L20-083" n="20"/><w><supplied reason="unspecified">εγερω</supplied></w><w><supplied reason="unspecified">αυτ</supplied><unclear>ο</unclear>ν</w>
+<lb xml:id="P2vC1L21-083" n="21"/></ab><ab n="B04K2V20"><w><supplied reason="unspecified">Ειπον</supplied></w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">ο</supplied>ι</w><w>ϊουδαι
+<lb break="no" xml:id="P2vC1L22-083" n="22"/><supplied reason="unspecified">οι</supplied></w><w><supplied reason="unspecified">τεσσαρα</supplied>κοντα</w>
+<lb xml:id="P2vC1L23-083" n="23"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">εξ</supplied></w><w><supplied reason="unspecified">ετεσι</supplied>ν</w><w>οικο
+<lb break="no" xml:id="P2vC1L24-083" n="24"/><supplied reason="unspecified">δομηθη</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><unclear>ν</unclear>αος</w><w>ου
+<cb xml:id="P2vC2-083" n="2" break="no"/>
+<lb xml:id="P2vC2L1-083" n="1"/>τος</w><w>και</w><w>συ</w><w>εν</w><w>τρισιν</w>
+<lb xml:id="P2vC2L2-083" n="2"/><w>ημεραις</w><app><rdg type="orig" hand="firsthand"><w>εγειρεις</w></rdg><rdg type="corr" hand="corrector"><w>εγερεις</w></rdg></app>
+<lb xml:id="P2vC2L3-083" n="3"/><w>αυτον</w></ab><ab n="B04K2V21"><w>εκεινος</w><w>δε</w>
+<lb xml:id="P2vC2L4-083" n="4"/><w>ελεγεν</w><w>περι</w><w>του</w>
+<lb xml:id="P2vC2L5-083" n="5"/><w>ναου</w><w>του</w><w>σωμα
+<lb break="no" xml:id="P2vC2L6-083" n="6"/>τος</w><w>αυτου</w></ab><ab n="B04K2V22"><w>οτε</w><w>ουν</w>
+<lb xml:id="P2vC2L7-083" n="7"/><w>ηγερθη</w><w>εκ</w><w>νεκρω¯</w>
+<lb xml:id="P2vC2L8-083" n="8"/><w>εμνησθησαν</w><w>οι</w><w>μα
+<lb break="no" xml:id="P2vC2L9-083" n="9"/>θηται</w><w>αυτου</w><w>οτι</w><w>του
+<lb break="no" xml:id="P2vC2L10-083" n="10"/>το</w><w>ελεγεν</w><w>και</w><w>επι
+<lb break="no" xml:id="P2vC2L11-083" n="11"/>στευσαν</w><w>τη</w><w>γραφη</w>
+<lb xml:id="P2vC2L12-083" n="12"/><w>και</w><w>τω</w><w>λογω</w><w>ον</w>
+<lb xml:id="P2vC2L13-083" n="13"/><w>ειπεν</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P2vC2L14-083" n="14"/></ab><ab n="B04K2V23"><w>Ως</w><w>δε</w><w>ην</w><w>εν</w><w>τοις</w><w>ϊε
+<lb break="no" xml:id="P2vC2L15-083" n="15"/>ροσολυμοις</w><w>εν</w><w>τω</w>
+<lb xml:id="P2vC2L16-083" n="16"/><w>πασχα</w><w>εν</w><w>τη</w><w>εορτη</w>
+<lb xml:id="P2vC2L17-083" n="17"/><w>πολλοι</w><w>επιστευσα¯</w>
+<lb xml:id="P2vC2L18-083" n="18"/><w>εις</w><w>το</w><w>ονομα</w><w>αυτου</w>
+<lb xml:id="P2vC2L19-083" n="19"/><w>θεωρουντες</w><w>αυτου</w>
+<lb xml:id="P2vC2L20-083" n="20"/><w>τα</w><w>σημεια</w><w>α</w><w>εποιει</w>
+<lb xml:id="P2vC2L21-083" n="21"/></ab><ab n="B04K2V24"><w>Αυτος</w><w>δε</w><w>ουκ</w><w>επιστευ
+<lb break="no" xml:id="P2vC2L22-083" n="22"/>εν</w><w>εαυτον</w><w>αυτοις</w>
+<lb xml:id="P2vC2L23-083" n="23"/><w>δια</w><w>το</w><w>αυτον</w><w>γινω
+<lb break="no" xml:id="P2vC2L24-083" n="24"/>σκειν</w><w>παντας</w></ab><ab n="B04K2V25"><w>και</w>
+<lb xml:id="P2vC2L25-083" n="25"/><w>ου</w><w>χρειαν</w><w>ειχεν</w>
+<pb xml:id="P3r-083" n="3r" type="folio"/>
+<cb xml:id="P3rC1-083" n="1"/>
+<lb xml:id="P3rC1L1-083" n="1"/><w>ινα</w><w>τις</w><w>μαρτυρηση</w>
+ <lb xml:id="P3rC1L2-083" n="2"/><w>περι</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><w>αυτος</w>
+<lb xml:id="P3rC1L3-083" n="3"/><w>γαρ</w><w>εγινωσκεν</w>
+<lb xml:id="P3rC1L4-083" n="4"/><w>τι</w><w>ην</w><w>εν</w><w>τω</w><w><abbr type="nomSac"><hi rend="overline">ανω</hi></abbr></w>
+<lb xml:id="P3rC1L5-083" n="5"/></ab></div><div n="B04K3" type="chapter"><ab n="B04K3V1"><w>Ην</w><w>δε</w><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w><w>εκ</w><w>των</w>
+<lb xml:id="P3rC1L6-083" n="6"/><w>φαρεισαιων</w><w>νικο
+<lb break="no" xml:id="P3rC1L7-083" n="7"/>δημος</w><w>ονομα</w><w>αυ
+<lb break="no" xml:id="P3rC1L8-083" n="8"/>τω</w><w>αρχων</w><w>των</w>
+<lb xml:id="P3rC1L9-083" n="9"/><w>ιουδαιων</w></ab><ab n="B04K3V2"><w>ουτος</w>
+<lb xml:id="P3rC1L10-083" n="10"/><w>ηλθεν</w><w>προς</w><w>αυτο¯</w>
+<lb xml:id="P3rC1L11-083" n="11"/><w>νυκτος</w><w>και</w><w>ειπε¯</w>
+<lb xml:id="P3rC1L12-083" n="12"/><w>αυτω</w><w>ραββι</w><w>οιδα
+<lb break="no" xml:id="P3rC1L13-083" n="13"/>μεν</w><w>οτι</w><w>απο</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>ελη
+<lb break="no" xml:id="P3rC1L14-083" n="14"/>λυθας</w><w>διδασκαλος</w>
+<lb xml:id="P3rC1L15-083" n="15"/><w>ουδεις</w><w>γαρ</w><w>δυνα
+<lb break="no" xml:id="P3rC1L16-083" n="16"/>ται</w><w>ταυτα</w><w>τα</w><w>σημια</w>
+<lb xml:id="P3rC1L17-083" n="17"/><w>ποιειν</w><w>α</w><w>συ</w><w>ποιεις</w>
+<lb xml:id="P3rC1L18-083" n="18"/><w>εαν</w><w>μη</w><w>η</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>με
+<lb break="no" xml:id="P3rC1L19-083" n="19"/>τ</w><w>αυτου</w>
+<lb xml:id="P3rC1L20-083" n="20"/></ab><ab n="B04K3V3"><w>Απεκριθη</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>ει
+<lb break="no" xml:id="P3rC1L21-083" n="21"/>πεν</w><w>αυτω</w><w>αμη¯</w>
+<lb xml:id="P3rC1L22-083" n="22"/><w>αμην</w><w>λεγω</w><w>σοι</w>
+<lb xml:id="P3rC1L23-083" n="23"/><w>εαν</w><w>μη</w><w>τις</w><w>γεννη
+<lb break="no" xml:id="P3rC1L24-083" n="24"/>θη</w><w>ανωθεν</w><w>ου</w><w>δυ
+<lb break="no" xml:id="P3rC1L25-083" n="25"/>ναται</w><w>εισελθειν</w><w>εις</w>
+<cb xml:id="P3rC2-083" n="2"/>
+<lb xml:id="P3rC2L1-083" n="1"/><w>την</w><w><unclear>β</unclear><supplied reason="unspecified">ασιλειαν</supplied></w><w><supplied reason="unspecified">του</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θυ</hi></supplied></abbr></w>
+<lb xml:id="P3rC2L2-083" n="2"/></ab><ab n="B04K3V4"><w>Λεγει</w><w>π<unclear>ρ</unclear><supplied reason="unspecified">ος</supplied></w><w><supplied reason="unspecified">αυτον</supplied></w><w><gap extent="2-3" unit="char" reason="unspecified"/>
+<lb break="no" xml:id="P3rC2L3-083" n="3"/>κοδη<unclear>μ</unclear><supplied reason="unspecified">ος</supplied></w><w><supplied reason="unspecified">πως</supplied></w><w><supplied reason="unspecified">δυ</supplied>
+<lb break="no" xml:id="P3rC2L4-083" n="4"/>ναται</w><w><abbr type="nomSac"><hi rend="overline">α</hi><supplied reason="unspecified"><hi rend="overline">νος</hi></supplied></abbr></w><w><supplied reason="unspecified">γεννη</supplied>
+<lb break="no" xml:id="P3rC2L5-083" n="5"/>θηναι</w><w><supplied reason="unspecified">γερων</supplied></w><w><supplied reason="unspecified">ων</supplied></w>
+<lb xml:id="P3rC2L6-083" n="6"/><w>μη</w><w>δυ<supplied reason="unspecified">ναται</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w>
+<lb xml:id="P3rC2L7-083" n="7"/><w>κοιλι<unclear>α</unclear><supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">της</supplied></w><gap extent="3-6" unit="char" reason="unspecified"/>
+<lb xml:id="P3rC2L8-083" n="8"/><w>αυτου</w><w><supplied reason="unspecified">δευτερον</supplied></w>
+<lb xml:id="P3rC2L9-083" n="9"/><w>εισελθε<supplied reason="unspecified">ιν</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">γεν</supplied>
+<lb break="no" xml:id="P3rC2L10-083" n="10"/>νηθη<supplied reason="unspecified">ναι</supplied></w>
+<lb xml:id="P3rC2L11-083" n="11"/></ab><ab n="B04K3V5"><w>Απεκρι<unclear>θ</unclear><supplied reason="unspecified">η</supplied></w><gap extent="2-3" unit="char" reason="unspecified"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ει</supplied>
+<lb break="no" xml:id="P3rC2L12-083" n="12"/>πεν</w><w>α<supplied reason="unspecified">υτω</supplied></w><w><supplied reason="unspecified">αμην</supplied></w><w><supplied reason="unspecified">αμην</supplied></w>
+<lb xml:id="P3rC2L13-083" n="13"/><w>λεγω</w><w><supplied reason="unspecified">σοι</supplied></w><w><supplied reason="unspecified">εαν</supplied></w><w><supplied reason="unspecified">μη</supplied></w>
+<lb xml:id="P3rC2L14-083" n="14"/><w>τις</w><w>γεν<supplied reason="unspecified">νηθη</supplied></w><w><supplied reason="unspecified">εξ</supplied></w><w><supplied reason="unspecified">υ</supplied>
+<lb break="no" xml:id="P3rC2L15-083" n="15"/>δατος</w><w><unclear>κ</unclear><supplied reason="unspecified">αι</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πνς</hi></supplied></abbr></w><w><supplied reason="unspecified">ου</supplied></w>
+<lb xml:id="P3rC2L16-083" n="16"/><w>δυνατ<unclear>α</unclear><supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">εισελθειν</supplied></w>
+<lb xml:id="P3rC2L17-083" n="17"/><w>εις</w><w>την</w><w><supplied reason="unspecified">βασιλειαν</supplied></w>
+<lb xml:id="P3rC2L18-083" n="18"/><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab><ab n="B04K3V6"><w>τ<supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">γεγεννη</supplied>
+<lb break="no" xml:id="P3rC2L19-083" n="19"/>μενον</w><w><supplied reason="unspecified">εκ</supplied></w><w><supplied reason="unspecified">της</supplied></w><w><supplied reason="unspecified">σαρ</supplied>
+<lb break="no" xml:id="P3rC2L20-083" n="20"/>κος</w><w>σα<supplied reason="unspecified">ρξ</supplied></w><w><supplied reason="unspecified">εστιν</supplied></w><w><supplied reason="unspecified">και</supplied></w>
+<lb xml:id="P3rC2L21-083" n="21"/><w>το</w><w>γεγε<supplied reason="unspecified">ννημενον</supplied></w>
+<lb xml:id="P3rC2L22-083" n="22"/><w>εκ</w><w>του</w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πνς</hi></supplied></abbr></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πνα</hi></supplied></abbr></w>
+<lb xml:id="P3rC2L23-083" n="23"/><w>εστιν</w>
+<lb xml:id="P3rC2L24-083" n="24"/></ab><ab n="B04K3V7"><w>Μη</w><w>θαυ<unclear>μ</unclear><supplied reason="unspecified">ασης</supplied></w><w><supplied reason="unspecified">οτι</supplied></w>
+<lb xml:id="P3rC2L25-083" n="25"/><w>ειπον</w><w><supplied reason="unspecified">σοι</supplied></w><w><supplied reason="unspecified">δει</supplied></w><w><supplied reason="unspecified">υμας</supplied></w>
+<pb xml:id="P3v-083" n="3v" type="folio"/>
+<cb xml:id="P3vC1-083" n="1"/>
+<lb xml:id="P3vC1L1-083" n="1"/><w><supplied reason="unspecified">γεννηθην</supplied>αι</w><w>ανω
+<lb break="no" xml:id="P3vC1L2-083" n="2"/><supplied reason="unspecified">θεν</supplied></w></ab><ab n="B04K3V8"><w><supplied reason="unspecified">το</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πνα</hi></supplied></abbr></w><w>οπου</w>
+<lb xml:id="P3vC1L3-083" n="3"/><w><supplied reason="unspecified">θελει</supplied></w><w><supplied reason="unspecified">πνει</supplied></w><w>και</w><w>τη¯</w>
+<lb xml:id="P3vC1L4-083" n="4"/><w><supplied reason="unspecified">φωνην</supplied></w><w><supplied reason="unspecified">αυ</supplied>του</w><w>α
+<lb break="no" xml:id="P3vC1L5-083" n="5"/><supplied reason="unspecified">κουεις</supplied></w><w><supplied reason="unspecified">αλλ</supplied></w><w><supplied reason="unspecified">ο</supplied>υκ</w><w>οιδας</w>
+<lb xml:id="P3vC1L6-083" n="6"/><w><supplied reason="unspecified">ποθεν</supplied></w><w><supplied reason="unspecified">ερχε</supplied>ται</w><w>και</w>
+<lb xml:id="P3vC1L7-083" n="7"/><w><supplied reason="unspecified">που</supplied></w><w><supplied reason="unspecified">υπαγει</supplied></w><app><rdg type="orig" hand="firsthand"><w>ουτω</w></rdg><rdg type="corr" hand="corrector"><w>ουτως</w></rdg></app>
+<lb xml:id="P3vC1L8-083" n="8"/><w><supplied reason="unspecified">εστιν</supplied></w><w><supplied reason="unspecified">πας</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">γ</supplied>εγεν
+<lb break="no" xml:id="P3vC1L9-083" n="9"/><supplied reason="unspecified">νημενος</supplied></w><w><supplied reason="unspecified">ε</supplied>κ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w>
+<lb xml:id="P3vC1L10-083" n="10"/></ab><ab n="B04K3V9"><w><supplied reason="unspecified">Απεκριθη</supplied></w><w><supplied reason="unspecified">νι</supplied>κοδη
+<lb break="no" xml:id="P3vC1L11-083" n="11"/><supplied reason="unspecified">μος</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ει</supplied>πεν</w><w>αυ
+<lb break="no" xml:id="P3vC1L12-083" n="12"/><supplied reason="unspecified">τω</supplied></w><w><supplied reason="unspecified">πως</supplied></w><w><supplied reason="unspecified">δυ</supplied>ναται</w>
+<lb xml:id="P3vC1L13-083" n="13"/><w><supplied reason="unspecified">γενεσθαι</supplied></w></ab><ab n="B04K3V10"><w>και</w><w>ειπε¯</w>
+<lb xml:id="P3vC1L14-083" n="14"/><w><supplied reason="unspecified">αυτω</supplied></w><w><supplied reason="unspecified">συ</supplied></w><w><supplied reason="unspecified">ει</supplied></w><w>ο</w><w>διδα
+<lb break="no" xml:id="P3vC1L15-083" n="15"/><supplied reason="unspecified">σκαλος</supplied></w><w><supplied reason="unspecified">του</supplied></w><w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><w>και</w>
+<lb xml:id="P3vC1L16-083" n="16"/><w><supplied reason="unspecified">ταυτα</supplied></w><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">γι</supplied>νωσκεις</w>
+<lb xml:id="P3vC1L17-083" n="17"/></ab><ab n="B04K3V11"><w><supplied reason="unspecified">αμην</supplied></w><w><supplied reason="unspecified">αμ</supplied><unclear>η</unclear>ν</w><w>λεγω</w>
+<lb xml:id="P3vC1L18-083" n="18"/><w><supplied reason="unspecified">σοι</supplied></w><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">οιδ</supplied>αμεν</w>
+<lb xml:id="P3vC1L19-083" n="19"/><w><supplied reason="unspecified">λαλουμεν</supplied></w><w>και</w><w>ο</w><w>εο
+<lb break="no" xml:id="P3vC1L20-083" n="20"/><supplied reason="unspecified">ρακαμεν</supplied></w><w><unclear>μ</unclear>αρτυ
+<lb break="no" xml:id="P3vC1L21-083" n="21"/><supplied reason="unspecified">ρουμεν</supplied></w><w><supplied reason="unspecified">κ</supplied>αι</w><w>την</w>
+<lb xml:id="P3vC1L22-083" n="22"/><w><supplied reason="unspecified">μαρτυριαν</supplied></w><w>ημω¯</w>
+<lb xml:id="P3vC1L23-083" n="23"/><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">λαμβαν</supplied>ετε</w></ab><ab n="B04K3V12"><w>ει</w><w>τα</w>
+<lb xml:id="P3vC1L24-083" n="24"/><w><supplied reason="unspecified">επιγεια</supplied></w><w><supplied reason="unspecified">ει</supplied>πον</w><w>υμι¯</w>
+<lb xml:id="P3vC1L25-083" n="25"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">πισ</supplied>τευετε</w>
+<cb xml:id="P3vC2-083" n="2"/>
+<lb xml:id="P3vC2L1-083" n="1"/><w>πως</w><w>εαν</w><w>ειπω</w>
+<lb xml:id="P3vC2L2-083" n="2"/><w>ῠμιν</w><w>τα</w><w>επουρανια</w>
+<lb xml:id="P3vC2L3-083" n="3"/><w>πιστευετε</w></ab><ab n="B04K3V13"><w>και</w><w>ου
+<lb break="no" xml:id="P3vC2L4-083" n="4"/>δεις</w><w>αναβεβηκεν</w>
+<lb xml:id="P3vC2L5-083" n="5"/><w>εις</w><w>τον</w><w>ουρανον</w>
+ <lb xml:id="P3vC2L6-083" n="6"/><w>ει</w><w>μη</w><w>ο</w><w>εκ</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w>
+<lb xml:id="P3vC2L7-083" n="7"/><w>καταβας</w><w>ο</w><w>υιος</w><w>του</w>
+ <lb xml:id="P3vC2L8-083" n="8"/><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb xml:id="P3vC2L9-083" n="9"/></ab><ab n="B04K3V14"><w>Και</w><w>καθως</w><w>μωῠσης</w>
+<lb xml:id="P3vC2L10-083" n="10"/><w>ῠψωσεν</w><app><rdg type="orig" hand="firsthand"><w>το</w></rdg><rdg type="corr" hand="corrector"><w>τον</w></rdg></app><w>οφιν</w>
+<lb xml:id="P3vC2L11-083" n="11"/><w>εν</w><w>τη</w><w>ερημω</w><w>ου
+<lb break="no" xml:id="P3vC2L12-083" n="12"/>τως</w><w>ῠψωθηναι</w>
+ <lb xml:id="P3vC2L13-083" n="13"/><w>δει</w><w>τον</w><w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><w>του</w><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb xml:id="P3vC2L14-083" n="14"/></ab><ab n="B04K3V15"><w>ινα</w><w>πας</w><w>ο</w><w>πιστευω¯</w>
+<lb xml:id="P3vC2L15-083" n="15"/><w>εν</w><w>αυτω</w><w>εχη</w><w>ζω
+<lb break="no" xml:id="P3vC2L16-083" n="16"/>ην</w><w>αιωνιον</w>
+<lb xml:id="P3vC2L17-083" n="17"/></ab><ab n="B04K3V16"><w>Ουτως</w><w>γαρ</w><w>ηγαπη
+<lb break="no" xml:id="P3vC2L18-083" n="18"/>σεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τον</w><w>κοσμο¯</w>
+<lb xml:id="P3vC2L19-083" n="19"/><w>ωστε</w><w>τον</w><w>ῠιον</w><w>αυ
+<lb break="no" xml:id="P3vC2L20-083" n="20"/>του</w><w>τον</w><w>μονογενη</w>
+<lb xml:id="P3vC2L21-083" n="21"/><w>εδωκεν</w><w>ινα</w><w>πας</w>
+<lb xml:id="P3vC2L22-083" n="22"/><w>ο</w><w>πιστευων</w><w>επ</w><w>αυ
+<lb break="no" xml:id="P3vC2L23-083" n="23"/>τον</w><w>μη</w><w>αποληται</w>
+<lb xml:id="P3vC2L24-083" n="24"/><w>αλλ</w><w>εχη</w><w>ζωην</w>
+<lb xml:id="P3vC2L25-083" n="25"/><w>αιωνιον</w>
+<pb xml:id="P4r-083" n="4r" type="folio"/>
+<cb xml:id="P4rC1-083" n="1"/>
+<lb xml:id="P4rC1L1-083" n="1"/></ab><ab n="B04K3V17"><w>Ου</w><w>γαρ</w><w>απεστειλεν</w>
+<lb xml:id="P4rC1L2-083" n="2"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τον</w><w>ῠιον</w><w>εις</w><w>τον</w>
+<lb xml:id="P4rC1L3-083" n="3"/><w>κοσμον</w><w>ϊνα</w><app><rdg type="orig" hand="firsthand"><w>κρινη</w></rdg><rdg type="corr" hand="corrector"><w>κρινει</w></rdg></app>
+<lb xml:id="P4rC1L4-083" n="4"/><w>τον</w><w>κοσμον</w><w>αλλ</w><w>ι
+<lb break="no" xml:id="P4rC1L5-083" n="5"/>να</w><w>σωθη</w><w>ο</w><w>κοσμος</w>
+<lb xml:id="P4rC1L6-083" n="6"/><w>δι</w><w>αυτου</w></ab><ab n="B04K3V18"><w>ο</w><w>πιστευ
+<lb break="no" xml:id="P4rC1L7-083" n="7"/>ων</w><w>εις</w><w>αυτον</w><w>ου</w>
+<lb xml:id="P4rC1L8-083" n="8"/><w>κρινεται</w><w>ο</w><w>δε</w><w>μη</w>
+<lb xml:id="P4rC1L9-083" n="9"/><w>πιστευων</w><w>ηδη</w>
+<lb xml:id="P4rC1L10-083" n="10"/><w>κεκριται</w><w>οτι</w><w>μη</w>
+<lb xml:id="P4rC1L11-083" n="11"/><w>πεπιστευκεν</w><w>εις</w>
+<lb xml:id="P4rC1L12-083" n="12"/><w>το</w><w>ονομα</w><app><rdg type="orig" hand="firsthand"><pc>.</pc>
+<lb xml:id="P4rC1L13-083" n="13"/><w>νογεννηους</w></rdg><rdg type="corr" hand="corrector"><w>του</w><w>μονογενου</w></rdg></app><w>ῠιου</w>
+<lb xml:id="P4rC1L14-083" n="14"/><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P4rC1L15-083" n="15"/></ab><ab n="B04K3V19"><w>Αυτη</w><w>δε</w><w>εστιν</w><w>η</w><w>κρι
+<lb break="no" xml:id="P4rC1L16-083" n="16"/>σις</w><w>οτι</w><w>το</w><w>φως</w><w>ελη
+<lb break="no" xml:id="P4rC1L17-083" n="17"/>λυθεν</w><w>εις</w><w>τον</w><w>κο
+<lb break="no" xml:id="P4rC1L18-083" n="18"/>σμον</w><w>και</w><w>ηγαπη
+ <lb break="no" xml:id="P4rC1L19-083" n="19"/>σαν</w><w>οι</w><w><abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr></w><w>μαλλο¯</w>
+<lb xml:id="P4rC1L20-083" n="20"/><w>το</w><w>σκοτος</w><w>η</w><w>το</w><w>φως</w>
+<lb xml:id="P4rC1L21-083" n="21"/><w>ην</w><w>γαρ</w><w>αυτων</w><w>πο
+<lb break="no" xml:id="P4rC1L22-083" n="22"/>νηρα</w><w>τα</w><w>εργα</w></ab><ab n="B04K3V20"><w>πας</w>
+<lb xml:id="P4rC1L23-083" n="23"/><w>γαρ</w><w>ο</w><w>φαυλα</w><w>πρασ
+<lb break="no" xml:id="P4rC1L24-083" n="24"/>σων</w><w>μισει</w><w>το</w><w>φως</w>
+<lb xml:id="P4rC1L25-083" n="25"/><w>και</w><w>ουκ</w><w>ερχεται</w><w>προς</w>
+<cb xml:id="P4rC2-083" n="2"/>
+<lb xml:id="P4rC2L1-083" n="1"/><w>το</w><w>φω<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">ινα</supplied></w><w><supplied reason="unspecified">μη</supplied></w><w><supplied reason="unspecified">ελεγ</supplied>
+<lb break="no" xml:id="P4rC2L2-083" n="2"/>χθη</w><w>τα</w><w><supplied reason="unspecified">εργα</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w>
+<lb xml:id="P4rC2L3-083" n="3"/></ab><ab n="B04K3V21"><w>ο</w><w>δε</w><w>πο<supplied reason="unspecified">ιων</supplied></w><w><supplied reason="unspecified">την</supplied></w>
+<lb xml:id="P4rC2L4-083" n="4"/><w>αληθει<supplied reason="unspecified">αν</supplied></w><w><supplied reason="unspecified">ερχεται</supplied></w>
+<lb xml:id="P4rC2L5-083" n="5"/><w>προς</w><w>το</w><w><supplied reason="unspecified">φως</supplied></w><w><supplied reason="unspecified">ινα</supplied></w>
+<lb xml:id="P4rC2L6-083" n="6"/><w>φανερ<unclear>ω</unclear><supplied reason="unspecified">θη</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w>
+<lb xml:id="P4rC2L7-083" n="7"/><w>τα</w><w>εργα</w><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">εν</supplied></w><gap extent="0-2" unit="char" reason="unspecified"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θω</hi></supplied></abbr></w>
+<lb xml:id="P4rC2L8-083" n="8"/><w>εστιν</w><w><unclear>ε</unclear><supplied reason="unspecified">ιργασμενα</supplied></w>
+ <lb xml:id="P4rC2L9-083" n="9"/></ab><ab n="B04K3V22"><w>Μετα</w><w>υ<supplied reason="unspecified">τα</supplied></w><w><supplied reason="unspecified">ηλθεν</supplied></w>
+<lb xml:id="P4rC2L10-083" n="10"/><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>ο<supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">μαθηται</supplied></w>
+<lb xml:id="P4rC2L11-083" n="11"/><w>αυτου</w><w>ει<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">ιου</supplied>
+<lb break="no" xml:id="P4rC2L12-083" n="12"/>δαιαν</w><w>γ<supplied reason="unspecified">ην</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">εκει</supplied></w>
+<lb xml:id="P4rC2L13-083" n="13"/><w>διετριβ<supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">μετ</supplied></w><w><supplied reason="unspecified">αυ</supplied>
+<lb break="no" xml:id="P4rC2L14-083" n="14"/>των</w><w>κ<supplied reason="unspecified">αι</supplied></w><w><supplied reason="unspecified">εβαπτι</supplied>
+<lb break="no" xml:id="P4rC2L15-083" n="15"/>ζεν</w></ab><ab n="B04K3V23"><w>η<supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">δε</supplied></w><w><supplied reason="unspecified">και</supplied></w><gap extent="0-1" unit="char" reason="unspecified"/><w><supplied reason="unspecified">ιωαν</supplied>
+<lb break="no" xml:id="P4rC2L16-083" n="16"/>νης</w><w>βα<supplied reason="unspecified">πτιζων</supplied></w>
+<lb xml:id="P4rC2L17-083" n="17"/><w>εν</w><w>αιν<unclear>ω</unclear><supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">εγγυς</supplied></w>
+<lb xml:id="P4rC2L18-083" n="18"/><w>του</w><w>σαλε<supplied reason="unspecified">ιμ</supplied></w><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">υδα</supplied>
+<lb break="no" xml:id="P4rC2L19-083" n="19"/>τα</w><w>π<supplied reason="unspecified">ολλα</supplied></w><w><supplied reason="unspecified">ην</supplied></w><w><supplied reason="unspecified">εκει</supplied></w>
+<lb xml:id="P4rC2L20-083" n="20"/><w>και</w><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">κε</hi></num></seg><w>παρε<supplied reason="unspecified">γινοντο</supplied></w>
+<lb xml:id="P4rC2L21-083" n="21"/><w>και</w><w>εβ<unclear>α</unclear><supplied reason="unspecified">πτιζοντο</supplied></w>
+<lb xml:id="P4rC2L22-083" n="22"/></ab><ab n="B04K3V24"><w>ουπ<unclear>ω</unclear></w><w><supplied reason="unspecified">γαρ</supplied></w><w><supplied reason="unspecified">ην</supplied></w><w><supplied reason="unspecified">βε</supplied>
+<lb break="no" xml:id="P4rC2L23-083" n="23"/>βλημε<supplied reason="unspecified">νος</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w>
+<lb xml:id="P4rC2L24-083" n="24"/><w>φυλακ<supplied reason="unspecified">ην</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">ιωαννης</supplied></w>
+<lb xml:id="P4rC2L25-083" n="25"/></ab><ab n="B04K3V25"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">κϛ</hi></num></seg><w>Εγενετ<supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">ζητησις</supplied></w>
+<pb xml:id="P4v-083" n="4v" type="folio"/>
+<cb xml:id="P4vC1-083" n="1"/>
+<lb xml:id="P4vC1L1-083" n="1"/><w><supplied reason="unspecified">εκ</supplied></w><w><supplied reason="unspecified">των</supplied></w><w><supplied reason="unspecified">μ</supplied>αθητω¯</w>
+<lb xml:id="P4vC1L2-083" n="2"/><w><supplied reason="unspecified">ιωαννου</supplied></w><w>μετα</w><w>ιου
+<lb break="no" xml:id="P4vC1L3-083" n="3"/><supplied reason="unspecified">δαιων</supplied></w><w><supplied reason="unspecified">περι</supplied></w><w><supplied reason="unspecified">κ</supplied>αθαρι
+<lb break="no" xml:id="P4vC1L4-083" n="4"/><supplied reason="unspecified">σμου</supplied></w></ab><ab n="B04K3V26"><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">η</supplied>λθον</w><w>προς</w>
+<lb xml:id="P4vC1L5-083" n="5"/><gap extent="7-8" unit="char" reason="unspecified"/><w>και</w><w>ειπο¯</w>
+<lb xml:id="P4vC1L6-083" n="6"/><w><supplied reason="unspecified">αυτω</supplied></w><w><supplied reason="unspecified">ραβ</supplied><unclear>β</unclear>ι</w><w>ος</w><w>ην</w>
+<lb xml:id="P4vC1L7-083" n="7"/><w><supplied reason="unspecified">μετα</supplied></w><w><supplied reason="unspecified">σου</supplied></w><w><supplied reason="unspecified">π</supplied>εραν</w><w>του</w>
+<lb xml:id="P4vC1L8-083" n="8"/><w><supplied reason="unspecified">ιορδανου</supplied></w><w>ω</w><w>συ</w><w>με
+<lb break="no" xml:id="P4vC1L9-083" n="9"/><supplied reason="unspecified">μαρτυρηκ</supplied>ας</w><w>ϊδε</w><w>ου
+<lb break="no" xml:id="P4vC1L10-083" n="10"/><supplied reason="unspecified">τος</supplied></w><w><supplied reason="unspecified">βαπτι</supplied>ζει</w><w>και</w>
+<lb xml:id="P4vC1L11-083" n="11"/><w><supplied reason="unspecified">παντες</supplied></w><w><supplied reason="unspecified">ερ</supplied>χονται</w>
+<lb xml:id="P4vC1L12-083" n="12"/><w><supplied reason="unspecified">προς</supplied></w><w><supplied reason="unspecified">αυτο</supplied>ν</w>
+<lb xml:id="P4vC1L13-083" n="13"/></ab><ab n="B04K3V27"><w><supplied reason="unspecified">Απεκριθη</supplied></w><w><supplied reason="unspecified">ι</supplied>ωαννης</w>
+<lb xml:id="P4vC1L14-083" n="14"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">ειπεν</supplied></w><w>ου</w><w>δυ
+<lb break="no" xml:id="P4vC1L15-083" n="15"/><supplied reason="unspecified">ναται</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ανο</hi></supplied><hi rend="overline">ς</hi></abbr></w><w>λαμ
+<lb break="no" xml:id="P4vC1L16-083" n="16"/><supplied reason="unspecified">βανειν</supplied></w><w><supplied reason="unspecified">ου</supplied>δεν</w><w>εαν</w>
+<lb xml:id="P4vC1L17-083" n="17"/><w><supplied reason="unspecified">μη</supplied></w><w><supplied reason="unspecified">η</supplied></w><w><supplied reason="unspecified">δεδ</supplied>ομενον</w>
+ <lb xml:id="P4vC1L18-083" n="18"/><w><supplied reason="unspecified">αυτω</supplied></w><w><supplied reason="unspecified">εκ</supplied></w><w><supplied reason="unspecified">τ</supplied>ου</w><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w>
+<lb xml:id="P4vC1L19-083" n="19"/></ab><ab n="B04K3V28"><w><supplied reason="unspecified">αυτοι</supplied></w><w><unclear>υ</unclear><supplied reason="unspecified">μεις</supplied></w><w>μοι</w>
+<lb xml:id="P4vC1L20-083" n="20"/><w><supplied reason="unspecified">μαρτυρειτ</supplied>ε</w><w>οτι</w><w>ε
+<lb break="no" xml:id="P4vC1L21-083" n="21"/><supplied reason="unspecified">ιπον</supplied></w><gap extent="3-5" unit="char" reason="unspecified"/><w>ουκ</w><w>ει
+<lb break="no" xml:id="P4vC1L22-083" n="22"/><supplied reason="unspecified">μι</supplied></w><w><supplied reason="unspecified">εγω</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">χς</hi></supplied></abbr></w><w>αλλ</w><w>οτι</w>
+<lb xml:id="P4vC1L23-083" n="23"/><w><supplied reason="unspecified">απεσταλμ</supplied>ενος</w><w>ει
+<lb break="no" xml:id="P4vC1L24-083" n="24"/><supplied reason="unspecified">μι</supplied></w><w><supplied reason="unspecified">εμπρο</supplied>σθεν</w><app><rdg type="orig" hand="firsthand"><w>εκι</w></rdg><rdg type="corr" hand="corrector"><w>εκινου</w></rdg></app>
+<lb xml:id="P4vC1L25-083" n="25"/></ab><ab n="B04K3V29"><w>ο</w><w>εχων</w><w><supplied reason="unspecified">τη</supplied>ν</w><w>νυμ
+<cb xml:id="P4vC2-083" n="2" break="no"/>
+<lb xml:id="P4vC2L1-083" n="1"/>φην</w><w>νυμφιος</w>
+<lb xml:id="P4vC2L2-083" n="2"/><w>εστιν</w><w>ο</w><w>δε</w><w>φιλος</w>
+<lb xml:id="P4vC2L3-083" n="3"/><w>του</w><w>νυμφιου</w>
+<lb xml:id="P4vC2L4-083" n="4"/><w>ο</w><w>εστηκως</w><w>και</w><w>ακου
+<lb break="no" xml:id="P4vC2L5-083" n="5"/>ων</w><w>αυτου</w><w>χαρα</w>
+<lb xml:id="P4vC2L6-083" n="6"/><app><rdg type="orig" hand="firsthand"><w>χαιχαιρει</w></rdg><rdg type="corr" hand="corrector"><w>χαιρει</w></rdg></app><w>δια</w><w>τη¯</w>
+<lb xml:id="P4vC2L7-083" n="7"/><w>φωνην</w><w>του</w><w>νυμ
+<lb break="no" xml:id="P4vC2L8-083" n="8"/>φιου</w><w>αυτη</w><w>ουν</w>
+<lb xml:id="P4vC2L9-083" n="9"/><w>η</w><w>εμη</w><w>χαρα</w><w>πε
+<lb break="no" xml:id="P4vC2L10-083" n="10"/>πληρωται</w></ab><ab n="B04K3V30"><w>εκει
+<lb break="no" xml:id="P4vC2L11-083" n="11"/>νον</w><w>δει</w><w>αυξανει¯</w>
+<lb xml:id="P4vC2L12-083" n="12"/><w>εμε</w><w>δε</w><w>ελαττου
+<lb break="no" xml:id="P4vC2L13-083" n="13"/>σθαι</w></ab><ab n="B04K3V31"><w>ο</w><w>ανωθεν</w>
+<lb xml:id="P4vC2L14-083" n="14"/><w>ερχομενος</w><w>επα
+<lb break="no" xml:id="P4vC2L15-083" n="15"/>νω</w><w>παντων</w><w>εστι¯</w>
+<lb xml:id="P4vC2L16-083" n="16"/><w>ο</w><w>ων</w><w>εκ</w><w>της</w><w>γης</w>
+<lb xml:id="P4vC2L17-083" n="17"/><w>εκ</w><w>της</w><w>γης</w><w>εστιν</w>
+<lb xml:id="P4vC2L18-083" n="18"/><w>και</w><w>εκ</w><w>της</w><w>γης</w>
+ <lb xml:id="P4vC2L19-083" n="19"/><w>λαλει</w><w>ο</w><w>εκ</w><w>του</w><app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="corrector"><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w></rdg></app>
+<lb xml:id="P4vC2L20-083" n="20"/><w>ερχομενος</w><w>επα
+<lb break="no" xml:id="P4vC2L21-083" n="21"/>νω</w><w>παντων</w>
+<lb xml:id="P4vC2L22-083" n="22"/><w>εστιν</w></ab><ab n="B04K3V32"><w>ο</w><w>εορακεν</w>
+<lb xml:id="P4vC2L23-083" n="23"/><w>και</w><w>ηκουσεν</w>
+<lb xml:id="P4vC2L24-083" n="24"/><app><rdg type="orig" hand="firsthand"><w>το</w></rdg><rdg type="corr" hand="corrector"><w>τουτο</w></rdg></app><w>μαρτυρει</w><w>και</w>
+<lb xml:id="P4vC2L25-083" n="25"/><w>την</w><w>μαρτυριαν</w>
+<pb xml:id="P5r-083" n="5r" type="folio"/>
+<cb xml:id="P5rC1-083" n="1"/>
+<lb xml:id="P5rC1L1-083" n="1"/><w>αυτου</w><w>ουδεις</w><w>λαμ
+<lb break="no" xml:id="P5rC1L2-083" n="2"/>βανει</w>
+<lb xml:id="P5rC1L3-083" n="3"/></ab><ab n="B04K3V33"><w>Ο</w><w>λαβων</w><w>αυτου</w><w>τη¯</w>
+<lb xml:id="P5rC1L4-083" n="4"/><w>μαρτυριαν</w><w>εσφρα
+<lb break="no" xml:id="P5rC1L5-083" n="5"/>γισεν</w><w>οτι</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>αληθης</w>
+<lb xml:id="P5rC1L6-083" n="6"/><w>εστιν</w></ab><ab n="B04K3V34"><w>ον</w><w>γαρ</w><w>απε
+<lb break="no" xml:id="P5rC1L7-083" n="7"/>στιλεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><w>τα</w><w>ρημα
+<lb break="no" xml:id="P5rC1L8-083" n="8"/>τα</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>λαλει</w><w>ου</w><w>γαρ</w>
+<lb xml:id="P5rC1L9-083" n="9"/><w>εκ</w><w>μετρου</w><w>διδωσι¯</w>
+<lb xml:id="P5rC1L10-083" n="10"/><w>το</w><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w></ab><ab n="B04K3V35"><w>ο</w><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w><w>αγα
+<lb break="no" xml:id="P5rC1L11-083" n="11"/>πα</w><w>τον</w><w>ῠιον</w><w>και</w>
+<lb xml:id="P5rC1L12-083" n="12"/><w>παντα</w><w>δεδωκεν</w>
+<lb xml:id="P5rC1L13-083" n="13"/><w>εν</w><w>τη</w><w>χειρι</w><w>αυτου</w>
+<lb xml:id="P5rC1L14-083" n="14"/></ab><ab n="B04K3V36"><w>ο</w><w>πιστευων</w><w>εις</w><w>το¯</w>
+<lb xml:id="P5rC1L15-083" n="15"/><w>ῠιον</w><w>εχει</w><w>ζωην</w>
+<lb xml:id="P5rC1L16-083" n="16"/><w>αιωνιον</w><w>ο</w><w>δε</w><w>απει
+<lb break="no" xml:id="P5rC1L17-083" n="17"/>θων</w><w>τω</w><w>ῠιω</w><w>ου
+<lb break="no" xml:id="P5rC1L18-083" n="18"/>κ</w><w>οψεται</w><w>ζωην</w>
+<lb xml:id="P5rC1L19-083" n="19"/><w>αλλ</w><w>η</w><w>οργη</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb xml:id="P5rC1L20-083" n="20"/><w>μενει</w><w>επ</w><w>αυτον</w>
+<lb xml:id="P5rC1L21-083" n="21"/></ab></div><div n="B04K4" type="chapter"><ab n="B04K4V1"><w>ως</w><w>ουν</w><w>εγνω</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w>
+<lb xml:id="P5rC1L22-083" n="22"/><w>οτι</w><w>ηκουσαν</w>
+<lb xml:id="P5rC1L23-083" n="23"/><w>οι</w><w>φαρεισαιοι</w><w>οτι</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb xml:id="P5rC1L24-083" n="24"/><w>πλειονας</w><w>μαθη
+<lb break="no" xml:id="P5rC1L25-083" n="25"/>τας</w><w>ποιει</w><w>και</w><w>βαπτι
+<cb xml:id="P5rC2-083" n="2" break="no"/>
+<lb xml:id="P5rC2L1-083" n="1"/>ζει</w><w>η</w><w><unclear>ι</unclear><supplied reason="unspecified">ωαννης</supplied></w>
+<lb xml:id="P5rC2L2-083" n="2"/></ab><ab n="B04K4V2"><w>καιτοιγ<supplied reason="unspecified">ε</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><w><supplied reason="unspecified">αυτος</supplied></w>
+<lb xml:id="P5rC2L3-083" n="3"/><w>ουκ</w><w>εβα<supplied reason="unspecified">πτιζεν</supplied></w>
+<lb xml:id="P5rC2L4-083" n="4"/><w>αλλ</w><w>οι</w><w>μ<supplied reason="unspecified">αθηται</supplied></w><w><supplied reason="unspecified">αυ</supplied>
+<lb break="no" xml:id="P5rC2L5-083" n="5"/>του</w></ab><ab n="B04K4V3"><w>αφ<supplied reason="unspecified">ηκεν</supplied></w><w><supplied reason="unspecified">την</supplied></w>
+<lb xml:id="P5rC2L6-083" n="6"/><w>ϊουδαι<unclear>α</unclear><supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">απηλ</supplied>
+<lb break="no" xml:id="P5rC2L7-083" n="7"/>θεν</w><w>πα<supplied reason="unspecified">λιν</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">τη¯</supplied></w>
+<lb xml:id="P5rC2L8-083" n="8"/><w>γαλιλα<supplied reason="unspecified">ιαν</supplied></w></ab><ab n="B04K4V4"><w><supplied reason="unspecified">εδει</supplied></w><w><supplied reason="unspecified">δε</supplied></w>
+<lb xml:id="P5rC2L9-083" n="9"/><w>αυτον</w><w>δ<supplied reason="unspecified">ιερχεσθαι</supplied></w>
+<lb xml:id="P5rC2L10-083" n="10"/><w>δια</w><w>της</w><w><supplied reason="unspecified">σαμαρειας</supplied></w>
+<lb xml:id="P5rC2L11-083" n="11"/></ab><ab n="B04K4V5"><seg type="margin" subtype="lineleft"><num type="AmmSec"><hi rend="overline">λγ</hi></num></seg><w>Ερχεται</w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">πο</supplied>
+<lb break="no" xml:id="P5rC2L12-083" n="12"/>λιν</w><w>τη<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">σαμαρειας</supplied></w>
+<lb xml:id="P5rC2L13-083" n="13"/><w>λεγο<unclear>με</unclear><supplied reason="unspecified">νην</supplied></w><w><supplied reason="unspecified">συχαρ</supplied></w>
+<lb xml:id="P5rC2L14-083" n="14"/><w>πλησι<supplied reason="unspecified">ον</supplied></w><w><supplied reason="unspecified">του</supplied></w><w><supplied reason="unspecified">χω</supplied>
+<lb break="no" xml:id="P5rC2L15-083" n="15"/>ριου</w><w>ο</w><w>ε<unclear>δ</unclear><supplied reason="unspecified">ωκεν</supplied></w>
+<lb xml:id="P5rC2L16-083" n="16"/><w>ιακωβ</w><w><supplied reason="unspecified">ιωσηφ</supplied></w><w><supplied reason="unspecified">τω</supplied></w>
+<lb xml:id="P5rC2L17-083" n="17"/><w>υιω</w><w>αυ<supplied reason="unspecified">του</supplied></w>
+<lb xml:id="P5rC2L18-083" n="18"/></ab><ab n="B04K4V6"><w>Ην</w><w>δε</w><w>εκ<supplied reason="unspecified">ει</supplied></w><w><supplied reason="unspecified">πηγη</supplied></w>
+<lb xml:id="P5rC2L19-083" n="19"/><w>του</w><w>ϊακ<supplied reason="unspecified">ωβ</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">ουν</supplied></w>
+<lb xml:id="P5rC2L20-083" n="20"/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>κεκο<supplied reason="unspecified">πιακως</supplied></w>
+<lb xml:id="P5rC2L21-083" n="21"/><w>εκ</w><w>τη<unclear>ς</unclear></w><w><supplied reason="unspecified">οδοιποριας</supplied></w>
+<lb xml:id="P5rC2L22-083" n="22"/><w>εκαθεζ<supplied reason="unspecified">ετο</supplied></w><w><supplied reason="unspecified">ουτως</supplied></w>
+<lb xml:id="P5rC2L23-083" n="23"/><w>επι</w><w>τη</w><w><supplied reason="unspecified">πηγη</supplied></w>
+<lb xml:id="P5rC2L24-083" n="24"/><w>ωρα</w><w>η<supplied reason="unspecified">ν</supplied></w><gap extent="2-4" unit="char" reason="unspecified"/><w><supplied reason="unspecified">εκτη</supplied></w>
+<lb xml:id="P5rC2L25-083" n="25"/></ab><ab n="B04K4V7"><w>ερχετ<unclear>α</unclear><supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">γυνη</supplied></w><w><supplied reason="unspecified">εκ</supplied></w><w><supplied reason="unspecified">της</supplied></w><w><supplied reason="unspecified">σα</supplied>
+<pb xml:id="P5v-083" n="5v" type="folio" break="no"/>
+<cb xml:id="P5vC1-083" n="1"/>
+<lb xml:id="P5vC1L1-083" n="1"/><supplied reason="unspecified">μαρειας</supplied></w><w><supplied reason="unspecified">α</supplied><unclear>ν</unclear>τλησαι</w>
+<lb xml:id="P5vC1L2-083" n="2"/><w><supplied reason="unspecified">υδωρ</supplied></w><w><supplied reason="unspecified">λεγει</supplied></w><w><unclear>αυ</unclear>τη</w><w>ο</w>
+<lb xml:id="P5vC1L3-083" n="3"/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><w><supplied reason="unspecified">δ</supplied>ος</w><w>μοι</w>
+<lb xml:id="P5vC1L4-083" n="4"/><w><supplied reason="unspecified">πιειν</supplied></w></ab><ab n="B04K4V8"><w><supplied reason="unspecified">οι</supplied></w><w><supplied reason="unspecified">γαρ</supplied></w><w>μαθη
+<lb break="no" xml:id="P5vC1L5-083" n="5"/><supplied reason="unspecified">ται</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w><w><supplied reason="unspecified">απ</supplied>ηλθο¯</w>
+<lb xml:id="P5vC1L6-083" n="6"/><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">πο</supplied>λιν</w><w>ϊνα</w>
+<lb xml:id="P5vC1L7-083" n="7"/><w><supplied reason="unspecified">τροφας</supplied></w><w><supplied reason="unspecified">αγο</supplied>ρασωσι¯</w>
+<lb xml:id="P5vC1L8-083" n="8"/></ab><ab n="B04K4V9"><w><supplied reason="unspecified">λεγει</supplied></w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">αυ</supplied>τω</w><w>η</w><w>γυ
+<lb break="no" xml:id="P5vC1L9-083" n="9"/><supplied reason="unspecified">νη</supplied></w><w><supplied reason="unspecified">η</supplied></w><w><supplied reason="unspecified">σαμ</supplied>αριτις</w>
+<lb xml:id="P5vC1L10-083" n="10"/><w><supplied reason="unspecified">πως</supplied></w><w><supplied reason="unspecified">συ</supplied></w><w><supplied reason="unspecified">ιο</supplied>υδαιος</w><w>ω¯</w>
+<lb xml:id="P5vC1L11-083" n="11"/><w><supplied reason="unspecified">παρ</supplied></w><w><supplied reason="unspecified">εμου</supplied></w><w><supplied reason="unspecified">π</supplied>ιειν</w><w>αι
+<lb break="no" xml:id="P5vC1L12-083" n="12"/><supplied reason="unspecified">τεις</supplied></w><w><supplied reason="unspecified">γυναι</supplied>κος</w><w>σα
+<lb break="no" xml:id="P5vC1L13-083" n="13"/><supplied reason="unspecified">μαρειτιδος</supplied></w><w><supplied reason="unspecified">ο</supplied>υσης</w>
+<lb xml:id="P5vC1L14-083" n="14"/><w><supplied reason="unspecified">ου</supplied></w><w><supplied reason="unspecified">γαρ</supplied></w><w><supplied reason="unspecified">συγ</supplied><unclear>χ</unclear>ρων
+<lb break="no" xml:id="P5vC1L15-083" n="15"/><supplied reason="unspecified">ται</supplied></w><w><supplied reason="unspecified">ιουδαι</supplied>οι</w><w>σαμα
+<lb break="no" xml:id="P5vC1L16-083" n="16"/><supplied reason="unspecified">ρειταις</supplied></w>
+<lb xml:id="P5vC1L17-083" n="17" rend="hang"/></ab><ab n="B04K4V10"><w><supplied reason="unspecified">Απεκριθη</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><w>και</w><w>ειπε¯</w>
+<lb xml:id="P5vC1L18-083" n="18"/><w><supplied reason="unspecified">αυτη</supplied></w><w><supplied reason="unspecified">ει</supplied></w><w><supplied reason="unspecified">η</supplied>δεις</w><w>τη¯</w>
+<lb xml:id="P5vC1L19-083" n="19"/><w><supplied reason="unspecified">δωρεαν</supplied></w><w><supplied reason="unspecified">το</supplied>υ</w><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><w>και</w>
+<lb xml:id="P5vC1L20-083" n="20"/><w><supplied reason="unspecified">τις</supplied></w><w><supplied reason="unspecified">εστιν</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><unclear>λ</unclear>εγων</w>
+<lb xml:id="P5vC1L21-083" n="21"/><w><supplied reason="unspecified">σοι</supplied></w><w><supplied reason="unspecified">δος</supplied></w><w><supplied reason="unspecified">μοι</supplied></w><w>πειν</w>
+<lb xml:id="P5vC1L22-083" n="22"/><w><supplied reason="unspecified">συ</supplied></w><w><supplied reason="unspecified">αν</supplied></w><w><supplied reason="unspecified">ητησα</supplied>ς</w><w>αυτο¯</w>
+<lb xml:id="P5vC1L23-083" n="23"/><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">εδωκε</supplied>ν</w><w>αν</w><w>σοι</w>
+<lb xml:id="P5vC1L24-083" n="24"/><w><supplied reason="unspecified">υδωρ</supplied></w><w><supplied reason="unspecified">ζων</supplied></w>
+<lb xml:id="P5vC1L25-083" n="25"/></ab><ab n="B04K4V11"><w><supplied reason="unspecified">λεγει</supplied></w><w><supplied reason="unspecified">αυτω</supplied></w><w>η</w><w>γυνη</w>
+<cb xml:id="P5vC2-083" n="2"/>
+<lb xml:id="P5vC2L1-083" n="1"/><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>ουτε</w><w>αντλημα</w>
+<lb xml:id="P5vC2L2-083" n="2"/><w>εχεις</w><w>και</w><w>το</w><w>φρεαρ</w>
+<lb xml:id="P5vC2L3-083" n="3"/><w>εστι</w><w>βαθυ</w><w>ποθεν</w>
+<lb xml:id="P5vC2L4-083" n="4"/><w>ουν</w><w>εχεις</w><w>το</w><w>υδωρ</w>
+<lb xml:id="P5vC2L5-083" n="5"/><w>το</w><w>ζων</w></ab><ab n="B04K4V12"><w>μη</w><w>συ</w><w>μι
+<lb break="no" xml:id="P5vC2L6-083" n="6"/>ζων</w><w>ει</w><w>του</w><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w>
+<lb xml:id="P5vC2L7-083" n="7"/><w>ημων</w><w>ϊακωβ</w>
+<lb xml:id="P5vC2L8-083" n="8"/><w>ος</w><w>εδωκεν</w><w>η¯μιν</w>
+<lb xml:id="P5vC2L9-083" n="9"/><w>το</w><w>φρεαρ</w><w>και</w><w>αυτος</w>
+<lb xml:id="P5vC2L10-083" n="10"/><w>εξ</w><w>αυτου</w><w>επιεν</w>
+<lb xml:id="P5vC2L11-083" n="11"/><w>και</w><w>οι</w><w>υιοι</w><w>αυτου</w>
+<lb xml:id="P5vC2L12-083" n="12"/><w>και</w><w>τα</w><w>θρεμματα</w>
+<lb xml:id="P5vC2L13-083" n="13"/><w>αυτου</w>
+<lb xml:id="P5vC2L14-083" n="14"/></ab><ab n="B04K4V13"><w>Απεκριθη</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>και</w><w>ειπε¯</w>
+<lb xml:id="P5vC2L15-083" n="15"/><w>αυτη</w><w>πας</w><w>ο</w><w>πινω¯</w>
+<lb xml:id="P5vC2L16-083" n="16"/><w>εκ</w><w>του</w><w>υδατος</w><w>του
+<lb break="no" xml:id="P5vC2L17-083" n="17"/>του</w><w>διψησει</w><w>παλι¯</w>
+<lb xml:id="P5vC2L18-083" n="18"/></ab><ab n="B04K4V14"><w>ος</w><w>δ</w><w>αν</w><w>πιη</w><w>εκ</w><w>του</w>
+<lb xml:id="P5vC2L19-083" n="19"/><w>ϋδατος</w><w>ου</w><w>εγω</w><w>δω
+<lb break="no" xml:id="P5vC2L20-083" n="20"/>σω</w><w>αυτω</w><w>ου</w><w>μη</w>
+<lb xml:id="P5vC2L21-083" n="21"/><w>διψησει</w><w>εις</w><w>τον</w>
+<lb xml:id="P5vC2L22-083" n="22"/><w>αιωνα</w><w>αλλα</w><w>το</w>
+<lb xml:id="P5vC2L23-083" n="23"/><w>ϋδωρ</w><w>ο</w><w>εγω</w><w>δω
+<lb break="no" xml:id="P5vC2L24-083" n="24"/>σω</w><w>αυτω</w><w>γενησε
+<lb break="no" xml:id="P5vC2L25-083" n="25"/>ται</w><w>εν</w><w>αυτω</w><w>πηγη</w><gap reason="lacuna" unit="line" extent="rest"/>
+<pb xml:id="P6r-083" n="6r" type="folio"/>
+<cb xml:id="P6rC1-083" n="1"/>
+<lb xml:id="P6rC1L1-083" n="1"/></ab><ab n="B04K4V34"><gap reason="lacuna" unit="verse" extent="rest"/><w>βρωμα</w><w>εστιν</w><w>ϊνα</w>
+<lb xml:id="P6rC1L2-083" n="2"/><w>ποιησω</w><w>το</w><w>θελημα</w>
+<lb xml:id="P6rC1L3-083" n="3"/><w>του</w><w>πεμψαντος</w><w>με</w>
+<lb xml:id="P6rC1L4-083" n="4"/><w>και</w><w>τελιωσω</w><w>αυτου</w>
+<lb xml:id="P6rC1L5-083" n="5"/><w>το</w><w>εργον</w>
+<lb xml:id="P6rC1L6-083" n="6"/></ab><ab n="B04K4V35"><w>Ουχ</w><w>υμεις</w><w>λεγετε</w><w>οτι</w>
+<lb xml:id="P6rC1L7-083" n="7"/><w>ετι</w><w>τετραμηνος</w><w>εστι¯</w>
+<lb xml:id="P6rC1L8-083" n="8"/><w>και</w><w>ο</w><w>θερισμος</w><w>ερχεται</w>
+<lb xml:id="P6rC1L9-083" n="9"/><w>ϊδου</w><w>λεγω</w><w>υμιν</w>
+<lb xml:id="P6rC1L10-083" n="10"/><w>επαρατε</w><w>τους</w><w>οφθαλ
+<lb break="no" xml:id="P6rC1L11-083" n="11"/>μους</w><w>υμων</w><w>και</w><w>θεα
+<lb break="no" xml:id="P6rC1L12-083" n="12"/>σασθε</w><w>τας</w><w>χωρας</w><w>οτι</w>
+<lb xml:id="P6rC1L13-083" n="13"/><w>λευκαι</w><w>εισι</w><w>προς</w><w>θε
+<lb break="no" xml:id="P6rC1L14-083" n="14"/>ρισμον</w><w>ηδη</w></ab><ab n="B04K4V36"><w>ο</w><w>θερι
+<lb break="no" xml:id="P6rC1L15-083" n="15"/>ζων</w><w>μισθον</w><w>λαμ
+<lb break="no" xml:id="P6rC1L16-083" n="16"/>βανει</w><w>και</w><w>συναγει</w>
+<lb xml:id="P6rC1L17-083" n="17"/><w>καρπον</w><w>εις</w><w>ζωην</w>
+<lb xml:id="P6rC1L18-083" n="18"/><w>αιωνιον</w><w>ινα</w><w>ο</w><w>σπει
+<lb break="no" xml:id="P6rC1L19-083" n="19"/>ρων</w><w>ομου</w><w>χαιρη</w>
+<lb xml:id="P6rC1L20-083" n="20"/><w>και</w><w>ο</w><w><unclear>θεριζ</unclear>ων</w></ab><ab n="B04K4V37"><w>εν</w><w>γαρ</w>
+<lb xml:id="P6rC1L21-083" n="21"/><w>τουτω</w><w>ο</w><w>λογος</w><w>εστιν</w>
+<lb xml:id="P6rC1L22-083" n="22"/><w>αληθινος</w><w>οτι</w><w>αλλος</w>
+<lb xml:id="P6rC1L23-083" n="23"/><w>εστιν</w><w>ο</w><w>σπειρων</w>
+<lb xml:id="P6rC1L24-083" n="24"/><w>και</w><w>αλλος</w><w>ο</w><w>θεριζων</w>
+<lb xml:id="P6rC1L25-083" n="25"/></ab><ab n="B04K4V38"><w><unclear>εγ</unclear>ω</w><w>α<unclear>πεστειλα</unclear></w>
+<cb xml:id="P6rC2-083" n="2"/>
+<lb xml:id="P6rC2L1-083" n="1"/><w>υμας</w><w><unclear>θερ</unclear><supplied reason="unspecified">ιζειν</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><supplied reason="unspecified">ουχ</supplied></w><w><supplied reason="unspecified">υ</supplied>
+<lb break="no" xml:id="P6rC2L2-083" n="2"/>μεις</w><w>κα<supplied reason="unspecified">κοπιακατε</supplied></w>
+<lb xml:id="P6rC2L3-083" n="3"/><w>αλλοι</w><w>κ<unclear>α</unclear><supplied reason="unspecified">κοπιακασιν</supplied></w>
+<lb xml:id="P6rC2L4-083" n="4"/><w>και</w><w>υμει<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">τον</supplied></w><w><supplied reason="unspecified">κοπον</supplied></w>
+<lb xml:id="P6rC2L5-083" n="5"/><w>αυτω<unclear>ν</unclear></w><w><supplied reason="unspecified">εισεληλυ</supplied>
+<lb break="no" xml:id="P6rC2L6-083" n="6"/>θαται</w>
+<lb xml:id="P6rC2L7-083" n="7"/></ab><ab n="B04K4V39"><w>Εκ</w><w>δε</w><w>τη<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">πολεως</supplied></w>
+<lb xml:id="P6rC2L8-083" n="8"/><w>εκεινη<supplied reason="unspecified">ς</supplied></w><w><supplied reason="unspecified">πολλοι</supplied></w><w><supplied reason="unspecified">ε</supplied>
+<lb break="no" xml:id="P6rC2L9-083" n="9"/>πιστευ<supplied reason="unspecified">σαν</supplied></w><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">αυτον</supplied></w>
+<lb xml:id="P6rC2L10-083" n="10"/><w>των</w><w>σα<supplied reason="unspecified">μαρειτων</supplied></w>
+<lb xml:id="P6rC2L11-083" n="11"/><w>δια</w><w>τον</w><gap extent="4-7" unit="char" reason="unspecified"/><w><supplied reason="unspecified">μαρτυ</supplied>
+<lb break="no" xml:id="P6rC2L12-083" n="12"/>ρουση<unclear>ς</unclear></w><gap extent="8-12" unit="char" reason="unspecified"/>
+<lb xml:id="P6rC2L13-083" n="13"/><w>μοι</w><w>πα<supplied reason="unspecified">ντα</supplied></w><gap extent="1-3" unit="char" reason="unspecified"/><w><supplied reason="unspecified">εποιησα</supplied></w>
+<lb xml:id="P6rC2L14-083" n="14"/></ab><ab n="B04K4V40"><w>Ως</w><w>ουν</w><w>η<supplied reason="unspecified">λθον</supplied></w><w><supplied reason="unspecified">προς</supplied></w>
+<lb xml:id="P6rC2L15-083" n="15"/><w>αυτον</w><w><supplied reason="unspecified">οι</supplied></w><w><supplied reason="unspecified">σαμαριται</supplied></w>
+<lb xml:id="P6rC2L16-083" n="16"/><w>ηρωτ<supplied reason="unspecified">ων</supplied></w><w><supplied reason="unspecified">αυτον</supplied></w>
+<lb xml:id="P6rC2L17-083" n="17"/><w>μεινα<supplied reason="unspecified">ι</supplied></w><w><supplied reason="unspecified">παρ</supplied></w><w><supplied reason="unspecified">αυτοις</supplied></w>
+<lb xml:id="P6rC2L18-083" n="18"/><w>και</w><w>εμ<supplied reason="unspecified">εινεν</supplied></w><w><supplied reason="unspecified">εκει</supplied></w>
+<lb xml:id="P6rC2L19-083" n="19"/><w>δυο</w><w>ημ<supplied reason="unspecified">ερας</supplied></w></ab><ab n="B04K4V41"><w><supplied reason="unspecified">και</supplied></w><w><supplied reason="unspecified">πολ</supplied>
+<lb break="no" xml:id="P6rC2L20-083" n="20"/>λω</w><w>πλ<supplied reason="unspecified">ειους</supplied></w><w><supplied reason="unspecified">επι</supplied>
+<lb break="no" xml:id="P6rC2L21-083" n="21"/>στ<unclear>ε</unclear><supplied reason="unspecified">υσαν</supplied></w><w><supplied reason="unspecified">δια</supplied></w><w><supplied reason="unspecified">τον</supplied></w><w><supplied reason="unspecified">λο</supplied>
+<lb break="no" xml:id="P6rC2L22-083" n="22"/>γο<supplied reason="unspecified">ν</supplied></w><w><supplied reason="unspecified">αυτου</supplied></w></ab><ab n="B04K4V42"><w><supplied reason="unspecified">τη</supplied></w><w><supplied reason="unspecified">τε</supplied></w>
+<lb xml:id="P6rC2L23-083" n="23"/><w>γ<supplied reason="unspecified">υναικι</supplied></w><gap reason="lacuna" unit="line" extent="1"/>
+<pb xml:id="P6v-083" n="6v" type="folio"/>
+<cb xml:id="P6vC1-083" n="1"/>
+<lb xml:id="P6vC1L1-083" n="1"/><w>πιστευ
+<lb break="no" xml:id="P6vC1L2-083" n="2"/><supplied reason="unspecified">ομεν</supplied></w><w><supplied reason="unspecified">αυτοι</supplied></w><w><unclear>γ</unclear>αρ</w><w>ακη
+<lb break="no" xml:id="P6vC1L3-083" n="3"/><supplied reason="unspecified">κοαμεν</supplied></w><w><supplied reason="unspecified">και</supplied></w><w>οιδαμε¯</w>
+<lb xml:id="P6vC1L4-083" n="4"/><w><supplied reason="unspecified">οτι</supplied></w><w><supplied reason="unspecified">ουτος</supplied></w><w><supplied reason="unspecified">εστι</supplied>ν</w><w>αλη
+<lb break="no" xml:id="P6vC1L5-083" n="5"/><supplied reason="unspecified">θως</supplied></w><w><supplied reason="unspecified">ο</supplied></w><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">σηρ</hi></supplied></abbr></w><w><supplied reason="unspecified">το</supplied>υ</w><w>κοσμου</w>
+<lb xml:id="P6vC1L6-083" n="6"/></ab><ab n="B04K4V43"><w><supplied reason="unspecified">Μετα</supplied></w><w><supplied reason="unspecified">δε</supplied></w><w><supplied reason="unspecified">τας</supplied></w><w><supplied reason="unspecified">δ</supplied><unclear>υ</unclear>ο</w><w>ημε
+<lb break="no" xml:id="P6vC1L7-083" n="7"/><supplied reason="unspecified">ρας</supplied></w><w><supplied reason="unspecified">εξηλθεν</supplied></w><w>εκειθε¯</w>
+<lb xml:id="P6vC1L8-083" n="8"/><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">γαλι</supplied>λαιαν</w>
+<lb xml:id="P6vC1L9-083" n="9"/></ab><ab n="B04K4V44"><w><supplied reason="unspecified">αυτος</supplied></w><w><supplied reason="unspecified">γαρ</supplied></w><gap extent="2-3" unit="char" reason="unspecified"/><w><unclear>ε</unclear>μαρτυ
+<lb break="no" xml:id="P6vC1L10-083" n="10"/><supplied reason="unspecified">ρησεν</supplied></w><w><supplied reason="unspecified">οτι</supplied></w><w>προφη
+<lb break="no" xml:id="P6vC1L11-083" n="11"/><supplied reason="unspecified">της</supplied></w><w><supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">τη</supplied></w><w><supplied reason="unspecified">ιδ</supplied>ια</w><w>πα
+<lb break="no" xml:id="P6vC1L12-083" n="12"/><supplied reason="unspecified">τριδι</supplied></w><w><supplied reason="unspecified">τιμι</supplied>αν</w><w>ουκ</w>
+<lb xml:id="P6vC1L13-083" n="13"/><w><supplied reason="unspecified">εχει</supplied></w></ab><ab n="B04K4V45"><w><supplied reason="unspecified">οτε</supplied></w><w><supplied reason="unspecified">ου</supplied><unclear>ν</unclear></w><w>ηλθε¯</w>
+<lb xml:id="P6vC1L14-083" n="14"/><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">γαλι</supplied>λαιαν</w>
+<lb xml:id="P6vC1L15-083" n="15"/><w><supplied reason="unspecified">εδεξαντο</supplied></w><w><supplied reason="unspecified">α</supplied>υτον</w><w>οι</w>
+<lb xml:id="P6vC1L16-083" n="16"/><w><supplied reason="unspecified">γαλιλαιοι</supplied></w><w>παντα</w>
+<lb xml:id="P6vC1L17-083" n="17"/><w><supplied reason="unspecified">εωρακοτες</supplied></w><w>α</w><w>εποιη
+<lb break="no" xml:id="P6vC1L18-083" n="18"/><supplied reason="unspecified">σεν</supplied></w><w><supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">ιεροσ</supplied><unclear>ο</unclear>λυμοις</w>
+<lb xml:id="P6vC1L19-083" n="19"/><w><supplied reason="unspecified">εν</supplied></w><w><supplied reason="unspecified">τη</supplied></w><w><supplied reason="unspecified">εορτη</supplied></w><w>και</w><w>αυ
+<lb break="no" xml:id="P6vC1L20-083" n="20"/><supplied reason="unspecified">τοι</supplied></w><w><supplied reason="unspecified">γαρ</supplied></w><w><supplied reason="unspecified">ηλθο</supplied>ν</w><w>εις</w><w>τη¯</w>
+<lb xml:id="P6vC1L21-083" n="21"/><w><supplied reason="unspecified">εορτην</supplied></w>
+<lb xml:id="P6vC1L22-083" n="22"/></ab><ab n="B04K4V46"><w><supplied reason="unspecified">Ηλθεν</supplied></w><w><supplied reason="unspecified">ουν</supplied></w><w><supplied reason="unspecified">παλι</supplied>ν</w>
+<lb xml:id="P6vC1L23-083" n="23"/><gap extent="0-3" unit="char" reason="unspecified"/><w><supplied reason="unspecified">εις</supplied></w><w><supplied reason="unspecified">την</supplied></w><w><supplied reason="unspecified">κανα</supplied></w><w><supplied reason="unspecified">τ</supplied>ης</w><gap reason="lacuna" unit="line" extent="1"/>
+<cb xml:id="P6vC2-083" n="2"/>
+<lb xml:id="P6vC2L1-083" n="1"/><w>Ην</w><w>δε</w><w>τις</w><w>βασιλεικος</w>
+<lb xml:id="P6vC2L2-083" n="2"/><w>ου</w><w>ο</w><w>υιος</w><w>ησθενει</w><w>εν</w>
+<lb xml:id="P6vC2L3-083" n="3"/><w>καφαρναουμ</w></ab><ab n="B04K4V47"><w>ουτος</w>
+<lb xml:id="P6vC2L4-083" n="4"/><w>ακουσας</w><w>οτι</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ηκει</w>
+<lb xml:id="P6vC2L5-083" n="5"/><w>εκ</w><w>της</w><w>ϊουδαιας</w><w>εις</w>
+<lb xml:id="P6vC2L6-083" n="6"/><w>την</w><w>γαλιλαιαν</w>
+<lb xml:id="P6vC2L7-083" n="7"/><w>απηλθεν</w><w>προς</w><w>αυ
+<lb break="no" xml:id="P6vC2L8-083" n="8"/>τον</w><w>και</w><w>ηρωτα</w>
+<lb xml:id="P6vC2L9-083" n="9"/><w>ινα</w><w>καταβη</w><w>και</w><w>ια
+<lb break="no" xml:id="P6vC2L10-083" n="10"/>σηται</w><w>αυτου</w><w><unclear>τον</unclear></w>
+<lb xml:id="P6vC2L11-083" n="11"/><w>ῠιον</w><w>ημελλεν</w><w><unclear>γαρ</unclear></w>
+<lb xml:id="P6vC2L12-083" n="12"/><w>αποθνησκειν</w>
+<lb xml:id="P6vC2L13-083" n="13"/></ab><ab n="B04K4V48"><w>Ειπεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>προς</w><w>αυτο¯</w>
+<lb xml:id="P6vC2L14-083" n="14"/><w>εαν</w><w>μη</w><w>σημεια</w><w>και</w>
+<lb xml:id="P6vC2L15-083" n="15"/><w>τερατα</w><w>ιδηται</w><w><unclear>ου</unclear></w><w>μ<unclear>η</unclear></w>
+<lb xml:id="P6vC2L16-083" n="16"/><w>πιστευσηται</w>
+<lb xml:id="P6vC2L17-083" n="17"/></ab><ab n="B04K4V49"><w>Λεγει</w><w>προς</w><w>αυτον</w><w>ο</w><w>βα
+<lb break="no" xml:id="P6vC2L18-083" n="18"/>σιλικος</w><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><w>καταβη
+<lb break="no" xml:id="P6vC2L19-083" n="19"/>θι</w><w>πριν</w><w>αποθανειν</w>
+<lb xml:id="P6vC2L20-083" n="20"/><w>το</w><w>παιδιον</w><w>μου</w>
+<lb xml:id="P6vC2L21-083" n="21"/></ab><ab n="B04K4V50"><w>Λεγει</w><w>αυτω</w><w><unclear>ο</unclear></w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>πορευ
+<lb break="no" xml:id="P6vC2L22-083" n="22"/><unclear>ου</unclear></w><w><unclear>ο</unclear></w><w>υιος</w><w>σου</w><w>ζη</w>
+<lb xml:id="P6vC2L23-083" n="23" rend="hang"/><w>Επιστευσεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w>
+<lb xml:id="P6vC2L24-083" n="24"/><w>τ<unclear>ω</unclear></w><w><unclear>λογω</unclear></w><w><unclear>ον</unclear></w><w><unclear>ειπεν</unclear></w><w><unclear>ο</unclear></w><w><abbr type="nomSac"><unclear><hi rend="overline">ις</hi></unclear></abbr></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

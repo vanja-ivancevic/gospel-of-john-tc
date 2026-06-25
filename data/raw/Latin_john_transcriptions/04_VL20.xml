@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LatinNT.xsl"?><!DOCTYPE TEI [
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL20"><teiHeader>
+<fileDesc>
+
+<titleStmt><title>A Transcription of John in the Fragmentum Sangallense</title>
+<title type="document" n="VL20">VL20</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>The Verbum Project</name>
+<resp>Transcribed by</resp><name>D.C. Parker</name></respStmt>
+<resp>Proofread by</resp><name>H.A.G. Houghton</name>
+<funder>The Arts and Humanities Research Council</funder>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor>
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, last updated <date>26.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+<name type="org">The Institute for Textual Scholarship and Electronic Editing</name>
+<name type="org">University of Birmingham</name></publisher>
+<date>2.2.2011</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+</publicationStmt>
+
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Switzerland</country>
+<settlement>St Gall</settlement>
+<repository>Stiftsbibliothek</repository>
+<idno>1395 p.430-433</idno>
+<msName xml:lang="la">Fragmentum Sangallense</msName>
+ <altIdentifier type="Vetus_Latina"><idno>20</idno></altIdentifier>
+ <altIdentifier type="CLA"><idno>7.989</idno></altIdentifier>
+ <altIdentifier type="Fischer"><idno>not included</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>p</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>67134</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>8403</idno></altIdentifier>
+</msIdentifier>
+<msContents>
+<msItem>
+<title type="uniform" xml:lang="la">Fragmentum ex euangelio secundum Iohannem</title>
+<title type="uniform" xml:lang="en">Fragment of Gospel according to John</title>
+<textLang mainLang="la">Latin</textLang>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc form="codex">
+<supportDesc material="perg">
+<support><material>Parchment</material></support>
+<condition><p/></condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1"><p>In one column.</p></layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<p>Written in <term>Irish minuscule</term>.</p>
+</handDesc>
+<decoDesc><p>Black ink</p></decoDesc>
+</physDesc>
+<history><origin>
+<origPlace>Ireland</origPlace>
+<origDate notBefore="70001" notAfter="80001">Eighth century</origDate>
+</origin></history>
+<additional>
+<surrogates><bibl>Black and white photographs in ITSEE. Colour images now available online.</bibl>
+</surrogates>
+<listBibl><bibl>Images online at http://www.e-codices.unifr.ch/en/csg/1395/ (beginning at p.430.</bibl></listBibl>
+</additional>
+</msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by the Verbum Project as part of an online and printed edition of the Old Latin versions of John between 2003 and 2010.</p></projectDesc>
+<editorialDecl><p>This transcription covers <locus>pages 430-433</locus>. The transcription includes foliation, lineation, all punctuation and abbreviations. All punctuation is transcribed as a simple full stop. Modern word division has been maintained - 'in' is usually attached to the following word. The initial transcription file was a plain text file for use with COLLATE. Further information about the procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/vetuslatina/"/></p>
+<p>This second edition of the file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl></encodingDesc>
+
+<revisionDesc>
+<change n="4" when="2017-07-26">Adjustment of transcription to version 1.5 of the XML by <name>Hugh Houghton</name>.</change><change n="latest" when="2015-04-30">Reconversion of the original plain text file using Python scripts to version 1.4 of the XML by <name>Catherine Smith</name> and manual checking.</change>
+<change n="2" when="2011-09-27">Hyphen entity replaced by lb attribute break="no" by <name>Hugh Houghton</name></change>
+<change n="0" when="2011-02-02">Transcription converted to the TEI XML schema and corrected for parsing by <name>Hugh Houghton</name></change>
+</revisionDesc>
+</teiHeader>
+
+<text xml:lang="lat"><body>
+<pb xml:id="P430-VL20" n="430" type="page"/>
+<cb n="P430C1-VL20"/>
+<lb n="P430C1L1-VL20"/><div n="04" type="book"><div n="B04K11" type="chapter"><ab n="B04K11V14"><note type="editorial">Lines 1-7 of Page 430 contain verses from the Psalter.</note><w><hi rend="cap6">I</hi><hi rend="cap4">n</hi></w><w>illis</w><w>diebus</w><w>dixit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>ad</w><w>discipulos</w>
+<lb n="P430C1L2-VL20"/><w>suos</w><w>lazarus</w><w>amicus</w><w>noster</w><w>in
+<lb n="P430C1L3-VL20" break="no"/>firmabatur</w><space unit="char" extent="1"/><w>et</w><w>manifeste</w>
+<lb n="P430C1L4-VL20"/><w>mortuus</w><w>est</w><pc>.</pc></ab><ab n="B04K11V15"><w>et</w><w>gaudeo</w><w>propter</w>
+<lb n="P430C1L5-VL20"/><w>uos</w><w>ut</w><w>credatis</w><w>quoniam</w><w>non</w>
+<lb n="P430C1L6-VL20"/><w>eram</w><w>ibi</w><pc>.</pc><w>sed</w><w>eamus</w><w>ad</w><w>eum</w><pc>.</pc>
+<lb n="P430C1L7-VL20"/></ab><ab n="B04K11V16"><w>dixit</w><w>autem</w><w>thomas</w><w>qui</w><w>dicitur</w><w>didi
+<lb n="P430C1L8-VL20" break="no"/>mus</w><w>cum</w><w>discipulis</w><w>suis</w><w>eamus</w><w>et</w><w>nos</w>
+<lb n="P430C1L9-VL20"/><w>moriamur</w><w>cum</w><w>illo</w><pc>.</pc></ab><ab n="B04K11V17"><w>Uenit</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>inuenit</w>
+<lb n="P430C1L10-VL20"/><w>eum</w><w>iam</w><w>quartum</w><w>diem</w><w>in</w><w>monumento</w>
+<lb n="P430C1L11-VL20"/><w>habentem</w><pc>.</pc></ab><ab n="B04K11V18"><w>Erat</w><w>autem</w><w>bethania</w><w>iux
+<lb n="P430C1L12-VL20" break="no"/>ta</w><w>hirusolimam</w><w>quassi</w><w>stadiis</w><w>quin
+<lb n="P430C1L13-VL20" break="no"/>decim</w><pc>.</pc></ab><ab n="B04K11V19"><w>Multi</w><w>autem</w><w>a</w><w>iudeis</w><w>uenerunt</w>
+<pb xml:id="P431-VL20" n="431" type="page"/><note type="editorial">There are unconnected later notes lengthwise in the left margin. In lines 15-20, there is a sketch of a man, at right angles to the text.</note>
+<cb n="P431C1-VL20"/>
+<lb n="P431C1L1-VL20"/><w>ad</w><w>marth<supplied reason="lacuna">am</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">mariam</supplied></w><w><supplied reason="lacuna">sorores</supplied></w><w><supplied reason="lacuna">la</supplied>
+<lb n="P431C1L2-VL20" break="no"/>zari</w><pc>.</pc><w>qui</w><w>mort<unclear>uus</unclear></w><w><supplied reason="lacuna">erat</supplied></w><w><supplied reason="lacuna">ut</supplied></w><w><supplied reason="lacuna">consola</supplied>
+<lb n="P431C1L3-VL20" break="no"/>rentur</w><w>eas</w><w>de</w><w>fratre</w><w>suo</w><pc>.</pc></ab><ab n="B04K11V20"><w>martha</w>
+<lb n="P431C1L4-VL20"/><w>igitur</w><w>ut</w><w>audiuit</w><w>quod</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>uenit</w><w>ob
+<lb n="P431C1L5-VL20" break="no"/>uiam</w><w>uenit</w><w>ei</w><pc>.</pc><w>maria</w><w>autem</w><w>domi</w><w>se
+<lb n="P431C1L6-VL20" break="no"/>debat</w><pc>.</pc></ab><ab n="B04K11V21"><w>dixit</w><w>ergo</w><w>martha</w><w>ad</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w>
+<lb n="P431C1L7-VL20"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>si</w><w>fuises</w><w>non</w><w>fuiset</w><w>mortuus</w>
+<lb n="P431C1L8-VL20"/><w>frater</w><w>meus</w><pc>.</pc></ab><ab n="B04K11V22"><w>Sed</w><w>nunc</w><w>scio</w><w>quoniam</w>
+<lb n="P431C1L9-VL20"/><w>quaecumque</w><w>petieris</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>dabit</w><w>tibi</w>
+<lb n="P431C1L10-VL20"/><w><abbr type="nomSac"><hi rend="overline">ds</hi><unclear><hi rend="overline"/></unclear></abbr></w><pc>.</pc></ab><ab n="B04K11V23"><w>Ait</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>resurget</w><w>frater</w><w>tuus</w><pc>.</pc>
+<lb n="P431C1L11-VL20"/></ab><ab n="B04K11V24"><w>Dicit</w><w>ei</w><w>martha</w><w>scio</w><w>quia</w><w>resurget</w>
+<lb n="P431C1L12-VL20"/><w>in</w><w>resurrectione</w><w>in</w><w>nouissimo</w><w>die</w><pc>.</pc>
+<lb n="P431C1L13-VL20"/></ab><ab n="B04K11V25"><w>Dixit</w><w>ei</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>ego</w><w>sum</w><w>resurrectio</w><w>et</w><w>uita</w>
+<lb n="P431C1L14-VL20"/><w>qui</w><w>credit</w><w>in</w><w>me</w><app><rdg type="orig" hand="firsthand"><w>at</w></rdg><rdg type="corr" hand="corrector"><w><unclear>et</unclear></w></rdg></app><w>si</w><w>mortuus</w><w>fuerit</w>
+<lb n="P431C1L15-VL20"/><w>uiuet</w></ab><ab n="B04K11V26"><w>et</w><w>qui</w><w>uit</w><w>et</w><w>credit</w><w>in</w><w>me</w><w>non</w><w>mo
+<lb n="P431C1L16-VL20" break="no"/>rietur</w><w>num</w><w>credis</w><w>hoc</w><pc>.</pc></ab><ab n="B04K11V27"><w>dicit</w><w>ei</w><pc>.</pc><w>utique</w>
+<lb n="P431C1L17-VL20"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>ego</w><w>credidi</w><w>quoniam</w><w>tu</w><w>es</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>fi
+<lb n="P431C1L18-VL20" break="no"/>lius</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><pc>.</pc><w>qui</w><w>nunc</w><space unit="char" extent="1"/><w>mundum</w><w>uenisti</w><pc>.</pc></ab><ab n="B04K11V28"><w>et</w>
+<lb n="P431C1L19-VL20"/><w>cum</w><w>haec</w><w>dixisset</w><w>Abiit</w><w>et</w><w>uocauit</w>
+<lb n="P431C1L20-VL20"/><w>mariam</w><w>sororem</w><w>suam</w><w>silentio</w><w>dicens</w><pc>.</pc>
+<lb n="P431C1L21-VL20"/><w>magister</w><w>uenit</w><w>et</w><w>uocat</w><w>te</w><pc>.</pc></ab><ab n="B04K11V29"><w>At</w><w>illa</w>
+<pb xml:id="P432-VL20" n="432" type="page"/>
+<cb n="P432C1-VL20"/>
+<lb n="P432C1L1-VL20"/><w><supplied reason="lacuna">surgit</supplied></w><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">uenit</supplied></w><w>ad</w><w>eum</w><pc>.</pc></ab><ab n="B04K11V30"><w>non<unclear>d</unclear><supplied reason="lacuna">um</supplied></w><w><supplied reason="lacuna">enim</supplied></w><w><supplied reason="lacuna">uene</supplied>
+<lb n="P432C1L2-VL20" break="no"/>rat</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>in</w><w>monicipio</w><pc>.</pc><w>Sed</w><w>erat</w><w><supplied reason="lacuna">adhuc</supplied></w>
+<lb n="P432C1L3-VL20"/><w>in</w><w>eo</w><w>loco</w><w>quo</w><w>obuiauerat</w><w><unclear>ei</unclear></w><w><supplied reason="lacuna">martha</supplied></w>
+<lb n="P432C1L4-VL20"/></ab><ab n="B04K11V31"><w>Iudei</w><w>autem</w><w>qui</w><w>erant</w><w>cum</w><w>ea</w><w>i<unclear>n</unclear></w><w><supplied reason="lacuna">domo</supplied></w>
+<lb n="P432C1L5-VL20"/><w>et</w><w>consulabantur</w><w>eam</w><space unit="char" extent="1"/><w>ut</w><w>ui<supplied reason="lacuna">derunt</supplied></w>
+<lb n="P432C1L6-VL20"/><w>mariam</w><space unit="char" extent="2"/><w>quod</w><w>festinanter</w><w><unclear>s</unclear><supplied reason="lacuna">urre</supplied>
+<lb n="P432C1L7-VL20" break="no"/>xiset</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>exiset</w></rdg><rdg type="corr" hand="firsthand"><w>exisset</w></rdg></app><w>subsecuti</w><w>sun<supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">eam</supplied></w>
+<lb n="P432C1L8-VL20"/><w>dicentes</w><space unit="char" extent="1"/><w>Quoniam</w><w>uadit</w><w>ad</w><w>mo<unclear>n</unclear><supplied reason="lacuna">umen</supplied>
+<lb n="P432C1L9-VL20" break="no"/>tum</w><space unit="char" extent="1"/><w>ut</w><w>ploret</w><w>ibi</w><pc>.</pc></ab><ab n="B04K11V32"><w>maria</w><w>a<unclear>u</unclear><supplied reason="lacuna">tem</supplied></w><w><supplied reason="lacuna">cum</supplied></w>
+<lb n="P432C1L10-VL20"/><w>uenisset</w><w>ubi</w><w>erat</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>et</w><w>uid<unclear>i</unclear><supplied reason="lacuna">t</supplied></w><w><supplied reason="lacuna">eum</supplied></w>
+<lb n="P432C1L11-VL20"/><w>procedit</w><space unit="char" extent="1"/><w>ad</w><w>pedes</w><w>eius</w><pc>.</pc><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>s<supplied reason="lacuna">i</supplied></w><w><supplied reason="lacuna">hic</supplied></w><w><supplied reason="lacuna">fui</supplied>
+<lb n="P432C1L12-VL20" break="no"/>ses</w><w>frater</w><w>meus</w><w>non</w><w>fuiis<supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">mor</supplied>
+<lb n="P432C1L13-VL20" break="no"/>tuus</w><pc>.</pc></ab><ab n="B04K11V33"><w><abbr type="nomSac"><hi rend="overline">Ihs</hi></abbr></w><w>autem</w><w>cum</w><w>uidisset</w><w><supplied reason="lacuna">eam</supplied></w>
+<lb n="P432C1L14-VL20"/><w>flentem</w><w>et</w><w>iudeos</w><w>qui</w><w>uener<unclear>a</unclear><supplied reason="lacuna">nt</supplied></w><w><supplied reason="lacuna">cum</supplied></w>
+<lb n="P432C1L15-VL20"/><w>ea</w><w>flentes</w><pc>.</pc><w>turbatus</w><w>est</w><w>sp<supplied reason="lacuna">iritu</supplied></w><w><supplied reason="lacuna">et</supplied></w>
+<lb n="P432C1L16-VL20"/><w>commotus</w></ab><ab n="B04K11V34"><w>dixit</w><pc>.</pc><w>Ubi</w><w>posuisti<supplied reason="lacuna">s</supplied></w><w><supplied reason="lacuna">eum</supplied></w>
+<lb n="P432C1L17-VL20"/><w>dicunt</w><space unit="char" extent="1"/><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>ueni</w><w>et</w><w>uide</w><pc>.</pc></ab><ab n="B04K11V35"><w>et</w><w><supplied reason="lacuna">lacri</supplied>
+<lb n="P432C1L18-VL20" break="no"/>matus</w><w>est</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><pc>.</pc></ab><ab n="B04K11V36"><w>Dixerunt</w><w>autem</w><w><supplied reason="lacuna">iudei</supplied></w>
+<lb n="P432C1L19-VL20"/><w>ecce</w><w>quomodo</w><w>amabat</w><w>illum</w></ab><ab n="B04K11V37"><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">dixe</supplied>
+<lb n="P432C1L20-VL20" break="no"/>runt</w><w>quidam</w><w>ex</w><w>eis</w><pc>.</pc><w>non</w><w>po<supplied reason="lacuna">terat</supplied></w>
+<pb xml:id="P433-VL20" n="433" type="page"/>
+<cb n="P433C1-VL20"/>
+<lb n="P433C1L1-VL20"/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb n="P433C1L2-VL20"/></ab><ab n="B04K11V38"><note type="editorial">Jülicher reads -etur and ih¬s. This cannot be verified from the photographs.</note><gap reason="lacuna" unit="char" extent="unknown"/><w><unclear>4-5</unclear></w><gap reason="lacuna" unit="char" extent="unknown"/><w><supplied reason="lacuna">int</supplied>ra</w><w>semet</w><w>ipsum</w><w>uenit</w><w>ad</w>
+<lb n="P433C1L3-VL20"/><w><supplied reason="lacuna">monumen</supplied>tum</w><pc>.</pc><w>Erat</w><w>autem</w><w>spelonca</w>
+<lb n="P433C1L4-VL20"/><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">lapi</supplied><unclear>s</unclear></w><w>superpossitus</w><w>e<unclear>rat</unclear></w><w><unclear>ei</unclear></w></ab><ab n="B04K11V39"><w>dixit</w>
+<lb n="P433C1L5-VL20"/><w><abbr type="nomSac"><supplied reason="lacuna"><hi rend="overline">ihs</hi></supplied></abbr></w><w><supplied reason="lacuna">toll</supplied>ite</w><w>lapidem</w><space unit="char" extent="1"/><w>dixit</w><w>ei</w><w>soror</w>
+<lb n="P433C1L6-VL20"/><w><supplied reason="lacuna">lazari</supplied></w><w>martha</w><w><abbr type="nomSac"><hi rend="overline">dne</hi></abbr></w><w>iam</w><w>pudit</w><w>qua
+<lb n="P433C1L7-VL20" break="no"/><supplied reason="lacuna">driduu</supplied>m</w><w>enim</w><w>habet</w><pc>.</pc></ab><ab n="B04K11V40"><w>Ait</w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w><w>non</w>
+<lb n="P433C1L8-VL20"/><w><supplied reason="lacuna">dixi</supplied></w><w><supplied reason="lacuna">tibi</supplied></w><pc>.</pc><w>Quoniam</w><w>si</w><w>credideris</w><w>uide
+<lb n="P433C1L9-VL20" break="no"/><supplied reason="lacuna">bis</supplied></w><w><supplied reason="lacuna">gl</supplied>oriam</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><pc>.</pc></ab><ab n="B04K11V41"><w>Sustulerunt</w><w>ergo</w><w>la
+<lb n="P433C1L10-VL20" break="no"/><supplied reason="lacuna">pidem</supplied></w><w><abbr type="nomSac"><hi rend="overline">Ihs</hi></abbr></w><w>autem</w><w>eleuauit</w><w>oculos</w>
+<lb n="P433C1L11-VL20"/><w><supplied reason="lacuna">suos</supplied></w><w>sussum</w><pc>.</pc><w>et</w><w>dixit</w><w>pater</w><w>gra
+<lb n="P433C1L12-VL20" break="no"/><supplied reason="lacuna">tias</supplied></w><w><supplied reason="lacuna">a</supplied><unclear>g</unclear>o</w><w>tibi</w><w>quoniam</w><w>audisti</w><w>me</w><pc>.</pc>
+<lb n="P433C1L13-VL20"/></ab><ab n="B04K11V42"><w><supplied reason="lacuna">ego</supplied></w><w><supplied reason="lacuna">au</supplied>tem</w><w>sciebam</w><w>quoniam</w><w>semper</w>
+<lb n="P433C1L14-VL20"/><w><supplied reason="lacuna">me</supplied></w><w><supplied reason="lacuna">aud</supplied>is</w><w>sed</w><w>propter</w><w>turbam</w><w>que</w>
+<lb n="P433C1L15-VL20"/><w><supplied reason="lacuna">circum</supplied>stat</w><w>dix</w><pc>.</pc><w>ut</w><w>credant</w><w>quoni
+<lb n="P433C1L16-VL20" break="no"/><supplied reason="lacuna">am</supplied></w><w><supplied reason="lacuna">t</supplied>u</w><w>me</w><w>missisti</w><pc>.</pc></ab><ab n="B04K11V43"><w>Et</w><w>cum</w><w>haec</w><w>di
+<lb n="P433C1L17-VL20" break="no"/><supplied reason="lacuna">xisset</supplied></w><w>exclamauit</w><w>uoce</w><w>magna</w>
+<lb n="P433C1L18-VL20"/><w><supplied reason="lacuna">lazar</supplied>e</w><w>prodi</w><w>foras</w></ab><ab n="B04K11V44"><w>et</w><w>confestim</w>
+<lb n="P433C1L19-VL20"/><w><supplied reason="lacuna">exiit</supplied></w><w><supplied reason="lacuna">q</supplied>ui</w><w>mortuus</w><w>erat</w><w>ligatis</w><w>pedib<ex>us</ex></w>
+<lb n="P433C1L20-VL20"/><w><supplied reason="lacuna">et</supplied></w><w><supplied reason="lacuna">ma</supplied>nibus</w><w>fasceis</w><w>et</w><w>facies</w><w>eius</w><gap reason="lacuna" unit="char" extent="unknown"/></ab></div></div></body></text></TEI>

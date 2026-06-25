@@ -1,0 +1,61 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GAP121">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in P121</title>
+<title type="document" key="10121" n="P121">P121</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.0">Version 1.0, created <date>23.3.2016</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>23.3.2016</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+
+  <msName xml:lang="en">Papyrus 121</msName>
+ <altIdentifier type="GA"><idno>P121</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>10121</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John.</p></projectDesc>
+<editorialDecl>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+</teiHeader>
+<text xml:lang="GRC"><body>
+<pb n="P1-P121" type="page"/><div type="book" n="B04"><div type="chapter" n="B04K19">
+<cb n="P1C-P121"/>
+<lb n="P1CL1-P121"/>
+<lb n="P1CL2-P121"/><ab n="B04K19V17"><gap extent="rest" unit="verse" reason="lacuna"/><w><gap extent="rest" unit="word" reason="lacuna"/>βραϊστι</w><w>γ<supplied source="tr" reason="lacuna">ολγοθα</supplied></w></ab><ab n="B04K19V18"><w><supplied source="tr" reason="lacuna">οπου</supplied></w><w><supplied source="tr" reason="lacuna">αυτον</supplied></w>
+<lb n="P1CL3-P121"/><w><abbr type="nomSac"><supplied source="tr" reason="lacuna"><hi rend="overline">εστρα</hi></supplied><hi rend="overline">ν</hi></abbr></w><w>και</w><w>μ<unclear>ε</unclear><supplied source="tr" reason="lacuna">τ</supplied></w><w><supplied source="tr" reason="lacuna">αυτου</supplied></w><w><supplied source="tr" reason="lacuna">αλλους</supplied></w><w><supplied source="tr" reason="lacuna">δυο</supplied></w>
+ <lb n="P1CL4-P121"/><w><supplied source="na28" reason="lacuna">εν</supplied>α</w><w>εντευ<gap extent="rest" unit="word" reason="lacuna"/></w><gap extent="rest" unit="verse" reason="lacuna"/>
+<pb n="P2-P121" type="page"/>
+<cb n="P2C-P121"/>
+ <lb n="P2CL1-P121"/></ab><ab n="B04K19V25"><gap extent="rest" unit="verse" reason="lacuna"/><w><gap extent="rest" unit="word" reason="lacuna"/><unclear>οπα</unclear></w><w><unclear>και</unclear></w><w><unclear>μ</unclear><supplied source="tr" reason="lacuna">αρια</supplied></w><w><supplied source="tr" reason="lacuna">η
+<lb n="P2CL2-P121"/></supplied></w><w><supplied source="tr" reason="lacuna">μαγδαληνη</supplied></w></ab><ab n="B04K19V26"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ουν</w><w>ϊ<supplied source="tr" reason="lacuna">δων</supplied></w><w><supplied source="tr" reason="lacuna">την</supplied></w><w><supplied source="tr" reason="lacuna"><abbr type="nomSac"><hi rend="overline">μρα</hi></abbr>
+<lb n="P2CL3-P121"/></supplied></w><w><supplied source="tr" reason="lacuna">και</supplied></w><w><supplied source="tr" reason="lacuna">τον</supplied></w><w><supplied source="tr" reason="lacuna">μα</supplied>θητην</w><w><unclear>π</unclear><supplied source="tr" reason="lacuna">αρεστωτα
+<lb n="P2CL4-P121"/></supplied></w><w><supplied source="tr" reason="lacuna">ον</supplied></w><w><supplied source="tr" reason="lacuna">ηγαπα</supplied></w><w><supplied source="tr" reason="lacuna">λε</supplied><unclear>γ</unclear>ει</w><w>τη</w><w><abbr type="nomSac"><hi rend="overline">μ<unclear>ρ</unclear></hi></abbr></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

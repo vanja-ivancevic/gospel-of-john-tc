@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments (do NOT commit; recreate from requirements)
+venv/
+.venv/
+env/
+John_xml_parsing/venv/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs (keep the data, drop the noise)
+*.log
+
+# Derived/regenerable analysis store (rebuilt from data/raw/ecm via the pipeline)
+data/derived/
+
+# Vercel CLI local project link
+.vercel
+
+# Internal audit scaffolding — kept on disk, excluded from the published repo
+AUDIT_2026/
+
+# Unused legacy raw witnesses (not consumed by the rebuilt pipeline)
+data/raw/early_witnesses/

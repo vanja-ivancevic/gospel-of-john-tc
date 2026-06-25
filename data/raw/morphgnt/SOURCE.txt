@@ -1,0 +1,2 @@
+MorphGNT SBLGNT (CC BY-SA / MIT morphology). Source: github.com/morphgnt/sblgnt
+Used for re-scoped stylometry (Phase 5): function-word Burrows's Delta with known-author controls.

@@ -1,0 +1,108 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="Byzantine.xsl"?><?xml-model href="../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John for the Byzantine Text Project</title>
+<title type="document" key="041S" n="20041">GA 041S</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>Roderic L. Mullen</name><name>and members of the International Greek New Testament Project</name>
+</respStmt>
+<funder>The United Bible Societies</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.0">Version 2.0, created <date>11.7.2014</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>11.7.2014</date>
+<availability><p>Available for noncommercial re-use provided attribution is made to the original creators and the subsequent derivative is licensed as ShareAlike (Creative Commons by-nc-sa)</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country/>
+ <settlement/>
+ <repository/>
+ <idno/>
+ <msName xml:lang="la"/>
+ <altIdentifier type="GA"><idno>041S</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20041</idno></altIdentifier>
+ <!--altIdentifier type="Tischendorf"><idno></idno></altIdentifier>
+ <altIdentifier type="TM"><idno></idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno></idno></altIdentifier-->
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by Roderic Mullen and colleagues on the International Greek New Testament Project working towards an Electronic Edition of the Gospel According to John in the Byzantine Tradition, first published in 2007.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition at <ptr target="http://www.iohannes.com/byzantine/"/></p>
+
+<p>The plain text file was converted to XML by Hugh Houghton and Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p>
+<p>The original plain text header reads as follows: Status:G-A 041 (P) Supplement begins last Folio  Transcribed by: WJETranscription begun:Transcription finished:Transference to Collate by: DCPTransference to Collate begun: 7.12.00Transference to Collate finished: 7.12.00Placed in Level1: 15.12.00Placed in Level2:These files were  compared and differences resolved by:Added in  Level3:Final transcription file:  </p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="0" when="2014-07-09">Converted from plain text by Hugh Houghton using Python conversion scripts 1.0.</change>
+</revisionDesc>
+
+</teiHeader><text xml:lang="grc"><body><div n="04" type="book"><div type="incipit" n="B04incipit"><ab><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K1" type="chapter"><ab n="B04K1V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K2" type="chapter"><ab n="B04K2V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K3" type="chapter"><ab n="B04K3V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K4" type="chapter"><ab n="B04K4V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K5" type="chapter"><ab n="B04K5V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K6" type="chapter"><ab n="B04K6V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K7" type="chapter"><ab n="B04K7V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K8" type="chapter"><ab n="B04K8V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K9" type="chapter"><ab n="B04K9V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K10" type="chapter"><ab n="B04K10V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K11" type="chapter"><ab n="B04K11V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K12" type="chapter"><ab n="B04K12V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K13" type="chapter"><ab n="B04K13V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K14" type="chapter"><ab n="B04K14V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K15" type="chapter"><ab n="B04K15V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K16" type="chapter"><ab n="B04K16V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K17" type="chapter"><ab n="B04K17V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K18" type="chapter"><ab n="B04K18V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K19" type="chapter"><ab n="B04K19V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K20" type="chapter"><ab n="B04K20V1"><gap reason="lacuna" unit="char" extent="unknown"/><note type="local">0,0-21,21</note></ab>
+<lb/></div><div n="B04K21" type="chapter"><ab n="B04K21V1"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V2"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V3"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V4"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V5"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V6"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V7"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V8"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V9"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V10"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V11"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V12"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V13"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V14"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V15"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V16"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V17"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V18"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V19"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V20"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V21"><gap reason="lacuna" unit="char" extent="unknown"/></ab>
+<lb/><ab n="B04K21V22"><gap reason="lacuna" unit="char" extent="unknown"/><w>ακολουθει</w><w>μοι</w></ab>
+<lb/><ab n="B04K21V23"><w>εξηλθεν</w><w>ουν</w><w>ο</w><w>λογος</w><w>ουτος</w><w>εις</w><w>τους</w><w>αδελφους</w><w>οτι</w><w>ο</w><w>μαθητης</w><w>εκεινος</w><w>ουκ</w><w>αποθνησκει</w><w>και</w><w>ουκ</w><w>ειπεν</w><w>αυτω</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>οτι</w><w>ουκ</w><w>αποθνησκει</w><w>αλλ</w><w>εαν</w><w>αυτον</w><w>θελω</w><w>μενειν</w><w>εως</w><w>ερχομαι</w><w>τι</w><w>προς</w><w>σε</w></ab>
+<lb/><ab n="B04K21V24"><w>ουτος</w><w>εστιν</w><w>ο</w><w>μαθητης</w><w>ο</w><w>μαρτυρων</w><w>περι</w><w>τουτων</w><w>και</w><w>γραψας</w><w>ταυτα</w><w>και</w><w>οιδαμεν</w><w>οτι</w><w>αληθης</w><w>εστιν</w><w>η</w><w>μαρτυρια</w><w>αυτου</w></ab>
+<lb/><ab n="B04K21V25"><w>εστιν</w><w>δε</w><w>και</w><w>αλλα</w><w>πολλα</w><w>οσα</w><w>εποιησεν</w><w>ο</w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w>ατινα</w><w>εαν</w><w>γραφηται</w><w>καθ</w><w>εν</w><w>ουδε</w><w>αυτον</w><w>οιμαι</w><w>χωρη</w><w>τον</w><w>κοσμον</w><w>χωρησαι</w><w>τα</w><w>γραφομενα</w><w>βιβλια</w><w>αμην</w></ab>
+<lb/></div></div></body></text></TEI>

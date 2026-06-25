@@ -1,0 +1,75 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA0238">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in GA 0238</title>
+<title type="document" key="20238" n="0238">GA 0238</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+</respStmt>
+<funder>The Arts and Humanities Research Council</funder> 
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="2.1">Version 2.1, created <date>12.8.2013</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>12.8.2013</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Austria</country>
+ <settlement>Vienna</settlement>
+ <repository>Österreichische Nationalbibliothek</repository>
+ <idno>Pap. K. 8668</idno>
+  <msName xml:lang="la">0238</msName>
+ <altIdentifier type="GA"><idno>0238</idno></altIdentifier>
+ <altIdentifier type="Liste"><idno>20238</idno></altIdentifier>
+ <altIdentifier type="TM"><idno>61687</idno></altIdentifier>
+ <altIdentifier type="LDAB"><idno>2838</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.4">
+<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2000 and 2010.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. Further information about the transcription procedures followed may be found in the electronic edition of the majuscules at <ptr target="http://www.iohannes.com/majuscule/"/></p>
+
+<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="2" when="2013-07-22">Placement of ab/gap across page boundaries fixed by Catherine Smith.</change>
+<change n="1" when="2013-07-03">Adjusted to XML specifications 1.4 (apart from handling of ghost pages) by Hugh Houghton.</change>
+<change n="0" when="2013-04-03">Converted from plain text by Catherine Smith using Python conversion scripts 1.0 with manual adjustments.</change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="grc"><body>
+<pb xml:id="P1-0238" n="1"/>
+<cb xml:id="P1C1-0238" n="1"/>
+<lb xml:id="P1C1L1-0238" n="1"/><div type="book" n="B04"><div n="B04K7" type="chapter"><ab n="B04K7V10"><gap reason="lacuna" unit="verse" extent="rest"/><w>τοτε</w><w>και</w><w><unclear>α</unclear><supplied reason="unspecified">υτος</supplied></w>
+<lb xml:id="P1C1L2-0238" n="2"/><w>ανεβη</w><w>ου</w><w>φ<supplied reason="unspecified">α</supplied>
+<lb xml:id="P1C1L3-0238" n="3" break="no"/>νερως</w><pc>·</pc><w>αλλ</w><w><supplied reason="unspecified">ως</supplied></w>
+<lb xml:id="P1C1L4-0238" n="4"/><w>εν</w><w>κρυπτω</w>
+<lb xml:id="P1C1L5-0238" n="5"/></ab><ab n="B04K7V11"><w>οι</w><w>ουν</w><w>ϊουδ<unclear>α</unclear><supplied reason="unspecified">ιοι</supplied></w>
+<lb xml:id="P1C1L6-0238" n="6"/><w>εζητουν</w><w><unclear>α</unclear><supplied reason="unspecified">υτον</supplied></w>
+<lb xml:id="P1C1L7-0238" n="7"/><w>εν</w><w>τη</w><w>εο<supplied reason="unspecified">ρτη</supplied></w><w><supplied reason="unspecified">και</supplied></w>
+<lb xml:id="P1C1L8-0238" n="8"/><w>ελεγο<unclear>ν</unclear></w><w><supplied reason="unspecified">που</supplied></w>
+<lb xml:id="P1C1L9-0238" n="9"/><w>εστιν</w><w><supplied reason="unspecified">εκεινος</supplied></w>
+<lb xml:id="P1C1L10-0238" n="10"/></ab><ab n="B04K7V12"><w>και</w><w>γ<supplied reason="unspecified">ογγυσμος</supplied></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>

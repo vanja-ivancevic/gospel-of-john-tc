@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="NTCoptic.xsl"?><!DOCTYPE transcription [
+]><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="SMRfa22">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of John in Fayumic (fa22)</title>
+<title type="document" n="fa22">CM 3827</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name> <resp>transcribed by</resp><name>Christian Askeland</name>
+</respStmt>
+<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.1">Version 1.1, last updated <date>25.7.2017</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>28.2.2012</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (Christian Askeland and any named participants) and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <country>Egypt</country>
+ <settlement>Cairo</settlement>
+ <repository>Coptic Museum</repository>
+ <idno>3827</idno>
+  <msName xml:lang="en">Coptic (Fayumic) fa 22</msName>
+       <altIdentifier type="SMR"><idno>fa 22</idno></altIdentifier>
+       <altIdentifier type="TM"><idno>61666</idno></altIdentifier>
+<altIdentifier type="LDAB"><idno>2816</idno></altIdentifier>
+ </msIdentifier>
+</msDesc>
+<additional>Walter E. Crum, “review of Munier, Catalogue général du Musée du Caire: nos. 9201–9304, 1916,” Journal of Egyptian Archaeology 4, no. 1 (1917): 68; Henri Munier, Catalogue général des antiquités égyptiennes du Musée du Caire, manuscrits Coptes, nos. 9201–9304 (Caire: Institut français d’archéologie orientale, 1916), 44–46, inv. 9239, pl. 7. (Anne Boud’hors, “Réflexions supplémentaires sur les principaux témoins fayoumiques de la Bible,” in Coptica — Gnostica — Manichaica. Mélanges offerts à Wolf-Peter Funk, ed. Paul-Hubert Poirier and Louis Painchaud, Bibliothèque copte de Nag Hammadi, «Études» 7 (Louvain and Paris: Peeters, 2006), 85, fn. 15; Leo Depuydt, ed., Catalogue of Coptic manuscripts in the Pierpont Morgan Library. Louvain: Peeters, 1993, 617, fn. 4.)</additional>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.5">
+<projectDesc><p>This transcription was made by Christian Askeland for the International Greek New Testament Project in its work towards the Editio Critica Maior of John in 2011.</p></projectDesc>
+<editorialDecl><p>This is a stub for an unreadable manuscript.</p>
+<p>The XML specifications used were version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl> 
+<variantEncoding method="parallel-segmentation"  location="internal"/>
+</encodingDesc>
+
+
+<revisionDesc>
+<change n="1" when="2017-07-25">Converted to XML specifications 1.5 by <name>Hugh Houghton</name></change>
+<change n="0" when="2012-02-28"></change>
+</revisionDesc>
+
+</teiHeader>
+<text xml:lang="cop"><body>
+<pb xml:id="P1r-fa22" n="1r" type="folio"/>
+<cb n="P1rC1-fa22"/>
+<lb n="P1rC1L1-fa22"/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V33"><gap reason="lacuna" unit="line" extent="1"/> <note type="editorial">This manuscript is unreadable from current images. However, it contains John 4:33-35 in Greek and Fayumic</note>
+<lb n="P1rC1L2-fa22"/></ab><ab n="B04K4V34"><gap reason="lacuna" unit="line" extent="1"/> 
+<lb n="P1rC1L3-fa22"/></ab><ab n="B04K4V35"><gap reason="lacuna" unit="line" extent="1"/> </ab></div></div>
+</body></text></TEI>

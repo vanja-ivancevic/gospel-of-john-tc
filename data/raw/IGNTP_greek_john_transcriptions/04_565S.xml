@@ -1,0 +1,96 @@
+<!DOCTYPE TEI>
+<?xml-stylesheet type="text/xsl" href="IGNTP.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA565S"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of John in 565S</title>
+				<title type="document" key="30565" n="565S">GA 565S</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+				<title type="short" level="m" xml:lang="en" n="04">john</title>      
+				<respStmt><resp>Created by</resp><name>the International Greek New Testament Project</name>
+				</respStmt>
+				<funder>The Arts and Humanities Research Council</funder> 
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.1">Version 1.1, created on <date>12.8.2013</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>12.8.2013</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators (the IGNTP and any named participants) and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<altIdentifier type="GA">
+							<idno>565S</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>30565</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.4">
+			<projectDesc><p>This transcription was made by the International Greek New Testament Project in its work towards the Editio Critica Maior of John between 2010 and 2013.</p></projectDesc>
+			<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				
+				<p>The plain text file was converted to XML by Catherine Smith using the project's Python conversion scripts 1.0.</p>
+				<p>The XML specifications used are version 1.4 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1727/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+			<change n="3" when="2014-09-01">Witness end tag moved by Rachel Kevern.</change>
+			<change n="2" when="2014-05-06">Liste id fixed (was missing a zero) by Rachel Kevern.</change>
+			<change n="1" when="2013-07-23">Adjusted to XML specifications 1.4 by Catherine Smith.</change>
+			<change n="0" when="2013-07-20">Converted from plain text by Catherine Smith using Python conversion scripts 1.0.</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="grc"><body><note type="local">G-Α 565 Supplement L1 transcriptionΤranscribed by: ΑSWΤranscription begun: 14.04.08Τranscription finished: 09.01.09Checked by collation with  1582 and 1: 12.02.09Last modified: 23.06.09Adjustment of tags and removal of entities for ECM conversion: HAGH 27.3.2013 </note>
+<pb xml:id="P389r-565S" n="389r" type="folio"/>
+<cb xml:id="P389rC1-565S" n="1"/>
+<lb xml:id="P389rC1L1-565S" n="1"/><div type="book" n="B04"><div n="B04K17" type="chapter"><ab n="B04K17V1"><gap reason="lacuna" unit="verse" extent="rest"/><w>και</w><w>ο</w><w>υιος</w><w>σου</w><w>δοξασει</w><w>σε</w></ab><ab n="B04K17V2"><w>καθ<ex>ως</ex></w><w>εδωκ<ex>ας</ex></w>
+<lb xml:id="P389rC1L2-565S" n="2"/><w>αυτω</w><w>εξουσιαν</w><w>πασ<ex>η</ex>ς</w><w>σαρκο<ex>ς</ex></w><w>ι<ex>ν</ex>α</w>
+<lb xml:id="P389rC1L3-565S" n="3"/><w>παν</w><w>ο</w><w>δεδωκ<ex>ας</ex></w><w>αυτω</w><w>δωσει</w><w>αυτοις</w>
+<lb xml:id="P389rC1L4-565S" n="4"/><w>ζωην</w><w>αιωνιον</w></ab><ab n="B04K17V3"><w>αυτη</w><w>δε</w><w>εστ<ex>ιν</ex></w><w>η</w><w>αιω<ex>νιος</ex></w>
+<lb xml:id="P389rC1L5-565S" n="5"/><w>ζωη</w><w>ινα</w><w>γινωσκωσι</w><w>σε</w><w>τ<ex>ον</ex></w><w>μον<ex>ον</ex></w>
+<lb xml:id="P389rC1L6-565S" n="6"/><w>αληθιν<ex>ον</ex></w><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><w>και</w><w>ον</w><w>απεστειλ<ex>ας</ex></w><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w></ab><ab n="B04K17V4"><w>ε
+<lb break="no" xml:id="P389rC1L7-565S" n="7"/>εγω</w><w>σε</w><w>εδοξασα</w><w>επι</w><w>τ<ex>η</ex>ς</w><w>γ<ex>η</ex>ς</w><w>το</w><w>εργ<ex>ον</ex></w>
+<lb xml:id="P389rC1L8-565S" n="8"/><w>ετελειωσα</w><w>ο</w><w>δεδωκας</w><w>μοι</w><w>ινα</w><w>ποι
+<lb break="no" xml:id="P389rC1L9-565S" n="9"/>ησω</w></ab><ab n="B04K17V5"><w>και</w><w>νυν</w><w>δοξασον</w><w>με</w><w>συ</w><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>πα
+<lb break="no" xml:id="P389rC1L10-565S" n="10"/>ρα</w><w>σεαυτω</w><w>τη</w><w>δοξη</w><w>η</w><w>ειχ<ex>ον</ex></w><w>προ</w>
+<lb xml:id="P389rC1L11-565S" n="11"/><w>του</w><w>τ<ex>ον</ex></w><w>κοσμον</w><w>ειναι</w><w>παρα</w><w>σοι</w></ab><ab n="B04K17V6"><w>ε
+<lb break="no" xml:id="P389rC1L12-565S" n="12"/>φανερωσα</w><w>σου</w><w>το</w><w>ονομα</w><w>τοις</w>
+<lb xml:id="P389rC1L13-565S" n="13"/><w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w><w>ους</w><w>δεδωκας</w><w>μοι</w><w>εκ</w><w>του</w>
+<lb xml:id="P389rC1L14-565S" n="14"/><w>κοσμου</w><w>σοι</w><w>ησαν</w><w>και</w><w>εμοι</w><w>αυτ<ex>ους</ex></w>
+<lb xml:id="P389rC1L15-565S" n="15"/><w>δεδωκας</w><w>και</w><w>τ<ex>ον</ex></w><w>λογον</w><w>σου</w><w>τετηρη
+<lb break="no" xml:id="P389rC1L16-565S" n="16"/>κασιν</w></ab><ab n="B04K17V7"><w>νυν</w><w>εγνωκαν</w><w>οτι</w><w>παντα</w>
+<lb xml:id="P389rC1L17-565S" n="17"/><w>οσα</w><w>δεδωκας</w><w>μοι</w><w>παρα</w><w>σου</w><w>εστιν</w>
+<lb xml:id="P389rC1L18-565S" n="18"/></ab><ab n="B04K17V8"><w>οτι</w><w>τα</w><w>ρηματα</w><w>α</w><w>δεδωκας</w><w>μοι</w>
+<pb xml:id="P389v-565S" n="389v" type="folio"/>
+<cb xml:id="P389vC1-565S" n="1"/>
+<lb xml:id="P389vC1L1-565S" n="1"/><w>δεδωκα</w><w>αυτοις</w><w>και</w><w>αυτοι</w><w>ελαβο<ex>ν</ex></w>
+<lb xml:id="P389vC1L2-565S" n="2"/><w>και</w><w>εγνωσαν</w><w>αληθως</w><w>οτι</w><w>πα
+<lb break="no" xml:id="P389vC1L3-565S" n="3"/>ρα</w><w>σου</w><w>εξηλθον</w><w>και</w><w>επιστευσα<ex>ν</ex></w>
+<lb xml:id="P389vC1L4-565S" n="4"/><w>οτι</w><w>συ</w><w>με</w><w>απεστειλας</w></ab><ab n="B04K17V9"><w>εγω</w>
+<lb xml:id="P389vC1L5-565S" n="5"/><w>περι</w><w>αυτων</w><w>ερωτω</w><w>ου</w><w>πε
+<lb break="no" xml:id="P389vC1L6-565S" n="6"/>ρι</w><w>του</w><w>κοσμου</w><w>ερωτω</w><w>αλλα</w>
+<lb xml:id="P389vC1L7-565S" n="7"/><w>περι</w><w>ων</w><w>δεδωκας</w><w>μοι</w><w>οτι</w>
+<lb xml:id="P389vC1L8-565S" n="8"/><w>σοι</w><w>εισι</w></ab><ab n="B04K17V10"><w>και</w><w>τα</w><w>εμα</w><w>παντα</w>
+<lb xml:id="P389vC1L9-565S" n="9"/><w>σα</w><w>εστι</w><w>και</w><w>τα</w><w>σα</w><w>εμα</w><w>και</w><w>δε
+<lb break="no" xml:id="P389vC1L10-565S" n="10"/>δοξασμε</w><w>εν</w><w>αυτοις</w></ab><ab n="B04K17V11"><w>και</w><w>ουκε
+<lb break="no" xml:id="P389vC1L11-565S" n="11"/>τι</w><w>ειμι</w><w>εν</w><w>τωεντω</w><w>κοσμω</w>
+<lb xml:id="P389vC1L12-565S" n="12"/><w>και</w><w>ουτοι</w><w>εν</w><w>τω</w><w>κοσμω</w><w>εισι</w><w>και</w>
+<lb xml:id="P389vC1L13-565S" n="13"/><w>εγω</w><w>προ<ex>ς</ex></w><w>σε</w><w>ερχομ<ex>αι</ex></w><w><abbr type="nomSac"><hi rend="overline">περ</hi></abbr></w><w>αγιε</w>
+<lb xml:id="P389vC1L14-565S" n="14"/><w>τηρησον</w><w>αυτους</w><w>εν</w><w>τω</w><w>ονο
+<lb break="no" xml:id="P389vC1L15-565S" n="15"/>ματι</w><w>σου</w><w>ω</w><w>δεδωκας</w><w>μοι</w><w>ι<ex>ν</ex>α</w>
+<lb xml:id="P389vC1L16-565S" n="16"/><w>ωσιν</w><w>εν</w><w>καθ<ex>ως</ex></w><w>η<ex>μεις</ex></w></ab><ab n="B04K17V12"><w>οτε</w><w>ημ<ex>ην</ex></w><w>μετ</w><w>αυτ<ex>ων</ex></w>
+<lb xml:id="P389vC1L17-565S" n="17"/><w>εν</w><w>τω</w><w>κοσμ<ex>ω</ex></w><w>εγω</w><w>ετηρο<ex>υν</ex></w><w>αυτους</w><w>εν</w><w>τω</w>
+<lb xml:id="P389vC1L18-565S" n="18"/><w>ονοματ<ex>ι</ex></w><w>ους</w><w>δεδωκας</w><w>μ<ex>οι</ex></w><w>εφυλα
+	<lb break="no" xml:id="P389vC1L19-565S" n="19"/>ξα</w><w>και</w><w>ουδεις</w><w>εξ</w><w>αυτ<ex>ων</ex></w><w>απωλε<supplied reason="inferredPage">το</supplied></w><gap reason="witnessEnd"/></ab></div></div></body></text></TEI>
