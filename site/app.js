@@ -26,6 +26,25 @@ function percentile(arr, p) {
   const s = [...arr].sort((a,b)=>a-b); return s[Math.floor(p/100*(s.length-1))];
 }
 
+// shared gospel-wide colour scale (same as the heatmap) for tinting table cells
+let SCALE = null;
+async function scale() {
+  if (!SCALE) {
+    const s = (await load("verses.json")).map(v => v.stability).filter(x => x != null);
+    SCALE = { lo: percentile(s, 2), hi: Math.max(...s) };
+  }
+  return SCALE;
+}
+function mix(rgb, w) {  // lighten an "rgb(r,g,b)" toward white by fraction w
+  const m = rgb.match(/\d+/g).map(Number);
+  return `rgb(${m.map(c => Math.round(c + (255 - c) * w)).join(",")})`;
+}
+function bg(v) {  // faint heat tint for a stability-like value (red=fluid, blue=firm)
+  return v == null || !SCALE ? "" : `background:${mix(heat(v, SCALE.lo, SCALE.hi), 0.58)}`;
+}
+const sCell = v => `<td class="num" style="${bg(v)}">${f3(v)}</td>`;          // stability
+const iCell = v => `<td class="num" style="${bg(v==null?null:1-v)}">${f3(v)}</td>`;  // instability
+
 // ---- heatmap (width-autofit; switchable orientation, vertical default on mobile) ----
 const MOBILE = window.matchMedia("(max-width:640px)");
 let HM = null, hmOrient = MOBILE.matches ? "vert" : "horiz", hmUserSet = false;
@@ -84,7 +103,7 @@ function tipHTML(d) {
     ${row("Instability", f3(d.instability))}
     ${row("Branch split", pct(d.between_family_split))}
     ${row("Coverage", (d.coverage==null?"—":d.coverage+" MS") + (lc?` <i class="warn">low</i>`:""))}
-    <a class="t-more" href="#/verse/${esc(d.verse_id)}">more info →</a>`;
+    <a class="t-more" href="#/verse/${esc(d.verse_id)}">click for more info →</a>`;
 }
 function showTip(cell) {
   const id = (cell.dataset.go || "").split("/")[1], d = HM && HM.byId[id];
@@ -129,25 +148,40 @@ async function overview() {
   const m = sum.meta, g = sum.gates;
   const stat = (n, l) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
   let h = `<h1>Where is the Gospel of John textually unstable?</h1>
-    <p class="sub">Each cell below is a verse, coloured by how strongly the manuscript tradition
-    agrees on its wording. Click any verse to read it with the actual variation marked inline —
-    the competing readings and which manuscripts back each. Built on a real
-    ${m.n_witnesses}-witness collation.</p>
+    <p class="sub">As scribes copied John by hand for centuries, its wording drifted. This maps where
+    the surviving Greek manuscripts <b>agree</b> and where they <b>disagree</b> — built on a real
+    ${m.n_witnesses}-witness collation. Click any verse to read it with the variation marked inline:
+    the competing readings and the manuscripts behind each.</p>
     <div class="stats">
       ${stat(m.n_units.toLocaleString(), "variation units")}
       ${stat(m.n_attestations.toLocaleString(), "witness attestations")}
       ${stat(m.n_witnesses, "manuscripts")}
       ${stat(m.n_verses, "verses")}
+    </div>
+    <div class="defs">
+      <div><span class="sw firm"></span><b>Stability</b> — at a verse, the share of manuscripts that
+        carry the same (majority) wording. <b>1.00</b> = every witness agrees; lower = more split.</div>
+      <div><span class="sw fluid"></span><b>Instability</b> — the flip side (1 − stability): how much
+        the manuscripts disagree. Higher = more contested text.</div>
+      <div><b>Branch split</b> — whether the disagreement runs <i>between</i> the major manuscript
+        families (deep variation), not just among scattered copies.</div>
+      <div><b>Coverage</b> — how many manuscripts survive at that verse; where it's low, read the
+        numbers cautiously.</div>
     </div>`;
 
-  if (g) h += `<p class="sub" style="margin-top:14px">Validation —
-    Pericope Adulterae <span class="gate ${g.pericope_adulterae.passed?"pass":"fail"}">
-    ${g.pericope_adulterae.passed?"recovered":"failed"}</span>
-    (${g.pericope_adulterae.target} vs ${g.pericope_adulterae.rest} MS) ·
-    John 5:4 <span class="gate ${g.john_5_4.passed?"pass":"fail"}">
-    ${g.john_5_4.passed?"recovered":"failed"}</span>
-    (omitters ${g.john_5_4.omit_date} vs includers ${g.john_5_4.incl_date} CE) ·
-    genealogy <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${esc(g.genealogy)}</span></p>`;
+  if (g) h += `<div class="trust"><b>Does the method actually work?</b> Three checks against textbook
+    cases — known scribal phenomena it must recover in the right direction:
+    <ul>
+      <li><b>Pericope Adulterae</b> (the woman caught in adultery, John 7:53–8:11) — the famous passage
+        absent from the oldest manuscripts. Present here in only <b>${g.pericope_adulterae.target}</b>
+        witnesses vs <b>${g.pericope_adulterae.rest}</b> for the surrounding text, so it's correctly
+        flagged as a later insertion. <span class="gate ${g.pericope_adulterae.passed?"pass":"fail"}">${g.pericope_adulterae.passed?"recovered":"missed"}</span></li>
+      <li><b>John 5:4</b> (the angel stirring the pool) — a known later addition. Here it shows up only
+        in much later copies (median <b>${g.john_5_4.incl_date} CE</b>) and is missing from the earliest
+        (median <b>${g.john_5_4.omit_date} CE</b>). <span class="gate ${g.john_5_4.passed?"pass":"fail"}">${g.john_5_4.passed?"recovered":"missed"}</span></li>
+      <li><b>Manuscript families</b> — the family groupings recovered from the data match the published
+        scholarly families. <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${/PASS/i.test(g.genealogy)?"validated":esc(g.genealogy)}</span></li>
+    </ul></div>`;
 
   // heatmap (rendered after innerHTML via renderHeat(); orientation is toggleable)
   const stab = verses.map(v => v.stability).filter(x => x != null);
@@ -155,6 +189,7 @@ async function overview() {
   HM = { lo: percentile(stab, 2), hi: Math.max(...stab), lowcov: percentile(covs, 15),
          maxv: Math.max(...verses.map(v => v.verse)), byCV: {}, byId: {} };
   verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; HM.byId[v.verse_id] = v; });
+  SCALE = { lo: HM.lo, hi: HM.hi };
   h += `<div class="hm-head"><h2>Stability heatmap</h2>
       <button id="hmtoggle" class="hm-toggle" data-hmtoggle
         aria-label="Toggle heatmap orientation"></button></div>
@@ -176,8 +211,8 @@ async function overview() {
       <th class="num">Coverage</th></tr></thead><tbody>`;
   hot.forEach((v, i) => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"><td>${i+1}</td>
-      <td>${v.ref}</td><td class="num">${f3(v.instability)}</td>
-      <td class="num">${f3(v.stability)}</td><td class="num">${pct(v.between_family_split)}</td>
+      <td>${v.ref}</td>${iCell(v.instability)}${sCell(v.stability)}
+      <td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
   h += `</tbody></table>`;
@@ -191,8 +226,8 @@ async function overview() {
     <th class="num">Coverage</th></tr></thead><tbody>`;
   sum.chapters.forEach(c => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="chapter/${c.chapter}"><td>${c.chapter}</td>
-      <td class="num">${c.n_verses}</td><td class="num">${f3(c.stability)}</td>
-      <td class="num">${f3(c.instability)}</td><td class="num">${f3(c.family_instability)}</td>
+      <td class="num">${c.n_verses}</td>${sCell(c.stability)}${iCell(c.instability)}
+      <td class="num">${f3(c.family_instability)}</td>
       <td class="num">${pct(c.between_family_split)}</td>
       <td class="num">${c.coverage==null?"—":c.coverage.toFixed(0)}</td></tr>`;
   });
@@ -204,6 +239,7 @@ async function overview() {
 // ---------------- Chapter ----------------
 async function chapter(n) {
   setTitle(`John ${n}`);
+  await scale();
   const verses = (await load("verses.json")).filter(v => v.chapter == n);
   crumb.innerHTML = `<a href="#/">Overview</a> › John ${n}`;
   let h = `<h1>John ${n}</h1><p class="sub">Click a verse to read it with the variation marked
@@ -214,7 +250,7 @@ async function chapter(n) {
     <th class="num">Coverage</th></tr></thead><tbody>`;
   verses.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"><td>${v.ref}</td>
-      <td class="num">${f3(v.stability)}</td><td class="num">${f3(v.instability)}</td>
+      ${sCell(v.stability)}${iCell(v.instability)}
       <td class="num">${f3(v.family_instability)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
@@ -346,6 +382,7 @@ async function families() {
 // ---------------- Verses index ----------------
 async function verses() {
   setTitle("Verses");
+  await scale();
   const vs = await load("verses.json");
   crumb.innerHTML = `<a href="#/">Overview</a> › Verses`;
   let h = `<h1>All verses</h1><p class="sub">Every verse in John with its stability. Filter by
@@ -358,7 +395,7 @@ async function verses() {
   vs.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"
       data-k="${v.chapter}:${v.verse}"><td>${v.ref}</td>
-      <td class="num">${f3(v.stability)}</td><td class="num">${f3(v.instability)}</td>
+      ${sCell(v.stability)}${iCell(v.instability)}
       <td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
