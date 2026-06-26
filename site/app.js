@@ -171,7 +171,7 @@ async function overview() {
         head-count. A verse with 100 late copies but few early or non-Byzantine witnesses is flagged.</div>
     </div>`;
 
-  if (g) h += `<div class="trust"><b>Does the method actually work?</b> Three checks against textbook
+  if (g) h += `<div class="trust"><b>Does the method work?</b> Three checks against textbook
     cases, scribal phenomena it has to recover in the right direction:
     <ul>
       <li><b>Pericope Adulterae</b> (the woman caught in adultery, John 7:53-8:11), the passage absent
@@ -444,9 +444,9 @@ async function about() {
     the share of families that agree. The raw head-count version sits next to it (the metric toggle on
     the heatmap), because that is the honest "counted" view. The two differ. Correcting the
     head-count's Byzantine bias barely moves the average, but it noticeably re-orders which verses look
-    stable. Some verses that look firm by head-count are really just the Byzantine bloc agreeing with
+    stable. Some verses that look firm by head-count are just the Byzantine bloc agreeing with
     itself.</p>
-    <div class="note"><b>An honest caveat.</b> Treating the Byzantine majority as one voice is the
+    <div class="note"><b>A caveat.</b> Treating the Byzantine majority as one voice is the
     mainstream critical-text position. It is a position, not a fact. Byzantine-priority scholars argue
     those manuscripts are many fairly independent witnesses. That disagreement is why both views are on
     the page, so you can choose the one you find defensible.</div>
