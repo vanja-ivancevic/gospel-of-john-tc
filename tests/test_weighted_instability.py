@@ -22,7 +22,7 @@ def test_shape_and_ranges(chap):
 
 
 def test_chapter_21_not_elevated(chap):
-    """Refutes the old project's headline: with genealogy-aware data, ch21 is NOT unstable."""
+    """With genealogy-aware data, chapter 21 is not unstable."""
     ch21 = chap.loc[chap.chapter == 21, "family_instability"].iloc[0]
     assert ch21 < chap["family_instability"].mean()
 

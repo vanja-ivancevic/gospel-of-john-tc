@@ -464,8 +464,7 @@ async function about() {
         ${m.eff_families_median} almost everywhere, so the site reports it once for the whole gospel.</li>
     </ul>
     <p>Each manuscript counts once per unit, so a codex's own corrector can never pull it onto two sides
-    of the same variant. (That intra-manuscript miscount is the flaw that sank the project's earlier
-    version.) Orthographic sub-variants count as agreement.</p>
+    of the same variant. Orthographic sub-variants count as agreement.</p>
 
     <h2>Reading a verse</h2>
     <p>On a verse page the Greek runs across the top with the variation points marked. Coloured words

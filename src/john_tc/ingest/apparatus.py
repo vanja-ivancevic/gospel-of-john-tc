@@ -10,8 +10,8 @@ The ECM apparatus is REAL cross-witness collation against the NA28 base text:
     </app>
 
 Each <rdg @wit> is a space-separated list of Gregory-Aland sigla (with hand/corrector
-suffixes). This is the quantity the old project mismeasured: a genuine disagreement
-*between manuscripts*, not firsthand-vs-corrector inside one codex.
+suffixes). It records a genuine disagreement *between manuscripts*, as opposed to
+firsthand-vs-corrector variation inside one codex.
 
 Output: a DuckDB database with three tables — `units`, `readings`, `attestation` (long).
 Run:  python -m john_tc.ingest.apparatus

@@ -27,7 +27,7 @@ def test_family_vote_metric_present(s):
 
 def test_no_corrector_double_count():
     """Flat metric counts one reading per (unit, witness): n_lemma + n_diverge never exceeds
-    n_extant (the intra-manuscript corrector artifact the rebuild exists to remove)."""
+    n_extant (an intra-manuscript corrector artifact that would otherwise inflate it)."""
     import duckdb
 
     from john_tc.metrics.instability import _UNIT_SQL
@@ -40,7 +40,7 @@ def test_no_corrector_double_count():
 
 
 def test_ch21_is_not_among_least_stable(s):
-    """Consistent with the refutation: ch21 is not a fluid/unstable chapter."""
+    """Chapter 21 is not a fluid/unstable chapter."""
     assert 21 not in s["least_stable_chapters"]
 
 

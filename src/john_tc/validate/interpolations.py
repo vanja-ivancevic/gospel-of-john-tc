@@ -1,9 +1,8 @@
 """Hard validation gate: known interpolations must register as coverage troughs.
 
-The discarded variant-density metric FAILED this — the Pericope Adulterae (John 7:53-8:11),
-the textbook late interpolation, came out *less* variable than its context. The rebuilt
-presence/absence metric (extant base manuscripts per verse) must show the opposite:
-PA verses attested by significantly FEWER manuscripts than the rest of John.
+The Pericope Adulterae (John 7:53-8:11), the textbook late interpolation, has to register as a
+coverage trough: a presence/absence metric (extant base manuscripts per verse) should show its
+verses attested by significantly FEWER manuscripts than the rest of John.
 
 A one-sided permutation test on the difference of mean coverage gives a distribution-free
 p-value; the gate asserts both direction and significance.

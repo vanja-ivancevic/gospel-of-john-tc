@@ -1,8 +1,7 @@
 """Witness-normalized transmission-instability metrics (RQ1) and coverage (RQ3).
 
 Every metric is normalized by the witnesses *actually attesting* each unit (extant =
-not lacunose), so it cannot be inflated by a single heavily-corrected codex — the exact
-failure mode of the discarded variant database.
+not lacunose), so a single heavily-corrected codex cannot inflate it.
 
 Definitions (per substantive variation unit, app_type='main'):
   extant    = distinct base manuscripts citing a non-lacunose reading
@@ -24,7 +23,7 @@ import pandas as pd
 from john_tc.config import load_config
 
 # One reading per (unit, witness): firsthand hand wins, so a codex's own corrector cannot make
-# it count as both agreeing and diverging (the intra-MS artifact the rebuild exists to remove).
+# it count as both agreeing and diverging (an intra-manuscript artifact that would inflate it).
 # 'basetext' (the editorial NA28 base) is not a manuscript -> excluded. Orthographic 'subreading'
 # is folded into agreement, matching the stability metric (one shared substantive-disagreement rule).
 _UNIT_SQL = """

@@ -44,6 +44,6 @@ def test_synoptic_parallels_drive_disagreement(res):
 
 
 def test_appendix_not_distinctive(res):
-    """Ch21 is NOT special once confounds + Prologue are accounted for (refutes old claim)."""
+    """Chapter 21 is not special once confounds and the Prologue are accounted for."""
     appx = res["coefficients"].loc[res["coefficients"].index.str.contains("appendix")]
     assert appx["p_fdr"].iloc[0] > 0.05

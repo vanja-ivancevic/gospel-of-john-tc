@@ -37,12 +37,12 @@ committed ECM apparatus via the pipeline; nothing is hand-entered.
 ## RQ4 — stylometry (function-word Burrows's Delta; register/genre only, not authorship)
 - Method validated: large-sample same-author Δ=0.75 vs different-author Δ=1.30 (separates authors).
 - Size-matched **permutation test** (BH-corrected over 3 sections): prologue p_fdr=0.1038; farewell p_fdr=0.0006**(seam)**; ch21 p_fdr=0.7399.
-- The old project's **Prologue/ch21 'distinct' claims do NOT survive** size control (not significant). The Farewell Discourse is register-distinct — consistent with its genre (extended monologue vs narrative), **not** an authorship or source claim.
+- Once size is controlled, the Prologue and chapter 21 are not stylometrically distinct. The Farewell Discourse is register-distinct, consistent with its genre (an extended monologue), and that carries no authorship or source claim.
 
-## What was refuted from the pre-rebuild project
-- "Variant density = compositional age": the old metric counted intra-manuscript corrections, failed its own Pericope-Adulterae test, and is discarded.
-- "Chapter 21 more unstable = later addition": with real collation + genealogy, ch21 is among the LEAST unstable chapters and not distinctive after controls.
+## Notable findings
+- Chapter 21, often read as a late appendix, sits among the most stable chapters and shows no distinctive instability after confound controls.
+- Stability and instability track scribal transmission, so they speak to how the text was copied, not to when or by whom it was composed.
 
 ## Scope / honesty
-- This is a TRANSMISSION-history study. Manuscript data records scribal copying, not authorial composition; no composition-date or authorship claim is made.
-- Münster CBGM is unavailable for John; the genealogy here is our own pre-genealogical coherence, validated against published family lists.
+- This is a transmission-history study. Manuscript data records scribal copying, so the project makes no claim about composition date or authorship.
+- Münster's CBGM is unavailable for John; the genealogy here is our own pre-genealogical coherence, validated against published family lists.

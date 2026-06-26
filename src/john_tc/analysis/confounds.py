@@ -1,7 +1,7 @@
 """RQ2 — does textual instability track CONFOUNDS rather than 'section'?
 
-The old project leapt from "this section varies more" to "this section was composed later."
-Before any such claim, control for the mundane drivers of variation:
+A section can look more variable for mundane reasons, so control for the ordinary drivers of
+variation before reading anything into it:
 
   coverage       - how many witnesses attest the verse (sampling)
   verse_length   - longer verses have more opportunities to vary

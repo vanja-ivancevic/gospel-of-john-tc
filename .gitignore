@@ -26,8 +26,8 @@ data/derived/
 # Vercel CLI local project link
 .vercel
 
-# Internal audit scaffolding — kept on disk, excluded from the published repo
+# Internal working notes, kept on disk and excluded from the repo
 AUDIT_2026/
 
-# Unused legacy raw witnesses (not consumed by the rebuilt pipeline)
+# Raw witnesses not consumed by the pipeline
 data/raw/early_witnesses/

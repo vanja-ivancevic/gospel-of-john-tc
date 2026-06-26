@@ -1,7 +1,6 @@
 """RQ4 — re-scoped stylometry (Burrows's Delta), hypothesis-generating only.
 
-The old project ran "stylometry" on a single edited text with stopwords REMOVED (i.e. on
-content/topic, not style) and relabelled clusters as "authors". This rebuild does it properly:
+Function-word Burrows's Delta measures style rather than topic, calibrated against known controls:
 
   - Function-word Burrows's Delta on lemmatised MorphGNT text (style, not topic).
   - CALIBRATED against known controls: split single-author books in half (same-author lower

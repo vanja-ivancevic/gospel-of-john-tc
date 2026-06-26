@@ -29,7 +29,7 @@ def test_method_separates_authors_at_scale(res):
 
 
 def test_old_prologue_ch21_claims_do_not_survive(res):
-    """Size-matched permutation test (the headline): the old project's Prologue/ch21 'distinct'
+    """Size-matched permutation test (the headline): the Prologue/ch21 'distinct'
     claims are NOT significant. (The Farewell Discourse may register-differ — a genre signal,
     reported honestly, not an authorship claim.)"""
     t = res["section_tests"]
