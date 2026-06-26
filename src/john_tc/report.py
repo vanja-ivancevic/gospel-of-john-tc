@@ -136,8 +136,8 @@ def build_report(path: Path | None = None) -> Path:
         "## Scope / honesty",
         "- This is a transmission-history study. Manuscript data records scribal copying, so the "
         "project makes no claim about composition date or authorship.",
-        "- Münster's CBGM is unavailable for John; the genealogy here is our own pre-genealogical "
-        "coherence, validated against published family lists.",
+        "- The genealogy here is our own pre-genealogical coherence, computed from the collation and "
+        "checked against the published family lists.",
     ]
     path.write_text("\n".join(L), encoding="utf-8")
     return path

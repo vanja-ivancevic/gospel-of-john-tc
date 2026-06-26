@@ -45,4 +45,4 @@ committed ECM apparatus via the pipeline; nothing is hand-entered.
 
 ## Scope / honesty
 - This is a transmission-history study. Manuscript data records scribal copying, so the project makes no claim about composition date or authorship.
-- Münster's CBGM is unavailable for John; the genealogy here is our own pre-genealogical coherence, validated against published family lists.
+- The genealogy here is our own pre-genealogical coherence, computed from the collation and checked against the published family lists.

@@ -584,8 +584,8 @@ async function about() {
     each validation check.</p>
     <p class="sub">The full pipeline, the methodology audit, and this site are open source at
     <a href="https://github.com/vanja-ivancevic/gospel-of-john-tc" target="_blank"
-    rel="noopener">github.com/vanja-ivancevic/gospel-of-john-tc</a>. Münster's CBGM is gated for John,
-    so the genealogy here is computed from the collation itself.</p>`;
+    rel="noopener">github.com/vanja-ivancevic/gospel-of-john-tc</a>. The genealogy here is computed
+    from the collation itself.</p>`;
 }
 
 // ---------------- Router + interactions ----------------
