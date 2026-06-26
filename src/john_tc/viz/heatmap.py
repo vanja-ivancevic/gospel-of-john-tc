@@ -39,7 +39,7 @@ _TEMPLATE = """<!DOCTYPE html>
   .meta {{ color:#666; font-size:12px; margin-top:10px; }}
 </style></head><body>
 <h1>Gospel of John — verse stability across the manuscript tradition</h1>
-<p class="sub">Each cell is one verse. Colour = <b>consensus stability</b> (share of witnesses on
+<p class="sub">Each cell is one verse. Colour = <b>family-vote stability</b> (share of manuscript families on
 the majority reading, averaged over the verse's variation units). Green = the whole tradition
 agrees; red = the text is fluid. Built from the IGNTP/INTF ECM apparatus ({nwit} witnesses).</p>
 <div class="legend"><span>fluid ≤ {smin:.2f}</span><div class="bar"></div><span>{smax:.2f} firm</span></div>
@@ -96,7 +96,8 @@ def build_heatmap(path: Path | None = None, db_path: Path | None = None) -> Path
     path = path or cfg.path("reports") / "stability_heatmap.html"
     path.parent.mkdir(parents=True, exist_ok=True)
     con = duckdb.connect(str(db_path or cfg.path("collation_db")), read_only=True)
-    rows = con.execute("""SELECT chapter, verse, verse_id, stability, anchor_frac, n_units
+    # family-vote stability ("weighed"): one family one vote, Byzantine mass counts once
+    rows = con.execute("""SELECT chapter, verse, verse_id, family_stability, anchor_frac, n_units
                           FROM metrics_verse_stability ORDER BY chapter, verse""").fetchall()
     nwit = con.execute("SELECT count(DISTINCT base_ga) FROM attestation").fetchone()[0]
     con.close()

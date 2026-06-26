@@ -162,19 +162,30 @@ def v_measure(true: list, pred: list) -> float:
 
 
 def best_cluster_match(witnesses, dist, labels) -> dict:
-    """Cut the tree at several k; report best ARI / V-measure vs official labels."""
+    """ARI / V-measure vs official labels at the DEPLOYED cut (k = genealogy.n_clusters) — this is
+    the headline and the gate. A k=4..k_max sweep is reported descriptively (best-of-sweep is a
+    multiple-comparisons artifact, so it must NOT be the gated number)."""
+    g = load_config()["genealogy"]
+    deployed_k, k_max = g["n_clusters"], g["validation_k_max"]
     Z = linkage(squareform(dist, checks=False), method="average")
     labeled = [w for w in witnesses if w in labels]
     true = [labels[w] for w in labeled]
     idx = {w: i for i, w in enumerate(witnesses)}
-    best = {"ari": -1.0, "v_measure": 0.0, "k": None}
-    for k in range(4, 31):
+
+    def at(k):
         assign = fcluster(Z, t=k, criterion="maxclust")
         pred = [int(assign[idx[w]]) for w in labeled]
-        ari = adjusted_rand_index(true, pred)
-        if ari > best["ari"]:
-            best = {"ari": round(ari, 3), "v_measure": round(v_measure(true, pred), 3), "k": k}
-    return best
+        return adjusted_rand_index(true, pred), v_measure(true, pred)
+
+    sweep_best = {"ari": -1.0, "k": None}
+    for k in range(4, k_max + 1):
+        ari, _ = at(k)
+        if ari > sweep_best["ari"]:
+            sweep_best = {"ari": round(ari, 3), "k": k}
+    ari_dep, v_dep = at(deployed_k)
+    # headline = the cut we actually deploy; sweep kept for context only
+    return {"ari": round(ari_dep, 3), "v_measure": round(v_dep, 3), "k": deployed_k,
+            "best_ari_sweep": sweep_best}
 
 
 def sensitivity(db_path=None) -> list[dict]:
@@ -218,13 +229,15 @@ def run(B: int = 100, db_path: Path | None = None) -> dict:
     match = best_cluster_match(wits, dist, labels)
     sens = sensitivity(db_path)
 
-    # Defensible criteria: every official family is a real cluster (silhouette>0); the tight
-    # families recover with high bootstrap support; clustering matches scholarship (ARI); robust
-    # across parameters. Byz/full-f1 are diffuse by nature and reported, not gated.
+    # Defensible, non-circular criteria: every official family (incl. the INDEPENDENT Byzantine
+    # ground truth) is a real cluster in our distance space (silhouette>0); the tight families
+    # recover with high bootstrap clade support; and recovery is robust across parameters. ARI is
+    # reported, NOT gated: the deployed cut (k=n_clusters) exists to find the Byzantine mass, not to
+    # carve f1/f13 (which are asserted from the published lists), so ARI-at-k is the wrong gate and
+    # best-of-sweep ARI would be a multiple-comparisons artifact.
     passed = (
         all(s > 0 for s in sil["by_family"].values())
         and support.get("f1_core", 0) >= 0.7 and support.get("f13", 0) >= 0.7
-        and match["ari"] >= 0.5
         and all(r["f1"] and r["f13"] for r in sens)
     )
     return {
@@ -242,6 +255,13 @@ def write_report(res: dict, path: Path | None = None) -> Path:
          f"Witnesses: {res['n_witnesses']} | informative units: {res['n_informative_units']} "
          f"| labelled (ground truth): {res['n_labeled']}", "",
          f"**VERDICT: {'PASSED' if res['passed'] else 'FAILED'}**", "",
+         "> **What this validates (and what it does not).** The f1/f13 ground-truth labels are the "
+         "published IGNTP lists that we also use to *assign* those families, so silhouette/ARI test "
+         "whether our distance metric *groups* the published families as real clusters — they do "
+         "**not** independently validate the assignment (that is asserted from the lists). The "
+         "Byzantine ground truth is independent (the IGNTP Byzantine bundle) and is gated via "
+         "silhouette. ARI is reported at the **deployed** cut (k = genealogy.n_clusters), not the "
+         "best-of-sweep, to avoid a multiple-comparisons artifact.", "",
          "## 1. Silhouette of official families (>0 = real cluster in our distances)"]
     for f, s in res["silhouette"]["by_family"].items():
         L.append(f"- {f}: {s:+.3f}")
@@ -252,8 +272,11 @@ def write_report(res: dict, path: Path | None = None) -> Path:
     L += ["", "## 3. Known-pair nearest neighbours"]
     for k, v in res["known_pairs"].items():
         L.append(f"- {k}: {v}")
-    L += ["", f"## 4. Cluster match vs official labels: ARI={res['cluster_match']['ari']}, "
-          f"V-measure={res['cluster_match']['v_measure']} (best cut k={res['cluster_match']['k']})",
+    cm = res["cluster_match"]
+    sweep = cm.get("best_ari_sweep", {})
+    L += ["", f"## 4. Cluster match vs official labels: ARI={cm['ari']}, "
+          f"V-measure={cm['v_measure']} at deployed k={cm['k']} "
+          f"(descriptive best-of-sweep: ARI={sweep.get('ari')} at k={sweep.get('k')})",
           "", "## 5. Parameter sensitivity (f1/f13 recovered?)",
           "| max_modal | min_overlap | n_units | f1 | f13 |", "|--|--|--|--|--|"]
     for r in res["sensitivity"]:

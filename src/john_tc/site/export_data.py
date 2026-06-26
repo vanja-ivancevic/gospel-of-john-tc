@@ -56,36 +56,75 @@ def _english() -> dict:
 
 
 def _verse_index(con) -> list[dict]:
+    # Confidence is genealogical, not a head-count: "witnesses are weighed, not counted".
+    #   coverage     = raw distinct manuscripts (shown, but redundant under the Byzantine mass)
+    #   n_families   = distinct families extant (genealogical breadth, 0-5)
+    #   eff_families = Simpson effective number of families, 1/Σ p_f² (independence-aware)
+    #   n_early      = witnesses dated <= 500 CE (the text-critically weighty early evidence)
     rows = con.execute("""
+        WITH att AS (
+            SELECT DISTINCT u.verse_id, a.base_ga
+            FROM units u JOIN readings r ON r.app_id=u.app_id
+            JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
+            WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac'
+                  AND a.base_ga <> 'basetext'),
+        fam AS (SELECT v.verse_id, coalesce(m.family,'other') AS family, count(*) AS n
+                FROM att v LEFT JOIN witness_metadata m ON m.base_ga=v.base_ga GROUP BY 1,2),
+        tot AS (SELECT verse_id, sum(n) AS total, count(*) AS n_families FROM fam GROUP BY 1),
+        simp AS (SELECT f.verse_id, sum((f.n::DOUBLE/t.total)*(f.n::DOUBLE/t.total)) AS sumsq
+                 FROM fam f JOIN tot t USING(verse_id) GROUP BY 1),
+        early AS (SELECT a.verse_id, count(*) AS n_early FROM att a
+                  JOIN witness_metadata m ON m.base_ga=a.base_ga
+                  WHERE m.date_mid IS NOT NULL AND m.date_mid<=500 GROUP BY 1),
+        conf AS (SELECT t.verse_id, t.n_families, 1.0/simp.sumsq AS eff_families,
+                        coalesce(e.n_early,0) AS n_early
+                 FROM tot t JOIN simp USING(verse_id) LEFT JOIN early e USING(verse_id))
         SELECT mv.verse_id, mv.chapter, mv.verse, mv.n_units,
                mv.instability, mv.extant_base_ms AS coverage,
-               vs.stability, vs.anchor_frac,
-               uf.family_instability, uf.between_family_split
+               vs.stability, vs.family_stability, vs.anchor_frac, vs.tied_units,
+               uf.family_instability, uf.between_family_split,
+               conf.n_families, conf.eff_families, conf.n_early
         FROM metrics_verse mv
         LEFT JOIN metrics_verse_stability vs USING (verse_id)
         LEFT JOIN (SELECT verse_id, avg(family_instability) AS family_instability,
                           avg(CAST(between_family_split AS DOUBLE)) AS between_family_split
                    FROM metrics_unit_family GROUP BY verse_id) uf USING (verse_id)
+        LEFT JOIN conf USING (verse_id)
         ORDER BY mv.chapter, mv.verse
     """).fetchall()
     cols = ["verse_id", "chapter", "verse", "n_units", "instability", "coverage",
-            "stability", "anchor_frac", "family_instability", "between_family_split"]
+            "stability", "family_stability", "anchor_frac", "tied_units",
+            "family_instability", "between_family_split",
+            "n_families", "eff_families", "n_early"]
     out = []
     for r in rows:
         d = dict(zip(cols, r))
         d["ref"] = f"John {d['chapter']}:{d['verse']}"
-        for k in ("instability", "stability", "anchor_frac", "family_instability",
-                  "between_family_split"):
+        for k in ("instability", "stability", "family_stability", "anchor_frac",
+                  "family_instability", "between_family_split"):
             d[k] = _round(d[k])
+        d["eff_families"] = _round(d["eff_families"], 2)
+        d["tied_units"] = int(d["tied_units"]) if d["tied_units"] is not None else 0
+        for k in ("n_families", "n_early"):
+            d[k] = int(d[k]) if d[k] is not None else 0
         out.append(d)
+    # Genealogical-confidence flag (config-driven): thin EARLY attestation or too few families.
+    dash = load_config()["dashboard"]
+    for d in out:
+        d["low_conf"] = bool(d["n_early"] <= dash["low_confidence_max_early"]
+                             or d["n_families"] < dash["low_confidence_min_families"])
     return out
 
 
 def _chapter_detail(con, chapter: int, english: dict) -> dict:
     # 'basetext' is the editorial NA28 base, not a manuscript -> exclude from all witness counts.
     real_wit = "a.base_ga <> 'basetext'"
+    # coalesce NULL family (witnesses with no metadata row, e.g. versions/lectionaries) into 'other'
+    # IN SQL, so they share one group with real 'other' — otherwise two groups collapse to the same
+    # python key and the count is overwritten in a row-order-dependent (nondeterministic) way.
     fam = con.execute(f"""
-        SELECT r.app_id, r.reading_id, m.family, count(DISTINCT a.base_ga) AS n
+        SELECT r.app_id, r.reading_id, coalesce(m.family,'other') AS family,
+               count(DISTINCT a.base_ga) AS n
         FROM units u JOIN readings r ON r.app_id=u.app_id
         JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
         LEFT JOIN witness_metadata m ON m.base_ga=a.base_ga
@@ -95,7 +134,8 @@ def _chapter_detail(con, chapter: int, english: dict) -> dict:
     """, [chapter]).fetchall()
     fam_map: dict[tuple, dict] = {}
     for app_id, rid, family, n in fam:
-        fam_map.setdefault((app_id, rid), {})[family or "other"] = int(n)
+        d = fam_map.setdefault((app_id, rid), {})
+        d[family] = d.get(family, 0) + int(n)  # accumulate (never overwrite)
     wit = con.execute(f"""
         SELECT r.app_id, r.reading_id, list(DISTINCT a.base_ga) AS wits
         FROM units u JOIN readings r ON r.app_id=u.app_id
@@ -210,22 +250,36 @@ def _summary(con, verses: list[dict], fams: dict) -> dict:
     chap = [dict(chapter=r[0], n_verses=r[1], n_units=r[2], instability=_round(r[3]),
                  coverage=_round(r[4], 1), family_instability=_round(r[5]),
                  between_family_split=_round(r[6])) for r in chapters]
-    # gospel stability per chapter (from verse index)
+    # gospel stability per chapter (from verse index): both metrics
     import statistics as st
-    by_chap = {}
-    for v in verses:
-        by_chap.setdefault(v["chapter"], []).append(v["stability"])
+    def chap_mean(key):
+        by = {}
+        for v in verses:
+            by.setdefault(v["chapter"], []).append(v.get(key))
+        return {c: ([x for x in vs if x is not None]) for c, vs in by.items()}
+    flat_by, fam_by = chap_mean("stability"), chap_mean("family_stability")
     for c in chap:
-        vals = [x for x in by_chap.get(c["chapter"], []) if x is not None]
-        c["stability"] = _round(st.mean(vals)) if vals else None
+        fv = flat_by.get(c["chapter"], [])
+        fa = fam_by.get(c["chapter"], [])
+        c["stability"] = _round(st.mean(fv)) if fv else None
+        c["family_stability"] = _round(st.mean(fa)) if fa else None
     meta = con.execute("""SELECT
         (SELECT count(*) FROM units WHERE app_type='main'),
         (SELECT count(*) FROM attestation),
         (SELECT count(DISTINCT base_ga) FROM attestation),
         (SELECT count(DISTINCT verse_id) FROM units)""").fetchone()
+    # gospel-wide "weighed, not counted" headline: ~141 witnesses but ~N effective family-voices
+    eff = [v["eff_families"] for v in verses if v.get("eff_families") is not None]
+    dash = load_config()["dashboard"]
     return dict(
         meta=dict(n_units=meta[0], n_attestations=meta[1], n_witnesses=meta[2],
-                  n_verses=meta[3], source="IGNTP/INTF ECM Greek apparatus of John (vs NA28)"),
+                  n_verses=meta[3], source="IGNTP/INTF ECM Greek apparatus of John (vs NA28)",
+                  median_witnesses_per_verse=int(st.median(
+                      [v["coverage"] for v in verses if v.get("coverage")])),
+                  eff_families_median=_round(st.median(eff), 2) if eff else None,
+                  confidence_rule=(f"flagged when a verse has ≤{dash['low_confidence_max_early']} early "
+                                   f"(≤{dash['early_witness_max_date']} CE) witnesses, or fewer than "
+                                   f"{dash['low_confidence_min_families']} families survive")),
         chapters=chap, families=fams["families"],
     )
 

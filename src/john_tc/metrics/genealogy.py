@@ -35,9 +35,11 @@ KNOWN_FAMILIES = {
 }
 
 
-def reading_matrix(db_path: Path | None = None, min_units: int = 200):
+def reading_matrix(db_path: Path | None = None, min_units: int | None = None):
     """(witnesses, units x witnesses int matrix). One firsthand reading per (unit, witness)."""
     cfg = load_config()
+    if min_units is None:
+        min_units = cfg["genealogy"]["min_units"]
     con = duckdb.connect(str(db_path or cfg.path("collation_db")), read_only=True)
     df = con.execute(
         """
@@ -50,6 +52,7 @@ def reading_matrix(db_path: Path | None = None, min_units: int = 200):
           JOIN units u ON u.app_id=r.app_id
           WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac')
         SELECT app_id, base_ga, reading_id FROM a WHERE rn=1
+        ORDER BY app_id, base_ga
         """
     ).df()
     con.close()
@@ -57,23 +60,32 @@ def reading_matrix(db_path: Path | None = None, min_units: int = 200):
     counts = df.groupby("base_ga").size()
     keep = counts[counts >= min_units].index
     df = df[df.base_ga.isin(keep)].copy()
-    # GLOBAL factorize: the same reading_id maps to the same code everywhere, so within a
-    # unit (row) two witnesses sharing a reading compare equal. Rows are never compared to
-    # each other, so unit-local reading letters need no per-unit remapping.
-    df["code"] = pd.factorize(df["reading_id"])[0]
+    # Determinism: DuckDB's parallel scan has no stable row order, and factorize-by-appearance +
+    # pivot "first" + linkage tie-breaks all depend on it (the source of the +/-1 family flips).
+    # GLOBAL factorize with sort=True assigns codes by sorted reading_id value (order-independent);
+    # the same reading_id maps to the same code everywhere, so within a unit (row) two witnesses
+    # sharing a reading compare equal. Then fix a canonical row/column order before clustering.
+    df["code"] = pd.factorize(df["reading_id"], sort=True)[0]
     mat = df.pivot_table(index="app_id", columns="base_ga", values="code", aggfunc="first")
+    mat = mat.sort_index().reindex(sorted(mat.columns), axis=1)
     arr = mat.to_numpy(dtype=float)
     codes = np.where(np.isnan(arr), -1, arr).astype(np.int32)  # missing -> -1
     return list(mat.columns), codes
 
 
-def informative_mask(codes: np.ndarray, min_extant: int = 30, max_modal: float = 0.90):
+def informative_mask(codes: np.ndarray, min_extant: int | None = None,
+                     max_modal: float | None = None):
     """Keep only genuinely contested units: well-attested AND not near-unanimous.
 
     Units where ~everyone reads the base text carry no family signal and, en masse, drown
     the discriminating units. Restricting to contested units is the pre-genealogical
     analogue of collating only at points of variation.
     """
+    g = load_config()["genealogy"]
+    if min_extant is None:
+        min_extant = g["min_extant"]
+    if max_modal is None:
+        max_modal = g["max_modal"]
     keep = np.zeros(codes.shape[0], dtype=bool)
     for i in range(codes.shape[0]):
         row = codes[i]
@@ -86,8 +98,10 @@ def informative_mask(codes: np.ndarray, min_extant: int = 30, max_modal: float =
     return keep
 
 
-def coherence_distance(witnesses: list[str], codes: np.ndarray, min_overlap: int = 100):
+def coherence_distance(witnesses: list[str], codes: np.ndarray, min_overlap: int | None = None):
     """Pairwise distance = 1 - (agreement over co-extant units). Returns (W x W) array."""
+    if min_overlap is None:
+        min_overlap = load_config()["genealogy"]["min_overlap"]
     W = len(witnesses)
     dist = np.ones((W, W), dtype=float)
     np.fill_diagonal(dist, 0.0)
@@ -106,8 +120,10 @@ def coherence_distance(witnesses: list[str], codes: np.ndarray, min_overlap: int
     return dist
 
 
-def cluster_families(witnesses, dist, n_clusters: int = 12):
+def cluster_families(witnesses, dist, n_clusters: int | None = None):
     """Average-linkage hierarchical clustering of the coherence distance."""
+    if n_clusters is None:
+        n_clusters = load_config()["genealogy"]["n_clusters"]
     condensed = squareform(dist, checks=False)
     Z = linkage(condensed, method="average")
     labels = fcluster(Z, t=n_clusters, criterion="maxclust")
@@ -124,6 +140,8 @@ def family_monophyly(witnesses: list[str], Z: np.ndarray) -> dict:
     """
     from scipy.cluster.hierarchy import to_tree
 
+    g = load_config()["genealogy"]
+    purity_thr, compact_frac = g["monophyly_purity"], g["clade_compactness"]
     _, nodes = to_tree(Z, rd=True)
     idx = {w: i for i, w in enumerate(witnesses)}
     out = {}
@@ -147,12 +165,12 @@ def family_monophyly(witnesses: list[str], Z: np.ndarray) -> dict:
         # "Recovered" = either (near-)monophyletic OR a compact clade: the family's common
         # ancestor spans a small, distinct slice of the tree (core + textual associates),
         # not the whole Byzantine trunk. Compactness threshold = 12% of all witnesses.
-        compact = len(best) <= 0.12 * len(witnesses)
+        compact = len(best) <= compact_frac * len(witnesses)
         out[fam] = {
             "present": present, "clade_size": len(best), "purity": round(purity, 3),
             "intruders": intruders[:12],
-            "monophyletic": bool(purity >= 0.7), "compact": bool(compact),
-            "recovered": bool(purity >= 0.7 or compact),
+            "monophyletic": bool(purity >= purity_thr), "compact": bool(compact),
+            "recovered": bool(purity >= purity_thr or compact),
         }
     # Separation: the families' minimal clades must be disjoint.
     fams = list(clades)
@@ -166,7 +184,7 @@ def family_monophyly(witnesses: list[str], Z: np.ndarray) -> dict:
     return out
 
 
-def build(db_path: Path | None = None, n_clusters: int = 12) -> dict:
+def build(db_path: Path | None = None, n_clusters: int | None = None) -> dict:
     cfg = load_config()
     db_path = db_path or cfg.path("collation_db")
     wits, codes = reading_matrix(db_path)

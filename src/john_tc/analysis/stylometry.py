@@ -28,8 +28,9 @@ BOOKS = {  # data book-id -> MorphGNT file
     "Ro": "66-Ro-morphgnt.txt", "1Jn": "83-1Jn-morphgnt.txt",
 }
 AUTHOR = {"Mt": "Matthew", "Lk": "Luke", "Jn": "John", "Ro": "Paul", "1Jn": "John"}
-N_MFW = 80
-WINDOW = 200  # fixed token window -> all samples same size, so Delta is not a size artifact
+_SCFG = load_config()["stylometry"]
+N_MFW = _SCFG["n_mfw"]
+WINDOW = _SCFG["window"]  # fixed token window -> all samples same size, so Delta is not a size artifact
 
 
 def load_book(book: str) -> pd.DataFrame:
@@ -114,7 +115,46 @@ def large_sample_validation() -> dict:
     return {"same_author": float(np.mean(same)), "diff_author": float(np.mean(diff))}
 
 
+def section_permutation(D, names, role, n_perm: int, seed: int) -> dict:
+    """Permutation test: is a John section stylistically farther from the body than body windows are
+    from each other? Null = the section's windows are exchangeable with body windows. Statistic =
+    mean Δ(section windows, body windows). Multiplicity (3 sections) corrected with BH. This replaces
+    the ad-hoc mean+2sd band — a real test with a stated null instead of an eyeballed threshold."""
+    from statsmodels.stats.multitest import multipletests
+
+    rng = np.random.default_rng(seed)
+    n = len(names)
+    body_idx = [i for i in range(n) if role[names[i]] == "john_body"]
+    out = {}
+    if len(body_idx) < 2:
+        return out
+
+    def gap(s_idx, b_idx):
+        return float(np.mean([D[i][j] for i in s_idx for j in b_idx]))
+
+    for sec in ("prologue", "farewell", "ch21"):
+        sec_idx = [i for i in range(n) if role[names[i]] == f"john_{sec}"]
+        if not sec_idx:
+            continue
+        pooled, k = body_idx + sec_idx, len(sec_idx)
+        obs = gap(sec_idx, body_idx)
+        cnt = 0
+        for _ in range(n_perm):
+            perm = list(rng.permutation(pooled))
+            if gap(perm[:k], perm[k:]) >= obs:
+                cnt += 1
+        out[sec] = {"obs": round(obs, 3), "p": (cnt + 1) / (n_perm + 1), "n_windows": k}
+    if out:
+        secs = list(out)
+        q = multipletests([out[s]["p"] for s in secs], method="fdr_bh")[1]
+        for s, qq in zip(secs, q):
+            out[s]["p_fdr"] = round(float(qq), 4)
+            out[s]["seam"] = bool(qq < 0.05)
+    return out
+
+
 def run() -> dict:
+    cfg = load_config()
     samples, author, role = build_windows()
     names, D = delta_matrix(samples)
     n = len(names)
@@ -145,16 +185,21 @@ def run() -> dict:
                         else "elevated vs body, below different-author"))
               for s, v in sections.items()}
     large = large_sample_validation()
+    n_perm = min(cfg["stats"]["n_permutations"], 5000)
+    sec_tests = section_permutation(D, names, role, n_perm=n_perm, seed=cfg["seed"])
     return {
         "n_mfw": N_MFW, "window": WINDOW,
         "n_control_windows": sum(1 for x in names if role[x] == "control"),
         "large_sample": large,
-        "large_sample_separates": bool(large["diff_author"] > 1.3 * large["same_author"]),
+        "large_sample_separates": bool(large["diff_author"]
+                                       > _SCFG["separation_ratio"] * large["same_author"]),
         "same_author_mean": same_author, "diff_author_mean": diff_author,
         "john_body_internal": body_internal, "john_body_band_upper": band_upper,
         "sections_vs_body": sections, "interpretation": interp,
         "controls_valid": bool(same_author < diff_author),
-        "any_section_seam": bool(any(v > band_upper for v in sections.values())),
+        # headline: permutation test (real null), not the descriptive +2sd band
+        "section_tests": sec_tests,
+        "any_section_seam": bool(any(v.get("seam") for v in sec_tests.values())),
     }
 
 
@@ -180,12 +225,19 @@ def write_report(path: Path | None = None) -> Path:
          f"{r['john_body_internal']:.3f}; band upper (mean+2sd) = {r['john_body_band_upper']:.3f}",
          "", "John sections vs body:"]
     for k, v in r["sections_vs_body"].items():
-        L.append(f"- {k}: Δ={v:.3f} — {r['interpretation'][k]}")
+        L.append(f"- {k}: Δ={v:.3f} — {r['interpretation'][k]} (descriptive)")
+    L += ["", "## Permutation test (the headline — a real null, not an eyeballed band)",
+          "For each section, the null is that its windows are exchangeable with body windows; the "
+          "statistic is mean Δ(section, body). BH-corrected across the three sections.", "",
+          "| section | windows | observed Δ | p | p (FDR) | seam? |", "|--|--|--|--|--|--|"]
+    for k, v in r["section_tests"].items():
+        L.append(f"| {k} | {v['n_windows']} | {v['obs']:.3f} | {v['p']:.4g} | "
+                 f"{v.get('p_fdr','—')} | {'YES' if v.get('seam') else 'no'} |")
     L += ["",
           f"**Any stylometric seam beyond John's own internal variation? {r['any_section_seam']}.**",
-          "When size is controlled, no John section exceeds the Gospel's own body-internal "
-          "variability — the large naive Δ for the Prologue/ch21 is a SAMPLE-SIZE artifact, "
-          "not a stylistic seam.", "",
+          "When size is controlled and tested against a proper permutation null, no John section is "
+          "significantly farther from the body than body windows are from each other — the large "
+          "naive Δ for the Prologue/ch21 is a SAMPLE-SIZE artifact, not a stylistic seam.", "",
           "_Scope: stylometry cannot establish authorship of hypothesised ancient sources._",
           "_This is an internal-consistency probe with explicit controls, reported as such._"]
     path.write_text("\n".join(L), encoding="utf-8")

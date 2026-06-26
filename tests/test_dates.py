@@ -43,3 +43,21 @@ def test_john_5_4_omitters_are_earlier(signal):
     assert signal["omitters_earlier"], "5:4 omitters should predate includers"
     assert signal["p_value"] < 0.01, f"5:4 date signal not significant (p={signal['p_value']})"
     assert signal["median_omitter_date"] < signal["median_includer_date"] - 200
+    # robust to censoring (latest-possible date) and to the tie-heavy median (Mann–Whitney)
+    assert signal["p_value_latest_date"] < 0.05
+    assert signal["mannwhitney_p"] < 0.05
+
+
+def test_docid_mapping_dates_most_witnesses():
+    """ga_to_docid must resolve the Liste for the large majority of witnesses (guards against a
+    silently-wrong sigla->docID scheme that would drop or mis-date manuscripts)."""
+    import duckdb
+    if not load_config().path("collation_db").exists():
+        pytest.skip("collation store not built")
+    con = duckdb.connect(str(load_config().path("collation_db")), read_only=True)
+    rows = con.execute(
+        "SELECT count(*), count(date_mid) FROM witness_metadata WHERE base_ga <> 'basetext'"
+    ).fetchone()
+    con.close()
+    total, dated = rows
+    assert dated / total >= 0.85, f"only {dated}/{total} witnesses dated — check ga_to_docid"

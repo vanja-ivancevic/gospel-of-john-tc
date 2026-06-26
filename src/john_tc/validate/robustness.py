@@ -39,8 +39,9 @@ def _chapter_family_instability(long: pd.DataFrame) -> pd.Series:
     return unit.groupby("chapter")["fi"].mean()
 
 
-def bootstrap_chapter_ci(B: int = 500, db_path: Path | None = None) -> pd.DataFrame:
+def bootstrap_chapter_ci(B: int | None = None, db_path: Path | None = None) -> pd.DataFrame:
     """Resample units; 95% CI of chapter family-instability + between-family split."""
+    B = B or load_config()["stats"]["n_bootstrap"]
     con = duckdb.connect(str(db_path or load_config().path("collation_db")), read_only=True)
     u = con.execute("""SELECT chapter, family_instability,
                               CAST(between_family_split AS DOUBLE) AS bfs
@@ -87,22 +88,29 @@ def leave_one_family_out(db_path: Path | None = None) -> dict:
     return out
 
 
-def bootstrap_confounds(B: int = 500, dv: str = "between_family_split",
+def bootstrap_confounds(B: int | None = None, dv: str = "between_family_split",
                         db_path: Path | None = None) -> dict:
-    """Resample verses, refit RQ2, CI on the Prologue and Synoptic coefficients."""
+    """Refit RQ2 on resamples, CI on the Prologue and Synoptic coefficients. Uses a CLUSTER
+    bootstrap by chapter (resample whole chapters with replacement) rather than i.i.d. verses, so
+    the within-chapter spatial autocorrelation of coverage is preserved (i.i.d. verse resampling
+    would give over-narrow CIs)."""
     import statsmodels.formula.api as smf
 
     from john_tc.analysis.confounds import build_verse_table
 
+    B = B or load_config()["stats"]["n_bootstrap"]
     df = build_verse_table(db_path).copy()
-    for c in ["coverage", "verse_length", "n_lectionaries"]:
+    for c in ["coverage", "verse_length", "n_lectionaries", "n_families"]:
         df[c + "_z"] = (df[c] - df[c].mean()) / df[c].std(ddof=0)
-    formula = (f"{dv} ~ coverage_z + verse_length_z + n_lectionaries_z + synoptic "
+    formula = (f"{dv} ~ coverage_z + verse_length_z + n_lectionaries_z + n_families_z + synoptic "
                "+ C(section, Treatment('body'))")
+    by_chapter = {c: g for c, g in df.groupby("chapter")}
+    chapters = list(by_chapter)
     rng = _rng()
     pro, syn = [], []
     for _ in range(B):
-        s = df.iloc[rng.integers(0, len(df), len(df))]
+        pick = rng.choice(chapters, size=len(chapters), replace=True)
+        s = pd.concat([by_chapter[c] for c in pick], ignore_index=True)
         try:
             fit = smf.ols(formula, data=s).fit()
         except Exception:
@@ -122,7 +130,8 @@ def bootstrap_confounds(B: int = 500, dv: str = "between_family_split",
     }
 
 
-def run(B: int = 500, db_path: Path | None = None) -> dict:
+def run(B: int | None = None, db_path: Path | None = None) -> dict:
+    B = B or load_config()["stats"]["n_bootstrap"]
     ci = bootstrap_chapter_ci(B, db_path)
     loo = leave_one_family_out(db_path)
     conf = bootstrap_confounds(B, "between_family_split", db_path)
@@ -138,8 +147,9 @@ def run(B: int = 500, db_path: Path | None = None) -> dict:
     }
 
 
-def write_report(path: Path | None = None, B: int = 500, db_path: Path | None = None) -> Path:
+def write_report(path: Path | None = None, B: int | None = None, db_path: Path | None = None) -> Path:
     cfg = load_config()
+    B = B or cfg["stats"]["n_bootstrap"]
     path = path or cfg.path("reports") / "analysis" / "ROBUSTNESS.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     r = run(B, db_path)

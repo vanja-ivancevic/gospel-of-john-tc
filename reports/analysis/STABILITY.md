@@ -1,29 +1,32 @@
 # Textual-stability map of John
 
-- Mean consensus (majority-reading support / extant witnesses): **0.933**
-- Anchor units (consensus ≥ 0.99, near-unanimous): **6338 / 10947** (58%)
-- Most stable chapters: [16, 20, 21, 15, 14]
-- Least stable chapters: [10, 8, 6, 19, 13]
+Two complementary stability metrics (textual criticism's *weighed vs counted* distinction):
 
-## Most stable verses (whole tradition agrees)
-- B04K15V23: 1.000
-- B04K12V27: 0.999
-- B04K1V2: 0.999
-- B04K14V18: 0.998
-- B04K8V32: 0.998
-- B04K16V8: 0.998
-- B04K16V5: 0.997
-- B04K4V26: 0.997
+- **Family-vote stability** ("weighed" — each family one plurality vote, Byzantine mass counts once): mean **0.962**. This drives the dashboard headline.
+- **Flat consensus** ("counted" — majority-reading support / extant witnesses, every witness equal): mean **0.959**. Shown alongside as the raw view.
+- Anchor units (flat consensus ≥ 0.99, near-unanimous): **6752 / 10605** (64%); all-families-agree units: **9304**.
+- Most stable chapters (family-vote): [15, 17, 3, 5, 1]
+- Least stable chapters (family-vote): [19, 10, 6, 18, 13]
+
+## Most stable verses (families agree)
+- B04K1V1: 1.000
+- B04K4V40: 1.000
+- B04K4V29: 1.000
+- B04K19V21: 1.000
+- B04K7V45: 1.000
+- B04K4V32: 1.000
+- B04K15V13: 1.000
+- B04K7V38: 1.000
 
 ## Most fluid verses (tradition most divided)
-- B04K7V40: 0.803
-- B04K19V17: 0.794
-- B04K2V11: 0.787
-- B04K8V38: 0.784
-- B04K8V4: 0.774
-- B04K7V50: 0.767
-- B04K7V31: 0.736
-- B04K10V42: 0.333
+- B04K18V34: 0.829
+- B04K6V2: 0.825
+- B04K9V26: 0.821
+- B04K6V66: 0.812
+- B04K7V31: 0.812
+- B04K6V23: 0.787
+- B04K11V17: 0.750
+- B04K10V42: 0.500
 
 ## Family internal homogeneity (1 − mean within-family distance)
 - f1: 0.745

@@ -31,10 +31,14 @@ ALEXANDRIAN_CORE = ["P66", "P75", "01", "03", "019", "04", "032"]
 
 def assign_families(db_path: Path | None = None) -> pd.DataFrame:
     """One row per witness: base_ga, family, family_source."""
+    geneal = load_config()["genealogy"]
     wits, codes = reading_matrix(db_path)
     dist = coherence_distance(wits, codes[informative_mask(codes)])
-    assign, _ = cluster_families(wits, dist, n_clusters=12)
-    byz_cluster = assign.cluster.value_counts().idxmax()  # the dominant mass = Byzantine-and-allies
+    assign, _ = cluster_families(wits, dist, n_clusters=geneal["n_clusters"])
+    # Dominant mass = Byzantine-and-allies. Total-ordered tie-break (largest, then smallest cluster
+    # id) so the label is deterministic when cluster sizes tie -> no more +/-1 family flips.
+    sizes = assign.cluster.value_counts().to_dict()
+    byz_cluster = sorted(sizes.items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
     in_byz = set(assign.loc[assign.cluster == byz_cluster, "base_ga"])
 
     rows = []

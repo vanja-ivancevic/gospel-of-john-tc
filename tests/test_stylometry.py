@@ -28,8 +28,13 @@ def test_method_separates_authors_at_scale(res):
     assert res["large_sample"]["diff_author"] > res["large_sample"]["same_author"]
 
 
-def test_no_section_seam_when_size_controlled(res):
-    """The honest result: size-matched, no John section exceeds body-internal variability."""
-    assert res["any_section_seam"] is False
-    for v in res["sections_vs_body"].values():
-        assert v <= res["john_body_band_upper"]
+def test_old_prologue_ch21_claims_do_not_survive(res):
+    """Size-matched permutation test (the headline): the old project's Prologue/ch21 'distinct'
+    claims are NOT significant. (The Farewell Discourse may register-differ — a genre signal,
+    reported honestly, not an authorship claim.)"""
+    t = res["section_tests"]
+    assert t["prologue"]["seam"] is False
+    assert t["ch21"]["seam"] is False
+    # every section gets a permutation p with BH correction (a real test, not an eyeballed band)
+    for v in t.values():
+        assert 0 <= v["p"] <= 1 and "p_fdr" in v

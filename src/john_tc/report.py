@@ -93,10 +93,12 @@ def build_report(path: Path | None = None) -> Path:
         f"p={cb['section_p']:.3g}) — entirely Prologue-driven; ch21/Farewell not distinctive.",
         "",
         "## Textual-stability map (complement of instability)",
-        f"- Mean consensus (majority reading / extant) = {stab['mean_consensus']}; "
-        f"{stab['anchor_units']:,}/{stab['n_units']:,} units ({stab['anchor_frac']:.0%}) are "
-        "near-unanimous anchors.",
-        f"- Most stable chapters: {stab['most_stable_chapters']}; least stable: "
+        f"- Family-vote stability (headline, 'weighed' — one family one vote) mean = "
+        f"{stab['mean_family_consensus']}; raw consensus ('counted', every witness equal) = "
+        f"{stab['mean_consensus']}; {stab['anchor_units']:,}/{stab['n_units']:,} units "
+        f"({stab['anchor_frac']:.0%}) are near-unanimous by raw count, "
+        f"{stab['family_anchor_units']:,} have all families agreeing.",
+        f"- Most stable chapters (family-vote): {stab['most_stable_chapters']}; least stable: "
         f"{stab['least_stable_chapters']}.",
         f"- Family internal homogeneity: {stab['family_homogeneity']}.",
         "",
@@ -110,12 +112,16 @@ def build_report(path: Path | None = None) -> Path:
         f"- Ch21 stays low under every family drop ({robust['leave_one_family_out']['ch21_stays_low']}); "
         "its bootstrap CI overlaps the median, so it is 'not elevated', not 'uniquely most stable'.",
         "",
-        "## RQ4 — stylometry (function-word Burrows's Delta; hypothesis-generating only)",
+        "## RQ4 — stylometry (function-word Burrows's Delta; register/genre only, not authorship)",
         f"- Method validated: large-sample same-author Δ={sty['large_sample']['same_author']:.2f} "
         f"vs different-author Δ={sty['large_sample']['diff_author']:.2f} (separates authors).",
-        f"- Size-matched test: **no John section exceeds the Gospel's own body-internal "
-        f"variability** (any seam? {sty['any_section_seam']}). The naive 'Prologue distinct' is a "
-        "sample-size artifact, not a stylistic seam. Authorship stays out of scope.",
+        "- Size-matched **permutation test** (BH-corrected over 3 sections): "
+        + "; ".join(f"{k} p_fdr={v.get('p_fdr','—')}"
+                    + ("**(seam)**" if v.get("seam") else "")
+                    for k, v in sty["section_tests"].items()) + ".",
+        "- The old project's **Prologue/ch21 'distinct' claims do NOT survive** size control (not "
+        "significant). The Farewell Discourse is register-distinct — consistent with its genre "
+        "(extended monologue vs narrative), **not** an authorship or source claim.",
         "",
         "## What was refuted from the pre-rebuild project",
         "- \"Variant density = compositional age\": the old metric counted intra-manuscript "

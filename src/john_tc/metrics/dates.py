@@ -45,7 +45,24 @@ def _roman_to_int(s: str) -> int | None:
         v = _ROMAN[c]
         total += -v if v < prev else v
         prev = max(prev, v)
+    # fail closed: reject non-canonical numerals (e.g. "IIII", "VV") rather than returning a
+    # plausible-but-wrong century — a malformed Liste entry should be dropped, not mis-dated.
+    if _int_to_roman(total) != s:
+        return None
     return total
+
+
+def _int_to_roman(n: int) -> str:
+    if n <= 0:
+        return ""
+    vals = [(1000, "M"), (900, "CM"), (500, "D"), (400, "CD"), (100, "C"), (90, "XC"),
+            (50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
+    out = []
+    for v, sym in vals:
+        while n >= v:
+            out.append(sym)
+            n -= v
+    return "".join(out)
 
 
 def parse_orig(orig: str) -> tuple[int | None, int | None]:
@@ -114,38 +131,64 @@ def enrich_metadata(db_path: Path | None = None) -> dict:
 def five_four_date_signal(db_path: Path | None = None) -> dict:
     """Test the known truth: witnesses OMITTING John 5:4 are earlier than those including it.
 
-    Includers = base MS extant at the 5:4 units. Omitters = MS extant at neighbouring verses
-    (5:3, 5:5) but absent/lacunose at 5:4. Compare dates via a one-sided permutation test.
+    Includers = witnesses attesting substantive 5:4 text. Omitters = witnesses present in the
+    neighbourhood (5:3/5:5) or carrying an explicit `om` at 5:4, but NOT attesting substantive 5:4
+    text — with witnesses explicitly lacunose at 5:4 removed, so a damaged page is not mistaken for
+    a deliberate omission (the lacuna-contamination the set-subtraction approach risked). Reported on
+    the date midpoint and, as a censoring sensitivity check, on the latest-possible date;
+    significance by one-sided permutation and a tie-robust Mann–Whitney.
     """
     cfg = load_config()
     con = duckdb.connect(str(db_path or cfg.path("collation_db")), read_only=True)
-    extant = lambda v: set(r[0] for r in con.execute(  # noqa: E731
-        """SELECT DISTINCT a.base_ga FROM units u JOIN readings r ON r.app_id=u.app_id
-           JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
-           WHERE u.verse_id=? AND u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac'""",
-        [v]).fetchall())
-    at_54 = extant("B04K5V4")
-    neighbourhood = extant("B04K5V3") | extant("B04K5V5")
-    includers = at_54
-    omitters = neighbourhood - at_54
-    dates = dict(con.execute(
-        "SELECT base_ga, date_mid FROM witness_metadata WHERE date_mid IS NOT NULL").fetchall())
+
+    def _wits(verse_id, where):
+        return set(r[0] for r in con.execute(
+            f"""SELECT DISTINCT a.base_ga FROM units u JOIN readings r ON r.app_id=u.app_id
+                JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
+                WHERE u.verse_id='{verse_id}' AND u.app_type='main' AND a.base_ga<>'basetext'
+                      AND {where}""").fetchall())
+    substantive = _wits("B04K5V4", "r.reading_type IS NULL")        # genuine 5:4 text
+    om_wits = _wits("B04K5V4", "r.reading_type='om'")               # explicit omission
+    lac_54 = _wits("B04K5V4", "r.reading_type='lac'")               # damaged here -> exclude
+    neighbourhood = (_wits("B04K5V3", "r.reading_type IS DISTINCT FROM 'lac'")
+                     | _wits("B04K5V5", "r.reading_type IS DISTINCT FROM 'lac'"))
+    includers = substantive
+    omitters = (neighbourhood | om_wits) - substantive - lac_54
+    meta = {g: (dm, dl) for g, dm, dl in con.execute(
+        "SELECT base_ga, date_mid, date_late FROM witness_metadata "
+        "WHERE date_mid IS NOT NULL").fetchall()}
     con.close()
-    inc = np.array([dates[g] for g in includers if g in dates], dtype=float)
-    omt = np.array([dates[g] for g in omitters if g in dates], dtype=float)
-    if len(omt) < 3 or len(inc) < 3:
-        return {"skipped": "too few dated witnesses", "n_omit": len(omt), "n_incl": len(inc)}
-    obs = np.median(omt) - np.median(inc)  # negative => omitters earlier (expected)
-    pool = np.concatenate([inc, omt])
+
     rng = np.random.default_rng(cfg["seed"])
-    k = len(omt)
-    count = sum(1 for _ in range(10000)
-                if (lambda s: np.median(s[:k]) - np.median(s[k:]))(rng.permutation(pool)) <= obs)
+
+    def _signal(field_idx):  # 0 = midpoint, 1 = latest-possible (censoring sensitivity)
+        inc = np.array([meta[g][field_idx] for g in includers if g in meta], dtype=float)
+        omt = np.array([meta[g][field_idx] for g in omitters if g in meta], dtype=float)
+        if len(omt) < 3 or len(inc) < 3:
+            return None, inc, omt
+        obs = np.median(omt) - np.median(inc)
+        pool = np.concatenate([inc, omt])
+        k = len(omt)
+        count = sum(1 for _ in range(10000)
+                    if (lambda s: np.median(s[:k]) - np.median(s[k:]))(rng.permutation(pool)) <= obs)
+        return (obs, (count + 1) / 10001), inc, omt
+
+    res_mid, inc, omt = _signal(0)
+    if res_mid is None:
+        return {"skipped": "too few dated witnesses", "n_omit": len(omt), "n_incl": len(inc)}
+    obs, p = res_mid
+    res_late, _, _ = _signal(1)
+    try:
+        from scipy.stats import mannwhitneyu
+        mw_p = float(mannwhitneyu(omt, inc, alternative="less").pvalue)
+    except Exception:  # pragma: no cover
+        mw_p = None
     return {
         "n_omit": len(omt), "n_incl": len(inc),
         "median_omitter_date": float(np.median(omt)), "median_includer_date": float(np.median(inc)),
         "difference_years": float(obs), "omitters_earlier": bool(obs < 0),
-        "p_value": (count + 1) / 10001,
+        "p_value": p, "mannwhitney_p": mw_p,
+        "p_value_latest_date": (res_late[1] if res_late else None),
     }
 
 

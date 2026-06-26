@@ -23,36 +23,43 @@ import pandas as pd
 
 from john_tc.config import load_config
 
-# A base_ga is "extant" at a unit if it appears in any non-lacuna reading.
-# It "diverges" if it supports a substantive (non-lemma, non-orthographic) reading.
+# One reading per (unit, witness): firsthand hand wins, so a codex's own corrector cannot make
+# it count as both agreeing and diverging (the intra-MS artifact the rebuild exists to remove).
+# 'basetext' (the editorial NA28 base) is not a manuscript -> excluded. Orthographic 'subreading'
+# is folded into agreement, matching the stability metric (one shared substantive-disagreement rule).
 _UNIT_SQL = """
 WITH att AS (
-    SELECT r.app_id, r.reading_id, r.is_lemma, r.reading_type, a.base_ga
+    SELECT r.app_id, r.reading_id, r.is_lemma, r.reading_type, a.base_ga, a.hand
     FROM readings r
     JOIN attestation a ON a.app_id = r.app_id AND a.reading_id = r.reading_id
     JOIN units u ON u.app_id = r.app_id
-    WHERE u.app_type = 'main'
+    WHERE u.app_type = 'main' AND r.reading_type IS DISTINCT FROM 'lac'
+          AND a.base_ga <> 'basetext'
 ),
-extant AS (
-    SELECT app_id, base_ga FROM att
-    WHERE reading_type IS DISTINCT FROM 'lac'
-    GROUP BY 1, 2
+pick AS (
+    SELECT app_id, base_ga, is_lemma, reading_type,
+      row_number() OVER (PARTITION BY app_id, base_ga
+        ORDER BY CASE WHEN hand = 'firsthand' THEN 0 ELSE 1 END,
+                 CASE WHEN is_lemma OR reading_type = 'subreading' THEN 0 ELSE 1 END,
+                 reading_id) AS rn
+    FROM att
 ),
-lemma AS (
-    SELECT app_id, base_ga FROM att WHERE is_lemma GROUP BY 1, 2
-),
-diverge AS (
-    SELECT app_id, base_ga FROM att
-    WHERE NOT is_lemma AND (reading_type IS NULL OR reading_type = 'om')
-    GROUP BY 1, 2
-)
+one AS (SELECT app_id, base_ga, is_lemma, reading_type FROM pick WHERE rn = 1),
+ext AS (SELECT app_id, count(*) AS n_extant FROM one GROUP BY 1),
+lem AS (SELECT app_id, count(*) AS n_lemma FROM one
+        WHERE is_lemma OR reading_type = 'subreading' GROUP BY 1),
+div AS (SELECT app_id, count(*) AS n_diverge FROM one
+        WHERE NOT is_lemma AND (reading_type IS NULL OR reading_type = 'om') GROUP BY 1)
 SELECT u.app_id, u.verse_id, u.chapter, u.verse,
-       (SELECT count(*) FROM extant e WHERE e.app_id = u.app_id)  AS n_extant,
-       (SELECT count(*) FROM lemma l WHERE l.app_id = u.app_id)   AS n_lemma,
-       (SELECT count(*) FROM diverge d WHERE d.app_id = u.app_id) AS n_diverge,
+       coalesce(ext.n_extant, 0) AS n_extant,
+       coalesce(lem.n_lemma, 0)  AS n_lemma,
+       coalesce(div.n_diverge, 0) AS n_diverge,
        (SELECT count(*) FROM readings r WHERE r.app_id = u.app_id
             AND (r.reading_type IS NULL OR r.reading_type = 'om')) AS n_subst_readings
 FROM units u
+LEFT JOIN ext ON ext.app_id = u.app_id
+LEFT JOIN lem ON lem.app_id = u.app_id
+LEFT JOIN div ON div.app_id = u.app_id
 WHERE u.app_type = 'main'
 """
 
@@ -79,7 +86,11 @@ def verse_metrics(db_path: Path | None = None) -> pd.DataFrame:
         n_diverge_sum=("n_diverge", "sum"),
         n_extant_mean=("n_extant", "mean"),
     )
-    # Coverage: distinct base MS extant anywhere in the verse (presence/absence signal).
+    # Coverage = distinct real manuscripts extant in the verse (basetext is the editorial NA28
+    # base, not a witness -> excluded). Genealogical-depth confidence (effective independent
+    # witnesses / family breadth / early support) is derived later in the dashboard export, once
+    # family + date metadata exist; raw coverage alone overstates evidence (witnesses are weighed,
+    # not counted).
     con = _con(db_path)
     cov = con.execute(
         """
@@ -89,6 +100,7 @@ def verse_metrics(db_path: Path | None = None) -> pd.DataFrame:
             JOIN readings r ON r.app_id = u.app_id
             JOIN attestation a ON a.app_id = r.app_id AND a.reading_id = r.reading_id
             WHERE u.app_type = 'main' AND r.reading_type IS DISTINCT FROM 'lac'
+                  AND a.base_ga <> 'basetext'
             GROUP BY 1, 2)
         SELECT verse_id, count(*) AS extant_base_ms FROM att GROUP BY 1
         """

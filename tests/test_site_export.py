@@ -35,6 +35,14 @@ def test_verses_index(out):
     assert len(v) == 879
     j316 = next(x for x in v if x["verse_id"] == "B04K3V16")
     assert j316["ref"] == "John 3:16" and 0 <= j316["stability"] <= 1
+    # family-vote ("weighed") metric + genealogical-confidence fields are exported per verse
+    assert 0 <= j316["family_stability"] <= 1
+    for k in ("n_families", "n_early", "eff_families", "low_conf"):
+        assert k in j316
+    assert isinstance(j316["low_conf"], bool)
+    # confidence is genealogical, not a head-count: some well-covered verses are still flagged,
+    # and the flag is not simply "few witnesses"
+    assert any(x["low_conf"] for x in v) and any(not x["low_conf"] for x in v)
 
 
 def test_chapter_detail_drilldown(out):
@@ -47,6 +55,20 @@ def test_chapter_detail_drilldown(out):
     for r in unit["readings"]:
         assert "basetext" not in r["wits"]
         assert set(r["families"]).issubset({"f1", "f13", "Byz", "Alexandrian", "other"})
+
+
+def test_export_is_deterministic(tmp_path_factory):
+    """Two exports from the same store must be byte-identical (guards the family-tally overwrite
+    bug + DuckDB unordered-aggregation nondeterminism)."""
+    if not load_config().path("collation_db").exists():
+        pytest.skip("collation store not built")
+    from john_tc.site.export_data import export
+    a = tmp_path_factory.mktemp("a")
+    b = tmp_path_factory.mktemp("b")
+    export(out_dir=a)
+    export(out_dir=b)
+    for name in ["summary.json", "verses.json", "families.json", "chapters/3.json", "chapters/8.json"]:
+        assert (a / name).read_bytes() == (b / name).read_bytes(), f"{name} not deterministic"
 
 
 def test_families_and_witnesses(out):

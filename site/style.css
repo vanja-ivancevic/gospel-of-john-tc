@@ -164,3 +164,9 @@ a.chip:hover { background:#e2ecf6; }
 .trust li { margin:6px 0; }
 .trust .gate { margin-left:4px; }
 @media (max-width:640px) { .defs { grid-template-columns:1fr; } }
+
+/* phase-1 methodology UI */
+.hm-btns { display:flex; gap:8px; flex-wrap:wrap; }
+.lowmark { color:#b26a00; font-weight:700; cursor:help; }
+.note.warn-note { background:#fff8ec; border-color:#f0d9a8; margin-top:10px; }
+.defs .sw { vertical-align:middle; }
