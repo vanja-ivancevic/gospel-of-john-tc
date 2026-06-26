@@ -12,7 +12,7 @@ async function load(path) {
 const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
 const pct = x => (x == null ? "—" : (x * 100).toFixed(0) + "%");
 const f3 = x => (x == null ? "—" : x.toFixed(3));
-const setTitle = t => { document.title = (t ? t + " — " : "") + "Unstable John"; };
+const setTitle = t => { document.title = (t ? t + " · " : "") + "Unstable John"; };
 
 // red (fluid) -> blue (firm): a colour-blind-safe diverging ramp (ColorBrewer RdBu).
 const RAMP = [[202,0,32],[244,165,130],[247,247,247],[146,197,222],[5,113,176]];
@@ -70,11 +70,11 @@ function renderHeat() {
   const sc = hmScale(), leg = document.getElementById("hmlegend");
   if (leg) leg.innerHTML =
     `<span>fluid ≤ ${sc.lo.toFixed(2)}</span><div class="bar"></div><span>${sc.hi.toFixed(2)} firm</span>
-     <span class="lc"><i class="hatch"></i> low confidence — ${esc(CONF_RULE)}</span>`;
+     <span class="lc"><i class="hatch"></i> low confidence: ${esc(CONF_RULE)}</span>`;
   const ax = document.getElementById("hmaxis");
   if (ax) ax.innerHTML = vert
-    ? `<span>rows ↓ <b>verse</b></span><span>columns → <b>chapter 1–21</b></span>`
-    : `<span>rows ↓ <b>chapter 1–21</b></span><span>columns → <b>verse</b></span>`;
+    ? `<span>rows ↓ <b>verse</b></span><span>columns → <b>chapter 1-21</b></span>`
+    : `<span>rows ↓ <b>chapter 1-21</b></span><span>columns → <b>verse</b></span>`;
 }
 MOBILE.addEventListener("change", e => {
   if (hmUserSet) return; hmOrient = e.matches ? "vert" : "horiz"; renderHeat();
@@ -130,7 +130,7 @@ function witChip(ga) {
   const label = w.name ? `${esc(ga)} · ${esc(w.name)}` : esc(ga);
   const fam = w.family ? ` <i style="background:${FAMCOLOR[w.family]||"#999"}"></i>` : "";
   return w.url
-    ? `<a class="chip" href="${esc(w.url)}" target="_blank" rel="noopener" title="${esc(w.name||ga)} — open the IGNTP transcription">${label}${fam}</a>`
+    ? `<a class="chip" href="${esc(w.url)}" target="_blank" rel="noopener" title="${esc(w.name||ga)}: open its IGNTP transcription">${label}${fam}</a>`
     : `<span class="chip">${label}${fam}</span>`;
 }
 
@@ -142,8 +142,8 @@ async function overview() {
   const m = sum.meta, g = sum.gates;
   const stat = (n, l) => `<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
   let h = `<h1>Where is the Gospel of John textually unstable?</h1>
-    <p class="sub">As scribes copied John by hand for centuries, its wording drifted. This maps where
-    the surviving Greek manuscripts <b>agree</b> and where they <b>disagree</b> — built on a real
+    <p class="sub">Scribes copied John by hand for centuries, and the wording drifted. This map shows
+    where the surviving Greek manuscripts agree and where they disagree, from a real
     ${m.n_witnesses}-witness collation. Click any verse to read it with the variation marked inline:
     the competing readings and the manuscripts behind each.</p>
     <div class="stats">
@@ -152,35 +152,36 @@ async function overview() {
       ${stat(m.n_witnesses, "manuscripts")}
       ${stat(m.n_verses, "verses")}
     </div>
-    <div class="note" style="margin:6px 0 14px">Textual critics say witnesses are <b>weighed, not
-      counted</b>: ~${m.n_witnesses} manuscripts survive, but ~${m.median_witnesses_per_verse} attest a
-      typical verse and most are near-identical Byzantine copies — effectively only
-      <b>~${m.eff_families_median} independent family-voices</b>. So the headline metric weighs by
-      family; the raw head-count is shown alongside (toggle on the map). <a href="#/about">Full method →</a></div>
+    <div class="note" style="margin:6px 0 14px">Textual critics weigh witnesses rather than counting
+      them. About ${m.n_witnesses} manuscripts survive, but only ~${m.median_witnesses_per_verse} attest a
+      typical verse, and most of those are near-identical Byzantine copies. That leaves roughly
+      <b>${m.eff_families_median} independent family voices</b>. So the headline number weighs by family,
+      and the raw head-count sits next to it (use the toggle on the map). <a href="#/about">Read the method.</a></div>
     <div class="defs">
-      <div><span class="sw firm"></span><b>Stability (family-vote)</b> — the share of manuscript
-        <i>families</i> that agree on the wording (one family = one vote, so the Byzantine mass counts
-        once). <b>1.00</b> = all families agree. The dashboard default.</div>
-      <div><span class="sw fluid"></span><b>Instability</b> — the flip side (1 − stability): how much
-        the tradition disagrees. Higher = more contested.</div>
-      <div><b>Raw agreement</b> — the same idea but counting every witness equally (Byzantine-heavy).
-        Shown for comparison via the map's metric toggle.</div>
-      <div><b>Branch split</b> — whether disagreement runs <i>between</i> families (deep variation).</div>
-      <div><b>Confidence</b> — driven by <i>early/independent</i> depth, not head-count: a verse with
-        100 late copies but few early or non-Byzantine witnesses is flagged low-confidence.</div>
+      <div><span class="sw firm"></span><b>Stability (family-vote):</b> the share of manuscript
+        <i>families</i> that agree on the wording. One family gets one vote, so the Byzantine mass counts
+        once. A score of 1.00 means every family agrees. This is the default.</div>
+      <div><span class="sw fluid"></span><b>Instability:</b> the flip side, 1 minus stability. Higher
+        means the tradition is more divided.</div>
+      <div><b>Raw agreement:</b> the same idea, but every witness counts equally (so Byzantine-heavy).
+        Compare it with the metric toggle.</div>
+      <div><b>Branch split:</b> whether the disagreement runs <i>between</i> families, which is deeper
+        variation.</div>
+      <div><b>Confidence:</b> set by how much <i>early and independent</i> evidence survives, not by
+        head-count. A verse with 100 late copies but few early or non-Byzantine witnesses is flagged.</div>
     </div>`;
 
   if (g) h += `<div class="trust"><b>Does the method actually work?</b> Three checks against textbook
-    cases — known scribal phenomena it must recover in the right direction:
+    cases, scribal phenomena it has to recover in the right direction:
     <ul>
-      <li><b>Pericope Adulterae</b> (the woman caught in adultery, John 7:53–8:11) — the famous passage
-        absent from the oldest manuscripts. Present here in only <b>${g.pericope_adulterae.target}</b>
-        witnesses vs <b>${g.pericope_adulterae.rest}</b> for the surrounding text, so it's correctly
-        flagged as a later insertion. <span class="gate ${g.pericope_adulterae.passed?"pass":"fail"}">${g.pericope_adulterae.passed?"recovered":"missed"}</span></li>
-      <li><b>John 5:4</b> (the angel stirring the pool) — a known later addition. Here it shows up only
-        in much later copies (median <b>${g.john_5_4.incl_date} CE</b>) and is missing from the earliest
+      <li><b>Pericope Adulterae</b> (the woman caught in adultery, John 7:53-8:11), the passage absent
+        from the oldest manuscripts. It is present here in only <b>${g.pericope_adulterae.target}</b>
+        witnesses against <b>${g.pericope_adulterae.rest}</b> for the surrounding text, so the map flags
+        it as a later insertion. <span class="gate ${g.pericope_adulterae.passed?"pass":"fail"}">${g.pericope_adulterae.passed?"recovered":"missed"}</span></li>
+      <li><b>John 5:4</b> (the angel stirring the pool), a known later addition. It appears only in much
+        later copies (median <b>${g.john_5_4.incl_date} CE</b>) and is missing from the earliest
         (median <b>${g.john_5_4.omit_date} CE</b>). <span class="gate ${g.john_5_4.passed?"pass":"fail"}">${g.john_5_4.passed?"recovered":"missed"}</span></li>
-      <li><b>Manuscript families</b> — the family groupings recovered from the data match the published
+      <li><b>Manuscript families:</b> the groupings recovered from the data match the published
         scholarly families. <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${/PASS/i.test(g.genealogy)?"validated":esc(g.genealogy)}</span></li>
     </ul></div>`;
 
@@ -201,7 +202,7 @@ async function overview() {
     <div class="hm-axis" id="hmaxis"></div>
     <div class="hm-wrap" id="heatmap"></div>`;
 
-  // hotspot leaderboard — most contested verses by family-vote, excluding low-confidence verses
+  // hotspot leaderboard: most contested verses by family-vote, excluding low-confidence verses
   const hot = verses.filter(v => v.family_stability != null && !v.low_conf)
     .sort((a,b) => a.family_stability - b.family_stability).slice(0, 12);
   h += `<h2>Most contested verses</h2>
@@ -219,7 +220,7 @@ async function overview() {
   });
   h += `</tbody></table>`;
 
-  // chapter table — family-vote headline, raw alongside
+  // chapter table: family-vote headline, raw alongside
   h += `<h2>By chapter</h2><table><thead><tr><th>Ch</th><th class="num">Verses</th>
     <th class="num" title="Family-vote stability: one family one vote (headline)">Stability (family)</th>
     <th class="num" title="Raw head-count agreement, every witness equal">Stability (raw)</th>
@@ -278,7 +279,7 @@ function readingRow(r) {
 }
 function unitCard(u) {
   return `<div class="unit${u.orthographic?" orth":""}" id="u-${esc(u.app_id)}">
-    <div class="uh">words ${u.app_from}–${u.app_to} · base text: <b>${esc(u.lemma==="om"?"(addition point)":u.lemma)}</b>
+    <div class="uh">words ${u.app_from}-${u.app_to} · base text: <b>${esc(u.lemma==="om"?"(addition point)":u.lemma)}</b>
       · ${u.n_variant_wit} witnesses diverge${u.orthographic?` <span class="tag">spelling only</span>`:""}</div>
     ${u.readings.map(readingRow).join("")}</div>`;
 }
@@ -298,38 +299,38 @@ async function verse(vid) {
   if (vd.slots && vd.slots.length) {
     const words = vd.slots.map(s => {
       if (s.om) return s.var
-        ? `<a class="vw add" tabindex="0" role="button" data-app="${esc(s.app)}" aria-label="addition point — some witnesses insert text" title="addition point — some witnesses insert text">‸</a>` : "";
+        ? `<a class="vw add" tabindex="0" role="button" data-app="${esc(s.app)}" aria-label="addition point, some witnesses insert text" title="addition point, some witnesses insert text">‸</a>` : "";
       if (!s.var) return `<span class="w">${esc(s.text)}</span>`;
       return `<a class="vw${s.orth?" orth":""}" tabindex="0" role="button" data-app="${esc(s.app)}"
         aria-label="${s.orth?"spelling variant":"variation"}: ${esc(s.text)}"
-        title="${s.orth?"spelling variant":"variation"} — click for readings">${esc(s.text)}</a>`;
+        title="${s.orth?"spelling variant":"variation"}, click for readings">${esc(s.text)}</a>`;
     }).filter(Boolean).join(" ");
     h += `<div class="verse-text grk">${words}</div>`;
   }
   if (vd.english) h += `<blockquote class="eng">${esc(vd.english)}
-    <cite>World English Bible (public domain) — orientation only; not aligned to the Greek variation</cite></blockquote>`;
+    <cite>World English Bible (public domain), orientation only; not aligned to the Greek variation</cite></blockquote>`;
 
   h += `<div class="metricrow">
-      ${M("Stability (family-vote)", f3(vi.family_stability), "Share of manuscript families agreeing — one family one vote (headline, 'weighed')")}
+      ${M("Stability (family-vote)", f3(vi.family_stability), "Share of manuscript families agreeing, one family one vote (the weighed headline)")}
       ${M("Stability (raw count)", f3(vi.stability), "Share of all witnesses on the majority reading ('counted')")}
       ${M("Branch split", pct(vi.between_family_split), "Do the major families disagree with each other?")}
       ${M("Coverage", vi.coverage==null?"—":vi.coverage.toFixed(0), "Manuscripts extant here (raw head-count)")}
-      ${M("Early witnesses", vi.n_early==null?"—":vi.n_early, "Witnesses dated ≤500 CE — the weighty early evidence")}
+      ${M("Early witnesses", vi.n_early==null?"—":vi.n_early, "Witnesses dated 500 CE or earlier, the weightiest evidence")}
       ${M("Families", vi.n_families==null?"—":`${vi.n_families} (eff. ${vi.eff_families??"—"})`, "Distinct families present; effective independent count (Simpson)")}
       ${M("Variation units", `${vd.n_variation_units||0} / ${vd.n_units_total||0}`, "Units with real variation / total")}
     </div>
-    ${vi.low_conf?`<div class="note warn-note">⚠ <b>Low confidence:</b> ${esc(CONF_RULE)} — read these
-       numbers cautiously; the early/independent evidence here is thin.</div>`:""}
+    ${vi.low_conf?`<div class="note warn-note"><b>Low confidence:</b> ${esc(CONF_RULE)}. Read these
+       numbers cautiously; the early and independent evidence here is thin.</div>`:""}
     <div class="controls"><label><input type="checkbox" id="hideorth"> Hide spelling-only variation</label></div>
     <div class="fam-key">${FAMS.map(f=>`<span><i style="background:${FAMCOLOR[f]}"></i>${f}</span>`).join("")}</div>`;
 
   (vd.whole_verse || []).forEach(u => {
     h += `<div class="unit whole" id="u-${esc(u.app_id)}">
-      <div class="uh">⚠ whole-verse variation — ${u.n_variant_wit} witnesses diverge across the entire verse</div>
+      <div class="uh">whole-verse variation: ${u.n_variant_wit} witnesses diverge across the entire verse</div>
       ${u.readings.map(readingRow).join("")}</div>`;
   });
   if (!vd.units.length && !(vd.whole_verse||[]).length)
-    h += `<p class="note">The whole tradition agrees here — no substantive variation recorded.</p>`;
+    h += `<p class="note">The whole tradition agrees here, with no substantive variation recorded.</p>`;
   vd.units.forEach(u => { h += unitCard(u); });
   app.innerHTML = h;
 
@@ -367,7 +368,7 @@ async function families() {
       <th class="num">Date (CE)</th></tr></thead><tbody>`;
   d.witnesses.forEach(w => {
     const date = w.date_mid == null ? "—" : (w.date_early === w.date_late ? w.date_mid
-      : `${w.date_early}–${w.date_late}`);
+      : `${w.date_early}-${w.date_late}`);
     const ga = w.url ? `<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.ga)}</a>` : esc(w.ga);
     h += `<tr data-k="${esc((w.ga+" "+(w.name||"")).toLowerCase())}"><td>${ga}</td>
       <td>${esc(w.name||"")}</td><td><i style="display:inline-block;width:9px;height:9px;
@@ -391,7 +392,7 @@ async function verses() {
   crumb.innerHTML = `<a href="#/">Overview</a> › Verses`;
   let h = `<h1>All verses</h1><p class="sub">Every verse in John with its stability. Filter by
     reference (“3:16”, or “3:” for the whole chapter) and click to open.</p>
-    <input class="filter" id="vfilter" type="text" placeholder="Jump to a verse — e.g. 3:16"
+    <input class="filter" id="vfilter" type="text" placeholder="Jump to a verse, e.g. 3:16"
       aria-label="Filter verses by reference">
     <table id="vtable"><thead><tr><th>Verse</th><th class="num">Stability (family)</th>
       <th class="num">Stability (raw)</th><th class="num">Branch split</th>
@@ -419,89 +420,89 @@ async function about() {
   const sum = await load("summary.json");
   crumb.innerHTML = `<a href="#/">Overview</a> › Method`;
   const m = sum.meta;
-  app.innerHTML = `<h1>Method &amp; reasoning</h1>
+  app.innerHTML = `<h1>Method and reasoning</h1>
     <div class="note"><b>This is a transmission-history study.</b> It maps where the text of John is
     unstable across the surviving manuscripts. Manuscript variation records scribal <i>copying</i>,
-    not authorial <i>composition</i> — so no claims are made about who wrote John or when it was
-    composed. Everything here is reproducible from the open data and code (linked below).</div>
+    not authorial <i>composition</i>, so it makes no claim about who wrote John or when. Everything
+    here can be rebuilt from the open data and code (linked below).</div>
 
     <h2>Data</h2>
-    <p>${esc(m.source)} — <b>${m.n_witnesses}</b> Greek witnesses, <b>${m.n_units.toLocaleString()}</b>
-    variation units, <b>${m.n_attestations.toLocaleString()}</b> witness attestations, collated against
-    the NA28 base text. Each reading lists the manuscripts that carry it, with hand/corrector markup
-    preserved. The English orientation text is the public-domain World English Bible and is <i>not</i>
-    aligned to the Greek variation.</p>
+    <p>${esc(m.source)}: <b>${m.n_witnesses}</b> Greek witnesses, <b>${m.n_units.toLocaleString()}</b>
+    variation units, and <b>${m.n_attestations.toLocaleString()}</b> witness attestations, collated
+    against the NA28 base text. Each reading lists the manuscripts that carry it, with hand and
+    corrector markup preserved. The English orientation text is the public-domain World English Bible
+    and is <i>not</i> aligned to the Greek variation.</p>
 
     <h2>Why we weigh witnesses instead of counting them</h2>
-    <p>A foundational rule of textual criticism is that <b>witnesses are weighed, not counted</b>
-    (Westcott–Hort). Manuscripts that descend from a common ancestor repeat <i>one</i> testimony, so
-    raw head-counts mislead. In John this is acute: ${m.n_witnesses} witnesses survive, but only about
-    <b>${m.median_witnesses_per_verse}</b> attest a typical verse and roughly three-quarters of those
-    are near-identical Byzantine copies — so a verse rests on effectively only
-    <b>~${m.eff_families_median} independent family-voices</b> (Simpson's effective count), not ${m.median_witnesses_per_verse}.</p>
-    <p>So the dashboard's <b>headline metric weighs by family</b> — each manuscript family casts one
-    plurality vote, and stability is the share of families that agree. The naïve
-    <b>raw head-count</b> agreement is kept alongside (the metric toggle on the heatmap) because it is
-    the honest "counted" view. They differ: fixing the head-count's Byzantine bias <i>barely moves the
-    average</i> but substantially <b>re-orders which verses look stable</b> — several verses that look
-    firm by head-count are really just the Byzantine bloc agreeing with itself.</p>
-    <div class="note">⚖ <b>An honest caveat.</b> Collapsing the Byzantine majority to one "voice" is the
-    mainstream critical-text position, but it is a <i>position</i>, not a fact: Byzantine-priority
-    scholars argue those manuscripts are many relatively independent witnesses. That is exactly why both
-    views are shown — pick the lens you find defensible.</div>
+    <p>A basic rule of textual criticism is that witnesses are weighed, not counted (Westcott and
+    Hort). Manuscripts copied from a common ancestor repeat <i>one</i> testimony, so raw head-counts
+    mislead. John shows this clearly. About ${m.n_witnesses} witnesses survive, but only around
+    <b>${m.median_witnesses_per_verse}</b> attest a typical verse, and roughly three-quarters of those
+    are near-identical Byzantine copies. By Simpson's effective count, that leaves a verse resting on
+    about <b>${m.eff_families_median} independent family voices</b>, not ${m.median_witnesses_per_verse}.</p>
+    <p>So the headline number weighs by family: each family casts one plurality vote, and stability is
+    the share of families that agree. The raw head-count version sits next to it (the metric toggle on
+    the heatmap), because that is the honest "counted" view. The two differ. Correcting the
+    head-count's Byzantine bias barely moves the average, but it noticeably re-orders which verses look
+    stable. Some verses that look firm by head-count are really just the Byzantine bloc agreeing with
+    itself.</p>
+    <div class="note"><b>An honest caveat.</b> Treating the Byzantine majority as one voice is the
+    mainstream critical-text position. It is a position, not a fact. Byzantine-priority scholars argue
+    those manuscripts are many fairly independent witnesses. That disagreement is why both views are on
+    the page, so you can choose the one you find defensible.</div>
 
     <h2>Metrics</h2>
     <ul>
-      <li><b>Stability (family-vote)</b> — share of manuscript families agreeing on the wording, one
-        family one vote (the Byzantine mass counts once). <b>Instability</b> is 1 − stability.</li>
-      <li><b>Stability (raw)</b> — the same, but every witness counted equally. Byzantine-weighted.</li>
-      <li><b>Branch split</b> — whether disagreement runs <i>between</i> families (deep, branch-level
-        variation) rather than scattered within one family.</li>
-      <li><b>Confidence</b> — based on <i>early and independent</i> depth, not head-count. A verse is
-        flagged low-confidence when ${esc(m.confidence_rule)}. (Effective family count is ~${m.eff_families_median}
-        for almost every verse, so it is reported gospel-wide rather than per verse.)</li>
+      <li><b>Stability (family-vote):</b> the share of manuscript families agreeing on the wording, one
+        family one vote, so the Byzantine mass counts once. Instability is 1 minus stability.</li>
+      <li><b>Stability (raw):</b> the same, but every witness counts equally, so it is Byzantine-weighted.</li>
+      <li><b>Branch split:</b> whether the disagreement runs <i>between</i> families rather than within
+        one, which points to deeper variation.</li>
+      <li><b>Confidence:</b> based on how much early and independent evidence survives, not on
+        head-count. A verse is flagged when ${esc(m.confidence_rule)}. The effective family count is about
+        ${m.eff_families_median} for nearly every verse, so it is reported gospel-wide rather than per verse.</li>
     </ul>
-    <p>One reading is counted per manuscript per unit (a codex's own <i>corrector</i> never makes it
-    count as both agreeing and disagreeing — the intra-manuscript artifact that sank the project's
-    earlier version), and purely orthographic sub-variants are treated as agreement.</p>
+    <p>Each manuscript is counted once per unit, so a codex's own corrector cannot make it count as both
+    agreeing and disagreeing. (That intra-manuscript miscount is the flaw that sank the project's
+    earlier version.) Purely orthographic sub-variants are treated as agreement.</p>
 
     <h2>Reading a verse</h2>
-    <p>On a verse page the Greek runs across the top with variation points marked: coloured words carry
-    substantive variation, fainter ones are spelling-only, and a <b>‸</b> caret marks where some
-    witnesses insert text. Click any mark to jump to its readings and the manuscripts behind each;
+    <p>On a verse page the Greek runs across the top with the variation points marked. Coloured words
+    carry substantive variation, fainter ones are spelling only, and a <b>‸</b> caret marks where some
+    witnesses insert text. Click any mark to jump to its readings and the manuscripts behind each. The
     sigla link to the IGNTP/ITSEE transcription of that manuscript.</p>
 
     <h2>Manuscript families</h2>
-    <p>Families (f1, f13, Byzantine, Alexandrian, and a residual "other") are recovered from our own
-    collation by pre-genealogical coherence — the same starting point as Münster's CBGM — and the
-    published f1/f13 lists are used as labels. <b>Hard families are a simplification:</b> modern method
-    (CBGM) deliberately avoids rigid "text-types," so treat the buckets as a useful approximation of
-    genealogical structure, not ground truth. Each witness carries a provenance flag (published list vs
-    computed).</p>
+    <p>The families (f1, f13, Byzantine, Alexandrian, and a residual "other") are recovered from our own
+    collation by pre-genealogical coherence, the same starting point as Münster's CBGM, and the
+    published f1/f13 lists supply the labels. <b>Hard families are a simplification.</b> Modern method
+    (CBGM) deliberately avoids rigid "text-types", so treat the buckets as a useful approximation of
+    genealogical structure rather than ground truth. Each witness carries a provenance flag (published
+    list or computed).</p>
 
-    <h2>Validation &amp; honesty</h2>
-    <p>The method must recover known scribal phenomena in the right direction: the <b>Pericope
+    <h2>Validation and honesty</h2>
+    <p>The method has to recover known scribal phenomena in the right direction: the <b>Pericope
     Adulterae</b> (absent from the oldest manuscripts) and <b>John 5:4</b> (carried only by later
-    copies). The recovered families are checked against the published f1/f13 lists (silhouette,
-    bootstrap, ARI) — which validates the <i>distance metric</i>, not the asserted labels — and findings
-    are stress-tested (leave-one-family-out, bootstrap CIs). We report nulls and small effects plainly;
-    a fuller audit of every methodological choice ships with the source.</p>
+    copies). The recovered families are checked against the published f1/f13 lists with silhouette and
+    bootstrap scores, which test the <i>distance metric</i> rather than the asserted labels, and the
+    findings are stress-tested with leave-one-family-out and bootstrap intervals. We report nulls and
+    small effects plainly, and a fuller audit of every choice ships with the source.</p>
 
     <h2>Limitations</h2>
     <ul>
-      <li>Greek continuous-text witnesses only (no versions/lectionary sub-analysis in the metrics).</li>
-      <li>Manuscript dates are NTVMR century estimates; the date test is interval-sensitive.</li>
-      <li>Families are an approximation (see above); "other" is a residual bucket.</li>
-      <li>English is orientation only, not aligned to the Greek units.</li>
+      <li>Greek continuous-text witnesses only (the metrics do not break out versions or lectionaries).</li>
+      <li>Manuscript dates are NTVMR century estimates, so the date test is sensitive to that interval.</li>
+      <li>The families are an approximation (see above), and "other" is a residual bucket.</li>
+      <li>The English is orientation only, not aligned to the Greek units.</li>
     </ul>
     <h2>Reproducibility</h2>
-    <p>One command rebuilds every table, figure, report, and this dashboard from the raw apparatus;
-    everything is seeded and deterministic (identical output across runs), and a published audit
-    documents every methodological choice and its rationale — including where a check is a position
-    rather than a fact (e.g. weighing Byzantine as one voice) and what the validation does and does
-    not prove.</p>
-    <p class="sub">Open source &amp; reproducible: the full pipeline, the methodology audit, and this
-    site are at <a href="https://github.com/vanja-ivancevic/gospel-of-john-tc" target="_blank"
+    <p>One command rebuilds every table, figure, report, and this dashboard from the raw apparatus. The
+    pipeline is seeded and deterministic, so it produces identical output across runs, and a published
+    audit records every methodological choice and its rationale. That includes where a check is a
+    position rather than a fact (such as weighing Byzantine as one voice) and what the validation does
+    and does not prove.</p>
+    <p class="sub">The full pipeline, the methodology audit, and this site are open source at
+    <a href="https://github.com/vanja-ivancevic/gospel-of-john-tc" target="_blank"
     rel="noopener">github.com/vanja-ivancevic/gospel-of-john-tc</a>. Münster's CBGM is gated for John,
     so the genealogy here is computed from the collation itself.</p>`;
 }
