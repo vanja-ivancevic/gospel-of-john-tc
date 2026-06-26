@@ -184,7 +184,7 @@ def run() -> dict:
                         else "elevated vs body, below different-author"))
               for s, v in sections.items()}
     large = large_sample_validation()
-    n_perm = min(cfg["stats"]["n_permutations"], 5000)
+    n_perm = cfg["stats"]["stylometry_permutations"]
     sec_tests = section_permutation(D, names, role, n_perm=n_perm, seed=cfg["seed"])
     return {
         "n_mfw": N_MFW, "window": WINDOW,

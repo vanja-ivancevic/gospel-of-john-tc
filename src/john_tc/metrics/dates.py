@@ -131,12 +131,18 @@ def enrich_metadata(db_path: Path | None = None) -> dict:
 def five_four_date_signal(db_path: Path | None = None) -> dict:
     """Test the known truth: witnesses OMITTING John 5:4 are earlier than those including it.
 
-    Includers = witnesses attesting substantive 5:4 text. Omitters = witnesses present in the
-    neighbourhood (5:3/5:5) or carrying an explicit `om` at 5:4, but NOT attesting substantive 5:4
-    text — with witnesses explicitly lacunose at 5:4 removed, so a damaged page is not mistaken for
-    a deliberate omission (the lacuna-contamination the set-subtraction approach risked). Reported on
-    the date midpoint and, as a censoring sensitivity check, on the latest-possible date;
-    significance by one-sided permutation and a tie-robust Mann–Whitney.
+    The 5:4 interpolation (the angel troubling the water) is segmented by the ECM into many
+    sub-units. A witness that *transmits* the interpolation is cited with substantive readings at
+    those sub-units, even if it is tagged `om` at one of them — i.e. an explicit `om` at a single
+    5:4 sub-unit marks internal variation within the interpolation, NOT omission of it. The
+    witnesses that genuinely lack the whole interpolation (P66, P75, 01, 03, 05, ...) are instead
+    *absent* from every 5:4 sub-unit while remaining extant in the immediate context.
+
+    So: includers = witnesses citing any substantive 5:4 text. Omitters = witnesses extant in the
+    neighbourhood (5:3/5:5) yet citing no substantive 5:4 text, with witnesses explicitly lacunose
+    at 5:4 removed so a damaged page is not mistaken for a deliberate omission. Reported on the date
+    midpoint and, as a censoring sensitivity check, on the latest-possible date; significance by
+    one-sided permutation and a tie-robust Mann–Whitney.
     """
     cfg = load_config()
     con = duckdb.connect(str(db_path or cfg.path("collation_db")), read_only=True)
@@ -147,19 +153,21 @@ def five_four_date_signal(db_path: Path | None = None) -> dict:
                 JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
                 WHERE u.verse_id='{verse_id}' AND u.app_type='main' AND a.base_ga<>'basetext'
                       AND {where}""").fetchall())
-    substantive = _wits("B04K5V4", "r.reading_type IS NULL")        # genuine 5:4 text
-    om_wits = _wits("B04K5V4", "r.reading_type='om'")               # explicit omission
+    substantive = _wits("B04K5V4", "r.reading_type IS NULL")        # transmits genuine 5:4 text
     lac_54 = _wits("B04K5V4", "r.reading_type='lac'")               # damaged here -> exclude
     neighbourhood = (_wits("B04K5V3", "r.reading_type IS DISTINCT FROM 'lac'")
                      | _wits("B04K5V5", "r.reading_type IS DISTINCT FROM 'lac'"))
+    # Includers transmit the interpolation (incl. those tagged `om` at one sub-unit but substantive
+    # elsewhere); omitters lack it entirely while extant in the surrounding text.
     includers = substantive
-    omitters = (neighbourhood | om_wits) - substantive - lac_54
+    omitters = (neighbourhood - substantive) - lac_54
     meta = {g: (dm, dl) for g, dm, dl in con.execute(
         "SELECT base_ga, date_mid, date_late FROM witness_metadata "
         "WHERE date_mid IS NOT NULL").fetchall()}
     con.close()
 
     rng = np.random.default_rng(cfg["seed"])
+    n_perm = cfg["stats"]["n_permutations"]
 
     def _signal(field_idx):  # 0 = midpoint, 1 = latest-possible (censoring sensitivity)
         inc = np.array([meta[g][field_idx] for g in includers if g in meta], dtype=float)
@@ -169,9 +177,9 @@ def five_four_date_signal(db_path: Path | None = None) -> dict:
         obs = np.median(omt) - np.median(inc)
         pool = np.concatenate([inc, omt])
         k = len(omt)
-        count = sum(1 for _ in range(10000)
+        count = sum(1 for _ in range(n_perm)
                     if (lambda s: np.median(s[:k]) - np.median(s[k:]))(rng.permutation(pool)) <= obs)
-        return (obs, (count + 1) / 10001), inc, omt
+        return (obs, (count + 1) / (n_perm + 1)), inc, omt
 
     res_mid, inc, omt = _signal(0)
     if res_mid is None:

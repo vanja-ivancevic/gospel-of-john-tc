@@ -44,8 +44,15 @@ validation:
 
 stats:
   fdr_alpha: 0.05
-  n_permutations: 10000
-  n_bootstrap: 10000
+  n_permutations: 10000     # permutation null for the interpolation/date gates (full resolution)
+  n_bootstrap: 10000        # default bootstrap; expensive stages override below for runtime
+  # Per-stage resample counts. These are smaller than the defaults above because each draw rebuilds
+  # a clustering/regression; the values are stated here so the published CIs/p-values are honest
+  # about how many resamples actually back them (rather than implying the 10k default everywhere).
+  genealogy_bootstrap: 100      # clade-support bootstrap in validate/genealogy
+  robustness_bootstrap: 500     # leave-one-family / chapter-bootstrap in validate/robustness
+  stylometry_permutations: 5000 # size-matched section permutation in analysis/stylometry
+  gate_export_permutations: 2000  # PA badge recomputed for the dashboard (full gate uses n_permutations)
 
 genealogy:
   # family recovery from our own collation (no magic constants in code)
@@ -64,10 +71,12 @@ stylometry:
   separation_ratio: 1.3  # large-sample diff/same Δ ratio required for the power check
 
 dashboard:
-  # "Low confidence" is genealogical, not a head-count: a verse can have 130 witnesses yet thin
-  # EARLY/independent evidence. Flag a verse when its early (<=500 CE) attestation is in the bottom
-  # percentile, or fewer than min_families families survive. (Effective-family count is ~1.6 for
-  # almost every verse because Byzantine dominates, so it is reported gospel-wide, not per-verse.)
+  # "Low confidence" combines EARLY-witness depth with FAMILY breadth, because raw head-count is
+  # misleading: a verse can be carried by 130 witnesses that are almost all Byzantine. A verse is
+  # flagged when its early (<=500 CE) attestation is thin, OR few distinct families survive, OR the
+  # effective (independence-weighted) family count is low. Byzantine dominance keeps the effective
+  # count near ~1.6 across most of the gospel, so the eff threshold flags only the thinnest tail.
   low_confidence_max_early: 5          # flag verses with <= this many early witnesses
-  low_confidence_min_families: 4       # ...or fewer than this many families surviving
+  low_confidence_min_families: 4       # ...or fewer than this many distinct families surviving
+  low_confidence_min_eff_families: 1.6 # ...or effective (Simpson) family count below this
   early_witness_max_date: 500          # "early" = dated at or before this year (CE)

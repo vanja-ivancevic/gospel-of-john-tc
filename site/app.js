@@ -118,6 +118,9 @@ window.addEventListener("scroll", () => { if (TIP) TIP.hidden = true; }, { passi
 
 // witness identity (name + NTVMR link), loaded once from families.json
 let WIT = null;
+// IGNTP transcriptions render each verse as <span class="verse_number" id="V-John.{ch}.{v}">
+// (and force a re-scroll to the hash on load), so we can deep-link straight to the verse.
+let VERSE_ANCHOR = "", VERSE_REF = "";
 async function witIndex() {
   if (!WIT) {
     WIT = {};
@@ -129,9 +132,11 @@ function witChip(ga) {
   const w = (WIT && WIT[ga]) || {};
   const label = w.name ? `${esc(ga)} · ${esc(w.name)}` : esc(ga);
   const fam = w.family ? ` <i style="background:${FAMCOLOR[w.family]||"#999"}"></i>` : "";
-  return w.url
-    ? `<a class="chip" href="${esc(w.url)}" target="_blank" rel="noopener" title="${esc(w.name||ga)}: open its IGNTP transcription">${label}${fam}</a>`
-    : `<span class="chip">${label}${fam}</span>`;
+  if (!w.url) return `<span class="chip">${label}${fam}</span>`;
+  const href = esc(w.url) + VERSE_ANCHOR;
+  const tip = VERSE_REF ? `${esc(w.name||ga)}: open its IGNTP transcription at ${esc(VERSE_REF)}`
+                        : `${esc(w.name||ga)}: open its IGNTP transcription`;
+  return `<a class="chip" href="${href}" target="_blank" rel="noopener" title="${tip}">${label}${fam}</a>`;
 }
 
 // ---------------- Overview ----------------
@@ -183,8 +188,9 @@ async function overview() {
       <li><b>John 5:4</b> (the angel stirring the pool), a known later addition. It appears only in much
         later copies (median <b>${g.john_5_4.incl_date} CE</b>) and is missing from the earliest
         (median <b>${g.john_5_4.omit_date} CE</b>). <span class="gate ${g.john_5_4.passed?"pass":"fail"}">${g.john_5_4.passed?"recovered":"missed"}</span></li>
-      <li><b>Manuscript families:</b> the groupings recovered from the data match the published
-        scholarly families. <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${/PASS/i.test(g.genealogy)?"validated":esc(g.genealogy)}</span></li>
+      <li><b>Manuscript families:</b> clustering our own collation reproduces the tight f1 and f13
+        cores and separates the Byzantine mass, so the coherence metric behaves.
+        <span class="gate ${/PASS/i.test(g.genealogy)?"pass":"fail"}">${/PASS/i.test(g.genealogy)?"validated":esc(g.genealogy)}</span></li>
     </ul></div>`;
 
   // heatmap (rendered after innerHTML via renderHeat(); orientation is toggleable)
@@ -279,14 +285,42 @@ function readingRow(r) {
   return `<div class="rdg"><span class="badge ${badge[0]}">${badge[1]}</span>
     <div>${txt}${wits}</div><div class="nw">${r.n_wit}</div>${famBar(r.families)}</div>`;
 }
+// ECM word index: even numbers address words (word n = index/2), odd numbers address the
+// gaps between words (insertion points). Turn the raw indices into a human word position.
+function wordLoc(u) {
+  const from = u.app_from, to = u.app_to;
+  if (from % 2 === 1 || u.lemma === "om")          // odd index = a gap → some witnesses insert here
+    return `insertion after word ${Math.floor(from / 2)}`;
+  const a = from / 2, b = to / 2;
+  return a === b ? `word ${a}` : `words ${a}–${b}`;
+}
+// Genealogical weight tiers (computed in export from the validated family-vote metric). A
+// transmission study ranks variation by how far it reaches across the manuscript families,
+// not by raw head-count. Singular readings are kept but tiered low — never hidden.
+const WEIGHT = {
+  branch:    { label: "between-family split", tip: "Manuscript families divide as blocs — the deepest, branch-level variation." },
+  tradition: { label: "tradition vs base",    tip: "The families agree on a reading that departs from the NA28 base text (the base is the outlier)." },
+  subfamily: { label: "within-family",        tip: "A minority of witnesses inside one or more families; no family changes its reading." },
+  singular:  { label: "singular",             tip: "A single witness diverges — a scribal idiosyncrasy of negligible stemmatic weight." },
+};
+const isMajor = u => u.weight === "branch" || u.weight === "tradition";
+function weightDesc(u) {
+  if (u.weight === "branch")    return `${u.n_fam_div} of ${u.n_fam} families read a variant`;
+  if (u.weight === "tradition") return `whole tradition departs the base text · ${u.n_variant_wit} witnesses`;
+  return u.n_variant_wit === 1 ? "1 witness" : `${u.n_variant_wit} witnesses`;
+}
 function unitCard(u) {
-  return `<div class="unit${u.orthographic?" orth":""}" id="u-${esc(u.app_id)}">
-    <div class="uh">words ${u.app_from}-${u.app_to} · base text: <b>${esc(u.lemma==="om"?"(addition point)":u.lemma)}</b>
-      · ${u.n_variant_wit} witnesses diverge${u.orthographic?` <span class="tag">spelling only</span>`:""}</div>
+  const w = WEIGHT[u.weight] || WEIGHT.subfamily;
+  const base = u.lemma === "om" ? "" : ` · base text: <b>${esc(u.lemma)}</b>`;
+  const tag = u.orthographic ? ` <span class="tag">spelling only</span>` : "";
+  return `<div class="unit w-${u.weight||"subfamily"}${u.orthographic?" orth":""}" id="u-${esc(u.app_id)}">
+    <div class="uh"><span class="wbadge ${u.weight||"subfamily"}" title="${esc(w.tip)}">${w.label}</span>
+      ${wordLoc(u)}${base} · ${weightDesc(u)}${tag}</div>
     ${u.readings.map(readingRow).join("")}</div>`;
 }
 async function verse(vid) {
-  const m = vid.match(/B04K(\d+)V(\d+)/); const ch = +m[1];
+  const m = vid.match(/B04K(\d+)V(\d+)/); const ch = +m[1], vn = +m[2];
+  VERSE_ANCHOR = `#V-John.${ch}.${vn}`; VERSE_REF = `John ${ch}:${vn}`;
   await witIndex();
   const [idx, detail] = await Promise.all([load("verses.json"), load("chapters/" + ch + ".json")]);
   const vi = idx.find(v => v.verse_id === vid) || {};
@@ -300,10 +334,11 @@ async function verse(vid) {
   // running text with inline variation marks
   if (vd.slots && vd.slots.length) {
     const words = vd.slots.map(s => {
+      const wt = s.wt ? " " + s.wt : "";  // major = families diverge here; minor = within-family/singular
       if (s.om) return s.var
-        ? `<a class="vw add" tabindex="0" role="button" data-app="${esc(s.app)}" aria-label="addition point, some witnesses insert text" title="addition point, some witnesses insert text">‸</a>` : "";
+        ? `<a class="vw add${wt}" tabindex="0" role="button" data-app="${esc(s.app)}" aria-label="addition point, some witnesses insert text" title="addition point, some witnesses insert text">‸</a>` : "";
       if (!s.var) return `<span class="w">${esc(s.text)}</span>`;
-      return `<a class="vw${s.orth?" orth":""}" tabindex="0" role="button" data-app="${esc(s.app)}"
+      return `<a class="vw${s.orth?" orth":""}${wt}" tabindex="0" role="button" data-app="${esc(s.app)}"
         aria-label="${s.orth?"spelling variant":"variation"}: ${esc(s.text)}"
         title="${s.orth?"spelling variant":"variation"}, click for readings">${esc(s.text)}</a>`;
     }).filter(Boolean).join(" ");
@@ -319,7 +354,12 @@ async function verse(vid) {
       ${M("Coverage", vi.coverage==null?"—":vi.coverage.toFixed(0), "Manuscripts extant here (raw head-count)")}
       ${M("Early witnesses", vi.n_early==null?"—":vi.n_early, "Witnesses dated 500 CE or earlier, the weightiest evidence")}
       ${M("Families", vi.n_families==null?"—":`${vi.n_families} (eff. ${vi.eff_families??"—"})`, "Distinct families present; effective independent count (Simpson)")}
-      ${M("Variation units", `${vd.n_variation_units||0} / ${vd.n_units_total||0}`, "Units with real variation / total")}
+      ${M("Variation units", `${vd.n_variation_units||0}`,
+          `${vd.units.filter(u=>u.weight==="branch").length} between-family · `+
+          `${vd.units.filter(u=>u.weight==="tradition").length} tradition-vs-base · `+
+          `${vd.units.filter(u=>!isMajor(u)).length} within-family/singular`+
+          `${(vd.whole_verse||[]).length?` · ${vd.whole_verse.length} whole-verse`:""}`+
+          ` — among ${vd.n_units_total||0} apparatus points examined`)}
     </div>
     ${vi.low_conf?`<div class="note warn-note"><b>Low confidence:</b> ${esc(CONF_RULE)}. Read these
        numbers cautiously; the early and independent evidence here is thin.</div>`:""}
@@ -331,9 +371,21 @@ async function verse(vid) {
       <div class="uh">whole-verse variation: ${u.n_variant_wit} witnesses diverge across the entire verse</div>
       ${u.readings.map(readingRow).join("")}</div>`;
   });
+  const sig = vd.units.filter(isMajor), minor = vd.units.filter(u => !isMajor(u));
   if (!vd.units.length && !(vd.whole_verse||[]).length)
     h += `<p class="note">The whole tradition agrees here, with no substantive variation recorded.</p>`;
-  vd.units.forEach(u => { h += unitCard(u); });
+  if (sig.length)
+    h += `<p class="note tier-note">Variation is ordered by <b>genealogical weight</b>: where manuscript
+      families divide, the text was genuinely contested; single- or few-witness scribal readings are
+      grouped below.</p>`;
+  sig.forEach(u => { h += unitCard(u); });
+  if (minor.length)
+    h += `<details class="minorbox"${sig.length||(vd.whole_verse||[]).length?"":" open"}>
+      <summary>${minor.length} minor variant${minor.length===1?"":"s"} — single- or few-witness readings within families <span class="muted">(low genealogical weight)</span></summary>
+      <p class="note minor-note">Kept for completeness and scribal-habit study. These include singular
+        readings (present in just one manuscript); no manuscript family adopts them as its text, so they
+        carry little weight for the transmission history.</p>
+      ${minor.map(unitCard).join("")}</details>`;
   app.innerHTML = h;
 
   const cb = document.getElementById("hideorth");
@@ -345,9 +397,11 @@ async function families() {
   setTitle("Manuscripts & families");
   const d = await load("families.json");
   crumb.innerHTML = `<a href="#/">Overview</a> › Manuscripts & families`;
-  let h = `<h1>Manuscript families</h1><p class="sub">Families recovered from our own collation
-    (pre-genealogical coherence) and validated against the published IGNTP lists. Homogeneity =
-    1 − mean within-family distance (higher = tighter).</p>
+  let h = `<h1>Manuscript families</h1><p class="sub">Family labels are the published IGNTP lists
+    (f1, f13) plus a manual Alexandrian core; "Byz" and "other" come from clustering our own collation.
+    The clustering reproduces the f1/f13 cores and isolates the Byzantine mass, which checks the
+    coherence metric rather than rediscovering the families. Homogeneity = 1 − mean within-family
+    distance (higher = tighter).</p>
     <table><thead><tr><th>Family</th><th class="num">Members</th><th class="num">Homogeneity</th>
     <th>Source</th></tr></thead><tbody>`;
   d.families.forEach(f => {
@@ -436,8 +490,8 @@ async function about() {
 
     <h2>How much independent evidence a verse has</h2>
     <p>Westcott and Hort built modern textual criticism on a simple idea: a manuscript earns its weight
-    through its pedigree. About ${m.n_witnesses} copies of John survive, yet a typical verse is attested
-    by only ~<b>${m.median_witnesses_per_verse}</b>, and roughly three-quarters of those are
+    through its pedigree. This study collates <b>${m.n_witnesses}</b> Greek witnesses, yet a typical verse
+    is attested by only ~<b>${m.median_witnesses_per_verse}</b>, and roughly three-quarters of those are
     near-identical Byzantine copies that descend from a shared ancestor and echo one testimony. By
     Simpson's effective count, the same verse rests on about
     <b>${m.eff_families_median} independent family voices</b>.</p>
@@ -459,9 +513,11 @@ async function about() {
         copies dominate it.</li>
       <li><b>Branch split:</b> disagreement that runs <i>between</i> families, the deeper kind of
         variation.</li>
-      <li><b>Confidence:</b> how much early and independent evidence survives at a verse. A verse earns
-        a flag when ${esc(m.confidence_rule)}. The effective family count hovers near
-        ${m.eff_families_median} almost everywhere, so the site reports it once for the whole gospel.</li>
+      <li><b>Confidence:</b> how much early and independent evidence survives at a verse, not the raw
+        head-count. A verse earns a flag when ${esc(m.confidence_rule)}. Because Byzantine copies
+        dominate, the effective number of independent family voices is only about
+        ${m.eff_families_median} across most of the gospel, so a verse can have 140 witnesses and still
+        rest on a thin set of independent voices.</li>
     </ul>
     <p>Each manuscript counts once per unit, so a codex's own corrector can never pull it onto two sides
     of the same variant. Orthographic sub-variants count as agreement.</p>
@@ -473,9 +529,11 @@ async function about() {
     sigla link to the IGNTP/ITSEE transcription of that manuscript.</p>
 
     <h2>Manuscript families</h2>
-    <p>The families (f1, f13, Byzantine, Alexandrian, and a residual "other") come out of our own
-    collation through pre-genealogical coherence, the same starting point as Münster's CBGM, with the
-    published f1/f13 lists supplying the labels. <b>Hard families are a simplification.</b> Modern method
+    <p>The labels f1 and f13 come from the published IGNTP lists and the Alexandrian core is set by
+    hand; "Byzantine" and "other" come from clustering our own collation through pre-genealogical
+    coherence, the same starting point as Münster's CBGM. The clustering reproduces the tight f1 and f13
+    cores and isolates the Byzantine mass, so it checks that the coherence metric behaves rather than
+    rediscovering the families from scratch. <b>Hard families are a simplification.</b> Modern method
     (CBGM) treats the tradition as a web of relationships, so read the buckets as a rough map of the
     real genealogy. Each witness carries a provenance flag that says whether its family came from a
     published list or from our clustering.</p>
@@ -483,10 +541,14 @@ async function about() {
     <h2>Validation and honesty</h2>
     <p>The method has to recover known scribal phenomena in the right direction: the <b>Pericope
     Adulterae</b> (absent from the oldest manuscripts) and <b>John 5:4</b> (carried only by later
-    copies). Silhouette and bootstrap scores then check whether our distance metric groups the published
-    f1/f13 lists together; the labels themselves come from those lists, so this tests the metric, and we
-    say so. Leave-one-family-out and bootstrap intervals stress-test the findings. We report nulls and
-    small effects plainly, and a fuller audit of every choice ships with the source.</p>
+    copies). The pipeline aborts rather than publish if either gate fails. Silhouette and bootstrap
+    scores then check whether our distance metric groups the published f1/f13 lists together; the labels
+    themselves come from those lists, so this tests the metric, not the assignment, and at the deployed
+    cut the agreement with the published labels (ARI) is low, which the validation report states openly.
+    Leave-one-family-out and bootstrap intervals stress-test the findings. Confound controls (verse
+    position, coverage, Synoptic parallels) explain only a few percent of the variance, so most variation
+    is unit-by-unit and the surviving effects are small. We report nulls and small effects plainly, and a
+    fuller audit of every choice ships with the source.</p>
 
     <h2>Limitations</h2>
     <ul>
@@ -532,6 +594,8 @@ document.addEventListener("keydown", e => {
 function focusUnit(app_id) {
   const el = document.getElementById("u-" + app_id);
   if (!el) return;
+  const d = el.closest("details");           // a singular/minor unit lives in the collapsed box
+  if (d && !d.open) d.open = true;
   el.scrollIntoView({ behavior: "smooth", block: "center" });
   el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
 }

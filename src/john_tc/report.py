@@ -62,8 +62,10 @@ def build_report(path: Path | None = None) -> Path:
         "",
         "## Data foundation (real cross-witness collation)",
         f"- {s['units_main']:,} substantive variation units, {s['attestations']:,} witness "
-        f"attestations, {s['distinct_base_ga']} manuscripts, {s['verses']} verses.",
-        "- Source: IGNTP/INTF ECM Greek apparatus of John (positive), NA28 base text.",
+        f"attestations, {s['distinct_base_ga'] - 1} Greek witnesses, {s['verses']} verses.",
+        "- Source: IGNTP/INTF ECM Greek apparatus of John (positive), NA28 base text. The witness "
+        "count excludes the NA28 editorial base text (it is the lemma, not a manuscript); the full "
+        "ECM apparatus catalogues more witnesses than the continuous-text set collated here.",
         "",
         "## Validation gates (must recover known phenomena in the right direction)",
         f"- **Pericope Adulterae (7:53–8:11)**: attested by {pa['target_mean']:.0f} vs "
@@ -73,7 +75,8 @@ def build_report(path: Path | None = None) -> Path:
         f"includers {five4['median_includer_date']:.0f} CE (Δ={five4['difference_years']:.0f} yr, "
         f"p={five4['p_value']:.2g}) — {'PASS' if five4['omitters_earlier'] else 'FAIL'}.",
         f"- **Genealogy validation**: {_genealogy_verdict()} "
-        "(silhouette + bootstrap + ARI + sensitivity; see reports/genealogy/VALIDATION.md).",
+        "(silhouette + bootstrap + sensitivity; ARI reported descriptively, not gated; "
+        "see reports/genealogy/VALIDATION.md).",
         "",
         "## RQ1 — instability map (flat vs genealogy-aware)",
         f"- Most unstable chapters, flat (1 witness=1 vote): {flat_top}",
@@ -124,8 +127,9 @@ def build_report(path: Path | None = None) -> Path:
         "monologue), and that carries no authorship or source claim.",
         "",
         "## Notable findings",
-        "- Chapter 21, often read as a late appendix, sits among the most stable chapters and shows "
-        "no distinctive instability after confound controls.",
+        "- Chapter 21, often read as a late appendix, shows no distinctive textual instability: it "
+        "was copied about as faithfully as the rest of John (mid-pack on the family-vote metric, "
+        "high on the raw count), and after confound controls it is not distinctive at all.",
         "- Stability and instability track scribal transmission, so they speak to how the text was "
         "copied, not to when or by whom it was composed.",
         "",

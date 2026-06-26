@@ -108,11 +108,14 @@ def _verse_index(con) -> list[dict]:
         for k in ("n_families", "n_early"):
             d[k] = int(d[k]) if d[k] is not None else 0
         out.append(d)
-    # Genealogical-confidence flag (config-driven): thin EARLY attestation or too few families.
+    # Confidence flag (config-driven): thin EARLY attestation, OR few distinct families, OR a low
+    # effective (independence-weighted) family count -- so a verse carried by 130 near-identical
+    # Byzantine copies is not mistaken for well-attested.
     dash = load_config()["dashboard"]
     for d in out:
         d["low_conf"] = bool(d["n_early"] <= dash["low_confidence_max_early"]
-                             or d["n_families"] < dash["low_confidence_min_families"])
+                             or d["n_families"] < dash["low_confidence_min_families"]
+                             or d["eff_families"] < dash["low_confidence_min_eff_families"])
     return out
 
 
@@ -145,6 +148,14 @@ def _chapter_detail(con, chapter: int, english: dict) -> dict:
         GROUP BY 1,2
     """, [chapter]).fetchall()
     wit_map = {(a, r): sorted(w) for a, r, w in wit}
+
+    # Per-unit genealogical weight, from the VALIDATED family metric (firsthand plurality, one
+    # witness one vote per unit — so a codex's corrector can't double-count). This is the same
+    # between_family_split / family_instability used for the verse headline, joined per app_id.
+    umf = {aid: (bool(bfs), finst or 0.0, int(nfam or 0)) for aid, nfam, finst, bfs in con.execute(
+        "SELECT app_id, n_families, family_instability, between_family_split "
+        "FROM metrics_unit_family WHERE chapter=?", [chapter]).fetchall()}
+
     rdg = con.execute("""
         SELECT u.verse_id, u.verse, u.app_id, u.app_from, u.app_to, u.lemma_text,
                r.reading_id, r.reading_type, r.reading_text, r.is_lemma
@@ -177,6 +188,19 @@ def _chapter_detail(con, chapter: int, english: dict) -> dict:
         u["readings"] = [r for r in u["readings"] if r["n_wit"] > 0 or r["is_lemma"]]
         u["n_variant_wit"] = sum(r["n_wit"] for r in u["readings"] if not r["is_lemma"])
         u["orthographic"] = orth_only(u)
+        # genealogical weight tier (see umf above): a transmission study ranks variation by how
+        # far it reaches across the family tree, NOT by raw witness head-count. Singular readings
+        # are kept (they ARE the scribal-habit signal) but tiered as low-weight, never hidden.
+        bfs, finst, nfam = umf.get(u["app_id"], (False, 0.0, 0))
+        u["between_family_split"], u["n_fam"], u["n_fam_div"] = bfs, nfam, round(finst * nfam)
+        if bfs:
+            u["weight"] = "branch"        # families divide as blocs — branch-level divergence
+        elif finst > 0:
+            u["weight"] = "tradition"     # families agree on a reading that departs the NA28 base
+        elif u["n_variant_wit"] <= 1:
+            u["weight"] = "singular"      # one witness diverges — a scribal idiosyncrasy
+        else:
+            u["weight"] = "subfamily"     # minority variation inside families
         return u
 
     by_verse: dict[int, list] = {}
@@ -201,9 +225,12 @@ def _chapter_detail(con, chapter: int, english: dict) -> dict:
         slots, cards = [], []
         for u in atomic:
             var = has_variation(u)
+            major = var and bool(umf.get(u["app_id"], (False, 0.0, 0))[0]
+                                  or umf.get(u["app_id"], (False, 0.0, 0))[1] > 0)
             slots.append(dict(app=u["app_id"] if var else None, text=u["lemma"],
                               om=(u["lemma"] == "om"), var=var,
-                              orth=(var and orth_only(u))))
+                              orth=(var and orth_only(u)),
+                              wt=("major" if major else "minor") if var else None))
             if var:
                 cards.append(trim(u))
         # whole-verse variation (PA omission, 5:4 ...) shown as a banner, not an inline slot
@@ -266,7 +293,8 @@ def _summary(con, verses: list[dict], fams: dict) -> dict:
     meta = con.execute("""SELECT
         (SELECT count(*) FROM units WHERE app_type='main'),
         (SELECT count(*) FROM attestation),
-        (SELECT count(DISTINCT base_ga) FROM attestation),
+        -- exclude the NA28 editorial base text: it is the lemma, not a manuscript witness
+        (SELECT count(DISTINCT base_ga) FROM attestation WHERE base_ga <> 'basetext'),
         (SELECT count(DISTINCT verse_id) FROM units)""").fetchone()
     # gospel-wide "weighed, not counted" headline: ~141 witnesses but ~N effective family-voices
     eff = [v["eff_families"] for v in verses if v.get("eff_families") is not None]
@@ -278,8 +306,10 @@ def _summary(con, verses: list[dict], fams: dict) -> dict:
                       [v["coverage"] for v in verses if v.get("coverage")])),
                   eff_families_median=_round(st.median(eff), 2) if eff else None,
                   confidence_rule=(f"flagged when a verse has ≤{dash['low_confidence_max_early']} early "
-                                   f"(≤{dash['early_witness_max_date']} CE) witnesses, or fewer than "
-                                   f"{dash['low_confidence_min_families']} families survive")),
+                                   f"(≤{dash['early_witness_max_date']} CE) witnesses, fewer than "
+                                   f"{dash['low_confidence_min_families']} families surviving, or an "
+                                   f"effective family count below {dash['low_confidence_min_eff_families']} "
+                                   f"(near-identical Byzantine copies counted as one voice)")),
         chapters=chap, families=fams["families"],
     )
 
@@ -289,7 +319,7 @@ def _gates() -> dict:
     from john_tc.metrics.dates import five_four_date_signal
     from john_tc.validate.interpolations import run_gate
 
-    g = run_gate(n_perm=2000)["pericope_adulterae"]
+    g = run_gate(n_perm=load_config()["stats"]["gate_export_permutations"])["pericope_adulterae"]
     f = five_four_date_signal()
     geneal = "unknown"
     vp = load_config().path("reports") / "genealogy" / "VALIDATION.md"

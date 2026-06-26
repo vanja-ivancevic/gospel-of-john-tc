@@ -52,7 +52,9 @@ def unit_family_metrics(db_path: Path | None = None) -> pd.DataFrame:
     # plurality reading per (unit, family); track whether that plurality is the lemma
     grp = (df.groupby(["app_id", "chapter", "verse_id", "family", "reading_id"])
              .agg(n=("base_ga", "count"), is_lemma=("is_lemma", "max")).reset_index())
-    grp = grp.sort_values(["app_id", "family", "n"], ascending=[True, True, False])
+    # reading_id breaks plurality ties so the pick is deterministic across runs/row order.
+    grp = grp.sort_values(["app_id", "family", "n", "reading_id"],
+                          ascending=[True, True, False, True])
     fam_plurality = grp.drop_duplicates(["app_id", "family"])  # top reading per family
 
     def per_unit(g):

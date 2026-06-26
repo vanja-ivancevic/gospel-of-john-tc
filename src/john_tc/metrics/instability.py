@@ -7,7 +7,7 @@ Definitions (per substantive variation unit, app_type='main'):
   extant    = distinct base manuscripts citing a non-lacunose reading
   lemma     = distinct base manuscripts supporting the NA28 base reading
   diverge   = distinct base manuscripts supporting a substantive non-lemma reading
-              (reading_type NULL or 'om'; orthographic 'subreading' excluded)
+              (reading_type NULL or 'om'/'om_verse'; orthographic 'subreading' excluded)
   instability = |diverge| / |extant|        (proportion of witnesses departing from NA28)
 
 Coverage (per verse): how many base manuscripts attest (are extant for) the verse.
@@ -48,13 +48,14 @@ ext AS (SELECT app_id, count(*) AS n_extant FROM one GROUP BY 1),
 lem AS (SELECT app_id, count(*) AS n_lemma FROM one
         WHERE is_lemma OR reading_type = 'subreading' GROUP BY 1),
 div AS (SELECT app_id, count(*) AS n_diverge FROM one
-        WHERE NOT is_lemma AND (reading_type IS NULL OR reading_type = 'om') GROUP BY 1)
+        WHERE NOT is_lemma AND (reading_type IS NULL OR reading_type IN ('om', 'om_verse'))
+        GROUP BY 1)
 SELECT u.app_id, u.verse_id, u.chapter, u.verse,
        coalesce(ext.n_extant, 0) AS n_extant,
        coalesce(lem.n_lemma, 0)  AS n_lemma,
        coalesce(div.n_diverge, 0) AS n_diverge,
        (SELECT count(*) FROM readings r WHERE r.app_id = u.app_id
-            AND (r.reading_type IS NULL OR r.reading_type = 'om')) AS n_subst_readings
+            AND (r.reading_type IS NULL OR r.reading_type IN ('om', 'om_verse'))) AS n_subst_readings
 FROM units u
 LEFT JOIN ext ON ext.app_id = u.app_id
 LEFT JOIN lem ON lem.app_id = u.app_id

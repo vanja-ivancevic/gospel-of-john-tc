@@ -53,14 +53,18 @@ WHERE u.app_type='main'
 # critical-text view. (Note: Byzantine-priority scholars dispute treating Byz as one voice, so the
 # flat metric above is kept and shown alongside.)
 _FAMILY_CONSENSUS_SQL = """
+-- Family vote: only witnesses carrying a family label vote, so the metric matches
+-- weighted_instability's population. Metadata-less sigla (lectionaries, versions without an
+-- assigned family) are excluded rather than folded into a heterogeneous 'other' that would vote
+-- as if it were a single coherent family.
 WITH att AS (
-  SELECT r.app_id, r.reading_id, r.is_lemma, r.reading_type, a.base_ga, a.hand,
-         coalesce(m.family,'other') AS family
+  SELECT r.app_id, r.reading_id, r.is_lemma, r.reading_type, a.base_ga, a.hand, m.family
   FROM readings r
   JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
   JOIN units u ON u.app_id=r.app_id
-  LEFT JOIN witness_metadata m ON m.base_ga=a.base_ga
-  WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac' AND a.base_ga <> 'basetext'),
+  JOIN witness_metadata m ON m.base_ga=a.base_ga
+  WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac'
+        AND a.base_ga <> 'basetext' AND m.family IS NOT NULL),
 pick AS (
   SELECT app_id, family,
     CASE WHEN is_lemma OR reading_type='subreading' THEN 'base'
@@ -80,8 +84,11 @@ fam_vote AS (
 nf AS (SELECT app_id, count(*) AS n_fam FROM fam_vote GROUP BY 1),
 vd AS (SELECT app_id, vote, count(*) AS n FROM fam_vote GROUP BY 1,2),
 vmax AS (SELECT app_id, max(n) AS vmax FROM vd GROUP BY 1)
-SELECT u.app_id, u.verse_id,
-       vmax.vmax::DOUBLE / NULLIF(nf.n_fam,0) AS family_consensus, nf.n_fam
+-- family_consensus is only defined when >=2 families are extant; a unit carried by a single
+-- family has no cross-family agreement to measure and is left NULL (not scored as 1.0), so it
+-- cannot inflate the "all families agree" count or the verse family-stability mean.
+SELECT u.app_id, u.verse_id, nf.n_fam,
+       CASE WHEN nf.n_fam >= 2 THEN vmax.vmax::DOUBLE / nf.n_fam END AS family_consensus
 FROM units u JOIN vmax ON vmax.app_id=u.app_id JOIN nf ON nf.app_id=u.app_id
 WHERE u.app_type='main'
 """
@@ -132,8 +139,11 @@ def family_homogeneity(db_path: Path | None = None) -> dict:
 
 def summarize(db_path: Path | None = None) -> dict:
     # Headline ranking uses the family-vote ("weighed") metric; flat ("counted") kept alongside.
+    # Verses with no multi-family unit have an undefined family-vote and are dropped from the
+    # ranking (they cannot be "most fluid"/"most stable" with nothing to compare across families).
     u = unit_consensus(db_path)
-    v = verse_stability(db_path).sort_values("family_stability", ascending=False)
+    v = (verse_stability(db_path).dropna(subset=["family_stability"])
+         .sort_values("family_stability", ascending=False))
     chap = (v.groupby("chapter", as_index=False)
               .agg(family_stability=("family_stability", "mean"),
                    stability=("stability", "mean"), anchor_frac=("anchor_frac", "mean")))

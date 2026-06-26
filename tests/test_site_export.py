@@ -24,7 +24,8 @@ def _j(out, name):
 
 def test_summary_has_meta_gates_chapters(out):
     s = _j(out, "summary.json")
-    assert s["meta"]["n_witnesses"] == 215 and s["meta"]["n_verses"] == 879
+    # 214 Greek witnesses: the editorial NA28 base text is excluded (it is the lemma, not a MS)
+    assert s["meta"]["n_witnesses"] == 214 and s["meta"]["n_verses"] == 879
     assert s["gates"]["pericope_adulterae"]["passed"] is True
     assert s["gates"]["john_5_4"]["passed"] is True
     assert len(s["chapters"]) == 21
@@ -81,8 +82,8 @@ def test_families_and_witnesses(out):
     assert by_ga["03"]["name"].startswith("Vaticanus")
     assert by_ga["03"]["url"].endswith("NT_GRC_03_John.xml")
     assert "itseeweb.cal.bham.ac.uk" in by_ga["03"]["url"]
-    # the editorial base text is not a manuscript -> no transcription link
-    assert by_ga["basetext"]["url"] is None
+    # the editorial base text (NA28) is not a manuscript -> excluded from the witness list entirely
+    assert "basetext" not in by_ga
 
 
 def test_verse_running_text_and_inline_marks(out):

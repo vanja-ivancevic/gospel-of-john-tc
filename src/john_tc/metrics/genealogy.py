@@ -50,7 +50,8 @@ def reading_matrix(db_path: Path | None = None, min_units: int | None = None):
           FROM readings r
           JOIN attestation a ON a.app_id=r.app_id AND a.reading_id=r.reading_id
           JOIN units u ON u.app_id=r.app_id
-          WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac')
+          WHERE u.app_type='main' AND r.reading_type IS DISTINCT FROM 'lac'
+                AND a.base_ga <> 'basetext')   -- NA28 editorial text is not a manuscript
         SELECT app_id, base_ga, reading_id FROM a WHERE rn=1
         ORDER BY app_id, base_ga
         """
