@@ -26,6 +26,27 @@ function percentile(arr, p) {
   const s = [...arr].sort((a,b)=>a-b); return s[Math.floor(p/100*(s.length-1))];
 }
 
+// Stability colour scale, shared by the heatmap and the list spark bars (computed once from all
+// verses so a colour means the same thing everywhere). family = weighed, flat = raw head-count.
+let SCALES = null;
+function ensureScales(verses) {
+  if (SCALES) return SCALES;
+  const fam = verses.map(v => v.family_stability).filter(x => x != null);
+  const flat = verses.map(v => v.stability).filter(x => x != null);
+  SCALES = { family: { lo: percentile(fam, 2), hi: Math.max(...fam) },
+             flat:   { lo: percentile(flat, 2), hi: Math.max(...flat) } };
+  return SCALES;
+}
+// Inline horizontal spark bar: length + colour both encode the value on the shared scale.
+function spark(val, key) {
+  const sc = SCALES && SCALES[key];
+  if (val == null || !sc) return `<span class="spark"><b class="spark-num">—</b></span>`;
+  const t = Math.max(0, Math.min(1, (val - sc.lo) / (sc.hi - sc.lo)));
+  return `<span class="spark" title="${f3(val)}"><span class="spark-track"><span class="spark-fill"
+    style="width:${(t*100).toFixed(1)}%;background:${heat(val, sc.lo, sc.hi)}"></span></span>` +
+    `<b class="spark-num">${f3(val)}</b></span>`;
+}
+
 
 // ---- heatmap (width-autofit; orientation + metric toggles) ----
 // Two stability metrics, the textual-criticism "weighed vs counted" distinction:
@@ -194,11 +215,8 @@ async function overview() {
     </ul></div>`;
 
   // heatmap (rendered after innerHTML via renderHeat(); orientation is toggleable)
-  const fam = verses.map(v => v.family_stability).filter(x => x != null);
-  const flat = verses.map(v => v.stability).filter(x => x != null);
   CONF_RULE = (sum.meta && sum.meta.confidence_rule) || "thin early/independent attestation";
-  HM = { scales: { family: { lo: percentile(fam, 2), hi: Math.max(...fam) },
-                   flat: { lo: percentile(flat, 2), hi: Math.max(...flat) } },
+  HM = { scales: ensureScales(verses),
          maxv: Math.max(...verses.map(v => v.verse)), byCV: {}, byId: {} };
   verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; HM.byId[v.verse_id] = v; });
   h += `<div class="hm-head"><h2>Stability heatmap</h2><div class="hm-btns">
@@ -222,8 +240,8 @@ async function overview() {
       <th class="num">Branch split</th><th class="num">Witnesses</th></tr></thead><tbody>`;
   hot.forEach((v, i) => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"><td>${i+1}</td>
-      <td>${v.ref}</td><td class="num">${f3(v.family_stability)}</td>
-      <td class="num">${f3(v.stability)}</td><td class="num">${pct(v.between_family_split)}</td>
+      <td>${v.ref}</td><td class="spark-cell">${spark(v.family_stability,"family")}</td>
+      <td class="spark-cell">${spark(v.stability,"flat")}</td><td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
   h += `</tbody></table>`;
@@ -236,8 +254,8 @@ async function overview() {
     <th class="num">Coverage</th></tr></thead><tbody>`;
   sum.chapters.forEach(c => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="chapter/${c.chapter}"><td>${c.chapter}</td>
-      <td class="num">${c.n_verses}</td><td class="num">${f3(c.family_stability)}</td>
-      <td class="num">${f3(c.stability)}</td>
+      <td class="num">${c.n_verses}</td><td class="spark-cell">${spark(c.family_stability,"family")}</td>
+      <td class="spark-cell">${spark(c.stability,"flat")}</td>
       <td class="num">${pct(c.between_family_split)}</td>
       <td class="num">${c.coverage==null?"—":c.coverage.toFixed(0)}</td></tr>`;
   });
@@ -249,7 +267,8 @@ async function overview() {
 // ---------------- Chapter ----------------
 async function chapter(n) {
   setTitle(`John ${n}`);
-  const verses = (await load("verses.json")).filter(v => v.chapter == n);
+  const allv = await load("verses.json"); ensureScales(allv);
+  const verses = allv.filter(v => v.chapter == n);
   crumb.innerHTML = `<a href="#/">Overview</a> › John ${n}`;
   let h = `<h1>John ${n}</h1><p class="sub">Click a verse to read it with the variation marked
     inline. <b>Stability (family)</b> = share of manuscript families agreeing (one family one vote);
@@ -261,7 +280,7 @@ async function chapter(n) {
   verses.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}">
       <td>${v.ref}${v.low_conf?` <span class="lowmark" title="low confidence">†</span>`:""}</td>
-      <td class="num">${f3(v.family_stability)}</td><td class="num">${f3(v.stability)}</td>
+      <td class="spark-cell">${spark(v.family_stability,"family")}</td><td class="spark-cell">${spark(v.stability,"flat")}</td>
       <td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
@@ -444,7 +463,7 @@ async function families() {
 // ---------------- Verses index ----------------
 async function verses() {
   setTitle("Verses");
-  const vs = await load("verses.json");
+  const vs = await load("verses.json"); ensureScales(vs);
   crumb.innerHTML = `<a href="#/">Overview</a> › Verses`;
   let h = `<h1>All verses</h1><p class="sub">Every verse in John with its stability. Filter by
     reference (“3:16”, or “3:” for the whole chapter) and click to open.</p>
@@ -456,7 +475,7 @@ async function verses() {
   vs.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"
       data-k="${v.chapter}:${v.verse}"><td>${v.ref}${v.low_conf?` <span class="lowmark" title="low confidence">†</span>`:""}</td>
-      <td class="num">${f3(v.family_stability)}</td><td class="num">${f3(v.stability)}</td>
+      <td class="spark-cell">${spark(v.family_stability,"family")}</td><td class="spark-cell">${spark(v.stability,"flat")}</td>
       <td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
