@@ -26,24 +26,6 @@ function percentile(arr, p) {
   const s = [...arr].sort((a,b)=>a-b); return s[Math.floor(p/100*(s.length-1))];
 }
 
-// shared gospel-wide colour scale (same as the heatmap) for tinting table cells
-let SCALE = null;
-async function scale() {
-  if (!SCALE) {
-    const s = (await load("verses.json")).map(v => v.stability).filter(x => x != null);
-    SCALE = { lo: percentile(s, 2), hi: Math.max(...s) };
-  }
-  return SCALE;
-}
-function mix(rgb, w) {  // lighten an "rgb(r,g,b)" toward white by fraction w
-  const m = rgb.match(/\d+/g).map(Number);
-  return `rgb(${m.map(c => Math.round(c + (255 - c) * w)).join(",")})`;
-}
-function bg(v) {  // faint heat tint for a stability-like value (red=fluid, blue=firm)
-  return v == null || !SCALE ? "" : `background:${mix(heat(v, SCALE.lo, SCALE.hi), 0.58)}`;
-}
-const sCell = v => `<td class="num" style="${bg(v)}">${f3(v)}</td>`;          // stability
-const iCell = v => `<td class="num" style="${bg(v==null?null:1-v)}">${f3(v)}</td>`;  // instability
 
 // ---- heatmap (width-autofit; switchable orientation, vertical default on mobile) ----
 const MOBILE = window.matchMedia("(max-width:640px)");
@@ -189,7 +171,6 @@ async function overview() {
   HM = { lo: percentile(stab, 2), hi: Math.max(...stab), lowcov: percentile(covs, 15),
          maxv: Math.max(...verses.map(v => v.verse)), byCV: {}, byId: {} };
   verses.forEach(v => { HM.byCV[v.chapter + ":" + v.verse] = v; HM.byId[v.verse_id] = v; });
-  SCALE = { lo: HM.lo, hi: HM.hi };
   h += `<div class="hm-head"><h2>Stability heatmap</h2>
       <button id="hmtoggle" class="hm-toggle" data-hmtoggle
         aria-label="Toggle heatmap orientation"></button></div>
@@ -211,8 +192,8 @@ async function overview() {
       <th class="num">Coverage</th></tr></thead><tbody>`;
   hot.forEach((v, i) => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"><td>${i+1}</td>
-      <td>${v.ref}</td>${iCell(v.instability)}${sCell(v.stability)}
-      <td class="num">${pct(v.between_family_split)}</td>
+      <td>${v.ref}</td><td class="num">${f3(v.instability)}</td>
+      <td class="num">${f3(v.stability)}</td><td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
   h += `</tbody></table>`;
@@ -226,8 +207,8 @@ async function overview() {
     <th class="num">Coverage</th></tr></thead><tbody>`;
   sum.chapters.forEach(c => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="chapter/${c.chapter}"><td>${c.chapter}</td>
-      <td class="num">${c.n_verses}</td>${sCell(c.stability)}${iCell(c.instability)}
-      <td class="num">${f3(c.family_instability)}</td>
+      <td class="num">${c.n_verses}</td><td class="num">${f3(c.stability)}</td>
+      <td class="num">${f3(c.instability)}</td><td class="num">${f3(c.family_instability)}</td>
       <td class="num">${pct(c.between_family_split)}</td>
       <td class="num">${c.coverage==null?"—":c.coverage.toFixed(0)}</td></tr>`;
   });
@@ -239,7 +220,6 @@ async function overview() {
 // ---------------- Chapter ----------------
 async function chapter(n) {
   setTitle(`John ${n}`);
-  await scale();
   const verses = (await load("verses.json")).filter(v => v.chapter == n);
   crumb.innerHTML = `<a href="#/">Overview</a> › John ${n}`;
   let h = `<h1>John ${n}</h1><p class="sub">Click a verse to read it with the variation marked
@@ -250,7 +230,7 @@ async function chapter(n) {
     <th class="num">Coverage</th></tr></thead><tbody>`;
   verses.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"><td>${v.ref}</td>
-      ${sCell(v.stability)}${iCell(v.instability)}
+      <td class="num">${f3(v.stability)}</td><td class="num">${f3(v.instability)}</td>
       <td class="num">${f3(v.family_instability)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
@@ -382,7 +362,6 @@ async function families() {
 // ---------------- Verses index ----------------
 async function verses() {
   setTitle("Verses");
-  await scale();
   const vs = await load("verses.json");
   crumb.innerHTML = `<a href="#/">Overview</a> › Verses`;
   let h = `<h1>All verses</h1><p class="sub">Every verse in John with its stability. Filter by
@@ -395,7 +374,7 @@ async function verses() {
   vs.forEach(v => {
     h += `<tr class="clik" tabindex="0" role="link" data-go="verse/${v.verse_id}"
       data-k="${v.chapter}:${v.verse}"><td>${v.ref}</td>
-      ${sCell(v.stability)}${iCell(v.instability)}
+      <td class="num">${f3(v.stability)}</td><td class="num">${f3(v.instability)}</td>
       <td class="num">${pct(v.between_family_split)}</td>
       <td class="num">${v.coverage==null?"—":v.coverage.toFixed(0)}</td></tr>`;
   });
