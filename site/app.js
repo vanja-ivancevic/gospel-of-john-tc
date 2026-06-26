@@ -152,23 +152,25 @@ async function overview() {
       ${stat(m.n_witnesses, "manuscripts")}
       ${stat(m.n_verses, "verses")}
     </div>
-    <div class="note" style="margin:6px 0 14px">Textual critics weigh witnesses rather than counting
-      them. About ${m.n_witnesses} manuscripts survive, but only ~${m.median_witnesses_per_verse} attest a
-      typical verse, and most of those are near-identical Byzantine copies. That leaves roughly
-      <b>${m.eff_families_median} independent family voices</b>. So the headline number weighs by family,
-      and the raw head-count sits next to it (use the toggle on the map). <a href="#/about">Read the method.</a></div>
+    <div class="note" style="margin:6px 0 14px">A manuscript's value depends on its pedigree, a
+      principle Westcott and Hort built modern textual criticism on. About ${m.n_witnesses} copies of
+      John survive, yet a typical verse is attested by ~${m.median_witnesses_per_verse}, most of them
+      near-identical Byzantine copies. Strip out that redundancy and a verse rests on about
+      <b>${m.eff_families_median} independent family voices</b>. The headline number reflects that: it
+      weighs by family. The plain head-count sits beside it, one toggle away on the map.
+      <a href="#/about">Read the method.</a></div>
     <div class="defs">
       <div><span class="sw firm"></span><b>Stability (family-vote):</b> the share of manuscript
-        <i>families</i> that agree on the wording. One family gets one vote, so the Byzantine mass counts
-        once. A score of 1.00 means every family agrees. This is the default.</div>
-      <div><span class="sw fluid"></span><b>Instability:</b> the flip side, 1 minus stability. Higher
-        means the tradition is more divided.</div>
-      <div><b>Raw agreement:</b> the same idea, but every witness counts equally (so Byzantine-heavy).
-        Compare it with the metric toggle.</div>
-      <div><b>Branch split:</b> whether the disagreement runs <i>between</i> families, which is deeper
+        <i>families</i> that agree on the wording. Each family gets one vote, so the Byzantine bulk
+        counts once. At 1.00 every family agrees. This is the default.</div>
+      <div><span class="sw fluid"></span><b>Instability:</b> how divided the tradition is, scored as
+        1 minus stability. Higher means more contested.</div>
+      <div><b>Raw agreement:</b> the same measure with every witness counted equally, so Byzantine
+        copies dominate it. Switch to it with the metric toggle.</div>
+      <div><b>Branch split:</b> disagreement that runs <i>between</i> families, the deeper kind of
         variation.</div>
-      <div><b>Confidence:</b> set by how much <i>early and independent</i> evidence survives, not by
-        head-count. A verse with 100 late copies but few early or non-Byzantine witnesses is flagged.</div>
+      <div><b>Confidence:</b> how much <i>early and independent</i> evidence survives at a verse. A verse
+        with 100 late copies but only a handful of early or non-Byzantine witnesses gets flagged.</div>
     </div>`;
 
   if (g) h += `<div class="trust"><b>Does the method work?</b> Three checks against textbook
@@ -308,7 +310,7 @@ async function verse(vid) {
     h += `<div class="verse-text grk">${words}</div>`;
   }
   if (vd.english) h += `<blockquote class="eng">${esc(vd.english)}
-    <cite>World English Bible (public domain), orientation only; not aligned to the Greek variation</cite></blockquote>`;
+    <cite>World English Bible (public domain), shown for orientation; the Greek units carry the variation</cite></blockquote>`;
 
   h += `<div class="metricrow">
       ${M("Stability (family-vote)", f3(vi.family_stability), "Share of manuscript families agreeing, one family one vote (the weighed headline)")}
@@ -421,50 +423,49 @@ async function about() {
   crumb.innerHTML = `<a href="#/">Overview</a> › Method`;
   const m = sum.meta;
   app.innerHTML = `<h1>Method and reasoning</h1>
-    <div class="note"><b>This is a transmission-history study.</b> It maps where the text of John is
-    unstable across the surviving manuscripts. Manuscript variation records scribal <i>copying</i>,
-    not authorial <i>composition</i>, so it makes no claim about who wrote John or when. Everything
-    here can be rebuilt from the open data and code (linked below).</div>
+    <div class="note"><b>This is a transmission-history study.</b> It maps where the text of John grew
+    unstable as scribes copied it. The evidence is copying behaviour, so the project stays silent on
+    who wrote John and when. Everything here rebuilds from the open data and code linked below.</div>
 
     <h2>Data</h2>
     <p>${esc(m.source)}: <b>${m.n_witnesses}</b> Greek witnesses, <b>${m.n_units.toLocaleString()}</b>
     variation units, and <b>${m.n_attestations.toLocaleString()}</b> witness attestations, collated
     against the NA28 base text. Each reading lists the manuscripts that carry it, with hand and
-    corrector markup preserved. The English orientation text is the public-domain World English Bible
-    and is <i>not</i> aligned to the Greek variation.</p>
+    corrector markup preserved. An English verse from the public-domain World English Bible runs
+    alongside for orientation; the Greek units carry the actual variation.</p>
 
-    <h2>Why we weigh witnesses instead of counting them</h2>
-    <p>A basic rule of textual criticism is that witnesses are weighed, not counted (Westcott and
-    Hort). Manuscripts copied from a common ancestor repeat <i>one</i> testimony, so raw head-counts
-    mislead. John shows this clearly. About ${m.n_witnesses} witnesses survive, but only around
-    <b>${m.median_witnesses_per_verse}</b> attest a typical verse, and roughly three-quarters of those
-    are near-identical Byzantine copies. By Simpson's effective count, that leaves a verse resting on
-    about <b>${m.eff_families_median} independent family voices</b>, not ${m.median_witnesses_per_verse}.</p>
-    <p>So the headline number weighs by family: each family casts one plurality vote, and stability is
-    the share of families that agree. The raw head-count version sits next to it (the metric toggle on
-    the heatmap), because that is the honest "counted" view. The two differ. Correcting the
-    head-count's Byzantine bias barely moves the average, but it noticeably re-orders which verses look
-    stable. Some verses that look firm by head-count are just the Byzantine bloc agreeing with
-    itself.</p>
-    <div class="note"><b>A caveat.</b> Treating the Byzantine majority as one voice is the
-    mainstream critical-text position. It is a position, not a fact. Byzantine-priority scholars argue
-    those manuscripts are many fairly independent witnesses. That disagreement is why both views are on
-    the page, so you can choose the one you find defensible.</div>
+    <h2>How much independent evidence a verse has</h2>
+    <p>Westcott and Hort built modern textual criticism on a simple idea: a manuscript earns its weight
+    through its pedigree. About ${m.n_witnesses} copies of John survive, yet a typical verse is attested
+    by only ~<b>${m.median_witnesses_per_verse}</b>, and roughly three-quarters of those are
+    near-identical Byzantine copies that descend from a shared ancestor and echo one testimony. By
+    Simpson's effective count, the same verse rests on about
+    <b>${m.eff_families_median} independent family voices</b>.</p>
+    <p>The headline number reflects that. Each family casts one plurality vote, and stability is the
+    share of families that agree. The plain head-count version sits beside it, one toggle away on the
+    heatmap. The two diverge in a telling way: removing the Byzantine weighting barely moves the
+    average, yet it reshuffles which verses look firm. A verse can read as settled only because the
+    Byzantine bloc agrees with itself.</p>
+    <div class="note"><b>A caveat worth your skepticism.</b> Counting the Byzantine majority as a single
+    voice is the mainstream critical-text choice, and capable scholars contest it. The Byzantine-priority
+    school treats those copies as many fairly independent witnesses. Both views sit on the page so you
+    can weigh them yourself.</div>
 
     <h2>Metrics</h2>
     <ul>
       <li><b>Stability (family-vote):</b> the share of manuscript families agreeing on the wording, one
-        family one vote, so the Byzantine mass counts once. Instability is 1 minus stability.</li>
-      <li><b>Stability (raw):</b> the same, but every witness counts equally, so it is Byzantine-weighted.</li>
-      <li><b>Branch split:</b> whether the disagreement runs <i>between</i> families rather than within
-        one, which points to deeper variation.</li>
-      <li><b>Confidence:</b> based on how much early and independent evidence survives, not on
-        head-count. A verse is flagged when ${esc(m.confidence_rule)}. The effective family count is about
-        ${m.eff_families_median} for nearly every verse, so it is reported gospel-wide rather than per verse.</li>
+        family one vote, so the Byzantine bulk counts once. Instability is 1 minus stability.</li>
+      <li><b>Stability (raw):</b> the same measure with every witness weighted equally, so Byzantine
+        copies dominate it.</li>
+      <li><b>Branch split:</b> disagreement that runs <i>between</i> families, the deeper kind of
+        variation.</li>
+      <li><b>Confidence:</b> how much early and independent evidence survives at a verse. A verse earns
+        a flag when ${esc(m.confidence_rule)}. The effective family count hovers near
+        ${m.eff_families_median} almost everywhere, so the site reports it once for the whole gospel.</li>
     </ul>
-    <p>Each manuscript is counted once per unit, so a codex's own corrector cannot make it count as both
-    agreeing and disagreeing. (That intra-manuscript miscount is the flaw that sank the project's
-    earlier version.) Purely orthographic sub-variants are treated as agreement.</p>
+    <p>Each manuscript counts once per unit, so a codex's own corrector can never pull it onto two sides
+    of the same variant. (That intra-manuscript miscount is the flaw that sank the project's earlier
+    version.) Orthographic sub-variants count as agreement.</p>
 
     <h2>Reading a verse</h2>
     <p>On a verse page the Greek runs across the top with the variation points marked. Coloured words
@@ -473,34 +474,34 @@ async function about() {
     sigla link to the IGNTP/ITSEE transcription of that manuscript.</p>
 
     <h2>Manuscript families</h2>
-    <p>The families (f1, f13, Byzantine, Alexandrian, and a residual "other") are recovered from our own
-    collation by pre-genealogical coherence, the same starting point as Münster's CBGM, and the
-    published f1/f13 lists supply the labels. <b>Hard families are a simplification.</b> Modern method
-    (CBGM) deliberately avoids rigid "text-types", so treat the buckets as a useful approximation of
-    genealogical structure rather than ground truth. Each witness carries a provenance flag (published
-    list or computed).</p>
+    <p>The families (f1, f13, Byzantine, Alexandrian, and a residual "other") come out of our own
+    collation through pre-genealogical coherence, the same starting point as Münster's CBGM, with the
+    published f1/f13 lists supplying the labels. <b>Hard families are a simplification.</b> Modern method
+    (CBGM) treats the tradition as a web of relationships, so read the buckets as a rough map of the
+    real genealogy. Each witness carries a provenance flag that says whether its family came from a
+    published list or from our clustering.</p>
 
     <h2>Validation and honesty</h2>
     <p>The method has to recover known scribal phenomena in the right direction: the <b>Pericope
     Adulterae</b> (absent from the oldest manuscripts) and <b>John 5:4</b> (carried only by later
-    copies). The recovered families are checked against the published f1/f13 lists with silhouette and
-    bootstrap scores, which test the <i>distance metric</i> rather than the asserted labels, and the
-    findings are stress-tested with leave-one-family-out and bootstrap intervals. We report nulls and
+    copies). Silhouette and bootstrap scores then check whether our distance metric groups the published
+    f1/f13 lists together; the labels themselves come from those lists, so this tests the metric, and we
+    say so. Leave-one-family-out and bootstrap intervals stress-test the findings. We report nulls and
     small effects plainly, and a fuller audit of every choice ships with the source.</p>
 
     <h2>Limitations</h2>
     <ul>
-      <li>Greek continuous-text witnesses only (the metrics do not break out versions or lectionaries).</li>
-      <li>Manuscript dates are NTVMR century estimates, so the date test is sensitive to that interval.</li>
+      <li>Greek continuous-text witnesses only; the metrics leave versions and lectionaries aside.</li>
+      <li>Manuscript dates are NTVMR century estimates, so the date test inherits that uncertainty.</li>
       <li>The families are an approximation (see above), and "other" is a residual bucket.</li>
-      <li>The English is orientation only, not aligned to the Greek units.</li>
+      <li>The English follows the verse for orientation; the Greek units carry the variation.</li>
     </ul>
     <h2>Reproducibility</h2>
     <p>One command rebuilds every table, figure, report, and this dashboard from the raw apparatus. The
     pipeline is seeded and deterministic, so it produces identical output across runs, and a published
-    audit records every methodological choice and its rationale. That includes where a check is a
-    position rather than a fact (such as weighing Byzantine as one voice) and what the validation does
-    and does not prove.</p>
+    audit records every methodological choice and the reasoning behind it. That audit also marks the
+    judgment calls, such as weighing the Byzantine majority as one voice, and spells out the limits of
+    each validation check.</p>
     <p class="sub">The full pipeline, the methodology audit, and this site are open source at
     <a href="https://github.com/vanja-ivancevic/gospel-of-john-tc" target="_blank"
     rel="noopener">github.com/vanja-ivancevic/gospel-of-john-tc</a>. Münster's CBGM is gated for John,
