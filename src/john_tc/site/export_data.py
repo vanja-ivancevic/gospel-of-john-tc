@@ -363,11 +363,13 @@ def export(out_dir: Path | None = None, db_path: Path | None = None) -> Path:
     for c, data in chapters.items():
         dump(f"chapters/{c}.json", data)
 
-    # copy genealogy artefacts into the site assets (if built): tree PNG + NEXUS for SplitsTree
+    # copy genealogy artefacts into the site assets (if built): NJ tree PNG, distance + character
+    # NEXUS (SplitsTree/MrBayes/PAUP*), and the Neighbor-Joining Newick string
     import shutil
     assets = out_dir.parent / "assets"
     assets.mkdir(parents=True, exist_ok=True)
-    for fn in ("john_witness_tree.png", "john_witnesses.nex"):
+    for fn in ("john_witness_tree.png", "john_witnesses.nex",
+               "john_witnesses_characters.nex", "john_witnesses_nj.nwk"):
         src = cfg.path("reports") / "genealogy" / fn
         if src.exists():
             shutil.copy(src, assets / fn)

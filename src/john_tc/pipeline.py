@@ -64,7 +64,9 @@ def run(fast: bool = False) -> None:
                           lambda: genealogy.build()["validation"]["all_passed"])
     _step("6/14 genealogy-aware instability", lambda: f"{len(weighted_instability.build())} chapters")
     _step("7/14 textual-stability map", lambda: str(stability.build()["anchor_units"]) + " anchors")
-    _step("8/14 phylogeny tree + NEXUS", lambda: phylogeny.export_nexus() and str(phylogeny.plot_tree()))
+    _step("8/14 phylogeny: NEXUS (distance+character), Newick, NJ tree",
+          lambda: (phylogeny.export_nexus(), phylogeny.export_character_nexus(),
+                   phylogeny.export_newick(), str(phylogeny.plot_tree()))[-1])
     _step("9/14 instability figure", lambda: str(weighted_instability.plot_comparison()))
     _step("10/14 confound regression report", lambda: str(confounds_report()))
     _step("11/14 stylometry (RQ4) report", lambda: str(stylometry_report()))

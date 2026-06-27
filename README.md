@@ -124,3 +124,27 @@ mass, and silhouette and bootstrap scores test whether the coherence distance me
 not independently reconstruct the family assignment: at the deployed cut the agreement with the published
 labels (ARI) is low, which the [validation report](reports/genealogy/VALIDATION.md) states openly. Nulls
 and small effects are reported plainly.
+
+## Sources and prior work
+
+This project is a packaging and visualisation layer over other people's scholarship and data. Credit:
+
+- **Data.** IGNTP/INTF *Editio Critica Maior* apparatus of John (Parker, Morrill & Schmid, 2016;
+  CC BY-NC 2.5) and the INTF *Kurzgefasste Liste* / NTVMR for dates. NA28 base text.
+- **Manuscript families.** Family 1: the IGNTP *iohannes* collation and Welsby, *A Textual Study of
+  Family 1 in the Gospel of John* (ANTF 45, De Gruyter 2014; open-access PhD,
+  [etheses 3338](https://etheses.bham.ac.uk/id/eprint/3338/)). Family 13: Perrin, *Family 13 in
+  St John's Gospel* (NTTSD 58, Brill 2018) — our list matches his continuous-text membership.
+- **Genealogy / phylogenetics.** Mink's CBGM via Wasserman & Gurry, *A New Approach to Textual
+  Criticism* (SBL 2017). Edmondson, *An Analysis of the CBGM Using Phylogenetics* (Birmingham PhD,
+  2019; [etheses 9150](https://etheses.bham.ac.uk/id/eprint/9150/)) is the closest prior work on the
+  ECM of John, and our witness groupings are compared against his published results. Open tooling:
+  [open-cbgm](https://github.com/jjmccollum/open-cbgm) and [teiphy](https://github.com/jjmccollum/teiphy)
+  (McCollum & Turnbull, MIT).
+- **Interpolations.** Knust & Wasserman, *To Cast the First Stone* (Princeton 2019) for the Pericope
+  Adulterae; Metzger's *Textual Commentary* and Willker's online commentary throughout.
+- **Orientation text.** World English Bible (public domain).
+
+The methods here (pre-genealogical coherence, phylogenetics, family recovery) are standard; what is
+mine is the reproducible, validation-gated, family-weighted **stability map** delivered as an open
+dashboard. None of this has been peer-reviewed.

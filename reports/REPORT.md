@@ -46,3 +46,10 @@ committed ECM apparatus via the pipeline; nothing is hand-entered.
 ## Scope / honesty
 - This is a transmission-history study. Manuscript data records scribal copying, so the project makes no claim about composition date or authorship.
 - The genealogy here is our own pre-genealogical coherence, computed from the collation and checked against the published family lists.
+
+## Sources and prior work
+- Data: IGNTP/INTF ECM apparatus of John (Parker, Morrill & Schmid 2016, CC BY-NC 2.5); INTF Kurzgefasste Liste / NTVMR (dates); NA28 base text.
+- Families: IGNTP *iohannes* + Welsby 2014 (ANTF 45) for Family 1; Perrin 2018 (NTTSD 58) for Family 13.
+- Genealogy/phylogenetics: CBGM (Wasserman & Gurry 2017); Edmondson 2019 (Birmingham PhD) on the ECM of John, used as the independent-method comparison; open-cbgm and teiphy (McCollum & Turnbull) for tooling.
+- Pericope Adulterae: Knust & Wasserman 2019. Orientation text: World English Bible (PD).
+- Methods are standard; the contribution is the reproducible, validation-gated, family-weighted stability map. Not peer-reviewed.

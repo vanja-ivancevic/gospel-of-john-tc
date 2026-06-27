@@ -431,8 +431,12 @@ async function families() {
   });
   h += `</tbody></table>
     <h2>Witness genealogy</h2>
-    <p class="sub">UPGMA tree from coherence distances; leaf colour = family.
-      <a href="assets/john_witnesses.nex" download>Download NEXUS</a> for NeighborNet in SplitsTree.</p>
+    <p class="sub">Neighbor-Joining tree from coherence distances (no molecular-clock assumption);
+      leaf colour = family. Downloads, computed from our own collation:
+      <a href="assets/john_witnesses.nex" download>distance NEXUS</a> (NeighborNet in SplitsTree),
+      <a href="assets/john_witnesses_characters.nex" download>character NEXUS</a> (parsimony/Bayesian
+      in PAUP*/MrBayes), <a href="assets/john_witnesses_nj.nwk" download>Newick</a>. Groupings are
+      compared against Edmondson's published phylogeny of John in the validation report.</p>
     <img class="tree" src="assets/john_witness_tree.png" alt="witness genealogy tree"
       onerror="this.style.display='none'">
     <h2>Witnesses (${d.witnesses.length})</h2>
@@ -571,7 +575,9 @@ async function about() {
 
     <h2>Limitations</h2>
     <ul>
-      <li>Greek continuous-text witnesses only; the metrics leave versions and lectionaries aside.</li>
+      <li>Greek witnesses only (papyri, majuscules, minuscules, and some lectionaries); versions and
+        patristic citations are left aside. The ~214 witnesses are the ECM's curated selection, not the
+        full ~1,900+ Greek tradition, which the edition screens for redundancy by design.</li>
       <li>Manuscript dates are NTVMR century estimates, so the date test inherits that uncertainty.</li>
       <li>The families are an approximation (see above), and "other" is a residual bucket.</li>
       <li>The English follows the verse for orientation; the Greek units carry the variation.</li>
@@ -585,7 +591,18 @@ async function about() {
     <p class="sub">The full pipeline, the methodology audit, and this site are open source at
     <a href="https://github.com/vanja-ivancevic/gospel-of-john-tc" target="_blank"
     rel="noopener">github.com/vanja-ivancevic/gospel-of-john-tc</a>. The genealogy here is computed
-    from the collation itself.</p>`;
+    from the collation itself.</p>
+
+    <h2>Sources and prior work</h2>
+    <p>This is a packaging layer over other people's scholarship. The data is the IGNTP/INTF
+    <b>Editio Critica Maior</b> apparatus of John (Parker, Morrill &amp; Schmid 2016) with dates from
+    the INTF Liste. The family lists come from the IGNTP <i>iohannes</i> edition and the definitive
+    studies of each family in John: <b>Welsby 2014</b> (Family 1) and <b>Perrin 2018</b> (Family 13).
+    The genealogical methods trace to <b>Mink's CBGM</b> (Wasserman &amp; Gurry 2017); the closest prior
+    work on the ECM of John is <b>Edmondson 2019</b>, whose published phylogeny I compare my groupings
+    against. Open tooling: open-cbgm and teiphy (McCollum &amp; Turnbull). The Pericope Adulterae case
+    leans on Knust &amp; Wasserman 2019. The methods are standard; the contribution is the reproducible,
+    family-weighted stability map, and none of it has been peer-reviewed.</p>`;
 }
 
 // ---------------- Router + interactions ----------------

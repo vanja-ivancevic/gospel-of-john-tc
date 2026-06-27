@@ -38,3 +38,10 @@ Witnesses: 169 | informative units: 1285 | labelled (ground truth): 67
 | 0.95 | 50 | 1977 | True | True |
 | 0.95 | 100 | 1977 | True | True |
 | 0.95 | 200 | 1977 | True | True |
+
+## 6. Independent-method comparison (Edmondson 2019)
+Edmondson, *An Analysis of the CBGM Using Phylogenetics* (Birmingham PhD, 2019), ran an independent **Bayesian phylogenetic** analysis on the ECM of John. We cannot reproduce his exact tree (his John 18 input collation is not public), so this is a qualitative comparison of whether two unrelated methods recover the same structure:
+- **Family 1** is a well-supported clade for him; here it recovers with 100% bootstrap support and a positive silhouette.
+- **Family 13** likewise: he finds a strong f13 clade (his data even has an f13 sub-tree); here 100% bootstrap support.
+- **P75 with the Alexandrian witnesses** (the classic P75–Vaticanus affinity): our nearest neighbours for P75 are [('03', 0.181), ('029', 0.206)].
+An independent method recovering the same families is evidence the groupings are real and not an artifact of our coherence metric. Method and tooling: open-cbgm and teiphy (McCollum & Turnbull); our own NJ tree and NEXUS matrices are exported alongside this report for anyone wanting to rerun NeighborNet or a Bayesian analysis.

@@ -10,6 +10,13 @@ Family membership provenance is always tracked (`family_source`):
   - manual        : the (loose) Alexandrian early group, by scholarly consensus
   - computed      : assigned from our own pre-genealogical clustering (Byzantine mass / other)
 Asserted membership is never silently mixed with computed.
+
+Family scholarship credited:
+  - Family 1 in John: the IGNTP "iohannes" family collation; Welsby, *A Textual Study of Family 1
+    in the Gospel of John* (ANTF 45, De Gruyter 2014; open-access Birmingham PhD, etheses 3338) is
+    the definitive study and isolates the 1+1582 core and the 565+884+2193 sub-group.
+  - Family 13 in John: Perrin, *Family 13 in St John's Gospel* (NTTSD 58, Brill 2018) — our list
+    matches his continuous-text membership exactly.
 """
 from __future__ import annotations
 
@@ -21,9 +28,12 @@ import pandas as pd
 from john_tc.config import load_config
 from john_tc.metrics.genealogy import cluster_families, coherence_distance, informative_mask, reading_matrix
 
-# Published IGNTP "iohannes" ECM family collations (https://itseeweb.cal.bham.ac.uk/iohannes/).
+# Family 1: published IGNTP "iohannes" family collation (https://itseeweb.cal.bham.ac.uk/iohannes/);
+# Welsby 2014 (ANTF 45) is the definitive study and refines the core to 1+1582 and 565+884+2193.
+#   (Welsby's core sub-groups within f1: the 1+1582 primary pair and the 565+884+2193 rival group.)
 OFFICIAL_F1 = ["1", "22", "118", "131", "138", "205", "209", "357", "565", "872", "884",
                "994", "1192", "1210", "1278", "1582", "2193", "2372", "2575", "2713", "2886"]
+# Family 13: matches Perrin 2018 (NTTSD 58) continuous-text membership for John exactly.
 OFFICIAL_F13 = ["13", "69", "124", "346", "543", "788", "826", "828", "983", "1689"]
 # Early "Alexandrian" group — loose in John (consensus, not a tight clade): primary witnesses.
 ALEXANDRIAN_CORE = ["P66", "P75", "01", "03", "019", "04", "032"]

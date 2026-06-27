@@ -13,6 +13,7 @@ dependencies = [
     "scipy>=1.13",
     "statsmodels>=0.14",
     "matplotlib>=3.9",
+    "biopython>=1.84",
     "pyarrow>=17.0",
     "pyyaml>=6.0",
 ]
