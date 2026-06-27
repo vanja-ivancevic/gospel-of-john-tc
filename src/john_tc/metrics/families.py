@@ -31,8 +31,11 @@ from john_tc.metrics.genealogy import cluster_families, coherence_distance, info
 # Family 1: published IGNTP "iohannes" family collation (https://itseeweb.cal.bham.ac.uk/iohannes/);
 # Welsby 2014 (ANTF 45) is the definitive study and refines the core to 1+1582 and 565+884+2193.
 #   (Welsby's core sub-groups within f1: the 1+1582 primary pair and the 565+884+2193 rival group.)
-OFFICIAL_F1 = ["1", "22", "118", "131", "138", "205", "209", "357", "565", "872", "884",
-               "994", "1192", "1210", "1278", "1582", "2193", "2372", "2575", "2713", "2886"]
+# Listed are only the f1 members actually collated in our ECM apparatus set. The published f1 is
+# larger (Welsby 2014 / IGNTP iohannes also include GA 131, 205, 872), but those three carry no
+# attestation in the apparatus we ingest, so naming them here would assert a member that cannot vote.
+OFFICIAL_F1 = ["1", "22", "118", "138", "209", "357", "565", "884", "994", "1192",
+               "1210", "1278", "1582", "2193", "2372", "2575", "2713", "2886"]
 # Family 13: matches Perrin 2018 (NTTSD 58) continuous-text membership for John exactly.
 OFFICIAL_F13 = ["13", "69", "124", "346", "543", "788", "826", "828", "983", "1689"]
 # Early "Alexandrian" group — loose in John (consensus, not a tight clade): primary witnesses.
